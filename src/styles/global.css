@@ -1,1 +1,41 @@
 @import "tailwindcss";
+
+@theme {
+  --font-golos-text: "Golos Text", serif;
+
+  --color-*: initial;
+  --color-white: #fff;
+  --color-black: #000;
+  --color-page-bg: #f9fafc;
+
+  --color-orange-100: #fff5ec;
+  --color-orange-200: #ff9f43;
+  --color-orange-300: #ff9732;
+
+  --color-green-100: #ecf8f6;
+  --color-green-200: #40b8a8;
+  --color-green-300: #3ab1a1;
+
+  --color-purple-100: #f8f1ff;
+  --color-purple-200: #b974ff;
+  --color-purple-300: #7e48f0;
+
+  --color-blue-100: #ebf0fd;
+  --color-blue-200: #3b65ef;
+  --color-blue-300: #1156df;
+
+  --color-grey-100: #f9fafc;
+  --color-grey-200: #dde6ff;
+  --color-grey-300: #627496;
+}
+
+@theme inline {
+  --color-blue: var(--color-blue-200);
+  --color-green: var(--color-green-200);
+  --color-orange: var(--color-orange-200);
+  --color-purple: var(--color-purple-200);
+
+  --color-body: var(--color-grey-300);
+  --color-heading: var(--color-black);
+  --color-highlight: var(--color-blue);
+}
