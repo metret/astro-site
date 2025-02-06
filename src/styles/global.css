@@ -2,6 +2,7 @@
 
 @theme {
   --font-golos-text: "Golos Text", serif;
+  --font-rubik: "Rubik", serif;
 
   --color-*: initial;
   --color-white: #fff;
