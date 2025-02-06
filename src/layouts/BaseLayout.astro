@@ -37,11 +37,11 @@ const {
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
     <link
-      href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400..900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
       rel="stylesheet"
     />
-
     <SEO
       title={title}
       titleDefault={site.name}
@@ -51,7 +51,7 @@ const {
     />
     <slot name="head" />
   </head>
-  <body class:list={["font-golos-text", classList, className]}>
+  <body class:list={["font-golos-text bg-page-bg", classList, className]}>
     <slot />
     <slot name="footer" />
   </body>
