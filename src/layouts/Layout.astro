@@ -1,6 +1,7 @@
 ---
 import type { ComponentProps } from "astro/types";
 import BaseLayout from "./BaseLayout.astro";
+import TheNavbar from "~/components/TheNavbar.astro";
 
 interface Props extends ComponentProps<typeof BaseLayout> {}
 
@@ -8,5 +9,8 @@ const props = Astro.props;
 ---
 
 <BaseLayout {...props}>
+  <TheNavbar>
+    <slot name="banner" slot="banner" />
+  </TheNavbar>
   <slot />
 </BaseLayout>

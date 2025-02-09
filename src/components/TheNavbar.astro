@@ -1,0 +1,345 @@
+---
+import { Image } from "astro:assets";
+import logo from "~/assets/logo.svg";
+import type { Link } from "~/types";
+import Button from "./ui/Button.astro";
+import { site } from "~/constants";
+
+const links: (Link & { children?: { title: string; items: Link[] }[] })[] = [
+  {
+    title: "Product",
+    href: "#product",
+    children: [
+      {
+        title: "Roles",
+        items: [
+          {
+            title: "Scrum Masters",
+            href: "#scrum-masters",
+          },
+          {
+            title: "Engineers",
+            href: "#engineers",
+          },
+          {
+            title: "Agile Coaches",
+            href: "#agile-coaches",
+          },
+          {
+            title: "Delivery Managers",
+            href: "#delivery-managers",
+          },
+          { title: "Product Owners", href: "#product-owners" },
+          {
+            title: "Engineering Managers",
+            href: "#engineering-managers",
+          },
+          {
+            title: "Consultants",
+            href: "#consultants",
+          },
+        ],
+      },
+      {
+        title: "Focus",
+        items: [
+          {
+            title: "Improve team health",
+            href: "#improve-team-health",
+          },
+          {
+            title: "Planning ahead",
+            href: "#planning-ahead",
+          },
+          { title: "Project reviews", href: "#project-reviews" },
+          { title: "Better collaboration", href: "#better-collaboration" },
+          { title: "Team alignment", href: "#team-alignment" },
+        ],
+      },
+      {
+        title: "Use Cases",
+        items: [
+          {
+            title: "Retrospective",
+            href: "#retrospective",
+          },
+          {
+            title: "Planning ahead",
+            href: "#planning-ahead",
+          },
+          { title: "Project reviews", href: "#project-reviews" },
+          { title: "Better collaboration", href: "#better-collaboration" },
+          { title: "Team alignment", href: "#team-alignment" },
+        ],
+      },
+    ],
+  },
+  {
+    title: "Solutions",
+    href: "#solutions",
+    children: [
+      {
+        title: "Roles",
+        items: [
+          {
+            title: "Scrum Masters",
+            href: "#scrum-masters",
+          },
+          {
+            title: "Engineers",
+            href: "#engineers",
+          },
+          {
+            title: "Agile Coaches",
+            href: "#agile-coaches",
+          },
+          {
+            title: "Delivery Managers",
+            href: "#delivery-managers",
+          },
+          { title: "Product Owners", href: "#product-owners" },
+          {
+            title: "Engineering Managers",
+            href: "#engineering-managers",
+          },
+          {
+            title: "Consultants",
+            href: "#consultants",
+          },
+        ],
+      },
+      {
+        title: "Focus",
+        items: [
+          {
+            title: "Improve team health",
+            href: "#improve-team-health",
+          },
+          {
+            title: "Planning ahead",
+            href: "#planning-ahead",
+          },
+          { title: "Project reviews", href: "#project-reviews" },
+          { title: "Better collaboration", href: "#better-collaboration" },
+          { title: "Team alignment", href: "#team-alignment" },
+        ],
+      },
+      {
+        title: "Use Cases",
+        items: [
+          {
+            title: "Retrospective",
+            href: "#retrospective",
+          },
+          {
+            title: "Planning ahead",
+            href: "#planning-ahead",
+          },
+          { title: "Project reviews", href: "#project-reviews" },
+          { title: "Better collaboration", href: "#better-collaboration" },
+          { title: "Team alignment", href: "#team-alignment" },
+        ],
+      },
+      {
+        title: "Other",
+        items: [
+          {
+            title: "Consultants",
+            href: "#consultants",
+          },
+          {
+            title: "Agile Coaches",
+            href: "#agile-coaches",
+          },
+          {
+            title: "Planning ahead",
+            href: "#planning-ahead",
+          },
+          { title: "Project reviews", href: "#project-reviews" },
+        ],
+      },
+    ],
+  },
+  {
+    title: "Templates",
+    href: "#templates",
+    children: [
+      {
+        title: "Use Cases",
+        items: [
+          {
+            title: "Retrospective",
+            href: "#retrospective",
+          },
+          {
+            title: "Planning ahead",
+            href: "#planning-ahead",
+          },
+          { title: "Project reviews", href: "#project-reviews" },
+          { title: "Better collaboration", href: "#better-collaboration" },
+          { title: "Team alignment", href: "#team-alignment" },
+        ],
+      },
+    ],
+  },
+  {
+    title: "Resources",
+    href: "#resources",
+    children: [
+      {
+        title: "Focus",
+        items: [
+          {
+            title: "Improve team health",
+            href: "#improve-team-health",
+          },
+          {
+            title: "Planning ahead",
+            href: "#planning-ahead",
+          },
+          { title: "Project reviews", href: "#project-reviews" },
+          { title: "Better collaboration", href: "#better-collaboration" },
+          { title: "Team alignment", href: "#team-alignment" },
+        ],
+      },
+      {
+        title: "Use Cases",
+        items: [
+          {
+            title: "Retrospective",
+            href: "#retrospective",
+          },
+          {
+            title: "Planning ahead",
+            href: "#planning-ahead",
+          },
+          { title: "Project reviews", href: "#project-reviews" },
+          { title: "Better collaboration", href: "#better-collaboration" },
+          { title: "Team alignment", href: "#team-alignment" },
+        ],
+      },
+    ],
+  },
+  { title: "Customers", href: "#customers" },
+  {
+    title: "Pricing",
+    href: "#pricing",
+  },
+];
+---
+
+<header
+  id="main-header"
+  data-sticky="false"
+  class="sticky top-0 left-0 z-50 w-full data-[sticky=true]:shadow-md"
+>
+  <slot name="banner" />
+  <div
+    class="mx-auto mt-5 flex max-w-max items-center justify-between rounded-[100px] bg-white px-6 py-4"
+  >
+    <a href="/" class="flex items-center gap-3.5">
+      <Image src={logo} width={34} height={36} alt={`${site.name} logo`} /><span
+        class="font-rubik text-blue text-[28px] font-medium">Metro Retro</span
+      >
+    </a>
+
+    <nav aria-label="main navigation" class="flex items-center gap-5">
+      <ul class="flex items-center gap-5">
+        {
+          links.map((link) => {
+            const hasChildren = Boolean(link.children?.length);
+
+            return (
+              <li class="group/navlink relative">
+                <a
+                  href={hasChildren ? "#" : link.href}
+                  class:list={[
+                    "text-body hover:text-blue p-2.5 text-lg/5 font-semibold",
+                    hasChildren && "flex items-center gap-2.5",
+                  ]}
+                >
+                  {link.title}
+                  {hasChildren && (
+                    <svg
+                      width="11"
+                      height="7"
+                      viewBox="0 0 11 7"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M1.41455 1.00002L5.41455 5.00002L9.41455 1.00002"
+                        stroke="currentColor"
+                        stroke-width="2"
+                      />
+                    </svg>
+                  )}
+                </a>
+
+                {hasChildren && (
+                  <div class="absolute top-full left-0 mt-8 ml-2.5 grid w-max grid-rows-[0fr] transition-[grid-template-rows] duration-300 group-hover/navlink:grid-rows-[1fr] md:max-w-[660px]">
+                    <div class="overflow-hidden">
+                      <ul
+                        style={{
+                          "--items-count":
+                            link.children!.length > 3
+                              ? 3
+                              : link.children!.length,
+                        }}
+                        class="grid w-max grid-cols-[repeat(var(--items-count),minmax(0,1fr))] gap-8 overflow-y-auto rounded-[10px] bg-white p-6 md:max-w-[660px]"
+                      >
+                        {link.children?.map((child) => (
+                          <li>
+                            <div>
+                              <div class="py-3">
+                                <p class="text-body text-base/[1] font-medium">
+                                  {child.title}
+                                </p>
+                              </div>
+                              <ul class="space-y-2">
+                                {child.items.map((item) => (
+                                  <li>
+                                    <a
+                                      href={item.href}
+                                      class="text-body hover:text-blue text-lg/8 font-semibold"
+                                    >
+                                      {item.title}
+                                    </a>
+                                  </li>
+                                ))}
+                              </ul>
+                            </div>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  </div>
+                )}
+              </li>
+            );
+          })
+        }
+      </ul>
+      <div class="flex items-center gap-5">
+        <Button kind="secondary" color="grey">Login</Button>
+        <Button>Signup</Button>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<script>
+  const STICKY_ATTR = "data-sticky";
+
+  const header = document.getElementById("main-header") as HTMLElement;
+
+  window.addEventListener("scroll", () => {
+    const isSticky = header.getAttribute(STICKY_ATTR) === "true";
+
+    if (window.scrollY > 1) {
+      header.setAttribute(STICKY_ATTR, "true");
+    } else {
+      header.setAttribute(STICKY_ATTR, "false");
+    }
+  });
+</script>
