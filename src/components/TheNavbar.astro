@@ -231,11 +231,20 @@ const links: (Link & { children?: { title: string; items: Link[] }[] })[] = [
 <header
   id="main-header"
   data-sticky="false"
-  class="sticky top-0 left-0 z-50 w-full data-[sticky=true]:shadow-md"
+  class="group/nav-header sticky top-0 left-0 z-50 w-full transition-colors data-[sticky=true]:bg-white data-[sticky=true]:shadow-md"
 >
   <slot name="banner" />
   <div
-    class="mx-auto mt-5 flex max-w-max items-center justify-between rounded-[100px] bg-white px-6 py-4"
+    id="inflatable"
+    data-sticky="false"
+    class="grid grid-rows-[0fr] transition-[grid-template-rows] duration-300 data-[sticky=false]:grid-rows-[1fr]"
+  >
+    <div class="overflow-hidden">
+      <div class="h-5">&nbsp;</div>
+    </div>
+  </div>
+  <div
+    class="mx-auto flex w-max items-center justify-between rounded-[100px] bg-white px-6 py-4 transition-colors group-[[data-sticky='true']]/nav-header:bg-[transparent]"
   >
     <a href="/" class="flex items-center gap-3.5">
       <Image src={logo} width={34} height={36} alt={`${site.name} logo`} /><span
@@ -333,13 +342,19 @@ const links: (Link & { children?: { title: string; items: Link[] }[] })[] = [
 
   const header = document.getElementById("main-header") as HTMLElement;
 
-  window.addEventListener("scroll", () => {
-    const isSticky = header.getAttribute(STICKY_ATTR) === "true";
+  const inflatableSpacer = document.getElementById(
+    "inflatable",
+  ) as HTMLDivElement;
 
+  window.addEventListener("scroll", () => {
     if (window.scrollY > 1) {
-      header.setAttribute(STICKY_ATTR, "true");
+      [header, inflatableSpacer].forEach((el) => {
+        el.setAttribute(STICKY_ATTR, "true");
+      });
     } else {
-      header.setAttribute(STICKY_ATTR, "false");
+      [header, inflatableSpacer].forEach((el) => {
+        el.setAttribute(STICKY_ATTR, "false");
+      });
     }
   });
 </script>
