@@ -4,14 +4,29 @@ import BaseLayout from "./BaseLayout.astro";
 import TheNavbar from "~/components/TheNavbar.astro";
 import TheFooter from "~/components/TheFooter.astro";
 
-interface Props extends ComponentProps<typeof BaseLayout> {}
+interface Props extends ComponentProps<typeof BaseLayout> {
+  /**
+   * Wrap default slot in a main tag
+   * @default true
+   */
+  mainWrapper?: boolean;
+}
 
-const props = Astro.props;
+const { mainWrapper = true, ...props } = Astro.props;
 ---
 
 <BaseLayout {...props}>
   <TheNavbar>
     <slot name="banner" slot="banner" />
   </TheNavbar>
-  <slot />
+  {
+    mainWrapper ? (
+      <main class="flex-1">
+        <slot />
+      </main>
+    ) : (
+      <slot />
+    )
+  }
+  <TheFooter />
 </BaseLayout>

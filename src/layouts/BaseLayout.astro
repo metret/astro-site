@@ -51,7 +51,13 @@ const {
     />
     <slot name="head" />
   </head>
-  <body class:list={["font-golos-text bg-page-bg", classList, className]}>
+  <body
+    class:list={[
+      "font-golos-text bg-page-bg flex flex-col",
+      classList,
+      className,
+    ]}
+  >
     <slot />
     <slot name="footer" />
   </body>
