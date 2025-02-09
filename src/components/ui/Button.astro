@@ -1,0 +1,55 @@
+---
+import type { HTMLAttributes } from "astro/types";
+
+type Color = "blue" | "orange" | "grey" | "purple" | "green";
+
+export type ButtonProps = {
+  kind?: "primary" | "secondary";
+  size?: "default" | "large";
+  color?: Color;
+};
+
+type Props = ButtonProps & HTMLAttributes<"button">;
+
+const {
+  kind = "primary",
+  size = "default",
+  color = "blue",
+  class: className,
+  "class:list": classList,
+  ...props
+} = Astro.props;
+---
+
+<button
+  {...props}
+  class:list={[
+    "flex items-center justify-center rounded-full text-center font-semibold",
+    (kind === "secondary" || size === "default") &&
+      "px-6 py-3 text-lg leading-4",
+    kind === "primary" && "min-h-12",
+    kind === "primary" && {
+      "bg-blue text-white hover:bg-blue-300": color === "blue",
+      "bg-orange text-white hover:bg-orange-300": color === "orange",
+      "bg-green text-white hover:bg-green-300": color === "green",
+      "bg-purple text-white hover:bg-purple-300": color === "purple",
+      "px-12 py-4 text-xl/8": size === "large",
+    },
+    kind === "secondary" && "border-2",
+    kind === "secondary" && {
+      "border-grey-300 text-grey-300 hover:bg-blue hover:border-blue hover:text-white":
+        color === "grey",
+      "hover:bg-blue text-blue border-blue hover:text-white": color === "blue",
+      "text-green border-green hover:bg-green hover:text-white":
+        color === "green",
+      "text-purple border-purple hover:bg-purple hover:text-white":
+        color === "purple",
+      "text-orange border-orange hover:bg-orange hover:text-white":
+        color === "orange",
+    },
+    className,
+    classList,
+  ]}
+>
+  <slot />
+</button>
