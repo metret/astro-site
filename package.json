@@ -6,7 +6,11 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "lint": "eslint . --cache",
+    "lint:fix": "eslint . --fix",
+    "format": "prettier --write .",
+    "format:check": "prettier --cache --check ."
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.0.4",

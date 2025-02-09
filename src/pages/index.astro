@@ -1,7 +1,13 @@
 ---
+import AnnouncementBanner from "~/components/AnnouncementBanner.astro";
 import Layout from "~/layouts/Layout.astro";
 ---
 
 <Layout>
-  <h1>Home</h1>
+  <AnnouncementBanner slot="banner">
+    <p>
+      Introducing SEB, Metro Retro’s ai board helper - Read the full guide here
+      -&gt;
+    </p>
+  </AnnouncementBanner>
 </Layout>

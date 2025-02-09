@@ -6,7 +6,7 @@ import globals from "globals";
 
 export default tseslint.config(
   {
-    ignores: ["dist"],
+    ignores: ["dist", ".astro"],
   },
   ...astroPlugin.configs.recommended,
   ...tseslint.configs.recommended,
