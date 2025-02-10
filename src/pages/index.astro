@@ -1,13 +1,24 @@
 ---
 import AnnouncementBanner from "~/components/AnnouncementBanner.astro";
+import Hero from "~/components/sections/home/Hero.astro";
 import Layout from "~/layouts/Layout.astro";
+import heroDot from "~/assets/images/hero-dot.png";
+import { Image } from "astro:assets";
 ---
 
 <Layout>
+  <Image
+    src={heroDot}
+    alt="Hero Dot"
+    class="absolute top-0 left-0 z-0 h-auto w-full"
+    slot="top"
+  />
+
   <AnnouncementBanner slot="banner">
     <p>
       Introducing SEB, Metro Retro’s ai board helper - Read the full guide here
       -&gt;
     </p>
   </AnnouncementBanner>
+  <Hero />
 </Layout>
