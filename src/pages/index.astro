@@ -7,6 +7,7 @@ import { Image } from "astro:assets";
 import Pill from "~/components/ui/Pill.astro";
 import CollapsibeItem from "~/components/sections/home/CollapsibeItem.astro";
 import Button from "~/components/ui/Button.astro";
+import Outcomes from "~/components/sections/home/Outcomes.astro";
 ---
 
 <Layout>
@@ -60,12 +61,5 @@ import Button from "~/components/ui/Button.astro";
     </div>
   </section>
 
-  <section class="pt-16">
-    <Pill color="purple">Focus on outcomes</Pill>
-    <h2 class="heading-2 my-6">More alignment, more success</h2>
-    <p class="text-1 mx-auto max-w-[677px]">
-      Metro Retro lets you focus on what you want to achieve, not the process of
-      learning complex tools and process
-    </p>
-  </section>
+  <Outcomes />
 </Layout>

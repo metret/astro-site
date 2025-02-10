@@ -1,0 +1,89 @@
+---
+import IconText from "~/components/ui/IconText.astro";
+import LinkArrowButton from "~/components/ui/LinkArrowButton.astro";
+import Pill from "~/components/ui/Pill.astro";
+
+const tabs = [
+  "Improve Team Health",
+  "Planning Ahead",
+  "Project Reviews",
+  "Better Collaboration",
+  "Team Alignment",
+];
+---
+
+<section class="py-16">
+  <Pill color="purple">Focus on outcomes</Pill>
+  <h2 class="heading-2 my-6">More alignment, more success</h2>
+  <p class="text-1 mx-auto max-w-[677px]">
+    Metro Retro lets you focus on what you want to achieve, not the process of
+    learning complex tools and process
+  </p>
+
+  <div
+    class="mx-auto my-16 flex w-max items-center justify-center gap-[22px] rounded-[100px] bg-white px-[30px] py-3 drop-shadow-[0_4px_20px_rgba(98,116,150,0.25)]"
+  >
+    {
+      tabs.map((tab) => (
+        <button
+          data-active="false"
+          data-more-text={`More about ${tab}`}
+          class="outcome-tab text-body border-grey-100 hover:text-purple data-[active=true]:bg-purple rounded-[40px] border-2 px-6 py-3 text-base/6 transition-colors hover:border-purple-100 hover:bg-purple-100 data-[active=true]:text-white"
+        >
+          {tab}
+        </button>
+      ))
+    }
+  </div>
+  <div class="mx-auto mt-16 grid max-w-[1060px] grid-cols-[456px_1fr] gap-16">
+    <div>
+      <p class="text-lg/6 font-semibold text-black">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua.
+      </p>
+      <div class="mt-6 mb-8 space-y-6">
+        <IconText text="Key supporting feature" class="*:[svg]:text-purple" />
+        <IconText text="Key supporting feature" class="*:[svg]:text-purple" />
+        <IconText text="Key supporting feature" class="*:[svg]:text-purple" />
+      </div>
+      <LinkArrowButton color="purple" id="outcome-more-link"
+        >More about Planning Ahead</LinkArrowButton
+      >
+    </div>
+    <div>
+      <div
+        class="aspect-[1.53] w-full rounded-[20px] bg-blue-100 drop-shadow-[0_3px_12px_rgba(98,116,150,0.2)]"
+      >
+      </div>
+    </div>
+  </div>
+</section>
+<script>
+  const tabs = [
+    ...document.querySelectorAll(".outcome-tab"),
+  ] as HTMLButtonElement[];
+
+  const moreLink = document.getElementById(
+    "outcome-more-link",
+  ) as HTMLAnchorElement | null;
+
+  function setActiveTab(tab?: HTMLButtonElement | null) {
+    if (!tab) return;
+
+    tab.setAttribute("data-active", "true");
+
+    const moreText = tab.getAttribute("data-more-text");
+
+    if (!moreText || !moreLink) return;
+    moreLink.textContent = moreText;
+  }
+
+  setActiveTab(tabs[1]);
+
+  tabs.forEach((tab) => {
+    tab.addEventListener("click", () => {
+      tabs.forEach((tab) => tab.setAttribute("data-active", "false"));
+      setActiveTab(tab);
+    });
+  });
+</script>
