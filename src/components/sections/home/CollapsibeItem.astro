@@ -1,0 +1,71 @@
+---
+interface Props {
+  title: string;
+  text: string;
+}
+
+const { title, text } = Astro.props;
+---
+
+<div
+  class="collapsible-item group/collapsible"
+  aria-expanded="false"
+  data-more-text={`More about ${title}`}
+>
+  <div
+    class="text-grey-300 group-aria-expanded/collapsible:text-blue hover:text-blue flex cursor-pointer items-center gap-3 rounded-[100px] py-3 pl-[30px] hover:bg-blue-100"
+  >
+    <svg
+      width="22"
+      height="20"
+      viewBox="0 0 22 20"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M3.5 0C1.8455 0 0.5 1.3455 0.5 3V17C0.5 18.6545 1.8455 20 3.5 20H18.5C20.1545 20 21.5 18.6545 21.5 17V3C21.5 1.3455 20.1545 0 18.5 0H3.5ZM3.5 2H18.5C19.0515 2 19.5 2.4485 19.5 3V6H2.5V3C2.5 2.4485 2.9485 2 3.5 2ZM16.5 3C15.9475 3 15.5 3.4475 15.5 4C15.5 4.5525 15.9475 5 16.5 5C17.0525 5 17.5 4.5525 17.5 4C17.5 3.4475 17.0525 3 16.5 3ZM5.25 3.25C4.836 3.25 4.5 3.5855 4.5 4C4.5 4.4145 4.836 4.75 5.25 4.75H11.75C12.164 4.75 12.5 4.4145 12.5 4C12.5 3.5855 12.164 3.25 11.75 3.25H5.25ZM2.5 8H19.5V12H2.5V8ZM16.5 9C15.9475 9 15.5 9.4475 15.5 10C15.5 10.5525 15.9475 11 16.5 11C17.0525 11 17.5 10.5525 17.5 10C17.5 9.4475 17.0525 9 16.5 9ZM5.25 9.25C4.836 9.25 4.5 9.5855 4.5 10C4.5 10.4145 4.836 10.75 5.25 10.75H11.75C12.164 10.75 12.5 10.4145 12.5 10C12.5 9.5855 12.164 9.25 11.75 9.25H5.25ZM2.5 14H19.5V17C19.5 17.5515 19.0515 18 18.5 18H3.5C2.9485 18 2.5 17.5515 2.5 17V14ZM16.5 15C15.9475 15 15.5 15.4475 15.5 16C15.5 16.5525 15.9475 17 16.5 17C17.0525 17 17.5 16.5525 17.5 16C17.5 15.4475 17.0525 15 16.5 15ZM5.25 15.25C4.836 15.25 4.5 15.5855 4.5 16C4.5 16.4145 4.836 16.75 5.25 16.75H11.75C12.164 16.75 12.5 16.4145 12.5 16C12.5 15.5855 12.164 15.25 11.75 15.25H5.25Z"
+        fill="currentColor"></path>
+    </svg>
+
+    <p class="text-xl/[42px] font-semibold">{title}</p>
+  </div>
+  <div class="hidden p-2 pl-16 group-aria-expanded/collapsible:block">
+    <p class="text-body text-lg/6">{text}</p>
+  </div>
+</div>
+
+<script>
+  const collapsibles = document.querySelectorAll(".collapsible-item");
+
+  const moreBtn = document.querySelector(
+    "#collapsible-more-info",
+  ) as HTMLButtonElement | null;
+
+  const ACTIVE_ID = "aria-expanded";
+
+  const MORE_TEXT_ID = "data-more-text";
+
+  collapsibles.forEach((collapsible) => {
+    collapsible.addEventListener("click", () => {
+      const isExpanded = collapsible.getAttribute(ACTIVE_ID) === "true";
+
+      collapsibles.forEach((collapsible) =>
+        collapsible.setAttribute(ACTIVE_ID, "false"),
+      );
+
+      collapsible.setAttribute(ACTIVE_ID, `${!isExpanded}`);
+
+      if (!isExpanded && moreBtn) {
+        const text = collapsible.getAttribute(MORE_TEXT_ID);
+
+        if (text) {
+          moreBtn.textContent = text;
+        } else {
+          moreBtn.textContent = "More Info";
+        }
+      } else {
+        moreBtn!.textContent = "More Info";
+      }
+    });
+  });
+</script>
