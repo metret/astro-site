@@ -1,0 +1,83 @@
+---
+import Heading from "~/components/ui/Heading.astro";
+import Pill from "~/components/ui/Pill.astro";
+import Subheading from "~/components/ui/Subheading.astro";
+
+import tem1 from "~/assets/images/template-1.png";
+import tem2 from "~/assets/images/template-2.png";
+import tem3 from "~/assets/images/template-3.png";
+import { Image } from "astro:assets";
+
+const roles = [
+  "Scrum Masters",
+  "Engineers",
+  "Agile Coaches",
+  "Delivery Managers",
+  "Product Owners",
+  "Product Designers",
+  "Engineering Managers",
+  "Consultants",
+];
+---
+
+<section class="py-16">
+  <Pill color="orange">Built for everyone</Pill>
+
+  <Heading class="my-6">A space for the whole team</Heading>
+  <Subheading class="mb-8">
+    Flexible and easy to use, Metro Retro is a freeform space which allows you
+    to create and develop ideas, collaboratively and individually
+  </Subheading>
+
+  <p class="text-body text-center text-base/5 font-medium">
+    See how Metro Retro works for...
+  </p>
+
+  <div class="mx-auto mt-6 flex max-w-[1262px] flex-wrap justify-center gap-3">
+    {
+      roles.map((role) => (
+        <span class="border-grey-200 hover:text-orange hover:border-orange rounded-[100px] border px-12 py-6 text-4xl/[42px] font-semibold text-black transition-colors hover:bg-orange-100">
+          {role}
+        </span>
+      ))
+    }
+  </div>
+
+  <div
+    class="mx-auto mt-32 grid max-w-[1080px] grid-cols-[486px_1fr] gap-12 rounded-[20px] bg-blue-100 p-12"
+  >
+    <div class="flex flex-col justify-center">
+      <p class="mb-6 text-4xl/[42px] font-semibold">
+        There’s a Template for that
+      </p>
+      <p class="text-body text-lg/6 font-medium">
+        Choose from 100+ pre-built, fully customisable templates. <br /><br
+        />Crafted to make your everyday workflows more efficient so you can
+        focus on your work, not the prep.
+      </p>
+    </div>
+    <div class="relative flex h-[390px] items-center justify-center">
+      <Image
+        width={238}
+        height={318}
+        class="absolute bottom-0 left-0 z-[2]"
+        src={tem1}
+        alt=""
+      />
+      <Image
+        width={238}
+        height={318}
+        class="absolute top-8 right-[90px] z-[1]"
+        src={tem2}
+        alt=""
+      />
+      <Image
+        width={238}
+        height={318}
+        class="absolute top-0 right-0"
+        src={tem3}
+        alt=""
+      />
+    </div>
+  </div>
+</section>
