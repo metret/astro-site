@@ -40,3 +40,8 @@
   --color-heading: var(--color-black);
   --color-highlight: var(--color-blue);
 }
+@keyframes logoscroll {
+  to {
+    transform: translate(calc(-50% - calc(var(--scroller-gap) / 2)));
+  }
+}

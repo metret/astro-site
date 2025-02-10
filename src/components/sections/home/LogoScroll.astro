@@ -1,0 +1,66 @@
+---
+import gear4music from "~/assets/images/logos/gear4music.png";
+import lucca from "~/assets/images/logos/logo-lucca.png";
+import kayak from "~/assets/images/logos/Kayak_Logo.png";
+import meltwater from "~/assets/images/logos/Meltwater_Logo.png";
+import ryd from "~/assets/images/logos/ryd.png";
+import xitaso from "~/assets/images/logos/XITASO-Logo.png";
+import trendyol from "~/assets/images/logos/Trendyol_logo.png";
+import { Image } from "astro:assets";
+
+const logos = [kayak, gear4music, meltwater, trendyol, xitaso, lucca, ryd];
+---
+
+<div id="logo-scroll" class="mx-auto w-full max-w-[1280px] py-6">
+  <div class="scroller relative overflow-hidden [--scroller-gap:64px]">
+    <div
+      data-scroll="false"
+      class="scroller-inner flex w-max flex-nowrap items-center gap-(--scroller-gap,0px) opacity-0 data-[scroll='true']:opacity-100"
+    >
+      {
+        logos.map((logo) => (
+          <div class="grid size-[120px] place-items-center">
+            <Image src={logo} alt="" />
+          </div>
+        ))
+      }
+    </div>
+  </div>
+</div>
+
+<style>
+  .scroller {
+    mask: linear-gradient(
+      90deg,
+      transparent,
+      white 10%,
+      white 90%,
+      transparent
+    );
+  }
+
+  .scroller .scroller-inner {
+    animation: logoscroll 20s forwards linear infinite;
+  }
+</style>
+
+<script>
+  function initScroller() {
+    const scrollerInner = document.querySelector(
+      ".scroller-inner",
+    ) as HTMLDivElement;
+
+    const scrollerContent = Array.from(scrollerInner.children);
+
+    scrollerContent.forEach((item) => {
+      const duplicatedItem = item.cloneNode(true) as HTMLElement;
+
+      duplicatedItem.setAttribute("aria-hidden", "true");
+      scrollerInner.appendChild(duplicatedItem);
+    });
+
+    scrollerInner.dataset.scroll = "true";
+  }
+
+  window.addEventListener("load", initScroller);
+</script>
