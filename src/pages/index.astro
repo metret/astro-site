@@ -4,6 +4,9 @@ import Hero from "~/components/sections/home/Hero.astro";
 import Layout from "~/layouts/Layout.astro";
 import heroDot from "~/assets/images/hero-dot.png";
 import { Image } from "astro:assets";
+import Pill from "~/components/ui/Pill.astro";
+import CollapsibeItem from "~/components/sections/home/CollapsibeItem.astro";
+import Button from "~/components/ui/Button.astro";
 ---
 
 <Layout>
@@ -21,4 +24,48 @@ import { Image } from "astro:assets";
     </p>
   </AnnouncementBanner>
   <Hero />
+
+  <section class="pt-[4.5rem] pb-16">
+    <Pill>Collaboration your way</Pill>
+    <h2 class="heading-2 my-6">Built to suit the way you work</h2>
+    <p class="text-1 mx-auto max-w-[677px]">
+      With a fully customisable canvas experience and pre-built templates to
+      help kickstart your meetings, Metro Retro adapts to your needs
+    </p>
+    <div class="mx-auto mt-16 grid max-w-[1084px] grid-cols-[480px_1fr] gap-16">
+      <div>
+        {
+          [
+            "Shared Team Spaces",
+            "Meeting & Workshops",
+            "Task Tracking",
+            "Integrations",
+            "Templates",
+          ].map((title) => (
+            <CollapsibeItem
+              title={title}
+              text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            />
+          ))
+        }
+      </div>
+      <div class="space-y-6">
+        <div
+          class="aspect-[1.53] w-full rounded-[20px] bg-blue-100 drop-shadow-[0_3px_12px_rgba(98,116,150,0.2)]"
+        >
+        </div>
+
+        <Button id="collapsible-more-info">More info</Button>
+      </div>
+    </div>
+  </section>
+
+  <section class="pt-16">
+    <Pill color="purple">Focus on outcomes</Pill>
+    <h2 class="heading-2 my-6">More alignment, more success</h2>
+    <p class="text-1 mx-auto max-w-[677px]">
+      Metro Retro lets you focus on what you want to achieve, not the process of
+      learning complex tools and process
+    </p>
+  </section>
 </Layout>
