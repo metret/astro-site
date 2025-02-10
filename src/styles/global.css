@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+:root {
+  height: 100%;
+}
+
 @theme {
   --font-golos-text: "Golos Text", serif;
   --font-rubik: "Rubik", serif;
@@ -40,6 +44,16 @@
   --color-heading: var(--color-black);
   --color-highlight: var(--color-blue);
 }
+
+@layer components {
+  .heading-2 {
+    @apply text-center text-4xl/[42px] font-semibold text-black;
+  }
+  .text-1 {
+    @apply text-body text-center text-lg/[24px] font-medium;
+  }
+}
+
 @keyframes logoscroll {
   to {
     transform: translate(calc(-50% - calc(var(--scroller-gap) / 2)));
