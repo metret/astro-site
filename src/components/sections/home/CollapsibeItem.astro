@@ -35,7 +35,9 @@ const { title, text } = Astro.props;
 </div>
 
 <script>
-  const collapsibles = document.querySelectorAll(".collapsible-item");
+  const collapsibles = [
+    ...document.querySelectorAll(".collapsible-item"),
+  ] as HTMLDivElement[];
 
   const moreBtn = document.querySelector(
     "#collapsible-more-info",
@@ -45,27 +47,32 @@ const { title, text } = Astro.props;
 
   const MORE_TEXT_ID = "data-more-text";
 
-  collapsibles.forEach((collapsible) => {
-    collapsible.addEventListener("click", () => {
-      const isExpanded = collapsible.getAttribute(ACTIVE_ID) === "true";
+  function handleClick(collapsible?: HTMLDivElement | null) {
+    if (!collapsible) return;
+    const isExpanded = collapsible.getAttribute(ACTIVE_ID) === "true";
 
-      collapsibles.forEach((collapsible) =>
-        collapsible.setAttribute(ACTIVE_ID, "false"),
-      );
+    collapsibles.forEach((collapsible) =>
+      collapsible.setAttribute(ACTIVE_ID, "false"),
+    );
 
-      collapsible.setAttribute(ACTIVE_ID, `${!isExpanded}`);
+    collapsible.setAttribute(ACTIVE_ID, `${!isExpanded}`);
 
-      if (!isExpanded && moreBtn) {
-        const text = collapsible.getAttribute(MORE_TEXT_ID);
+    if (!isExpanded && moreBtn) {
+      const text = collapsible.getAttribute(MORE_TEXT_ID);
 
-        if (text) {
-          moreBtn.textContent = text;
-        } else {
-          moreBtn.textContent = "More Info";
-        }
+      if (text) {
+        moreBtn.textContent = text;
       } else {
-        moreBtn!.textContent = "More Info";
+        moreBtn.textContent = "More Info";
       }
-    });
+    } else {
+      moreBtn!.textContent = "More Info";
+    }
+  }
+
+  handleClick(collapsibles[0]);
+
+  collapsibles.forEach((collapsible) => {
+    collapsible.addEventListener("click", () => handleClick(collapsible));
   });
 </script>
