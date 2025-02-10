@@ -16,6 +16,7 @@ const { mainWrapper = true, ...props } = Astro.props;
 ---
 
 <BaseLayout {...props}>
+  <slot name="top" />
   <TheNavbar>
     <slot name="banner" slot="banner" />
   </TheNavbar>
