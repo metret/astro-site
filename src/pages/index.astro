@@ -8,6 +8,8 @@ import Pill from "~/components/ui/Pill.astro";
 import CollapsibeItem from "~/components/sections/home/CollapsibeItem.astro";
 import Button from "~/components/ui/Button.astro";
 import Outcomes from "~/components/sections/home/Outcomes.astro";
+import Heading from "~/components/ui/Heading.astro";
+import Subheading from "~/components/ui/Subheading.astro";
 ---
 
 <Layout>
@@ -28,11 +30,11 @@ import Outcomes from "~/components/sections/home/Outcomes.astro";
 
   <section class="pt-[4.5rem] pb-16">
     <Pill>Collaboration your way</Pill>
-    <h2 class="heading-2 my-6">Built to suit the way you work</h2>
-    <p class="text-1 mx-auto max-w-[677px]">
+    <Heading class="my-6">Built to suit the way you work</Heading>
+    <Subheading>
       With a fully customisable canvas experience and pre-built templates to
       help kickstart your meetings, Metro Retro adapts to your needs
-    </p>
+    </Subheading>
     <div class="mx-auto mt-16 grid max-w-[1084px] grid-cols-[480px_1fr] gap-16">
       <div>
         {

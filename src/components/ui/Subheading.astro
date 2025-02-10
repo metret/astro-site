@@ -1,0 +1,11 @@
+---
+interface Props extends astroHTML.JSX.HTMLAttributes {
+  children: string;
+}
+
+const { class: className, "class:list": classList } = Astro.props;
+---
+
+<p class:list={["text-1 mx-auto max-w-[678px]", className, classList]}>
+  <slot />
+</p>

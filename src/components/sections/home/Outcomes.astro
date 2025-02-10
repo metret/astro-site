@@ -1,7 +1,9 @@
 ---
+import Heading from "~/components/ui/Heading.astro";
 import IconText from "~/components/ui/IconText.astro";
 import LinkArrowButton from "~/components/ui/LinkArrowButton.astro";
 import Pill from "~/components/ui/Pill.astro";
+import Subheading from "~/components/ui/Subheading.astro";
 
 const tabs = [
   "Improve Team Health",
@@ -14,11 +16,11 @@ const tabs = [
 
 <section class="py-16">
   <Pill color="purple">Focus on outcomes</Pill>
-  <h2 class="heading-2 my-6">More alignment, more success</h2>
-  <p class="text-1 mx-auto max-w-[677px]">
+  <Heading class="my-6">More alignment, more success</Heading>
+  <Subheading>
     Metro Retro lets you focus on what you want to achieve, not the process of
     learning complex tools and process
-  </p>
+  </Subheading>
 
   <div
     class="mx-auto my-16 flex w-max items-center justify-center gap-[22px] rounded-[100px] bg-white px-[30px] py-3 drop-shadow-[0_4px_20px_rgba(98,116,150,0.25)]"
