@@ -4,16 +4,24 @@ interface Props extends astroHTML.JSX.HTMLAttributes {
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   children: any;
 }
-const { color = "blue" } = Astro.props;
+const {
+  color = "blue",
+  class: classNames,
+  "class:list": classList,
+} = Astro.props;
 ---
 
 <div
   class:list={[
-    "mx-auto w-max rounded-[82px] px-6 py-0.5 text-lg/6 font-semibold",
+    `pill pill-${color}`,
+    "mx-auto w-max rounded-[82px] px-6 py-0.5 text-center text-lg/6 font-semibold [&_a]:underline",
+    color === "grey" && "text-grey bg-grey-100",
     color === "blue" && "text-blue bg-blue-100",
     color === "orange" && "text-orange bg-orange-100",
     color === "purple" && "text-purple bg-purple-100",
     color === "green" && "text-green bg-green-100",
+    classNames,
+    classList,
   ]}
 >
   <slot />
