@@ -1,0 +1,69 @@
+---
+import Heading from "../ui/Heading.astro";
+
+const resources: { title: string; category: "blog" | "guide"; link: string }[] =
+  [
+    {
+      title: "How to run your first session",
+      category: "guide",
+      link: "#",
+    },
+    {
+      title: "Learn the Metro Retro basics",
+      category: "blog",
+      link: "#",
+    },
+    {
+      title: "How to work with Templates",
+      category: "guide",
+      link: "#",
+    },
+    {
+      title: "How to run a Retrospective",
+      category: "guide",
+      link: "#",
+    },
+  ];
+---
+
+<section class="pt-[70px] pb-16">
+  <div class="mx-auto max-w-[1090px]">
+    <Heading class="!text-left">Not sure where to start?</Heading>
+
+    <div class="my-6 grid grid-cols-4 gap-6">
+      {
+        resources.map((resource) => (
+          <a href={resource.link}>
+            <div
+              class:list={[
+                "flex aspect-square flex-col justify-between rounded-[10px] border-2 border-blue-100 p-6 text-black transition-colors",
+                resource.category === "blog" &&
+                  "hover:border-blue hover:text-blue",
+                resource.category === "guide" &&
+                  "hover:border-purple hover:text-purple",
+              ]}
+            >
+              <p class="text-[28px]/8 font-semibold">{resource.title}</p>
+              <span
+                class:list={[
+                  "w-max rounded-[50px] border px-6 py-2 text-base/[1] font-semibold capitalize",
+                  resource.category === "blog" &&
+                    "border-blue text-blue bg-blue-100",
+                  resource.category === "guide" &&
+                    "border-purple text-purple bg-purple-100",
+                ]}
+              >
+                {resource.category}
+              </span>
+            </div>
+          </a>
+        ))
+      }
+    </div>
+    <p class="text-body [&_a]:text-blue text-lg/6 font-medium [&_a]:underline">
+      For more Metro Retro guides, take a look at our <a href="#">Help Docs</a>.
+      For general collaboration tips, agile practice guides and our opinions
+      check out <a href="#">our blog</a>, it’s really great, we promise.
+    </p>
+  </div>
+</section>
