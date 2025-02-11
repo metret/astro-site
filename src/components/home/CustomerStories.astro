@@ -1,0 +1,33 @@
+---
+import { Image } from "astro:assets";
+import Heading from "../ui/Heading.astro";
+import Pill from "../ui/Pill.astro";
+import rydWhite from "~/assets/images/logos/ryd_white.png";
+import Button from "../ui/Button.astro";
+---
+
+<section class="pt-[51px] pb-[70px]">
+  <Pill>Customer stories</Pill>
+  <Heading class="mt-6">Discover how these teams use Metro Retro </Heading>
+
+  <div
+    class="mx-auto my-12 grid max-w-[1062px] grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3"
+  >
+    {
+      Array.from({ length: 3 }).map(() => (
+        <div>
+          <div class="bg-blue flex aspect-[1.05] w-full items-center justify-center rounded-[10px]">
+            <Image src={rydWhite} alt="" />
+          </div>
+          <div class="px-4 py-3">
+            <p class="text-body text-lg/6 font-medium">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor.
+            </p>
+          </div>
+        </div>
+      ))
+    }
+  </div>
+  <Button class="mx-auto">Read more customer stories</Button>
+</section>
