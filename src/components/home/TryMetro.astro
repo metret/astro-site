@@ -1,0 +1,40 @@
+---
+import { Image } from "astro:assets";
+import Button from "../ui/Button.astro";
+import bg from "~/assets/images/try-metro.png";
+---
+
+<section
+  class="grid place-items-center [grid-template-areas:'stack'] [&>*]:[grid-area:stack]"
+>
+  <div>
+    <svg
+      width="478"
+      height="310"
+      viewBox="0 0 478 310"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M459.179 122.227C472.331 125.994 479.99 138.168 476.221 151.289L475.965 153.519C427.615 278.992 284.594 341.651 156.595 293.085C45.9602 251.029 -17.7374 135.293 4.49897 20.378C6.0334 7.00029 15.9944 -0.892979 29.4013 0.644806L33.8703 1.1574L459.179 122.227Z"
+        fill="#488BF0"
+        fill-opacity="0.05"></path>
+    </svg>
+  </div>
+  <div
+    class="mt-4 grid max-w-[670px] grid-cols-[225px_1fr] gap-6 rounded-[20px] bg-white p-6 drop-shadow-[0_4px_10px_rgba(98,116,150,0.1)]"
+  >
+    <div>
+      <Image src={bg} alt="" />
+    </div>
+    <div>
+      <p class="text-[28px]/8 font-semibold text-black">
+        Metro Retro in 74 seconds
+      </p>
+      <p class="text-body mt-2 mb-4 text-base/8 font-medium">
+        For the TLDR version of Metro Retro, watch this.
+      </p>
+      <Button color="purple">I’m ready, let’s go!</Button>
+    </div>
+  </div>
+</section>
