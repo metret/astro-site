@@ -2,7 +2,7 @@
 import { Image } from "astro:assets";
 import logo from "~/assets/logo.svg";
 import type { Link } from "~/types";
-import Button from "./ui/Button.astro";
+import LinkButton from "./ui/LinkButton.astro";
 import { site } from "~/constants";
 
 const links: (Link & { children?: { title: string; items: Link[] }[] })[] = [
@@ -330,8 +330,10 @@ const links: (Link & { children?: { title: string; items: Link[] }[] })[] = [
         }
       </ul>
       <div class="flex items-center gap-5">
-        <Button kind="secondary" color="grey">Login</Button>
-        <Button>Signup</Button>
+        <LinkButton kind="secondary" color="grey" href="#login"
+          >Login</LinkButton
+        >
+        <LinkButton href="#signup">Signup</LinkButton>
       </div>
     </nav>
   </div>

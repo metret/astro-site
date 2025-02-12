@@ -1,5 +1,5 @@
 ---
-import Button from "~/components/ui/Button.astro";
+import LinkButton from "~/components/ui/LinkButton.astro";
 import Heading from "~/components/ui/Heading.astro";
 import Subheading from "~/components/ui/Subheading.astro";
 import reviews from "~/assets/images/reviews-embed.png";
@@ -16,5 +16,10 @@ import { Image } from "astro:assets";
     <Image src={reviews} alt="" />
   </div>
 
-  <Button kind="secondary" color="grey" class="mx-auto">Load more</Button>
+  <LinkButton
+    kind="secondary"
+    color="grey"
+    class="mx-auto"
+    href="#load-more-reviews">Load more</LinkButton
+  >
 </section>
