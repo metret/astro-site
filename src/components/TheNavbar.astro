@@ -237,7 +237,7 @@ const links: (Link & { children?: { title: string; items: Link[] }[] })[] = [
   <div
     id="inflatable"
     data-sticky="false"
-    class="grid grid-rows-[0fr] transition-[grid-template-rows] duration-300 data-[sticky=false]:grid-rows-[1fr]"
+    class="grid grid-rows-[0fr] transition-[grid-template-rows] duration-400 data-[sticky=false]:grid-rows-[1fr]"
   >
     <div class="overflow-hidden">
       <div class="h-5">&nbsp;</div>
@@ -348,7 +348,7 @@ const links: (Link & { children?: { title: string; items: Link[] }[] })[] = [
     "inflatable",
   ) as HTMLDivElement;
 
-  window.addEventListener("scroll", () => {
+  function handleListener() {
     if (window.scrollY > 1) {
       [header, inflatableSpacer].forEach((el) => {
         el.setAttribute(STICKY_ATTR, "true");
@@ -358,5 +358,9 @@ const links: (Link & { children?: { title: string; items: Link[] }[] })[] = [
         el.setAttribute(STICKY_ATTR, "false");
       });
     }
-  });
+  }
+
+  window.addEventListener("scroll", handleListener);
+
+  window.addEventListener("load", handleListener);
 </script>
