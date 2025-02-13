@@ -74,10 +74,11 @@ const reviews: {
 
 <script>
   import Swiper from "swiper";
-  import { Pagination } from "swiper/modules";
+  import { Pagination, Autoplay } from "swiper/modules";
 
   const swiper = new Swiper("#reviews-swiper", {
-    modules: [Pagination],
+    modules: [Autoplay, Pagination],
+    autoplay: { delay: 5000 },
     slidesPerView: 1,
     spaceBetween: 16,
     pagination: {
