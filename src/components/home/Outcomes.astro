@@ -77,7 +77,7 @@ const tabs = [
     const moreText = tab.getAttribute("data-more-text");
 
     if (!moreText || !moreLink) return;
-    moreLink.textContent = moreText;
+    moreLink.querySelector("span")!.textContent = moreText;
   }
 
   setActiveTab(tabs[1]);
