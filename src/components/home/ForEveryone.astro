@@ -7,6 +7,7 @@ import tem1 from "~/assets/images/template-1.png";
 import tem2 from "~/assets/images/template-2.png";
 import tem3 from "~/assets/images/template-3.png";
 import { Image } from "astro:assets";
+import LinkButton from "../ui/LinkButton.astro";
 
 const roles = [
   "Scrum Masters",
@@ -46,34 +47,35 @@ const roles = [
   <div
     class="mx-auto mt-32 grid max-w-[1080px] grid-cols-[486px_1fr] gap-12 rounded-[20px] bg-blue-100 p-12"
   >
-    <div class="flex flex-col justify-center">
+    <div class="pt-6">
       <p class="mb-6 text-4xl/[42px] font-semibold">
         There’s a Template for that
       </p>
-      <p class="text-body text-lg/6 font-medium">
+      <p class="text-body mb-[37px] text-lg/6 font-medium">
         Choose from 100+ pre-built, fully customisable templates. <br /><br
         />Crafted to make your everyday workflows more efficient so you can
         focus on your work, not the prep.
       </p>
+      <LinkButton>More about Metro Retro Templates</LinkButton>
     </div>
     <div class="relative flex h-[390px] items-center justify-center">
       <Image
-        width={238}
-        height={318}
+        width={240}
+        height={320}
         class="absolute bottom-0 left-0 z-[2]"
         src={tem1}
         alt=""
       />
       <Image
-        width={238}
-        height={318}
+        width={240}
+        height={320}
         class="absolute top-8 right-[90px] z-[1]"
         src={tem2}
         alt=""
       />
       <Image
-        width={238}
-        height={318}
+        width={240}
+        height={320}
         class="absolute top-0 right-0"
         src={tem3}
         alt=""
