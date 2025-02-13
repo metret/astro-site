@@ -4,3 +4,9 @@ export type Link = {
 };
 
 export type Color = "blue" | "orange" | "grey" | "purple" | "green";
+
+export type ButtonProps = {
+  kind?: "primary" | "secondary";
+  size?: "default" | "large";
+  color?: Color;
+};
