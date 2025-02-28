@@ -32,6 +32,8 @@
   --color-grey-100: #f9fafc;
   --color-grey-200: #dde6ff;
   --color-grey-300: #627496;
+
+  --breakpoint-xs: 30rem;
 }
 
 @theme inline {
