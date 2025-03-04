@@ -11,29 +11,111 @@ const footerLinks: {
 }));
 ---
 
-<footer class="bg-blue p-16 text-white">
-  <nav
-    aria-label="Footer navigation"
-    class="mx-auto grid max-w-7xl grid-cols-1 md:grid-cols-3 lg:grid-cols-5"
-  >
-    {
-      footerLinks.map((fl) => (
-        <div>
-          <div class="py-3">
-            <p class="text-lg/4 font-semibold">{fl.title}</p>
-          </div>
+<footer class="bg-blue text-white">
+  <div class="px-4 py-8 md:px-20">
+    <nav
+      aria-label="Footer navigation"
+      class="mx-auto grid max-w-7xl grid-cols-1 md:grid-cols-3 md:gap-6 lg:grid-cols-5"
+    >
+      {
+        footerLinks.map((fl) => (
+          <div
+            class="footer-link max-md:aria-expanded:[&_svg]:rotate-180"
+            aria-expanded="false"
+          >
+            <div class="footer-link-header flex items-center justify-between gap-1 py-3">
+              <p class="text-lg/4 font-semibold">{fl.title}</p>
 
-          <ul class="space-y-2">
-            {fl.links.map((link) => (
-              <li>
-                <a href={link.url} class="text-lg/8">
-                  {link.title}
-                </a>
-              </li>
-            ))}
-          </ul>
-        </div>
-      ))
-    }
-  </nav>
+              <svg
+                class="transition-transform duration-300 md:hidden"
+                width="10"
+                height="7"
+                viewBox="0 0 10 7"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path d="M1 1L5 5L9 1" stroke="white" stroke-width="2" />
+              </svg>
+            </div>
+            <div
+              data-expanded="false"
+              class="grid transition-[grid-template-rows] duration-300 data-[expanded=true]:grid-rows-[1fr] max-md:grid-rows-[0fr]"
+            >
+              <div class="overflow-hidden">
+                <ul class="space-y-2">
+                  {fl.links.map((link) => (
+                    <li>
+                      <a href={link.url} class="text-lg/8">
+                        {link.title}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </div>
+          </div>
+        ))
+      }
+    </nav>
+  </div>
+
+  <div
+    class="flex gap-6 bg-blue-300 px-4 py-6 text-white max-md:flex-col md:items-center md:justify-center"
+  >
+    <div class="flex items-center gap-2.5">
+      <svg
+        width="28"
+        height="30"
+        viewBox="0 0 28 30"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M0.980875 23.365C0.897998 23.2348 0.854004 23.084 0.854004 22.93C0.854004 22.776 0.897998 22.6251 0.980875 22.4949C6.09551 14.0751 4.4142 2.02074 4.4142 1.89445C4.39484 1.7724 4.40526 1.64752 4.44459 1.5303C4.48395 1.41309 4.55103 1.30697 4.64025 1.22086C4.73269 1.13631 4.84233 1.07249 4.96179 1.03375C5.08125 0.995009 5.20771 0.982247 5.33255 0.996332C17.4975 2.69433 24.5761 0.996332 24.6467 0.996332C24.8435 0.940777 25.0542 0.960371 25.2372 1.05126C25.4202 1.14215 25.5624 1.29776 25.6357 1.48749C31.0612 14.019 24.1098 27.9959 23.8131 28.5853C23.7412 28.7206 23.6335 28.8339 23.5015 28.9132C23.3696 28.9921 23.2184 29.0342 23.0643 29.0344C4.99346 29.0344 1.12216 23.6176 0.980875 23.365ZM6.18031 2.75046C6.46288 5.90791 6.92913 15.3802 2.67634 22.8317C3.8773 23.9263 8.6811 27.3223 22.5556 27.4066C23.6718 24.9788 28.5322 13.2191 24.3641 2.73643C18.3394 3.66649 12.2065 3.67122 6.18031 2.75046Z"
+          fill="white"></path>
+        <path
+          d="M17.8142 14.0536C18.8027 14.0536 19.6041 13.2675 19.6041 12.2978C19.6041 11.3281 18.8027 10.542 17.8142 10.542C16.8257 10.542 16.0244 11.3281 16.0244 12.2978C16.0244 13.2675 16.8257 14.0536 17.8142 14.0536Z"
+          fill="white"></path>
+        <path
+          d="M12.4304 14.0536C13.4189 14.0536 14.2203 13.2675 14.2203 12.2978C14.2203 11.3281 13.4189 10.542 12.4304 10.542C11.442 10.542 10.6406 11.3281 10.6406 12.2978C10.6406 13.2675 11.442 14.0536 12.4304 14.0536Z"
+          fill="white"></path>
+        <path
+          d="M8.55251 14.6945H8.43888C8.25657 14.6869 8.07849 14.7497 7.94301 14.8696C7.80752 14.9895 7.72541 15.1568 7.71443 15.3355C7.60534 17.0334 8.10519 18.7152 9.12739 20.0895C10.1496 21.4639 11.6297 22.4441 13.3112 22.8603C15.2304 23.3645 17.275 23.104 18.9992 22.1356C20.7235 21.1671 21.9876 19.5694 22.516 17.6905C22.53 17.597 22.5248 17.5018 22.5009 17.4103C22.4769 17.3188 22.4346 17.2329 22.3764 17.1577C22.3182 17.0824 22.2453 17.0193 22.162 16.972C22.0786 16.9248 21.9865 16.8942 21.891 16.8823L8.55251 14.6945Z"
+          fill="white"></path>
+      </svg>
+      <span class="font-rubik text-[22px] font-medium">Metro Retro</span>
+    </div>
+    <p class="text-base font-medium">
+      © {new Date().getFullYear()} Deqo Software Limited. All Rights Reserved.
+    </p>
+  </div>
 </footer>
+<script>
+  const footerLinks = [
+    ...document.querySelectorAll(".footer-link"),
+  ] as HTMLDivElement[];
+
+  footerLinks.forEach((fl) => {
+    const header = fl.querySelector(".footer-link-header") as HTMLDivElement;
+
+    const contentWrapper = fl.querySelector(
+      "[data-expanded]",
+    ) as HTMLDivElement;
+
+    header.addEventListener("click", () => {
+      const isExpanded =
+        contentWrapper.getAttribute("data-expanded") === "true";
+
+      // close all
+      footerLinks.forEach((flink) => {
+        flink.setAttribute("aria-expanded", "false");
+        flink
+          .querySelector("[data-expanded]")
+          ?.setAttribute("data-expanded", "false");
+      });
+
+      contentWrapper.setAttribute("data-expanded", String(!isExpanded));
+      fl.setAttribute("aria-expanded", String(!isExpanded));
+    });
+  });
+</script>
