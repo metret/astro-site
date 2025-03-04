@@ -4,21 +4,17 @@ import Hero from "~/components/blocks/Hero.astro";
 import Layout from "~/layouts/Layout.astro";
 import heroDot from "~/assets/images/hero-dot.png";
 import { Image } from "astro:assets";
-import Pill from "~/components/ui/Pill.astro";
-import CollapsibeItem from "~/components/blocks/CollapsibeItem.astro";
-import Button from "~/components/ui/Button.astro";
-import Outcomes from "~/components/blocks/Outcomes.astro";
-import ForEveryone from "~/components/blocks/ForEveryone.astro";
-import Heading from "~/components/ui/Heading.astro";
-import Subheading from "~/components/ui/Subheading.astro";
-import Reviews from "~/components/blocks/Reviews.astro";
+import Focus from "~/components/blocks/Focus.astro";
+import Personas from "~/components/blocks/Personas.astro";
+import WallOfLove from "~/components/blocks/WallOfLove.astro";
 import FAQ from "~/components/blocks/FAQ.astro";
 import TryMetro from "~/components/blocks/TryMetro.astro";
 import CustomerStories from "~/components/blocks/CustomerStories.astro";
-import WhereToStart from "~/components/blocks/WhereToStart.astro";
-import BottomCTA from "~/components/blocks/BottomCTA.astro";
-import ReviewsCarousel from "~/components/blocks/ReviewsCarousel.astro";
+import Guides from "~/components/blocks/Guides.astro";
+import SignUp from "~/components/blocks/SignUp.astro";
+import Testimonials from "~/components/blocks/Testimonials.astro";
 import "swiper/css";
+import Collaborate from "~/components/blocks/Collaborate.astro";
 ---
 
 <Layout>
@@ -37,46 +33,13 @@ import "swiper/css";
   </AnnouncementBanner>
   <Hero />
 
-  <section class="pt-[4.5rem] pb-16">
-    <Pill>Collaboration your way</Pill>
-    <Heading class="my-6">Built to suit the way you work</Heading>
-    <Subheading>
-      With a fully customisable canvas experience and pre-built templates to
-      help kickstart your meetings, Metro Retro adapts to your needs
-    </Subheading>
-    <div class="mx-auto mt-16 grid max-w-[1084px] grid-cols-[480px_1fr] gap-16">
-      <div>
-        {
-          [
-            "Shared Team Spaces",
-            "Meeting & Workshops",
-            "Task Tracking",
-            "Integrations",
-            "Templates",
-          ].map((title) => (
-            <CollapsibeItem
-              title={title}
-              text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-            />
-          ))
-        }
-      </div>
-      <div class="space-y-6">
-        <div
-          class="aspect-[1.53] w-full rounded-[20px] bg-blue-100 drop-shadow-[0_3px_12px_rgba(98,116,150,0.2)]"
-        >
-        </div>
+  <Collaborate />
 
-        <Button id="collapsible-more-info">More info</Button>
-      </div>
-    </div>
-  </section>
+  <Focus />
 
-  <Outcomes />
+  <Personas />
 
-  <ForEveryone />
-
-  <Reviews />
+  <WallOfLove />
 
   <FAQ />
 
@@ -84,9 +47,9 @@ import "swiper/css";
 
   <CustomerStories />
 
-  <WhereToStart />
+  <Guides />
 
-  <ReviewsCarousel />
+  <Testimonials />
 
-  <BottomCTA />
+  <SignUp />
 </Layout>

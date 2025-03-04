@@ -1,0 +1,42 @@
+---
+import Button from "../ui/Button.astro";
+import Heading from "../ui/Heading.astro";
+import Pill from "../ui/Pill.astro";
+import Subheading from "../ui/Subheading.astro";
+import CollapsibeItem from "./CollapsibeItem.astro";
+---
+
+<section class="pt-[4.5rem] pb-16">
+  <Pill>Collaboration your way</Pill>
+  <Heading class="my-6">Built to suit the way you work</Heading>
+  <Subheading>
+    With a fully customisable canvas experience and pre-built templates to help
+    kickstart your meetings, Metro Retro adapts to your needs
+  </Subheading>
+  <div class="mx-auto mt-16 grid max-w-[1084px] grid-cols-[480px_1fr] gap-16">
+    <div>
+      {
+        [
+          "Shared Team Spaces",
+          "Meeting & Workshops",
+          "Task Tracking",
+          "Integrations",
+          "Templates",
+        ].map((title) => (
+          <CollapsibeItem
+            title={title}
+            text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          />
+        ))
+      }
+    </div>
+    <div class="space-y-6">
+      <div
+        class="aspect-[1.53] w-full rounded-[20px] bg-blue-100 drop-shadow-[0_3px_12px_rgba(98,116,150,0.2)]"
+      >
+      </div>
+
+      <Button id="collapsible-more-info">More info</Button>
+    </div>
+  </div>
+</section>
