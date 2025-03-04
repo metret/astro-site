@@ -3,18 +3,19 @@ import Button from "../ui/Button.astro";
 import Heading from "../ui/Heading.astro";
 import Pill from "../ui/Pill.astro";
 import Subheading from "../ui/Subheading.astro";
-import CollapsibeItem from "./CollapsibeItem.astro";
 ---
 
-<section class="pt-[4.5rem] pb-16">
+<section class="px-4 py-12 md:py-16 lg:pt-[4.5rem]">
   <Pill>Collaboration your way</Pill>
   <Heading class="my-6">Built to suit the way you work</Heading>
   <Subheading>
     With a fully customisable canvas experience and pre-built templates to help
     kickstart your meetings, Metro Retro adapts to your needs
   </Subheading>
-  <div class="mx-auto mt-16 grid max-w-[1084px] grid-cols-[480px_1fr] gap-16">
-    <div>
+  <div
+    class="mx-auto mt-16 grid max-w-[1084px] grid-cols-1 lg:grid-cols-[480px_1fr] lg:gap-16"
+  >
+    <div class="max-lg:space-y-4">
       {
         [
           "Shared Team Spaces",
@@ -23,14 +24,45 @@ import CollapsibeItem from "./CollapsibeItem.astro";
           "Integrations",
           "Templates",
         ].map((title) => (
-          <CollapsibeItem
-            title={title}
-            text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-          />
+          <div
+            class="collapsible-item group/collapsible"
+            aria-expanded="false"
+            data-more-text={`More about ${title}`}
+          >
+            <div class="text-grey-300 group-aria-expanded/collapsible:text-blue hover:text-blue flex cursor-pointer items-center gap-3 rounded-[100px] py-3 hover:bg-blue-100 lg:pl-[30px]">
+              <svg
+                width="22"
+                height="20"
+                viewBox="0 0 22 20"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M3.5 0C1.8455 0 0.5 1.3455 0.5 3V17C0.5 18.6545 1.8455 20 3.5 20H18.5C20.1545 20 21.5 18.6545 21.5 17V3C21.5 1.3455 20.1545 0 18.5 0H3.5ZM3.5 2H18.5C19.0515 2 19.5 2.4485 19.5 3V6H2.5V3C2.5 2.4485 2.9485 2 3.5 2ZM16.5 3C15.9475 3 15.5 3.4475 15.5 4C15.5 4.5525 15.9475 5 16.5 5C17.0525 5 17.5 4.5525 17.5 4C17.5 3.4475 17.0525 3 16.5 3ZM5.25 3.25C4.836 3.25 4.5 3.5855 4.5 4C4.5 4.4145 4.836 4.75 5.25 4.75H11.75C12.164 4.75 12.5 4.4145 12.5 4C12.5 3.5855 12.164 3.25 11.75 3.25H5.25ZM2.5 8H19.5V12H2.5V8ZM16.5 9C15.9475 9 15.5 9.4475 15.5 10C15.5 10.5525 15.9475 11 16.5 11C17.0525 11 17.5 10.5525 17.5 10C17.5 9.4475 17.0525 9 16.5 9ZM5.25 9.25C4.836 9.25 4.5 9.5855 4.5 10C4.5 10.4145 4.836 10.75 5.25 10.75H11.75C12.164 10.75 12.5 10.4145 12.5 10C12.5 9.5855 12.164 9.25 11.75 9.25H5.25ZM2.5 14H19.5V17C19.5 17.5515 19.0515 18 18.5 18H3.5C2.9485 18 2.5 17.5515 2.5 17V14ZM16.5 15C15.9475 15 15.5 15.4475 15.5 16C15.5 16.5525 15.9475 17 16.5 17C17.0525 17 17.5 16.5525 17.5 16C17.5 15.4475 17.0525 15 16.5 15ZM5.25 15.25C4.836 15.25 4.5 15.5855 4.5 16C4.5 16.4145 4.836 16.75 5.25 16.75H11.75C12.164 16.75 12.5 16.4145 12.5 16C12.5 15.5855 12.164 15.25 11.75 15.25H5.25Z"
+                  fill="currentColor"
+                />
+              </svg>
+
+              <p class="text-xl/[42px] font-semibold">{title}</p>
+            </div>
+            <div class="hidden group-aria-expanded/collapsible:block">
+              <div class="md:p-2 lg:pl-16">
+                <p class="text-body text-lg/6">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+              </div>
+              <div class="space-y-6 max-lg:mt-4 lg:hidden">
+                <div class="aspect-[1.53] w-full rounded-[20px] bg-blue-100 drop-shadow-[0_3px_12px_rgba(98,116,150,0.2)]" />
+
+                <Button class="max-md:mx-auto">More about {title}</Button>
+              </div>
+            </div>
+          </div>
         ))
       }
     </div>
-    <div class="space-y-6">
+    <div class="hidden space-y-6 lg:block">
       <div
         class="aspect-[1.53] w-full rounded-[20px] bg-blue-100 drop-shadow-[0_3px_12px_rgba(98,116,150,0.2)]"
       >
@@ -40,3 +72,46 @@ import CollapsibeItem from "./CollapsibeItem.astro";
     </div>
   </div>
 </section>
+
+<script>
+  const collapsibles = [
+    ...document.querySelectorAll(".collapsible-item"),
+  ] as HTMLDivElement[];
+
+  const moreBtn = document.querySelector(
+    "#collapsible-more-info",
+  ) as HTMLButtonElement | null;
+
+  const ACTIVE_ID = "aria-expanded";
+
+  const MORE_TEXT_ID = "data-more-text";
+
+  function handleClick(collapsible?: HTMLDivElement | null) {
+    if (!collapsible) return;
+    const isExpanded = collapsible.getAttribute(ACTIVE_ID) === "true";
+
+    collapsibles.forEach((collapsible) =>
+      collapsible.setAttribute(ACTIVE_ID, "false"),
+    );
+
+    collapsible.setAttribute(ACTIVE_ID, `${!isExpanded}`);
+
+    if (!isExpanded && moreBtn) {
+      const text = collapsible.getAttribute(MORE_TEXT_ID);
+
+      if (text) {
+        moreBtn.textContent = text;
+      } else {
+        moreBtn.textContent = "More Info";
+      }
+    } else {
+      moreBtn!.textContent = "More Info";
+    }
+  }
+
+  handleClick(collapsibles[0]);
+
+  collapsibles.forEach((collapsible) => {
+    collapsible.addEventListener("click", () => handleClick(collapsible));
+  });
+</script>
