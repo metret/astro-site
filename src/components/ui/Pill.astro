@@ -1,7 +1,7 @@
 ---
 interface Props extends astroHTML.JSX.HTMLAttributes {
   color?: "blue" | "orange" | "grey" | "purple" | "green";
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+
   children: any;
 }
 const {
@@ -14,7 +14,7 @@ const {
 <div
   class:list={[
     `pill pill-${color}`,
-    "mx-auto w-max rounded-[82px] px-6 py-0.5 text-center text-lg/6 font-semibold [&_a]:underline",
+    "mx-auto w-max rounded-[82px] px-6 py-0.5 text-center text-base/6 font-semibold md:text-lg/6 [&_a]:underline",
     color === "grey" && "text-grey bg-grey-100",
     color === "blue" && "text-blue bg-blue-100",
     color === "orange" && "text-orange bg-orange-100",
