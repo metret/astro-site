@@ -4,25 +4,28 @@ import IconText from "~/components/ui/IconText.astro";
 import Pill from "~/components/ui/Pill.astro";
 
 import CustomerLogos from "./CustomerLogos.astro";
+import Statement from "./Statement.astro";
 ---
 
-<section class="relative z-[1] py-14">
+<section class="relative z-[1] pt-8 pb-14 md:pt-14">
   <Pill color="blue"><p>The online whiteboard for product teams</p></Pill>
 
   <h1
-    class="mx-auto mt-6 max-w-[1248px] text-center text-[4rem]/[72px] font-bold text-black"
+    class="mx-auto mt-6 max-w-[1248px] text-center text-4xl/[42px] font-bold text-black max-md:px-4 md:text-[4rem]/[72px]"
   >
     Make team collaboration an effortless and engaging experience
   </h1>
   <p
-    class="text-body mx-auto mt-8 max-w-[677px] text-center text-xl/8 font-medium"
+    class="text-body mx-auto mt-6 max-w-[677px] text-center text-base/6 font-medium max-md:px-4 md:mt-8 md:text-xl/8"
   >
     With easy-to-use templates and intuitive tools, Metro Retro is the fun
     collaboration space that drives team communication.
   </p>
-  <div class="mt-12 flex items-center justify-center gap-6">
+  <div
+    class="mt-9 flex flex-col-reverse items-center gap-6 max-md:px-4 max-md:*:max-w-[320px] md:mt-12 md:flex-row md:justify-center"
+  >
     <button
-      class="text-page-bg flex h-[46px] items-center justify-center gap-2.5 rounded-full bg-black px-5 text-lg/[1] font-semibold"
+      class="text-page-bg flex h-[46px] items-center justify-center gap-2.5 rounded-full bg-black px-5 text-lg/[1] font-semibold max-md:w-full"
     >
       <svg
         width="20"
@@ -67,26 +70,21 @@ import CustomerLogos from "./CustomerLogos.astro";
 
       Sign up with Google
     </button>
-    <LinkButton href="#signup">Sign up for free</LinkButton>
+    <LinkButton href="#signup" class="max-md:w-full"
+      >Sign up for free</LinkButton
+    >
   </div>
 
-  <div class="mt-6 flex items-center justify-center gap-7">
+  <div
+    class="mt-6 flex flex-wrap items-center justify-center gap-4 px-4 md:gap-7"
+  >
     <IconText text="30-day free trial" />
     <IconText text="No card required" />
     <IconText text="Live chat support" />
   </div>
-  <div class="mx-auto mt-16 mb-6 max-w-[1024px] space-y-16">
+  <div class="mx-auto mt-16 mb-6 max-w-[1024px] space-y-16 max-md:px-4">
     <div class="aspect-[1.78] w-full rounded-[20px] bg-blue-100"></div>
-
-    <p class="text-center text-4xl/[42px] font-medium text-black">
-      More than <strong class="text-blue font-bold">250,000</strong> agile teams,
-      coaches, engineers, product owners and designers have enjoyed over <strong
-        class="text-blue font-bold">2 million</strong
-      > meetings in Metro Retro
-    </p>
-    <p class="text-body text-center text-lg/6 font-medium">
-      Trusted by companies who understand the value of great teamwork
-    </p>
+    <Statement />
   </div>
 
   <CustomerLogos />
