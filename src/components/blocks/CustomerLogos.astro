@@ -11,8 +11,11 @@ import { Image } from "astro:assets";
 const logos = [kayak, gear4music, meltwater, trendyol, xitaso, lucca, ryd];
 ---
 
-<div id="logo-scroll" class="mx-auto w-full max-w-[1280px] py-6">
-  <div class="scroller relative overflow-hidden [--scroller-gap:64px]">
+<div id="logo-scroll" class="mx-auto w-full max-w-[1280px] max-md:px-4">
+  <p class="text-body text-center text-lg/6 font-medium">
+    Trusted by companies who understand the value of great teamwork
+  </p>
+  <div class="scroller relative overflow-hidden py-6 [--scroller-gap:64px]">
     <div
       data-scroll="false"
       class="scroller-inner flex w-max flex-nowrap items-center gap-(--scroller-gap,0px) opacity-0 data-[scroll='true']:opacity-100"
