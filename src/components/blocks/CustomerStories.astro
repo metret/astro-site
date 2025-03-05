@@ -6,17 +6,22 @@ import rydWhite from "~/assets/images/logos/ryd_white.png";
 import LinkButton from "../ui/LinkButton.astro";
 ---
 
-<section class="pt-[51px] pb-[70px]">
+<section class="px-4 pt-[51px] pb-[70px]">
   <Pill>Customer stories</Pill>
   <Heading class="mt-6">Discover how these teams use Metro Retro </Heading>
 
   <div
-    class="mx-auto my-12 grid max-w-[1062px] grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3"
+    class="mx-auto my-6 grid max-w-[1062px] grid-cols-1 gap-4 md:my-12 md:grid-cols-2 md:gap-6 lg:grid-cols-3"
   >
     {
-      Array.from({ length: 3 }).map(() => (
+      Array.from({ length: 3 }).map((_, i) => (
         <div>
-          <div class="bg-blue flex aspect-[1.05] w-full items-center justify-center rounded-[10px]">
+          <div
+            class:list={[
+              "flex aspect-[1.05] w-full items-center justify-center rounded-[10px]",
+              ["bg-blue", "bg-purple", "bg-orange"][i % 3],
+            ]}
+          >
             <Image src={rydWhite} alt="" />
           </div>
           <div class="px-4 py-3">
