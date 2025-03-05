@@ -5,9 +5,9 @@ import bg from "~/assets/images/try-metro.png";
 ---
 
 <section
-  class="grid place-items-center pb-8 [grid-template-areas:'stack'] [&>*]:[grid-area:stack]"
+  class="grid place-items-center px-4 pb-8 [grid-template-areas:'stack'] [&>*]:[grid-area:stack]"
 >
-  <div>
+  <div class="max-md:hidden">
     <svg
       width="478"
       height="310"
@@ -22,7 +22,7 @@ import bg from "~/assets/images/try-metro.png";
     </svg>
   </div>
   <div
-    class="mt-4 grid max-w-[670px] grid-cols-[225px_1fr] gap-6 rounded-[20px] bg-white p-6 drop-shadow-[0_4px_10px_rgba(98,116,150,0.1)]"
+    class="grid grid-cols-1 gap-6 rounded-[20px] bg-white p-4 drop-shadow-[0_4px_10px_rgba(98,116,150,0.1)] md:mt-4 md:max-w-[670px] md:grid-cols-[225px_1fr] md:p-6"
   >
     <div>
       <Image src={bg} alt="" />
@@ -34,7 +34,8 @@ import bg from "~/assets/images/try-metro.png";
       <p class="text-body mt-2 mb-4 text-base/8 font-medium">
         For the TLDR version of Metro Retro, watch this.
       </p>
-      <Button color="purple">I’m ready, let’s go!</Button>
+      <Button color="purple" class="max-md:mx-auto">I’m ready, let’s go!</Button
+      >
     </div>
   </div>
 </section>
