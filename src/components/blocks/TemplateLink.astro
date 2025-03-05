@@ -1,0 +1,50 @@
+---
+import tem1 from "~/assets/images/template-1.png";
+import tem2 from "~/assets/images/template-2.png";
+import tem3 from "~/assets/images/template-3.png";
+import { Image } from "astro:assets";
+import LinkButton from "../ui/LinkButton.astro";
+---
+
+<section class="px-4 py-16">
+  <div
+    class="mx-auto grid max-w-[1080px] grid-cols-1 gap-12 rounded-[20px] bg-blue-100 px-4 py-6 md:grid-cols-[486px_1fr] md:p-12"
+  >
+    <div class="max-md:order-2 md:pt-6">
+      <p class="mb-6 text-4xl/[42px] font-semibold">
+        There’s a Template for that
+      </p>
+      <p class="text-body mb-[37px] text-lg/6 font-medium">
+        Choose from 100+ pre-built, fully customisable templates. <br /><br
+        />Crafted to make your everyday workflows more efficient so you can
+        focus on your work, not the prep.
+      </p>
+      <LinkButton>More about Metro Retro Templates</LinkButton>
+    </div>
+    <div
+      class="relative flex h-[309px] items-center justify-center *:h-[253px] *:w-[193px] max-md:order-1 md:h-[390px] md:*:h-[320px] md:*:w-[240px]"
+    >
+      <Image
+        width={240}
+        height={320}
+        class="absolute bottom-0 left-0 z-[2]"
+        src={tem1}
+        alt=""
+      />
+      <Image
+        width={240}
+        height={320}
+        class="absolute top-6 right-[74px] z-[1] md:top-8 md:right-[90px]"
+        src={tem2}
+        alt=""
+      />
+      <Image
+        width={240}
+        height={320}
+        class="absolute top-0 right-0"
+        src={tem3}
+        alt=""
+      />
+    </div>
+  </div>
+</section>
