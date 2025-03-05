@@ -27,7 +27,7 @@ const reviews: {
 }));
 ---
 
-<section class="pt-16 pb-32">
+<section class="px-4 pt-16 pb-32">
   <div class="mx-auto max-w-[1100px]">
     <div
       id="reviews-swiper"
@@ -37,15 +37,15 @@ const reviews: {
         {
           reviews.map((review) => (
             <div class="swiper-slide">
-              <div class="grid grid-cols-[280px_1fr] overflow-hidden rounded-[20px]">
-                <div class="h-full w-full">
+              <div class="grid grid-cols-1 overflow-hidden rounded-[20px] md:grid-cols-[280px_1fr]">
+                <div class="h-[292px] w-full md:h-full">
                   <Image
                     class="h-full w-full object-cover"
                     src={review.reviewer.photo}
                     alt={review.reviewer.name}
                   />
                 </div>
-                <div class="text-grey-300 space-y-6 bg-blue-100 px-8 py-[42px]">
+                <div class="text-grey-300 space-y-6 bg-blue-100 px-8 py-6 md:py-[42px]">
                   <p class="text-[28px]/8 font-semibold">{review.remark}</p>
                   <div>
                     <p class="text-lg/8 font-semibold">
