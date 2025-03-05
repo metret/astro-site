@@ -1,0 +1,22 @@
+---
+const { title, description, image, mirror } = Astro.props;
+---
+
+<section class="relative z-[1] py-8">
+  <div class:list={[
+    "mx-auto grid max-w-[1280px] gap-16 px-8 items-center",
+    mirror === 'false' && "grid-cols-[auto_1fr]",
+    mirror === 'true' && "grid-cols-[1fr_auto]",
+  ]}>
+    {mirror === 'false' && <img class="h-full w-full rounded-[20px] object-cover shadow" src={image} />}
+    <div>
+      <h3 class="mb-4 text-4xl font-bold text-black">
+        {title}
+      </h3>
+      <p class="mb-4 text-xl text-black">
+        {description}
+      </p>
+    </div>
+    {mirror === 'true' && <img class="h-full w-full rounded-[20px] object-cover shadow" src={image} />}
+  </div>
+</section>
