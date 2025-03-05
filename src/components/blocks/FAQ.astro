@@ -33,11 +33,11 @@ const faqs: { question: string; answer: string }[] = [
 ];
 ---
 
-<section class="space-y-16 pt-16 pb-[51px]">
+<section class="space-y-16 px-4 pt-16 pb-[51px]">
   <div
     class="mx-auto grid max-w-[1100px] grid-cols-1 gap-6 sm:gap-12 lg:grid-cols-[456px_1fr] lg:gap-[168px]"
   >
-    <div class="space-y-6">
+    <div class="space-y-6 max-md:contents">
       <Heading class="max-w-[354px] !text-left"
         >Would you like to know more?</Heading
       >
@@ -47,7 +47,7 @@ const faqs: { question: string; answer: string }[] = [
       </p>
       <LinkButton href="#signup">Sign up for free</LinkButton>
 
-      <div class="flex items-center gap-6">
+      <div class="flex items-center gap-6 max-md:order-1">
         <IconText text="30-day free trial" />
         <IconText text="Live chat support" />
       </div>
@@ -127,8 +127,10 @@ const faqs: { question: string; answer: string }[] = [
       </ul>
     </div>
   </div>
-  <Pill class="!w-full !max-w-[1080px] !rounded-[100px] !py-3">
-    <p>
+  <Pill
+    class="!w-full !max-w-[1080px] !rounded-[100px] !py-3 max-md:!rounded-[20px]"
+  >
+    <p class="text-xl/8 max-md:text-left">
       Still have a question? <a href="#">Contact us</a> we’ll be happy to help you.
     </p>
   </Pill>
