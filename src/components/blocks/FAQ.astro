@@ -35,7 +35,7 @@ const faqs: { question: string; answer: string }[] = [
 
 <section class="space-y-16 px-4 pt-16 pb-[51px]">
   <div
-    class="mx-auto grid max-w-[1100px] grid-cols-1 gap-6 sm:gap-12 lg:grid-cols-[456px_1fr] lg:gap-[168px]"
+    class="mx-auto grid max-w-[1100px] grid-cols-1 gap-6 sm:gap-12 lg:grid-cols-[456px_1fr] lg:gap-[100px] xl:gap-[168px]"
   >
     <div class="space-y-6 max-md:contents">
       <Heading class="max-w-[354px] !text-left"
@@ -45,9 +45,11 @@ const faqs: { question: string; answer: string }[] = [
         Metro Retro is completely free for 30 days, so why not sign up to try it
         out and do your part for collaboration!
       </p>
-      <LinkButton href="#signup">Sign up for free</LinkButton>
+      <LinkButton href="#signup" class="max-md:order-1 max-md:mx-auto"
+        >Sign up for free</LinkButton
+      >
 
-      <div class="flex items-center gap-6 max-md:order-1">
+      <div class="flex items-center gap-6 max-md:order-2">
         <IconText text="30-day free trial" />
         <IconText text="Live chat support" />
       </div>
