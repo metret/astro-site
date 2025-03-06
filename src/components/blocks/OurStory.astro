@@ -1,0 +1,138 @@
+---
+import { Image } from "astro:assets";
+import Heading from "../ui/Heading.astro";
+
+import humanCentered from "~/assets/images/human-centered.png";
+import Button from "../ui/Button.astro";
+---
+
+<section class="px-4 py-12 md:py-16">
+  <div
+    class="mx-auto grid max-w-[1256px] grid-cols-1 gap-6 md:gap-9 lg:grid-cols-[441px_1fr]"
+  >
+    <div>
+      <svg
+        width="36"
+        height="36"
+        viewBox="0 0 36 36"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M36 18C36 27.941 27.941 36 18 36C8.059 36 0 27.941 0 18C0 8.059 8.059 0 18 0C27.941 0 36 8.059 36 18Z"
+          fill="#FFCC4D"></path>
+        <path
+          d="M18.0002 21.8491C15.0342 21.8491 13.0652 21.5031 10.6312 21.0301C10.0742 20.9241 8.99316 21.0301 8.99316 22.6681C8.99316 25.9431 12.7562 30.0371 18.0002 30.0371C23.2442 30.0371 27.0072 25.9431 27.0072 22.6681C27.0072 21.0301 25.9252 20.9231 25.3692 21.0301C22.9352 21.5031 20.9672 21.8491 18.0002 21.8491Z"
+          fill="#664500"></path>
+        <path
+          d="M16.6499 3.28109C15.7909 0.850085 13.1259 -0.425915 10.6939 0.431085C9.21789 0.951085 8.17289 2.14209 7.76589 3.53509C6.57489 2.70609 5.01489 2.43509 3.54089 2.95509C1.11089 3.81309 -0.167107 6.48009 0.691893 8.91109C0.813893 9.25508 0.975893 9.57409 1.16389 9.86909C3.11489 13.4511 8.75189 15.9691 12.1649 16.0001C14.8019 13.8331 17.6109 8.33508 16.8829 4.32308C16.8449 3.97508 16.7699 3.62509 16.6499 3.28109ZM19.3499 3.28109C20.2089 0.850085 22.8749 -0.425915 25.3059 0.431085C26.7819 0.951085 27.8269 2.14209 28.2349 3.53509C29.4259 2.70609 30.9859 2.43509 32.4599 2.95509C34.8899 3.81309 36.1669 6.48009 35.3099 8.91109C35.1869 9.25508 35.0259 9.57409 34.8369 9.86909C32.8859 13.4511 27.2489 15.9691 23.8349 16.0001C21.1979 13.8331 18.3899 8.33508 19.1179 4.32308C19.1549 3.97508 19.2299 3.62509 19.3499 3.28109Z"
+          fill="#DD2E44"></path>
+      </svg>
+
+      <Heading class="mt-4 mb-6 !text-left"
+        >Human Centred Collaboration since 2019</Heading
+      >
+
+      <Image src={humanCentered} alt="" />
+    </div>
+
+    <div>
+      <div
+        data-collapsed="true"
+        class="our-story text-body peer rounded-[20px] bg-blue-50 p-4 text-xl/8 font-medium max-md:data-[collapsed=true]:max-h-[575px] max-md:data-[collapsed=true]:overflow-hidden md:p-6"
+      >
+        <p class="text-black">The Story of Metro Retro</p>
+        <p>
+          Metro Retro was born out of a passion for making teamwork not just
+          productive, but enjoyable and authentic. Our journey started with a
+          frustration familiar to many: Work in teams that claimed to be agile
+          but lacked the tools to truly facilitate Scrum ceremonies.
+          <br />
+          As a lead developer, I found myself frustrated with the manual processes
+          of updating Jira, leading refinement sessions, and conducting retrospectives.
+          Despite the promises of Agile, our tools didn’t empower us to embrace its
+          true spirit: collaboration, adaptability, and continuous improvement.
+        </p>
+        <br />
+        <p class="text-black">The Hackathon Spark</p>
+        <p>
+          In 2016, I teamed up with colleagues Dan Greane and Bartek Nowojski
+          for a company hackathon. They spent 24 hours coding, drinking, and
+          eating (Rustlers, anyone?) to create a prototype for an
+          ultra-adaptable, collaborative productivity tool. The result was the
+          first working version of Metro Retro.
+        </p>
+        <br />
+        <p class="text-black">Breaking The Mold</p>
+        <p>
+          Metro Retro was designed to break away from the traditional
+          Trello-like column systems and Web 3.0 designs that dominated the
+          market. Instead, it aimed to recreate the feel of a real
+          retrospective, with sticky notes on a whiteboard, real-time updates,
+          and a dash of fun. The goal was to make teamwork more engaging,
+          enjoyable, and effective.
+        </p>
+        <br />
+        <p class="text-black">
+          Evolving into a Continuous Improvement Platform
+        </p>
+        <p>
+          What started as a simple whiteboard tool quickly evolved into a
+          powerful platform for continuous improvement. Along the way, we
+          uncovered a significant pain point: Agile transformation failures. Too
+          many teams were prioritizing methodology over strategy, losing sight
+          of what matters most—effective collaboration, clear priorities, and
+          the ability to adapt to change.
+          <br />
+          <br />
+          Metro Retro became the solution: an intuitive, enjoyable platform that
+          puts people first. From retrospectives to sprint planning, our tools foster
+          alignment, engagement, and measurable progress. By empowering teams to
+          visualize workflows, remove blockers, and focus on what truly matters,
+          we make continuous improvement a natural, joyful part of every workday.
+        </p>
+      </div>
+
+      <div id="read-more-container" class="relative md:hidden">
+        <div
+          class="to-page-bg absolute inset-x-0 -top-[125px] h-[125px] bg-gradient-to-b from-transparent from-0% to-86%"
+        >
+        </div>
+        <Button
+          id="our-story-read-more"
+          kind="secondary"
+          color="grey"
+          class="mx-auto">Read More</Button
+        >
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+  .our-story[data-collapsed="false"] ~ #read-more-container {
+    padding-top: calc(var(--spacing) * 4);
+  }
+  .our-story[data-collapsed="false"] ~ #read-more-container > :first-child {
+    display: none;
+  }
+</style>
+
+<script>
+  const ourStoryReadMore = document.getElementById(
+    "our-story-read-more",
+  ) as HTMLButtonElement;
+
+  const ourStoryContent = document.querySelector(
+    ".our-story",
+  ) as HTMLDivElement;
+
+  ourStoryReadMore.addEventListener("click", () => {
+    const IS_COLLAPSED =
+      ourStoryContent.getAttribute("data-collapsed") === "true";
+
+    ourStoryContent.setAttribute("data-collapsed", String(!IS_COLLAPSED));
+
+    ourStoryReadMore.textContent = IS_COLLAPSED ? "Read Less" : "Read More";
+  });
+</script>
