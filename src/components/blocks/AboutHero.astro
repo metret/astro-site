@@ -1,0 +1,55 @@
+---
+import { Image } from "astro:assets";
+import aboutHeroImg from "~/assets/images/about-hero.png";
+---
+
+<section class="px-4 py-12 md:py-16">
+  <div
+    class="mx-auto grid max-w-[1236px] grid-cols-1 gap-10 md:grid-cols-[668px_1fr] md:gap-12"
+  >
+    <div>
+      <h1 class="text-4xl/[42px] font-semibold md:text-[42px]/[56px]">
+        We help teams <strong class="font-semibold text-blue-200"
+          >build better software, together.</strong
+        >
+      </h1>
+      <p
+        class="text-body mt-8 mb-[42px] max-w-[588px] text-base/6 font-medium md:text-xl/8"
+      >
+        Great things happen when teams are in flow and enjoy what they do. At
+        Metro Retro, we create human-centered collaboration and continuous
+        improvement tools designed for engaged, efficient, and—most
+        importantly—fun teamwork. Wherever your team works, we’re here to help
+        you thrive.
+      </p>
+      <svg
+        width="42"
+        height="6"
+        viewBox="0 0 42 6"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <g clip-path="url(#clip0_178_1702)">
+          <path
+            d="M41 4.53846C38.14 4.53846 38.14 1.46153 35.29 1.46153C32.44 1.46153 32.43 4.53846 29.58 4.53845C26.73 4.53845 26.72 1.46153 23.87 1.46153C21.02 1.46153 21.01 4.53845 18.16 4.53845C15.31 4.53845 15.3 1.46153 12.44 1.46153C9.58 1.46153 9.58 4.53845 6.72 4.53845C3.86 4.53845 3.86 1.46153 1 1.46153"
+            stroke="#D2E1EC"
+            stroke-width="2"
+            stroke-miterlimit="10"
+            stroke-linecap="round"></path>
+        </g>
+        <defs>
+          <clipPath id="clip0_178_1702">
+            <rect
+              width="5"
+              height="42"
+              fill="white"
+              transform="translate(42 0.5) rotate(90)"></rect>
+          </clipPath>
+        </defs>
+      </svg>
+    </div>
+    <div>
+      <Image src={aboutHeroImg} alt="" />
+    </div>
+  </div>
+</section>
