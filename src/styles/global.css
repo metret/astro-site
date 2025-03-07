@@ -10,7 +10,7 @@
 
   --color-*: initial;
   --color-white: #fff;
-  --color-black: #000;
+  --color-black: #1b1b1b;
   --color-page-bg: #f9fafc;
 
   --color-orange-100: #fff5ec;
@@ -33,6 +33,10 @@
   --color-grey-100: #f9fafc;
   --color-grey-200: #dde6ff;
   --color-grey-300: #627496;
+
+  --color-red-100: #ffeff1;
+  --color-red-200: #f13b4d;
+  --color-red-300: #e91c30;
 
   --breakpoint-xs: 30rem;
 }
