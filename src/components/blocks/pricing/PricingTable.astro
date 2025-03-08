@@ -1,0 +1,134 @@
+---
+import FeatureCategories, {
+  type Props as Category,
+} from "./FeatureCategories.astro";
+
+const headers = ["Features", "Starter", "Business", "Enterprise"];
+
+const descriptions = [
+  "For a single team getting started with Metro Retro.",
+  "Advanced collaboration features and team management for growing companies.",
+  "Supercharge collaboration across the organization. 100+ users.",
+];
+
+const categories: Category[] = [
+  {
+    title: "Key Details",
+    features: [
+      { name: "Team Members", values: ["Up to 20", "Up to 200", "100+"] },
+      { name: "Team Spaces", values: ["1 Team", "Unlimited", "Unlimited"] },
+      { name: "Unlimited Boards", values: [true, true, true] },
+      { name: "Secure Boards", values: [true, true, true] },
+      { name: "Professional Templates", values: [true, true, true] },
+      { name: "Make Custom Templates", values: [true, true, true] },
+      { name: "Board Viewers", values: [true, true, true] },
+      { name: "Cross-team Collaboration", values: [false, true, true] },
+      {
+        name: "Guest Collaborators",
+        values: [
+          false,
+          { icon: true, text: "(2 per board)" },
+          { text: "(Unlimited)", icon: true },
+        ],
+      },
+    ],
+  },
+  {
+    title: "Board Features",
+    features: [
+      { name: "Collaboration Tools", values: [true, true, true] },
+      { name: "Facilitator Tools", values: [true, true, true] },
+      { name: "Voting", values: [true, true, true] },
+      { name: "Private Writing", values: [true, true, true] },
+      { name: "CSV import & export", values: [true, true, true] },
+      { name: "PDF Export", values: [false, true, true] },
+      { name: "Jira Integration", values: [false, false, true] },
+      {
+        name: "Time Machine (Replay Board History)",
+        values: [false, false, true],
+      },
+    ],
+  },
+  {
+    title: "Admin, Security, Support",
+    features: [
+      { name: "Team Admin", values: [true, true, true] },
+      { name: "Team access controls", values: [true, true, true] },
+      { name: "Organization Admins", values: [false, true, true] },
+      {
+        name: "Single Sign On Integration (SSO)",
+        values: [false, false, true],
+      },
+      {
+        name: "Personal Onboarding from Founders",
+        values: [false, false, true],
+      },
+      { name: "SLA", values: [false, false, true] },
+      {
+        name: "Support",
+        values: [
+          "Tutorials, Help Docs, Live Chat, Email",
+          "Tutorials, Help Docs, Live Chat, Email + Queue Priority",
+          "Tutorials, Help Docs, Live Chat, Email",
+        ],
+      },
+      {
+        name: "Payment Options",
+        values: [
+          "Payment Card",
+          "Payment Card, Invoice available for annual billing (min. 3 teams)",
+          "Annual contracts, Custom payment terms available",
+        ],
+      },
+    ],
+  },
+];
+---
+
+<section class="px-4">
+  <table class="feature-table mx-auto max-w-[80rem] table-fixed max-md:hidden">
+    <caption class="mb-6 text-[28px]/8 font-semibold text-black"
+      >Feature Comparison</caption
+    >
+    <thead class="divide-grey-200 divide-y">
+      <tr>
+        {
+          headers.map((header, i) => (
+            <th
+              class:list={[
+                "first:text-body first:border-grey-200 border border-r-0 p-4 text-[28px]/12 font-semibold first:text-left",
+                i > 0 && "border-current last:border-r",
+                i > 0 &&
+                  [
+                    "bg-blue-100 text-blue-200",
+                    "bg-green-100 text-green-200",
+                    "bg-purple-100 text-purple-200",
+                  ][i - 1],
+              ]}
+            >
+              {header}
+            </th>
+          ))
+        }
+      </tr>
+    </thead>
+    <tbody class="text-body text-center">
+      <tr
+        class="text-body *:border-grey-200 *:w-1/4 *:border *:border-r-0 *:border-b-0 *:p-3 *:last:border-r"
+      >
+        <td class="px-4 text-left">Best for</td>
+        {descriptions.map((description) => <td>{description}</td>)}
+      </tr>
+      {
+        categories.map((category, i) => (
+          <FeatureCategories {...category} jumpFirstRow={i > 0} />
+        ))
+      }
+    </tbody>
+  </table>
+</section>
+
+<style>
+  .feature-table {
+  }
+</style>
