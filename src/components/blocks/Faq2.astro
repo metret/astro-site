@@ -1,0 +1,141 @@
+---
+import Heading from "../ui/Heading.astro";
+
+const faqs: { question: string; answer: string }[] = [
+  {
+    question: "Plan specific FAQ",
+    answer:
+      "Incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.",
+  },
+  {
+    question: "Plan specific FAQ",
+    answer:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod  ",
+  },
+  {
+    question: "Plan specific FAQ",
+    answer: "Lorem ipsum dolor sit amet, ex ea commodo consequat.",
+  },
+  {
+    question: "Plan specific FAQ",
+    answer: "Ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+  },
+  {
+    question: "Plan specific FAQ",
+    answer:
+      "Consectetur  xercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+  },
+];
+---
+
+<section class="px-4 py-32">
+  <div class="mx-auto max-w-[80rem]">
+    <Heading class="mb-6">Would you like to know more?</Heading>
+    <div>
+      <ul class="space-y-2.5 md:space-y-5">
+        {
+          faqs.map((faq) => (
+            <li class="faq-2 group/faq" aria-expanded="false">
+              <div class="">
+                <button
+                  type="button"
+                  class="text-body relative flex w-full items-start justify-between gap-4 py-3 pr-4 pl-7 text-left text-xl/8 font-semibold"
+                >
+                  <span class="absolute top-1/2 left-0 -translate-y-1/2">
+                    <svg
+                      class="plus"
+                      width="14"
+                      height="14"
+                      viewBox="0 0 14 14"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M7 1V13"
+                        stroke="#3B65EF"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M13 7L1 7"
+                        stroke="#3B65EF"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+
+                    <svg
+                      class="minus"
+                      width="14"
+                      height="2"
+                      viewBox="0 0 14 2"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M13 1L1 0.999999"
+                        stroke="#3B65EF"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </span>
+
+                  <span class="">{faq.question}</span>
+                </button>
+
+                <div
+                  data-expanded="false"
+                  class="grid grid-rows-[0fr] border-b border-transparent transition-[grid-template-rows] duration-300 data-[expanded=false]:border-blue-100 data-[expanded=true]:grid-rows-[1fr]"
+                >
+                  <div class="overflow-hidden">
+                    <div class="">
+                      <p class="px-6 py-3 text-lg/6 font-medium text-black">
+                        {faq.answer}
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+          ))
+        }
+      </ul>
+    </div>
+  </div>
+</section>
+<style>
+  .faq-2[aria-expanded="false"] .minus,
+  .faq-2[aria-expanded="true"] .plus {
+    display: none;
+  }
+</style>
+
+<script>
+  const faqs = [...document.querySelectorAll(".faq-2")] as HTMLDivElement[];
+
+  function setFAQ(
+    faq?: HTMLDivElement | null,
+    expanded: "true" | "false" = "false",
+  ) {
+    if (!faq) return;
+    faq.setAttribute("aria-expanded", expanded);
+    faq
+      .querySelector("[data-expanded]")
+      ?.setAttribute("data-expanded", expanded);
+  }
+
+  faqs.forEach((faq) => {
+    const toggle = faq.querySelector("button") as HTMLButtonElement;
+
+    toggle.addEventListener("click", () => {
+      const IS_EXPANDED = faq.getAttribute("aria-expanded") === "true";
+
+      faqs.forEach((faq) => setFAQ(faq, "false"));
+      setFAQ(faq, `${!IS_EXPANDED}`);
+    });
+  });
+</script>
