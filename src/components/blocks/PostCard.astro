@@ -1,0 +1,40 @@
+---
+interface Props extends astroHTML.JSX.HTMLAttributes {
+  category: string;
+  title: string;
+  author: string;
+  date: string;
+}
+
+const {
+  category,
+  author,
+  date,
+  title,
+  class: className,
+  "class:list": classList,
+  ...props
+} = Astro.props;
+---
+
+<div
+  {...props}
+  class:list={[
+    "blog-post overflow-hidden rounded-[10px] bg-white drop-shadow-[0_4px_10px_rgba(98,116,150,0.1)]",
+    classList,
+    className,
+  ]}
+>
+  <div class="h-[218px] bg-blue-100"></div>
+  <div class="space-y-4 p-6">
+    <p class="text-purple text-lg/6 font-semibold">{category}</p>
+    <p class="text-xl/8 font-medium text-blue-200">
+      <a href="/blogs/detail">
+        {title}
+      </a>
+    </p>
+    <p class="text-body text-base/8 font-medium">
+      {author} | {date}
+    </p>
+  </div>
+</div>
