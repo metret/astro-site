@@ -2,8 +2,6 @@
 import AnnouncementBanner from "~/components/blocks/AnnouncementBanner.astro";
 import Hero from "~/components/blocks/Hero.astro";
 import Layout from "~/layouts/Layout.astro";
-import heroDot from "~/assets/images/hero-dot.png";
-import { Image } from "astro:assets";
 import Focus from "~/components/blocks/Focus.astro";
 import Personas from "~/components/blocks/Personas.astro";
 import WallOfLove from "~/components/blocks/WallOfLove.astro";
@@ -15,15 +13,11 @@ import SignUp from "~/components/blocks/SignUp.astro";
 import Testimonials from "~/components/blocks/Testimonials.astro";
 import Collaborate from "~/components/blocks/Collaborate.astro";
 import TemplateLink from "~/components/blocks/TemplateLink.astro";
+import Dots from "~/components/Dots.astro";
 ---
 
 <Layout>
-  <Image
-    src={heroDot}
-    alt="Hero Dot"
-    class="absolute top-0 left-0 z-0 h-auto w-full"
-    slot="top"
-  />
+  <Dots />
 
   <AnnouncementBanner slot="banner">
     <p>

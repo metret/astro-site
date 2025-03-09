@@ -10,17 +10,12 @@ import Values from "~/components/blocks/Values.astro";
 import WallOfLove from "~/components/blocks/WallOfLove.astro";
 import Layout from "~/layouts/Layout.astro";
 
-import heroDot from "~/assets/images/hero-dot.png";
-import { Image } from "astro:assets";
+import Dots from "~/components/Dots.astro";
 ---
 
 <Layout title="About Us">
-  <Image
-    src={heroDot}
-    alt="Hero Dot"
-    class="absolute top-0 left-0 z-0 h-auto w-full"
-    slot="top"
-  />
+  <Dots />
+
   <AboutHero />
 
   <Emoji />

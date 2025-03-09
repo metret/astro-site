@@ -1,23 +1,17 @@
 ---
 import Layout from "~/layouts/Layout.astro";
-import heroDot from "~/assets/images/hero-dot.png";
-import { Image } from "astro:assets";
+
 import PricingTable from "~/components/blocks/pricing/PricingTable.astro";
 import Faq2 from "~/components/blocks/Faq2.astro";
 import CustomerLogos from "~/components/blocks/CustomerLogos.astro";
 import Testimonials from "~/components/blocks/Testimonials.astro";
 import WallOfLove from "~/components/blocks/WallOfLove.astro";
 import SignUp from "~/components/blocks/SignUp.astro";
+import Dots from "~/components/Dots.astro";
 ---
 
 <Layout title="Pricing">
-  <Image
-    src={heroDot}
-    alt="Hero Dot"
-    class="absolute top-0 left-0 z-0 h-auto w-full"
-    slot="top"
-  />
-
+  <Dots />
   <section class="relative z-[1] px-4 py-12 md:pt-16 md:pb-32">
     <h1 class="text-center text-4xl/[42px] font-semibold md:text-[4rem]/[72px]">
       Simple Pricing, Amazing Meetings
