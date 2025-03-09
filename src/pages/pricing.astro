@@ -8,24 +8,16 @@ import Testimonials from "~/components/blocks/Testimonials.astro";
 import WallOfLove from "~/components/blocks/WallOfLove.astro";
 import SignUp from "~/components/blocks/SignUp.astro";
 import Dots from "~/components/Dots.astro";
+import TextHero from "~/components/blocks/TextHero.astro";
 ---
 
 <Layout title="Pricing">
   <Dots />
   <section class="relative z-[1] px-4 py-12 md:pt-16 md:pb-32">
-    <h1 class="text-center text-4xl/[42px] font-semibold md:text-[4rem]/[72px]">
-      Simple Pricing, Amazing Meetings
-    </h1>
-    <p
-      class="text-body mx-auto mt-6 max-w-[894px] text-center text-base/6 font-medium md:mt-8 md:mb-16 md:text-xl/8"
-    >
-      Stop worrying about the cost of collaboration! <br />
-      With our flexible range of pricing options, there are no barriers to running
-      amazing meetings.
-    </p>
+    <TextHero />
 
     <div
-      class="mx-auto hidden aspect-[1.35] max-w-[80rem] rounded-[10px] bg-red-200/90 md:block"
+      class="mx-auto hidden aspect-[1.35] max-w-[80rem] rounded-[10px] bg-red-200/90 md:mt-16 md:block"
     >
     </div>
   </section>
