@@ -5,7 +5,7 @@ import Pill from "../ui/Pill.astro";
 
 <section class="px-4 py-16">
   <div
-    class="mx-auto grid max-w-[80rem] grid-cols-1 gap-6 md:gap-12 lg:grid-cols-[592px_1fr] lg:gap-[74px]"
+    class="mx-auto grid max-w-[80rem] grid-cols-1 gap-6 md:gap-12 lg:grid-cols-[min(50%,592px)_1fr] lg:gap-[74px]"
   >
     <div>
       <Pill color="purple" class="!mx-0">Post Category</Pill>
@@ -17,7 +17,7 @@ import Pill from "../ui/Pill.astro";
         paragraph from page content.
       </p>
 
-      <LinkButton>Read More</LinkButton>
+      <LinkButton href="/blogs/detail">Read More</LinkButton>
     </div>
     <div
       class="min-h-[208px] rounded-[10px] bg-blue-100 drop-shadow-[0_4px_10px_rgba(98,116,150,0.1)] max-md:-order-1 md:min-h-[322px] md:rounded-[20px]"

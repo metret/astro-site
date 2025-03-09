@@ -1,5 +1,6 @@
 ---
 import Button from "../ui/Button.astro";
+import PostCard from "./PostCard.astro";
 
 const categories = [
   "Announcements",
@@ -46,23 +47,15 @@ const categories = [
           const category = categories[b % categories.length];
 
           return (
-            <div
+            <PostCard
+              class="data-[shown='false']:hidden"
               data-category={category}
               data-shown="true"
-              class="blog-post overflow-hidden rounded-[10px] bg-white drop-shadow-[0_4px_10px_rgba(98,116,150,0.1)] data-[shown='false']:hidden"
-            >
-              <div class="h-[218px] bg-blue-100" />
-              <div class="space-y-4 p-6">
-                <p class="text-purple text-lg/6 font-semibold">{category}</p>
-                <p class="text-xl/8 font-medium text-blue-200">
-                  Blog post title, lorem ipsum dolor sit amet, consectetur
-                  adipiscing.
-                </p>
-                <p class="text-body text-base/8 font-medium">
-                  Author Name | Month dd, yyyy
-                </p>
-              </div>
-            </div>
+              title="Blog post title, lorem ipsum dolor sit amet, consectetur adipiscing."
+              author="Author Name"
+              category={category}
+              date="Month dd, yyyy"
+            />
           );
         })
       }
