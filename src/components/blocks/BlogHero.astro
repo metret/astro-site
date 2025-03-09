@@ -1,0 +1,25 @@
+---
+import LinkButton from "../ui/LinkButton.astro";
+import Pill from "../ui/Pill.astro";
+---
+
+<section class="px-4 py-16">
+  <div class="mx-auto grid max-w-[80rem] grid-cols-[592px_1fr] gap-[74px]">
+    <div>
+      <Pill color="purple" class="!mx-0">Post Category</Pill>
+      <p class="my-6 text-[28px]/8 font-semibold">
+        Blog post title, lorem ipsum dolor sit amet, consectetur adipiscing.
+      </p>
+      <p class="text-body mb-8 text-lg/6 font-medium">
+        Blog post preview. Must be able to set this. Not just the first
+        paragraph from page content.
+      </p>
+
+      <LinkButton>Read More</LinkButton>
+    </div>
+    <div
+      class="rounded-[20px] bg-blue-100 drop-shadow-[0_4px_10px_rgba(98,116,150,0.1)] md:min-h-[322px]"
+    >
+    </div>
+  </div>
+</section>
