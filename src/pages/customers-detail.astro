@@ -1,0 +1,52 @@
+---
+import CustomerStories from "~/components/blocks/CustomerStories.astro";
+import Layout from "~/layouts/Layout.astro";
+
+import Quote from "~/components/blocks/Quote.astro";
+
+import bernhardPhoto from "~/assets/images/avatars/bernhard-ryd.png";
+import Dots from "~/components/Dots.astro";
+import CaseStudyContent from "~/components/blocks/CaseStudyContent.astro";
+import SignUp from "~/components/blocks/SignUp.astro";
+---
+
+<Layout>
+  <Dots />
+
+  <section class="relative z-[1] px-4 py-16">
+    <div
+      class="mx-auto grid max-w-[80rem] grid-cols-1 gap-12 md:gap-16 lg:grid-cols-[668px_1fr]"
+    >
+      <div class="space-y-6">
+        <p class="text-[42px]/[56px] font-semibold">
+          Header copy will go here and should <strong
+            class="font-semibold text-blue-200"
+            >support multi-colour and rich text styling.</strong
+          >
+        </p>
+        <p class="text-body text-xl/8 font-medium">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat.
+        </p>
+      </div>
+      <div class="aspect-[1.53] rounded-[20px] bg-blue-100"></div>
+    </div>
+  </section>
+
+  <section class="px-4">
+    <Quote
+      quoteText="Metro Retro has created an obvious uptick in active participation, and shifted the tone of our retrospectives. Team members are now more proactive about suggesting improvements and celebrating wins openly."
+      name="Bernhard Unger-Weber"
+      occupation="Scrum Master @ ryd"
+      photo={bernhardPhoto}
+    />
+  </section>
+
+  <CaseStudyContent />
+
+  <CustomerStories />
+
+  <SignUp />
+</Layout>
