@@ -1,0 +1,132 @@
+---
+import Button from "../ui/Button.astro";
+
+const categories = [
+  "Announcements",
+  "Customer Stories",
+  "Guides",
+  "Online Whiteboard",
+  "Overviews",
+  "Product",
+  "Sprint Retrospectives",
+  "Updates",
+];
+---
+
+<section class="px-4">
+  <div class="mx-auto max-w-[80rem]">
+    <p class="text-xl/8 font-semibold text-blue-200">
+      Latest Guides, News & Updates from Metro Retro
+    </p>
+    <div class="my-6 overflow-x-hidden max-md:-mx-4 max-md:pl-4 md:my-8">
+      <div id="swiper-categories">
+        <div class="swiper-wrapper">
+          {
+            ["All", ...categories].map((c) => (
+              <div class="swiper-slide !w-max">
+                <button
+                  data-category-id={c}
+                  data-active="false"
+                  class="filter-btn text-body hover:text-purple data-[active='true']:text-purple px-2 py-3.5 text-base font-medium"
+                >
+                  {c}
+                </button>
+              </div>
+            ))
+          }
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="mb-6 grid grid-cols-1 gap-(--post-gap) overflow-hidden [--post-gap:--spacing(6)] max-md:max-h-(--max-h,auto) md:grid-cols-2 lg:grid-cols-3"
+    >
+      {
+        Array.from({ length: 9 }, (_, i) => i).map((b) => {
+          const category = categories[b % categories.length];
+
+          return (
+            <div
+              data-category={category}
+              data-shown="true"
+              class="blog-post overflow-hidden rounded-[10px] bg-white drop-shadow-[0_4px_10px_rgba(98,116,150,0.1)] data-[shown='false']:hidden"
+            >
+              <div class="h-[218px] bg-blue-100" />
+              <div class="space-y-4 p-6">
+                <p class="text-purple text-lg/6 font-semibold">{category}</p>
+                <p class="text-xl/8 font-medium text-blue-200">
+                  Blog post title, lorem ipsum dolor sit amet, consectetur
+                  adipiscing.
+                </p>
+                <p class="text-body text-base/8 font-medium">
+                  Author Name | Month dd, yyyy
+                </p>
+              </div>
+            </div>
+          );
+        })
+      }
+    </div>
+
+    <Button class="mx-auto" color="grey" kind="secondary">Load more</Button>
+  </div>
+</section>
+
+<script>
+  import Swiper from "swiper";
+
+  const swiper = new Swiper("#swiper-categories", {
+    slidesPerView: "auto",
+    spaceBetween: 35,
+    rewind: false,
+    loop: false,
+  });
+
+  const tabButtons = [
+    ...document.querySelectorAll(".filter-btn"),
+  ] as HTMLButtonElement[];
+
+  const posts = [
+    ...document.querySelectorAll(".blog-post"),
+  ] as HTMLDivElement[];
+
+  function handleTabClick(tab: HTMLButtonElement) {
+    const filterValue = tab.getAttribute("data-category-id");
+
+    if (!filterValue) return;
+
+    tabButtons.forEach((t) => t.setAttribute("data-active", "false"));
+
+    tab.setAttribute("data-active", "true");
+
+    posts.forEach((p) => {
+      const postCategory = p.getAttribute("data-category") ?? "";
+
+      p.setAttribute(
+        "data-shown",
+        String(filterValue === "All" ? true : filterValue === postCategory),
+      );
+    });
+  }
+
+  tabButtons.forEach((tab) =>
+    tab.addEventListener("click", () => handleTabClick(tab)),
+  );
+
+  handleTabClick(tabButtons[0]);
+
+  function getMaxPostsHeight() {
+    const SINGLE_POST_HEIGHT = posts[0].clientHeight;
+
+    const parentContainer = posts[0].parentElement;
+
+    if (parentContainer && SINGLE_POST_HEIGHT) {
+      parentContainer.style.setProperty(
+        "--max-h",
+        `calc(${3 * SINGLE_POST_HEIGHT}px + calc(var(--post-gap) * 2))`,
+      );
+    }
+  }
+
+  getMaxPostsHeight();
+</script>
