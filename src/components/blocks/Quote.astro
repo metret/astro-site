@@ -1,0 +1,26 @@
+---
+import { Image } from "astro:assets";
+
+interface Props {
+  quoteText: string;
+  photo: ImageMetadata;
+  name: string;
+  occupation: string;
+}
+const { quoteText, photo, name, occupation } = Astro.props;
+---
+
+<blockquote
+  class="mx-auto max-w-[80rem] rounded-[20px] bg-purple-200 p-6 text-white"
+>
+  <p class="text-lg/6 font-semibold md:text-[28px]/8">
+    &ldquo;{quoteText}&rdquo;
+  </p>
+  <footer class="mt-6 flex items-center gap-4">
+    <Image width={80} height={80} src={photo} alt={""} />
+    <div>
+      <p class="text-xl/6 font-medium">{name}</p>
+      <p class="text-base/6 font-medium md:text-lg/6">{occupation}</p>
+    </div>
+  </footer>
+</blockquote>
