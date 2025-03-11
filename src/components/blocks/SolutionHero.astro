@@ -1,0 +1,23 @@
+---
+const { title, description, image } = Astro.props;
+---
+
+<section class="relative py-8">
+  <div
+    class="mx-auto mt-16 max-w-[1280px] flex flex-row gap-16 px-8 items-center"
+  >
+    <div class="shrink">
+      <h1 class="mb-4 text-4xl font-bold text-black">
+        {title}
+      </h1>
+      <p class="mb-4 text-xl text-black">
+        {description}
+      </p>
+    </div>
+    <div class="grow">
+        <div class="block" style="width: 600px; height: 337px">
+            <img class="w-full h-full object-cover rounded-[20px] shadow" src={image}>
+        </div>
+    </div>
+  </div>
+</section>

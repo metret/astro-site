@@ -1,0 +1,80 @@
+---
+import Layout from "~/layouts/Layout.astro";
+import CustomerStories from "~/components/blocks/CustomerStories.astro";
+import SignUp from "~/components/blocks/SignUp.astro";
+import Testimonials from "~/components/blocks/Testimonials.astro";
+import SolutionHero from "~/components/blocks/SolutionHero.astro";
+import SolutionBanner from "~/components/blocks/SolutionBanner.astro";
+import SolutionLargeItem from "~/components/blocks/SolutionLargeItem.astro";
+import SolutionFeatureItem from "~/components/blocks/SolutionFeatureItem.astro";
+import "swiper/css";
+---
+
+<Layout>
+  
+  <SolutionHero
+    title="Collaborate with Design, Engineering and stakeholders in a single space."
+    description="Stop collecting feedback in comment, emails and message chains. Work with your team and stakeholders in a shared space to iterate and refine your concepts together."
+    image="https://placehold.co/600x337"
+  />
+
+  <SolutionBanner
+    title="From concept to delivery, Metro Retro helps design teams craft the full picture"
+  />
+
+  <SolutionLargeItem
+    mirror="false"
+    title="Collaborate in a single space to build better experiences"
+    description="Team members, stakeholders and guests can easily work together in a visual and accessible way to review and refine design decisions. Helping teams to uncover insights and make better decisions."
+    image="https://placehold.co/600x360"
+  />
+
+  <SolutionLargeItem
+    mirror="true"
+    title="Fully customizable canvas allows you to work your way."
+    description="Whether writing a brief, reviewing wireframes, or gathering feedback on final designs, Metro Retro's customization tools and templates let you work the way you want to."
+    image="https://placehold.co/600x360"
+  />
+
+  <SolutionLargeItem
+    mirror="false"
+    title="Task tracking directly from your board"
+    description="With our Jira Integration or Native Actions, you can create, manage, and track tasks directly from your boards. Never lose valuable insights again."
+    image="https://placehold.co/600x360"
+  />
+
+  <SolutionBanner
+    title="Everything you need to communicate without complexity"
+  />
+
+  <section class="relative z-[1] py-8">
+    <div class="mx-auto grid max-w-[1280px] grid-cols-2 gap-16 px-8">
+      <SolutionFeatureItem
+        title="Diagramming"
+        description="Design and refine your workflows, customer maps or product flows easily with our diagramming tools."
+        image="https://placehold.co/540x440"
+      />
+      <SolutionFeatureItem
+        title="Topics"
+        description="Easily group insights gathered during your collaborative session."
+        image="https://placehold.co/540x440"
+      />
+      <SolutionFeatureItem
+        title="Actions, Comments & Mentions"
+        description="Keep your team and project on track with easy communication and task tracking features."
+        image="https://placehold.co/540x440"
+      />
+      <SolutionFeatureItem
+        title="Activity Frames"
+        description="Keep focus during your meetings by using Activity frames to drive discussion and make sure everyone is on the same page."
+        image="https://placehold.co/540x440"
+      />
+    </div>
+  </section>
+
+  <CustomerStories />
+
+  <Testimonials />
+
+  <SignUp />
+</Layout>
