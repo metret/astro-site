@@ -1,14 +1,28 @@
 ---
 const { title, description, image, mirror } = Astro.props;
+import { Image } from "astro:assets";
+import { dynamicImportImage } from "~/utils";
+const loadedImage = await dynamicImportImage(image);
 ---
 
 <section class="relative z-[1] py-8">
-  <div class:list={[
-    "mx-auto grid max-w-[1280px] gap-16 px-8 items-center",
-    mirror === 'false' && "grid-cols-[auto_1fr]",
-    mirror === 'true' && "grid-cols-[1fr_auto]",
-  ]}>
-    {mirror === 'false' && <img class="h-full w-full rounded-[20px] object-cover shadow" src={image} />}
+  <div
+    class:list={[
+      "mx-auto grid max-w-[1280px] items-center gap-16 px-8",
+      mirror === "false" && "grid-cols-[auto_1fr]",
+      mirror === "true" && "grid-cols-[1fr_auto]",
+    ]}
+  >
+    {
+      mirror === "false" && (
+        <Image
+          class="h-full w-full rounded-[20px] object-cover shadow"
+          style="width: 600px; height: 360px;"
+          src={loadedImage}
+          alt={title}
+        />
+      )
+    }
     <div>
       <h3 class="mb-4 text-4xl font-bold text-black">
         {title}
@@ -17,6 +31,15 @@ const { title, description, image, mirror } = Astro.props;
         {description}
       </p>
     </div>
-    {mirror === 'true' && <img class="h-full w-full rounded-[20px] object-cover shadow" src={image} />}
+    {
+      mirror === "true" && (
+        <Image
+          class="h-full w-full rounded-[20px] object-cover shadow"
+          style="width: 600px; height: 360px;"
+          src={loadedImage}
+          alt={title}
+        />
+      )
+    }
   </div>
 </section>
