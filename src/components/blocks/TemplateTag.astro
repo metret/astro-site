@@ -1,0 +1,37 @@
+---
+import { Image } from "astro:assets";
+import { dynamicImportImage } from "~/utils";
+import { tint, shade } from "polished";
+
+interface Props extends astroHTML.JSX.HTMLAttributes {
+  name: string;
+  color: string;
+}
+
+const {
+  name,
+  color,
+  class: className,
+  "class:list": classList,
+  ...props
+} = Astro.props;
+
+const style = {
+  backgroundColor: tint(0.9, color),
+  borderColor: color,
+  borderWidth: "1px",
+  color,
+};
+---
+
+<div
+  {...props}
+  class:list={[
+    "text-md rounded-md px-2 py-1 font-medium",
+    classList,
+    className,
+  ]}
+  style={style}
+>
+  {name}
+</div>

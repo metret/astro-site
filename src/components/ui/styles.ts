@@ -16,8 +16,8 @@ export function buttonStyles({
       "px-12 h-16 text-xl/8": size === "large",
     },
     kind === "secondary" && {
-      "border-grey-300 text-grey-300 hover:bg-blue hover:border-blue hover:text-white":
-        color === "grey",
+      "border-gray-300 text-gray-300 hover:bg-blue hover:border-blue hover:text-white":
+        color === "gray",
       "hover:bg-blue text-blue border-blue hover:text-white": color === "blue",
       "text-green border-green hover:bg-green hover:text-white":
         color === "green",
@@ -27,7 +27,8 @@ export function buttonStyles({
         color === "orange",
     },
     (kind === "secondary" || size === "default") &&
-      "px-6 h-[46px] text-lg leading-4",
+    "px-6 h-[46px] text-lg leading-4",
     kind === "secondary" && "border-2",
+    "max-w-full"
   );
 }

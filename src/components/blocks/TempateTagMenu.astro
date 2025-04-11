@@ -1,0 +1,54 @@
+---
+import BlogFeed from "~/components/blocks/BlogFeed.astro";
+import Newsletter from "~/components/blocks/Newsletter.astro";
+import Statement from "~/components/blocks/Statement.astro";
+import TemplateCard from "~/components/blocks/TemplateCard.astro";
+import Dots from "~/components/Dots.astro";
+import Layout from "~/layouts/Layout.astro";
+import keyBy from "lodash/keyBy";
+import { getCollection } from "astro:content";
+import { tint } from "polished";
+type Props = {
+  active: string;
+};
+
+const { active } = Astro.props;
+
+const templates = await getCollection("templates");
+
+const tags = Object.values(
+  keyBy(
+    templates.flatMap((tmpl: any) => tmpl.data.tags),
+    "name",
+  ),
+).sort((a, b) => a.sort - b.sort);
+---
+
+<section class="mx-auto -mt-16 max-w-[45rem] px-4 py-16">
+  <div class="flex flex-wrap justify-center gap-2">
+    {
+      tags.map((tag: any) => (
+        <a
+          href={
+            tag.name === active ? "/templates" : `/templates/tag/${tag.name}`
+          }
+        >
+          <div
+            class:list={[
+              "font-text-gray-300 rounded-lg border-2 border-gray-200 px-4 py-2",
+              tag.name === active ? "text-black" : "text-gray-300",
+            ]}
+            style={{
+              backgroundColor: tag.name === active ? tint(0.9, tag.color) : "",
+              borderColor: tag.name === active ? tag.color : "",
+              color: tag.name === active ? tag.color : "",
+              fontWeight: tag.name === active ? "500" : "normal",
+            }}
+          >
+            {tag.label}
+          </div>
+        </a>
+      ))
+    }
+  </div>
+</section>

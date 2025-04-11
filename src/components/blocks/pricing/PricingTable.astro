@@ -90,13 +90,13 @@ const categories: Category[] = [
     <caption class="mb-6 text-[28px]/8 font-semibold text-black"
       >Feature Comparison</caption
     >
-    <thead class="divide-grey-200 divide-y">
+    <thead class="divide-y divide-gray-200">
       <tr>
         {
           headers.map((header, i) => (
             <th
               class:list={[
-                "first:text-body first:border-grey-200 border border-r-0 p-4 text-[28px]/12 font-semibold first:text-left",
+                "first:text-body border border-r-0 p-4 text-[28px]/12 font-semibold first:border-gray-200 first:text-left",
                 i > 0 && "border-current last:border-r",
                 i > 0 &&
                   [
@@ -114,7 +114,7 @@ const categories: Category[] = [
     </thead>
     <tbody class="text-body text-center">
       <tr
-        class="text-body *:border-grey-200 *:w-1/4 *:border *:border-r-0 *:border-b-0 *:p-3 *:last:border-r"
+        class="text-body *:w-1/4 *:border *:border-r-0 *:border-b-0 *:border-gray-200 *:p-3 *:last:border-r"
       >
         <td class="px-4 text-left">Best for</td>
         {descriptions.map((description) => <td>{description}</td>)}

@@ -1,0 +1,99 @@
+---
+import Layout from "~/layouts/Layout.astro";
+import CustomerStories from "~/components/blocks/CustomerStories.astro";
+import SignUp from "~/components/blocks/SignUp.astro";
+import Testimonials from "~/components/blocks/Testimonials.astro";
+import SolutionHero from "~/components/blocks/SolutionHero.astro";
+import SolutionBanner from "~/components/blocks/SolutionBanner.astro";
+import SolutionLargeItem from "~/components/blocks/SolutionLargeItem.astro";
+import SolutionFeatureItem from "~/components/blocks/SolutionFeatureItem.astro";
+import "swiper/css";
+---
+
+<Layout>
+  <SolutionHero
+    title="Align your teams and deliver great software with Metro Retro"
+    description="Every team is different. We believe the unique personalities of teams should be nurtured, not ignored. Whether they are a Scrum Team, or a Them Team... Metro Retro lets you craft your patterns & processes around your team. All while putting a smile on their faces."
+    image="https://placehold.co/600x337"
+  />
+
+  <SolutionBanner
+    title="From conception to execution, Metro Retro helps teams at every stage of the development lifecycle"
+  />
+
+  <SolutionLargeItem
+    mirror="false"
+    title="Keep everyone on the same track"
+    description="Communicating direction is hard. Metro Retro makes it easy. Instantly usable templates for roadmapping, either timeline based or Now, Next Later, based. Plus the tools to create and communicate with ease."
+    image="https://placehold.co/600x360"
+  />
+
+  <SolutionLargeItem
+    mirror="true"
+    title="Save time with our automated estimation & planning templates"
+    description="From Fibonacci Estimation to Sprint Planning, save time and manual work with our automated templates. Vote together then have story points allocated in Jira automatically. Plan your sprint together by just dragging and dropping who's doing what. Keep track of allocation and kick off your sprint together."
+    image="https://placehold.co/600x360"
+  />
+
+  <SolutionLargeItem
+    mirror="false"
+    title="Retrospectives that drive communication and continuous improvement"
+    description="Active engagement from your team helps to uncover insights when reviewing past work. Metro Retro templates keep your meetings fresh and encourage participation."
+    image="https://placehold.co/600x360"
+  />
+
+  <SolutionBanner title="Tools built to make you feel like a super hero." />
+
+  <section class="relative z-[1] py-8">
+    <div class="mx-auto grid max-w-[1280px] grid-cols-2 gap-16 px-8">
+      <SolutionFeatureItem
+        title="Easy to use Jira Integration"
+        description="Create & Edit Jira tickets directly in your boards. Maybe never open Jira again? Wouldn't that be nice..."
+        image="https://placehold.co/540x440"
+      />
+      <SolutionFeatureItem
+        title="Timelines & Roadmap Tools"
+        description="Don't lay out your roadmap manually, just use our Timeline Frame to set out the dates and drag and drop cards on as you need."
+        image="https://placehold.co/540x440"
+      />
+      <SolutionFeatureItem
+        title="Topic Clustering"
+        description="Dump ideas and then make sense of them with our dynamic and easy Topic clustering function."
+        image="https://placehold.co/540x440"
+      />
+      <SolutionFeatureItem
+        title="Diagramming"
+        description="Design and refine your workflows, customer maps or product flows easily with our diagramming tools."
+        image="https://placehold.co/540x440"
+      />
+    </div>
+  </section>
+
+  <SolutionBanner
+    title="Try these perfect Templates for Engineering Manager's"
+  />
+
+  <section class="relative z-[1] py-8">
+    <div class="mx-auto grid max-w-[1280px] grid-cols-3 gap-16 px-8">
+      <SolutionFeatureItem
+        title="Roadmap Template"
+        description="Doesn't exist yet but I want to make one of our roadmap."
+        image="https://placehold.co/540x440"
+      />
+      <SolutionFeatureItem
+        title="Fib Estimation"
+        description="Use Fibonacci numbers to estimate and prioritize tasks effectively."
+        image="https://placehold.co/540x440"
+      />
+      <SolutionFeatureItem
+        title="Team Charter Template"
+        description="Team Charter Template (don't built yet)."
+        image="https://placehold.co/540x440"
+      />
+    </div>
+  </section>
+
+  <CustomerStories />
+
+  <Testimonials />
+</Layout>

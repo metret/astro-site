@@ -1,0 +1,101 @@
+---
+import Layout from "~/layouts/Layout.astro";
+import CustomerStories from "~/components/blocks/CustomerStories.astro";
+import SignUp from "~/components/blocks/SignUp.astro";
+import Testimonials from "~/components/blocks/Testimonials.astro";
+import SolutionHero from "~/components/blocks/SolutionHero.astro";
+import SolutionBanner from "~/components/blocks/SolutionBanner.astro";
+import SolutionLargeItem from "~/components/blocks/SolutionLargeItem.astro";
+import SolutionFeatureItem from "~/components/blocks/SolutionFeatureItem.astro";
+import "swiper/css";
+---
+
+<Layout>
+  <SolutionHero
+    title="See the full picture of your project in a single space."
+    description="Avoid context switching and plan your entire project from concept to delivery in a single shared space for improved efficiency and coordination."
+    image="https://placehold.co/600x337"
+  />
+
+  <SolutionBanner
+    title="Plan, review, discuss and action your projects from a single source of truth"
+  />
+
+  <SolutionLargeItem
+    mirror="false"
+    title="A visual space for shared understanding."
+    description="Help your teams and stakeholders understand complex and abstract concepts easily in a visual platform which promotes engagement and makes ideas more tangible."
+    image="https://placehold.co/600x360"
+  />
+
+  <SolutionLargeItem
+    mirror="true"
+    title="Prioritize what matters and identify potential risks early"
+    description="Open and unbias discussion, voting, topic grouping and built-in estimation templates help you to focus on the work that matters rather than setting up complex processes to manage decision making."
+    image="https://placehold.co/600x360"
+  />
+
+  <SolutionLargeItem
+    mirror="false"
+    title="Track outcomes from your meetings to share progress insights"
+    description="Set and track Actions across your teams as they are raised in your meetings to ensure alignment, transparency and progress across your projects."
+    image="https://placehold.co/600x360"
+  />
+
+  <SolutionBanner
+    title="Increase engagement with your team and plan the work that matters most"
+  />
+
+  <section class="relative z-[1] py-8">
+    <div class="mx-auto grid max-w-[1280px] grid-cols-2 gap-16 px-8">
+      <SolutionFeatureItem
+        title="Diagramming"
+        description="Design and refine your workflows, customer maps or product flows easily with our diagramming tools."
+        image="https://placehold.co/540x440"
+      />
+      <SolutionFeatureItem
+        title="CSV Data Import"
+        description="Bring data and insights directly from external platforms to review everything in a single shared space."
+        image="https://placehold.co/540x440"
+      />
+      <SolutionFeatureItem
+        title="Estimate effectively"
+        description="Work together to estimate size and scope of stories and tasks with prebuilt templates or tools like voting, polls, topic groups."
+        image="https://placehold.co/540x440"
+      />
+      <SolutionFeatureItem
+        title="Timelines & Roadmap Tools"
+        description="Don't lay out your roadmap manually, just use our Timeline Frame to set out the dates and drag and drop cards on as you need."
+        image="https://placehold.co/540x440"
+      />
+    </div>
+  </section>
+
+  <SolutionBanner
+    title="Metro Retro is a space for the whole team, no matter how you work."
+  />
+
+  <section class="relative z-[1] py-8">
+    <div class="mx-auto grid max-w-[1280px] grid-cols-3 gap-16 px-8">
+      <SolutionFeatureItem
+        title="Good, Bad, Stop, Start"
+        description="Reflect on past work and plan improvements with this retrospective template."
+        image="https://placehold.co/540x440"
+      />
+      <SolutionFeatureItem
+        title="Sailboat"
+        description="Use the sailboat retrospective to identify what propels your team forward and what holds it back."
+        image="https://placehold.co/540x440"
+      />
+      <SolutionFeatureItem
+        title="Ishakawa Diagram"
+        description="Analyze the root causes of problems with the Ishakawa (fishbone) diagram."
+        image="https://placehold.co/540x440"
+      />
+    </div>
+  </section>
+
+  <CustomerStories />
+
+  <Testimonials />
+</Layout>

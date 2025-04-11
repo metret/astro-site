@@ -2,7 +2,7 @@
 import LinkButton from "../ui/LinkButton.astro";
 ---
 
-<section class="bg-black px-4 py-16 text-white md:py-[74px]">
+<section class="mt-16 bg-black px-4 py-16 text-white md:py-[74px]">
   <div
     class="mx-auto grid grid-cols-1 gap-12 lg:max-w-[1080px] lg:grid-cols-[548px_1fr] lg:gap-[188px]"
   >
@@ -12,9 +12,12 @@ import LinkButton from "../ui/LinkButton.astro";
       </p>
     </div>
     <div class="space-y-6">
-      <LinkButton size="large">Sign up for free</LinkButton>
-      <p class="text-lg/6 font-semibold">
-        Interested in Metro Retro for your organization? <a href="#book-a-demo"
+      <LinkButton href="/account/register" size="large"
+        >Sign up for free</LinkButton
+      >
+      <p class="text-lg/6 font-medium">
+        Interested in Metro Retro for your organization? <a
+          href="https://calendly.com/jamie-metroretro/"
           ><strong>Book a demo</strong></a
         >.
       </p>

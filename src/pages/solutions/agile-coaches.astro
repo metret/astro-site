@@ -1,0 +1,77 @@
+---
+import Layout from "~/layouts/Layout.astro";
+import CustomerStories from "~/components/blocks/CustomerStories.astro";
+import SignUp from "~/components/blocks/SignUp.astro";
+import Testimonials from "~/components/blocks/Testimonials.astro";
+import SolutionHero from "~/components/blocks/SolutionHero.astro";
+import SolutionBanner from "~/components/blocks/SolutionBanner.astro";
+import SolutionLargeItem from "~/components/blocks/SolutionLargeItem.astro";
+import SolutionFeatureItem from "~/components/blocks/SolutionFeatureItem.astro";
+import "swiper/css";
+---
+
+<Layout>
+  <SolutionHero
+    title="Deliver value to your teams with a product made for Agile."
+    description="Every organization is different, Metro Retro adapts to the way you and your team want to work while providing all the tools necessary to create and maintain a culture of collaboration."
+    image="https://placehold.co/600x337"
+  />
+
+  <SolutionBanner
+    title="Drive continuous improvement and help teams achieve the right goals with Metro Retro"
+  />
+
+  <SolutionLargeItem
+    mirror="false"
+    title="Build the workshop and frameworks your team needs"
+    description="Combine pre-built board templates or customize your own. However you or your team work, Metro Retro is the flexible collaboration space for any session."
+    image="https://placehold.co/600x360"
+  />
+
+  <SolutionLargeItem
+    mirror="true"
+    title="Monitor progress, remove blockers and plan ahead across teams."
+    description="Whether you use Jira or our native action items, track outcomes from your meetings and review and refine how your teams work to remove obstacles and promote continuous improvement."
+    image="https://placehold.co/600x360"
+  />
+
+  <SolutionLargeItem
+    mirror="false"
+    title="A visual space for shared understanding."
+    description="Help your teams and stakeholders understand complex and abstract concepts easily in a visual platform which promotes engagement and makes ideas more tangible."
+    image="https://placehold.co/600x360"
+  />
+
+  <SolutionBanner
+    title="Guide teams to deliver value and build a culture which encourages participation."
+  />
+
+  <section class="relative z-[1] py-8">
+    <div class="mx-auto grid max-w-[1280px] grid-cols-2 gap-16 px-8">
+      <SolutionFeatureItem
+        title="Ishakawa Diagram"
+        description="Try these perfect Templates for Agile Teams"
+        image="https://placehold.co/540x440"
+      />
+      <SolutionFeatureItem
+        title="T-Shirt Estimation"
+        description="Try these perfect Templates for Agile Teams"
+        image="https://placehold.co/540x440"
+      />
+      <SolutionFeatureItem
+        title="Definition of Done"
+        description="Try these perfect Templates for Agile Teams"
+        image="https://placehold.co/540x440"
+      />
+      <SolutionFeatureItem
+        title="Social Proof"
+        description="Optional but a common pattern to display customer logos and 'bold' statement of usage/popularity of the platform"
+        image="https://placehold.co/540x440"
+      />
+    </div>
+  </section>
+
+  <CustomerStories />
+
+  <Testimonials />
+</Layout>

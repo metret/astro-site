@@ -4,22 +4,34 @@ import Heading from "~/components/ui/Heading.astro";
 import Subheading from "~/components/ui/Subheading.astro";
 import reviews from "~/assets/images/reviews-embed.png";
 import { Image } from "astro:assets";
+
+type Prop = {
+  count?: number;
+};
+
+const { count = 6 } = Astro.props;
 ---
 
-<section class="p-16 max-md:px-4">
+<section class="my-16 max-md:px-4">
   <Heading class="mb-6">Loved by product teams everywhere</Heading>
   <Subheading class="mb-6 md:mb-16">
     See what the teams who enjoy Metro Retro every month are saying
   </Subheading>
-
-  <div class="mx-auto mb-6 max-w-[1114px]">
-    <Image src={reviews} alt="" />
+  <div class="mx-auto mb-6 max-w-[80rem]">
+    <script
+      type="text/javascript"
+      src="https://testimonial.to/js/iframeResizer.min.js"></script>
+    <iframe
+      id="testimonialto-wall-of-love-for-testimonial-light"
+      src={`https://embed-v2.testimonial.to/w/metro-retro?theme=light&card=base&loadMore=on&initialCount=${count}&hideDate=on&hideSource&tag=all`}
+      frameborder="0"
+      scrolling="no"
+      width="100%"></iframe>
+    <script type="text/javascript">
+      iFrameResize(
+        { log: false, checkOrigin: false },
+        "#testimonialto-wall-of-love-for-testimonial-light",
+      );
+    </script>
   </div>
-
-  <LinkButton
-    kind="secondary"
-    color="grey"
-    class="mx-auto"
-    href="#load-more-reviews">Load more</LinkButton
-  >
 </section>

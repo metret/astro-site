@@ -8,8 +8,8 @@ BACKUP_NAME="astro-$(date +%Y%m%d_%H%M%S).tar.gz"
 echo "Starting..."
 
 # Create backup of remote directory
-echo "Creating backup of remote directory..."
-ssh $REMOTE_HOST "if [ -d $REMOTE_DIR ]; then tar -czf /tmp/$BACKUP_NAME -C $REMOTE_DIR . && mv /tmp/$BACKUP_NAME $REMOTE_DIR/../$BACKUP_NAME; fi"
+# echo "Creating backup of remote directory..."
+# ssh $REMOTE_HOST "if [ -d $REMOTE_DIR ]; then tar -czf /tmp/$BACKUP_NAME -C $REMOTE_DIR . && mv /tmp/$BACKUP_NAME $REMOTE_DIR/../$BACKUP_NAME; fi"
 
 # Create tarball of local dist folder
 echo "Creating tarball of local dist folder..."
@@ -32,4 +32,4 @@ echo "Removing local tarball..."
 rm $TARBALL_NAME
 
 echo "Process completed successfully."
-echo "Backup created at: $REMOTE_DIR/../$BACKUP_NAME"
+# echo "Backup created at: $REMOTE_DIR/../$BACKUP_NAME"

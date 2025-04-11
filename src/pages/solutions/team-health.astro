@@ -1,0 +1,70 @@
+---
+import Layout from "~/layouts/Layout.astro";
+import CustomerStories from "~/components/blocks/CustomerStories.astro";
+import SignUp from "~/components/blocks/SignUp.astro";
+import Testimonials from "~/components/blocks/Testimonials.astro";
+import SolutionHero from "~/components/blocks/SolutionHero.astro";
+import SolutionBanner from "~/components/blocks/SolutionBanner.astro";
+import SolutionLargeItem from "~/components/blocks/SolutionLargeItem.astro";
+import SolutionFeatureItem from "~/components/blocks/SolutionFeatureItem.astro";
+import "swiper/css";
+---
+
+<Layout>
+  <SolutionHero
+    title="Improve productivity and build a team based on trust and psychological safety"
+    description="Avoid only having a few voices in your meetings. Positive team health promotes collaboration and creates an environment where knowledge sharing becomes natural rather than forced."
+    image="https://placehold.co/600x337"
+  />
+
+  <SolutionBanner
+    title="Give everyone in your team a voice and celebrate achievements together with Metro Retro"
+  />
+
+  <SolutionLargeItem
+    mirror="false"
+    title="Break the ice and energize your team"
+    description="Metro Retro is packed full of pre-built templates, one of those areas being Ice Breakers and Energizers. As a software team we understand the pain of staying enthusiastic for every meeting. It's why we've designed fun, light, kick-off templates to help get teams in the mood for collaboration."
+    image="https://placehold.co/600x360"
+  />
+
+  <SolutionLargeItem
+    mirror="true"
+    title="A space designed to promote expression"
+    description="Whether it's setting your own handwriting style, putting on a hat, keeping your sticky notes private or just throwing confetti every 5 minutes, Metro Retro understands that the best teams have mixed personalities and we don't try to put everyone in the same box."
+    image="https://placehold.co/600x360"
+  />
+
+  <SolutionLargeItem
+    mirror="false"
+    title="Encourage open communication and collaboration with Metro Retro"
+    description="Remove bias and promote a safe space for input by allowing team members to share their input anonymously."
+    image="https://placehold.co/600x360"
+  />
+
+  <SolutionBanner title="Try these perfect Team Health Templates" />
+
+  <section class="relative z-[1] py-8">
+    <div class="mx-auto grid max-w-[1280px] grid-cols-3 gap-16 px-8">
+      <SolutionFeatureItem
+        title="Explorer, Shopper, Vacationer, Prisoner"
+        description="Explore different team dynamics and roles with this engaging template."
+        image="https://placehold.co/540x440"
+      />
+      <SolutionFeatureItem
+        title="Team Mood Icebreaker"
+        description="Kick off your meetings with a fun and engaging icebreaker to set the mood."
+        image="https://placehold.co/540x440"
+      />
+      <SolutionFeatureItem
+        title="Two Truths, One Lie"
+        description="Get to know your team better with this classic icebreaker game."
+        image="https://placehold.co/540x440"
+      />
+    </div>
+  </section>
+
+  <CustomerStories />
+
+  <Testimonials />
+</Layout>

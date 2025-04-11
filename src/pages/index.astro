@@ -19,13 +19,6 @@ import Dots from "~/components/Dots.astro";
 <Layout>
   <Dots />
 
-  <AnnouncementBanner slot="banner">
-    <p>
-      Introducing SEB, Metro Retro’s ai board helper - Read the full guide here
-      -&gt;
-    </p>
-  </AnnouncementBanner>
-
   <Hero />
 
   <Collaborate />
@@ -40,13 +33,9 @@ import Dots from "~/components/Dots.astro";
 
   <FAQ />
 
-  <TryMetro />
-
-  <CustomerStories />
+  <CustomerStories include={["eat-club", "ryd", "lucca"]} />
 
   <Guides />
 
   <Testimonials />
-
-  <SignUp />
 </Layout>

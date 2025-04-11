@@ -1,0 +1,19 @@
+---
+import BlogFeed from "~/components/blocks/BlogFeed.astro";
+import BlogHero from "~/components/blocks/BlogHero.astro";
+import Newsletter from "~/components/blocks/Newsletter.astro";
+import SignUp from "~/components/blocks/SignUp.astro";
+import Dots from "~/components/Dots.astro";
+import Wibble from "~/components/ui/Wibble.astro";
+import Layout from "~/layouts/Layout.astro";
+---
+
+<Layout title="Blogs">
+  <Dots />
+  <BlogHero />
+  <div class="flex w-full items-center justify-center py-8 md:hidden">
+    <Wibble />
+  </div>
+  <BlogFeed tag="all" />
+  <Newsletter />
+</Layout>

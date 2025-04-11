@@ -1,0 +1,70 @@
+---
+import Layout from "~/layouts/Layout.astro";
+import CustomerStories from "~/components/blocks/CustomerStories.astro";
+import SignUp from "~/components/blocks/SignUp.astro";
+import Testimonials from "~/components/blocks/Testimonials.astro";
+import SolutionHero from "~/components/blocks/SolutionHero.astro";
+import SolutionBanner from "~/components/blocks/SolutionBanner.astro";
+import SolutionLargeItem from "~/components/blocks/SolutionLargeItem.astro";
+import SolutionFeatureItem from "~/components/blocks/SolutionFeatureItem.astro";
+import "swiper/css";
+---
+
+<Layout>
+  <SolutionHero
+    title="Effective planning builds structure, reduces risk and keeps your team focused on what matters."
+    description="Don't just focus on what you have done, Metro Retro helps your team plan the future of your organization, reducing costly rework and enhancing team coordination on what comes next."
+    image="https://placehold.co/600x337"
+  />
+
+  <SolutionBanner
+    title="Align your team and business goals with focused and cross-team collaboration in Metro Retro"
+  />
+
+  <SolutionLargeItem
+    mirror="false"
+    title="Prioritize the work ahead with clarity"
+    description="A single space for backlog refinement, sprint review and planning means no more context switching. Keeping your teams focused on priority goals and the product vision."
+    image="https://placehold.co/600x360"
+  />
+
+  <SolutionLargeItem
+    mirror="true"
+    title="Bring stakeholders together in a shared space"
+    description="Easily invite team members, guests and external stakeholders to your boards to build cross-team alignment. Metro Retro's intuitive experience means there is no need for extensive onboarding."
+    image="https://placehold.co/600x360"
+  />
+
+  <SolutionLargeItem
+    mirror="false"
+    title="Tools built for shared understanding and prioritizing your future"
+    description="Keep your team and project on track with easy communication and task tracking features."
+    image="https://placehold.co/600x360"
+  />
+
+  <SolutionBanner title="Try these perfect Templates for Planning Ahead" />
+
+  <section class="relative z-[1] py-8">
+    <div class="mx-auto grid max-w-[1280px] grid-cols-3 gap-16 px-8">
+      <SolutionFeatureItem
+        title="Now-Next-Later Roadmap"
+        description="Plan your product's journey with a clear timeline."
+        image="https://placehold.co/540x440"
+      />
+      <SolutionFeatureItem
+        title="RAID Analysis"
+        description="Identify and manage risks, assumptions, issues, and dependencies effectively."
+        image="https://placehold.co/540x440"
+      />
+      <SolutionFeatureItem
+        title="On The Radar"
+        description="Keep track of important tasks and projects that are on the horizon."
+        image="https://placehold.co/540x440"
+      />
+    </div>
+  </section>
+
+  <CustomerStories />
+
+  <Testimonials />
+</Layout>

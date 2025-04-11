@@ -1,40 +1,57 @@
 ---
-import { Image } from "astro:assets";
 import Heading from "../ui/Heading.astro";
 import Pill from "../ui/Pill.astro";
-import rydWhite from "~/assets/images/logos/ryd_white.png";
 import LinkButton from "../ui/LinkButton.astro";
+import CustomerStoryItem from "./CustomerStoryItem.astro";
+import slugify from "slugify";
+import { getCollection, render } from "astro:content";
+
+type Props = {
+  include?: string[];
+  exclude?: string[];
+  limit?: number;
+};
+
+const { include, exclude, limit } = Astro.props as Props;
+
+const isIncluded = (id: string) => {
+  if (!include?.length) return true;
+  return !!include.find((x) => id.startsWith(x));
+};
+
+const isExcluded = (id: string) => {
+  if (!exclude?.length) return false;
+  return !!exclude.find((x) => id.startsWith(x));
+};
+
+const articles = await getCollection("customers")
+  .then((x) => x.toSorted((a, b) => a.data.sort - b.data.sort))
+  .then((x) => x.filter((a) => isIncluded(a.id) && !isExcluded(a.id)))
+  .then((x) => x.slice(0, limit ?? 3));
 ---
 
 <section class="px-4 pt-[51px] pb-[70px]">
   <Pill>Customer stories</Pill>
-  <Heading class="mt-6">Discover how these teams use Metro Retro </Heading>
+  <h2 class="mt-6 text-center text-2xl font-semibold text-black md:text-3xl">
+    Discover how these teams use Metro Retro
+  </h2>
 
   <div
     class="mx-auto my-6 grid max-w-[1062px] grid-cols-1 gap-4 md:my-12 md:grid-cols-2 md:gap-6 lg:grid-cols-3"
   >
     {
-      Array.from({ length: 3 }).map((_, i) => (
-        <div>
-          <div
-            class:list={[
-              "flex aspect-[1.05] w-full items-center justify-center rounded-[10px]",
-              ["bg-blue", "bg-purple", "bg-orange"][i % 3],
-            ]}
-          >
-            <Image src={rydWhite} alt="" />
-          </div>
-          <div class="px-4 py-3">
-            <p class="text-body text-lg/6 font-medium">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor.
-            </p>
-          </div>
-        </div>
+      articles.map((x, i) => (
+        <a href={`/customers/${slugify(x.id)}`}>
+          <CustomerStoryItem
+            color={x.data.color}
+            image={x.data.logo}
+            description={x.data.headerInfo}
+          />
+        </a>
       ))
     }
   </div>
-  <LinkButton class="mx-auto" href="#read-more-customer-stories"
+  <LinkButton class="mx-auto" href="/customers"
     >Read more customer stories</LinkButton
   >
 </section>

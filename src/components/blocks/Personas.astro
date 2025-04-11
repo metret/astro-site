@@ -4,14 +4,14 @@ import Pill from "~/components/ui/Pill.astro";
 import Subheading from "~/components/ui/Subheading.astro";
 
 const roles = [
-  "Scrum Masters",
-  "Engineers",
-  "Agile Coaches",
-  "Delivery Managers",
-  "Product Owners",
-  "Product Designers",
-  "Engineering Managers",
-  "Consultants",
+  { name: "Scrum Masters", url: "/solutions/scrum-masters" },
+  { name: "Developers", url: "/solutions/developers" },
+  { name: "Product Owners", url: "/solutions/product-owners" },
+  { name: "Engineering Managers", url: "/solutions/engineering-managers" },
+  { name: "Agile Coaches", url: "/solutions/agile-coaches" },
+  { name: "Delivery Managers", url: "/solutions/delivery-managers" },
+  { name: "Product Designers", url: "/solutions/product-designers" },
+  { name: "Consultants", url: "/solutions/team-alignment" }, // Linking to team-alignment as a fallback
 ];
 ---
 
@@ -33,9 +33,12 @@ const roles = [
   >
     {
       roles.map((role) => (
-        <span class="border-grey-200 hover:text-orange hover:border-orange rounded-[100px] border px-12 py-4 text-center text-[28px]/[42px] font-semibold text-black transition-colors hover:bg-orange-100 md:py-6 md:text-4xl/[42px]">
-          {role}
-        </span>
+        <a
+          href={role.url}
+          class="hover:text-orange hover:border-orange rounded-[100px] border border-gray-200 px-12 py-4 text-center text-[28px]/[42px] font-semibold text-black hover:bg-orange-100 md:py-6 md:text-4xl/[42px]"
+        >
+          {role.name}
+        </a>
       ))
     }
   </div>

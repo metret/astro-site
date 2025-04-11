@@ -11,16 +11,18 @@ const { quoteText, photo, name, occupation } = Astro.props;
 ---
 
 <blockquote
-  class="mx-auto max-w-[80rem] rounded-[20px] bg-purple-200 p-6 text-white"
+  class="mx-auto max-w-[80rem] rounded-[20px] bg-blue-100 px-12 py-6 text-gray-300"
 >
-  <p class="text-lg/6 font-semibold md:text-[28px]/8">
+  <p class="text-lg font-medium md:text-2xl">
     &ldquo;{quoteText}&rdquo;
   </p>
   <footer class="mt-6 flex items-center gap-4">
-    <Image width={80} height={80} src={photo} alt={""} />
+    <Image class="h-16 w-16 rounded-full" src={photo} alt={""} />
     <div>
-      <p class="text-xl/6 font-medium">{name}</p>
-      <p class="text-base/6 font-medium md:text-lg/6">{occupation}</p>
+      <p class="text-lg/6 font-medium">{name}</p>
+      <p class="md:text-md/6 text-base/6 font-medium opacity-70">
+        {occupation}
+      </p>
     </div>
   </footer>
 </blockquote>

@@ -1,9 +1,14 @@
 ---
+import { Image } from "astro:assets";
+import { dynamicImportImage } from "~/utils";
+
 interface Props extends astroHTML.JSX.HTMLAttributes {
   category: string;
   title: string;
   author: string;
-  date: string;
+  date: Date;
+  image: string;
+  href: string;
 }
 
 const {
@@ -11,30 +16,34 @@ const {
   author,
   date,
   title,
+  image,
+  href,
   class: className,
   "class:list": classList,
   ...props
 } = Astro.props;
+
+const loadedImage = await dynamicImportImage(image);
 ---
 
 <div
   {...props}
   class:list={[
-    "blog-post overflow-hidden rounded-[10px] bg-white drop-shadow-[0_4px_10px_rgba(98,116,150,0.1)]",
+    "blog-post shadow-mr overflow-hidden rounded-xl border-1 border-gray-200 bg-white",
     classList,
     className,
   ]}
 >
-  <div class="h-[218px] bg-blue-100"></div>
-  <div class="space-y-4 p-6">
-    <p class="text-purple text-lg/6 font-semibold">{category}</p>
-    <p class="text-xl/8 font-medium text-blue-200">
-      <a href="/blogs/detail">
+  <a href={href}>
+    <Image class="object-cover" src={loadedImage} alt={title} />
+    <div class="space-y-4 p-6">
+      <p class="text-purple text-md/6 font-semibold">{category}</p>
+      <p class="text-xl/8 font-semibold text-blue-200">
         {title}
-      </a>
-    </p>
-    <p class="text-body text-base/8 font-medium">
-      {author} | {date}
-    </p>
-  </div>
+      </p>
+      <p class="text-body gap-2 text-sm font-medium opacity-70">
+        {author} | {date.toLocaleDateString()}
+      </p>
+    </div>
+  </a>
 </div>

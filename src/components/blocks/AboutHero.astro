@@ -1,6 +1,7 @@
 ---
 import { Image } from "astro:assets";
 import aboutHeroImg from "~/assets/images/about-hero.png";
+import Wibble from "../ui/Wibble.astro";
 ---
 
 <section class="relative z-[1] px-4 py-12 md:py-16">
@@ -22,31 +23,7 @@ import aboutHeroImg from "~/assets/images/about-hero.png";
         importantly—fun teamwork. Wherever your team works, we’re here to help
         you thrive.
       </p>
-      <svg
-        width="42"
-        height="6"
-        viewBox="0 0 42 6"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <g clip-path="url(#clip0_178_1702)">
-          <path
-            d="M41 4.53846C38.14 4.53846 38.14 1.46153 35.29 1.46153C32.44 1.46153 32.43 4.53846 29.58 4.53845C26.73 4.53845 26.72 1.46153 23.87 1.46153C21.02 1.46153 21.01 4.53845 18.16 4.53845C15.31 4.53845 15.3 1.46153 12.44 1.46153C9.58 1.46153 9.58 4.53845 6.72 4.53845C3.86 4.53845 3.86 1.46153 1 1.46153"
-            stroke="#D2E1EC"
-            stroke-width="2"
-            stroke-miterlimit="10"
-            stroke-linecap="round"></path>
-        </g>
-        <defs>
-          <clipPath id="clip0_178_1702">
-            <rect
-              width="5"
-              height="42"
-              fill="white"
-              transform="translate(42 0.5) rotate(90)"></rect>
-          </clipPath>
-        </defs>
-      </svg>
+      <Wibble />
     </div>
     <div>
       <Image src={aboutHeroImg} alt="" />

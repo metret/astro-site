@@ -1,0 +1,59 @@
+---
+import Layout from "~/layouts/Layout.astro";
+import AboutHero from "~/components/blocks/AboutHero.astro";
+import AnnouncementBanner from "~/components/blocks/AnnouncementBanner.astro";
+import Collaborate from "~/components/blocks/Collaborate.astro";
+import CustomerLogos from "~/components/blocks/CustomerLogos.astro";
+import CustomerStories from "~/components/blocks/CustomerStories.astro";
+import Emoji from "~/components/blocks/Emoji.astro";
+import FAQ from "~/components/blocks/FAQ.astro";
+import Faq2 from "~/components/blocks/Faq2.astro";
+import Focus from "~/components/blocks/Focus.astro";
+import Guides from "~/components/blocks/Guides.astro";
+import Hero from "~/components/blocks/Hero.astro";
+import Newsletter from "~/components/blocks/Newsletter.astro";
+import OurStory from "~/components/blocks/OurStory.astro";
+import Personas from "~/components/blocks/Personas.astro";
+import Quote from "~/components/blocks/Quote.astro";
+import SignUp from "~/components/blocks/SignUp.astro";
+import Statement from "~/components/blocks/Statement.astro";
+import TemplateLink from "~/components/blocks/TemplateLink.astro";
+import Testimonials from "~/components/blocks/Testimonials.astro";
+import TextHero from "~/components/blocks/TextHero.astro";
+import TryMetro from "~/components/blocks/TryMetro.astro";
+import Values from "~/components/blocks/Values.astro";
+import WallOfLove from "~/components/blocks/WallOfLove.astro";
+import bernhardPhoto from "~/assets/images/avatars/bernhard-ryd.png";
+import UsageStatement from "~/components/blocks/instances/UsageStatement.astro";
+---
+
+<AnnouncementBanner>Announcement Banner </AnnouncementBanner>
+<Layout>
+  <AboutHero />
+  <Collaborate />
+  <CustomerLogos />
+  <CustomerStories include={["ryd", "meltwater", "gear4music"]} />
+  <Emoji />
+  <FAQ />
+  <Faq2 />
+  <Focus />
+  <Guides />
+  <Hero />
+  <Newsletter />
+  <OurStory />
+  <Personas />
+  <Quote
+    quoteText="Metro Retro has created an obvious uptick in active participation, and shifted the tone of our retrospectives. Team members are now more proactive about suggesting improvements and celebrating wins openly."
+    name="Bernhard Unger-Weber"
+    occupation="Scrum Master @ ryd"
+    photo={bernhardPhoto}
+  />
+
+  <UsageStatement />
+  <TemplateLink />
+  <Testimonials />
+  <TextHero />
+  <TryMetro />
+  <Values />
+  <WallOfLove />
+</Layout>

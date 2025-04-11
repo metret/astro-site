@@ -1,0 +1,51 @@
+---
+import { getCollection, render } from "astro:content";
+import BlogPostContent from "~/components/blocks/BlogPostContent.astro";
+import BlogPostHero from "~/components/blocks/BlogPostHero.astro";
+import Dots from "~/components/Dots.astro";
+import Layout from "~/layouts/Layout.astro";
+import Newsletter from "~/components/blocks/Newsletter.astro";
+import PostCard from "~/components/blocks/PostCard.astro";
+import SignUp from "~/components/blocks/SignUp.astro";
+
+// 1. Generate a new path for every collection entry
+export async function getStaticPaths() {
+  const posts = await getCollection("blog");
+
+  return posts.map((post) => ({
+    params: { id: post.id },
+    props: { post },
+  }));
+}
+
+// 2. For your template, you can get the entry directly from the prop
+const { post } = Astro.props;
+---
+
+<Layout title={`${post.data.title} | Metro Retro`}>
+  <BlogPostHero post={post} />
+  <BlogPostContent post={post} />
+
+  <!-- <section class="px-4 py-16">
+    <div class="mx-auto max-w-[80rem]">
+      <p class="mb-6 text-center text-4xl/[42px] font-semibold">
+        You might also like
+      </p>
+      <div class="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
+        {
+          Array.from({ length: 3 }).map(() => (
+            <PostCard
+              href="/blog/metro-retros-new-chapter"
+              title="Blog post title, lorem ipsum dolor sit amet, consectetur adipiscing."
+              author="Author Name"
+              category="Post Category"
+              date="Month dd, yyyy"
+            />
+          ))
+        }
+      </div>
+    </div>
+  </section> -->
+
+  <Newsletter />
+</Layout>

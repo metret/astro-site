@@ -1,10 +1,17 @@
 ---
+type Props = {
+  text: string;
+};
+const { text } = Astro.props;
 
+const formatted = text.replace(/\*([^*]+?)\*/g, (match, content) => {
+  return `<strong class="text-blue font-bold">${content}</strong>`;
+});
 ---
 
-<p class="text-center text-xl/6 font-medium text-black md:text-4xl/[42px]">
-  More than <strong class="text-blue font-bold">250,000</strong> agile teams, coaches,
-  engineers, product owners and designers have enjoyed over <strong
-    class="text-blue font-bold">2 million</strong
-  > meetings in Metro Retro
-</p>
+<div class="mx-auto my-16 max-w-[80rem]">
+  <p
+    class="px-4 text-center text-3xl font-semibold text-black md:text-4xl/[42px]"
+    set:html={formatted}
+  />
+</div>

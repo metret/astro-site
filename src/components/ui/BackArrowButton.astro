@@ -1,0 +1,43 @@
+---
+import type { HTMLAttributes } from "astro/types";
+import type { Color } from "~/types";
+
+interface Props extends HTMLAttributes<"a"> {
+  color?: Color;
+  children: string;
+}
+
+const {
+  color = "blue",
+  class: className,
+  "class:list": classList,
+  ...props
+} = Astro.props;
+---
+
+<a
+  {...props}
+  class:list={[
+    color === "blue" && "text-blue",
+    color === "purple" && "text-purple",
+    color === "green" && "text-green",
+    color === "orange" && "text-orange",
+    "flex items-center gap-1 text-lg font-semibold",
+    className,
+    classList,
+  ]}
+>
+  <svg
+    class="mt-0.5"
+    width="20"
+    viewBox="0 0 20 20"
+    xmlns="http://www.w3.org/2000/svg"
+    ><path
+      d="M17 9H5.414l3.293-3.293a.999.999 0 10-1.414-1.414l-5 5a.999.999 0 000 1.414l5 5a.997.997 0 001.414 0 .999.999 0 000-1.414L5.414 11H17a1 1 0 100-2z"
+      fill="currentColor"></path>
+  </svg>
+
+  <span>
+    <slot />
+  </span>
+</a>

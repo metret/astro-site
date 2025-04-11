@@ -1,10 +1,45 @@
 ---
 import heroDot from "~/assets/images/hero-dot.png";
 import { Image } from "astro:assets";
+
+const bg = `
+  <svg xmlns="http://www.w3.org/2000/svg" width="150" height="150" viewBox="0 0 100 100">
+  <defs>
+    <pattern id="sm" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="scale(1.0)">
+      <circle cx="5" cy="5" r="1" fill="#EBF0FD" />
+    </pattern>
+  </defs>
+  <g transform="translate(0, 0)">
+    <rect width="100%" height="100%" fill="url(#sm)" />
+  </g>
+</svg>
+`;
+
+// Fix the data URL format to avoid "invalid property value" error
+function svgToDataURL(input: string) {
+  // Properly encode the SVG for use in a data URL
+  const encoded = input
+    .replace(/\s+/g, " ") // Normalize whitespace
+    .replace(/"/g, "'") // Replace double quotes with single quotes
+    .trim();
+
+  const encodedForUrl = encodeURIComponent(encoded);
+  return `data:image/svg+xml,${encodedForUrl}`;
+}
+
+const bgUrl = svgToDataURL(bg);
 ---
 
-<Image
-  src={heroDot}
-  alt=""
-  class="absolute top-0 left-0 z-[-1] h-auto max-h-[554px] w-full object-cover"
-/>
+<div
+  id="dots"
+  class="absolute top-0 left-0 z-[-1] h-[554px] w-full object-cover"
+  style={{
+    backgroundImage: `url("${bgUrl}")`,
+    backgroundRepeat: "repeat",
+    maskImage:
+      "linear-gradient(to bottom, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 80%, rgba(0, 0, 0, 0) 100%)",
+    WebkitMaskImage:
+      "linear-gradient(to bottom, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 80%, rgba(0, 0, 0, 0) 100%)",
+  }}
+>
+</div>

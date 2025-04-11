@@ -1,0 +1,90 @@
+---
+import Layout from "~/layouts/Layout.astro";
+import CustomerStories from "~/components/blocks/CustomerStories.astro";
+import SignUp from "~/components/blocks/SignUp.astro";
+import Testimonials from "~/components/blocks/Testimonials.astro";
+import SolutionHero from "~/components/blocks/SolutionHero.astro";
+import SolutionBanner from "~/components/blocks/SolutionBanner.astro";
+import SolutionLargeItem from "~/components/blocks/SolutionLargeItem.astro";
+import SolutionFeatureItem from "~/components/blocks/SolutionFeatureItem.astro";
+import "swiper/css";
+---
+
+<Layout>
+  <SolutionHero
+    title="Metro Retro is made by developers for developers."
+    description="Need to quickly sketch out an idea? Or produce a quick diagram? Or just want to avoid having to go into Jira? We got you."
+    image="https://placehold.co/600x337"
+  />
+
+  <SolutionBanner
+    title="A tool that doesn't get in your way, doesn't hide the things you want, and doesn't try to do too much."
+  />
+
+  <SolutionLargeItem
+    mirror="false"
+    title="Never go into Jira again!"
+    description="Pull your tickets into your own private board. Arrange them how you want. Draw on them. Bulk update them (without using a stupid wizard). Verbally abuse them. Nobody will ever know."
+    image="https://placehold.co/600x360"
+  />
+
+  <SolutionLargeItem
+    mirror="true"
+    title="Access the data behind, when you need it"
+    description="Unlike many other tools, Metro Retro doesn't hide the details away from you. Select any object in Metro Retro and Copy as JSON to copy the object data into the clipboard. Try building a wireframe, copying it as JSON and asking an LLM to convert it to HTML & Tailwind. The future is now."
+    image="https://placehold.co/600x360"
+  />
+
+  <SolutionBanner title="Tools that will make you smile and say 'Yeah!'" />
+
+  <section class="relative z-[1] py-8">
+    <div class="mx-auto grid max-w-[1280px] grid-cols-2 gap-16 px-8">
+      <SolutionFeatureItem
+        title="Wear Hats!"
+        description="We're developers too. We know developers love virtual hats. That's why we have hats. Is it the most useful feature? No. Is it awesome? Yep."
+        image="https://placehold.co/540x440"
+      />
+      <SolutionFeatureItem
+        title="Actions Tracking"
+        description="Keep track of those bits and pieces that aren't really Jira tickets. Write a sticky, assign it to a colleague as an Action, make sure it gets done."
+        image="https://placehold.co/540x440"
+      />
+      <SolutionFeatureItem
+        title="Agile processes"
+        description="Run engaging planning and retrospective sessions with pre-built or custom templates. Polls, t-shirt sizing, action tracking and more."
+        image="https://placehold.co/540x440"
+      />
+      <SolutionFeatureItem
+        title="Diagramming"
+        description="Design and refine your workflows, customer maps or product flows easily with our diagramming tools."
+        image="https://placehold.co/540x440"
+      />
+    </div>
+  </section>
+
+  <SolutionBanner title="Try these perfect Templates for Developers" />
+
+  <section class="relative z-[1] py-8">
+    <div class="mx-auto grid max-w-[1280px] grid-cols-3 gap-16 px-8">
+      <SolutionFeatureItem
+        title="A fun ice breaker"
+        description="Template Name"
+        image="https://placehold.co/540x440"
+      />
+      <SolutionFeatureItem
+        title="Some kinda brain storming one or diagram one"
+        description="Template Name"
+        image="https://placehold.co/540x440"
+      />
+      <SolutionFeatureItem
+        title="Personal Jira Workflow or something"
+        description="Template Name"
+        image="https://placehold.co/540x440"
+      />
+    </div>
+  </section>
+
+  <CustomerStories />
+
+  <Testimonials />
+</Layout>

@@ -1,0 +1,47 @@
+---
+type Props = {
+  name: string;
+  industry: string;
+  team: string;
+  contact: string;
+};
+
+const { name, industry, team, contact } = Astro.props;
+const info = [
+  {
+    label: "Company",
+    value: name,
+  },
+  {
+    label: "Industry",
+    value: industry,
+  },
+  {
+    label: "Team",
+    value: team,
+  },
+  {
+    label: "Interviewee",
+    value: contact,
+  },
+];
+---
+
+<div class="shadow-mr space-y-3 rounded-xl bg-white p-4">
+  <p class="text-blue text-xl/6 font-semibold">Customer Factsheet</p>
+
+  <div class="divide-y divide-gray-200 border border-gray-200">
+    {
+      info.map((item) => (
+        <div class="grid grid-cols-[150px_1fr] divide-x divide-gray-200 *:p-3">
+          <div>
+            <p class="text-body text-base/6">{item.label}</p>
+          </div>
+          <div>
+            <p class="text-body text-base/6 font-medium">{item.value}</p>
+          </div>
+        </div>
+      ))
+    }
+  </div>
+</div>

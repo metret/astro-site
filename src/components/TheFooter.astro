@@ -1,15 +1,84 @@
 ---
+import SignUp from "./blocks/SignUp.astro";
+
 const footerLinks: {
   title: string;
-  links: { title: string; url: string }[];
-}[] = Array.from({ length: 5 }, (_, i) => ({
-  title: `Category Title ${i + 1}`,
-  links: Array.from({ length: 6 }, (_, i) => ({
-    title: `Page Link ${i + 1}`,
-    url: "#" + i,
-  })),
-}));
+  links: { title: string; url: string; external?: boolean }[];
+}[] = [
+  {
+    title: "Product",
+    links: [
+      { title: "Templates", url: "/templates" },
+      { title: "Features", url: "/features" },
+      { title: "Pricing", url: "/pricing" },
+      { title: "Customers", url: "/customers" },
+    ],
+  },
+  {
+    title: "Use Cases",
+    links: [
+      { title: "Agile Retrospective", url: "/agile-retrospectives" },
+      { title: "Agile Project Management", url: "/agile-project-management" },
+      {
+        title: "Icebreakers and Energizers",
+        url: "/icebreakers-and-energizers",
+      },
+      { title: "Remote Collaboration", url: "/remote-collaboration" },
+      { title: "Online Whiteboard", url: "/online-whiteboard-for-agile-teams" },
+    ],
+  },
+  {
+    title: "Resources",
+    links: [
+      { title: "Blog", url: "/blog" },
+      { title: "Templates", url: "/templates" },
+      {
+        title: "Release Notes",
+        url: "https://updates.metroretro.io/",
+        external: true,
+      },
+      {
+        title: "Help Docs",
+        url: "https://docs.metroretro.io/",
+        external: true,
+      },
+    ],
+  },
+  {
+    title: "Compare",
+    links: [
+      { title: "Miro", url: "/compare/miro-alternative" },
+      { title: "Mural", url: "/compare/mural-alternative" },
+      { title: "FigJam", url: "/compare/figjam-alternative" },
+      { title: "TeamRetro", url: "/compare/teamretro-alternative" },
+      { title: "EasyRetro", url: "/compare/easyretro-alternative" },
+      { title: "Parabol", url: "/compare/parabol-alternative" },
+      { title: "View More", url: "/compare" },
+    ],
+  },
+  {
+    title: "Company",
+    links: [
+      { title: "About us", url: "/about" },
+      { title: "Security", url: "/security" },
+      { title: "Terms", url: "/terms" },
+      { title: "Privacy", url: "/privacy" },
+      {
+        title: "LinkedIn",
+        url: "https://www.linkedin.com/company/metroretro",
+        external: true,
+      },
+      {
+        title: "YouTube",
+        url: "https://www.youtube.com/@metroretro1684",
+        external: true,
+      },
+    ],
+  },
+];
 ---
+
+<SignUp />
 
 <footer class="bg-blue text-white">
   <div class="px-4 py-8 md:px-20">
@@ -45,7 +114,12 @@ const footerLinks: {
                 <ul class="space-y-2">
                   {fl.links.map((link) => (
                     <li>
-                      <a href={link.url} class="text-lg/8">
+                      <a
+                        href={link.url}
+                        class="text-lg/8"
+                        target={link.external ? "_blank" : undefined}
+                        rel={link.external ? "noopener noreferrer" : undefined}
+                      >
                         {link.title}
                       </a>
                     </li>
@@ -85,7 +159,7 @@ const footerLinks: {
       </svg>
       <span class="font-rubik text-[22px] font-medium">Metro Retro</span>
     </div>
-    <p class="text-base font-medium">
+    <p class="text-sm font-medium">
       © {new Date().getFullYear()} Deqo Software Limited. All Rights Reserved.
     </p>
   </div>

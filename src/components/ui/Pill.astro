@@ -1,6 +1,6 @@
 ---
 interface Props extends astroHTML.JSX.HTMLAttributes {
-  color?: "blue" | "orange" | "grey" | "purple" | "green";
+  color?: "blue" | "orange" | "gray" | "purple" | "green";
 
   children: any;
 }
@@ -14,8 +14,8 @@ const {
 <div
   class:list={[
     `pill pill-${color}`,
-    "mx-auto w-max rounded-[82px] px-6 py-0.5 text-center text-base/6 font-semibold md:text-lg/6 [&_a]:underline",
-    color === "grey" && "text-grey bg-grey-100",
+    "mx-auto w-max rounded-full px-6 py-0.5 text-center text-base/6 font-semibold md:text-lg/6 [&_a]:underline",
+    color === "gray" && "text-gray bg-gray-100",
     color === "blue" && "text-blue bg-blue-100",
     color === "orange" && "text-orange bg-orange-100",
     color === "purple" && "text-purple bg-purple-100",

@@ -3,7 +3,7 @@ export type Link = {
   href: string;
 };
 
-export type Color = "blue" | "orange" | "grey" | "purple" | "green";
+export type Color = "blue" | "orange" | "gray" | "purple" | "green";
 
 export type ButtonProps = {
   kind?: "primary" | "secondary";

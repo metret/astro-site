@@ -47,7 +47,7 @@ function resolveFeatureValues(
         <tr class="">
           <th colspan={4}>
             <div
-              class="border-grey-200 text-blue flex items-center justify-between border bg-blue-100 px-4 py-2"
+              class="text-blue flex items-center justify-between border border-gray-200 bg-blue-100 px-4 py-2"
             >
               <p>{title}</p>
               <svg
@@ -67,16 +67,16 @@ function resolveFeatureValues(
           </th>
         </tr>
       </thead>
-      <tbody class="divide-grey-200 divide-y">
+      <tbody class="divide-y divide-gray-200">
         {
           features.map((feature) => (
-            <tr class="divide-grey-200 last:border-grey-200 divide-x *:p-4 last:border-b">
-              <td class="border-grey-200 border-l text-left">{feature.name}</td>
+            <tr class="divide-x divide-gray-200 *:p-4 last:border-b last:border-gray-200">
+              <td class="border-l border-gray-200 text-left">{feature.name}</td>
               {feature.values.map((value) => {
                 const values = resolveFeatureValues(value);
 
                 return (
-                  <td class="border-grey-200 last:border-r">
+                  <td class="border-gray-200 last:border-r">
                     <div class="flex items-center justify-center gap-2.5">
                       {values.map((value) => (
                         <>

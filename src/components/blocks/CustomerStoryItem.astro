@@ -1,0 +1,29 @@
+---
+import { Image } from "astro:assets";
+import { dynamicImportImage } from "~/utils";
+
+type Props = {
+  color: string;
+  image: string;
+  description: string;
+};
+
+const { color, image, description } = Astro.props as Props;
+const loadedImage = await dynamicImportImage(image);
+---
+
+<div>
+  <div
+    class:list={[
+      "flex aspect-[1.05] w-full items-center justify-center rounded-xl p-12",
+      `bg-${color}`,
+    ]}
+  >
+    <Image src={loadedImage} alt="" />
+  </div>
+  <div class="px-4 py-3">
+    <p class="text-body text-lg/6 font-medium">
+      {description}
+    </p>
+  </div>
+</div>

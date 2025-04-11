@@ -3,33 +3,20 @@ import type { ComponentProps } from "astro/types";
 import BaseLayout from "./BaseLayout.astro";
 import TheNavbar from "~/components/TheNavbar.astro";
 import TheFooter from "~/components/TheFooter.astro";
-
 import "swiper/css";
+import AnnouncementBanner from "~/components/blocks/AnnouncementBanner.astro";
 
-interface Props extends ComponentProps<typeof BaseLayout> {
-  /**
-   * Wrap default slot in a main tag
-   * @default true
-   */
-  mainWrapper?: boolean;
-}
-
-const { mainWrapper = true, ...props } = Astro.props;
+interface Props extends ComponentProps<typeof BaseLayout> {}
 ---
 
-<BaseLayout {...props}>
+<BaseLayout {...Astro.props}>
   <slot name="top" />
-  <TheNavbar>
-    <slot name="banner" slot="banner" />
-  </TheNavbar>
-  {
-    mainWrapper ? (
-      <main class="flex-1">
-        <slot />
-      </main>
-    ) : (
-      <slot />
-    )
-  }
+  <AnnouncementBanner>
+    <p>This is the announcement banner!!</p>
+  </AnnouncementBanner>
+  <TheNavbar />
+  <main class="flex-1">
+    <slot />
+  </main>
   <TheFooter />
 </BaseLayout>

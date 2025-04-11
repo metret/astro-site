@@ -1,25 +1,73 @@
 ---
+import { render } from "astro:content";
+const { post } = Astro.props;
 
+const { Content, headings } = await render(post);
 ---
 
-<section class="px-4 py-16">
+--- import {dynamicImportImage} from "~/utils"; import Pill from "../ui/Pill.astro";
+import {Image} from "astro:assets"; const {post} = Astro.props; const importedImage
+= await dynamicImportImage(post.data.image); ---
+
+<section class="px-4 py-6 lg:-mt-8 lg:py-16">
+  <div class="mx-auto flex max-w-[80rem] flex-col items-center">
+    <Image
+      class="shadow-mr rounded-2xl bg-blue-100 max-md:-order-1"
+      src={importedImage}
+      alt={post.data.title}
+    />
+    <div class="mx-auto max-w-[80ch]">
+      <div class="mt-8 flex items-center justify-between">
+        <div class="flex items-center gap-3">
+          <div class="h-10 w-10 rounded-full bg-blue-200"></div>
+          <div>
+            <p class="font-medium text-blue-200">
+              {post.data.authorName}
+            </p>
+            <p class="text-sm text-gray-300">Lord of color</p>
+          </div>
+        </div>
+      </div>
+      <h1 class="mt-8 text-4xl/12 font-semibold">
+        {post.data.title}
+      </h1>
+      <p class="text-body mt-4 font-medium opacity-70">
+        {post.data.publishedDate.toLocaleDateString()}
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- <section class="px-4 py-6 lg:py-16">
   <div
     class="mx-auto grid max-w-[80rem] grid-cols-1 gap-16 lg:grid-cols-[380px_1fr]"
   >
     <div class="space-y-6 max-lg:hidden">
       <p class="text-blue text-xl/8 font-semibold">In this post</p>
 
-      <div class="text-body space-y-4 text-base/6 font-medium">
-        <p>Display a clickable list of h2 titles from the post</p>
-        <p>Display a clickable list of h2 titles from the post</p>
-        <p class="text-black">
-          Active title should be highlighted when h2 is currently the top
-          visible h2
-        </p>
-        <p>Display a clickable list of h2 titles from the post</p>
-        <p>Display a clickable list of h2 titles from the post</p>
+      <div
+        class="article-menu text-body sticky top-32 space-y-4 text-base/6 font-medium"
+      >
+        {
+          headings
+            .filter((h) => h.depth === 2)
+            .map((h) => (
+              <p>
+                <a href={`#${h.slug}`}>{h.text}</a>
+              </p>
+            ))
+        }
       </div>
     </div>
-    <div class="border-grey-200 h-[572px] border md:h-[836px]"></div>
+    <div class="article-body">
+      <Content />
+    </div>
+  </div>
+</section> -->
+<section class="px-4 py-6 lg:py-16">
+  <div class="mx-auto grid max-w-[80ch]">
+    <div class="article-body">
+      <Content />
+    </div>
   </div>
 </section>

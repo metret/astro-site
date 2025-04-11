@@ -38,7 +38,7 @@ const resources: { title: string; category: "blog" | "guide"; link: string }[] =
           <a href={resource.link}>
             <div
               class:list={[
-                "flex aspect-[2] flex-col justify-between rounded-[10px] border-2 border-blue-100 p-6 text-black transition-colors md:aspect-square",
+                "flex aspect-[2] flex-col justify-between rounded-xl border-2 border-blue-100 p-6 text-black transition-colors md:aspect-square",
                 resource.category === "blog" &&
                   "hover:border-blue hover:text-blue",
                 resource.category === "guide" &&

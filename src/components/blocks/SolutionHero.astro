@@ -1,10 +1,13 @@
 ---
 const { title, description, image } = Astro.props;
+import { Image } from "astro:assets";
+import { dynamicImportImage } from "~/utils";
+const loadedImage = await dynamicImportImage(image);
 ---
 
 <section class="relative py-8">
   <div
-    class="mx-auto mt-16 max-w-[1280px] flex flex-row gap-16 px-8 items-center"
+    class="mx-auto mt-16 flex max-w-[1280px] flex-row items-center gap-16 px-8"
   >
     <div class="shrink">
       <h1 class="mb-4 text-4xl font-bold text-black">
@@ -15,9 +18,13 @@ const { title, description, image } = Astro.props;
       </p>
     </div>
     <div class="grow">
-        <div class="block" style="width: 600px; height: 337px">
-            <img class="w-full h-full object-cover rounded-[20px] shadow" src={image}>
-        </div>
+      <div class="block" style="width: 600px; height: 337px">
+        <Image
+          class="h-full w-full rounded-[20px] object-cover shadow"
+          src={loadedImage}
+          alt={title}
+        />
+      </div>
     </div>
   </div>
 </section>

@@ -1,65 +1,120 @@
 ---
-import chrisPhoto from "~/assets/images/reviews/chris-zapier.png";
-import zapierLogo from "~/assets/images/logos/zapier-logo-black.png";
 import { Image } from "astro:assets";
 import "swiper/css/pagination";
 
-const reviews: {
-  remark: string;
-  reviewer: {
-    name: string;
-    photo: ImageMetadata;
-    job: string;
-    company: { name: string; logo: ImageMetadata };
-  };
-}[] = Array.from({ length: 5 }).map(() => ({
-  remark:
-    "Rapid iteration is an important part of our process and Metro Retro helps our team focus on what matters.",
-  reviewer: {
-    name: "Chris Vanderkolk",
-    photo: chrisPhoto,
-    job: "Engineering Manager",
-    company: {
-      name: "Zapier",
-      logo: zapierLogo,
-    },
+// Import your images here
+import gabrielPhoto from "~/assets/images/reviews/gabriel-kayak.png";
+import samanthaPhoto from "~/assets/images/reviews/samantha-meltwater.png";
+import chrisPhoto from "~/assets/images/reviews/chris-zapier.png";
+import ennoPhoto from "~/assets/images/reviews/enno-architrave.png";
+import mariannePhoto from "~/assets/images/reviews/marianne-enginn.png";
+import bernhardPhoto from "~/assets/images/reviews/bernhard-ryd.png";
+
+// Import company logos
+import kayakLogo from "~/assets/images/logos/kayak-color.png";
+import meltwaterLogo from "~/assets/images/logos/meltwater-color.png";
+import zapierLogo from "~/assets/images/logos/zapier-color.png";
+import architraveLogo from "~/assets/images/logos/architrave-color.png";
+import enginnLogo from "~/assets/images/logos/enginn-tech-color.png";
+import rydLogo from "~/assets/images/logos/ryd-color.png";
+
+interface Testimonial {
+  quote: string;
+  contactName: string;
+  contactPhoto: ImageMetadata;
+  contactJob: string;
+  companyName: string;
+  companyLogo: ImageMetadata;
+}
+
+const items: Testimonial[] = [
+  {
+    quote:
+      "Metro Retro has addressed the communication barriers that existed in our remote teams; people enjoy working in it so much.",
+    contactName: "Gabriel Palaez",
+    contactPhoto: gabrielPhoto,
+    contactJob: "VP Tech",
+    companyName: "Kayak",
+    companyLogo: kayakLogo,
   },
-}));
+  {
+    quote:
+      "Metro Retro makes it possible for our 500+ engineers to work remotely. It embedded into our teams without any prompting or training.",
+    contactName: "Samantha Corbett",
+    contactPhoto: samanthaPhoto,
+    contactJob: "Product Manager",
+    companyName: "Meltwater",
+    companyLogo: meltwaterLogo,
+  },
+  {
+    quote:
+      "Rapid iteration is an important part of our process and Metro Retro helps our team focus on what matters.",
+    contactName: "Chris Vanderkolk",
+    contactPhoto: chrisPhoto,
+    contactJob: "Engineering Manager",
+    companyName: "Zapier",
+    companyLogo: zapierLogo,
+  },
+  {
+    quote:
+      "I have a hard time picturing my work as a fully remote Agile Coach without Metro Retro. The alignment it brings to the teams I work with every day is exceptional.",
+    contactName: "Enno Peters",
+    contactPhoto: ennoPhoto,
+    contactJob: "Agile Coach",
+    companyName: "Architrave",
+    companyLogo: architraveLogo,
+  },
+  {
+    quote:
+      "Metro Retro is the bomb for making fun retrospectives in an office or remote setting. It's just beautiful and convenient. with a few quirky and unique features that keep our meetings from getting boring (like the wake up slap!)",
+    contactName: "Marianne Béglin",
+    contactPhoto: mariannePhoto,
+    contactJob: "Product Owner",
+    companyName: "Enginn Technologies",
+    companyLogo: enginnLogo,
+  },
+  {
+    quote:
+      "Metro Retro has created an obvious uptick in active participation, and shifted the tone of our retrospectives. Team members are now more proactive about suggesting improvements and celebrating wins openly.",
+    contactName: "Bernhard Unger-Weber",
+    contactPhoto: bernhardPhoto,
+    contactJob: "Scrum Master",
+    companyName: "ryd",
+    companyLogo: rydLogo,
+  },
+];
 ---
 
-<section class="px-4 pt-16 pb-32">
-  <div class="mx-auto max-w-[1100px]">
+<section class="hidden p-16 lg:block">
+  <div class="mx-auto max-w-[1280px]">
     <div
       id="reviews-swiper"
       class="swiper [--swiper-pagination-bottom:0px] [--swiper-pagination-bullet-horizontal-gap:10px] [--swiper-pagination-bullet-inactive-color:var(--color-blue-100)] [--swiper-pagination-bullet-inactive-opacity:1] [--swiper-pagination-color:var(--color-blue-300)]"
     >
       <div class="swiper-wrapper pb-7">
         {
-          reviews.map((review) => (
+          items.map((review) => (
             <div class="swiper-slide">
               <div class="grid grid-cols-1 overflow-hidden rounded-[20px] md:grid-cols-[280px_1fr]">
                 <div class="h-[292px] w-full md:h-full">
                   <Image
                     class="h-full w-full object-cover"
-                    src={review.reviewer.photo}
-                    alt={review.reviewer.name}
+                    src={review.contactPhoto}
+                    alt={review.contactName}
                   />
                 </div>
-                <div class="text-grey-300 space-y-6 bg-blue-100 px-8 py-6 md:py-[42px]">
-                  <p class="text-[28px]/8 font-semibold">{review.remark}</p>
+                <div class="space-y-6 bg-blue-100 px-8 py-6 text-gray-300 md:py-[42px]">
+                  <p class="text-[24px]/8 font-semibold">{review.quote}</p>
                   <div>
                     <p class="text-lg/8 font-semibold">
-                      {review.reviewer.name}, {review.reviewer.job}
+                      {review.contactName}, {review.contactJob}
                       <br />
-                      {review.reviewer.company.name}
+                      {review.companyName}
                     </p>
                   </div>
 
                   <div class="max-h-9 max-w-[132px]">
-                    <Image
-                      src={review.reviewer.company.logo}
-                      alt={review.reviewer.company.name}
-                    />
+                    <Image src={review.companyLogo} alt={review.companyName} />
                   </div>
                 </div>
               </div>

@@ -1,0 +1,50 @@
+---
+import { Image } from "astro:assets";
+import { dynamicImportImage } from "~/utils";
+import TemplateTag from "~/components/blocks/TemplateTag.astro";
+
+interface Props extends astroHTML.JSX.HTMLAttributes {
+  name: string;
+  description: string;
+  image: string;
+  tags: any[];
+  href: string;
+}
+
+const {
+  name,
+  description,
+  image,
+  tags,
+  href,
+  class: className,
+  "class:list": classList,
+  ...props
+} = Astro.props;
+---
+
+<a class="flex flex-col" href={href}>
+  <div
+    {...props}
+    class:list={[
+      "shadow-mr flex h-full grow flex-col overflow-hidden rounded-xl border-1 border-gray-200 bg-white",
+      classList,
+      className,
+    ]}
+  >
+    <img class="object-cover" src={image} alt={name} />
+    <div class="flex grow flex-col gap-2 p-6">
+      <p class="text-blue text-lg font-semibold">{name}</p>
+      <p class="text-body">
+        {description}
+      </p>
+      <div class="mt-auto flex flex-wrap gap-2 pt-4">
+        {
+          tags.map((tag: any) => (
+            <TemplateTag name={tag.label} color={tag.color} />
+          ))
+        }
+      </div>
+    </div>
+  </div>
+</a>

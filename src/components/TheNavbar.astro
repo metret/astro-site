@@ -5,13 +5,12 @@ import type { Link } from "~/types";
 import LinkButton from "./ui/LinkButton.astro";
 import { site } from "~/constants";
 
-const links: (Link & { children?: { title: string; items: Link[] }[] })[] = [
+const links: (Link & { children?: { title?: string; items: Link[] }[] })[] = [
   {
     title: "Product",
     href: "#product",
     children: [
       {
-        title: "Use Cases",
         items: [
           {
             title: "Enhanced Interactivity",
@@ -21,18 +20,12 @@ const links: (Link & { children?: { title: string; items: Link[] }[] })[] = [
             title: "Meetings & Workshops",
             href: "#meetings-workshops",
           },
-          { title: "Task Tracking",
-           href: "#task-tracking" },
-          { title: "Templates",
-           href: "#templates" },
-          { title: "Jira integration",
-           href: "#jira-integration" },
-          { title: "Shareable Team Spaces",
-           href: "#shareable-team-spaces" },
-          { title: "Privacy & Anonymity",
-           href: "#privacy-anonymity" },
-          { title: "Security",
-           href: "#security" },
+          { title: "Task Tracking", href: "#task-tracking" },
+          { title: "Templates", href: "#templates" },
+          { title: "Jira integration", href: "#jira-integration" },
+          { title: "Shareable Team Spaces", href: "#shareable-team-spaces" },
+          { title: "Privacy & Anonymity", href: "#privacy-anonymity" },
+          { title: "Security", href: "#security" },
         ],
       },
     ],
@@ -49,8 +42,8 @@ const links: (Link & { children?: { title: string; items: Link[] }[] })[] = [
             href: "/solutions/scrum-masters",
           },
           {
-            title: "Engineers",
-            href: "/solutions/engineers",
+            title: "Developers",
+            href: "/solutions/developers",
           },
           {
             title: "Agile Coaches",
@@ -66,8 +59,8 @@ const links: (Link & { children?: { title: string; items: Link[] }[] })[] = [
             href: "/solutions/engineering-managers",
           },
           {
-            title: "Consultants",
-            href: "/solutions/consultants",
+            title: "Product Designers",
+            href: "/solutions/product-designers",
           },
         ],
       },
@@ -75,100 +68,70 @@ const links: (Link & { children?: { title: string; items: Link[] }[] })[] = [
         title: "Focus",
         items: [
           {
-            title: "Improve team health",
-            href: "#improve-team-health",
+            title: "Team Health",
+            href: "/solutions/team-health",
           },
           {
-            title: "Planning ahead",
-            href: "#planning-ahead",
+            title: "Planning Ahead",
+            href: "/solutions/planning-ahead",
           },
-          { title: "Project reviews", href: "#project-reviews" },
-          { title: "Better collaboration", href: "#better-collaboration" },
-          { title: "Team alignment", href: "#team-alignment" },
+          { title: "Project Reviews", href: "/solutions/project-reviews" },
+          {
+            title: "Better Collaboration",
+            href: "/solutions/better-collaboration",
+          },
+          { title: "Team Alignment", href: "/solutions/team-alignment" },
         ],
       },
       {
         title: "Use Cases",
         items: [
           {
-            title: "Retrospective",
-            href: "#retrospective",
+            title: "Retrospectives",
+            href: "/solutions/retrospectives",
           },
           {
-            title: "Planning ahead",
-            href: "#planning-ahead",
+            title: "Online Whiteboarding",
+            href: "/solutions/online-whiteboarding",
           },
-          { title: "Project reviews", href: "#project-reviews" },
-          { title: "Better collaboration", href: "#better-collaboration" },
-          { title: "Team alignment", href: "#team-alignment" },
+          {
+            title: "Remote Collaboration",
+            href: "/solutions/remote-collaboration",
+          },
+          {
+            title: "Project Management",
+            href: "/solutions/project-management",
+          },
         ],
       },
     ],
   },
-  {
-    title: "Templates",
-    href: "#templates",
-    children: [
-      {
-        title: "Use Cases",
-        items: [
-          {
-            title: "Retrospective",
-            href: "#retrospective",
-          },
-          {
-            title: "Planning ahead",
-            href: "#planning-ahead",
-          },
-          { title: "Project reviews", href: "#project-reviews" },
-          { title: "Better collaboration", href: "#better-collaboration" },
-          { title: "Team alignment", href: "#team-alignment" },
-        ],
-      },
-    ],
-  },
+  { title: "Templates", href: "/templates" },
   {
     title: "Resources",
     href: "#resources",
     children: [
       {
-        title: "Focus",
         items: [
           {
-            title: "Improve team health",
-            href: "#improve-team-health",
+            title: "Guides",
+            href: "/guides",
           },
           {
-            title: "Planning ahead",
-            href: "#planning-ahead",
+            title: "Blog",
+            href: "/blog",
           },
-          { title: "Project reviews", href: "#project-reviews" },
-          { title: "Better collaboration", href: "#better-collaboration" },
-          { title: "Team alignment", href: "#team-alignment" },
-        ],
-      },
-      {
-        title: "Use Cases",
-        items: [
-          {
-            title: "Retrospective",
-            href: "#retrospective",
-          },
-          {
-            title: "Planning ahead",
-            href: "#planning-ahead",
-          },
-          { title: "Project reviews", href: "#project-reviews" },
-          { title: "Better collaboration", href: "#better-collaboration" },
-          { title: "Team alignment", href: "#team-alignment" },
+          { title: "Help", href: "https://docs.metroretro.io" },
+          { title: "Support", href: "/support" },
+          { title: "About Us", href: "/about" },
         ],
       },
     ],
   },
-  { title: "Customers", href: "#customers" },
+  { title: "Customers", href: "/customers" },
   {
     title: "Pricing",
-    href: "#pricing",
+    href: "/pricing",
   },
 ];
 ---
@@ -180,11 +143,11 @@ const links: (Link & { children?: { title: string; items: Link[] }[] })[] = [
 >
   <nav
     aria-label="sidebar navigation"
-    class="xs:w-[344px] xs:ml-auto flex min-h-full w-full flex-col justify-between gap-5 bg-white p-6 drop-shadow-[0_4px_10px_rgba(98,116,150,0.1)]"
+    class="xs:w-[344px] xs:ml-auto shadow-mr flex min-h-full w-full flex-col justify-between gap-5 bg-white p-6"
   >
     <div class="space-y-6">
       <div
-        class="text-body sticky top-0 z-5 flex items-center justify-between bg-white/95 pl-2.5 text-lg/5 font-semibold"
+        class="text-body sticky top-0 z-5 flex items-center justify-between bg-white/95 pl-2.5 text-lg/5 font-medium"
       >
         <div
           id="current-sidenav-item"
@@ -247,7 +210,7 @@ const links: (Link & { children?: { title: string; items: Link[] }[] })[] = [
                 <a
                   href={hasChildren ? "#" : link.href}
                   class:list={[
-                    "text-body hover:text-blue flex items-center justify-between p-2.5 text-lg/5 font-semibold",
+                    "text-body hover:text-blue flex items-center justify-between p-2.5 text-lg/5 font-medium",
                     hasChildren &&
                       "flex items-center gap-2.5 group-[[data-open='true']]/navlink:hidden",
                   ]}
@@ -278,17 +241,19 @@ const links: (Link & { children?: { title: string; items: Link[] }[] })[] = [
                         {link.children?.map((child) => (
                           <li>
                             <div>
-                              <div class="py-3">
-                                <p class="text-body text-base/[1] font-medium">
-                                  {child.title}
-                                </p>
-                              </div>
+                              {child.title && (
+                                <div class="py-3">
+                                  <p class="text-body text-sm font-medium opacity-70">
+                                    {child.title}
+                                  </p>
+                                </div>
+                              )}
                               <ul class="space-y-2">
                                 {child.items.map((item) => (
                                   <li>
                                     <a
                                       href={item.href}
-                                      class="text-body hover:text-blue text-lg/8 font-semibold"
+                                      class="text-body hover:text-blue text-lg/8 font-medium"
                                     >
                                       {item.title}
                                     </a>
@@ -309,10 +274,10 @@ const links: (Link & { children?: { title: string; items: Link[] }[] })[] = [
       </ul>
     </div>
     <div class="flex flex-col gap-5">
-      <LinkButton kind="secondary" color="grey" href="#login" class="!w-full"
+      <LinkButton kind="secondary" color="gray" href="/login" class="!w-full"
         >Login</LinkButton
       >
-      <LinkButton href="#signup" class="!w-full">Signup</LinkButton>
+      <LinkButton href="/account/register" class="!w-full">Signup</LinkButton>
     </div>
   </nav>
 </section>
@@ -320,63 +285,57 @@ const links: (Link & { children?: { title: string; items: Link[] }[] })[] = [
 <header
   id="main-header"
   data-sticky="false"
-  class="group/nav-header sticky top-0 left-0 z-50 w-full transition-colors data-[sticky=true]:bg-white data-[sticky=true]:drop-shadow-[0_4px_10px_rgba(98,116,150,0.1)]"
+  class="group/nav-header data-[sticky=true]:shadow-mr sticky top-0 left-0 z-50 mb-4 w-full data-[sticky=true]:bg-white"
 >
-  <slot name="banner" />
   <div
     id="inflatable"
     data-sticky="false"
-    class="grid grid-rows-[0fr] transition-[grid-template-rows] duration-400 data-[sticky=false]:grid-rows-[1fr]"
+    class="grid grid-rows-[0fr] transition-[grid-template-rows] duration-300 data-[sticky=false]:grid-rows-[1fr]"
   >
     <div class="overflow-hidden">
       <div class="h-5">&nbsp;</div>
     </div>
   </div>
-  <div
-    class="mx-auto flex w-[calc(100vw-2.5rem)] items-center justify-between rounded-[100px] bg-white px-6 py-4 transition-colors group-[[data-sticky='true']]/nav-header:bg-[transparent] xl:w-max"
+  <nav
+    aria-label="main navigation"
+    class="mr-shadow mx-auto flex h-20 w-full max-w-[80rem] items-stretch justify-between rounded-full bg-white px-6 group-[[data-sticky='true']]/nav-header:bg-[transparent]"
   >
     <a href="/" class="flex items-center gap-3.5">
       <Image src={logo} width={34} height={36} alt={`${site.name} logo`} /><span
         class="font-rubik text-blue text-[28px] font-medium">Metro Retro</span
       >
     </a>
+    <ul class="hidden items-center gap-7 min-xl:flex">
+      {
+        links.map((link) => {
+          const hasChildren = Boolean(link.children?.length);
 
-    <nav aria-label="main navigation" class="flex items-center gap-5">
-      <ul class="hidden items-center gap-5 min-xl:flex">
-        {
-          links.map((link) => {
-            const hasChildren = Boolean(link.children?.length);
-
-            return (
-              <li class="group/navlink relative">
-                <a
-                  href={hasChildren ? "#" : link.href}
-                  class:list={[
-                    "text-body hover:text-blue p-2.5 text-lg/5 font-semibold",
-                    hasChildren && "flex items-center gap-2.5",
-                  ]}
-                >
-                  {link.title}
-                  {hasChildren && (
-                    <svg
-                      width="11"
-                      height="7"
-                      viewBox="0 0 11 7"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        d="M1.41455 1.00002L5.41455 5.00002L9.41455 1.00002"
-                        stroke="currentColor"
-                        stroke-width="2"
-                      />
-                    </svg>
-                  )}
-                </a>
-
+          return (
+            <li class="group/navlink relative h-full">
+              <a
+                href={hasChildren ? "#" : link.href}
+                class="text-body hover:text-blue block flex h-full items-center gap-2.5 text-lg/5 font-medium"
+              >
+                {link.title}
                 {hasChildren && (
-                  <div class="absolute top-full left-0 mt-8 ml-2.5 grid w-max grid-rows-[0fr] transition-[grid-template-rows] duration-300 group-hover/navlink:grid-rows-[1fr] md:max-w-[660px]">
-                    <div class="overflow-hidden">
+                  <svg
+                    width="11"
+                    height="7"
+                    viewBox="0 0 11 7"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M1.41455 1.00002L5.41455 5.00002L9.41455 1.00002"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    />
+                  </svg>
+                )}
+              </a>
+              {hasChildren && (
+                <div class="absolute top-full -left-6 ml-2.5 grid w-max grid-rows-[0fr] pt-2 transition-[grid-template-rows] duration-300 group-hover/navlink:grid-rows-[1fr] md:max-w-[660px]">
+                    <div class="shadow-mr rounded-xl bg-white overflow-hidden">
                       <ul
                         style={{
                           "--items-count":
@@ -384,22 +343,24 @@ const links: (Link & { children?: { title: string; items: Link[] }[] })[] = [
                               ? 3
                               : link.children!.length,
                         }}
-                        class="grid w-max grid-cols-[repeat(var(--items-count),minmax(0,1fr))] gap-8 overflow-y-auto rounded-[10px] bg-white p-6 md:max-w-[660px]"
+                        class="grid w-max grid-cols-[repeat(var(--items-count),minmax(0,1fr))] gap-8 p-6 md:max-w-[660px]"
                       >
                         {link.children?.map((child) => (
                           <li>
                             <div>
-                              <div class="py-3">
-                                <p class="text-body text-base/[1] font-medium">
-                                  {child.title}
-                                </p>
-                              </div>
+                              {child.title && (
+                                <div class="py-3">
+                                  <p class="text-body text-sm font-medium opacity-70">
+                                    {child.title}
+                                  </p>
+                                </div>
+                              )}
                               <ul class="space-y-2">
                                 {child.items.map((item) => (
                                   <li>
                                     <a
                                       href={item.href}
-                                      class="text-body hover:text-blue text-lg/8 font-semibold"
+                                      class="text-body hover:text-blue text-lg/8 font-medium"
                                     >
                                       {item.title}
                                     </a>
@@ -412,19 +373,20 @@ const links: (Link & { children?: { title: string; items: Link[] }[] })[] = [
                       </ul>
                     </div>
                   </div>
-                )}
-              </li>
-            );
-          })
-        }
-      </ul>
+                </div>
+              )}
+            </li>
+          );
+        })
+      }
+    </ul>
+    <div class="flex items-center gap-5">
       <div class="hidden items-center gap-5 md:flex">
-        <LinkButton kind="secondary" color="grey" href="#login"
+        <LinkButton kind="secondary" color="gray" href="/login"
           >Login</LinkButton
         >
-        <LinkButton href="#signup">Signup</LinkButton>
+        <LinkButton href="/account/register">Signup</LinkButton>
       </div>
-
       <button
         id="btn-open-sidenav"
         type="button"
@@ -457,10 +419,9 @@ const links: (Link & { children?: { title: string; items: Link[] }[] })[] = [
             stroke-linejoin="round"></path>
         </svg>
       </button>
-    </nav>
-  </div>
+    </div>
+  </nav>
 </header>
-
 <style>
   #current-sidenav-item[data-has-icon="false"] svg,
   #sidenav-links-container[data-active-link] [data-open="false"] {

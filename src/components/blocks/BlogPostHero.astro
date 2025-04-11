@@ -1,29 +1,56 @@
 ---
+import { dynamicImportImage } from "~/utils";
 import Pill from "../ui/Pill.astro";
+import { Image } from "astro:assets";
+
+const { post } = Astro.props;
+
+const importedImage = await dynamicImportImage(post.data.image);
 ---
 
-<section class="px-4 py-16">
-  <div
-    class="mx-auto grid max-w-[80rem] grid-cols-1 gap-6 md:gap-12 lg:grid-cols-[min(592px,50%)_1fr] lg:gap-[74px]"
-  >
-    <div>
-      <Pill color="purple" class="!mx-0">Post Category</Pill>
-      <p class="text-body mt-6 text-base/6 font-medium md:mb-8 md:text-lg/6">
-        Blog post date (month dd, yyyy)
-      </p>
+<section class="px-4 py-6 lg:-mt-8 lg:py-16">
+  <div class="mx-auto flex max-w-[80rem] flex-col items-center">
+    <!-- <div>
+      <div class="text-purple text-base/6 font-semibold md:text-lg">
+        {post.data.category}
+      </div>
       <p class="my-6 text-[28px]/8 font-semibold">
-        Blog post title, lorem ipsum dolor sit amet, consectetur adipiscing.
+        {post.data.title}
       </p>
       <p class="text-body mb-6 text-base/6 font-medium md:mb-8 md:text-lg/6">
-        Blog post preview. Must be able to set this. Not just the first
-        paragraph from page content.
+        {post.data.teaser}
       </p>
+      <p class="text-base/6 font-semibold text-blue-200">
+        {post.data.authorName}
+      </p>
+      <p class="text-body text-base/6 font-medium opacity-70 md:text-sm/6">
+        {post.data.publishedDate.toLocaleDateString()}
+      </p>
+    </div> -->
 
-      <p class="text-base/6 font-medium text-blue-200">Blog post author</p>
-    </div>
-    <div
-      class="min-h-[208px] rounded-[10px] bg-blue-100 drop-shadow-[0_4px_10px_rgba(98,116,150,0.1)] max-md:-order-1 md:min-h-[322px] md:rounded-[20px]"
-    >
+    <Image
+      class="shadow-mr rounded-2xl bg-blue-100 max-md:-order-1"
+      src={importedImage}
+      alt={post.data.title}
+    />
+    <div class="mx-auto max-w-[80ch]">
+      <div class="mt-8 flex items-center justify-between">
+        <div class="flex items-center gap-3">
+          <div class="h-10 w-10 rounded-full bg-blue-200"></div>
+          <div>
+            <p class="font-medium text-blue-200">
+              {post.data.authorName}
+            </p>
+            <p class="text-sm text-gray-300">Lord of color</p>
+          </div>
+        </div>
+      </div>
+      <h1 class="mt-8 text-4xl/12 font-semibold">
+        {post.data.title}
+      </h1>
+      <p class="text-body mt-4 font-medium opacity-70">
+        {post.data.publishedDate.toLocaleDateString()}
+      </p>
     </div>
   </div>
 </section>
