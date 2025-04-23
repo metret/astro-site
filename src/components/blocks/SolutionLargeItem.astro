@@ -5,10 +5,10 @@ import { dynamicImportImage } from "~/utils";
 const loadedImage = await dynamicImportImage(image);
 ---
 
-<section class="relative z-[1] py-8">
+<section class="relative z-[1] py-16">
   <div
     class:list={[
-      "mx-auto grid max-w-[1280px] items-center gap-16 px-8",
+      "mx-auto grid max-w-[1280px] items-center gap-24 px-8",
       mirror === "false" && "grid-cols-[auto_1fr]",
       mirror === "true" && "grid-cols-[1fr_auto]",
     ]}
@@ -16,26 +16,26 @@ const loadedImage = await dynamicImportImage(image);
     {
       mirror === "false" && (
         <Image
-          class="h-full w-full rounded-[20px] object-cover shadow"
-          style="width: 600px; height: 360px;"
+          class="h-full w-full rounded-[20px] object-cover shadow-xl shadow-blue-200/10 border-1 border-solid border-blue-200/15"
+          style="width: 640px; height: 380px;"
           src={loadedImage}
           alt={title}
         />
       )
     }
     <div>
-      <h3 class="mb-4 text-4xl font-bold text-black">
+      <h3 class="mb-4 text-3xl font-semibold text-black">
         {title}
       </h3>
-      <p class="mb-4 text-xl text-black">
+      <p class="mb-4 text-l text-gray-300">
         {description}
       </p>
     </div>
     {
       mirror === "true" && (
         <Image
-          class="h-full w-full rounded-[20px] object-cover shadow"
-          style="width: 600px; height: 360px;"
+          class="h-full w-full rounded-[20px] object-cover shadow-xl shadow-blue-200/10 border-1 border-solid border-blue-200/15"
+          style="width: 640px; height: 380px;"
           src={loadedImage}
           alt={title}
         />

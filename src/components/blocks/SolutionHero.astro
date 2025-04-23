@@ -1,26 +1,62 @@
 ---
-const { title, description, image } = Astro.props;
+const { title, description, image, color } = Astro.props;
 import { Image } from "astro:assets";
 import { dynamicImportImage } from "~/utils";
 const loadedImage = await dynamicImportImage(image);
+import Wibble from "~/components/ui/Wibble.astro";
+import Dots from "~/components/Dots.astro";
+
+const colors = {
+  orange: "#ff9f43",
+  green: "#40b8a8",
+  purple: "#b974ff",
+  blue: "#3b65ef",
+  gray: "#dde6ff",
+  red: "#f13b4d",
+};
+
+const selectedColor = colors[color as keyof typeof colors] || colors.blue;
 ---
 
+<Dots />
 <section class="relative py-8">
   <div
-    class="mx-auto mt-16 flex max-w-[1280px] flex-row items-center gap-16 px-8"
+    class="mx-auto mt-16 flex max-w-[1280px] flex-row items-center gap-24 px-8"
   >
     <div class="shrink">
-      <h1 class="mb-4 text-4xl font-bold text-black">
+      <h1 class="mb-4 text-4xl font-semibold text-black">
         {title}
       </h1>
-      <p class="mb-4 text-xl text-black">
+      <p class="mb-4 text-xl text-gray-300">
         {description}
       </p>
+      <div class="mt-auto py-4">
+        <Wibble />
+      </div>
     </div>
     <div class="grow">
-      <div class="block" style="width: 600px; height: 337px">
+      <div class="relative block" style="width: 600px; height: 420px">
+        <svg
+          class="absolute inset-0"
+          viewBox="0 0 600 420"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g clip-path="url(#clip0_1261_3054)">
+            <rect width="600" height="420" rx="20" fill={selectedColor}></rect>
+            <path
+              d="M637.388 119.401C655.488 122.413 667.555 137.476 664.538 155.551L664.538 158.563C619.289 333.29 438.291 438.728 260.309 393.54C106.461 354.377 3.89544 209.776 15.962 53.1253C15.962 35.0501 28.0285 23.0001 46.1283 23.0001L52.1616 23.0001L637.388 119.401Z"
+              fill="white"
+              fill-opacity="0.1"></path>
+          </g>
+          <defs>
+            <clipPath id="clip0_1261_3054">
+              <rect width="600" height="420" rx="20" fill="white"></rect>
+            </clipPath>
+          </defs>
+        </svg>
         <Image
-          class="h-full w-full rounded-[20px] object-cover shadow"
+          class="absolute top-1/2 left-1/2 w-[90%] -translate-x-1/2 -translate-y-1/2 rounded object-cover shadow-2xl shadow-black/40"
           src={loadedImage}
           alt={title}
         />
