@@ -3,12 +3,12 @@ const { title, description, image } = Astro.props;
 ---
 
 <div class="">
-  <img class="mb-4 block rounded-[20px] object-cover shadow" src={image} />
+  <img class="shadow-mr mb-4 block rounded-[20px] object-cover" src={image} />
   <div class="p-4">
-    <h3 class="mb-4 text-2xl font-bold text-black">
+    <h3 class="mb-4 text-2xl font-semibold text-black">
       {title}
     </h3>
-    <p class="mb-4 text-xl text-black">
+    <p class="text-l mb-4 text-gray-300">
       {description}
     </p>
   </div>
