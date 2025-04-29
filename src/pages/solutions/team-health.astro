@@ -7,6 +7,8 @@ import SolutionHero from "~/components/blocks/SolutionHero.astro";
 import SolutionBanner from "~/components/blocks/SolutionBanner.astro";
 import SolutionLargeItem from "~/components/blocks/SolutionLargeItem.astro";
 import SolutionFeatureItem from "~/components/blocks/SolutionFeatureItem.astro";
+import UsageStatement from "~/components/blocks/instances/UsageStatement.astro";
+import CustomerLogos from "~/components/blocks/CustomerLogos.astro";
 import "swiper/css";
 ---
 
@@ -18,6 +20,14 @@ import "swiper/css";
     color="orange"
   />
 
+  <div class="px-4">
+    <div class="mx-auto mt-16 mb-6 max-w-[1024px] space-y-16">
+      <UsageStatement />
+    </div>
+  </div>
+
+  <CustomerLogos />
+
   <SolutionBanner
     title="Give everyone in your team a voice and celebrate achievements together with Metro Retro"
   />
@@ -25,7 +35,7 @@ import "swiper/css";
   <SolutionLargeItem
     mirror="false"
     title="Break the ice and energize your team"
-    description="Metro Retro is packed full of pre-built templates, one of those areas being Ice Breakers and Energizers. As a software team we understand the pain of staying enthusiastic for every meeting. It's why we've designed fun, light, kick-off templates to help get teams in the mood for collaboration."
+    description="Metro Retro is packed full of  templates, one of those areas being Ice Breakers and Energizers. As a software team we understand the pain of staying enthusiastic for every meeting. It's why we've designed fun, light, kick-off templates to help get teams in the mood for collaboration."
     image="~/assets/images/product-outcomes/break-ice-and-energise.png"
   />
 
@@ -59,7 +69,7 @@ import "swiper/css";
       />
       <SolutionFeatureItem
         title="Create Shared Responsibility"
-        description="Encourage your team to run meetings and take ownership. Our pre-built templates and intuitive controls allow anyone to create and run meetings."
+        description="Encourage your team to run meetings and take ownership. Our  templates and intuitive controls allow anyone to create and run meetings."
         image="~/assets/images/product-features/create-shared-responsibility.png"
       />
     </div>

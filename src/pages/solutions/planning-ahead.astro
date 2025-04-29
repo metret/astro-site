@@ -8,6 +8,8 @@ import SolutionBanner from "~/components/blocks/SolutionBanner.astro";
 import SolutionLargeItem from "~/components/blocks/SolutionLargeItem.astro";
 import SolutionFeatureItem from "~/components/blocks/SolutionFeatureItem.astro";
 import "swiper/css";
+import CustomerLogos from "~/components/blocks/CustomerLogos.astro";
+import UsageStatement from "~/components/blocks/instances/UsageStatement.astro";
 ---
 
 <PageLayout title="Planning Ahead">
@@ -17,6 +19,14 @@ import "swiper/css";
     image="~/assets/images/page-heroes/hero-placeholder.png"
     color="orange"
   />
+
+  <div class="px-4">
+    <div class="mx-auto mt-16 mb-6 max-w-[1024px] space-y-16">
+      <UsageStatement />
+    </div>
+  </div>
+
+  <CustomerLogos />
 
   <SolutionBanner
     title="Align your team and business goals with focused and cross-team collaboration in Metro Retro"
@@ -54,7 +64,7 @@ import "swiper/css";
       />
       <SolutionFeatureItem
         title="Agile processes"
-        description="Run engaging planning and retrospective sessions with pre-built or custom templates. Polls, t-shirt sizing, action tracking and more"
+        description="Run engaging planning and retrospective sessions with  or custom templates. Polls, t-shirt sizing, action tracking and more"
         image="~/assets/images/product-features/agile-processes.png"
       />
       <SolutionFeatureItem

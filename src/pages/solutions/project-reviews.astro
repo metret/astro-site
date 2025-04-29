@@ -8,6 +8,8 @@ import SolutionBanner from "~/components/blocks/SolutionBanner.astro";
 import SolutionLargeItem from "~/components/blocks/SolutionLargeItem.astro";
 import SolutionFeatureItem from "~/components/blocks/SolutionFeatureItem.astro";
 import "swiper/css";
+import UsageStatement from "~/components/blocks/instances/UsageStatement.astro";
+import CustomerLogos from "~/components/blocks/CustomerLogos.astro";
 ---
 
 <PageLayout title="Project Reviews">
@@ -17,6 +19,14 @@ import "swiper/css";
     image="~/assets/images/page-heroes/hero-placeholder.png"
     color="orange"
   />
+
+  <div class="px-4">
+    <div class="mx-auto mt-16 mb-6 max-w-[1024px] space-y-16">
+      <UsageStatement />
+    </div>
+  </div>
+
+  <CustomerLogos />
 
   <SolutionBanner
     title="Metro Retro offers a single space for your team to review and learn from past work. Build a shared understanding for continuous improvement"
@@ -44,7 +54,7 @@ import "swiper/css";
     <div class="mx-auto grid max-w-[1280px] grid-cols-2 gap-16 px-8">
       <SolutionFeatureItem
         title="Agile processes"
-        description="Run engaging planning and retrospective sessions with pre-built or custom templates. Polls, t-shirt sizing, action tracking and more"
+        description="Run engaging planning and retrospective sessions with  or custom templates. Polls, t-shirt sizing, action tracking and more"
         image="~/assets/images/product-features/agile-processes.png"
       />
       <SolutionFeatureItem

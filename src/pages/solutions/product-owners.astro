@@ -8,6 +8,8 @@ import SolutionBanner from "~/components/blocks/SolutionBanner.astro";
 import SolutionLargeItem from "~/components/blocks/SolutionLargeItem.astro";
 import SolutionFeatureItem from "~/components/blocks/SolutionFeatureItem.astro";
 import "swiper/css";
+import CustomerLogos from "~/components/blocks/CustomerLogos.astro";
+import UsageStatement from "~/components/blocks/instances/UsageStatement.astro";
 ---
 
 <PageLayout title="Product Owners">
@@ -17,6 +19,14 @@ import "swiper/css";
     image="~/assets/images/page-heroes/hero-placeholder.png"
     color="blue"
   />
+
+  <div class="px-4">
+    <div class="mx-auto mt-16 mb-6 max-w-[1024px] space-y-16">
+      <UsageStatement />
+    </div>
+  </div>
+
+  <CustomerLogos />
 
   <SolutionBanner
     title="Metro Retro helps teams communicate effectively to deliver value to customers and organizations"

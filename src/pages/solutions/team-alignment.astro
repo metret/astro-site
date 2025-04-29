@@ -7,6 +7,8 @@ import SolutionBanner from "~/components/blocks/SolutionBanner.astro";
 import SolutionLargeItem from "~/components/blocks/SolutionLargeItem.astro";
 import SolutionFeatureItem from "~/components/blocks/SolutionFeatureItem.astro";
 import "swiper/css";
+import UsageStatement from "~/components/blocks/instances/UsageStatement.astro";
+import CustomerLogos from "~/components/blocks/CustomerLogos.astro";
 ---
 
 <PageLayout title="Team Alignment">
@@ -16,6 +18,14 @@ import "swiper/css";
     image="~/assets/images/page-heroes/hero-placeholder.png"
     color="orange"
   />
+
+  <div class="px-4">
+    <div class="mx-auto mt-16 mb-6 max-w-[1024px] space-y-16">
+      <UsageStatement />
+    </div>
+  </div>
+
+  <CustomerLogos />
 
   <SolutionBanner
     title="Metro Retro is a shared space for all of your team planning and collaboration. Share knowledge and insight easily with all stakeholders."
