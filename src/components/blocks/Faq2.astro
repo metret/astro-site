@@ -4,34 +4,41 @@ import FaqItem from "./FaqItem.astro";
 ---
 
 <section class="px-4 py-16 md:py-32">
-  <div class="mx-auto max-w-[80rem]">
+  <div class="mx-auto max-w-[1080px]">
     <Heading class="mb-6">Would you like to know more?</Heading>
     <div>
       <ul class="space-y-2.5 md:space-y-5">
         <FaqItem question="Can I use Metro Retro for free?">
+          <p class="mb-4">Yes, you get a 30 day free trial when you signup.</p>
           <p class="mb-4">
-            Yes, you get a 30 day free trial when you signup. When your trial
-            ends, you will need to pick a plan to continue using Metro Retro.
+            When your trial ends, you will need to pick a plan to continue using
+            Metro Retro.
           </p>
-          <p>
+          <p class="mb-4">
             If your trial has ended but you need more time, talk to us to extend
             your trial.
           </p>
         </FaqItem>
         <FaqItem question="What happens when my free trial ends?">
-          <p>
+          <p class="mb-4">
             When your free trial ends, your team account is placed into a paused
             state. You do not lose any boards or data, and can still view your
             boards in a read-only view. You can choose to upgrade your account
-            in your own time, or choose to delete it. If you need to extend your
-            trial or want to talk to someone, contact us.
+            in your own time, or choose to delete it.
+          </p>
+          <p>
+            If you need to extend your trial or want to talk to someone, contact
+            us.
           </p>
         </FaqItem>
         <FaqItem question="What is a Team in Metro Retro?">
-          <p>
+          <p class="mb-4">
             A Team in Metro Retro is a private space where Team Members
-            collaborate on boards. You can have one Team space on the Starter
-            plan, and unlimited Team spaces on the Business or Enterprise plan.
+            collaborate on boards.
+          </p>
+          <p>
+            You can have one Team space on the Starter plan, and unlimited Team
+            spaces on the Business or Enterprise plan.
           </p>
         </FaqItem>
         <FaqItem question="How many Teams can I have?">
@@ -50,29 +57,35 @@ import FaqItem from "./FaqItem.astro";
           <p>You can have any number of members per team.</p>
         </FaqItem>
         <FaqItem question="Can I have more than one Team on the Starter plan?">
+          <p class="mb-4">
+            You can only have one Team space on the Starter plan.
+          </p>
           <p>
-            You can only have one Team space on the Starter plan. If you wish to
-            have multiple teams in the same organization, you must choose the
-            Business plan.
+            If you wish to have multiple teams in the same organization, you
+            must choose the Business plan.
           </p>
         </FaqItem>
         <FaqItem question="How many people can collaborate on a board with me?">
-          <p>
+          <p class="mb-4">
             All your members can collaborate on the same board together, even
-            across different teams in your organization. In addition, the
-            Business plan allows two external guests per board, the Enterprise
-            plan allows up to 20 external guests per board.
+            across different teams in your organization.
+          </p>
+          <p>
+            In addition, the Business plan allows two external guests per board,
+            the Enterprise plan allows up to 20 external guests per board.
           </p>
         </FaqItem>
         <FaqItem question="Can I collaborate with people outside my Team?">
-          <p>
+          <p class="mb-4">
             All collaborators on the Starter plan must join the team as a Team
-            Member to collaborate on a board. Teams on the Business or
-            Enterprise plans can invite external collaborators to their boards
-            as guests. Just copy the Guest Invite link in the board Share menu,
-            and your external collaborators can join your board. They will only
-            have access to the board shared with them, and will not have access
-            to the rest of the Team space.
+            Member to collaborate on a board.
+          </p>
+          <p>
+            Teams on the Business or Enterprise plans can invite external
+            collaborators to their boards as guests. Just copy the Guest Invite
+            link in the board Share menu, and your external collaborators can
+            join your board. They will only have access to the board shared with
+            them, and will not have access to the rest of the Team space.
           </p>
         </FaqItem>
         <FaqItem question="What is a Guest?">
@@ -83,27 +96,35 @@ import FaqItem from "./FaqItem.astro";
           </p>
         </FaqItem>
         <FaqItem question="What is the difference between Members and Guests?">
-          <p>
+          <p class="mb-4">
             Members have full use of the tool, such as access to the team space
             and boards, using integrations, creating and managing boards,
-            running meetings. Members have a user profile. On the other hand, a
-            Guest is a temporary role with limited functionality that is used by
-            anyone outside the organization to collaborate on a single board.
-            Members use a billed seat, while guests do not.
+            running meetings. Members have a user profile.
+          </p>
+          <p>
+            On the other hand, a Guest is a temporary role with limited
+            functionality that is used by anyone outside the organization to
+            collaborate on a single board. Members use a billed seat, while
+            guests do not.
           </p>
         </FaqItem>
         <FaqItem question="How can I pay?">
-          <p>
+          <p class="mb-4">
             You can start a subscription with a payment card inside your team
-            space. Invoice billing is available for annual plans with a minimum
-            of 3 teams. Get in touch for invoice billing.
+            space.
+          </p>
+          <p>
+            Invoice billing is available for annual plans with a minimum of 3
+            teams. Get in touch for invoice billing.
           </p>
         </FaqItem>
         <FaqItem question="Can I change my plan?">
+          <p class="mb-4">
+            Please contact us to change your plan type or billing period.
+          </p>
           <p>
-            Please contact us to change your plan type or billing period. On the
-            Business plan, you can add or remove members and your subscription
-            will update pro-rata.
+            On the Business plan, you can add or remove members and your
+            subscription will update pro-rata.
           </p>
         </FaqItem>
         <FaqItem question="Can I cancel my plan?">
@@ -132,7 +153,7 @@ import FaqItem from "./FaqItem.astro";
 
   function setFAQ(
     faq?: HTMLDivElement | null,
-    expanded: "true" | "false" = "false"
+    expanded: "true" | "false" = "false",
   ) {
     if (!faq) return;
     faq.setAttribute("aria-expanded", expanded);
