@@ -1,83 +1,6 @@
 ---
 import Heading from "../ui/Heading.astro";
-
-const faqs: { question: string; answer: string }[] = [
-  {
-    question: "Can I use Metro Retro for free?",
-    answer:
-      "Yes, you get a 30 day free trial when you signup. When your trial ends, you will need to pick a plan to continue using Metro Retro. If your trial has ended but you need more time, talk to us to extend your trial.",
-  },
-  {
-    question: "What happens when my free trial ends?",
-    answer:
-      "When your free trial ends, your team account is placed into a paused state. You do not lose any boards or data, and can still view your boards in a read-only view. You can choose to upgrade your account in your own time, or choose to delete it. If you need to extend your trial or want to talk to someone, contact us.",
-  },
-  {
-    question: "What is a Team in Metro Retro?",
-    answer:
-      "A Team in Metro Retro is a private space where Team Members collaborate on boards. You can have one Team space on the Starter plan, and unlimited Team spaces on the Business or Enterprise plan.",
-  },
-  {
-    question: "How many Teams can I have?",
-    answer:
-      "On the Starter plan you have one Team space. The Business and Enterprise plans allow you to have any number of Teams.",
-  },
-  {
-    question: "What is a Member?",
-    answer:
-      "A member is someone that has joined your team. They must create an account to collaborate. Members have access to the team dashboard.",
-  },
-  {
-    question: "How many Members can I have on a Team?",
-    answer: "You can have any number of members per team.",
-  },
-  {
-    question: "Can I have more than one Team on the Starter plan?",
-    answer:
-      "You can only have one Team space on the Starter plan. If you wish to have multiple teams in the same organization, you must choose the Business plan..",
-  },
-
-  {
-    question: "How many people can collaborate on a board with me?",
-    answer:
-      "All your members can collaborate on the same board together, even across different teams in your organization. In addition, the Business plan allows two external guests per board, the Enterprise plan allows up to 20 external guests per board.",
-  },
-  {
-    question: "Can I collaborate with people outside my Team?",
-    answer:
-      "All collaborators on the Starter plan must join the team as a Team Member to collaborate on a board. Teams on the Business or Enterprise plans can invite external collaborators to their boards as guests. Just copy the Guest Invite link in the board Share menu, and your external collaborators can join your board. They will only have access to the board shared with them, and will not have access to the rest of the Team space..",
-  },
-  {
-    question: "What is a Guest?",
-    answer:
-      "A Guest is a collaborator that is not a Team Member. A guest can be invited to individual boards that are shared with them. They do not have access to the team space.",
-  },
-  {
-    question: "What is the difference between Members and Guests?",
-    answer:
-      "Members have full use of the tool, such as access to the team space and boards, using integrations, creating and managing boards, running meetings. Members have a user profile. On the other hand, a Guest is a temporary role with limited functionality that is used by anyone outside the organization to collaborate on a single board. Members use a billed seat, while guests do not",
-  },
-  {
-    question: "How can I pay?",
-    answer:
-      "You can start a subscription with a payment card inside your team space. Invoice billing is available for annual plans with a minimum of 3 teams. Get in touch for invoice billing.",
-  },
-  {
-    question: "Can I change my plan?",
-    answer:
-      "Please contact us to change your plan type or billing period. On the Business plan, you can add or remove members and your subscription will update pro-rata.",
-  },
-  {
-    question: "Can I cancel my plan?",
-    answer:
-      "Yes you can cancel your plan at any point. Your Team space(s) will continue on the paid plan until the end of the current billing period. Annual plans can cancel with a full refund within the first 30 days.",
-  },
-  {
-    question: "Can I talk to someone?",
-    answer:
-      "Please use the live support chat to talk directly to us, or email at sales@metroretro.io with your question, name, email, role and organization.",
-  },
-];
+import FaqItem from "./FaqItem.astro";
 ---
 
 <section class="px-4 py-16 md:py-32">
@@ -85,93 +8,131 @@ const faqs: { question: string; answer: string }[] = [
     <Heading class="mb-6">Would you like to know more?</Heading>
     <div>
       <ul class="space-y-2.5 md:space-y-5">
-        {
-          faqs.map((faq) => (
-            <li class="faq-2 group/faq" aria-expanded="false">
-              <div class="">
-                <button
-                  type="button"
-                  class="text-body relative flex w-full items-start justify-between gap-4 py-3 pr-4 pl-7 text-left text-xl font-medium"
-                >
-                  <span class="absolute top-1/2 left-0 -translate-y-1/2">
-                    <svg
-                      class="plus"
-                      width="14"
-                      height="14"
-                      viewBox="0 0 14 14"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        d="M7 1V13"
-                        stroke="#3B65EF"
-                        stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                      />
-                      <path
-                        d="M13 7L1 7"
-                        stroke="#3B65EF"
-                        stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                      />
-                    </svg>
-
-                    <svg
-                      class="minus"
-                      width="14"
-                      height="2"
-                      viewBox="0 0 14 2"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        d="M13 1L1 0.999999"
-                        stroke="#3B65EF"
-                        stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                      />
-                    </svg>
-                  </span>
-
-                  <span class="">{faq.question}</span>
-                </button>
-
-                <div
-                  data-expanded="false"
-                  class="grid grid-rows-[0fr] border-b border-transparent transition-[grid-template-rows] duration-300 data-[expanded=false]:border-blue-100 data-[expanded=true]:grid-rows-[1fr]"
-                >
-                  <div class="overflow-hidden">
-                    <div class="">
-                      <p class="text-l px-6 py-3 font-medium text-black">
-                        {faq.answer}
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </li>
-          ))
-        }
+        <FaqItem question="Can I use Metro Retro for free?">
+          <p class="mb-4">
+            Yes, you get a 30 day free trial when you signup. When your trial
+            ends, you will need to pick a plan to continue using Metro Retro.
+          </p>
+          <p>
+            If your trial has ended but you need more time, talk to us to extend
+            your trial.
+          </p>
+        </FaqItem>
+        <FaqItem question="What happens when my free trial ends?">
+          <p>
+            When your free trial ends, your team account is placed into a paused
+            state. You do not lose any boards or data, and can still view your
+            boards in a read-only view. You can choose to upgrade your account
+            in your own time, or choose to delete it. If you need to extend your
+            trial or want to talk to someone, contact us.
+          </p>
+        </FaqItem>
+        <FaqItem question="What is a Team in Metro Retro?">
+          <p>
+            A Team in Metro Retro is a private space where Team Members
+            collaborate on boards. You can have one Team space on the Starter
+            plan, and unlimited Team spaces on the Business or Enterprise plan.
+          </p>
+        </FaqItem>
+        <FaqItem question="How many Teams can I have?">
+          <p>
+            On the Starter plan you have one Team space. The Business and
+            Enterprise plans allow you to have any number of Teams.
+          </p>
+        </FaqItem>
+        <FaqItem question="What is a Member?">
+          <p>
+            A member is someone that has joined your team. They must create an
+            account to collaborate. Members have access to the team dashboard.
+          </p>
+        </FaqItem>
+        <FaqItem question="How many Members can I have on a Team?">
+          <p>You can have any number of members per team.</p>
+        </FaqItem>
+        <FaqItem question="Can I have more than one Team on the Starter plan?">
+          <p>
+            You can only have one Team space on the Starter plan. If you wish to
+            have multiple teams in the same organization, you must choose the
+            Business plan.
+          </p>
+        </FaqItem>
+        <FaqItem question="How many people can collaborate on a board with me?">
+          <p>
+            All your members can collaborate on the same board together, even
+            across different teams in your organization. In addition, the
+            Business plan allows two external guests per board, the Enterprise
+            plan allows up to 20 external guests per board.
+          </p>
+        </FaqItem>
+        <FaqItem question="Can I collaborate with people outside my Team?">
+          <p>
+            All collaborators on the Starter plan must join the team as a Team
+            Member to collaborate on a board. Teams on the Business or
+            Enterprise plans can invite external collaborators to their boards
+            as guests. Just copy the Guest Invite link in the board Share menu,
+            and your external collaborators can join your board. They will only
+            have access to the board shared with them, and will not have access
+            to the rest of the Team space.
+          </p>
+        </FaqItem>
+        <FaqItem question="What is a Guest?">
+          <p>
+            A Guest is a collaborator that is not a Team Member. A guest can be
+            invited to individual boards that are shared with them. They do not
+            have access to the team space.
+          </p>
+        </FaqItem>
+        <FaqItem question="What is the difference between Members and Guests?">
+          <p>
+            Members have full use of the tool, such as access to the team space
+            and boards, using integrations, creating and managing boards,
+            running meetings. Members have a user profile. On the other hand, a
+            Guest is a temporary role with limited functionality that is used by
+            anyone outside the organization to collaborate on a single board.
+            Members use a billed seat, while guests do not.
+          </p>
+        </FaqItem>
+        <FaqItem question="How can I pay?">
+          <p>
+            You can start a subscription with a payment card inside your team
+            space. Invoice billing is available for annual plans with a minimum
+            of 3 teams. Get in touch for invoice billing.
+          </p>
+        </FaqItem>
+        <FaqItem question="Can I change my plan?">
+          <p>
+            Please contact us to change your plan type or billing period. On the
+            Business plan, you can add or remove members and your subscription
+            will update pro-rata.
+          </p>
+        </FaqItem>
+        <FaqItem question="Can I cancel my plan?">
+          <p>
+            Yes you can cancel your plan at any point. Your Team space(s) will
+            continue on the paid plan until the end of the current billing
+            period. Annual plans can cancel with a full refund within the first
+            30 days.
+          </p>
+        </FaqItem>
+        <FaqItem question="Can I talk to someone?">
+          <p>
+            Please use the live support chat to talk directly to us, or email at <a
+              href="mailto:sales@metroretro.io"
+              class="text-blue-200 hover:underline">sales@metroretro.io</a
+            > with your question, name, email, role and organization.
+          </p>
+        </FaqItem>
       </ul>
     </div>
   </div>
 </section>
-<style>
-  .faq-2[aria-expanded="false"] .minus,
-  .faq-2[aria-expanded="true"] .plus {
-    display: none;
-  }
-</style>
 
 <script>
   const faqs = [...document.querySelectorAll(".faq-2")] as HTMLDivElement[];
 
   function setFAQ(
     faq?: HTMLDivElement | null,
-    expanded: "true" | "false" = "false",
+    expanded: "true" | "false" = "false"
   ) {
     if (!faq) return;
     faq.setAttribute("aria-expanded", expanded);
