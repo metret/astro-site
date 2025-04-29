@@ -7,6 +7,8 @@ import SolutionHero from "~/components/blocks/SolutionHero.astro";
 import SolutionBanner from "~/components/blocks/SolutionBanner.astro";
 import SolutionLargeItem from "~/components/blocks/SolutionLargeItem.astro";
 import SolutionFeatureItem from "~/components/blocks/SolutionFeatureItem.astro";
+import CustomerLogos from "~/components/blocks/CustomerLogos.astro";
+import UsageStatement from "~/components/blocks/instances/UsageStatement.astro";
 import "swiper/css";
 ---
 
@@ -18,19 +20,35 @@ import "swiper/css";
     color="purple"
   />
 
+  <div class="px-4">
+    <div class="mx-auto mt-16 mb-6 max-w-[1024px] space-y-16">
+      <UsageStatement />
+    </div>
+  </div>
+
+  <CustomerLogos />
+
   <SolutionBanner
+    emoji="😎"
     title="Reduce context switching and get everyone in your team involved in the discussion."
   />
 
   <SolutionLargeItem
     mirror="false"
+    title="Seamless collaboration for remote and hybrid teams."
+    description="With pre-built templates, intuitive tools and facilitator controls which help you to guide participants through your meeting, Metro Retro is the closest thing to being in the room together, enabling all members of your team to contribute to discussions."
+    image="~/assets/images/product-outcomes/seamless-collaboration-remote-and-hybrid.png"
+  />
+
+  <SolutionLargeItem
+    mirror="true"
     title="A visual space for shared understanding."
     description="Help your teams and stakeholders understand complex and abstract concepts easily in a visual platform which promotes engagement and makes ideas more tangible."
     image="~/assets/images/product-outcomes/visual-space-shared-understanding.png"
   />
 
   <SolutionLargeItem
-    mirror="true"
+    mirror="false"
     title="Build the workshop and frameworks your team needs"
     description="Combine pre-built board templates or customize your own. However you or your team work, Metro Retro is the flexible collaboration space for any meeting type."
     image="~/assets/images/product-outcomes/build-the-workshops.png"
@@ -38,6 +56,7 @@ import "swiper/css";
 
   <SolutionBanner
     title="Metro Retro makes it easy to focus on the work, not the process of running a remote meeting"
+    emoji="🤔"
   />
 
   <section class="relative z-[1] py-8">
@@ -45,23 +64,28 @@ import "swiper/css";
       <SolutionFeatureItem
         title="Focused Collaboration"
         description="With board tools built for facilitation, drive your meeting forward and guide your team to achieve better outcomes more efficiently."
-        image="https://placehold.co/540x440"
+        image="~/assets/images/product-features/focused-collaboration.png"
       />
       <SolutionFeatureItem
         title="Actions, Comments & Mentions"
         description="Keep your team and project on track with easy communication and task tracking features."
-        image="https://placehold.co/540x440"
+        image="~/assets/images/product-features/actions-comments-mentions.png"
+      />
+      <SolutionFeatureItem
+        title="CSV Data Import"
+        description="Bring data and insights directly from external platforms to review everything in a single shared space."
+        image="~/assets/images/product-features/csv-data-import.png"
       />
       <SolutionFeatureItem
         title="Private Writing"
         description="Remove bias and promote a safe space for input by allowing team members to share their input anonymously."
-        image="https://placehold.co/540x440"
+        image="~/assets/images/product-features/private-writing.png"
       />
     </div>
   </section>
 
   <SolutionBanner
-    title="Pre-built Templates to kick-start your Retrospectives"
+    title="Pre-built Templates for efficient Whiteboard meetings"
   />
 
   <section class="relative z-[1] py-8">
@@ -69,17 +93,17 @@ import "swiper/css";
       <SolutionFeatureItem
         title="Good, Bad, Stop, Start"
         description="Reflect on past work and plan improvements with this retrospective template."
-        image="https://placehold.co/540x440"
+        image="~/assets/images/feature-placeholder.png"
       />
       <SolutionFeatureItem
         title="Sailboat"
         description="Navigate your team's journey with the Sailboat retrospective template."
-        image="https://placehold.co/540x440"
+        image="~/assets/images/feature-placeholder.png"
       />
       <SolutionFeatureItem
         title="Ishakawa Diagram"
         description="Identify root causes of issues with the Ishakawa Diagram template."
-        image="https://placehold.co/540x440"
+        image="~/assets/images/feature-placeholder.png"
       />
     </div>
   </section>

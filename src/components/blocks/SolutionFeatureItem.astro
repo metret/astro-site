@@ -1,9 +1,17 @@
 ---
 const { title, description, image } = Astro.props;
+import { Image } from "astro:assets";
+import { dynamicImportImage } from "~/utils";
+const loadedImage = await dynamicImportImage(image);
 ---
 
 <div class="">
-  <img class="shadow-mr mb-4 block rounded-[20px] object-cover" src={image} />
+  <Image
+    class="shadow-mr mb-4 block rounded-[20px] border-1 border-solid border-blue-200/15 object-cover"
+    style="width: 540px; height: 440px;"
+    src={loadedImage}
+    alt={title}
+  />
   <div class="p-4">
     <h3 class="mb-4 text-2xl font-semibold text-black">
       {title}

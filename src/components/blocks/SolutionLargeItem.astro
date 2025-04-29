@@ -16,7 +16,7 @@ const loadedImage = await dynamicImportImage(image);
     {
       mirror === "false" && (
         <Image
-          class="h-full w-full rounded-[20px] object-cover shadow-xl shadow-blue-200/10 border-1 border-solid border-blue-200/15"
+          class="h-full w-full rounded-[20px] border-1 border-solid border-blue-200/15 object-cover shadow-xl shadow-blue-200/10"
           style="width: 640px; height: 380px;"
           src={loadedImage}
           alt={title}
@@ -27,14 +27,14 @@ const loadedImage = await dynamicImportImage(image);
       <h3 class="mb-4 text-3xl font-semibold text-black">
         {title}
       </h3>
-      <p class="mb-4 text-l text-gray-300">
+      <p class="text-l mb-4 text-gray-300">
         {description}
       </p>
     </div>
     {
       mirror === "true" && (
         <Image
-          class="h-full w-full rounded-[20px] object-cover shadow-xl shadow-blue-200/10 border-1 border-solid border-blue-200/15"
+          class="h-full w-full rounded-[20px] border-1 border-solid border-blue-200/15 object-cover shadow-xl shadow-blue-200/10"
           style="width: 640px; height: 380px;"
           src={loadedImage}
           alt={title}

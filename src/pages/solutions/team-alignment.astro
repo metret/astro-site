@@ -1,7 +1,6 @@
 ---
 import PageLayout from "~/layouts/PageLayout.astro";
 import CustomerStories from "~/components/blocks/CustomerStories.astro";
-import SignUp from "~/components/blocks/SignUp.astro";
 import Testimonials from "~/components/blocks/Testimonials.astro";
 import SolutionHero from "~/components/blocks/SolutionHero.astro";
 import SolutionBanner from "~/components/blocks/SolutionBanner.astro";
@@ -12,100 +11,10 @@ import "swiper/css";
 
 <PageLayout title="Team Alignment">
   <SolutionHero
-    title="Build your product's vision with shared understanding"
-    description="Don't let great insights get trapped in silos, collaborate efficiently with your product teams and stakeholders, manage your backlog and plan ahead from a single space with Metro Retro"
-    image="~/assets/images/page-heroes/hero-placeholder.png"
-    color="orange"
-  />
-
-  <SolutionBanner
-    title="Metro Retro helps teams communicate effectively to deliver value to customers and organizations"
-  />
-
-  <SolutionLargeItem
-    mirror="false"
-    title="Prioritize the work ahead with clarity"
-    description="A single space for backlog refinement, sprint review and planning means no more context switching. Keeping your teams focused on priority goals and the product vision."
-    image="~/assets/images/product-outcomes/prioritize-work-ahead.png"
-  />
-
-  <SolutionLargeItem
-    mirror="true"
-    title="Retrospectives that drive engagement and communication."
-    description="Active engagement from your team helps to uncover insights when reviewing past work. Metro Retro templates keep your meetings fresh and encourage participation."
-    image="~/assets/images/product-outcomes/retros-that-drive-engagement.png"
-  />
-
-  <SolutionLargeItem
-    mirror="false"
-    title="Create shared understanding across your teams"
-    description="Have a single space to show your product's journey from discovery to delivery keeps your team aligned so every person understands what is being built and why."
-    image="~/assets/images/product-outcomes/create-shared-understanding.png"
-  />
-
-  <SolutionBanner title="Tools built to drive decision making" />
-
-  <section class="relative z-[1] py-8">
-    <div class="mx-auto grid max-w-[1280px] grid-cols-2 gap-16 px-8">
-      <SolutionFeatureItem
-        title="Voting"
-        description="Work together to prioritize what matters the most to achieving your goals"
-        image="https://placehold.co/540x440"
-      />
-      <SolutionFeatureItem
-        title="Agile processes"
-        description="Run engaging planning and retrospective sessions. Polls, t-shirt sizing, action tracking and more"
-        image="https://placehold.co/540x440"
-      />
-      <SolutionFeatureItem
-        title="Focused Collaboration"
-        description="With board tools built for facilitation, drive your meeting forward and guide your team to achieve better outcomes more efficiently."
-        image="https://placehold.co/540x440"
-      />
-      <SolutionFeatureItem
-        title="Roadmaps"
-        description="Structure and prioritize your team's efforts with our easy to use drag and drop roadmap planning templates"
-        image="https://placehold.co/540x440"
-      />
-    </div>
-  </section>
-
-  <SolutionBanner title="Try these perfect Templates for Product Teams" />
-
-  <section class="relative z-[1] py-8">
-    <div class="mx-auto grid max-w-[1280px] grid-cols-3 gap-16 px-8">
-      <SolutionFeatureItem
-        title="Timeline Roadmap"
-        description="Plan your product's journey with a clear timeline."
-        image="https://placehold.co/540x440"
-      />
-      <SolutionFeatureItem
-        title="Good, Bad, Stop, Start Retro"
-        description="Reflect on past work and plan improvements with this retrospective template."
-        image="https://placehold.co/540x440"
-      />
-      <SolutionFeatureItem
-        title="Fibonacci Estimation"
-        description="Use Fibonacci numbers to estimate and prioritize tasks effectively."
-        image="https://placehold.co/540x440"
-      />
-    </div>
-  </section>
-
-  <CustomerStories />
-
-  <Testimonials />
-</PageLayout>
-
-Certainly! Below is the Astro JS content page based on the data you provided.
-I've structured it similarly to the guide you shared, starting from the content
-within the Zone:
-
-<PageLayout>
-  <SolutionHero
     title="Drive efficiency with team alignment and a shared understanding of goals"
     description="Cut through the chaos of too many sources of information and get your team focused and working together in a single space."
-    image="~/assets/images/template-1.png"
+    image="~/assets/images/page-heroes/hero-placeholder.png"
+    color="orange"
   />
 
   <SolutionBanner
@@ -116,14 +25,14 @@ within the Zone:
     mirror="false"
     title="A visual space for shared understanding."
     description="Help your teams and stakeholders understand complex and abstract concepts easily in a visual platform which promotes engagement and makes ideas more tangible."
-    image="~/assets/images/600x360.svg"
+    image="~/assets/images/product-outcomes/visual-space-shared-understanding.png"
   />
 
   <SolutionLargeItem
     mirror="true"
     title="Monitor progress, remove blockers and plan ahead across teams."
     description="Whether you use Jira or our native action items, track outcomes from your meetings and review and refine how your teams work to remove obstacles and promote continuous improvement."
-    image="~/assets/images/600x360.svg"
+    image="~/assets/images/product-outcomes/monitor-progress-remove-blockers.png"
   />
 
   <SolutionBanner
@@ -135,22 +44,22 @@ within the Zone:
       <SolutionFeatureItem
         title="Actions, Comments & Mentions"
         description="Keep your team and project on track with easy communication and task tracking features."
-        image="https://placehold.co/540x440"
+        image="~/assets/images/product-features/actions-comments-mentions.png"
       />
       <SolutionFeatureItem
         title="Activity Frames"
         description="Keep focus during your meetings by using Activity frames to drive discussion and make sure everyone is on the same page."
-        image="https://placehold.co/540x440"
+        image="~/assets/images/product-features/activity-frames.png"
       />
       <SolutionFeatureItem
         title="CSV Data Import"
         description="Bring data and insights directly from external platforms to review everything in a single shared space."
-        image="https://placehold.co/540x440"
+        image="~/assets/images/product-features/csv-data-import.png"
       />
       <SolutionFeatureItem
         title="Private Writing"
         description="Remove bias and promote a safe space for input by allowing team members to share their input anonymously."
-        image="https://placehold.co/540x440"
+        image="~/assets/images/product-features/private-writing.png"
       />
     </div>
   </section>
@@ -161,18 +70,18 @@ within the Zone:
     <div class="mx-auto grid max-w-[1280px] grid-cols-3 gap-16 px-8">
       <SolutionFeatureItem
         title="Definition of Done"
-        description="Ensure clarity and alignment on what constitutes a completed task."
-        image="https://placehold.co/540x440"
+        description="Plan your product's journey with a clear timeline."
+        image="~/assets/images/feature-placeholder.png"
       />
       <SolutionFeatureItem
         title="Three Little Pigs"
-        description="A fun and engaging way to reflect on team performance and areas for improvement."
-        image="https://placehold.co/540x440"
+        description="Reflect on past work and plan improvements with this retrospective template."
+        image="~/assets/images/feature-placeholder.png"
       />
       <SolutionFeatureItem
         title="On The Radar"
-        description="Identify and prioritize upcoming tasks and challenges."
-        image="https://placehold.co/540x440"
+        description="Use Fibonacci numbers to estimate and prioritize tasks effectively."
+        image="~/assets/images/feature-placeholder.png"
       />
     </div>
   </section>
