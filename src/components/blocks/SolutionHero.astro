@@ -21,9 +21,9 @@ const selectedColor = colors[color as keyof typeof colors] || colors.blue;
 <Dots />
 <section class="relative py-8">
   <div
-    class="mx-auto mt-16 flex max-w-[1280px] flex-row items-center gap-24 px-8"
+    class="mx-auto flex max-w-[1280px] flex-row items-center gap-24 px-8 sm:flex-col md:flex-row lg:flex-row xl:flex-row"
   >
-    <div class="shrink">
+    <div class="shrink md:w-1/2">
       <h1 class="mb-4 text-4xl font-semibold text-black">
         {title}
       </h1>
@@ -34,8 +34,11 @@ const selectedColor = colors[color as keyof typeof colors] || colors.blue;
         <Wibble />
       </div>
     </div>
-    <div class="grow">
-      <div class="relative block" style="width: 600px; height: 420px">
+    <div class="grow sm:order-first md:order-last md:w-1/2 lg:order-last">
+      <div
+        class="relative block max-w-600 md:max-w-full"
+        style="width: 600px; height: 420px"
+      >
         <svg
           class="absolute inset-0"
           viewBox="0 0 600 420"

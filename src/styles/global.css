@@ -57,6 +57,7 @@
   .heading-2 {
     @apply text-center text-4xl/[42px] font-semibold text-black;
   }
+
   .text-1 {
     @apply text-body text-center text-lg/[24px] font-medium;
   }
