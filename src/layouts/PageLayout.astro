@@ -5,11 +5,22 @@ import TheNavbar from "~/components/TheNavbar.astro";
 import TheFooter from "~/components/TheFooter.astro";
 import "swiper/css";
 import AnnouncementBanner from "~/components/blocks/AnnouncementBanner.astro";
+import type { Props as AstroSEOProps } from "astro-seo";
+interface Props extends AstroSEOProps {
+  /**
+   * Applied to html body
+   */
+  class?: astroHTML.JSX.HTMLAttributes["class"];
+  /**
+   * Applied to html body
+   */
+  "class:list"?: astroHTML.JSX.HTMLAttributes["class:list"];
+}
 
-interface Props extends ComponentProps<typeof BaseLayout> {}
+const { title, ...props } = Astro.props;
 ---
 
-<BaseLayout {...Astro.props}>
+<BaseLayout {...props} title={title}>
   <slot name="top" />
   <AnnouncementBanner>
     <p>This is the announcement banner!!</p>

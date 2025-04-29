@@ -7,6 +7,8 @@ import rehypeFigure from '@microflash/rehype-figure';
 
 // https://astro.build/config
 export default defineConfig({
+  site: "https://astro.deqo.dev",
+  base: "/",
   vite: {
     plugins: [tailwindcss(), mdx()],
   },

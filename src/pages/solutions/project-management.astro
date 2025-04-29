@@ -1,5 +1,5 @@
 ---
-import Layout from "~/layouts/Layout.astro";
+import PageLayout from "~/layouts/PageLayout.astro";
 import CustomerStories from "~/components/blocks/CustomerStories.astro";
 import SignUp from "~/components/blocks/SignUp.astro";
 import Testimonials from "~/components/blocks/Testimonials.astro";
@@ -10,7 +10,7 @@ import SolutionFeatureItem from "~/components/blocks/SolutionFeatureItem.astro";
 import "swiper/css";
 ---
 
-<Layout>
+<PageLayout title="Project Management">
   <SolutionHero
     title="See the full picture of your project in a single space."
     description="Avoid context switching and plan your entire project from concept to delivery in a single shared space for improved efficiency and coordination."
@@ -99,4 +99,4 @@ import "swiper/css";
   <CustomerStories />
 
   <Testimonials />
-</Layout>
+</PageLayout>

@@ -1,8 +1,8 @@
 ---
 title: "Ryd - Streamlined Engineering Team Meetings With Metro Retro"
-description: "todo"
+description: "How the ryd engineering team streamlined their decision making process by 50% and became more in sync using Metro Retro."
 color: "blue"
-logo: "~/assets/images/logos/large/ryd.png"
+image: "~/assets/images/logos/large/ryd.png"
 headerLead: "“It’s been a big shift for our teams, especially in terms of ease of collaboration.”"
 headerInfo: "How the ryd engineering team streamlined their decision making process by 50% and became more in sync using Metro Retro."
 headerImage: "~/assets/images/legacy/2024/11/ryd-hero.png"

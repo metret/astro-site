@@ -1,5 +1,5 @@
 ---
-import Layout from "~/layouts/Layout.astro";
+import PageLayout from "~/layouts/PageLayout.astro";
 import CustomerStories from "~/components/blocks/CustomerStories.astro";
 import SignUp from "~/components/blocks/SignUp.astro";
 import Testimonials from "~/components/blocks/Testimonials.astro";
@@ -10,7 +10,7 @@ import SolutionFeatureItem from "~/components/blocks/SolutionFeatureItem.astro";
 import "swiper/css";
 ---
 
-<Layout>
+<PageLayout title="Developers">
   <SolutionHero
     title="Metro Retro is made by developers for developers."
     description="Need to quickly sketch out an idea? Or produce a quick diagram? Or just want to avoid having to go into Jira? We got you."
@@ -88,4 +88,4 @@ import "swiper/css";
   <CustomerStories />
 
   <Testimonials />
-</Layout>
+</PageLayout>

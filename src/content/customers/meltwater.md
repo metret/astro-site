@@ -2,7 +2,7 @@
 title: "Meltwater - Removing The Barriers For Distributed Teams To Work Together"
 description: "todo"
 color: "green"
-logo: "~/assets/images/logos/large/meltwater.png"
+image: "~/assets/images/logos/large/meltwater.png"
 headerLead: "“Metro Retro solves the barriers for distributed teams to work together”"
 headerInfo: "Learn why Metro Retro is the collaboration tool of choice for 500+ engineers at Meltwater."
 headerImage: "~/assets/images/legacy/2024/06/meltwater-hero.png"

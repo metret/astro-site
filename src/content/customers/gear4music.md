@@ -2,7 +2,7 @@
 title: "Gear4music - How Gear4Music Uses Metro Retro To Keep Their Engineering Teams Working In Harmony"
 description: "todo"
 color: "orange"
-logo: "~/assets/images/logos/large/gear4music.png"
+image: "~/assets/images/logos/large/gear4music.png"
 headerLead: "“Our teams express themselves in a way I’ve never seen before”"
 headerInfo: "See how Gear4music uses Metro Retro to keep their engineering teams working in harmony."
 headerImage: "~/assets/images/legacy/2024/06/gears4music-hero.png"

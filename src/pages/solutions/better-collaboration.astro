@@ -1,5 +1,5 @@
 ---
-import Layout from "~/layouts/Layout.astro";
+import PageLayout from "~/layouts/PageLayout.astro";
 import CustomerStories from "~/components/blocks/CustomerStories.astro";
 import SignUp from "~/components/blocks/SignUp.astro";
 import Testimonials from "~/components/blocks/Testimonials.astro";
@@ -10,7 +10,7 @@ import SolutionFeatureItem from "~/components/blocks/SolutionFeatureItem.astro";
 import "swiper/css";
 ---
 
-<Layout>
+<PageLayout title="Better Collaboration">
   <SolutionHero
     title="Good collaboration is built on communication, great collaboration is built on trust"
     description="Don't just bring your team together in a whiteboard and expect results, create an environment where individual personalities and openness are at the heart of your work."
@@ -92,4 +92,4 @@ import "swiper/css";
   <CustomerStories />
 
   <Testimonials />
-</Layout>
+</PageLayout>

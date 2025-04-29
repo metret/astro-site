@@ -1,5 +1,5 @@
 ---
-import Layout from "~/layouts/Layout.astro";
+import PageLayout from "~/layouts/PageLayout.astro";
 import CustomerStories from "~/components/blocks/CustomerStories.astro";
 import SignUp from "~/components/blocks/SignUp.astro";
 import Testimonials from "~/components/blocks/Testimonials.astro";
@@ -10,7 +10,7 @@ import SolutionFeatureItem from "~/components/blocks/SolutionFeatureItem.astro";
 import "swiper/css";
 ---
 
-<Layout>
+<PageLayout title="Team Alignment">
   <SolutionHero
     title="Build your product's vision with shared understanding"
     description="Don't let great insights get trapped in silos, collaborate efficiently with your product teams and stakeholders, manage your backlog and plan ahead from a single space with Metro Retro"
@@ -95,13 +95,13 @@ import "swiper/css";
   <CustomerStories />
 
   <Testimonials />
-</Layout>
+</PageLayout>
 
 Certainly! Below is the Astro JS content page based on the data you provided.
 I've structured it similarly to the guide you shared, starting from the content
 within the Zone:
 
-<Layout>
+<PageLayout>
   <SolutionHero
     title="Drive efficiency with team alignment and a shared understanding of goals"
     description="Cut through the chaos of too many sources of information and get your team focused and working together in a single space."
@@ -180,4 +180,4 @@ within the Zone:
   <CustomerStories />
 
   <Testimonials />
-</Layout>
+</PageLayout>

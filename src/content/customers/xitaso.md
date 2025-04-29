@@ -2,7 +2,7 @@
 title: "XITASO"
 description: "todo"
 color: "blue"
-logo: "~/assets/images/logos/large/xitaso.png"
+image: "~/assets/images/logos/large/xitaso.png"
 headerLead: "“Metro Retro has transformed our client workshops”"
 headerInfo: "Discover how 250 engineers at XITASO add creativity to their client collaboration with Metro Retro."
 headerImage: "~/assets/images/legacy/2024/06/xitaso-hero.png"

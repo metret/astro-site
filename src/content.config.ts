@@ -38,10 +38,14 @@ const blog = defineCollection({
 const customers = defineCollection({
     loader: glob({ pattern: "**/*.md", base: "./src/content/customers" }),
     schema: z.object({
+        // Standard
         title: z.string(),
         description: z.string(),
+        image: z.string(),
+        publishedDate: z.date(),
+        modifiedDate: z.date(),
+        // Extra
         color: z.string(),
-        logo: z.string(),
         headerLead: z.string(),
         headerInfo: z.string(),
         headerImage: z.string(),

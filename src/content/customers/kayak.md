@@ -2,7 +2,7 @@
 title: "Kayak"
 description: "todo"
 color: "orange"
-logo: "~/assets/images/logos/large/kayak.png"
+image: "~/assets/images/logos/large/kayak.png"
 headerLead: '"It helps us remove blockers and create shared understanding amongst the team"'
 headerInfo: "Learn how Kayak solved their remote collaboration issues with Metro Retro."
 headerImage: "~/assets/images/legacy/2024/09/kayak-hero-2x-1024x562.png"

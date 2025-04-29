@@ -44,7 +44,7 @@ const articles = await getCollection("customers")
         <a href={`/customers/${slugify(x.id)}`}>
           <CustomerStoryItem
             color={x.data.color}
-            image={x.data.logo}
+            image={x.data.image}
             description={x.data.headerInfo}
           />
         </a>

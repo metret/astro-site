@@ -8,13 +8,19 @@ import SignUp from "~/components/blocks/SignUp.astro";
 import Statement from "~/components/blocks/Statement.astro";
 import Values from "~/components/blocks/Values.astro";
 import WallOfLove from "~/components/blocks/WallOfLove.astro";
-import Layout from "~/layouts/Layout.astro";
+import PageLayout from "~/layouts/PageLayout.astro";
 
 import Dots from "~/components/Dots.astro";
 import UsageStatement from "~/components/blocks/instances/UsageStatement.astro";
+
+const meta = {
+  title: "About Us",
+  description:
+    "Great things happen when teams are in flow and enjoy what they do. At Metro Retro, we create human-centered collaboration and continuous improvement tools designed for engaged, efficient, and—most importantly—fun teamwork.",
+};
 ---
 
-<Layout title="About Us">
+<PageLayout {...meta}>
   <Dots />
 
   <AboutHero />
@@ -36,4 +42,4 @@ import UsageStatement from "~/components/blocks/instances/UsageStatement.astro";
   <WallOfLove />
 
   <CustomerStories include={["ryd", "kayak", "meltwater"]} />
-</Layout>
+</PageLayout>

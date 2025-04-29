@@ -1,5 +1,5 @@
 ---
-import Layout from "~/layouts/Layout.astro";
+import PageLayout from "~/layouts/PageLayout.astro";
 import CustomerStories from "~/components/blocks/CustomerStories.astro";
 import SignUp from "~/components/blocks/SignUp.astro";
 import Testimonials from "~/components/blocks/Testimonials.astro";
@@ -10,7 +10,7 @@ import SolutionFeatureItem from "~/components/blocks/SolutionFeatureItem.astro";
 import "swiper/css";
 ---
 
-<Layout>
+<PageLayout title="Product Owners">
   <SolutionHero
     title="Build your product's vision with shared understanding"
     description="Don't let great insights get trapped in silos, collaborate efficiently with your product teams and stakeholders, manage your backlog and plan ahead from a single space with Metro Retro"
@@ -95,4 +95,4 @@ import "swiper/css";
   <CustomerStories />
 
   <Testimonials />
-</Layout>
+</PageLayout>

@@ -2,7 +2,7 @@
 title: "Lucca - Scaling Company Culture During 10x Growth"
 description: "todo"
 color: "purple"
-logo: "~/assets/images/logos/large/lucca.png"
+image: "~/assets/images/logos/large/lucca.png"
 headerLead: "How Metro Retro Helped Lucca.fr Scale Their Company Culture Through 10x Growth"
 headerInfo: "We had to rethink our approach with the pandemic… and Metro Retro was the answer we didn’t know we needed."
 headerImage: "~/assets/images/legacy/2024/06/lucca-hero.png"

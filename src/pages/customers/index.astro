@@ -4,10 +4,10 @@ import CustomerStories from "~/components/blocks/CustomerStories.astro";
 import Statement from "~/components/blocks/Statement.astro";
 import Testimonials from "~/components/blocks/Testimonials.astro";
 import WallOfLove from "~/components/blocks/WallOfLove.astro";
-import Layout from "~/layouts/Layout.astro";
+import PageLayout from "~/layouts/PageLayout.astro";
 ---
 
-<Layout title="Blogs">
+<PageLayout title="Customers">
   <div class="mx-auto max-w-[1024px]">
     <Statement
       text="Trusted by *teams worldwide* to deliver fun, engaging and collaborative whiteboard sessions."
@@ -17,4 +17,4 @@ import Layout from "~/layouts/Layout.astro";
   <Testimonials />
   <WallOfLove />
   <CustomerLogos />
-</Layout>
+</PageLayout>

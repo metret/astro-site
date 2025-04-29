@@ -1,7 +1,7 @@
 ---
 import { getCollection, render } from "astro:content";
 import Dots from "~/components/Dots.astro";
-import Layout from "~/layouts/Layout.astro";
+import PageLayout from "~/layouts/PageLayout.astro";
 import keyBy from "lodash/keyBy";
 import TemplateCard from "~/components/blocks/TemplateCard.astro";
 import X from "~/pages/solutions/x.astro";
@@ -15,8 +15,8 @@ export async function getStaticPaths() {
   const tags = Object.values(
     keyBy(
       templates.flatMap((tmpl: any) => tmpl.data.tags),
-      "name",
-    ),
+      "name"
+    )
   ).sort((a, b) => a.sort - b.sort);
 
   return tags.map((tag) => ({
@@ -30,7 +30,7 @@ const { tagName } = Astro.props;
 const templates = await getCollection("templates");
 
 const matching = templates.filter((tmpl) =>
-  tmpl.data.tags.some((x: any) => x.name === tagName),
+  tmpl.data.tags.some((x: any) => x.name === tagName)
 );
 
 const tag = matching
@@ -38,7 +38,7 @@ const tag = matching
   .find((x: any) => x.name === tagName);
 ---
 
-<Layout title="Blogs">
+<PageLayout title="Blogs">
   <TemplatesHero />
   <TempateTagMenu active={tag.name} />
   <section class="px-4">
@@ -63,4 +63,4 @@ const tag = matching
       </div>
     </div>
   </section>
-</Layout>
+</PageLayout>

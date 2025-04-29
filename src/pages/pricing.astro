@@ -1,5 +1,5 @@
 ---
-import Layout from "~/layouts/Layout.astro";
+import PageLayout from "~/layouts/PageLayout.astro";
 
 import PricingTable from "~/components/blocks/pricing/PricingTable.astro";
 import Faq2 from "~/components/blocks/Faq2.astro";
@@ -11,7 +11,7 @@ import Dots from "~/components/Dots.astro";
 import TextHero from "~/components/blocks/TextHero.astro";
 ---
 
-<Layout title="Pricing">
+<PageLayout title="Pricing">
   <Dots />
   <section class="relative z-[1] px-4 py-12 md:pt-16 md:pb-32">
     <TextHero />
@@ -31,4 +31,4 @@ import TextHero from "~/components/blocks/TextHero.astro";
   <Testimonials />
 
   <WallOfLove />
-</Layout>
+</PageLayout>

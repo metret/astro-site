@@ -2,7 +2,7 @@
 title: "EAT Club - Building On A Strong Agile Culture With Metro Retro"
 description: "todo"
 color: "orange"
-logo: "~/assets/images/logos/large/eatclub.png"
+image: "~/assets/images/logos/large/eatclub.png"
 headerLead: "“We now have much higher engagement in our retros”"
 headerInfo: "Building on a strong agile culture at Eat Club with Metro Retro."
 headerImage: "~/assets/images/legacy/2024/06/eatclub-hero.png"
