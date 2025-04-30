@@ -1,4 +1,6 @@
 ---
+import BoxLink from "~/components/blocks/BoxLink.astro";
+import BoxLinkGrid from "~/components/blocks/BoxLinkGrid.astro";
 import CustomerStories from "~/components/blocks/CustomerStories.astro";
 import Dots from "~/components/Dots.astro";
 import PageLayout from "~/layouts/PageLayout.astro";
@@ -9,7 +11,6 @@ import SolutionHeroNoImage from "~/components/blocks/SolutionHeroNoImage.astro";
 import SolutionLargeItem from "~/components/blocks/SolutionLargeItem.astro";
 import SolutionLink from "~/components/blocks/SolutionLink.astro";
 import Testimonials from "~/components/blocks/Testimonials.astro";
-import CustomerLogos from "~/components/blocks/CustomerLogos.astro";
 import "swiper/css";
 ---
 
@@ -89,9 +90,32 @@ import "swiper/css";
     />
   </SolutionGrid>
 
-  <SolutionBanner
-    title="Metro Retro is a space for the whole team, no matter your role or how you work."
-  />
+  <BoxLinkGrid title="For the whole team, no matter your role" columns="4">
+    <BoxLink
+      color="blue"
+      title="Only 17 bots!!"
+      badge="Product Designers"
+      link="/solutions/product-designers"
+    />
+    <BoxLink
+      color="purple"
+      title="Only 17 bots!!"
+      badge="Engineers"
+      link="/solutions/engineers"
+    />
+    <BoxLink
+      color="green"
+      title="Only 17 bots!!"
+      badge="Consultants"
+      link="/solutions/consultants"
+    />
+    <BoxLink
+      color="orange"
+      title="Only 17 bots!!"
+      badge="Engineering Manager"
+      link="/solutions/engineering-manager"
+    />
+  </BoxLinkGrid>
 
   <CustomerStories />
 

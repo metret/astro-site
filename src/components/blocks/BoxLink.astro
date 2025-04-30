@@ -1,0 +1,37 @@
+---
+import Heading from "../ui/Heading.astro";
+
+interface Props {
+  title: string;
+  badge: string;
+  color: "blue" | "purple" | "green" | "orange";
+  link: string;
+}
+
+const { title, badge, color, link }: Props = Astro.props;
+---
+
+<a href={link}>
+  <div
+    class:list={[
+      "flex aspect-[2] flex-col gap-4 rounded-xl border-2 border-blue-100 p-6 text-black md:aspect-square",
+      color === "blue" && "hover:border-blue hover:text-blue",
+      color === "purple" && "hover:border-purple hover:text-purple",
+      color === "green" && "hover:border-green hover:text-green",
+      color === "orange" && "hover:border-orange hover:text-orange",
+    ]}
+  >
+    <span
+      class:list={[
+        "w-max rounded-[50px] border px-6 py-2 text-base/[1] font-semibold capitalize",
+        color === "blue" && "border-blue text-blue bg-blue-100",
+        color === "purple" && "border-purple text-purple bg-purple-100",
+        color === "green" && "border-green text-green bg-green-100",
+        color === "orange" && "border-orange text-orange bg-orange-100",
+      ]}
+    >
+      {badge}
+    </span>
+    <p class="text-[28px]/8 font-semibold">{title}</p>
+  </div>
+</a>
