@@ -10,6 +10,11 @@ import SolutionFeatureItem from "~/components/blocks/SolutionFeatureItem.astro";
 import UsageStatement from "~/components/blocks/instances/UsageStatement.astro";
 import CustomerLogos from "~/components/blocks/CustomerLogos.astro";
 import "swiper/css";
+import SolutionTemplateItem from "~/components/blocks/SolutionTemplateItem.astro";
+import PrivateWritingFeatureItem from "~/components/blocks/features/PrivateWritingFeatureItem.astro";
+import PromoteTeamCultureFeatureItem from "~/components/blocks/features/PromoteTeamCultureFeatureItem.astro";
+import WearHatsFeatureItem from "~/components/blocks/features/WearHatsFeatureItem.astro";
+import CreateSharedResponsibilityFeatureItem from "~/components/blocks/features/CreateSharedResponsibilityFeatureItem.astro";
 ---
 
 <PageLayout title="Team Health">
@@ -52,26 +57,10 @@ import "swiper/css";
 
   <section class="relative z-[1] py-8">
     <div class="mx-auto grid max-w-[1280px] grid-cols-2 gap-16 px-8">
-      <SolutionFeatureItem
-        title="Private Writing"
-        description="Remove bias and promote a safe space for input by allowing team members to share their input anonymously."
-        image="~/assets/images/product-features/private-writing.png"
-      />
-      <SolutionFeatureItem
-        title="Promote Team Culture"
-        description="Personalization, fun gadgets, hats and confetti all build an environment of fun and individuality. Metro Retro helps you to celebrate the unique personalities in your team"
-        image="~/assets/images/product-features/promote-team-culture.png"
-      />
-      <SolutionFeatureItem
-        title="Wear Hats!"
-        description="We're developers too. We know developers love virtual hats. That's why we have hats. Is it the most useful feature? No. Is it awesome? Yep."
-        image="~/assets/images/product-features/wear-hats.png"
-      />
-      <SolutionFeatureItem
-        title="Create Shared Responsibility"
-        description="Encourage your team to run meetings and take ownership. Our  templates and intuitive controls allow anyone to create and run meetings."
-        image="~/assets/images/product-features/create-shared-responsibility.png"
-      />
+      <PrivateWritingFeatureItem />
+      <PromoteTeamCultureFeatureItem />
+      <WearHatsFeatureItem />
+      <CreateSharedResponsibilityFeatureItem />
     </div>
   </section>
 
@@ -79,17 +68,17 @@ import "swiper/css";
 
   <section class="relative z-[1] py-8">
     <div class="mx-auto grid max-w-[1280px] grid-cols-3 gap-16 px-8">
-      <SolutionFeatureItem
+      <SolutionTemplateItem
         title="Explorer, Shopper, Vacationer, Prisoner"
         description="Explore different team dynamics and roles with this engaging template."
         image="~/assets/images/feature-placeholder.png"
       />
-      <SolutionFeatureItem
+      <SolutionTemplateItem
         title="Team Mood Icebreaker"
         description="Kick off your meetings with a fun and engaging icebreaker to set the mood."
         image="~/assets/images/feature-placeholder.png"
       />
-      <SolutionFeatureItem
+      <SolutionTemplateItem
         title="Two Truths, One Lie"
         description="Get to know your team better with this classic icebreaker game."
         image="~/assets/images/feature-placeholder.png"

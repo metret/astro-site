@@ -1,14 +1,112 @@
 ---
-import PageLayout from "~/layouts/PageLayout.astro";
-import CustomerStories from "~/components/blocks/CustomerStories.astro";
-import SignUp from "~/components/blocks/SignUp.astro";
-import Testimonials from "~/components/blocks/Testimonials.astro";
-import SolutionHero from "~/components/blocks/SolutionHero.astro";
-import SolutionBanner from "~/components/blocks/SolutionBanner.astro";
-import SolutionLargeItem from "~/components/blocks/SolutionLargeItem.astro";
-import SolutionFeatureItem from "~/components/blocks/SolutionFeatureItem.astro";
 import "swiper/css";
+import ActionsCommentsMentionsFeatureItem from "~/components/blocks/features/ActionsCommentsMentionsFeatureItem.astro";
+import BoxLink from "~/components/blocks/BoxLink.astro";
+import BoxLinkGrid from "~/components/blocks/BoxLinkGrid.astro";
+import CSVDataImportFeatureItem from "~/components/blocks/features/CSVDataImportFeatureItem.astro";
+import CustomerStories from "~/components/blocks/CustomerStories.astro";
+import Dots from "~/components/Dots.astro";
+import NeverGoToJiraAgainLargeItem from "~/components/blocks/large/NeverGoToJiraAgainLargeItem.astro";
+import PageLayout from "~/layouts/PageLayout.astro";
+import RoadmapsFeatureItem from "~/components/blocks/features/RoadmapsFeatureItem.astro";
+import SolutionBanner from "~/components/blocks/SolutionBanner.astro";
+import SolutionFeatureItem from "~/components/blocks/SolutionFeatureItem.astro";
+import SolutionGrid from "~/components/blocks/SolutionGrid.astro";
+import SolutionHeroNoImage from "~/components/blocks/SolutionHeroNoImage.astro";
+import SolutionTemplateItem from "~/components/blocks/SolutionTemplateItem.astro";
+import TaskTrackingDirectlyFromBoardLargeItem from "~/components/blocks/large/TaskTrackingDirectlyFromBoardLargeItem.astro";
+import Testimonials from "~/components/blocks/Testimonials.astro";
+import SolutionLargeItem from "~/components/blocks/SolutionLargeItem.astro";
+import SolutionLink from "~/components/blocks/SolutionLink.astro";
+import EstimateEffectivelyFeatureItem from "~/components/blocks/features/EstimateEffectivelyFeatureItem.astro";
 ---
 
-<PageLayout title="Jira Integration" />
+<PageLayout title="Jira Integration">
+  <Dots />
 
+  <SolutionHeroNoImage
+    pill="Jira Integration"
+    title="Stay focused and work with your Jira backlog directly from Metro Retro"
+    description="No more context switching. Connect to Jira, create, estimate and manage your backlog collaboratively to keep your team and goals aligned."
+  />
+
+  <SolutionBanner title="Work more efficiently from a single source of truth" />
+
+  <SolutionLargeItem
+    mirror="false"
+    title="2-way sync means you're always up to date"
+    description="Remove the need to manually update meeting outcomes and task estimations after your meeting by connecting to Jira and managing issues directly from Metro Retro. Use our automated Fibonacci or T-Shirt estimate templates to quickly work through your backlog."
+    image="~/assets/images/feature-placeholder.png"
+  />
+
+  <SolutionLargeItem
+    mirror="true"
+    title="Build your Jira backlog with sticky notes"
+    description="Create your backlog directly from Metro Retro by converting sticky notes to jira items.  No need to spend time in Jira, work with your team, plan your next sprint and save your sticky notes as Jira issues."
+    image="~/assets/images/product-features/never-go-to-jira-again.png"
+  />
+
+  <SolutionBanner title="Focus on outcomes, not process with Metro Retro" />
+
+  <SolutionGrid columns="3">
+    <SolutionLink
+      href="/solutions/team-health"
+      title="Improve team health"
+      image="~/assets/images/feature-placeholder.png"
+    />
+    <SolutionLink
+      href="/solutions/better-collaboration"
+      title="Better Collaboration"
+      image="~/assets/images/feature-placeholder.png"
+    />
+    <SolutionLink
+      href="/solutions/team-alignment"
+      title="Team Alignment"
+      image="~/assets/images/feature-placeholder.png"
+    />
+  </SolutionGrid>
+
+  <SolutionBanner
+    title="Tools to keep your team on track and build shared understanding"
+  />
+
+  <SolutionGrid columns="2">
+    <ActionsCommentsMentionsFeatureItem />
+    <RoadmapsFeatureItem />
+    <CSVDataImportFeatureItem />
+    <EstimateEffectivelyFeatureItem />
+  </SolutionGrid>
+
+  <SolutionBanner title="Try these perfect Templates for Jira Integration" />
+
+  <BoxLinkGrid title="For the whole team, no matter your role" columns="4">
+    <BoxLink
+      color="orange"
+      title="Lead with clarity"
+      badge="Engineering Manager"
+      link="/solutions/engineering-manager"
+    />
+    <BoxLink
+      color="purple"
+      title="Deliver with confidence"
+      badge="Delivery Managers"
+      link="/solutions/delivery-managers"
+    />
+    <BoxLink
+      color="blue"
+      title="Facilitate team success"
+      badge="Scrum Masters"
+      link="/solutions/scrum-masters"
+    />
+    <BoxLink
+      color="green"
+      title="Prioritize with precision"
+      badge="Product Owners"
+      link="/solutions/product-owners"
+    />
+  </BoxLinkGrid>
+
+  <CustomerStories />
+
+  <Testimonials />
+</PageLayout>

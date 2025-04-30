@@ -1,0 +1,15 @@
+---
+import SolutionLargeItem from "~/components/blocks/SolutionLargeItem.astro";
+interface Props {
+  mirror: string;
+}
+const { mirror } = Astro.props;
+---
+
+<SolutionLargeItem
+  mirror={mirror}
+  title="Monitor progress, remove blockers and plan ahead across teams."
+  description="Whether you use Jira or our native action items, track outcomes from your meetings and review and refine how your teams work to remove obstacles and promote continuous improvement."
+  image="~/assets/images/product-outcomes/monitor-progress-remove-blockers.png"
+/>
+

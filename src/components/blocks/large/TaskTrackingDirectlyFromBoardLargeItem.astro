@@ -1,0 +1,15 @@
+---
+import SolutionLargeItem from "~/components/blocks/SolutionLargeItem.astro";
+interface Props {
+  mirror: string;
+}
+const { mirror } = Astro.props;
+---
+
+<SolutionLargeItem
+  mirror={mirror}
+  title="Task tracking directly from your board"
+  description="With our Jira Integration or Native Actions, you can create, manage and track tasks directly from your boards. Never lose valuable insights again."
+  image="~/assets/images/product-outcomes/task-tracking-directly-from-board.png"
+/>
+

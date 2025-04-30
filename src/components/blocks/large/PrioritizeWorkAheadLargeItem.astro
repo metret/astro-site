@@ -1,0 +1,14 @@
+---
+import SolutionLargeItem from "~/components/blocks/SolutionLargeItem.astro";
+interface Props {
+  mirror: string;
+}
+const { mirror } = Astro.props;
+---
+
+<SolutionLargeItem
+  mirror={mirror}
+  title="Prioritize the work ahead with clarity"
+  description="A single space for backlog refinement, sprint review and planning means no more context switching. Keeping your teams focused on priority goals and the product vision."
+  image="~/assets/images/product-outcomes/prioritize-work-ahead.png"
+/>

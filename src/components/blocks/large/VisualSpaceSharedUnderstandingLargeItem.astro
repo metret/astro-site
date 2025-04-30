@@ -1,0 +1,15 @@
+---
+import SolutionLargeItem from "~/components/blocks/SolutionLargeItem.astro";
+interface Props {
+  mirror: string;
+}
+const { mirror } = Astro.props;
+---
+
+<SolutionLargeItem
+  mirror={mirror}
+  title="A visual space for shared understanding."
+  description="Help your teams and stakeholders understand complex and abstract concepts easily in a visual platform which promotes engagement and makes ideas more tangible."
+  image="~/assets/images/product-outcomes/visual-space-shared-understanding.png"
+/>
+

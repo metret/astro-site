@@ -1,0 +1,14 @@
+---
+import SolutionLargeItem from "~/components/blocks/SolutionLargeItem.astro";
+interface Props {
+  mirror: string;
+}
+const { mirror } = Astro.props;
+---
+
+<SolutionLargeItem
+  mirror={mirror}
+  title="Prioritize what matters and identify potential risks early"
+  description="Open and unbiased discussion, voting, topic grouping and built-in estimation templates help you to focus on the work that matters rather than setting up complex processes to manage decision making."
+  image="~/assets/images/product-outcomes/prioritize-what-matters.png"
+/>

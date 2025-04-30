@@ -1,0 +1,14 @@
+---
+import SolutionLargeItem from "~/components/blocks/SolutionLargeItem.astro";
+interface Props {
+  mirror: string;
+}
+const { mirror } = Astro.props;
+---
+
+<SolutionLargeItem
+  mirror={mirror}
+  title="Track outcomes from your meetings to share progress insights"
+  description="Set and track Actions across your teams as they are raised in your meetings to ensure alignment, transparency and progress across your projects."
+  image="~/assets/images/product-outcomes/track-outcomes-from-your-meetings-dash.png"
+/>

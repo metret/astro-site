@@ -1,0 +1,15 @@
+---
+import SolutionLargeItem from "~/components/blocks/SolutionLargeItem.astro";
+interface Props {
+  mirror: string;
+}
+const { mirror } = Astro.props;
+---
+
+<SolutionLargeItem
+  mirror={mirror}
+  title="Save time with our automated estimation & planning templates"
+  description="From Fibonacci Estimation to Sprint Planning, save time and manual work with our automated templates. Vote together then have story points allocated in Jira automatically. Plan your sprint together by just dragging and dropping who's doing what. Keep track of allocation and kick off your sprint together."
+  image="~/assets/images/product-outcomes/save-time-with-automation.png"
+/>
+

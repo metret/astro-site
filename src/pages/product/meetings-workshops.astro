@@ -12,6 +12,12 @@ import SolutionLargeItem from "~/components/blocks/SolutionLargeItem.astro";
 import SolutionLink from "~/components/blocks/SolutionLink.astro";
 import Testimonials from "~/components/blocks/Testimonials.astro";
 import "swiper/css";
+import BuildTheWorkshopsLargeItem from "~/components/blocks/large/BuildTheWorkshopsLargeItem.astro";
+import SeamlessCollaborationRemoteAndHybridLargeItem from "~/components/blocks/large/SeamlessCollaborationRemoteAndHybridLargeItem.astro";
+import ActionsCommentsMentionsFeatureItem from "~/components/blocks/features/ActionsCommentsMentionsFeatureItem.astro";
+import ActivityFramesFeatureItem from "~/components/blocks/features/ActivityFramesFeatureItem.astro";
+import PromoteTeamCultureFeatureItem from "~/components/blocks/features/PromoteTeamCultureFeatureItem.astro";
+import DiagrammingFeatureItem from "~/components/blocks/features/DiagrammingFeatureItem.astro";
 ---
 
 <PageLayout title="Meetings & Workshops">
@@ -25,82 +31,62 @@ import "swiper/css";
 
   <SolutionBanner title="Metro Retro adapts to suit your way of working" />
 
-  <SolutionLargeItem
-    mirror="false"
-    title="Tools for focused collaboration and capturing meeting outcomes"
-    description="With pre-built templates, intuitive tools and facilitator controls which help you to guide participants through your meeting, Metro Retro is the closest thing to being in the room together, enabling all members of your team to contribute to discussions."
-    image="~/assets/images/product-outcomes/tools-for-collaboration.png"
-  />
+  <BuildTheWorkshopsLargeItem mirror="false" />
+  <SeamlessCollaborationRemoteAndHybridLargeItem mirror="true" />
 
-  <SolutionBanner
-    title="Build a connected and effective team with Metro Retro"
-  />
+  <SolutionBanner title="Focus on outcomes, not process with Metro Retro" />
 
   <SolutionGrid columns="3">
     <SolutionLink
-      href="/solutions/customer-testimonials"
-      title="Customer Testimonial block"
+      href="/solutions/planning-ahead"
+      title="Planning Ahead"
       image="~/assets/images/feature-placeholder.png"
     />
     <SolutionLink
-      href="/solutions/faq"
-      title="FAQ block which includes sign-up"
+      href="/solutions/project-reviews"
+      title="Project Reviews"
       image="~/assets/images/feature-placeholder.png"
     />
     <SolutionLink
-      href="/solutions/getting-started"
-      title="Getting Started"
+      href="/solutions/team-alignment"
+      title="Team Alignment"
       image="~/assets/images/feature-placeholder.png"
     />
   </SolutionGrid>
 
-  <SolutionBanner title="Focus on outcomes, not process with Metro Retro" />
+  <SolutionBanner
+    title="Tools for focused collaboration and capturing meeting outcomes"
+  />
 
   <SolutionGrid columns="2">
-    <SolutionFeatureItem
-      title="Planning Ahead"
-      description="Plan your meetings effectively to ensure all voices are heard."
-      image="~/assets/images/product-features/planning-ahead.png"
-    />
-    <SolutionFeatureItem
-      title="Project Reviews"
-      description="Conduct thorough project reviews to align your team."
-      image="~/assets/images/product-features/project-reviews.png"
-    />
-    <SolutionFeatureItem
-      title="Team Alignment"
-      description="Ensure your team is aligned and working towards common goals."
-      image="~/assets/images/product-features/team-alignment.png"
-    />
-    <SolutionFeatureItem
-      title="Activity Frames"
-      description="Keep focus during your meetings by using Activity frames to drive discussion and make sure everyone is on the same page."
-      image="~/assets/images/product-features/activity-frames.png"
-    />
+    <ActivityFramesFeatureItem />
+    <ActionsCommentsMentionsFeatureItem />
+    <PromoteTeamCultureFeatureItem />
+    <DiagrammingFeatureItem />
   </SolutionGrid>
 
   <BoxLinkGrid title="For the whole team, no matter your role" columns="4">
     <BoxLink
       color="blue"
-      title="Product Designers"
+      title="Streamline design collaboration"
       badge="Product Designers"
       link="/solutions/product-designers"
     />
     <BoxLink
       color="purple"
-      title="Delivery Managers"
+      title="Lead with clarity"
       badge="Delivery Managers"
       link="/solutions/delivery-managers"
     />
     <BoxLink
       color="green"
-      title="Consultants"
+      title="Deliver insights that matter"
       badge="Consultants"
       link="/solutions/consultants"
     />
     <BoxLink
       color="orange"
-      title="Engineers"
+      title="Build better together"
       badge="Engineers"
       link="/solutions/engineers"
     />

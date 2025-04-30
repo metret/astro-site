@@ -1,0 +1,14 @@
+---
+import SolutionLargeItem from "~/components/blocks/SolutionLargeItem.astro";
+interface Props {
+  mirror: string;
+}
+const { mirror } = Astro.props;
+---
+
+<SolutionLargeItem
+  mirror={mirror}
+  title="A space designed to promote expression"
+  description="Whether it's setting your own handwriting style, putting on a hat, keeping your sticky notes private or just throwing confetti every 5 minutes, Metro Retro understands that the best teams have mixed personalities and we don't try to put everyone in the same box."
+  image="~/assets/images/product-outcomes/designed-for-expression.png"
+/>

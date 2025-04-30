@@ -12,6 +12,12 @@ import SolutionLargeItem from "~/components/blocks/SolutionLargeItem.astro";
 import SolutionLink from "~/components/blocks/SolutionLink.astro";
 import Testimonials from "~/components/blocks/Testimonials.astro";
 import "swiper/css";
+import ActivityFramesFeatureItem from "~/components/blocks/features/ActivityFramesFeatureItem.astro";
+import ActionsCommentsMentionsFeatureItem from "~/components/blocks/features/ActionsCommentsMentionsFeatureItem.astro";
+import PrivateWritingFeatureItem from "~/components/blocks/features/PrivateWritingFeatureItem.astro";
+import TopicsFeatureItem from "~/components/blocks/features/TopicsFeatureItem.astro";
+import DesignedForExpressionLargeItem from "~/components/blocks/large/DesignedForExpressionLargeItem.astro";
+import SeamlessCollaborationRemoteAndHybridLargeItem from "~/components/blocks/large/SeamlessCollaborationRemoteAndHybridLargeItem.astro";
 ---
 
 <PageLayout title="Enhanced Interactivity">
@@ -27,19 +33,8 @@ import "swiper/css";
     title="Metro Retro enables better collaboration by giving everyone in your team the tools to communicate naturally"
   />
 
-  <SolutionLargeItem
-    mirror="false"
-    title="A space designed to promote expression"
-    description="Whether it's setting your own handwriting style, putting on a hat, keeping your sticky notes private or just throwing confetti every 5 minutes, Metro Retro understands that the best teams have mixed personalities and we don't try to put everyone in the same box."
-    image="~/assets/images/product-outcomes/designed-for-expression.png"
-  />
-
-  <SolutionLargeItem
-    mirror="true"
-    title="Seamless collaboration for remote and hybrid teams"
-    description="With pre-built templates, intuitive tools and facilitator controls which help you to guide participants through your meeting, Metro Retro is the closest thing to being in the room together, enabling all members of your team to contribute to discussions."
-    image="~/assets/images/product-outcomes/seamless-collaboration-remote-and-hybrid.png"
-  />
+  <DesignedForExpressionLargeItem mirror="false" />
+  <SeamlessCollaborationRemoteAndHybridLargeItem mirror="true" />
 
   <SolutionBanner
     title="Build a connected and effective team with Metro Retro"
@@ -68,50 +63,34 @@ import "swiper/css";
   />
 
   <SolutionGrid columns="2">
-    <SolutionFeatureItem
-      title="Activity Frames"
-      description="Keep focus during your meetings by using Activity frames to drive discussion and make sure everyone is on the same page."
-      image="~/assets/images/product-features/activity-frames.png"
-    />
-    <SolutionFeatureItem
-      title="Actions, Comments & Mentions"
-      description="Keep your team and project on track with easy communication and task tracking features."
-      image="~/assets/images/product-features/actions-comments-mentions.png"
-    />
-    <SolutionFeatureItem
-      title="Private Writing"
-      description="Remove bias and promote a safe space for input by allowing team members to share their input anonymously."
-      image="~/assets/images/product-features/private-writing.png"
-    />
-    <SolutionFeatureItem
-      title="Topics"
-      description="Easily group insights gathered during your collaborative session."
-      image="~/assets/images/product-features/topics.png"
-    />
+    <ActivityFramesFeatureItem />
+    <ActionsCommentsMentionsFeatureItem />
+    <PrivateWritingFeatureItem />
+    <TopicsFeatureItem />
   </SolutionGrid>
 
   <BoxLinkGrid title="For the whole team, no matter your role" columns="4">
     <BoxLink
       color="blue"
-      title="Only 17 bots!!"
+      title="Streamline design collaboration"
       badge="Product Designers"
       link="/solutions/product-designers"
     />
     <BoxLink
       color="purple"
-      title="Only 17 bots!!"
+      title="Build better together"
       badge="Engineers"
       link="/solutions/engineers"
     />
     <BoxLink
       color="green"
-      title="Only 17 bots!!"
+      title="Deliver insights that matter"
       badge="Consultants"
       link="/solutions/consultants"
     />
     <BoxLink
       color="orange"
-      title="Only 17 bots!!"
+      title="Lead with clarity"
       badge="Engineering Manager"
       link="/solutions/engineering-manager"
     />

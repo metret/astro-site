@@ -1,0 +1,15 @@
+---
+import SolutionLargeItem from "~/components/blocks/SolutionLargeItem.astro";
+interface Props {
+  mirror: string;
+}
+const { mirror } = Astro.props;
+---
+
+<SolutionLargeItem
+  mirror={mirror}
+  title="Break the ice and energize your team"
+  description="Metro Retro is packed full of templates, one of those areas being Ice Breakers and Energizers. As a software team we understand the pain of staying enthusiastic for every meeting. It's why we've designed fun, light, kick-off templates to help get teams in the mood for collaboration."
+  image="~/assets/images/product-outcomes/break-ice-and-energise.png"
+/>
+

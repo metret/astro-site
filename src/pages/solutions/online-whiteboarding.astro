@@ -10,6 +10,11 @@ import SolutionFeatureItem from "~/components/blocks/SolutionFeatureItem.astro";
 import CustomerLogos from "~/components/blocks/CustomerLogos.astro";
 import UsageStatement from "~/components/blocks/instances/UsageStatement.astro";
 import "swiper/css";
+import SolutionTemplateItem from "~/components/blocks/SolutionTemplateItem.astro";
+import FocusedCollaborationFeatureItem from "~/components/blocks/features/FocusedCollaborationFeatureItem.astro";
+import ActionsCommentsMentionsFeatureItem from "~/components/blocks/features/ActionsCommentsMentionsFeatureItem.astro";
+import CSVDataImportFeatureItem from "~/components/blocks/features/CSVDataImportFeatureItem.astro";
+import PrivateWritingFeatureItem from "~/components/blocks/features/PrivateWritingFeatureItem.astro";
 ---
 
 <PageLayout title="Online Whiteboarding">
@@ -61,26 +66,10 @@ import "swiper/css";
 
   <section class="relative z-[1] py-8">
     <div class="mx-auto grid max-w-[1280px] grid-cols-2 gap-16 px-8">
-      <SolutionFeatureItem
-        title="Focused Collaboration"
-        description="With board tools built for facilitation, drive your meeting forward and guide your team to achieve better outcomes more efficiently."
-        image="~/assets/images/product-features/focused-collaboration.png"
-      />
-      <SolutionFeatureItem
-        title="Actions, Comments & Mentions"
-        description="Keep your team and project on track with easy communication and task tracking features."
-        image="~/assets/images/product-features/actions-comments-mentions.png"
-      />
-      <SolutionFeatureItem
-        title="CSV Data Import"
-        description="Bring data and insights directly from external platforms to review everything in a single shared space."
-        image="~/assets/images/product-features/csv-data-import.png"
-      />
-      <SolutionFeatureItem
-        title="Private Writing"
-        description="Remove bias and promote a safe space for input by allowing team members to share their input anonymously."
-        image="~/assets/images/product-features/private-writing.png"
-      />
+      <FocusedCollaborationFeatureItem />
+      <ActionsCommentsMentionsFeatureItem />
+      <CSVDataImportFeatureItem />
+      <PrivateWritingFeatureItem />
     </div>
   </section>
 
@@ -90,17 +79,17 @@ import "swiper/css";
 
   <section class="relative z-[1] py-8">
     <div class="mx-auto grid max-w-[1280px] grid-cols-3 gap-16 px-8">
-      <SolutionFeatureItem
+      <SolutionTemplateItem
         title="Good, Bad, Stop, Start"
         description="Reflect on past work and plan improvements with this retrospective template."
         image="~/assets/images/feature-placeholder.png"
       />
-      <SolutionFeatureItem
+      <SolutionTemplateItem
         title="Sailboat"
         description="Navigate your team's journey with the Sailboat retrospective template."
         image="~/assets/images/feature-placeholder.png"
       />
-      <SolutionFeatureItem
+      <SolutionTemplateItem
         title="Ishakawa Diagram"
         description="Identify root causes of issues with the Ishakawa Diagram template."
         image="~/assets/images/feature-placeholder.png"

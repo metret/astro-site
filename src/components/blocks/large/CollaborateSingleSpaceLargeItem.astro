@@ -1,0 +1,15 @@
+---
+import SolutionLargeItem from "~/components/blocks/SolutionLargeItem.astro";
+interface Props {
+  mirror: string;
+}
+const { mirror } = Astro.props;
+---
+
+<SolutionLargeItem
+  mirror={mirror}
+  title="Collaborate in a single space to build better experiences"
+  description="Team members, stakeholders and guests can easily work together in a visual and accessible way to review and refine design decisions. Helping teams to uncover insights and make better decisions."
+  image="~/assets/images/product-outcomes/collaborate-single-space.png"
+/>
+

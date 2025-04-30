@@ -1,14 +1,105 @@
 ---
-import PageLayout from "~/layouts/PageLayout.astro";
+import BoxLink from "~/components/blocks/BoxLink.astro";
+import BoxLinkGrid from "~/components/blocks/BoxLinkGrid.astro";
 import CustomerStories from "~/components/blocks/CustomerStories.astro";
-import SignUp from "~/components/blocks/SignUp.astro";
-import Testimonials from "~/components/blocks/Testimonials.astro";
-import SolutionHero from "~/components/blocks/SolutionHero.astro";
+import Dots from "~/components/Dots.astro";
+import PageLayout from "~/layouts/PageLayout.astro";
 import SolutionBanner from "~/components/blocks/SolutionBanner.astro";
-import SolutionLargeItem from "~/components/blocks/SolutionLargeItem.astro";
 import SolutionFeatureItem from "~/components/blocks/SolutionFeatureItem.astro";
+import SolutionGrid from "~/components/blocks/SolutionGrid.astro";
+import SolutionHeroNoImage from "~/components/blocks/SolutionHeroNoImage.astro";
+import SolutionLargeItem from "~/components/blocks/SolutionLargeItem.astro";
+import SolutionLink from "~/components/blocks/SolutionLink.astro";
+import Testimonials from "~/components/blocks/Testimonials.astro";
 import "swiper/css";
+import ActivityFramesFeatureItem from "~/components/blocks/features/ActivityFramesFeatureItem.astro";
+import ActionsCommentsMentionsFeatureItem from "~/components/blocks/features/ActionsCommentsMentionsFeatureItem.astro";
+import PrivateWritingFeatureItem from "~/components/blocks/features/PrivateWritingFeatureItem.astro";
+import TopicsFeatureItem from "~/components/blocks/features/TopicsFeatureItem.astro";
+import RoadmapsFeatureItem from "~/components/blocks/features/RoadmapsFeatureItem.astro";
+import EasyToUseJiraFeatureItem from "~/components/blocks/features/EasyToUseJiraFeatureItem.astro";
+import CSVDataImportFeatureItem from "~/components/blocks/features/CSVDataImportFeatureItem.astro";
+import SeamlessCollaborationRemoteAndHybridLargeItem from "~/components/blocks/large/SeamlessCollaborationRemoteAndHybridLargeItem.astro";
+import DesignedForExpressionLargeItem from "~/components/blocks/large/DesignedForExpressionLargeItem.astro";
+import KeepTheMomentumGoingLargeItem from "~/components/blocks/large/KeepTheMomentumGoingLargeItem.astro";
+import MonitorProgressRemoveBlockersLargeItem from "~/components/blocks/large/MonitorProgressRemoveBlockersLargeItem.astro";
 ---
 
-<PageLayout title="Task Tracking" />
+<PageLayout title="Task Tracking">
+  <Dots />
 
+  <SolutionHeroNoImage
+    pill="Task Tracking"
+    title="Keep your team focused on what matters"
+    description="Stop switching context to find out what's going on. Simplify team actions and manage meeting outcomes without needing to leave your board."
+  />
+
+  <SolutionBanner
+    title="Give context to your actions and stay aligned with Metro Retro"
+  />
+
+  <MonitorProgressRemoveBlockersLargeItem mirror="false" />
+  <KeepTheMomentumGoingLargeItem mirror="true" />
+
+  <SolutionBanner title="Focus on outcomes, not process with Metro Retro" />
+
+  <SolutionGrid columns="3">
+    <SolutionLink
+      href="/solutions/team-health"
+      title="Improve team health"
+      image="~/assets/images/feature-placeholder.png"
+    />
+    <SolutionLink
+      href="/solutions/better-collaboration"
+      title="Better Collaboration"
+      image="~/assets/images/feature-placeholder.png"
+    />
+    <SolutionLink
+      href="/solutions/team-alignment"
+      title="Team Alignment"
+      image="~/assets/images/feature-placeholder.png"
+    />
+  </SolutionGrid>
+
+  <SolutionBanner
+    title="Tools to keep your team on track and build shared understanding"
+  />
+
+  <SolutionGrid columns="2">
+    <ActionsCommentsMentionsFeatureItem />
+    <RoadmapsFeatureItem />
+    <CSVDataImportFeatureItem />
+    <EasyToUseJiraFeatureItem />
+  </SolutionGrid>
+
+  <BoxLinkGrid title="For the whole team, no matter your role" columns="4">
+    <BoxLink
+      color="blue"
+      title="Streamline design collaboration"
+      badge="Product Designers"
+      link="/solutions/product-designers"
+    />
+    <BoxLink
+      color="purple"
+      title="Build better together"
+      badge="Engineers"
+      link="/solutions/engineers"
+    />
+    <BoxLink
+      color="green"
+      title="Deliver insights that matter"
+      badge="Consultants"
+      link="/solutions/consultants"
+    />
+    <BoxLink
+      color="orange"
+      title="Lead with clarity"
+      badge="Engineering Manager"
+      link="/solutions/engineering-manager"
+    />
+  </BoxLinkGrid>
+
+  <CustomerStories />
+
+  <Testimonials />
+</PageLayout>
