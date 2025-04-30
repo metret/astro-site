@@ -1,23 +1,25 @@
 ---
-import PageLayout from "~/layouts/PageLayout.astro";
 import CustomerStories from "~/components/blocks/CustomerStories.astro";
-import SignUp from "~/components/blocks/SignUp.astro";
-import Testimonials from "~/components/blocks/Testimonials.astro";
-import SolutionHero from "~/components/blocks/SolutionHero.astro";
+import Dots from "~/components/Dots.astro";
+import PageLayout from "~/layouts/PageLayout.astro";
 import SolutionBanner from "~/components/blocks/SolutionBanner.astro";
-import SolutionLargeItem from "~/components/blocks/SolutionLargeItem.astro";
 import SolutionFeatureItem from "~/components/blocks/SolutionFeatureItem.astro";
 import SolutionGrid from "~/components/blocks/SolutionGrid.astro";
+import SolutionHeroNoImage from "~/components/blocks/SolutionHeroNoImage.astro";
+import SolutionLargeItem from "~/components/blocks/SolutionLargeItem.astro";
 import SolutionLink from "~/components/blocks/SolutionLink.astro";
+import Testimonials from "~/components/blocks/Testimonials.astro";
+import CustomerLogos from "~/components/blocks/CustomerLogos.astro";
 import "swiper/css";
 ---
 
 <PageLayout title="Enhanced Interactivity">
-  <SolutionHero
+  <Dots />
+
+  <SolutionHeroNoImage
+    pill="Enhanced Interactivity"
     title="Get your entire team excited to contribute"
     description="Don't get stuck in a forced question and answer cycle, Metro Retro's collaboration tools encourage all members of your team to engage with and enjoy meetings with personality."
-    image="~/assets/images/page-heroes/hero-placeholder.png"
-    color="blue"
   />
 
   <SolutionBanner
