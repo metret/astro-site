@@ -1,0 +1,13 @@
+---
+interface Props {
+  columns: any;
+}
+
+const { columns = 3 }: Props = Astro.props;
+---
+
+<section class="relative z-[1] py-8">
+  <div class={`mx-auto grid max-w-[1280px] gap-16 px-8 grid-cols-${columns}`}>
+    <slot />
+  </div>
+</section>

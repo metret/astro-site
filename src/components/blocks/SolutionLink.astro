@@ -1,0 +1,20 @@
+---
+interface Props {
+  href: string;
+  title: string;
+  image: string;
+}
+
+const { href, title, image }: Props = Astro.props;
+
+import { Image } from "astro:assets";
+import { dynamicImportImage } from "~/utils";
+const importedImage = await dynamicImportImage(image);
+---
+
+<a href={href} class="block rounded-lg bg-blue-100">
+  <div class="p-8">
+    <h4 class="text-3xl font-medium text-black">{title}</h4>
+    <Image class="mt-4" src={importedImage} alt={title} />
+  </div>
+</a>
