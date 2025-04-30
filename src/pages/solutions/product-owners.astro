@@ -8,15 +8,25 @@ import SolutionBanner from "~/components/blocks/SolutionBanner.astro";
 import SolutionLargeItem from "~/components/blocks/SolutionLargeItem.astro";
 import SolutionFeatureItem from "~/components/blocks/SolutionFeatureItem.astro";
 import "swiper/css";
+import CustomerLogos from "~/components/blocks/CustomerLogos.astro";
+import UsageStatement from "~/components/blocks/instances/UsageStatement.astro";
 ---
 
 <PageLayout title="Product Owners">
   <SolutionHero
     title="Build your product's vision with shared understanding"
     description="Don't let great insights get trapped in silos, collaborate efficiently with your product teams and stakeholders, manage your backlog and plan ahead from a single space with Metro Retro"
-    image="~/assets/images/page-heroes/hero-placeholder.png"
+    image="~/assets/images/page-heroes/product-owners.png"
     color="blue"
   />
+
+  <div class="px-4">
+    <div class="mx-auto mt-16 mb-6 max-w-[1024px] space-y-16">
+      <UsageStatement />
+    </div>
+  </div>
+
+  <CustomerLogos />
 
   <SolutionBanner
     title="Metro Retro helps teams communicate effectively to deliver value to customers and organizations"

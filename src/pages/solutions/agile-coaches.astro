@@ -7,6 +7,8 @@ import SolutionHero from "~/components/blocks/SolutionHero.astro";
 import SolutionBanner from "~/components/blocks/SolutionBanner.astro";
 import SolutionLargeItem from "~/components/blocks/SolutionLargeItem.astro";
 import SolutionFeatureItem from "~/components/blocks/SolutionFeatureItem.astro";
+import CustomerLogos from "~/components/blocks/CustomerLogos.astro";
+import UsageStatement from "~/components/blocks/instances/UsageStatement.astro";
 import "swiper/css";
 ---
 
@@ -14,9 +16,17 @@ import "swiper/css";
   <SolutionHero
     title="Deliver value to your teams with a product made for Agile."
     description="Every organization is different, Metro Retro adapts to the way you and your team want to work while providing all the tools necessary to create and maintain a culture of collaboration."
-    image="~/assets/images/page-heroes/hero-placeholder.png"
+    image="~/assets/images/page-heroes/agile-coaches.png"
     color="blue"
   />
+
+  <div class="px-4">
+    <div class="mx-auto mt-16 mb-6 max-w-[1024px] space-y-16">
+      <UsageStatement />
+    </div>
+  </div>
+
+  <CustomerLogos />
 
   <SolutionBanner
     title="Drive continuous improvement and help teams achieve the right goals with Metro Retro"
@@ -25,7 +35,7 @@ import "swiper/css";
   <SolutionLargeItem
     mirror="false"
     title="Build the workshop and frameworks your team needs"
-    description="Combine pre-built board templates or customize your own. However you or your team work, Metro Retro is the flexible collaboration space for any session."
+    description="Combine expertly crafted board templates or customize your own. However you or your team work, Metro Retro is the flexible collaboration space for any session."
     image="~/assets/images/product-outcomes/build-the-workshops.png"
   />
 

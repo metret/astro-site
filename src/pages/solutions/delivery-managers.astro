@@ -7,6 +7,8 @@ import SolutionHero from "~/components/blocks/SolutionHero.astro";
 import SolutionBanner from "~/components/blocks/SolutionBanner.astro";
 import SolutionLargeItem from "~/components/blocks/SolutionLargeItem.astro";
 import SolutionFeatureItem from "~/components/blocks/SolutionFeatureItem.astro";
+import CustomerLogos from "~/components/blocks/CustomerLogos.astro";
+import UsageStatement from "~/components/blocks/instances/UsageStatement.astro";
 import "swiper/css";
 ---
 
@@ -14,9 +16,17 @@ import "swiper/css";
   <SolutionHero
     title="Prioritize the work that matters and keep projects on track."
     description="Don't get stuck in a feature factory. Through engaged collaboration, drive your teams to shared understanding and align on the project goals that matter most."
-    image="~/assets/images/page-heroes/hero-placeholder.png"
+    image="~/assets/images/page-heroes/delivery-managers.png"
     color="orange"
   />
+
+  <div class="px-4">
+    <div class="mx-auto mt-16 mb-6 max-w-[1024px] space-y-16">
+      <UsageStatement />
+    </div>
+  </div>
+
+  <CustomerLogos />
 
   <SolutionBanner
     title="Balance priorities, cross-team communication and build team alignment to deliver on your sprints"

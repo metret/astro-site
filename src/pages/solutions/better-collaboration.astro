@@ -7,6 +7,8 @@ import SolutionHero from "~/components/blocks/SolutionHero.astro";
 import SolutionBanner from "~/components/blocks/SolutionBanner.astro";
 import SolutionLargeItem from "~/components/blocks/SolutionLargeItem.astro";
 import SolutionFeatureItem from "~/components/blocks/SolutionFeatureItem.astro";
+import CustomerLogos from "~/components/blocks/CustomerLogos.astro";
+import UsageStatement from "~/components/blocks/instances/UsageStatement.astro";
 import "swiper/css";
 ---
 
@@ -14,9 +16,17 @@ import "swiper/css";
   <SolutionHero
     title="Good collaboration is built on communication, great collaboration is built on trust"
     description="Don't just bring your team together in a whiteboard and expect results, create an environment where individual personalities and openness are at the heart of your work."
-    image="~/assets/images/page-heroes/hero-placeholder.png"
+    image="~/assets/images/page-heroes/better-collaboration.png"
     color="purple"
   />
+
+  <div class="px-4">
+    <div class="mx-auto mt-16 mb-6 max-w-[1024px] space-y-16">
+      <UsageStatement />
+    </div>
+  </div>
+
+  <CustomerLogos />
 
   <SolutionBanner
     title="Metro Retro has been designed to be the closest thing to a real whiteboard experience, where everyone in the room has a voice"
@@ -32,7 +42,7 @@ import "swiper/css";
   <SolutionLargeItem
     mirror="true"
     title="Seamless collaboration for remote and hybrid teams"
-    description="With pre-built templates, intuitive tools and facilitator controls which help you to guide participants through your meeting, Metro Retro is the closest thing to being in the room together, enabling all members of your team to contribute to discussions."
+    description="With expertly crafted templates, intuitive tools and facilitator controls which help you to guide participants through your meeting, Metro Retro is the closest thing to being in the room together, enabling all members of your team to contribute to discussions."
     image="~/assets/images/product-outcomes/seamless-collaboration-remote-and-hybrid.png"
   />
 
@@ -43,9 +53,9 @@ import "swiper/css";
   <section class="relative z-[1] py-8">
     <div class="mx-auto grid max-w-[1280px] grid-cols-2 gap-16 px-8">
       <SolutionFeatureItem
-        title="Promote Team Culture"
-        description="Personalization, fun gadgets, hats and confetti all build an environment of fun and individuality. Metro Retro helps you to celebrate the unique personalities in your team."
-        image="~/assets/images/product-features/promote-team-culture.png"
+        title="Private Writing"
+        description="Remove bias and promote a safe space for input by allowing team members to share their input anonymously."
+        image="~/assets/images/product-features/private-writing.png"
       />
       <SolutionFeatureItem
         title="Activity Frames"
@@ -58,9 +68,9 @@ import "swiper/css";
         image="~/assets/images/product-features/actions-comments-mentions.png"
       />
       <SolutionFeatureItem
-        title="Private Writing"
-        description="Remove bias and promote a safe space for input by allowing team members to share their input anonymously."
-        image="~/assets/images/product-features/private-writing.png"
+        title="Promote Team Culture"
+        description="Personalization, fun gadgets, hats and confetti all build an environment of fun and individuality. Metro Retro helps you to celebrate the unique personalities in your team."
+        image="~/assets/images/product-features/promote-team-culture.png"
       />
     </div>
   </section>

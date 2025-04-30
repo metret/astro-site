@@ -34,7 +34,9 @@ const selectedColor = colors[color as keyof typeof colors] || colors.blue;
         <Wibble />
       </div>
     </div>
-    <div class="grow sm:order-first md:order-last md:w-1/2 lg:order-last">
+    <div
+      class="grow rounded-md sm:order-first md:order-last md:w-1/2 lg:order-last"
+    >
       <div
         class="relative block max-w-600 md:max-w-full"
         style="width: 600px; height: 420px"
@@ -59,7 +61,7 @@ const selectedColor = colors[color as keyof typeof colors] || colors.blue;
           </defs>
         </svg>
         <Image
-          class="absolute top-1/2 left-1/2 w-[90%] -translate-x-1/2 -translate-y-1/2 rounded object-cover shadow-2xl shadow-black/40"
+          class="absolute top-1/2 left-1/2 w-[90%] -translate-x-1/2 -translate-y-1/2 rounded-xl object-cover shadow-2xl shadow-black/40"
           src={loadedImage}
           alt={title}
         />

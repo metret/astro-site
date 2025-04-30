@@ -8,15 +8,25 @@ import SolutionBanner from "~/components/blocks/SolutionBanner.astro";
 import SolutionLargeItem from "~/components/blocks/SolutionLargeItem.astro";
 import SolutionFeatureItem from "~/components/blocks/SolutionFeatureItem.astro";
 import "swiper/css";
+import CustomerLogos from "~/components/blocks/CustomerLogos.astro";
+import UsageStatement from "~/components/blocks/instances/UsageStatement.astro";
 ---
 
 <PageLayout title="Product Designers">
   <SolutionHero
     title="Work with Design, Engineering and stakeholders in a single space. "
     description="Stop collecting feedback in comments, emails and message chains. Work with your team and stakeholders in a shared space to iterate and refine your concepts together."
-    image="~/assets/images/page-heroes/hero-placeholder.png"
+    image="~/assets/images/page-heroes/product-designers.png"
     color="green"
   />
+
+  <div class="px-4">
+    <div class="mx-auto mt-16 mb-6 max-w-[1024px] space-y-16">
+      <UsageStatement />
+    </div>
+  </div>
+
+  <CustomerLogos />
 
   <SolutionBanner
     title="From concept to delivery, Metro Retro helps design teams craft the full picture"

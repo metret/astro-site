@@ -8,15 +8,25 @@ import SolutionBanner from "~/components/blocks/SolutionBanner.astro";
 import SolutionLargeItem from "~/components/blocks/SolutionLargeItem.astro";
 import SolutionFeatureItem from "~/components/blocks/SolutionFeatureItem.astro";
 import "swiper/css";
+import CustomerLogos from "~/components/blocks/CustomerLogos.astro";
+import UsageStatement from "~/components/blocks/instances/UsageStatement.astro";
 ---
 
 <PageLayout title="Developers">
   <SolutionHero
     title="Metro Retro is made by developers for developers."
     description="Need to quickly sketch out an idea? Or produce a quick diagram? Or just want to avoid having to go into Jira? We got you."
-    image="~/assets/images/page-heroes/hero-placeholder.png"
+    image="~/assets/images/page-heroes/developers.png"
     color="green"
   />
+
+  <div class="px-4">
+    <div class="mx-auto mt-16 mb-6 max-w-[1024px] space-y-16">
+      <UsageStatement />
+    </div>
+  </div>
+
+  <CustomerLogos />
 
   <SolutionBanner
     title="A tool that doesn't get in your way, doesn't hide the things you want, and doesn't try to do too much."
@@ -59,7 +69,7 @@ import "swiper/css";
       />
       <SolutionFeatureItem
         title="Agile processes"
-        description="Run engaging planning and retrospective sessions with pre-built or custom templates. Polls, t-shirt sizing, action tracking and more."
+        description="Run engaging planning and retrospective sessions with expertly crafted or custom templates. Polls, t-shirt sizing, action tracking and more."
         image="~/assets/images/product-features/agile-processes.png"
       />
       <SolutionFeatureItem
