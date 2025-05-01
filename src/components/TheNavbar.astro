@@ -21,14 +21,13 @@ const links: (Link & { children?: { title?: string; items: Link[] }[] })[] = [
             href: "/product/meetings-workshops",
           },
           { title: "Task Tracking", href: "/product/task-tracking" },
-          { title: "Templates", href: "/product/templates" },
+          { title: "Templates", href: "/templates" },
           { title: "Jira integration", href: "/product/jira-integration" },
           {
             title: "Shareable Team Spaces",
             href: "/product/shareable-team-spaces",
           },
           { title: "Privacy & Anonymity", href: "/product/privacy-anonymity" },
-          { title: "Security", href: "/product/security" },
         ],
       },
     ],
@@ -431,7 +430,7 @@ const links: (Link & { children?: { title?: string; items: Link[] }[] })[] = [
   const header = document.getElementById("main-header") as HTMLElement;
 
   const inflatableSpacer = document.getElementById(
-    "inflatable"
+    "inflatable",
   ) as HTMLDivElement;
 
   function handleListener() {
@@ -453,17 +452,17 @@ const links: (Link & { children?: { title?: string; items: Link[] }[] })[] = [
 
 <script>
   const btnOpenMenu = document.getElementById(
-    "btn-open-sidenav"
+    "btn-open-sidenav",
   ) as HTMLButtonElement;
 
   const btnCloseMenu = document.getElementById(
-    "btn-close-sidenav"
+    "btn-close-sidenav",
   ) as HTMLButtonElement;
 
   const sidenav = document.getElementById("sidenav") as HTMLElement;
 
   const sidenavLinksContainer = sidenav.querySelector(
-    "#sidenav-links-container"
+    "#sidenav-links-container",
   ) as HTMLDivElement;
 
   const linksWithChildren = [
@@ -471,11 +470,11 @@ const links: (Link & { children?: { title?: string; items: Link[] }[] })[] = [
   ] as HTMLLIElement[];
 
   const currentSidenavItem = sidenav.querySelector(
-    "#current-sidenav-item"
+    "#current-sidenav-item",
   ) as HTMLDivElement;
 
   const sidenavTitle = currentSidenavItem.querySelector(
-    "#sidenav-title"
+    "#sidenav-title",
   ) as HTMLParagraphElement;
 
   function resetOpenNav() {

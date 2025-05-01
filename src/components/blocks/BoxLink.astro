@@ -23,7 +23,7 @@ const { title, badge, color, link }: Props = Astro.props;
   >
     <span
       class:list={[
-        "w-max rounded-[50px] border px-6 py-2 text-base/[1] font-semibold capitalize",
+        "w-max rounded-[50px] border px-4 py-2 text-base/[1] font-medium capitalize",
         color === "blue" && "border-blue text-blue bg-blue-100",
         color === "purple" && "border-purple text-purple bg-purple-100",
         color === "green" && "border-green text-green bg-green-100",
@@ -32,6 +32,6 @@ const { title, badge, color, link }: Props = Astro.props;
     >
       {badge}
     </span>
-    <p class="text-[28px]/8 font-semibold">{title}</p>
+    <p class="mx-2 my-2 text-2xl font-semibold">{title}</p>
   </div>
 </a>
