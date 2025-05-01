@@ -41,7 +41,7 @@ const rest = templates
         {
           featured.map((tmpl: any) => (
             <TemplateCard
-              href={`/blog/${tmpl.data.alias}`}
+              href={`/templates/${tmpl.data.alias}`}
               image={tmpl.data.thumbUrl}
               name={tmpl.data.label}
               description={tmpl.data.description}
@@ -62,7 +62,7 @@ const rest = templates
         {
           rest.map((tmpl: any) => (
             <TemplateCard
-              href={`/blog/${tmpl.data.alias}`}
+              href={`/templates/${tmpl.data.alias}`}
               image={tmpl.data.thumbUrl}
               name={tmpl.data.label}
               description={tmpl.data.description}

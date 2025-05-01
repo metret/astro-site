@@ -26,10 +26,7 @@ const {
     className,
     classList,
   ]}
-  ><span>
-    <slot />
-  </span>
-  &nbsp;
+>
   <svg
     class="shrink-0"
     width="14"
@@ -37,6 +34,7 @@ const {
     viewBox="0 0 14 10"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
+    style="transform: scaleX(-1);"
   >
     <path
       d="M1 5H13"
@@ -50,4 +48,8 @@ const {
       stroke-linecap="round"
       stroke-linejoin="round"></path>
   </svg>
+  &nbsp;
+  <span>
+    <slot />
+  </span>
 </a>
