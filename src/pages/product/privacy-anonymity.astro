@@ -1,14 +1,105 @@
 ---
 import PageLayout from "~/layouts/PageLayout.astro";
-import CustomerStories from "~/components/blocks/CustomerStories.astro";
-import SignUp from "~/components/blocks/SignUp.astro";
-import Testimonials from "~/components/blocks/Testimonials.astro";
-import SolutionHero from "~/components/blocks/SolutionHero.astro";
+import Dots from "~/components/Dots.astro";
+import SolutionHeroNoImage from "~/components/blocks/SolutionHeroNoImage.astro";
 import SolutionBanner from "~/components/blocks/SolutionBanner.astro";
-import SolutionLargeItem from "~/components/blocks/SolutionLargeItem.astro";
-import SolutionFeatureItem from "~/components/blocks/SolutionFeatureItem.astro";
+import SolutionGrid from "~/components/blocks/SolutionGrid.astro";
+import ActionsCommentsMentionsFeatureItem from "~/components/blocks/features/ActionsCommentsMentionsFeatureItem.astro";
+import PrivateWritingFeatureItem from "~/components/blocks/features/PrivateWritingFeatureItem.astro";
+import SolutionLink from "~/components/blocks/SolutionLink.astro";
+import BoxLinkGrid from "~/components/blocks/BoxLinkGrid.astro";
+import BoxLink from "~/components/blocks/BoxLink.astro";
+import CustomerStories from "~/components/blocks/CustomerStories.astro";
+import Testimonials from "~/components/blocks/Testimonials.astro";
 import "swiper/css";
+import SolutionLargeItem from "~/components/blocks/SolutionLargeItem.astro";
+import PromoteTeamCultureFeatureItem from "~/components/blocks/features/PromoteTeamCultureFeatureItem.astro";
+import CreateSharedResponsibilityFeatureItem from "~/components/blocks/features/CreateSharedResponsibilityFeatureItem.astro";
+import DesignedForExpressionLargeItem from "~/components/blocks/large/DesignedForExpressionLargeItem.astro";
 ---
 
-<PageLayout title="Privacy & Anonymity" />
+<PageLayout title="Privacy & Anonymity">
+  <Dots />
 
+  <SolutionHeroNoImage
+    pill="Privacy & Anonymity"
+    title="Remove bias from your collaboration and promote open discussion"
+    description="The loudest voice in the room isn't always the right one. Promote positive team health through open and unbiased discussion with privacy and anonymity in Metro Retro."
+  />
+
+  <SolutionBanner
+    title="Encourage everyone in your team to contribute to uncover valuable insights"
+  />
+
+  <SolutionLargeItem
+    mirror="false"
+    title="Hide Identities & Private Writing"
+    description="Allow your team members to contribute and openly discuss issues without influence.  Private writing allows people to reveal their sticky notes when ready and Hide Identities allows your team members to remain anonymous."
+    image="~/assets/images/product-features/private-writing.png"
+  />
+
+  <DesignedForExpressionLargeItem mirror="true" />
+
+  <SolutionBanner
+    title="Build a connected and effective team with Metro Retro"
+  />
+
+  <SolutionGrid columns="3">
+    <SolutionLink
+      href="/solutions/team-health"
+      title="Improve team health"
+      image="~/assets/images/solution-links/team-health.png"
+    />
+    <SolutionLink
+      href="/solutions/better-collaboration"
+      title="Better Collaboration"
+      image="~/assets/images/solution-links/better-collaboration.png"
+    />
+    <SolutionLink
+      href="/solutions/team-alignment"
+      title="Team Alignment"
+      image="~/assets/images/solution-links/team-alignment.png"
+    />
+  </SolutionGrid>
+
+  <SolutionBanner
+    title="Everything you need to build unbiased opinion, better collaboration, and a team that communicates effectively."
+  />
+
+  <SolutionGrid columns="2">
+    <PrivateWritingFeatureItem />
+    <ActionsCommentsMentionsFeatureItem />
+    <PromoteTeamCultureFeatureItem />
+    <CreateSharedResponsibilityFeatureItem />
+  </SolutionGrid>
+
+  <BoxLinkGrid title="For the whole team, no matter your role" columns="4">
+    <BoxLink
+      color="green"
+      title="Streamline design & engineering collaboration."
+      badge="Product Designers"
+      link="/solutions/product-designers"
+    />
+    <BoxLink
+      color="green"
+      title="Made by developers, for developers."
+      badge="Engineers"
+      link="/solutions/developers"
+    />
+    <BoxLink
+      color="blue"
+      title="Create a culture of collaboration."
+      badge="Consultants"
+      link="/solutions/agile-coaches"
+    />
+    <BoxLink
+      color="blue"
+      title="Craft your process around your team."
+      badge="Engineering Manager"
+      link="/solutions/engineering-managers"
+    />
+  </BoxLinkGrid>
+
+  <CustomerStories />
+  <Testimonials />
+</PageLayout>

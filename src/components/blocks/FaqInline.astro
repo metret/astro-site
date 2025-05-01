@@ -1,0 +1,78 @@
+---
+import Heading from "../ui/Heading.astro";
+import FaqItem from "./FaqItem.astro";
+---
+
+<div>
+  <ul class="space-y-2.5 md:space-y-5">
+    <FaqItem question="What is Metro Retro?">
+      <p>
+        Metro Retro is a collaborative whiteboard tool for engineeting teams to
+        run engaging meetings and workshops, such as project kickoffs, planning,
+        retrospectives, goal-setting, brainstorming, and more.
+      </p>
+    </FaqItem>
+    <FaqItem question="What types of sessions can I run with Metro Retro?">
+      <p>
+        Teams use Metro Retro for any type of collaborative session, including
+        sprint planning, product roadmaps, planning poker, retrospectives, team
+        alignment workshops, brainstorming, and more. You can even create your
+        own templates.
+      </p>
+    </FaqItem>
+    <FaqItem question="Is it just for teams?">
+      <p>
+        Metro Retro is best for team collaboration. If you want to use Metro
+        Retro as a consultant, you can do that to, just <a href="/support"
+          >get in touch</a
+        >.
+      </p>
+    </FaqItem>
+    <FaqItem question="Is Metro Retro secure and GDPR compliant?">
+      <p>
+        Yes &mdash; we are GDPR compliant and take security of personal and
+        company data very seriously. Learn more on our <a
+          href="/security"
+          class="text-blue-200 hover:underline"
+          rel="noopener noreferrer">Security</a
+        > page.
+      </p>
+    </FaqItem>
+    <FaqItem question="Can I have a demo?">
+      <p>
+        Yes - book a demo with one of our Founders <a
+          href="https://calendly.com/jamie-metroretro/"
+          class="text-blue-200 hover:underline"
+          target="_blank"
+          rel="noopener noreferrer">here</a
+        >.
+      </p>
+    </FaqItem>
+  </ul>
+</div>
+
+<script>
+  const faqs = [...document.querySelectorAll(".faq-2")] as HTMLDivElement[];
+
+  function setFAQ(
+    faq?: HTMLDivElement | null,
+    expanded: "true" | "false" = "false"
+  ) {
+    if (!faq) return;
+    faq.setAttribute("aria-expanded", expanded);
+    faq
+      .querySelector("[data-expanded]")
+      ?.setAttribute("data-expanded", expanded);
+  }
+
+  faqs.forEach((faq) => {
+    const toggle = faq.querySelector("button") as HTMLButtonElement;
+
+    toggle.addEventListener("click", () => {
+      const IS_EXPANDED = faq.getAttribute("aria-expanded") === "true";
+
+      faqs.forEach((faq) => setFAQ(faq, "false"));
+      setFAQ(faq, `${!IS_EXPANDED}`);
+    });
+  });
+</script>
