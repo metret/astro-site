@@ -24,10 +24,12 @@ const isExcluded = (id: string) => {
   return !!exclude.find((x) => id.startsWith(x));
 };
 
-const articles = await getCollection("customers")
+const allFilteredArticles = await getCollection("customers")
   .then((x) => x.toSorted((a, b) => a.data.sort - b.data.sort))
-  .then((x) => x.filter((a) => isIncluded(a.id) && !isExcluded(a.id)))
-  .then((x) => x.slice(0, limit ?? 3));
+  .then((x) => x.filter((a) => isIncluded(a.id) && !isExcluded(a.id)));
+
+const totalFilteredCount = allFilteredArticles.length;
+const articles = allFilteredArticles.slice(0, limit ?? 3);
 ---
 
 <section class="px-4 pt-[51px] pb-[70px]">
@@ -51,7 +53,11 @@ const articles = await getCollection("customers")
       ))
     }
   </div>
-  <LinkButton class="mx-auto" href="/customers"
-    >Read more customer stories</LinkButton
-  >
+  {
+    articles.length < totalFilteredCount && (
+      <LinkButton class="mx-auto" href="/customers">
+        Read more customer stories
+      </LinkButton>
+    )
+  }
 </section>

@@ -2,7 +2,10 @@
 import type { HTMLAttributes } from "astro/types";
 import type { ButtonProps } from "~/types";
 import { buttonStyles } from "./styles";
-type Props = ButtonProps & HTMLAttributes<"button">;
+type Props = ButtonProps &
+  HTMLAttributes<"button"> & {
+    href?: string;
+  };
 
 const {
   kind = "primary",
@@ -10,13 +13,17 @@ const {
   color = "blue",
   class: className,
   "class:list": classList,
+  href,
   ...props
 } = Astro.props;
+
+const Component = href ? "a" : "button";
 ---
 
-<button
+<Component
   {...props}
+  href={href}
   class:list={[buttonStyles({ kind, size, color }), className, classList]}
 >
   <slot />
-</button>
+</Component>
