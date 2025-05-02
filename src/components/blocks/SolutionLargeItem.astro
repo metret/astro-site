@@ -1,5 +1,6 @@
 ---
 const { title, description, image, mirror } = Astro.props;
+
 import { Image } from "astro:assets";
 import { dynamicImportImage } from "~/utils";
 const loadedImage = await dynamicImportImage(image);
@@ -27,7 +28,7 @@ const loadedImage = await dynamicImportImage(image);
       <h3 class="mb-4 text-3xl font-semibold text-black">
         {title}
       </h3>
-      <p class="text-l mb-4 text-gray-300">
+      <p class="mb-4 text-gray-300">
         {description}
       </p>
     </div>

@@ -1,0 +1,74 @@
+---
+import LinkButton from "../ui/LinkButton.astro";
+import Heading from "../ui/Heading.astro";
+import IconText from "../ui/IconText.astro";
+import Pill from "../ui/Pill.astro";
+import FaqInline from "./FaqInline.astro";
+---
+
+<section class="space-y-16 px-4 py-16">
+  <div
+    class="mx-auto grid max-w-[72rem] grid-cols-1 gap-2 lg:grid-cols-[40%_1fr] lg:gap-24"
+  >
+    <div class="space-y-6 max-lg:contents">
+      <Heading class="max-w-[20rem] !text-left"
+        >Would you like to know more?</Heading
+      >
+      <p class="text-lg font-medium text-black">
+        Metro Retro is completely free for 30 days, so why not sign up to try it
+        out and do your part for collaboration!
+      </p>
+      <LinkButton
+        href="/account/register"
+        class="mt-6 max-lg:order-1 max-lg:mx-auto lg:mt-0"
+        >Sign up for free</LinkButton
+      >
+      <div class="flex gap-6 max-lg:order-2 max-lg:justify-center">
+        <IconText text="30-day free trial" />
+        <IconText text="Live chat support" />
+      </div>
+    </div>
+    <FaqInline />
+  </div>
+  <div class="flex flex-row items-center justify-center">
+    <Pill class="!py-4">
+      <p class="font-medium">
+        Still have a question? <a href="#">Contact us</a> we’ll be happy to help
+        you.
+      </p>
+    </Pill>
+  </div>
+</section>
+
+<style>
+  .faq[aria-expanded="false"] .minus,
+  .faq[aria-expanded="true"] .plus {
+    display: none;
+  }
+</style>
+
+<script>
+  const faqs = [...document.querySelectorAll(".faq")] as HTMLDivElement[];
+
+  function setFAQ(
+    faq?: HTMLDivElement | null,
+    expanded: "true" | "false" = "false"
+  ) {
+    if (!faq) return;
+    faq.setAttribute("aria-expanded", expanded);
+    faq
+      .querySelector("[data-expanded]")
+      ?.setAttribute("data-expanded", expanded);
+  }
+
+  faqs.forEach((faq) => {
+    const toggle = faq.querySelector("button") as HTMLButtonElement;
+
+    toggle.addEventListener("click", () => {
+      const IS_EXPANDED = faq.getAttribute("aria-expanded") === "true";
+
+      faqs.forEach((faq) => setFAQ(faq, "false"));
+      setFAQ(faq, `${!IS_EXPANDED}`);
+    });
+  });
+</script>
