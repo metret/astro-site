@@ -4,38 +4,43 @@ import Heading from "../ui/Heading.astro";
 import Pill from "../ui/Pill.astro";
 import Subheading from "../ui/Subheading.astro";
 import { Image } from "astro:assets";
+import shareableTeamSpacesImg from "~/assets/images/collaboration-features/shareable-team-spaces.png";
+import meetingsAndWorkshopsImg from "~/assets/images/collaboration-features/meetings-and-workshops.png";
+import taskTrackingImg from "~/assets/images/collaboration-features/task-tracking.png";
+import jiraIntegrationImg from "~/assets/images/collaboration-features/jira-integration.png";
+import templatesImg from "~/assets/images/collaboration-features/templates.png";
 
 // Static content
 const collaborationFeatures = [
   {
-    title: "Shareable Team Spaces",
-    image: "/images/collaboration/shared-spaces.jpg",
-    body: "With dedicated team spaces you can easily manage multiple teams and project streams, remove document chaos and build a single source of truth.",
-    href: "/product/shareable-team-spaces",
-  },
-  {
     title: "Meeting & Workshops",
-    image: "/images/collaboration/meetings.jpg",
+    image: meetingsAndWorkshopsImg,
     body: "Metro Retro gives you complete freedom. Use an expertly crafted template to get going quickly, customize your own board for total freedom or combine both to build a board unique to your team.",
     href: "/product/meetings-workshops",
   },
   {
     title: "Task Tracking",
-    image: "/images/collaboration/tasks.jpg",
+    image: taskTrackingImg,
     body: "Stop switching context to find out what's going on. Simplify team actions and manage meeting outcomes without needing to leave your board.",
     href: "/product/task-tracking",
   },
   {
     title: "Jira Integration",
-    image: "/images/collaboration/jira.jpg",
+    image: jiraIntegrationImg,
     body: "No more context switching. Connect to Jira, create, estimate and manage your backlog collaboratively to keep your team and goals aligned.",
     href: "/product/jira-integration",
   },
   {
     title: "Templates",
-    image: "/images/collaboration/templates.jpg",
+    image: templatesImg,
     body: "Get started quickly with our library of professionally designed templates for various use cases.",
     href: "/templates",
+  },
+  {
+    title: "Shareable Team Spaces",
+    image: shareableTeamSpacesImg,
+    body: "With dedicated team spaces you can easily manage multiple teams and project streams, remove document chaos and build a single source of truth.",
+    href: "/product/shareable-team-spaces",
   },
 ];
 
@@ -61,6 +66,8 @@ const placeholderText =
             aria-expanded="false"
             data-more-text={`More about ${feature.title}`}
             data-href={feature.href}
+            data-img-src={feature.image.src}
+            data-img-alt={feature.title}
           >
             <div class="group-aria-expanded/collapsible:text-blue hover:text-blue flex cursor-pointer items-center gap-3 rounded-[100px] py-3 text-gray-300 hover:bg-blue-100 lg:pl-[30px]">
               <svg
@@ -84,7 +91,7 @@ const placeholderText =
               </div>
               <div class="space-y-6 max-lg:mt-4 lg:hidden">
                 <div class="aspect-[1.53] w-full rounded-[20px] bg-blue-100 drop-shadow-[0_3px_12px_rgba(98,116,150,0.2)]">
-                  <img
+                  <Image
                     src={feature.image}
                     alt={feature.title}
                     class="h-full w-full rounded-[20px] object-cover"
@@ -104,7 +111,8 @@ const placeholderText =
       <div
         class="aspect-[1.53] w-full rounded-[20px] bg-blue-100 drop-shadow-[0_3px_12px_rgba(98,116,150,0.2)]"
       >
-        <img
+        <Image
+          id="collapsible-image"
           src={collaborationFeatures[0].image}
           alt={collaborationFeatures[0].title}
           class="h-full w-full rounded-[20px] object-cover"
@@ -128,6 +136,10 @@ const placeholderText =
   const moreBtn = document.querySelector(
     "#collapsible-more-info",
   ) as HTMLAnchorElement | null;
+
+  const desktopImageEl = document.querySelector(
+    "#collapsible-image",
+  ) as HTMLImageElement | null;
 
   const ACTIVE_ID = "aria-expanded";
 
@@ -158,6 +170,18 @@ const placeholderText =
 
       if (href) {
         moreBtn.href = href;
+      }
+    }
+
+    if (desktopImageEl) {
+      const imgSrc = collapsible.getAttribute("data-img-src");
+      const imgAlt = collapsible.getAttribute("data-img-alt");
+
+      if (imgSrc) {
+        desktopImageEl.src = imgSrc;
+      }
+      if (imgAlt) {
+        desktopImageEl.alt = imgAlt;
       }
     }
   }
