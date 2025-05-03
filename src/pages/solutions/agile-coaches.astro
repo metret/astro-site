@@ -10,10 +10,12 @@ import CustomerLogos from "~/components/blocks/CustomerLogos.astro";
 import UsageStatement from "~/components/blocks/instances/UsageStatement.astro";
 import "swiper/css";
 import SolutionTemplateItem from "~/components/blocks/SolutionTemplateItem.astro";
+import SolutionTemplateItem2 from "~/components/blocks/SolutionTemplateItem2.astro";
 import PrivateWritingFeatureItem from "~/components/blocks/features/PrivateWritingFeatureItem.astro";
 import ActionsCommentsMentionsFeatureItem from "~/components/blocks/features/ActionsCommentsMentionsFeatureItem.astro";
 import FocusedCollaborationFeatureItem from "~/components/blocks/features/FocusedCollaborationFeatureItem.astro";
 import EstimateEffectivelyFeatureItem from "~/components/blocks/features/EstimateEffectivelyFeatureItem.astro";
+import SolutionGrid from "~/components/blocks/SolutionGrid.astro";
 ---
 
 <PageLayout title="Agile Coaches">
@@ -24,11 +26,7 @@ import EstimateEffectivelyFeatureItem from "~/components/blocks/features/Estimat
     color="blue"
   />
 
-  <div class="px-4">
-    <div class="mx-auto mt-16 mb-6 max-w-[1024px] space-y-16">
-      <UsageStatement />
-    </div>
-  </div>
+  <UsageStatement />
 
   <CustomerLogos />
 
@@ -61,36 +59,29 @@ import EstimateEffectivelyFeatureItem from "~/components/blocks/features/Estimat
     title="Guide teams to deliver value and build a culture which encourages participation."
   />
 
-  <section class="relative z-[1] py-8">
-    <div class="mx-auto grid max-w-[1280px] grid-cols-2 gap-16 px-8">
-      <PrivateWritingFeatureItem />
-      <ActionsCommentsMentionsFeatureItem />
-      <FocusedCollaborationFeatureItem />
-      <EstimateEffectivelyFeatureItem />
-    </div>
-  </section>
+  <SolutionGrid columns="2">
+    <PrivateWritingFeatureItem />
+    <ActionsCommentsMentionsFeatureItem />
+    <FocusedCollaborationFeatureItem />
+    <EstimateEffectivelyFeatureItem />
+  </SolutionGrid>
 
   <SolutionBanner title="Try these perfect Templates for Agile Teams" />
 
-  <section class="relative z-[1] py-8">
-    <div class="mx-auto grid max-w-[1280px] grid-cols-3 gap-16 px-8">
-      <SolutionTemplateItem
-        title="Ishikawa Diagram"
-        description="Try these perfect Templates for Product Design Teams"
-        image="~/assets/images/feature-placeholder.png"
-      />
-      <SolutionTemplateItem
-        title="T-shirt Estimation"
-        description="Try these perfect Templates for Product Design Teams"
-        image="~/assets/images/feature-placeholder.png"
-      />
-      <SolutionTemplateItem
-        title="Definition of Done"
-        description="Try these perfect Templates for Product Design Teams"
-        image="~/assets/images/feature-placeholder.png"
-      />
-    </div>
-  </section>
+  <SolutionGrid columns="3">
+    <SolutionTemplateItem2
+      alias="ishakawa-diagram-a.k.a-fishbone"
+      description="Try these perfect Templates for Product Design Teams"
+    />
+    <SolutionTemplateItem2
+      alias="tshirt-estimation"
+      description="Try these perfect Templates for Product Design Teams"
+    />
+    <SolutionTemplateItem2
+      alias="definition-of-done"
+      description="Try these perfect Templates for Product Design Teams"
+    />
+  </SolutionGrid>
 
   <CustomerStories />
 

@@ -1,30 +1,31 @@
 ---
+import SignUpButtons from "./SignUpButtons.astro";
 import IconText from "~/components/ui/IconText.astro";
 import Pill from "~/components/ui/Pill.astro";
-import CustomerLogos from "./CustomerLogos.astro";
-import UsageStatement from "./instances/UsageStatement.astro";
-import SignUpButtons from "./SignUpButtons.astro";
+interface Props {
+  pill: string;
+  title: string;
+  description: string;
+  compact?: boolean;
+}
+
+const { pill, title, description, compact }: Props = Astro.props;
 ---
 
-<section class="relative z-[1] py-8 md:py-14">
-  <Pill class="hidden sm:block" color="blue"
-    ><p>The online whiteboard for product teams</p></Pill
+<section class="mt-8 lg:mt-16">
+  <Pill class="hidden sm:block" color="blue"><h1>{pill}</h1></Pill>
+  <h2
+    class="mx-auto mt-6 max-w-[52rem] text-center text-4xl font-bold text-pretty text-black md:text-6xl/16"
   >
-
-  <h1
-    class="mx-auto mt-6 max-w-[1248px] text-center text-4xl/[42px] font-bold text-black max-md:px-4 md:text-[4rem]/[72px]"
-  >
-    Effortless and engaging <br />team collaboration
-  </h1>
+    {title}
+  </h2>
   <p
-    class="text-body mx-auto mt-6 max-w-[677px] text-center text-base/6 font-medium max-md:px-4 md:mt-8 md:text-xl/8"
+    class="text-body mx-auto mt-6 max-w-[52rem] text-center font-medium max-md:px-4 md:mt-8 md:text-xl/8"
   >
-    With expertly crafted templates and intuitive tools, Metro Retro is the fun
-    collaboration space that drives team communication.
+    {description}
   </p>
-
+  {!compact && <>
   <SignUpButtons />
-
   <div
     class="mt-6 flex flex-wrap items-center justify-center gap-4 px-4 md:gap-7"
   >
@@ -37,44 +38,37 @@ import SignUpButtons from "./SignUpButtons.astro";
       <IconText text="Endless confetti" />
     </span>
   </div>
-  <div class="px-4">
-    <div class="mx-auto mt-16 mb-24 max-w-[1024px] space-y-16">
-      <div class="aspect-[1.78] w-full rounded-[20px] bg-blue-100"></div>
-      <UsageStatement />
-    </div>
-  </div>
+  <script>
+    document.querySelectorAll("[data-confett]").forEach((elmt) => {
+      elmt.addEventListener("click", () => {
+        var end = Date.now() + 5 * 1000;
 
-  <CustomerLogos />
-</section>
-<script>
-  document.querySelectorAll("[data-confett]").forEach((elmt) => {
-    elmt.addEventListener("click", () => {
-      var end = Date.now() + 5 * 1000;
+        (function frame() {
+          var now = Date.now();
 
-      (function frame() {
-        var now = Date.now();
+          // Small window to ensure we don't miss frames
+          confetti({
+            particleCount: 5,
+            angle: 60,
+            spread: 55,
+            origin: { x: 0 },
+          });
+          confetti({
+            particleCount: 5,
+            angle: 120,
+            spread: 55,
+            origin: { x: 1 },
+          });
 
-        // Small window to ensure we don't miss frames
-        confetti({
-          particleCount: 5,
-          angle: 60,
-          spread: 55,
-          origin: { x: 0 },
-        });
-        confetti({
-          particleCount: 5,
-          angle: 120,
-          spread: 55,
-          origin: { x: 1 },
-        });
-
-        if (now < end) {
-          requestAnimationFrame(frame);
-        }
-      })();
+          if (now < end) {
+            requestAnimationFrame(frame);
+          }
+        })();
+      });
     });
-  });
-</script>
-<script
-  src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"
-></script>
+  </script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"
+  ></script>
+  </>}
+</section>

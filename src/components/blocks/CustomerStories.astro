@@ -16,11 +16,13 @@ const { include, exclude, limit } = Astro.props as Props;
 
 const isIncluded = (id: string) => {
   if (!include?.length) return true;
+
   return !!include.find((x) => id.startsWith(x));
 };
 
 const isExcluded = (id: string) => {
   if (!exclude?.length) return false;
+
   return !!exclude.find((x) => id.startsWith(x));
 };
 
@@ -29,10 +31,11 @@ const allFilteredArticles = await getCollection("customers")
   .then((x) => x.filter((a) => isIncluded(a.id) && !isExcluded(a.id)));
 
 const totalFilteredCount = allFilteredArticles.length;
+
 const articles = allFilteredArticles.slice(0, limit ?? 3);
 ---
 
-<section class="px-4 pt-[51px] pb-[70px]">
+<section>
   <Pill>Customer stories</Pill>
   <h2 class="mt-6 text-center text-2xl font-semibold text-black md:text-3xl">
     Discover how these teams use Metro Retro

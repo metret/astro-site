@@ -12,20 +12,31 @@ export const dynamicImportImage = (assetPath: string) => {
   const allImages = import.meta.glob<{ default: ImageMetadata }>(
     "/src/assets/images/**/*",
   );
+
   if (assetPath.startsWith("~/")) {
     assetPath = assetPath.replace("~/", "/src/");
   }
+
   // console.dir(allImages);
   // console.log(assetPath);
   const image = allImages[assetPath];
+
   if (!image) throw new Error(`Image not found: ${assetPath}`);
+
   return image().then((x) => x.default);
 };
 
-
+export const maybeDynamicImportImage = (assetPath: string) => {
+  try {
+    return dynamicImportImage(assetPath);
+  } catch {
+    return null;
+  }
+};
 
 export const compileMeta = async (...data: AstroSEOProps[]): Promise<AstroSEOProps> => {
   const defaultImage = await dynamicImportImage("~/assets/images/og-default.png");
+
   const defaults: AstroSEOProps = {
     titleDefault: site.name,
     titleTemplate: `%s | ${site.name}`,
@@ -43,14 +54,18 @@ export const compileMeta = async (...data: AstroSEOProps[]): Promise<AstroSEOPro
       },
     },
   } as const;
+
   const draft = deepMerge(defaults, ...data) as AstroSEOProps;
+
   // Make sure images are absolute
   if (draft.openGraph?.basic?.image) {
     draft.openGraph.basic.image = new URL(draft.openGraph.basic.image, import.meta.env.SITE).toString();
   }
+
   if (draft.openGraph?.image?.url) {
     draft.openGraph.image.url = new URL(draft.openGraph.image.url, import.meta.env.SITE).toString();
   }
+
   return draft;
 }
 
@@ -65,7 +80,8 @@ export type ArticleMetaData = {
 };
 
 export const articleMeta = async (data: ArticleMetaData): Promise<AstroSEOProps> => {
-  const importedImage = await dynamicImportImage(data.image);
+  const importedImage = await maybeDynamicImportImage(data.image);
+
   return {
     title: data.title,
     description: data.description,
@@ -73,7 +89,7 @@ export const articleMeta = async (data: ArticleMetaData): Promise<AstroSEOProps>
       basic: {
         title: data.title,
         type: "article",
-        image: importedImage.src,
+        image: importedImage?.src || data.image,
       },
       article: {
         authors: [data.authorName],
@@ -81,11 +97,11 @@ export const articleMeta = async (data: ArticleMetaData): Promise<AstroSEOProps>
         publishedTime: data.publishedDate.toISOString(),
         modifiedTime: data.modifiedDate.toISOString(),
       },
-      image: {
+      image: importedImage ? ({
         url: importedImage.src,
         width: importedImage.width,
         height: importedImage.height,
-      },
+      }) : ({}),
     },
   };
 };
@@ -157,5 +173,6 @@ export const isPlainObject = (value: any): boolean => {
 
   // Check if it's not an array, date, regexp, etc.
   const prototype = Object.getPrototypeOf(value);
+
   return prototype === Object.prototype || prototype === null;
 };

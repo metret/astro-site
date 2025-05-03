@@ -7,6 +7,7 @@ import TemplateCard from "~/components/blocks/TemplateCard.astro";
 import X from "~/pages/solutions/x.astro";
 import TempateTagMenu from "~/components/blocks/TempateTagMenu.astro";
 import TemplatesHero from "~/components/blocks/TemplatesHero.astro";
+import Hero from "~/components/blocks/Hero.astro";
 
 // 1. Generate a new path for every collection entry
 export async function getStaticPaths() {
@@ -36,10 +37,19 @@ const matching = templates.filter((tmpl) =>
 const tag = matching
   .flatMap((x) => x.data.tags)
   .find((x: any) => x.name === tagName);
+
+if (!tag) {
+  throw new Error("Tag not found");
+}
 ---
 
-<PageLayout title="Blogs">
-  <TemplatesHero />
+<PageLayout title={`${tag.label}`} spacing="md">
+  <Hero
+    title="Expertly crafted templates"
+    description="Start a board instantly with one of our templates. Templates are fully customizable and come with instructions, sticky notes, categories and fun collaboration tools."
+    pill="Templates"
+    compact
+  />
   <TempateTagMenu active={tag.name} />
   <section class="px-4">
     <div class="mx-auto max-w-[80rem]">

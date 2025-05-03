@@ -1,13 +1,20 @@
 ---
 import Heading from "../ui/Heading.astro";
 import FaqItem from "./FaqItem.astro";
+//
 ---
 
-<section class="px-4 py-16 md:py-32">
-  <div class="mx-auto max-w-[1080px]">
-    <Heading class="mb-6">Would you like to know more?</Heading>
-    <div>
-      <ul class="space-y-2.5 md:space-y-5">
+<section class="relative">
+  <div
+    class="mx-auto max-w-[64rem] rounded-4xl border-gray-200 p-8 lg:border-1"
+  >
+    <h2
+      class="lg:bg-page-bg text-2xl font-medium font-semibold whitespace-nowrap lg:absolute lg:top-0 lg:left-1/2 lg:-translate-x-1/2 lg:-translate-y-1/2 lg:px-8 lg:text-center lg:text-4xl"
+    >
+      Would you like to know more?
+    </h2>
+    <div class="mx-auto max-w-[64rem] py-8">
+      <ul class="space-y-5">
         <FaqItem question="Can I use Metro Retro for free?">
           <p class="mb-4">Yes, you get a 30 day free trial when you signup.</p>
           <p class="mb-4">
@@ -153,7 +160,7 @@ import FaqItem from "./FaqItem.astro";
 
   function setFAQ(
     faq?: HTMLDivElement | null,
-    expanded: "true" | "false" = "false",
+    expanded: "true" | "false" = "false"
   ) {
     if (!faq) return;
     faq.setAttribute("aria-expanded", expanded);

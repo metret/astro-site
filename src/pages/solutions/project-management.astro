@@ -11,10 +11,12 @@ import "swiper/css";
 import CustomerLogos from "~/components/blocks/CustomerLogos.astro";
 import UsageStatement from "~/components/blocks/instances/UsageStatement.astro";
 import SolutionTemplateItem from "~/components/blocks/SolutionTemplateItem.astro";
+import SolutionTemplateItem2 from "~/components/blocks/SolutionTemplateItem2.astro";
 import DiagrammingFeatureItem from "~/components/blocks/features/DiagrammingFeatureItem.astro";
 import CSVDataImportFeatureItem from "~/components/blocks/features/CSVDataImportFeatureItem.astro";
 import EstimateEffectivelyFeatureItem from "~/components/blocks/features/EstimateEffectivelyFeatureItem.astro";
 import RoadmapsFeatureItem from "~/components/blocks/features/RoadmapsFeatureItem.astro";
+import SolutionGrid from "~/components/blocks/SolutionGrid.astro";
 ---
 
 <PageLayout title="Project Management">
@@ -25,11 +27,7 @@ import RoadmapsFeatureItem from "~/components/blocks/features/RoadmapsFeatureIte
     color="purple"
   />
 
-  <div class="px-4">
-    <div class="mx-auto mt-16 mb-6 max-w-[1024px] space-y-16">
-      <UsageStatement />
-    </div>
-  </div>
+  <UsageStatement />
 
   <CustomerLogos />
 
@@ -62,36 +60,29 @@ import RoadmapsFeatureItem from "~/components/blocks/features/RoadmapsFeatureIte
     title="Increase engagement with your team and plan the work that matters most"
   />
 
-  <section class="relative z-[1] py-8">
-    <div class="mx-auto grid max-w-[1280px] grid-cols-2 gap-16 px-8">
-      <DiagrammingFeatureItem />
-      <CSVDataImportFeatureItem />
-      <EstimateEffectivelyFeatureItem />
-      <RoadmapsFeatureItem />
-    </div>
-  </section>
+  <SolutionGrid columns="2">
+    <DiagrammingFeatureItem />
+    <CSVDataImportFeatureItem />
+    <EstimateEffectivelyFeatureItem />
+    <RoadmapsFeatureItem />
+  </SolutionGrid>
 
   <SolutionBanner title=" Expertly crafted Templates for Project Management." />
 
-  <section class="relative z-[1] py-8">
-    <div class="mx-auto grid max-w-[1280px] grid-cols-3 gap-16 px-8">
-      <SolutionTemplateItem
-        title="Good, Bad, Stop, Start"
-        description="Reflect on past work and plan improvements with this retrospective template."
-        image="~/assets/images/feature-placeholder.png"
-      />
-      <SolutionTemplateItem
-        title="Sailboat"
-        description="Use the sailboat retrospective to identify what propels your team forward and what holds it back."
-        image="~/assets/images/feature-placeholder.png"
-      />
-      <SolutionTemplateItem
-        title="Ishakawa Diagram"
-        description="Analyze the root causes of problems with the Ishakawa (fishbone) diagram."
-        image="~/assets/images/feature-placeholder.png"
-      />
-    </div>
-  </section>
+  <SolutionGrid columns="3">
+    <SolutionTemplateItem2
+      alias="good-bad-start-stop"
+      description="Reflect on past work and plan improvements with this retrospective template."
+    />
+    <SolutionTemplateItem2
+      alias="the-sailboat"
+      description="Use the sailboat retrospective to identify what propels your team forward and what holds it back."
+    />
+    <SolutionTemplateItem2
+      alias="ishakawa-diagram-a.k.a-fishbone"
+      description="Analyze the root causes of problems with the Ishakawa (fishbone) diagram."
+    />
+  </SolutionGrid>
 
   <CustomerStories />
 

@@ -9,9 +9,9 @@ const formatted = text.replace(/\*([^*]+?)\*/g, (match, content) => {
 });
 ---
 
-<div class="mx-auto my-16 max-w-[80rem]">
+<div class="mx-auto max-w-[64rem]">
   <p
-    class="px-4 text-center text-3xl font-semibold text-black md:text-4xl/[42px]"
+    class="text-center text-3xl font-semibold text-black md:text-4xl/[42px]"
     set:html={formatted}
   />
 </div>

@@ -11,10 +11,12 @@ import CustomerLogos from "~/components/blocks/CustomerLogos.astro";
 import UsageStatement from "~/components/blocks/instances/UsageStatement.astro";
 import "swiper/css";
 import SolutionTemplateItem from "~/components/blocks/SolutionTemplateItem.astro";
+import SolutionTemplateItem2 from "~/components/blocks/SolutionTemplateItem2.astro";
 import PrivateWritingFeatureItem from "~/components/blocks/features/PrivateWritingFeatureItem.astro";
 import ActivityFramesFeatureItem from "~/components/blocks/features/ActivityFramesFeatureItem.astro";
 import ActionsCommentsMentionsFeatureItem from "~/components/blocks/features/ActionsCommentsMentionsFeatureItem.astro";
 import PromoteTeamCultureFeatureItem from "~/components/blocks/features/PromoteTeamCultureFeatureItem.astro";
+import SolutionGrid from "~/components/blocks/SolutionGrid.astro";
 ---
 
 <PageLayout title="Better Collaboration">
@@ -25,11 +27,7 @@ import PromoteTeamCultureFeatureItem from "~/components/blocks/features/PromoteT
     color="purple"
   />
 
-  <div class="px-4">
-    <div class="mx-auto mt-16 mb-6 max-w-[1024px] space-y-16">
-      <UsageStatement />
-    </div>
-  </div>
+  <UsageStatement />
 
   <CustomerLogos />
 
@@ -55,38 +53,31 @@ import PromoteTeamCultureFeatureItem from "~/components/blocks/features/PromoteT
     title="Everything you need to drive discussion together and keep momentum going when the meeting ends"
   />
 
-  <section class="relative z-[1] py-8">
-    <div class="mx-auto grid max-w-[1280px] grid-cols-2 gap-16 px-8">
-      <PrivateWritingFeatureItem />
-      <ActivityFramesFeatureItem />
-      <ActionsCommentsMentionsFeatureItem />
-      <PromoteTeamCultureFeatureItem />
-    </div>
-  </section>
+  <SolutionGrid columns="2">
+    <PrivateWritingFeatureItem />
+    <ActivityFramesFeatureItem />
+    <ActionsCommentsMentionsFeatureItem />
+    <PromoteTeamCultureFeatureItem />
+  </SolutionGrid>
 
   <SolutionBanner
     title="Try these perfect Templates for Better Collaboration"
   />
 
-  <section class="relative z-[1] py-8">
-    <div class="mx-auto grid max-w-[1280px] grid-cols-3 gap-16 px-8">
-      <SolutionTemplateItem
-        title="Two Truths, One Lie"
-        description="Engage your team with this fun and interactive template."
-        image="~/assets/images/feature-placeholder.png"
-      />
-      <SolutionTemplateItem
-        title="Hot Air Balloon Retro"
-        description="Lift your team's spirits and reflect on progress with this creative template."
-        image="~/assets/images/feature-placeholder.png"
-      />
-      <SolutionTemplateItem
-        title="Team Canvas"
-        description="Align your team with a shared vision and goals using the Team Canvas template."
-        image="~/assets/images/feature-placeholder.png"
-      />
-    </div>
-  </section>
+  <SolutionGrid columns="3">
+    <SolutionTemplateItem2
+      alias="two-truths-one-lie"
+      description="Engage your team with this fun and interactive template."
+    />
+    <SolutionTemplateItem2
+      alias="the-hot-air-balloon"
+      description="Lift your team's spirits and reflect on progress with this creative template."
+    />
+    <SolutionTemplateItem2
+      alias="team-canvas"
+      description="Align your team with a shared vision and goals using the Team Canvas template."
+    />
+  </SolutionGrid>
 
   <CustomerStories />
 

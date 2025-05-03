@@ -1,18 +1,10 @@
+
 import type { Loader, LoaderContext } from 'astro/loaders';
 import { z } from 'astro:content';
-
-const bearer = "7d3383ed-0f0a-4604-9b9b-848e449820bb";
-
-const load = async () => {
-    console.log(bearer);
-    const response = await fetch("https://metroretro.io/api/v2/templates.list2", {
-        method: "GET",
-        headers: {
-            Authorization: `Bearer ${bearer}`,
-        },
-    });
-    return await response.json();
-};
+import { kebabCase } from "change-case";
+import fs from "fs";
+import path from "path";
+import { marked } from "marked";
 
 // Define any options that the loader needs
 export function templatesLoader(): Loader {
@@ -22,12 +14,26 @@ export function templatesLoader(): Loader {
         // Called when updating the collection.
         load: async (context: LoaderContext): Promise<void> => {
             // Load data and update the store
-            const templates = await load();
+            const templates = JSON.parse(fs.readFileSync("data/templates.json", "utf8"));
+
             for (const t of templates) {
+                // Look for a matching content file for this template
+                let content = "";
+
+                const contentPath = path.join("src/content/templates", `${t.alias}.md`);
+
+                if (fs.existsSync(contentPath)) {
+                    content = fs.readFileSync(contentPath, "utf8");
+                }
+
                 context.store.set({
                     id: t.id,
                     data: t,
-                })
+                    body: content,
+                    rendered: {
+                        html: await marked(content),
+                    }
+                });
             }
         },
         // Optionally, define the schema of an entry.
@@ -48,6 +54,8 @@ export function templatesLoader(): Loader {
             metadata: z.record(z.any()).default({}),
             publishedAt: z.string().datetime(),
             createdAt: z.string().datetime(),
+            seoTitle: z.string(),
+            seoDescription: z.string(),
             tags: z.array(
                 z.object({
                     id: z.string().uuid(),
@@ -56,7 +64,7 @@ export function templatesLoader(): Loader {
                     color: z.string(),
                     sort: z.number()
                 })
-            )
+            ),
         })
     };
 }

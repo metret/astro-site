@@ -1,13 +1,20 @@
 ---
 interface Props {
-  columns: any;
+  columns: "2" | "3" | "4";
 }
 
-const { columns = 3 }: Props = Astro.props;
+const columns = `${Astro.props.columns || 3}`;
 ---
 
-<section class="relative z-[1] py-8">
-  <div class={`mx-auto grid max-w-[1280px] gap-16 px-8 grid-cols-${columns}`}>
+<section>
+  <div
+    class={`mx-auto grid max-w-[80rem] gap-16 px-8 `}
+    class:list={[
+      columns === "2" && "grid-cols-2",
+      columns === "3" && "grid-cols-3",
+      columns === "4" && "grid-cols-4",
+    ]}
+  >
     <slot />
   </div>
 </section>

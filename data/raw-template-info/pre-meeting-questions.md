@@ -1,0 +1,1 @@
+When running a meeting or workshop, you may want to collect questions or expectations from participants before you start. Use this template to collect questions and make sure you hit all the topics your participants raise!

@@ -10,16 +10,22 @@
     "lint": "eslint . --cache",
     "lint:fix": "eslint . --fix",
     "format": "prettier --write .",
-    "format:check": "prettier --cache --check ."
+    "format:check": "prettier --cache --check .",
+    "seo:templates": "tsx scripts/seo:templates.ts"
   },
   "dependencies": {
+    "@anthropic-ai/sdk": "^0.40.1",
     "@astrojs/mdx": "^4.2.1",
     "@microflash/rehype-figure": "^2.1.3",
     "@tailwindcss/vite": "^4.0.10",
+    "@types/change-case": "^0.0.30",
+    "@types/marked": "^5.0.2",
     "astro": "^5.4.2",
     "astro-seo": "^0.8.4",
+    "change-case": "^5.4.4",
     "clsx": "^2.1.1",
     "deepmerge": "^4.3.1",
+    "marked": "^15.0.11",
     "polished": "^4.3.1",
     "seedrandom": "^3.0.5",
     "sharp": "^0.33.5",

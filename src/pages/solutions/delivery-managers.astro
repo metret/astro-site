@@ -11,10 +11,12 @@ import CustomerLogos from "~/components/blocks/CustomerLogos.astro";
 import UsageStatement from "~/components/blocks/instances/UsageStatement.astro";
 import "swiper/css";
 import SolutionTemplateItem from "~/components/blocks/SolutionTemplateItem.astro";
+import SolutionTemplateItem2 from "~/components/blocks/SolutionTemplateItem2.astro";
 import EstimateEffectivelyFeatureItem from "~/components/blocks/features/EstimateEffectivelyFeatureItem.astro";
 import ActionsCommentsMentionsFeatureItem from "~/components/blocks/features/ActionsCommentsMentionsFeatureItem.astro";
 import PromoteTeamCultureFeatureItem from "~/components/blocks/features/PromoteTeamCultureFeatureItem.astro";
 import FocusedCollaborationFeatureItem from "~/components/blocks/features/FocusedCollaborationFeatureItem.astro";
+import SolutionGrid from "~/components/blocks/SolutionGrid.astro";
 ---
 
 <PageLayout title="Delivery Managers">
@@ -25,11 +27,7 @@ import FocusedCollaborationFeatureItem from "~/components/blocks/features/Focuse
     color="orange"
   />
 
-  <div class="px-4">
-    <div class="mx-auto mt-16 mb-6 max-w-[1024px] space-y-16">
-      <UsageStatement />
-    </div>
-  </div>
+  <UsageStatement />
 
   <CustomerLogos />
 
@@ -62,36 +60,29 @@ import FocusedCollaborationFeatureItem from "~/components/blocks/features/Focuse
     title="Resolve communication breakdowns and build processes for continuous improvement"
   />
 
-  <section class="relative z-[1] py-8">
-    <div class="mx-auto grid max-w-[1280px] grid-cols-2 gap-16 px-8">
-      <EstimateEffectivelyFeatureItem />
-      <ActionsCommentsMentionsFeatureItem />
-      <PromoteTeamCultureFeatureItem />
-      <FocusedCollaborationFeatureItem />
-    </div>
-  </section>
+  <SolutionGrid columns="2">
+    <EstimateEffectivelyFeatureItem />
+    <ActionsCommentsMentionsFeatureItem />
+    <PromoteTeamCultureFeatureItem />
+    <FocusedCollaborationFeatureItem />
+  </SolutionGrid>
 
   <SolutionBanner title="Try these perfect Templates for Delivery Managers" />
 
-  <section class="relative z-[1] py-8">
-    <div class="mx-auto grid max-w-[1280px] grid-cols-3 gap-16 px-8">
-      <SolutionTemplateItem
-        title="Definition of Done"
-        description="Try these perfect Templates for Product Design Teams"
-        image="~/assets/images/feature-placeholder.png"
-      />
-      <SolutionTemplateItem
-        title="MosCow Prioritization"
-        description="Try these perfect Templates for Product Design Teams"
-        image="~/assets/images/feature-placeholder.png"
-      />
-      <SolutionTemplateItem
-        title="Goal Oriented Product Roadmap"
-        description="Try these perfect Templates for Product Design Teams"
-        image="~/assets/images/feature-placeholder.png"
-      />
-    </div>
-  </section>
+  <SolutionGrid columns="3">
+    <SolutionTemplateItem2
+      alias="definition-of-done"
+      description="Try these perfect Templates for Product Design Teams"
+    />
+    <SolutionTemplateItem2
+      alias="moscow-prioritization"
+      description="Try these perfect Templates for Product Design Teams"
+    />
+    <SolutionTemplateItem2
+      alias="go-product-roadmap"
+      description="Try these perfect Templates for Product Design Teams"
+    />
+  </SolutionGrid>
 
   <CustomerStories />
 

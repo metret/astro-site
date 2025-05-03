@@ -15,6 +15,8 @@ import PrivateWritingFeatureItem from "~/components/blocks/features/PrivateWriti
 import ActionsCommentsMentionsFeatureItem from "~/components/blocks/features/ActionsCommentsMentionsFeatureItem.astro";
 import AgileProcessesFeatureItem from "~/components/blocks/features/AgileProcessesFeatureItem.astro";
 import PromoteTeamCultureFeatureItem from "~/components/blocks/features/PromoteTeamCultureFeatureItem.astro";
+import SolutionGrid from "~/components/blocks/SolutionGrid.astro";
+import SolutionTemplateItem2 from "~/components/blocks/SolutionTemplateItem2.astro";
 ---
 
 <PageLayout title="Scrum Masters">
@@ -25,11 +27,7 @@ import PromoteTeamCultureFeatureItem from "~/components/blocks/features/PromoteT
     color="purple"
   />
 
-  <div class="px-4">
-    <div class="mx-auto mt-16 mb-6 max-w-[1024px] space-y-16">
-      <UsageStatement />
-    </div>
-  </div>
+  <UsageStatement />
 
   <CustomerLogos />
 
@@ -62,36 +60,29 @@ import PromoteTeamCultureFeatureItem from "~/components/blocks/features/PromoteT
     title="Build trust and shared understanding with your teams."
   />
 
-  <section class="relative z-[1] py-8">
-    <div class="mx-auto grid max-w-[1280px] grid-cols-2 gap-16 px-8">
-      <PrivateWritingFeatureItem />
-      <ActionsCommentsMentionsFeatureItem />
-      <AgileProcessesFeatureItem />
-      <PromoteTeamCultureFeatureItem />
-    </div>
-  </section>
+  <SolutionGrid columns="2">
+    <PrivateWritingFeatureItem />
+    <ActionsCommentsMentionsFeatureItem />
+    <AgileProcessesFeatureItem />
+    <PromoteTeamCultureFeatureItem />
+  </SolutionGrid>
 
   <SolutionBanner title="Try these perfect Templates for Scrum Teams" />
 
-  <section class="relative z-[1] py-8">
-    <div class="mx-auto grid max-w-[1280px] grid-cols-3 gap-16 px-8">
-      <SolutionTemplateItem
-        title="The Good, The Bad and The Ugly Retrospective"
-        description="Reflect on past work and plan improvements with this retrospective template."
-        image="~/assets/images/feature-placeholder.png"
-      />
-      <SolutionTemplateItem
-        title="MosCow Prioritization"
-        description="Prioritize tasks effectively using the MoSCoW method."
-        image="~/assets/images/feature-placeholder.png"
-      />
-      <SolutionTemplateItem
-        title="Sprint Planning"
-        description="Plan your sprints efficiently with this comprehensive template."
-        image="~/assets/images/feature-placeholder.png"
-      />
-    </div>
-  </section>
+  <SolutionGrid columns="3">
+    <SolutionTemplateItem2
+      alias="the-good-the-bad-and-the-ugly"
+      description="Reflect on past work and plan improvements with this retrospective template."
+    />
+    <SolutionTemplateItem2
+      alias="moscow-prioritization"
+      description="Prioritize tasks effectively using the MoSCoW method."
+    />
+    <SolutionTemplateItem2
+      alias="sprint-planning"
+      description="Plan your sprints efficiently with this comprehensive template."
+    />
+  </SolutionGrid>
 
   <CustomerStories />
 

@@ -1,15 +1,16 @@
 ---
 const { emoji } = Astro.props;
+
 const { title } = Astro.props;
 ---
 
-<section class="py-8">
+<section>
   <div
-    class="mx-auto mt-8 mb-8 flex max-w-[1280px] flex-row items-center justify-center px-8"
+    class="mx-auto flex max-w-[68rem] flex-row items-center justify-center px-8"
   >
-    <span class="mx-4 flex items-center text-2xl">{emoji}</span>
+    <span class="flex items-center text-2xl">{emoji}</span>
     <h2
-      class="max-w-[1024px] bg-gradient-to-r from-green-300 via-purple-300 to-red-300 bg-clip-text text-center text-4xl font-semibold text-pretty text-transparent"
+      class="bg-gradient-to-r from-green-300 via-purple-300 to-red-300 bg-clip-text text-center text-4xl font-semibold text-pretty text-transparent"
     >
       {title}
     </h2>

@@ -64,5 +64,35 @@ const templates = defineCollection({
     loader: templatesLoader(),
 });
 
+const templateDescs = defineCollection({
+    loader: glob({ pattern: "**/*.md", base: "./src/content/template-descs" }),
+    schema: z.object({
+        // // Standard
+        // title: z.string(),
+        // description: z.string(),
+        // image: z.string(),
+        // publishedDate: z.date(),
+        // modifiedDate: z.date(),
+        // // Extra
+        // color: z.string(),
+        // headerLead: z.string(),
+        // headerInfo: z.string(),
+        // headerImage: z.string(),
+        // quote: z.string(),
+        // contactName: z.string(),
+        // contactTitle: z.string(),
+        // contactImage: z.string(),
+        // companyName: z.string(),
+        // companyIndustry: z.string(),
+        // companyPeople: z.string(),
+        // sort: z.number(),
+    }),
+});
+
 // 4. Export a single `collections` object to register your collection(s)
-export const collections = { blog, customers, templates };
+export const collections = {
+    blog,
+    customers,
+    templates,
+    templateDescs
+};

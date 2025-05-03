@@ -70,11 +70,11 @@ const loadedImages = await Promise.all(
   tabs.map(async (tab) => ({
     ...tab,
     loadedImage: await dynamicImportImage(tab.image),
-  })),
+  }))
 );
 ---
 
-<section class="py-16 max-md:px-4">
+<section class="hidden lg:block">
   <Pill color="purple">Focus on outcomes</Pill>
   <Heading class="my-6">More alignment, more success</Heading>
   <Subheading>
@@ -187,21 +187,23 @@ const loadedImages = await Promise.all(
   ] as HTMLButtonElement[];
 
   const moreLinkMobile = document.getElementById(
-    "outcome-more-link-mobile",
+    "outcome-more-link-mobile"
   ) as HTMLAnchorElement | null;
 
   const moreLinkDesktop = document.getElementById(
-    "outcome-more-link-desktop",
+    "outcome-more-link-desktop"
   ) as HTMLAnchorElement | null;
 
   const mobileContent = document.querySelector(
-    ".peer-data-[active=true]",
+    ".peer-data-[active=true]"
   ) as HTMLElement;
+
   const desktopContent = document.querySelector(
-    ".lg\\:grid > div:first-child",
+    ".lg\\:grid > div:first-child"
   ) as HTMLElement;
+
   const desktopImage = document.querySelector(
-    ".lg\\:grid > div:last-child > div img",
+    ".lg\\:grid > div:last-child > div img"
   ) as HTMLImageElement;
 
   function setActiveTab(tab?: HTMLButtonElement | null) {
@@ -210,9 +212,13 @@ const loadedImages = await Promise.all(
     tab.setAttribute("data-active", "true");
 
     const moreText = tab.getAttribute("data-more-text");
+
     const href = tab.getAttribute("data-href");
+
     const body = tab.getAttribute("data-body");
+
     const features = tab.getAttribute("data-features")?.split(",") || [];
+
     const image = tab.getAttribute("data-image");
 
     if (!moreText) return;
@@ -234,10 +240,12 @@ const loadedImages = await Promise.all(
     // Update desktop content
     if (desktopContent) {
       const desktopBody = desktopContent.querySelector("p");
+
       // Select the container for features to manage visibility of items
       const desktopFeaturesContainer = desktopContent.querySelector(
-        ".mt-6.mb-8.space-y-6",
+        ".mt-6.mb-8.space-y-6"
       );
+
       const desktopFeatureElements =
         desktopFeaturesContainer?.querySelectorAll(".icon-text"); // Select all feature elements within the container
 
@@ -251,7 +259,9 @@ const loadedImages = await Promise.all(
           if (index < maxFeatures) {
             // Only update existing elements
             const featureElement = desktopFeatureElements[index] as HTMLElement; // Cast for style access
+
             const span = featureElement.querySelector("span");
+
             if (span) {
               span.textContent = featureText;
               featureElement.style.display = ""; // Ensure element is visible
@@ -263,12 +273,13 @@ const loadedImages = await Promise.all(
         // Hide unused feature elements if the new tab has fewer features than initially rendered
         for (let i = features.length; i < maxFeatures; i++) {
           const featureElement = desktopFeatureElements[i] as HTMLElement; // Cast for style access
+
           featureElement.style.display = "none"; // Hide element
         }
       } else if (desktopFeatureElements) {
         // If there are no features for the selected tab, hide all feature elements
         desktopFeatureElements.forEach(
-          (el) => ((el as HTMLElement).style.display = "none"),
+          (el) => ((el as HTMLElement).style.display = "none")
         );
       }
     }

@@ -16,36 +16,41 @@ const { active } = Astro.props;
 
 const templates = await getCollection("templates");
 
+const all = {
+  href: "/templates",
+  color: "#3b65ef",
+  label: "All Templates",
+  name: "all",
+};
+
 const tags = Object.values(
   keyBy(
     templates.flatMap((tmpl: any) => tmpl.data.tags),
     "name"
   )
-).sort((a, b) => a.sort - b.sort);
+)
+  .sort((a, b) => a.sort - b.sort)
+  .map((t) => ({ ...t, href: `/templates/${t.name}` }));
 ---
 
 <section class="mx-auto -mt-16 max-w-[45rem] px-4 py-16">
   <div class="flex flex-wrap justify-center gap-2">
     {
-      tags.map((tag: any) => (
-        <a
-          href={
-            tag.name === active ? "/templates" : `/templates/tag/${tag.name}`
-          }
-        >
+      [all, ...tags].map((t: any) => (
+        <a href={t.name === active ? "/templates" : t.href}>
           <div
             class:list={[
               "font-text-gray-300 rounded-lg border-2 border-gray-200 px-4 py-2",
-              tag.name === active ? "text-black" : "text-gray-300",
+              t.name === active ? "text-black" : "text-gray-300",
             ]}
             style={{
-              backgroundColor: tag.name === active ? tint(0.9, tag.color) : "",
-              borderColor: tag.name === active ? tag.color : "",
-              color: tag.name === active ? tag.color : "",
-              fontWeight: tag.name === active ? "500" : "normal",
+              backgroundColor: t.name === active ? tint(0.9, t.color) : "",
+              borderColor: t.name === active ? t.color : "",
+              color: t.name === active ? t.color : "",
+              fontWeight: t.name === active ? "500" : "normal",
             }}
           >
-            {tag.label}
+            {t.label}
           </div>
         </a>
       ))

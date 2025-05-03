@@ -1,8 +1,10 @@
 ---
 const { title, description, image, color } = Astro.props;
+
 import { Image } from "astro:assets";
 import { dynamicImportImage } from "~/utils";
 const loadedImage = await dynamicImportImage(image);
+
 import Wibble from "~/components/ui/Wibble.astro";
 import Dots from "~/components/Dots.astro";
 
@@ -19,7 +21,7 @@ const selectedColor = colors[color as keyof typeof colors] || colors.blue;
 ---
 
 <Dots />
-<section class="relative py-8">
+<section class="mt-8 lg:mt-16">
   <div
     class="mx-auto flex max-w-[1280px] flex-row items-center gap-24 px-8 sm:flex-col md:flex-row lg:flex-row xl:flex-row"
   >

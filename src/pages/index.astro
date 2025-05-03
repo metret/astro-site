@@ -2,7 +2,7 @@
 import AnnouncementBanner from "~/components/blocks/AnnouncementBanner.astro";
 import Hero from "~/components/blocks/Hero.astro";
 import PageLayout from "~/layouts/PageLayout.astro";
-import Focus from "~/components/blocks/Focus.astro";
+import FocusOnOutcomes from "~/components/blocks/FocusOnOutcomes.astro";
 import Personas from "~/components/blocks/Personas.astro";
 import WallOfLove from "~/components/blocks/WallOfLove.astro";
 import WouldYouLikeToKnowMore from "~/components/blocks/WouldYouLikeToKnowMore.astro";
@@ -13,16 +13,33 @@ import Testimonials from "~/components/blocks/Testimonials.astro";
 import Collaborate from "~/components/blocks/Collaborate.astro";
 import TemplateLink from "~/components/blocks/TemplateLink.astro";
 import Dots from "~/components/Dots.astro";
+import Hero from "~/components/blocks/Hero.astro";
+import ProductVideo from "~/components/blocks/ProductVideo.astro";
+import CustomerLogos from "~/components/blocks/CustomerLogos.astro";
+import UsageStatement from "~/components/blocks/instances/UsageStatement.astro";
 ---
 
 <PageLayout>
   <Dots />
 
-  <Hero />
+  <Hero
+    pill="The online whiteboard for product teams"
+    title="Effortless and engaging team collaboration"
+    description="With expertly crafted templates and intuitive tools, Metro Retro is the fun collaboration space that drives team communication."
+  />
+
+  <ProductVideo
+    src="https://s.metroretro.io/site/video/2025-product-loop.mp4"
+  />
+
+  <div class="space-y-16">
+    <UsageStatement />
+    <CustomerLogos />
+  </div>
 
   <Collaborate />
 
-  <Focus />
+  <FocusOnOutcomes />
 
   <Personas />
 

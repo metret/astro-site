@@ -1,46 +1,54 @@
 ---
 import Document from "~/components/blocks/Document.astro";
-import LinkButton from "~/components/ui/LinkButton.astro";
 import PageLayout from "~/layouts/PageLayout.astro";
-
-import prighterCertificate from "~/assets/images/logos/prighter.png";
 import mrTeamImage from "~/assets/images/mr-team.png";
 ---
 
 <PageLayout title="Support">
   <Document>
-    <div class="mb-8">
+    <figure>
       <img
         src={mrTeamImage.src}
         alt="Metro Retro Team"
         class="h-auto w-full rounded-lg"
       />
-    </div>
-    <div class="mb-6">
-      <p class="text-sm text-gray-600">
-        <h1>We're here to help</h1>
-        <p>
-          We love talking to our customers and are always looking for ways to
-          improve our product. If you have any questions or feedback, please
-          reach out to us.
-        </p>
-        <h2>How to get in touch</h2>
-        <p>
-          Please email us at<strong>&nbsp;</strong><a
-            href="mailto:contact@metroretro.io">contact@metroretro.io</a
-          >&nbsp;if you have any questions or would like to request a demo for
-          your team.
-        </p>
-        <p>
-          For guides and feature help you can check out <strong>&nbsp;</strong
-          ><a href="https://docs.metroretro.io/">our help docs.</a>
-        </p>
-        <p>
-          If you are already a Metro Retro account holder, you can use the
-          in-app chat support options to speak to use via Intercom. We'll always
-          respond as quickly as we can.
-        </p>
-      </p>
-    </div>
-  </Document></PageLayout
->
+      <figcaption>
+        The Metro Retro team, in order of least to best beard.
+      </figcaption>
+    </figure>
+    <h1>We're here to help</h1>
+    <p>
+      We love talking to our customers and are always looking for ways to
+      improve our product. If you have any questions or feedback, please reach
+      out to us.
+    </p>
+    <h2>How to get in touch</h2>
+    <p>You can either:</p>
+    <ul>
+      <li>
+        Live chat to us via <span
+          data-intercom
+          class="cursor-pointer text-blue-200 underline">Intercom</span
+        > &mdash; we're online most UTC office hours
+      </li>
+      <li>
+        For support or general enquiries, send us an email at <a
+          href="mailto:contact@metroretro.io"
+          class="text-blue-200">contact@metroretro.io</a
+        >
+      </li>
+      <li>
+        For sales & demo requests, <a
+          href="https://calendly.com/jamie-metroretro/"
+          class="text-blue-200 underline">book a call with Jamie here</a
+        >
+      </li>
+    </ul>
+    <p>
+      For guides and feature help you can check out <a
+        href="https://docs.metroretro.io/"
+        class="text-blue-200 underline">our help docs.</a
+      >
+    </p>
+  </Document>
+</PageLayout>

@@ -21,7 +21,7 @@ const { tag } = Astro.props;
 // ];
 
 const allPosts = (await getCollection("blog")).toSorted(
-  (a, b) => b.data.publishedDate.getTime() - a.data.publishedDate.getTime(),
+  (a, b) => b.data.publishedDate.getTime() - a.data.publishedDate.getTime()
 );
 
 const nonHeroPosts = allPosts.slice(1);
@@ -30,7 +30,7 @@ const matchingPosts =
   tag === "all"
     ? nonHeroPosts
     : nonHeroPosts.filter(
-        (post) => slugify(post.data.category, { lower: true }) === tag,
+        (post) => slugify(post.data.category, { lower: true }) === tag
       );
 
 const allLabels = [
@@ -44,7 +44,7 @@ const allTags = allLabels.map((label) => ({
 }));
 ---
 
-<section class="px-4">
+<section>
   <div class="mx-auto max-w-[80rem]">
     <p class="text-xl/8 font-semibold text-blue-200">
       Latest Guides, News & Updates from Metro Retro

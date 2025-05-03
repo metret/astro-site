@@ -6,9 +6,9 @@ import humanCentered from "~/assets/images/human-centered.png";
 import Button from "../ui/Button.astro";
 ---
 
-<section class="px-4 py-12 md:py-16">
+<section>
   <div
-    class="mx-auto grid max-w-[1256px] grid-cols-1 gap-6 md:gap-9 lg:grid-cols-[441px_1fr]"
+    class="mx-auto grid max-w-[80rem] grid-cols-1 gap-6 md:gap-9 lg:grid-cols-[35%_1fr]"
   >
     <div>
       <svg
@@ -120,11 +120,11 @@ import Button from "../ui/Button.astro";
 
 <script>
   const ourStoryReadMore = document.getElementById(
-    "our-story-read-more",
+    "our-story-read-more"
   ) as HTMLButtonElement;
 
   const ourStoryContent = document.querySelector(
-    ".our-story",
+    ".our-story"
   ) as HTMLDivElement;
 
   ourStoryReadMore.addEventListener("click", () => {

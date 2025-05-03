@@ -1,0 +1,57 @@
+---
+interface Props {
+  templateId: string;
+  fallbackSrc?: string;
+}
+
+const { templateId, fallbackSrc } = Astro.props;
+---
+
+<section>
+  <div
+    class="shadow-mr relative mx-auto max-w-[80rem] overflow-hidden rounded-4xl border-1 border-blue-200/15"
+  >
+    <div class="hidden xl:block">
+      <div
+        data-on-activate
+        class="absolute inset-0 cursor-pointer opacity-0 hover:opacity-100"
+      >
+        <div
+          class="absolute top-1/2 left-1/2 z-10 flex -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-xl bg-blue-200/50 p-4 text-center text-2xl font-semibold text-white"
+        >
+          Click to activate
+        </div>
+      </div>
+      <iframe
+        id="metret-iframe"
+        src={`https://metroretro.io/TP/${templateId}?ui=0&camera=auto`}
+        frameborder="0"
+        scrolling="no"
+        width="100%"
+        height="800px"
+      >
+      </iframe>
+    </div>
+    <div class="xl:hidden">
+      {
+        fallbackSrc && (
+          <img
+            src={fallbackSrc}
+            alt="Template Preview"
+            class="w-full object-cover"
+          />
+        )
+      }
+    </div>
+  </div>
+  <script>
+    const onActivate = document.querySelector("[data-on-activate]");
+
+    if (onActivate) {
+      onActivate.addEventListener("click", () => {
+        // Remove self
+        onActivate.remove();
+      });
+    }
+  </script>
+</section>

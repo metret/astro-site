@@ -11,10 +11,12 @@ import "swiper/css";
 import CustomerLogos from "~/components/blocks/CustomerLogos.astro";
 import UsageStatement from "~/components/blocks/instances/UsageStatement.astro";
 import SolutionTemplateItem from "~/components/blocks/SolutionTemplateItem.astro";
+import SolutionTemplateItem2 from "~/components/blocks/SolutionTemplateItem2.astro";
 import ActionsCommentsMentionsFeatureItem from "~/components/blocks/features/ActionsCommentsMentionsFeatureItem.astro";
 import EstimateEffectivelyFeatureItem from "~/components/blocks/features/EstimateEffectivelyFeatureItem.astro";
 import AgileProcessesFeatureItem from "~/components/blocks/features/AgileProcessesFeatureItem.astro";
 import RoadmapsFeatureItem from "~/components/blocks/features/RoadmapsFeatureItem.astro";
+import SolutionGrid from "~/components/blocks/SolutionGrid.astro";
 ---
 
 <PageLayout title="Planning Ahead">
@@ -25,11 +27,7 @@ import RoadmapsFeatureItem from "~/components/blocks/features/RoadmapsFeatureIte
     color="orange"
   />
 
-  <div class="px-4">
-    <div class="mx-auto mt-16 mb-6 max-w-[1024px] space-y-16">
-      <UsageStatement />
-    </div>
-  </div>
+  <UsageStatement />
 
   <CustomerLogos />
 
@@ -55,36 +53,29 @@ import RoadmapsFeatureItem from "~/components/blocks/features/RoadmapsFeatureIte
     title="Tools built for shared understanding and prioritizing your future"
   />
 
-  <section class="relative z-[1] py-8">
-    <div class="mx-auto grid max-w-[1280px] grid-cols-2 gap-16 px-8">
-      <ActionsCommentsMentionsFeatureItem />
-      <EstimateEffectivelyFeatureItem />
-      <AgileProcessesFeatureItem />
-      <RoadmapsFeatureItem />
-    </div>
-  </section>
+  <SolutionGrid columns="2">
+    <ActionsCommentsMentionsFeatureItem />
+    <EstimateEffectivelyFeatureItem />
+    <AgileProcessesFeatureItem />
+    <RoadmapsFeatureItem />
+  </SolutionGrid>
 
   <SolutionBanner title="Try these perfect Templates for Planning Ahead" />
 
-  <section class="relative z-[1] py-8">
-    <div class="mx-auto grid max-w-[1280px] grid-cols-3 gap-16 px-8">
-      <SolutionTemplateItem
-        title="Now-Next-Later Roadmap"
-        description="Plan your product's journey with a clear timeline."
-        image="~/assets/images/feature-placeholder.png"
-      />
-      <SolutionTemplateItem
-        title="RAID Analysis"
-        description="Identify and manage risks, assumptions, issues, and dependencies effectively."
-        image="~/assets/images/feature-placeholder.png"
-      />
-      <SolutionTemplateItem
-        title="On The Radar"
-        description="Keep track of important tasks and projects that are on the horizon."
-        image="~/assets/images/feature-placeholder.png"
-      />
-    </div>
-  </section>
+  <SolutionGrid columns="3">
+    <SolutionTemplateItem2
+      alias="now-next-later-roadmap"
+      description="Plan your product's journey with a clear timeline."
+    />
+    <SolutionTemplateItem2
+      alias="raid-analysis"
+      description="Identify and manage risks, assumptions, issues, and dependencies effectively."
+    />
+    <SolutionTemplateItem2
+      alias="on-the-radar"
+      description="Keep track of important tasks and projects that are on the horizon."
+    />
+  </SolutionGrid>
 
   <CustomerStories />
 

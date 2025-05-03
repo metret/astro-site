@@ -3,6 +3,7 @@ import "~/styles/global.css";
 import { SEO } from "astro-seo";
 import type { Props as AstroSEOProps } from "astro-seo";
 import { compileMeta } from "~/utils";
+import Analytics from "~/layouts/Analytics.astro";
 
 interface Props extends AstroSEOProps {
   /**
@@ -16,6 +17,7 @@ interface Props extends AstroSEOProps {
 }
 
 const { class: className, "class:list": classList, ...props } = Astro.props;
+
 const seo = await compileMeta(props);
 ---
 
@@ -39,6 +41,7 @@ const seo = await compileMeta(props);
       rel="stylesheet"
     />
     <SEO {...seo} />
+    <Analytics />
     <slot name="head" />
   </head>
   <body

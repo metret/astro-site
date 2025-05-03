@@ -1,14 +1,9 @@
 ---
-import { getCollection, render } from "astro:content";
+import { getCollection } from "astro:content";
 import BlogPostContent from "~/components/blocks/BlogPostContent.astro";
-import BlogPostHero from "~/components/blocks/BlogPostHero.astro";
-import Dots from "~/components/Dots.astro";
 import PageLayout from "~/layouts/PageLayout.astro";
 import Newsletter from "~/components/blocks/Newsletter.astro";
-import PostCard from "~/components/blocks/PostCard.astro";
-import SignUp from "~/components/blocks/SignUp.astro";
-import type { Props as AstroSEOProps } from "astro-seo";
-import { articleMeta, dynamicImportImage } from "~/utils";
+import { articleMeta } from "~/utils";
 
 // 1. Generate a new path for every collection entry
 export async function getStaticPaths() {
@@ -27,7 +22,6 @@ const { post } = Astro.props;
 const seo = await articleMeta({
   title: post.data.title,
   description: post.data.description,
-  type: "article",
   image: post.data.image,
   authorName: post.data.authorName,
   category: post.data.category,

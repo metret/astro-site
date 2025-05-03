@@ -1,0 +1,68 @@
+---
+import { getCollection, render } from "astro:content";
+import BlogPostContent from "~/components/blocks/BlogPostContent.astro";
+import BlogPostHero from "~/components/blocks/BlogPostHero.astro";
+import Dots from "~/components/Dots.astro";
+import PageLayout from "~/layouts/PageLayout.astro";
+import Newsletter from "~/components/blocks/Newsletter.astro";
+import PostCard from "~/components/blocks/PostCard.astro";
+import SignUp from "~/components/blocks/SignUp.astro";
+import type { Props as AstroSEOProps } from "astro-seo";
+import { articleMeta, dynamicImportImage } from "~/utils";
+import LinkButton from "~/components/ui/LinkButton.astro";
+import LinkArrowButton from "~/components/ui/LinkArrowButton.astro";
+import TemplateTag from "~/components/blocks/TemplateTag.astro";
+import LeftArrowLinkButton from "~/components/ui/LeftArrowLinkButton.astro";
+import TemplateCard from "~/components/blocks/TemplateCard.astro";
+import { keyBy } from "lodash";
+import seedrandom from "seedrandom";
+
+interface Props {
+  templateId?: string;
+}
+
+// 2. For your template, you can get the entry directly from the prop
+const { templateId } = Astro.props;
+
+const templates = await getCollection("templates");
+
+const self = templateId
+  ? templates.find((t) => t.data.id === templateId)
+  : null;
+
+const rand = seedrandom(templateId);
+
+const lookup = new Map(templates.map((tmpl) => [tmpl.data.id, rand()]));
+
+const suggestions = templates
+  .filter(
+    (tmpl) =>
+      tmpl.id !== self?.id &&
+      tmpl.data.tags.some((x: any) => x.name === self?.data.tags[0].name)
+  )
+  .sort((a, b) => lookup.get(a.id) - lookup.get(b.id))
+  .slice(0, 3);
+---
+
+<section>
+  <div class="mx-auto max-w-[80rem] space-y-6">
+    <h2 class="text-center text-3xl font-medium">
+      Other templates you might like
+    </h2>
+    <div
+      class="grid grid-cols-1 gap-6 py-6 md:grid-cols-2 lg:grid-cols-3 lg:py-4"
+    >
+      {
+        suggestions.map((tmpl) => (
+          <TemplateCard
+            href={`/templates/${tmpl.data.alias}`}
+            image={tmpl.data.thumbUrl}
+            name={tmpl.data.label}
+            description={tmpl.data.description}
+            tags={tmpl.data.tags}
+          />
+        ))
+      }
+    </div>
+  </div>
+</section>

@@ -7,6 +7,7 @@ import "swiper/css";
 import AnnouncementBanner from "~/components/blocks/AnnouncementBanner.astro";
 import type { Props as AstroSEOProps } from "astro-seo";
 interface Props extends AstroSEOProps {
+  spacing?: "sm" | "md" | "lg";
   /**
    * Applied to html body
    */
@@ -17,7 +18,7 @@ interface Props extends AstroSEOProps {
   "class:list"?: astroHTML.JSX.HTMLAttributes["class:list"];
 }
 
-const { title, ...props } = Astro.props;
+const { title, spacing = "lg", ...props } = Astro.props;
 ---
 
 <BaseLayout {...props} title={title}>
@@ -33,7 +34,17 @@ const { title, ...props } = Astro.props;
     </p>
   </AnnouncementBanner>
   <TheNavbar />
-  <main class="flex-1">
+  <main
+    class:list={[
+      "flex-1 px-4",
+      spacing === "lg" && "space-y-16",
+      spacing === "lg" && "lg:space-y-32",
+      spacing === "md" && "space-y-8",
+      spacing === "md" && "lg:space-y-16",
+      spacing === "sm" && "space-y-4",
+      spacing === "sm" && "lg:space-y-8",
+    ]}
+  >
     <slot />
   </main>
   <TheFooter />

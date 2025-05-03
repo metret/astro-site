@@ -1,0 +1,3316 @@
+[
+  {
+    "id": "c4c90933-6c82-48bc-a77c-582c0cdd68b4",
+    "accountId": null,
+    "alias": "the-sailboat",
+    "label": "The Sailboat",
+    "description": "The Sailboat is a picture template that uses a sailing boat metaphor to apply the four category retrospective in a more interesting way.",
+    "sort": 90,
+    "time": null,
+    "people": null,
+    "complexity": null,
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/c4c90933-6c82-48bc-a77c-582c0cdd68b4/ae3816e4-f7af-4865-9d71-8ee7bb1b0079.png?e=a7b9fdd1d6459acc2df3796f7a9d7103",
+    "thumbEtag": "a7b9fdd1d6459acc2df3796f7a9d7103",
+    "version": 1,
+    "metadata": {
+      "featured": "minor",
+      "fsort": 7
+    },
+    "publishedAt": "2024-07-22T14:59:09.535Z",
+    "createdAt": "2024-08-21T21:08:03.719Z",
+    "tags": [
+      {
+        "id": "1aa7461f-0879-4563-aea6-dbee73754889",
+        "name": "retrospectives",
+        "label": "Retrospectives",
+        "color": "#7E48F0",
+        "sort": 200
+      },
+      {
+        "id": "2e5407df-73f8-4f27-8035-5681889e0b79",
+        "name": "futurespectives",
+        "label": "Futurespectives",
+        "color": "#FF4F81",
+        "sort": 300
+      }
+    ],
+    "seoTitle": "Sailboat Retrospective Template for Team Reflection"
+  },
+  {
+    "id": "65a1f028-9f55-4e64-bf7f-58f97b232b45",
+    "accountId": null,
+    "alias": "back-2-school",
+    "label": "Back 2 School",
+    "description": "As we come back to a new academic year, take this opportunity to reflect on how you worked last year, and how you want to work in the new year.",
+    "sort": 99,
+    "time": null,
+    "people": null,
+    "complexity": null,
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/65a1f028-9f55-4e64-bf7f-58f97b232b45/c69e43ad-07e1-4e05-b886-d1243fe23bde.png?e=1451d2a1a63b84d981eed53ad52cd235",
+    "thumbEtag": "1451d2a1a63b84d981eed53ad52cd235",
+    "version": 3,
+    "metadata": {},
+    "publishedAt": "2024-08-30T08:47:45.611Z",
+    "createdAt": "2024-08-29T11:20:35.122Z",
+    "tags": [
+      {
+        "id": "1aa7461f-0879-4563-aea6-dbee73754889",
+        "name": "retrospectives",
+        "label": "Retrospectives",
+        "color": "#7E48F0",
+        "sort": 200
+      },
+      {
+        "id": "2e5407df-73f8-4f27-8035-5681889e0b79",
+        "name": "futurespectives",
+        "label": "Futurespectives",
+        "color": "#FF4F81",
+        "sort": 300
+      }
+    ],
+    "seoTitle": "Back 2 School Retrospective Template for Dev Teams"
+  },
+  {
+    "id": "1a8ac86e-9b42-4b85-8ce4-d097730787fe",
+    "accountId": null,
+    "alias": "the-hot-air-balloon",
+    "label": "The Hot Air Balloon",
+    "description": "The Hot Air Balloon is a hybrid retro / futurespective that looks at what is helping / hindering the team and what positive / negative things are on the horizon.",
+    "sort": 100,
+    "time": null,
+    "people": null,
+    "complexity": null,
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/1a8ac86e-9b42-4b85-8ce4-d097730787fe/3d0a66aa-d915-4419-b2db-7daaf22d1481.png?e=65c262e4dbd6145d47e0c7b4c3606077",
+    "thumbEtag": "65c262e4dbd6145d47e0c7b4c3606077",
+    "version": 1,
+    "metadata": {},
+    "publishedAt": "2024-07-22T14:59:09.414Z",
+    "createdAt": "2024-08-21T21:08:03.719Z",
+    "tags": [
+      {
+        "id": "1aa7461f-0879-4563-aea6-dbee73754889",
+        "name": "retrospectives",
+        "label": "Retrospectives",
+        "color": "#7E48F0",
+        "sort": 200
+      },
+      {
+        "id": "2e5407df-73f8-4f27-8035-5681889e0b79",
+        "name": "futurespectives",
+        "label": "Futurespectives",
+        "color": "#FF4F81",
+        "sort": 300
+      }
+    ],
+    "seoTitle": "Hot Air Balloon Retrospective for Team Improvement"
+  },
+  {
+    "id": "62001c9b-c685-46a5-83ce-cbebdd0f4a66",
+    "accountId": null,
+    "alias": "the-speed-car",
+    "label": "The Speed Car",
+    "description": "Picture template that uses a racing car metaphor to ask the team what is holding them back and what is driving them forwards.",
+    "sort": 200,
+    "time": null,
+    "people": null,
+    "complexity": null,
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/62001c9b-c685-46a5-83ce-cbebdd0f4a66/2d6eba8f-a42c-4664-b34c-e0b8251123b5.png?e=362721486085e1cce93016004dedadc9",
+    "thumbEtag": "362721486085e1cce93016004dedadc9",
+    "version": 1,
+    "metadata": {},
+    "publishedAt": "2024-07-22T14:59:09.650Z",
+    "createdAt": "2024-08-21T21:08:03.719Z",
+    "tags": [
+      {
+        "id": "1aa7461f-0879-4563-aea6-dbee73754889",
+        "name": "retrospectives",
+        "label": "Retrospectives",
+        "color": "#7E48F0",
+        "sort": 200
+      }
+    ],
+    "seoTitle": "Speed Car Retrospective Template for Agile Teams"
+  },
+  {
+    "id": "47ba3fed-ab74-4a3d-993a-cfeafd9c8d26",
+    "accountId": null,
+    "alias": "the-speed-car-and-the-abyss",
+    "label": "The Speed Car & The Abyss",
+    "description": "A variation on The Speed Car activity that adds a future facing section to create a hybrid retrospective/futurespective.",
+    "sort": 300,
+    "time": null,
+    "people": null,
+    "complexity": null,
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/47ba3fed-ab74-4a3d-993a-cfeafd9c8d26/73f26938-f234-47b5-8e4f-3b1c6613b2ab.png?e=48ada377764c50bc66f715da650c95fe",
+    "thumbEtag": "48ada377764c50bc66f715da650c95fe",
+    "version": 1,
+    "metadata": {},
+    "publishedAt": "2024-07-22T14:59:09.765Z",
+    "createdAt": "2024-08-21T21:08:03.719Z",
+    "tags": [
+      {
+        "id": "1aa7461f-0879-4563-aea6-dbee73754889",
+        "name": "retrospectives",
+        "label": "Retrospectives",
+        "color": "#7E48F0",
+        "sort": 200
+      },
+      {
+        "id": "2e5407df-73f8-4f27-8035-5681889e0b79",
+        "name": "futurespectives",
+        "label": "Futurespectives",
+        "color": "#FF4F81",
+        "sort": 300
+      }
+    ],
+    "seoTitle": "Speed Car & The Abyss Retrospective Template"
+  },
+  {
+    "id": "1eeccd85-62d0-4b0a-a74e-6d87101ff75d",
+    "accountId": null,
+    "alias": "the-good-the-bad-and-the-ugly",
+    "label": "The Good, The Bad, And The Ugly",
+    "description": "A classic retro with a fun theme based on the 1966 Western movie.",
+    "sort": 400,
+    "time": null,
+    "people": null,
+    "complexity": null,
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/1eeccd85-62d0-4b0a-a74e-6d87101ff75d/cb6439d6-be89-4334-a3a0-557739033c0e.png?e=2fe549829061a4ecf1df65fe0c9d0e4b",
+    "thumbEtag": "2fe549829061a4ecf1df65fe0c9d0e4b",
+    "version": 1,
+    "metadata": {},
+    "publishedAt": "2024-07-22T14:59:05.277Z",
+    "createdAt": "2024-08-21T21:08:03.719Z",
+    "tags": [
+      {
+        "id": "1aa7461f-0879-4563-aea6-dbee73754889",
+        "name": "retrospectives",
+        "label": "Retrospectives",
+        "color": "#7E48F0",
+        "sort": 200
+      }
+    ],
+    "seoTitle": "Good, Bad & Ugly Retrospective Template for Teams"
+  },
+  {
+    "id": "d61052e7-c1b1-4158-acfb-36996f99fa51",
+    "accountId": null,
+    "alias": "good-bad-start-stop",
+    "label": "Good / Bad / Start / Stop",
+    "description": "Classic four-panel retrospective board with categories of Good, Bad, Start and Stop. Encourages a variety of ideas and actions.",
+    "sort": 500,
+    "time": null,
+    "people": null,
+    "complexity": null,
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/d61052e7-c1b1-4158-acfb-36996f99fa51/1865e941-672c-4583-9014-ad0d7cbce568.png?e=2ffe59971dc68e1705b2fccf3c1e5237",
+    "thumbEtag": "2ffe59971dc68e1705b2fccf3c1e5237",
+    "version": 1,
+    "metadata": {},
+    "publishedAt": "2024-07-22T14:59:06.976Z",
+    "createdAt": "2024-08-21T21:08:03.719Z",
+    "tags": [
+      {
+        "id": "1aa7461f-0879-4563-aea6-dbee73754889",
+        "name": "retrospectives",
+        "label": "Retrospectives",
+        "color": "#7E48F0",
+        "sort": 200
+      }
+    ],
+    "seoTitle": "Good, Bad, Start, Stop Retrospective Template"
+  },
+  {
+    "id": "90317c39-6a36-4c06-814a-981b8f5fabd9",
+    "accountId": null,
+    "alias": "drop-add-keep-improve",
+    "label": "Drop / Add / Keep / Improve",
+    "description": "Alternative four-panel retrospective with alternative categories of Drop, Add, Keep and Remove.",
+    "sort": 600,
+    "time": null,
+    "people": null,
+    "complexity": null,
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/90317c39-6a36-4c06-814a-981b8f5fabd9/e66443cb-9e22-4757-a313-18aefde12448.png?e=c85bf3db3d6a31dc0485f01a1b5d873a",
+    "thumbEtag": "c85bf3db3d6a31dc0485f01a1b5d873a",
+    "version": 1,
+    "metadata": {},
+    "publishedAt": "2024-07-22T14:59:07.091Z",
+    "createdAt": "2024-08-21T21:08:03.719Z",
+    "tags": [
+      {
+        "id": "1aa7461f-0879-4563-aea6-dbee73754889",
+        "name": "retrospectives",
+        "label": "Retrospectives",
+        "color": "#7E48F0",
+        "sort": 200
+      }
+    ],
+    "seoTitle": "Drop, Add, Keep, Improve Retrospective Template"
+  },
+  {
+    "id": "cc0eb453-8efb-4210-889a-2a3f5ffd3560",
+    "accountId": null,
+    "alias": "glad-mad-sad",
+    "label": "Glad / Mad / Sad",
+    "description": "Straightforward retrospective exercise that asks teams to identify and discuss what makes them Glad, Mad and Sad.",
+    "sort": 700,
+    "time": null,
+    "people": null,
+    "complexity": null,
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/cc0eb453-8efb-4210-889a-2a3f5ffd3560/bfe490bf-356e-49d4-bcb2-112b2a77dc81.png?e=9d8138ebfaaa4cf920f44fc0d8bb66be",
+    "thumbEtag": "9d8138ebfaaa4cf920f44fc0d8bb66be",
+    "version": 1,
+    "metadata": {},
+    "publishedAt": "2024-07-22T14:59:07.529Z",
+    "createdAt": "2024-08-21T21:08:03.719Z",
+    "tags": [
+      {
+        "id": "1aa7461f-0879-4563-aea6-dbee73754889",
+        "name": "retrospectives",
+        "label": "Retrospectives",
+        "color": "#7E48F0",
+        "sort": 200
+      }
+    ],
+    "seoTitle": "Glad, Mad, Sad Retrospective Template for Teams"
+  },
+  {
+    "id": "0b17ac45-f563-482e-a0f8-2a63439dfd67",
+    "accountId": null,
+    "alias": "energy-insights",
+    "label": "Energy Insights",
+    "description": "Discover what drains or recharges the team energy, enabling reflection and making adjustments for improved efficiency and vitality!",
+    "sort": 800,
+    "time": null,
+    "people": null,
+    "complexity": null,
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/0b17ac45-f563-482e-a0f8-2a63439dfd67/65d948b8-f2c2-4b47-83bb-6b2c6665ccaf.png?e=91d195ba3e9e85828cf831f7fda18d19",
+    "thumbEtag": "91d195ba3e9e85828cf831f7fda18d19",
+    "version": 1,
+    "metadata": {
+      "featured": "major",
+      "copy": [
+        "Reflect on what fueled or drained your team's energy during the sprint. This template helps teams identify activities that recharged or depleted their energy, using visual 'battery' levels to categorize insights. Perfect for promoting well-being, boosting team awareness, and shaping a more sustainable work rhythm."
+      ]
+    },
+    "publishedAt": "2024-07-22T14:59:07.321Z",
+    "createdAt": "2024-08-21T21:08:03.719Z",
+    "tags": [
+      {
+        "id": "1aa7461f-0879-4563-aea6-dbee73754889",
+        "name": "retrospectives",
+        "label": "Retrospectives",
+        "color": "#7E48F0",
+        "sort": 200
+      }
+    ],
+    "seoTitle": "Energy Insights Retrospective Template for Teams"
+  },
+  {
+    "id": "be792a0e-36b1-42b4-b47c-b2d24daf0656",
+    "accountId": null,
+    "alias": "draw-our-sprint",
+    "label": "Draw Our Sprint",
+    "description": "This is a fun, hands-on way to look back on your sprint and see how it went from everyone’s perspective. By drawing out your experiences, you might notice things that aren't usually talked about, and it gives the team a chance to get a bit creative too!",
+    "sort": 900,
+    "time": null,
+    "people": null,
+    "complexity": null,
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/be792a0e-36b1-42b4-b47c-b2d24daf0656/a5edbf2b-9045-4a4a-b82a-f70270baf9de.png?e=54d16c055cba0c5a56216b4d60cb54a2",
+    "thumbEtag": "54d16c055cba0c5a56216b4d60cb54a2",
+    "version": 1,
+    "metadata": {},
+    "publishedAt": "2024-07-22T14:59:05.039Z",
+    "createdAt": "2024-08-21T21:08:03.719Z",
+    "tags": [
+      {
+        "id": "1aa7461f-0879-4563-aea6-dbee73754889",
+        "name": "retrospectives",
+        "label": "Retrospectives",
+        "color": "#7E48F0",
+        "sort": 200
+      }
+    ],
+    "seoTitle": "Draw Our Sprint Retrospective for Visual Team Feedback"
+  },
+  {
+    "id": "ab5d0251-5d98-49d8-bde5-0daf08424c34",
+    "accountId": null,
+    "alias": "three-little-pigs",
+    "label": "Three Little Pigs",
+    "description": "Use the story of the Three Little Pigs to identify the team's weak and strong \"structures\", and decide how to improve them.",
+    "sort": 1000,
+    "time": null,
+    "people": null,
+    "complexity": null,
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/ab5d0251-5d98-49d8-bde5-0daf08424c34/71329318-e84c-4736-ba6d-6316a27980d3.png?e=1ef5f149b9d038cf0191f5fc39b41b8f",
+    "thumbEtag": "1ef5f149b9d038cf0191f5fc39b41b8f",
+    "version": 1,
+    "metadata": {},
+    "publishedAt": "2024-07-22T14:59:05.509Z",
+    "createdAt": "2024-08-21T21:08:03.719Z",
+    "tags": [
+      {
+        "id": "1aa7461f-0879-4563-aea6-dbee73754889",
+        "name": "retrospectives",
+        "label": "Retrospectives",
+        "color": "#7E48F0",
+        "sort": 200
+      },
+      {
+        "id": "144d8447-e8d0-4e3b-a7d5-7c2446cd000b",
+        "name": "meetings-and-workshops",
+        "label": "Meetings & Workshops",
+        "color": "#B84592",
+        "sort": 700
+      }
+    ],
+    "seoTitle": "Three Little Pigs Retrospective Workshop Template"
+  },
+  {
+    "id": "d0327399-8264-4003-8186-9dd3c4bdc642",
+    "accountId": null,
+    "alias": "the-boxing-ring",
+    "label": "The Boxing Ring",
+    "description": "If the last sprint felt like 10 rounds in the ring, use this retrospective to review the highlights.",
+    "sort": 1100,
+    "time": null,
+    "people": null,
+    "complexity": null,
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/d0327399-8264-4003-8186-9dd3c4bdc642/73925f69-03aa-47b2-ba32-40c07eece02f.png?e=e240e5a9f51ff8b63b06c248e28c6222",
+    "thumbEtag": "e240e5a9f51ff8b63b06c248e28c6222",
+    "version": 1,
+    "metadata": {},
+    "publishedAt": "2024-07-22T14:59:05.649Z",
+    "createdAt": "2024-08-21T21:08:03.719Z",
+    "tags": [
+      {
+        "id": "1aa7461f-0879-4563-aea6-dbee73754889",
+        "name": "retrospectives",
+        "label": "Retrospectives",
+        "color": "#7E48F0",
+        "sort": 200
+      }
+    ],
+    "seoTitle": "Boxing Ring Retrospective Template for Team Debates"
+  },
+  {
+    "id": "19d08110-5882-429a-ac7a-b4b8232edfed",
+    "accountId": null,
+    "alias": "joy-fear-excitement!",
+    "label": "Joy, Fear, Excitement!",
+    "description": "Use these three powerful emotions to evaluate how your work makes you feel.",
+    "sort": 1200,
+    "time": null,
+    "people": null,
+    "complexity": null,
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/19d08110-5882-429a-ac7a-b4b8232edfed/8cb3b2cc-3c74-42fd-b1cc-ec7c17e030b4.png?e=455477ae880ed4373806e2e304530552",
+    "thumbEtag": "455477ae880ed4373806e2e304530552",
+    "version": 1,
+    "metadata": {},
+    "publishedAt": "2024-07-22T14:59:05.877Z",
+    "createdAt": "2024-08-21T21:08:03.719Z",
+    "tags": [
+      {
+        "id": "1aa7461f-0879-4563-aea6-dbee73754889",
+        "name": "retrospectives",
+        "label": "Retrospectives",
+        "color": "#7E48F0",
+        "sort": 200
+      }
+    ],
+    "seoTitle": "Joy, Fear, Excitement Retrospective Template"
+  },
+  {
+    "id": "c0f37a8c-4a7f-423b-8148-ff1d2ca541db",
+    "accountId": null,
+    "alias": "heros-journey",
+    "label": "Hero's Journey",
+    "description": "In the Hero's Journey, you will recount your sprint as an epic tale. Share triumphs, challenges, and unexpected twists. May your stories shine as legendary heroes!",
+    "sort": 1300,
+    "time": null,
+    "people": null,
+    "complexity": null,
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/c0f37a8c-4a7f-423b-8148-ff1d2ca541db/a182d4c1-7e10-43e7-ae72-118cf764a2da.png?e=0e2ec341b4f0330e510557fc3105e296",
+    "thumbEtag": "0e2ec341b4f0330e510557fc3105e296",
+    "version": 1,
+    "metadata": {},
+    "publishedAt": "2024-07-22T14:59:06.201Z",
+    "createdAt": "2024-08-21T21:08:03.719Z",
+    "tags": [
+      {
+        "id": "1aa7461f-0879-4563-aea6-dbee73754889",
+        "name": "retrospectives",
+        "label": "Retrospectives",
+        "color": "#7E48F0",
+        "sort": 200
+      }
+    ],
+    "seoTitle": "Hero's Journey Retrospective Template for Teams"
+  },
+  {
+    "id": "bed24dc0-ec9e-412b-a25f-8029fa60da89",
+    "accountId": null,
+    "alias": "ishakawa-diagram-a.k.a-fishbone",
+    "label": "Ishakawa Diagram a.k.a Fishbone",
+    "description": "Use the Fishbone exercise to brainstorm and identify the root causes of a problem.",
+    "sort": 1400,
+    "time": null,
+    "people": null,
+    "complexity": null,
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/bed24dc0-ec9e-412b-a25f-8029fa60da89/c68184be-0525-49b1-bb01-8358b662ee58.png?e=db1a80974b74e8d2383d069a871284d9",
+    "thumbEtag": "db1a80974b74e8d2383d069a871284d9",
+    "version": 1,
+    "metadata": {},
+    "publishedAt": "2024-07-22T14:59:06.315Z",
+    "createdAt": "2024-08-21T21:08:03.719Z",
+    "tags": [
+      {
+        "id": "1aa7461f-0879-4563-aea6-dbee73754889",
+        "name": "retrospectives",
+        "label": "Retrospectives",
+        "color": "#7E48F0",
+        "sort": 200
+      },
+      {
+        "id": "144d8447-e8d0-4e3b-a7d5-7c2446cd000b",
+        "name": "meetings-and-workshops",
+        "label": "Meetings & Workshops",
+        "color": "#B84592",
+        "sort": 700
+      }
+    ],
+    "seoTitle": "Ishikawa (Fishbone) Diagram Workshop Template"
+  },
+  {
+    "id": "2e8edb00-01d1-4577-baf9-df2257b85428",
+    "accountId": null,
+    "alias": "timeline-retrospective",
+    "label": "Timeline Retrospective",
+    "description": "The Timeline Retrospective is an interactive way to map past events and analyse the highs and lows of a sprint.",
+    "sort": 1500,
+    "time": null,
+    "people": null,
+    "complexity": null,
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/2e8edb00-01d1-4577-baf9-df2257b85428/6a35e7ce-8046-4ec8-be4c-5aab07a75335.png?e=af4f59d0cf83d5e1852f3b7a244a7a9a",
+    "thumbEtag": "af4f59d0cf83d5e1852f3b7a244a7a9a",
+    "version": 1,
+    "metadata": {},
+    "publishedAt": "2024-07-22T14:59:06.423Z",
+    "createdAt": "2024-08-21T21:08:03.719Z",
+    "tags": [
+      {
+        "id": "1aa7461f-0879-4563-aea6-dbee73754889",
+        "name": "retrospectives",
+        "label": "Retrospectives",
+        "color": "#7E48F0",
+        "sort": 200
+      }
+    ],
+    "seoTitle": "Timeline Retrospective Template for Agile Teams"
+  },
+  {
+    "id": "58246001-8cf7-4151-b5b4-7ba566da6a32",
+    "accountId": null,
+    "alias": "fibonacci-estimation",
+    "label": "Fibonacci Estimation",
+    "description": "An automated template for running Fibonacci Estimation, also known as Planning Poker.  Let the slick voting and automated assignment help you run an amazing estimation session.",
+    "sort": 1510,
+    "time": "null",
+    "people": "null",
+    "complexity": null,
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/58246001-8cf7-4151-b5b4-7ba566da6a32/0b1bf6bd-5141-4eff-863d-7adaff493ef7.png?e=b1a706d6b3062898a48a78211ca7e229",
+    "thumbEtag": "b1a706d6b3062898a48a78211ca7e229",
+    "version": 3,
+    "metadata": {
+      "featured": "minor",
+      "fsort": 2
+    },
+    "publishedAt": "2024-08-21T23:10:48.342Z",
+    "createdAt": "2024-08-19T20:24:09.601Z",
+    "tags": [
+      {
+        "id": "6c598793-fc4c-4a55-82c3-94c334515738",
+        "name": "estimation",
+        "label": "Estimation",
+        "color": "#F07CAD",
+        "sort": 400
+      }
+    ],
+    "seoTitle": "Fibonacci Estimation Template for Agile Planning"
+  },
+  {
+    "id": "f379c26f-779e-4e01-acf1-1078b2dd1cc7",
+    "accountId": null,
+    "alias": "tshirt-estimation",
+    "label": "T-Shirt Estimation",
+    "description": "An automated template for running T-Shirt Estimation.  Categorize tasks from XS to XL, providing clarity on your backlog's scope and complexity.",
+    "sort": 1540,
+    "time": "null",
+    "people": "null",
+    "complexity": null,
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/f379c26f-779e-4e01-acf1-1078b2dd1cc7/b7922a63-751f-4c13-a5f3-a4a66211f145.png?e=66519a940593e6fa74fb43104b72894b",
+    "thumbEtag": "66519a940593e6fa74fb43104b72894b",
+    "version": 1,
+    "metadata": {},
+    "publishedAt": "2024-08-21T20:36:32.412Z",
+    "createdAt": "2024-08-21T20:36:32.191Z",
+    "tags": [
+      {
+        "id": "6c598793-fc4c-4a55-82c3-94c334515738",
+        "name": "estimation",
+        "label": "Estimation",
+        "color": "#F07CAD",
+        "sort": 400
+      }
+    ],
+    "seoTitle": "T-Shirt Size Estimation Template for Agile Teams"
+  },
+  {
+    "id": "f8b6a198-9dfa-46b1-9e8e-2d2527119914",
+    "accountId": null,
+    "alias": "sprint-planning",
+    "label": "Sprint Planning",
+    "description": "A dynamic template for running Sprint Planning with your team.  Work together on the Sprint Goal, then allocate tasks to the team via the ticket lanes.",
+    "sort": 1550,
+    "time": "null",
+    "people": "null",
+    "complexity": null,
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/f8b6a198-9dfa-46b1-9e8e-2d2527119914/ca6dc8f9-d534-4f66-ad7c-25a20b7b70ef.png?e=6f7d08a21c1c4bd617829c0085d183ae",
+    "thumbEtag": "6f7d08a21c1c4bd617829c0085d183ae",
+    "version": 2,
+    "metadata": {
+      "featured": "minor",
+      "fsort": 3
+    },
+    "publishedAt": "2024-08-21T22:46:51.980Z",
+    "createdAt": "2024-08-19T20:05:48.174Z",
+    "tags": [
+      {
+        "id": "e39f9e53-cce2-4b98-a6dc-a2b88dc2487e",
+        "name": "planning",
+        "label": "Planning",
+        "color": "#FF6C5F",
+        "sort": 500
+      }
+    ],
+    "seoTitle": "Sprint Planning Template for Agile Teams"
+  },
+  {
+    "id": "479dc0ef-ece9-45d3-9ed1-940d3ad435e2",
+    "accountId": null,
+    "alias": "easter-egg-dash",
+    "label": "Easter Egg Dash",
+    "description": "Get ready for a dash of fun with our Easter Egg Dash Icebreaker! Perfect for 2-10 players, this game brings the excitement of an egg hunt right into your team meeting.",
+    "sort": 1600,
+    "time": null,
+    "people": null,
+    "complexity": null,
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/479dc0ef-ece9-45d3-9ed1-940d3ad435e2/fff8aaa2-e75b-49d6-bfdd-a47b73819bf6.png?e=2a8b62a103e63c2f6664f75b21317b23",
+    "thumbEtag": "2a8b62a103e63c2f6664f75b21317b23",
+    "version": 2,
+    "metadata": {
+      "featured": "minor",
+      "fsort": 1
+    },
+    "publishedAt": "2025-04-07T13:49:22.301Z",
+    "createdAt": "2025-04-07T11:46:11.440Z",
+    "tags": [
+      {
+        "id": "e5384230-486a-4058-a522-c8df0e19692a",
+        "name": "ice-breakers",
+        "label": "Ice Breakers",
+        "color": "#00AEFF",
+        "sort": 100
+      }
+    ],
+    "seoTitle": "Easter Egg Dash Ice Breaker Activity Template"
+  },
+  {
+    "id": "31ab7372-edb2-433c-9be8-d64299fae033",
+    "accountId": null,
+    "alias": "timeline-retro-with-team-mood",
+    "label": "Timeline Retro with Team Mood",
+    "description": "A Timeline Retrospective template with added mood tracker.",
+    "sort": 1600,
+    "time": null,
+    "people": null,
+    "complexity": null,
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/31ab7372-edb2-433c-9be8-d64299fae033/2db23938-d5d8-4ccf-b24b-4153f695412a.png?e=39363752cffda97cf6fa0dd6f97fcaec",
+    "thumbEtag": "39363752cffda97cf6fa0dd6f97fcaec",
+    "version": 1,
+    "metadata": {},
+    "publishedAt": "2024-07-22T14:59:06.539Z",
+    "createdAt": "2024-08-21T21:08:03.719Z",
+    "tags": [
+      {
+        "id": "1aa7461f-0879-4563-aea6-dbee73754889",
+        "name": "retrospectives",
+        "label": "Retrospectives",
+        "color": "#7E48F0",
+        "sort": 200
+      }
+    ],
+    "seoTitle": "Timeline & Team Mood Retrospective Template"
+  },
+  {
+    "id": "b2c060a8-4b01-4ed4-a5c0-7f000895a10a",
+    "accountId": null,
+    "alias": "easter-egg-dash-large",
+    "label": "Easter Egg Dash (For 11+ People)",
+    "description": "The large version of Easter Egg Dash for teams of 11+ players. Get ready for a dash of fun with our Easter Egg Dash Icebreaker. This game brings the excitement of an egg hunt right into your team meeting.",
+    "sort": 1610,
+    "time": null,
+    "people": null,
+    "complexity": null,
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/b2c060a8-4b01-4ed4-a5c0-7f000895a10a/7b27b32d-8bb5-43de-9822-3894ba5533be.png?e=81563dc109b44352dca77ce08f56ba59",
+    "thumbEtag": "81563dc109b44352dca77ce08f56ba59",
+    "version": 2,
+    "metadata": {},
+    "publishedAt": "2025-04-07T13:51:17.661Z",
+    "createdAt": "2025-04-07T11:55:32.676Z",
+    "tags": [
+      {
+        "id": "e5384230-486a-4058-a522-c8df0e19692a",
+        "name": "ice-breakers",
+        "label": "Ice Breakers",
+        "color": "#00AEFF",
+        "sort": 100
+      }
+    ],
+    "seoTitle": "Easter Egg Dash Ice Breaker for Large Teams (11+)"
+  },
+  {
+    "id": "4aa00b44-3047-4b7e-976d-b160099d073d",
+    "accountId": null,
+    "alias": "rose-thorn-and-bud-check-in",
+    "label": "Rose, Thorn & Bud check-in",
+    "description": "A simple but effective way to reflect on recent positive, negative and inspirational points.",
+    "sort": 1700,
+    "time": null,
+    "people": null,
+    "complexity": null,
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/4aa00b44-3047-4b7e-976d-b160099d073d/6d4c3cff-ce1f-4077-9bf6-f6081095702d.png?e=ddbf1b1c10d0a02ec407765a8e39a188",
+    "thumbEtag": "ddbf1b1c10d0a02ec407765a8e39a188",
+    "version": 1,
+    "metadata": {},
+    "publishedAt": "2024-07-22T14:59:03.787Z",
+    "createdAt": "2024-08-21T21:08:03.719Z",
+    "tags": [
+      {
+        "id": "e5384230-486a-4058-a522-c8df0e19692a",
+        "name": "ice-breakers",
+        "label": "Ice Breakers",
+        "color": "#00AEFF",
+        "sort": 100
+      },
+      {
+        "id": "1aa7461f-0879-4563-aea6-dbee73754889",
+        "name": "retrospectives",
+        "label": "Retrospectives",
+        "color": "#7E48F0",
+        "sort": 200
+      }
+    ],
+    "seoTitle": "Rose, Thorn & Bud Check-In Template for Teams"
+  },
+  {
+    "id": "22b75f92-3c50-4f18-9f01-be1ca320616b",
+    "accountId": null,
+    "alias": "mood-thermometer",
+    "label": "Mood Thermometer",
+    "description": "A simple thermometer gauge that can be used to quickly gather information about how people found the sprint. This template can be customised for a variety of uses.",
+    "sort": 1800,
+    "time": null,
+    "people": null,
+    "complexity": null,
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/22b75f92-3c50-4f18-9f01-be1ca320616b/6c3bec35-2bee-4d1b-bd5f-d0dcfb8bc43e.png?e=0cd85963c62439bf4b36d10059aa9782",
+    "thumbEtag": "0cd85963c62439bf4b36d10059aa9782",
+    "version": 1,
+    "metadata": {},
+    "publishedAt": "2024-07-22T14:59:06.754Z",
+    "createdAt": "2024-08-21T21:08:03.719Z",
+    "tags": [
+      {
+        "id": "1aa7461f-0879-4563-aea6-dbee73754889",
+        "name": "retrospectives",
+        "label": "Retrospectives",
+        "color": "#7E48F0",
+        "sort": 200
+      }
+    ],
+    "seoTitle": "Mood Thermometer Retrospective for Team Sentiment"
+  },
+  {
+    "id": "50b51b7e-8b60-4f75-8021-8938d937cd61",
+    "accountId": null,
+    "alias": "draw-your-sprint!",
+    "label": "Draw your Sprint!",
+    "description": "A picture is worth a thousand sticky notes. Draw your take on the sprint and spot the common themes between the team. Prompts include: Draw the Sprint as an animal | Draw your face after this sprint | Draw our customer using the sprint output.",
+    "sort": 1900,
+    "time": null,
+    "people": null,
+    "complexity": null,
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/50b51b7e-8b60-4f75-8021-8938d937cd61/c724621f-9ffa-4ac1-a3ca-40205a6f9603.png?e=8b89b1ca226c84d864c3bbddd846c4a9",
+    "thumbEtag": "8b89b1ca226c84d864c3bbddd846c4a9",
+    "version": 1,
+    "metadata": {},
+    "publishedAt": "2024-07-22T14:59:06.866Z",
+    "createdAt": "2024-08-21T21:08:03.719Z",
+    "tags": [
+      {
+        "id": "1aa7461f-0879-4563-aea6-dbee73754889",
+        "name": "retrospectives",
+        "label": "Retrospectives",
+        "color": "#7E48F0",
+        "sort": 200
+      }
+    ],
+    "seoTitle": "Draw Your Sprint Retrospective for Creative Teams"
+  },
+  {
+    "id": "68f5e0f9-40a5-4835-a3fc-6bcfa9ae219c",
+    "accountId": null,
+    "alias": "elephant-in-the-room",
+    "label": "Elephant in the Room",
+    "description": "If you feel real issues are not being raised in your regular retrospectives, use the Elephant in the Room exercise to help the team open up.",
+    "sort": 2000,
+    "time": null,
+    "people": null,
+    "complexity": null,
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/68f5e0f9-40a5-4835-a3fc-6bcfa9ae219c/6ade30ec-826e-4ece-846c-d89b20df8aeb.png?e=e016ad5ff03d688a30ba977f6effbfde",
+    "thumbEtag": "e016ad5ff03d688a30ba977f6effbfde",
+    "version": 1,
+    "metadata": {},
+    "publishedAt": "2024-07-22T14:59:07.205Z",
+    "createdAt": "2024-08-21T21:08:03.719Z",
+    "tags": [
+      {
+        "id": "1aa7461f-0879-4563-aea6-dbee73754889",
+        "name": "retrospectives",
+        "label": "Retrospectives",
+        "color": "#7E48F0",
+        "sort": 200
+      }
+    ],
+    "seoTitle": "Elephant in the Room Retrospective for Difficult Topics"
+  },
+  {
+    "id": "b64071f7-6d51-46c9-8951-98adbe578b23",
+    "accountId": null,
+    "alias": "genie-in-a-bottle",
+    "label": "Genie in a Bottle",
+    "description": "Unleash some magic with the Genie in a Bottle retrospective. Use your three wishes wisely!",
+    "sort": 2100,
+    "time": null,
+    "people": null,
+    "complexity": null,
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/b64071f7-6d51-46c9-8951-98adbe578b23/2d138930-3601-4f74-b657-62886af93616.png?e=892cdd540c461470d5773fad5ff9bff0",
+    "thumbEtag": "892cdd540c461470d5773fad5ff9bff0",
+    "version": 1,
+    "metadata": {},
+    "publishedAt": "2024-07-22T14:59:07.421Z",
+    "createdAt": "2024-08-21T21:08:03.719Z",
+    "tags": [
+      {
+        "id": "1aa7461f-0879-4563-aea6-dbee73754889",
+        "name": "retrospectives",
+        "label": "Retrospectives",
+        "color": "#7E48F0",
+        "sort": 200
+      }
+    ],
+    "seoTitle": "Genie in a Bottle Retrospective Template"
+  },
+  {
+    "id": "3fde2fab-c401-48d2-91c3-de5f95ba7c20",
+    "accountId": null,
+    "alias": "hopes-and-concerns",
+    "label": "Hopes & Concerns",
+    "description": "A quick warm up activity that encourages teams to discuss their Hopes & Concerns. Best run at the start of a workshop or period of work.",
+    "sort": 2200,
+    "time": null,
+    "people": null,
+    "complexity": null,
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/3fde2fab-c401-48d2-91c3-de5f95ba7c20/714c8bdf-4c89-497d-a162-c903c5157a24.png?e=132e068c199bebfa133be61c35b6163b",
+    "thumbEtag": "132e068c199bebfa133be61c35b6163b",
+    "version": 1,
+    "metadata": {},
+    "publishedAt": "2024-07-22T14:59:07.639Z",
+    "createdAt": "2024-08-21T21:08:03.719Z",
+    "tags": [
+      {
+        "id": "1aa7461f-0879-4563-aea6-dbee73754889",
+        "name": "retrospectives",
+        "label": "Retrospectives",
+        "color": "#7E48F0",
+        "sort": 200
+      },
+      {
+        "id": "2e5407df-73f8-4f27-8035-5681889e0b79",
+        "name": "futurespectives",
+        "label": "Futurespectives",
+        "color": "#FF4F81",
+        "sort": 300
+      }
+    ],
+    "seoTitle": "Hopes & Concerns Retrospective Template for Teams"
+  },
+  {
+    "id": "ca9eb723-634b-4229-bf87-8c8d2c719b22",
+    "accountId": null,
+    "alias": "i-like-i-wish",
+    "label": "I Like, I Wish",
+    "description": "A simple retrospective that focuses on the positives, for both the past and the future.",
+    "sort": 2300,
+    "time": null,
+    "people": null,
+    "complexity": null,
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/ca9eb723-634b-4229-bf87-8c8d2c719b22/62da0e0f-283f-473c-bc57-87da06f24ecb.png?e=ed43139f311a3d3c3a37a2fcbc351d80",
+    "thumbEtag": "ed43139f311a3d3c3a37a2fcbc351d80",
+    "version": 1,
+    "metadata": {},
+    "publishedAt": "2024-07-22T14:59:07.762Z",
+    "createdAt": "2024-08-21T21:08:03.719Z",
+    "tags": [
+      {
+        "id": "1aa7461f-0879-4563-aea6-dbee73754889",
+        "name": "retrospectives",
+        "label": "Retrospectives",
+        "color": "#7E48F0",
+        "sort": 200
+      }
+    ],
+    "seoTitle": "I Like, I Wish Retrospective Template"
+  },
+  {
+    "id": "8c782beb-8c99-4a8e-a6c7-3c1623cd5d48",
+    "accountId": null,
+    "alias": "i-like-i-wish-what-if",
+    "label": "I Like, I Wish, What If",
+    "description": "A retrospective focused on positive changes and blue sky thinking. This format can also be used for collecting feedback.",
+    "sort": 2400,
+    "time": null,
+    "people": null,
+    "complexity": null,
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/8c782beb-8c99-4a8e-a6c7-3c1623cd5d48/f2eec3a8-c881-4c0d-8151-e231f1d82bb1.png?e=a2b336a5fff5bdb66791c68543f48334",
+    "thumbEtag": "a2b336a5fff5bdb66791c68543f48334",
+    "version": 1,
+    "metadata": {},
+    "publishedAt": "2024-07-22T14:59:07.888Z",
+    "createdAt": "2024-08-21T21:08:03.719Z",
+    "tags": [
+      {
+        "id": "1aa7461f-0879-4563-aea6-dbee73754889",
+        "name": "retrospectives",
+        "label": "Retrospectives",
+        "color": "#7E48F0",
+        "sort": 200
+      }
+    ],
+    "seoTitle": "I Like, I Wish, What If Retrospective Template"
+  },
+  {
+    "id": "6e09463b-be3d-48d2-83a2-3777839714c9",
+    "accountId": null,
+    "alias": "incident-post-mortem",
+    "label": "Incident Post-Mortem",
+    "description": "Evaluate the facts of an incident and what the team have learnt from the experience.",
+    "sort": 2500,
+    "time": null,
+    "people": null,
+    "complexity": null,
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/6e09463b-be3d-48d2-83a2-3777839714c9/f4276036-509f-44a2-927a-72f7a4128e31.png?e=de3f55749e2aa802518f3c0c771e6b7e",
+    "thumbEtag": "de3f55749e2aa802518f3c0c771e6b7e",
+    "version": 1,
+    "metadata": {},
+    "publishedAt": "2024-07-22T14:59:07.988Z",
+    "createdAt": "2024-08-21T21:08:03.719Z",
+    "tags": [
+      {
+        "id": "1aa7461f-0879-4563-aea6-dbee73754889",
+        "name": "retrospectives",
+        "label": "Retrospectives",
+        "color": "#7E48F0",
+        "sort": 200
+      },
+      {
+        "id": "144d8447-e8d0-4e3b-a7d5-7c2446cd000b",
+        "name": "meetings-and-workshops",
+        "label": "Meetings & Workshops",
+        "color": "#B84592",
+        "sort": 700
+      }
+    ],
+    "seoTitle": "Incident Post-Mortem Template for Dev Teams"
+  },
+  {
+    "id": "4aa2a651-007c-4ec7-99a7-900249f65254",
+    "accountId": null,
+    "alias": "kalm-keep-add-less-more",
+    "label": "KALM - Keep, Add, Less, More",
+    "description": "Reflect on how the team are delivering value and what could be improved",
+    "sort": 2600,
+    "time": null,
+    "people": null,
+    "complexity": null,
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/4aa2a651-007c-4ec7-99a7-900249f65254/d64d030a-dd74-4194-9f2a-7495231f2e54.png?e=e61d1ae78cdeda25c5187a3ead0596e8",
+    "thumbEtag": "e61d1ae78cdeda25c5187a3ead0596e8",
+    "version": 1,
+    "metadata": {},
+    "publishedAt": "2024-07-22T14:59:08.114Z",
+    "createdAt": "2024-08-21T21:08:03.719Z",
+    "tags": [
+      {
+        "id": "1aa7461f-0879-4563-aea6-dbee73754889",
+        "name": "retrospectives",
+        "label": "Retrospectives",
+        "color": "#7E48F0",
+        "sort": 200
+      }
+    ],
+    "seoTitle": "KALM - Keep, Add, Less, More Retrospective Template"
+  },
+  {
+    "id": "b8266514-f5c2-4f87-81e9-4daae45726d5",
+    "accountId": null,
+    "alias": "keep-problems-try",
+    "label": "Keep, Problems, Try",
+    "description": "Keep, Problems, Try is a simple retrospective exercise that gets the team to generate potential experiments for their next iteration.",
+    "sort": 2700,
+    "time": null,
+    "people": null,
+    "complexity": null,
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/b8266514-f5c2-4f87-81e9-4daae45726d5/d1a12638-8337-4d07-9fa9-539e8561e5dc.png?e=723a454f6a5dc9ac46199d116d93e85b",
+    "thumbEtag": "723a454f6a5dc9ac46199d116d93e85b",
+    "version": 1,
+    "metadata": {},
+    "publishedAt": "2024-07-22T14:59:08.318Z",
+    "createdAt": "2024-08-21T21:08:03.719Z",
+    "tags": [
+      {
+        "id": "1aa7461f-0879-4563-aea6-dbee73754889",
+        "name": "retrospectives",
+        "label": "Retrospectives",
+        "color": "#7E48F0",
+        "sort": 200
+      }
+    ],
+    "seoTitle": "Keep, Problems, Try Retrospective Template"
+  },
+  {
+    "id": "9709f215-920f-4e0c-8bde-31b6df0458cc",
+    "accountId": null,
+    "alias": "liked-learned-lacked-longed-for",
+    "label": "Liked / Learned / Lacked / Longed For",
+    "description": "Liked / Learned / Lacked / Longed For is a popular four-panel retrospective that asks teams to feedback on the positives and negatives of a particular topic or activity.",
+    "sort": 2800,
+    "time": null,
+    "people": null,
+    "complexity": null,
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/9709f215-920f-4e0c-8bde-31b6df0458cc/4e10e6aa-2ae2-40ce-a2e1-048ece0a89e7.png?e=3fe796d439b294d88dffe0fb459a857f",
+    "thumbEtag": "3fe796d439b294d88dffe0fb459a857f",
+    "version": 1,
+    "metadata": {},
+    "publishedAt": "2024-07-22T14:59:08.432Z",
+    "createdAt": "2024-08-21T21:08:03.719Z",
+    "tags": [
+      {
+        "id": "1aa7461f-0879-4563-aea6-dbee73754889",
+        "name": "retrospectives",
+        "label": "Retrospectives",
+        "color": "#7E48F0",
+        "sort": 200
+      }
+    ],
+    "seoTitle": "Liked, Learned, Lacked, Longed For Retrospective"
+  },
+  {
+    "id": "fc57183a-c2b4-4132-bc11-332e4e824c6a",
+    "accountId": null,
+    "alias": "niko-niko-calendar",
+    "label": "Niko Niko Calendar",
+    "description": "Use the Niko Niko calendar to collect and visualise the team mood over time, then review the results together.",
+    "sort": 2900,
+    "time": null,
+    "people": null,
+    "complexity": null,
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/fc57183a-c2b4-4132-bc11-332e4e824c6a/4c389287-f5ef-48d6-8db9-e0a50e8821b6.png?e=7295a9b75ea51f2c76cbaa2e7b097795",
+    "thumbEtag": "7295a9b75ea51f2c76cbaa2e7b097795",
+    "version": 1,
+    "metadata": {},
+    "publishedAt": "2024-07-22T14:59:08.542Z",
+    "createdAt": "2024-08-21T21:08:03.719Z",
+    "tags": [
+      {
+        "id": "1aa7461f-0879-4563-aea6-dbee73754889",
+        "name": "retrospectives",
+        "label": "Retrospectives",
+        "color": "#7E48F0",
+        "sort": 200
+      }
+    ],
+    "seoTitle": "Niko Niko Calendar Retrospective for Team Morale"
+  },
+  {
+    "id": "bb5f440e-749c-4eb8-982e-c1a29426ba07",
+    "accountId": null,
+    "alias": "on-the-radar",
+    "label": "On The Radar",
+    "description": "Use this radar template to collect and prioritize items or feedback across different topics, prioritizing the most important in the center.",
+    "sort": 3000,
+    "time": null,
+    "people": null,
+    "complexity": null,
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/bb5f440e-749c-4eb8-982e-c1a29426ba07/8a858c30-8f89-4e32-ae5c-fdbfa4525daa.png?e=0d0913394b3135aa94bba391df31ba51",
+    "thumbEtag": "0d0913394b3135aa94bba391df31ba51",
+    "version": 1,
+    "metadata": {},
+    "publishedAt": "2024-07-22T14:59:08.652Z",
+    "createdAt": "2024-08-21T21:08:03.719Z",
+    "tags": [
+      {
+        "id": "1aa7461f-0879-4563-aea6-dbee73754889",
+        "name": "retrospectives",
+        "label": "Retrospectives",
+        "color": "#7E48F0",
+        "sort": 200
+      },
+      {
+        "id": "144d8447-e8d0-4e3b-a7d5-7c2446cd000b",
+        "name": "meetings-and-workshops",
+        "label": "Meetings & Workshops",
+        "color": "#B84592",
+        "sort": 700
+      }
+    ],
+    "seoTitle": "On The Radar Workshop Template for Team Awareness"
+  },
+  {
+    "id": "3c7f7b05-0bad-413b-ad04-89db0d16454b",
+    "accountId": null,
+    "alias": "open-the-box",
+    "label": "Open The Box",
+    "description": "Open the Box looks at all the activities a team performs as part of it's working processes and examines what changes should be made to improve team performance.",
+    "sort": 3100,
+    "time": null,
+    "people": null,
+    "complexity": null,
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/3c7f7b05-0bad-413b-ad04-89db0d16454b/ff03f015-8ec9-4dcb-a83b-6eb5dd9dab35.png?e=e61a12f4843ecc6b82649693e6ef5a18",
+    "thumbEtag": "e61a12f4843ecc6b82649693e6ef5a18",
+    "version": 1,
+    "metadata": {},
+    "publishedAt": "2024-07-22T14:59:08.773Z",
+    "createdAt": "2024-08-21T21:08:03.719Z",
+    "tags": [
+      {
+        "id": "1aa7461f-0879-4563-aea6-dbee73754889",
+        "name": "retrospectives",
+        "label": "Retrospectives",
+        "color": "#7E48F0",
+        "sort": 200
+      }
+    ],
+    "seoTitle": "Open The Box Retrospective Template for Team Discovery"
+  },
+  {
+    "id": "f5732ccf-a536-44ba-8abd-c7dd37290e27",
+    "accountId": null,
+    "alias": "plus-delta",
+    "label": "Plus / Delta",
+    "description": "A simple reflective exercise to generate constructive feedback.",
+    "sort": 3200,
+    "time": null,
+    "people": null,
+    "complexity": null,
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/f5732ccf-a536-44ba-8abd-c7dd37290e27/76e03424-e7f8-4238-ad70-461aa464d3fb.png?e=594a7391702107573fca5484fd690a9b",
+    "thumbEtag": "594a7391702107573fca5484fd690a9b",
+    "version": 1,
+    "metadata": {},
+    "publishedAt": "2024-07-22T14:59:08.873Z",
+    "createdAt": "2024-08-21T21:08:03.719Z",
+    "tags": [
+      {
+        "id": "1aa7461f-0879-4563-aea6-dbee73754889",
+        "name": "retrospectives",
+        "label": "Retrospectives",
+        "color": "#7E48F0",
+        "sort": 200
+      }
+    ],
+    "seoTitle": "Plus/Delta Retrospective Template for Quick Feedback"
+  },
+  {
+    "id": "eed20050-b7f2-41ac-a01d-74ece13b9179",
+    "accountId": null,
+    "alias": "plus-minus-interesting",
+    "label": "Plus / Minus / Interesting",
+    "description": "A simple retrospective that encourages critical thinking. Useful for retrospective sessions as well as decision making or brainstorming.",
+    "sort": 3300,
+    "time": null,
+    "people": null,
+    "complexity": null,
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/eed20050-b7f2-41ac-a01d-74ece13b9179/77603638-29d9-4ea3-8c4f-02930552b7b1.png?e=68b248a589fc4d8644d20143f7941436",
+    "thumbEtag": "68b248a589fc4d8644d20143f7941436",
+    "version": 1,
+    "metadata": {},
+    "publishedAt": "2024-07-22T14:59:08.980Z",
+    "createdAt": "2024-08-21T21:08:03.719Z",
+    "tags": [
+      {
+        "id": "1aa7461f-0879-4563-aea6-dbee73754889",
+        "name": "retrospectives",
+        "label": "Retrospectives",
+        "color": "#7E48F0",
+        "sort": 200
+      }
+    ],
+    "seoTitle": "Plus, Minus, Interesting Retrospective Template"
+  },
+  {
+    "id": "1d4aa376-d761-4c08-911c-9d33160d4897",
+    "accountId": null,
+    "alias": "risk-scale",
+    "label": "Risk-Taking Retro",
+    "description": "Visualise how risk-taking the team are and identify areas to de-risk or to take more risks.",
+    "sort": 3400,
+    "time": null,
+    "people": null,
+    "complexity": null,
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/1d4aa376-d761-4c08-911c-9d33160d4897/d6ea9cab-3081-48a6-94a1-00f0e85747ba.png?e=8c84adf23195bc76ddf0ba9a9f3c8de4",
+    "thumbEtag": "8c84adf23195bc76ddf0ba9a9f3c8de4",
+    "version": 1,
+    "metadata": {},
+    "publishedAt": "2024-07-22T14:59:09.087Z",
+    "createdAt": "2024-08-21T21:08:03.719Z",
+    "tags": [
+      {
+        "id": "1aa7461f-0879-4563-aea6-dbee73754889",
+        "name": "retrospectives",
+        "label": "Retrospectives",
+        "color": "#7E48F0",
+        "sort": 200
+      }
+    ],
+    "seoTitle": "Risk-Taking Retrospective Template"
+  },
+  {
+    "id": "d1bc0cf4-c13c-4e0c-ab03-d52a18e4d232",
+    "accountId": null,
+    "alias": "scrum-values-assessment",
+    "label": "Scrum Values Assessment",
+    "description": "The Scrum Values Assessment is a great way to assess the team's agile values together and to decide the types of behaviour the team wants to practice, as well as the anti-patterns they want to avoid.",
+    "sort": 3500,
+    "time": null,
+    "people": null,
+    "complexity": null,
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/d1bc0cf4-c13c-4e0c-ab03-d52a18e4d232/3936f4a9-3cba-41d5-ae22-5552d18333cb.png?e=54ee5fe39d0c803ba21fe3af8b1fc6fa",
+    "thumbEtag": "54ee5fe39d0c803ba21fe3af8b1fc6fa",
+    "version": 1,
+    "metadata": {},
+    "publishedAt": "2024-07-22T14:59:16.047Z",
+    "createdAt": "2024-08-21T21:08:03.719Z",
+    "tags": [
+      {
+        "id": "144d8447-e8d0-4e3b-a7d5-7c2446cd000b",
+        "name": "meetings-and-workshops",
+        "label": "Meetings & Workshops",
+        "color": "#B84592",
+        "sort": 700
+      },
+      {
+        "id": "1aa7461f-0879-4563-aea6-dbee73754889",
+        "name": "retrospectives",
+        "label": "Retrospectives",
+        "color": "#7E48F0",
+        "sort": 200
+      }
+    ],
+    "seoTitle": "Scrum Values Assessment Template"
+  },
+  {
+    "id": "9b995e19-4745-4d02-b9b7-6f5e5caffaf7",
+    "accountId": null,
+    "alias": "start-stop-continue",
+    "label": "Start / Stop / Continue",
+    "description": "Retrospective exercise that asks teams to share and discuss what the team should Start, Stop or Continue doing.",
+    "sort": 3600,
+    "time": null,
+    "people": null,
+    "complexity": null,
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/9b995e19-4745-4d02-b9b7-6f5e5caffaf7/e9cae793-2aec-4c78-85b8-aab7813b51ce.png?e=21dd3b27f1332a47737c08483c758389",
+    "thumbEtag": "21dd3b27f1332a47737c08483c758389",
+    "version": 1,
+    "metadata": {},
+    "publishedAt": "2024-07-22T14:59:09.198Z",
+    "createdAt": "2024-08-21T21:08:03.719Z",
+    "tags": [
+      {
+        "id": "1aa7461f-0879-4563-aea6-dbee73754889",
+        "name": "retrospectives",
+        "label": "Retrospectives",
+        "color": "#7E48F0",
+        "sort": 200
+      }
+    ],
+    "seoTitle": "Start, Stop, Continue Retrospective Template"
+  },
+  {
+    "id": "e9cb28bb-4726-4a46-8827-a6c8d3a96c82",
+    "accountId": null,
+    "alias": "the-awards-ceremony",
+    "label": "The Awards Ceremony",
+    "description": "Hold an awards ceremony for your recently released work!",
+    "sort": 3700,
+    "time": null,
+    "people": null,
+    "complexity": null,
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/e9cb28bb-4726-4a46-8827-a6c8d3a96c82/6f959d7f-e376-4664-a43f-2ea010e391e6.png?e=4798369915d6214ca28e63df8625bda0",
+    "thumbEtag": "4798369915d6214ca28e63df8625bda0",
+    "version": 1,
+    "metadata": {},
+    "publishedAt": "2024-07-22T14:59:06.102Z",
+    "createdAt": "2024-08-21T21:08:03.719Z",
+    "tags": [
+      {
+        "id": "1aa7461f-0879-4563-aea6-dbee73754889",
+        "name": "retrospectives",
+        "label": "Retrospectives",
+        "color": "#7E48F0",
+        "sort": 200
+      }
+    ],
+    "seoTitle": "Awards Ceremony Retrospective Template"
+  },
+  {
+    "id": "07c49324-f764-4c99-80c3-42d8be64d683",
+    "accountId": null,
+    "alias": "novice-or-pro",
+    "label": "Team Skills Retro",
+    "description": "Perform an assessment of the team's skills and decide where to improve.",
+    "sort": 3800,
+    "time": null,
+    "people": null,
+    "complexity": null,
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/07c49324-f764-4c99-80c3-42d8be64d683/513ff712-0694-4ffa-bf33-665bd949bbf0.png?e=ebc643271359b36b6e9b6fafbe98016f",
+    "thumbEtag": "ebc643271359b36b6e9b6fafbe98016f",
+    "version": 1,
+    "metadata": {},
+    "publishedAt": "2024-07-22T14:59:09.303Z",
+    "createdAt": "2024-08-21T21:08:03.719Z",
+    "tags": [
+      {
+        "id": "1aa7461f-0879-4563-aea6-dbee73754889",
+        "name": "retrospectives",
+        "label": "Retrospectives",
+        "color": "#7E48F0",
+        "sort": 200
+      },
+      {
+        "id": "144d8447-e8d0-4e3b-a7d5-7c2446cd000b",
+        "name": "meetings-and-workshops",
+        "label": "Meetings & Workshops",
+        "color": "#B84592",
+        "sort": 700
+      }
+    ],
+    "seoTitle": "Team Skills Retrospective Template"
+  },
+  {
+    "id": "4811861a-66f6-408a-82f0-795216eb0f0a",
+    "accountId": null,
+    "alias": "thanksgiving",
+    "label": "Thanksgiving",
+    "description": "Use this Thanksgiving-themed retrospective to express gratitude and celebrate team wins. Finish with a slice of pie.",
+    "sort": 3801,
+    "time": null,
+    "people": null,
+    "complexity": null,
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/4811861a-66f6-408a-82f0-795216eb0f0a/289f2581-ec92-4adf-8861-0eeb1ba5e655.png?e=fc85084a480d0de0f3c360e3cdf98dfb",
+    "thumbEtag": "fc85084a480d0de0f3c360e3cdf98dfb",
+    "version": 1,
+    "metadata": {},
+    "publishedAt": "2024-11-19T10:17:12.829Z",
+    "createdAt": "2024-11-19T10:17:12.661Z",
+    "tags": [
+      {
+        "id": "1aa7461f-0879-4563-aea6-dbee73754889",
+        "name": "retrospectives",
+        "label": "Retrospectives",
+        "color": "#7E48F0",
+        "sort": 200
+      }
+    ],
+    "seoTitle": "Thanksgiving Retrospective Template"
+  },
+  {
+    "id": "74a96401-963a-41dc-aef1-5cecf7bd79f6",
+    "accountId": null,
+    "alias": "the-superhero",
+    "label": "The Superhero",
+    "description": "What would be the Super Powers and Weaknesses of your team as a superhero? Who would be your sidekick?",
+    "sort": 3900,
+    "time": null,
+    "people": null,
+    "complexity": null,
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/74a96401-963a-41dc-aef1-5cecf7bd79f6/f23b0a75-69bc-4693-bb1a-aafcfea3c8f1.png?e=a3e49d5c021e81c3f09b6410f5f66c4a",
+    "thumbEtag": "a3e49d5c021e81c3f09b6410f5f66c4a",
+    "version": 1,
+    "metadata": {
+      "featured": "minor",
+      "fsort": 5
+    },
+    "publishedAt": "2024-07-22T14:59:09.975Z",
+    "createdAt": "2024-08-21T21:08:03.719Z",
+    "tags": [
+      {
+        "id": "1aa7461f-0879-4563-aea6-dbee73754889",
+        "name": "retrospectives",
+        "label": "Retrospectives",
+        "color": "#7E48F0",
+        "sort": 200
+      },
+      {
+        "id": "144d8447-e8d0-4e3b-a7d5-7c2446cd000b",
+        "name": "meetings-and-workshops",
+        "label": "Meetings & Workshops",
+        "color": "#B84592",
+        "sort": 700
+      }
+    ],
+    "seoTitle": "Superhero Retrospective Template"
+  },
+  {
+    "id": "885bc9d6-0e29-48e6-8af8-ecb2251fabb1",
+    "accountId": null,
+    "alias": "the-starfish",
+    "label": "The Starfish",
+    "description": "Picture template where each arm of a starfish represents a category for team feedback and ideas.",
+    "sort": 4000,
+    "time": null,
+    "people": null,
+    "complexity": null,
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/885bc9d6-0e29-48e6-8af8-ecb2251fabb1/a19f786d-9f1f-4749-a5bb-04f82002775a.png?e=61edd443c6906c19221f2862a8519d47",
+    "thumbEtag": "61edd443c6906c19221f2862a8519d47",
+    "version": 1,
+    "metadata": {},
+    "publishedAt": "2024-07-22T14:59:09.867Z",
+    "createdAt": "2024-08-21T21:08:03.719Z",
+    "tags": [
+      {
+        "id": "1aa7461f-0879-4563-aea6-dbee73754889",
+        "name": "retrospectives",
+        "label": "Retrospectives",
+        "color": "#7E48F0",
+        "sort": 200
+      }
+    ],
+    "seoTitle": "Starfish Retrospective Template"
+  },
+  {
+    "id": "117ad864-767d-4edf-9c46-c35722a4ce1a",
+    "accountId": null,
+    "alias": "thumbs-new-ideas-recognition",
+    "label": "Thumbs / New Ideas / Recognition",
+    "description": "Four-panel retrospective for team feedback that includes an emphasis on recognition and new ideas.",
+    "sort": 4100,
+    "time": null,
+    "people": null,
+    "complexity": null,
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/117ad864-767d-4edf-9c46-c35722a4ce1a/fa8e4d94-d3b6-4604-a1f0-79010df9f3ee.png?e=765edc15f26407ed458b42b48d6dd1d4",
+    "thumbEtag": "765edc15f26407ed458b42b48d6dd1d4",
+    "version": 1,
+    "metadata": {},
+    "publishedAt": "2024-07-22T14:59:10.083Z",
+    "createdAt": "2024-08-21T21:08:03.719Z",
+    "tags": [
+      {
+        "id": "1aa7461f-0879-4563-aea6-dbee73754889",
+        "name": "retrospectives",
+        "label": "Retrospectives",
+        "color": "#7E48F0",
+        "sort": 200
+      }
+    ],
+    "seoTitle": "Thumbs, New Ideas & Recognition Retrospective"
+  },
+  {
+    "id": "c22442fe-c72e-4215-ab24-bd7eca6d88c5",
+    "accountId": null,
+    "alias": "worked-well-kinda-didnt",
+    "label": "Worked Well / Kinda / Didn't",
+    "description": "A simple retrospective that focuses on the successes and shortcomings of a topic or activity.",
+    "sort": 4200,
+    "time": null,
+    "people": null,
+    "complexity": null,
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/c22442fe-c72e-4215-ab24-bd7eca6d88c5/8d6ce9fb-72da-4582-95ae-1f780955a89b.png?e=a29b7db17d44078a760e9aa8d82ecd36",
+    "thumbEtag": "a29b7db17d44078a760e9aa8d82ecd36",
+    "version": 1,
+    "metadata": {},
+    "publishedAt": "2024-07-22T14:59:10.531Z",
+    "createdAt": "2024-08-21T21:08:03.719Z",
+    "tags": [
+      {
+        "id": "1aa7461f-0879-4563-aea6-dbee73754889",
+        "name": "retrospectives",
+        "label": "Retrospectives",
+        "color": "#7E48F0",
+        "sort": 200
+      }
+    ],
+    "seoTitle": "Worked Well, Kinda, Didn't Retrospective Template"
+  },
+  {
+    "id": "843c7537-0e63-4418-a67a-d7b1cf471df1",
+    "accountId": null,
+    "alias": "weather-report",
+    "label": "Weather Report",
+    "description": "The Weather Report helps a team compare their plan to what actually happened, by reporting on the stormy (disruptive) and sunny (easy) weather conditions they faced, how it affected them, and how they adapted to change.",
+    "sort": 4300,
+    "time": null,
+    "people": null,
+    "complexity": null,
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/843c7537-0e63-4418-a67a-d7b1cf471df1/d73768c7-850e-47a1-9d26-4177d3eaaf77.png?e=7f3e513bc8683b52e988d8e79e296992",
+    "thumbEtag": "7f3e513bc8683b52e988d8e79e296992",
+    "version": 1,
+    "metadata": {},
+    "publishedAt": "2024-07-22T14:59:10.306Z",
+    "createdAt": "2024-08-21T21:08:03.719Z",
+    "tags": [
+      {
+        "id": "1aa7461f-0879-4563-aea6-dbee73754889",
+        "name": "retrospectives",
+        "label": "Retrospectives",
+        "color": "#7E48F0",
+        "sort": 200
+      }
+    ],
+    "seoTitle": "Weather Report Retrospective Template"
+  },
+  {
+    "id": "b43bb2fb-d58d-4957-ab35-8b13feb231ca",
+    "accountId": null,
+    "alias": "wishes-risks-appreciation-puzzles",
+    "label": "Wishes / Risks / Appreciation / Puzzles",
+    "description": "A retrospective format that encourages people to think bigger.",
+    "sort": 4400,
+    "time": null,
+    "people": null,
+    "complexity": null,
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/b43bb2fb-d58d-4957-ab35-8b13feb231ca/59a936a8-63ef-4365-878c-62884906aeb2.png?e=7501fb09c1414235ff3d522caa3a4f6b",
+    "thumbEtag": "7501fb09c1414235ff3d522caa3a4f6b",
+    "version": 1,
+    "metadata": {},
+    "publishedAt": "2024-07-22T14:59:10.426Z",
+    "createdAt": "2024-08-21T21:08:03.719Z",
+    "tags": [
+      {
+        "id": "1aa7461f-0879-4563-aea6-dbee73754889",
+        "name": "retrospectives",
+        "label": "Retrospectives",
+        "color": "#7E48F0",
+        "sort": 200
+      }
+    ],
+    "seoTitle": "WRAP (Wishes, Risks, Appreciation, Puzzles) Template"
+  },
+  {
+    "id": "db28c8f2-1d37-40b0-ab21-669495ed9eec",
+    "accountId": null,
+    "alias": "waste-snake",
+    "label": "Waste Snake",
+    "description": "The Waste Snake helps a team to identify, categorise and tackle inefficiencies they encounter in their daily work.",
+    "sort": 4500,
+    "time": null,
+    "people": null,
+    "complexity": null,
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/db28c8f2-1d37-40b0-ab21-669495ed9eec/2d822cea-bf60-4ee7-92ed-1a0e8522b8fc.png?e=f9ca0ac37868f7394fe68447ffff776e",
+    "thumbEtag": "f9ca0ac37868f7394fe68447ffff776e",
+    "version": 1,
+    "metadata": {},
+    "publishedAt": "2024-07-22T14:59:10.191Z",
+    "createdAt": "2024-08-21T21:08:03.719Z",
+    "tags": [
+      {
+        "id": "1aa7461f-0879-4563-aea6-dbee73754889",
+        "name": "retrospectives",
+        "label": "Retrospectives",
+        "color": "#7E48F0",
+        "sort": 200
+      },
+      {
+        "id": "144d8447-e8d0-4e3b-a7d5-7c2446cd000b",
+        "name": "meetings-and-workshops",
+        "label": "Meetings & Workshops",
+        "color": "#B84592",
+        "sort": 700
+      }
+    ],
+    "seoTitle": "Waste Snake Retrospective Template"
+  },
+  {
+    "id": "d55bb744-c707-409c-b872-b8a40cf34ec3",
+    "accountId": null,
+    "alias": "5-whys-focused",
+    "label": "5 Whys (Focused)",
+    "description": "Use the 5 Whys exercise to uncover the root cause of a problem.",
+    "sort": 4600,
+    "time": null,
+    "people": null,
+    "complexity": null,
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/d55bb744-c707-409c-b872-b8a40cf34ec3/1e552040-86e5-4d0b-b7ab-2b58e1bbe5ce.png?e=c989863f7384452babbdf8b0460ec8cc",
+    "thumbEtag": "c989863f7384452babbdf8b0460ec8cc",
+    "version": 1,
+    "metadata": {},
+    "publishedAt": "2024-07-22T14:59:14.704Z",
+    "createdAt": "2024-08-21T21:08:03.719Z",
+    "tags": [
+      {
+        "id": "1aa7461f-0879-4563-aea6-dbee73754889",
+        "name": "retrospectives",
+        "label": "Retrospectives",
+        "color": "#7E48F0",
+        "sort": 200
+      },
+      {
+        "id": "144d8447-e8d0-4e3b-a7d5-7c2446cd000b",
+        "name": "meetings-and-workshops",
+        "label": "Meetings & Workshops",
+        "color": "#B84592",
+        "sort": 700
+      }
+    ]
+  },
+  {
+    "id": "8d502a7d-7e9a-4fde-b2fd-59e133345a38",
+    "accountId": null,
+    "alias": "easter-retro",
+    "label": "Easter Retro",
+    "description": "Hop into a festive reflection with our Easter-themed retrospective and Egg Dash icebreaker. Get ready to crack some puns, hatch plans, and make impactful leaps towards your team's goals!",
+    "sort": 4998,
+    "time": null,
+    "people": null,
+    "complexity": null,
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/8d502a7d-7e9a-4fde-b2fd-59e133345a38/23685eab-01ae-435a-a83d-3a931eb78fed.png?e=e2a403da049acaa0a227d59d4287bbaf",
+    "thumbEtag": "e2a403da049acaa0a227d59d4287bbaf",
+    "version": 4,
+    "metadata": {
+      "featured": "minor",
+      "copy": [
+        "Hop into a festive reflection with our Easter-themed retrospective and Egg Dash icebreaker. Perfect for teams looking to celebrate their successes and pinpoint areas for improvement. Get ready to crack some puns, hatch plans, and make impactful leaps towards your team's success."
+      ]
+    },
+    "publishedAt": "2025-04-07T12:29:33.733Z",
+    "createdAt": "2025-04-07T08:40:39.301Z",
+    "tags": [
+      {
+        "id": "1aa7461f-0879-4563-aea6-dbee73754889",
+        "name": "retrospectives",
+        "label": "Retrospectives",
+        "color": "#7E48F0",
+        "sort": 200
+      }
+    ],
+    "seoTitle": "Easter Retrospective Template"
+  },
+  {
+    "id": "474ae343-77d3-47ef-9f1a-0332f0951d64",
+    "accountId": null,
+    "alias": "the-big-christmas-retro",
+    "label": "The Big Christmas Retro",
+    "description": "Ho Ho Ho... etc. A bumper three-part Christmas retrospective.",
+    "sort": 4999,
+    "time": null,
+    "people": null,
+    "complexity": null,
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/474ae343-77d3-47ef-9f1a-0332f0951d64/a856acca-c061-4a1e-9048-9f659f9bd9be.png?e=ec9f7de65af3b746a79d81abb5a9d598",
+    "thumbEtag": "ec9f7de65af3b746a79d81abb5a9d598",
+    "version": 1,
+    "metadata": {},
+    "publishedAt": "2024-07-22T14:59:10.657Z",
+    "createdAt": "2024-08-21T21:08:03.719Z",
+    "tags": [
+      {
+        "id": "1aa7461f-0879-4563-aea6-dbee73754889",
+        "name": "retrospectives",
+        "label": "Retrospectives",
+        "color": "#7E48F0",
+        "sort": 200
+      }
+    ],
+    "seoTitle": "Big Christmas Retrospective Template"
+  },
+  {
+    "id": "ab9b7e1c-146f-405a-b1e5-982f38f298cd",
+    "accountId": null,
+    "alias": "trick-or-treat",
+    "label": "Trick or Treat!",
+    "description": "Go door-to-door with your team in search of Halloween treats!  Encounter the monsters, spooky house, and spider webs on your way...",
+    "sort": 5000,
+    "time": null,
+    "people": null,
+    "complexity": null,
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/ab9b7e1c-146f-405a-b1e5-982f38f298cd/01cdd4db-b118-41b6-a047-722cb0970183.png?e=6f91ad44b6941ca21ecb556e85ff17ae",
+    "thumbEtag": "6f91ad44b6941ca21ecb556e85ff17ae",
+    "version": 1,
+    "metadata": {},
+    "publishedAt": "2024-10-17T11:28:43.113Z",
+    "createdAt": "2024-10-17T11:28:42.868Z",
+    "tags": [
+      {
+        "id": "1aa7461f-0879-4563-aea6-dbee73754889",
+        "name": "retrospectives",
+        "label": "Retrospectives",
+        "color": "#7E48F0",
+        "sort": 200
+      },
+      {
+        "id": "2e5407df-73f8-4f27-8035-5681889e0b79",
+        "name": "futurespectives",
+        "label": "Futurespectives",
+        "color": "#FF4F81",
+        "sort": 300
+      }
+    ],
+    "seoTitle": "Trick or Treat Retrospective Template"
+  },
+  {
+    "id": "05733c08-64e0-4ac0-9236-73655c6337aa",
+    "accountId": null,
+    "alias": "tigers-paper-tigers-and-elephants",
+    "label": "Tigers, Paper Tigers, And Elephants",
+    "description": "An engaging pre-mortem exercise that helps a team identify risks and issues before they occur, producing an action plan for the risks that will hurt the project if left unchecked.",
+    "sort": 5200,
+    "time": null,
+    "people": null,
+    "complexity": null,
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/05733c08-64e0-4ac0-9236-73655c6337aa/959ee110-4ad6-425a-9cb8-9437ae87e2ee.png?e=01d5897a2d2bfa013e6086d63bbf421d",
+    "thumbEtag": "01d5897a2d2bfa013e6086d63bbf421d",
+    "version": 1,
+    "metadata": {},
+    "publishedAt": "2024-07-22T14:59:11.427Z",
+    "createdAt": "2024-08-21T21:08:03.719Z",
+    "tags": [
+      {
+        "id": "2e5407df-73f8-4f27-8035-5681889e0b79",
+        "name": "futurespectives",
+        "label": "Futurespectives",
+        "color": "#FF4F81",
+        "sort": 300
+      },
+      {
+        "id": "e39f9e53-cce2-4b98-a6dc-a2b88dc2487e",
+        "name": "planning",
+        "label": "Planning",
+        "color": "#FF6C5F",
+        "sort": 500
+      }
+    ],
+    "seoTitle": "Tigers, Paper Tigers & Elephants Futurespective"
+  },
+  {
+    "id": "5aaf2638-f6f2-4998-be22-2efb8fb4eae5",
+    "accountId": null,
+    "alias": "graveyard-of-gloom",
+    "label": "Graveyard of Gloom",
+    "description": "Dive deep into potential pitfalls and brainstorm proactive solutions to ensure your project doesn't end up as a tombstone in the graveyard of failed endeavors.",
+    "sort": 5300,
+    "time": null,
+    "people": null,
+    "complexity": null,
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/5aaf2638-f6f2-4998-be22-2efb8fb4eae5/5967c8a0-e028-4882-936e-d3063edccef5.png?e=e997c633469de70ea55c5fe119312a62",
+    "thumbEtag": "e997c633469de70ea55c5fe119312a62",
+    "version": 1,
+    "metadata": {},
+    "publishedAt": "2024-07-22T14:59:10.767Z",
+    "createdAt": "2024-08-21T21:08:03.719Z",
+    "tags": [
+      {
+        "id": "2e5407df-73f8-4f27-8035-5681889e0b79",
+        "name": "futurespectives",
+        "label": "Futurespectives",
+        "color": "#FF4F81",
+        "sort": 300
+      }
+    ],
+    "seoTitle": "Graveyard of Gloom Futurespective Template"
+  },
+  {
+    "id": "94de9237-ac48-4892-8689-3c145648d28c",
+    "accountId": null,
+    "alias": "raid-analysis",
+    "label": "RAID Analysis",
+    "description": "Classic planning technique that asks participants to identify Risks, Assumptions, Issues & Dependencies for an upcoming project or session.",
+    "sort": 5400,
+    "time": null,
+    "people": null,
+    "complexity": null,
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/94de9237-ac48-4892-8689-3c145648d28c/e1d5fefd-200d-4812-8854-d19a011bb6fb.png?e=81edbd8aa59e3241b5bf9261660c45d3",
+    "thumbEtag": "81edbd8aa59e3241b5bf9261660c45d3",
+    "version": 1,
+    "metadata": {},
+    "publishedAt": "2024-07-22T14:59:14.809Z",
+    "createdAt": "2024-08-21T21:08:03.719Z",
+    "tags": [
+      {
+        "id": "2e5407df-73f8-4f27-8035-5681889e0b79",
+        "name": "futurespectives",
+        "label": "Futurespectives",
+        "color": "#FF4F81",
+        "sort": 300
+      },
+      {
+        "id": "e39f9e53-cce2-4b98-a6dc-a2b88dc2487e",
+        "name": "planning",
+        "label": "Planning",
+        "color": "#FF6C5F",
+        "sort": 500
+      }
+    ],
+    "seoTitle": "RAID Analysis Futurespective Template"
+  },
+  {
+    "id": "14449782-6d0b-424a-bcdc-79c800c2a832",
+    "accountId": null,
+    "alias": "story-mapping",
+    "label": "Story Mapping",
+    "description": "Map the interactions with your product and split each step into user stories to build your product plan.",
+    "sort": 5500,
+    "time": null,
+    "people": null,
+    "complexity": null,
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/14449782-6d0b-424a-bcdc-79c800c2a832/830b670f-68bf-4318-ab55-3dcd7e5cf670.png?e=4936cf6700af05fcbb9c0a7f131a5038",
+    "thumbEtag": "4936cf6700af05fcbb9c0a7f131a5038",
+    "version": 1,
+    "metadata": {},
+    "publishedAt": "2024-07-22T14:59:13.814Z",
+    "createdAt": "2024-08-21T21:08:03.719Z",
+    "tags": [
+      {
+        "id": "e39f9e53-cce2-4b98-a6dc-a2b88dc2487e",
+        "name": "planning",
+        "label": "Planning",
+        "color": "#FF6C5F",
+        "sort": 500
+      },
+      {
+        "id": "232ed952-a8b8-496b-980e-8a9a4aeaadb8",
+        "name": "product-management",
+        "label": "Product Management",
+        "color": "#2fc188",
+        "sort": 600
+      }
+    ],
+    "seoTitle": "Story Mapping Planning Template"
+  },
+  {
+    "id": "1545acf7-8512-4b25-853d-985b121aef3e",
+    "accountId": null,
+    "alias": "moscow-prioritization",
+    "label": "MoSCoW Prioritization",
+    "description": "A classic method of prioritizing items into Must, Should, Could, and Won't.",
+    "sort": 5600,
+    "time": null,
+    "people": null,
+    "complexity": null,
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/1545acf7-8512-4b25-853d-985b121aef3e/8fff961b-0475-4b61-97ad-23b14e305011.png?e=de3ec5abb97d5321ae52aab32992ea0b",
+    "thumbEtag": "de3ec5abb97d5321ae52aab32992ea0b",
+    "version": 2,
+    "metadata": {},
+    "publishedAt": "2024-08-21T22:35:56.149Z",
+    "createdAt": "2024-08-21T21:08:03.719Z",
+    "tags": [
+      {
+        "id": "6c598793-fc4c-4a55-82c3-94c334515738",
+        "name": "estimation",
+        "label": "Estimation",
+        "color": "#F07CAD",
+        "sort": 400
+      },
+      {
+        "id": "e39f9e53-cce2-4b98-a6dc-a2b88dc2487e",
+        "name": "planning",
+        "label": "Planning",
+        "color": "#FF6C5F",
+        "sort": 500
+      }
+    ],
+    "seoTitle": "MoSCoW Prioritization Framework Template"
+  },
+  {
+    "id": "116deb95-6e46-4b12-a303-94f4db04efc4",
+    "accountId": null,
+    "alias": "lean-prioritization-matrix",
+    "label": "Lean Prioritization Matrix",
+    "description": "A 2x2 matrix for prioritizing items by value and effort. Useful for product management and general decision making.",
+    "sort": 5700,
+    "time": null,
+    "people": null,
+    "complexity": null,
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/116deb95-6e46-4b12-a303-94f4db04efc4/56804d2d-31ba-4c12-b146-80c53aa0d920.png?e=9c7b58b2b88e1da68012727b2b2eeb7b",
+    "thumbEtag": "9c7b58b2b88e1da68012727b2b2eeb7b",
+    "version": 1,
+    "metadata": {},
+    "publishedAt": "2024-07-22T14:59:14.276Z",
+    "createdAt": "2024-08-21T21:08:03.719Z",
+    "tags": [
+      {
+        "id": "e39f9e53-cce2-4b98-a6dc-a2b88dc2487e",
+        "name": "planning",
+        "label": "Planning",
+        "color": "#FF6C5F",
+        "sort": 500
+      },
+      {
+        "id": "6c598793-fc4c-4a55-82c3-94c334515738",
+        "name": "estimation",
+        "label": "Estimation",
+        "color": "#F07CAD",
+        "sort": 400
+      }
+    ],
+    "seoTitle": "Lean Prioritization Matrix Template"
+  },
+  {
+    "id": "8781db41-5ad5-489a-9912-8e1def700e55",
+    "accountId": null,
+    "alias": "timeline-roadmap",
+    "label": "Timeline Roadmap",
+    "description": "Use this template to assemble a clear timeline roadmap, align the team, and communicate the plan.",
+    "sort": 5800,
+    "time": null,
+    "people": null,
+    "complexity": null,
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/8781db41-5ad5-489a-9912-8e1def700e55/f57cb457-e1e0-42ca-925d-d9cc6b47fede.png?e=aba022ebcc769cb580e884690a9ab029",
+    "thumbEtag": "aba022ebcc769cb580e884690a9ab029",
+    "version": 2,
+    "metadata": {
+      "featured": "minor",
+      "fsort": 8
+    },
+    "publishedAt": "2025-01-15T17:07:58.025Z",
+    "createdAt": "2024-08-21T21:08:03.719Z",
+    "tags": [
+      {
+        "id": "e39f9e53-cce2-4b98-a6dc-a2b88dc2487e",
+        "name": "planning",
+        "label": "Planning",
+        "color": "#FF6C5F",
+        "sort": 500
+      }
+    ],
+    "seoTitle": "Timeline Roadmap Planning Template"
+  },
+  {
+    "id": "4b769b5d-0b6f-4511-a5a5-d5a597dedf49",
+    "accountId": null,
+    "alias": "now-next-later-roadmap",
+    "label": "Now - Next - Later Roadmap",
+    "description": "The Now Next Later roadmap is a lean method of planning the initiatives that a product team wants to work on.",
+    "sort": 5900,
+    "time": null,
+    "people": null,
+    "complexity": null,
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/4b769b5d-0b6f-4511-a5a5-d5a597dedf49/b6a43aa8-aa45-4e72-bd9b-619fd3851789.png?e=082c02da8958c15338f7b1da92896786",
+    "thumbEtag": "082c02da8958c15338f7b1da92896786",
+    "version": 1,
+    "metadata": {},
+    "publishedAt": "2024-07-22T14:59:12.905Z",
+    "createdAt": "2024-08-21T21:08:03.719Z",
+    "tags": [
+      {
+        "id": "e39f9e53-cce2-4b98-a6dc-a2b88dc2487e",
+        "name": "planning",
+        "label": "Planning",
+        "color": "#FF6C5F",
+        "sort": 500
+      },
+      {
+        "id": "232ed952-a8b8-496b-980e-8a9a4aeaadb8",
+        "name": "product-management",
+        "label": "Product Management",
+        "color": "#2fc188",
+        "sort": 600
+      }
+    ],
+    "seoTitle": "Now-Next-Later Product Roadmap Template"
+  },
+  {
+    "id": "cd3ae058-6218-439e-ba66-1e41b4d83686",
+    "accountId": null,
+    "alias": "go-product-roadmap",
+    "label": "Goal-Oriented Product Roadmap",
+    "description": "The goal-oriented product roadmap is designed for creating products with Lean Startup or Scrum. Use to establish product goals, plan releases, and coordinate the development and launch of products.",
+    "sort": 6000,
+    "time": null,
+    "people": null,
+    "complexity": null,
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/cd3ae058-6218-439e-ba66-1e41b4d83686/4de7e329-8f81-4271-8195-75233c1c4b22.png?e=28b79dcd111b534a050537bcbcc0ec1f",
+    "thumbEtag": "28b79dcd111b534a050537bcbcc0ec1f",
+    "version": 1,
+    "metadata": {},
+    "publishedAt": "2024-07-22T14:59:12.341Z",
+    "createdAt": "2024-08-21T21:08:03.719Z",
+    "tags": [
+      {
+        "id": "232ed952-a8b8-496b-980e-8a9a4aeaadb8",
+        "name": "product-management",
+        "label": "Product Management",
+        "color": "#2fc188",
+        "sort": 600
+      },
+      {
+        "id": "e39f9e53-cce2-4b98-a6dc-a2b88dc2487e",
+        "name": "planning",
+        "label": "Planning",
+        "color": "#FF6C5F",
+        "sort": 500
+      }
+    ],
+    "seoTitle": "Goal-Oriented Product Roadmap Template"
+  },
+  {
+    "id": "cef0dea7-5400-4feb-b047-863ed1199e4e",
+    "accountId": null,
+    "alias": "calendar-monthly-planner",
+    "label": "Calendar - Monthly Planner",
+    "description": "A monthly planner with three streams of work.",
+    "sort": 6100,
+    "time": null,
+    "people": null,
+    "complexity": null,
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/cef0dea7-5400-4feb-b047-863ed1199e4e/47566a46-47c3-4ffe-b453-b580c6fd6620.png?e=25b24c62ba55b73cd6bc4bedcea8bfa8",
+    "thumbEtag": "25b24c62ba55b73cd6bc4bedcea8bfa8",
+    "version": 1,
+    "metadata": {},
+    "publishedAt": "2024-07-22T14:59:11.541Z",
+    "createdAt": "2024-08-21T21:08:03.719Z",
+    "tags": [
+      {
+        "id": "e39f9e53-cce2-4b98-a6dc-a2b88dc2487e",
+        "name": "planning",
+        "label": "Planning",
+        "color": "#FF6C5F",
+        "sort": 500
+      }
+    ],
+    "seoTitle": "Monthly Calendar Planning Template"
+  },
+  {
+    "id": "65deac4d-3ce8-42b0-ad2e-c337af39d0a8",
+    "accountId": null,
+    "alias": "operational-task-planner",
+    "label": "Operational Task Planner",
+    "description": "Use this collaborative template to plan what needs to be done before, during, and after an event, such as preparing a complex deployment or running a workshop.",
+    "sort": 6200,
+    "time": null,
+    "people": null,
+    "complexity": null,
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/65deac4d-3ce8-42b0-ad2e-c337af39d0a8/c410d456-4254-4d93-a77e-2de68dd8d6c9.png?e=23545ff1c1aac398a6d53635d42b4fc3",
+    "thumbEtag": "23545ff1c1aac398a6d53635d42b4fc3",
+    "version": 1,
+    "metadata": {},
+    "publishedAt": "2024-07-22T14:59:11.649Z",
+    "createdAt": "2024-08-21T21:08:03.719Z",
+    "tags": [
+      {
+        "id": "e39f9e53-cce2-4b98-a6dc-a2b88dc2487e",
+        "name": "planning",
+        "label": "Planning",
+        "color": "#FF6C5F",
+        "sort": 500
+      }
+    ],
+    "seoTitle": "Operational Task Planner Template"
+  },
+  {
+    "id": "2214c014-4f80-4041-b0f0-4b5937781d14",
+    "accountId": null,
+    "alias": "lean-canvas",
+    "label": "Lean Canvas",
+    "description": "A popular activity from the Lean Startup methodology that helps teams create a product plan focusing on problems, solutions, metrics, etc.",
+    "sort": 6300,
+    "time": null,
+    "people": null,
+    "complexity": null,
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/2214c014-4f80-4041-b0f0-4b5937781d14/0120eabf-6ff3-4bc6-9277-104070b29750.png?e=1ff8d6241035922402e15062df4ca650",
+    "thumbEtag": "1ff8d6241035922402e15062df4ca650",
+    "version": 1,
+    "metadata": {},
+    "publishedAt": "2024-07-22T14:59:12.667Z",
+    "createdAt": "2024-08-21T21:08:03.719Z",
+    "tags": [
+      {
+        "id": "232ed952-a8b8-496b-980e-8a9a4aeaadb8",
+        "name": "product-management",
+        "label": "Product Management",
+        "color": "#2fc188",
+        "sort": 600
+      },
+      {
+        "id": "144d8447-e8d0-4e3b-a7d5-7c2446cd000b",
+        "name": "meetings-and-workshops",
+        "label": "Meetings & Workshops",
+        "color": "#B84592",
+        "sort": 700
+      }
+    ],
+    "seoTitle": "Lean Canvas Business Model Template"
+  },
+  {
+    "id": "a269780a-64eb-48f5-abd7-5859a67af039",
+    "accountId": null,
+    "alias": "swot-analysis",
+    "label": "SWOT Analysis",
+    "description": "Popular analysis technique that helps users look at Strengths, Weaknesses, Opportunities and Threats facing a team or business.",
+    "sort": 6400,
+    "time": null,
+    "people": null,
+    "complexity": null,
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/a269780a-64eb-48f5-abd7-5859a67af039/a186b15a-c148-4a89-ae60-3168872c14c5.png?e=f1388402bca257533bbc7aed4e96097e",
+    "thumbEtag": "f1388402bca257533bbc7aed4e96097e",
+    "version": 1,
+    "metadata": {},
+    "publishedAt": "2024-07-22T14:59:14.915Z",
+    "createdAt": "2024-08-21T21:08:03.719Z",
+    "tags": [
+      {
+        "id": "e39f9e53-cce2-4b98-a6dc-a2b88dc2487e",
+        "name": "planning",
+        "label": "Planning",
+        "color": "#FF6C5F",
+        "sort": 500
+      }
+    ],
+    "seoTitle": "SWOT Analysis Planning Template"
+  },
+  {
+    "id": "26a34f61-4b33-400c-b969-7dd008ae286d",
+    "accountId": null,
+    "alias": "eisenhower-box",
+    "label": "Eisenhower Box",
+    "description": "Classic 2x2 matrix helping you make decisions and prioritize tasks",
+    "sort": 6500,
+    "time": null,
+    "people": null,
+    "complexity": null,
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/26a34f61-4b33-400c-b969-7dd008ae286d/2a841636-2c50-453f-b156-e9ef9ec4abe2.png?e=7761da54eb7ff25667ab243a4809b3d4",
+    "thumbEtag": "7761da54eb7ff25667ab243a4809b3d4",
+    "version": 1,
+    "metadata": {},
+    "publishedAt": "2024-07-22T14:59:15.134Z",
+    "createdAt": "2024-08-21T21:08:03.719Z",
+    "tags": [
+      {
+        "id": "e39f9e53-cce2-4b98-a6dc-a2b88dc2487e",
+        "name": "planning",
+        "label": "Planning",
+        "color": "#FF6C5F",
+        "sort": 500
+      }
+    ],
+    "seoTitle": "Eisenhower Box Prioritization Template"
+  },
+  {
+    "id": "c4045fab-184c-41f2-abdc-d23b07899229",
+    "accountId": null,
+    "alias": "okrs",
+    "label": "OKRs",
+    "description": "Use this template to brainstorm and set OKRs.",
+    "sort": 6600,
+    "time": null,
+    "people": null,
+    "complexity": null,
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/c4045fab-184c-41f2-abdc-d23b07899229/9fd54e3e-52d5-4ee0-9cba-05370d70762d.png?e=1c33ed63410af68cd85979a051ee747a",
+    "thumbEtag": "1c33ed63410af68cd85979a051ee747a",
+    "version": 1,
+    "metadata": {},
+    "publishedAt": "2024-07-22T14:59:15.601Z",
+    "createdAt": "2024-08-21T21:08:03.719Z",
+    "tags": [
+      {
+        "id": "e39f9e53-cce2-4b98-a6dc-a2b88dc2487e",
+        "name": "planning",
+        "label": "Planning",
+        "color": "#FF6C5F",
+        "sort": 500
+      },
+      {
+        "id": "144d8447-e8d0-4e3b-a7d5-7c2446cd000b",
+        "name": "meetings-and-workshops",
+        "label": "Meetings & Workshops",
+        "color": "#B84592",
+        "sort": 700
+      }
+    ],
+    "seoTitle": "OKRs Planning Template"
+  },
+  {
+    "id": "4a1098e9-838a-4400-833c-4bd8c34ae257",
+    "accountId": null,
+    "alias": "one-page-test-plan",
+    "label": "One Page Test Plan",
+    "description": "Use the One Page Test plan to clearly communicate the test plan for your sprint or project.",
+    "sort": 6700,
+    "time": null,
+    "people": null,
+    "complexity": null,
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/4a1098e9-838a-4400-833c-4bd8c34ae257/a4a40832-f392-4804-a7fd-0f0010912358.png?e=d01cc1831b050664a6d758f504f6c8b3",
+    "thumbEtag": "d01cc1831b050664a6d758f504f6c8b3",
+    "version": 1,
+    "metadata": {},
+    "publishedAt": "2024-07-22T14:59:15.704Z",
+    "createdAt": "2024-08-21T21:08:03.719Z",
+    "tags": [
+      {
+        "id": "e39f9e53-cce2-4b98-a6dc-a2b88dc2487e",
+        "name": "planning",
+        "label": "Planning",
+        "color": "#FF6C5F",
+        "sort": 500
+      },
+      {
+        "id": "144d8447-e8d0-4e3b-a7d5-7c2446cd000b",
+        "name": "meetings-and-workshops",
+        "label": "Meetings & Workshops",
+        "color": "#B84592",
+        "sort": 700
+      }
+    ],
+    "seoTitle": "One Page Test Plan Template"
+  },
+  {
+    "id": "f8248023-4ad3-4160-b0a7-bebc9f4eb6f9",
+    "accountId": null,
+    "alias": "product-backlog",
+    "label": "Product Backlog",
+    "description": "A Kanban style product backlog template that is based on the layout we used to manage the Metro Retro backlog.",
+    "sort": 6800,
+    "time": null,
+    "people": null,
+    "complexity": null,
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/f8248023-4ad3-4160-b0a7-bebc9f4eb6f9/845f71f3-ed1d-4e44-9488-e88c06a90c90.png?e=daecd5c122b03d84aeff0dea165d5227",
+    "thumbEtag": "daecd5c122b03d84aeff0dea165d5227",
+    "version": 1,
+    "metadata": {},
+    "publishedAt": "2024-07-22T14:59:13.194Z",
+    "createdAt": "2024-08-21T21:08:03.719Z",
+    "tags": [
+      {
+        "id": "e39f9e53-cce2-4b98-a6dc-a2b88dc2487e",
+        "name": "planning",
+        "label": "Planning",
+        "color": "#FF6C5F",
+        "sort": 500
+      }
+    ],
+    "seoTitle": "Product Backlog Planning Template"
+  },
+  {
+    "id": "d84dde3c-3db3-41ae-87ba-d2e20c77f70b",
+    "accountId": null,
+    "alias": "simple-kanban",
+    "label": "Simple Kanban",
+    "description": "Classic Kanban board with Backlog, Todo, In Progress and Done. Great as an alternative to more complex tools for quick and easy task tracking.",
+    "sort": 6900,
+    "time": null,
+    "people": null,
+    "complexity": null,
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/d84dde3c-3db3-41ae-87ba-d2e20c77f70b/19d80c12-c4df-4476-8866-baf02dd016d4.png?e=f2d5f92d77e79c0e675c9bfa111c1e0c",
+    "thumbEtag": "f2d5f92d77e79c0e675c9bfa111c1e0c",
+    "version": 1,
+    "metadata": {},
+    "publishedAt": "2024-07-22T14:59:13.704Z",
+    "createdAt": "2024-08-21T21:08:03.719Z",
+    "tags": [
+      {
+        "id": "e39f9e53-cce2-4b98-a6dc-a2b88dc2487e",
+        "name": "planning",
+        "label": "Planning",
+        "color": "#FF6C5F",
+        "sort": 500
+      }
+    ],
+    "seoTitle": "Simple Kanban Board Template"
+  },
+  {
+    "id": "805e09aa-e507-4d66-8dc1-333de0cc1155",
+    "accountId": null,
+    "alias": "feature-prioritisation-grid",
+    "label": "Feature Prioritisation Grid",
+    "description": "Use this sequence of grids to prioritise features by comparing them against each other, using factors like feasibility and value to customer.",
+    "sort": 7200,
+    "time": null,
+    "people": null,
+    "complexity": null,
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/805e09aa-e507-4d66-8dc1-333de0cc1155/87a0e5cd-6752-4101-bb27-6bbf8d924f37.png?e=fb120b2ca04b16ce8150e682b1b40dbf",
+    "thumbEtag": "fb120b2ca04b16ce8150e682b1b40dbf",
+    "version": 1,
+    "metadata": {},
+    "publishedAt": "2024-07-22T14:59:15.028Z",
+    "createdAt": "2024-08-21T21:08:03.719Z",
+    "tags": [
+      {
+        "id": "e39f9e53-cce2-4b98-a6dc-a2b88dc2487e",
+        "name": "planning",
+        "label": "Planning",
+        "color": "#FF6C5F",
+        "sort": 500
+      }
+    ],
+    "seoTitle": "Feature Prioritisation Grid Template"
+  },
+  {
+    "id": "a6a7b4ed-4fca-40eb-bfe8-2a5f6ca343ca",
+    "accountId": null,
+    "alias": "personas",
+    "label": "Personas",
+    "description": "Bring your personas to life.",
+    "sort": 7300,
+    "time": null,
+    "people": null,
+    "complexity": null,
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/a6a7b4ed-4fca-40eb-bfe8-2a5f6ca343ca/09a8d650-1a74-4dac-98d5-cc860fa37673.png?e=845a4989651c037162c897334c5ad8ca",
+    "thumbEtag": "845a4989651c037162c897334c5ad8ca",
+    "version": 1,
+    "metadata": {},
+    "publishedAt": "2024-07-22T14:59:12.569Z",
+    "createdAt": "2024-08-21T21:08:03.719Z",
+    "tags": [
+      {
+        "id": "232ed952-a8b8-496b-980e-8a9a4aeaadb8",
+        "name": "product-management",
+        "label": "Product Management",
+        "color": "#2fc188",
+        "sort": 600
+      }
+    ],
+    "seoTitle": "User Personas Template for Product Teams"
+  },
+  {
+    "id": "55c36075-b0b4-465d-aaa5-960ce2540e20",
+    "accountId": null,
+    "alias": "empathy-map",
+    "label": "Empathy Map",
+    "description": "Use the Empathy Map to organize your findings when you are talking to your customers and capture feedback and conversations in an easy-to-use, tangible deliverable.",
+    "sort": 7400,
+    "time": null,
+    "people": null,
+    "complexity": null,
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/55c36075-b0b4-465d-aaa5-960ce2540e20/ad905d83-30ec-4922-b457-e037041d0795.png?e=b908cfc1fccfbd010738a0e677ca9811",
+    "thumbEtag": "b908cfc1fccfbd010738a0e677ca9811",
+    "version": 1,
+    "metadata": {},
+    "publishedAt": "2024-07-22T14:59:12.234Z",
+    "createdAt": "2024-08-21T21:08:03.719Z",
+    "tags": [
+      {
+        "id": "232ed952-a8b8-496b-980e-8a9a4aeaadb8",
+        "name": "product-management",
+        "label": "Product Management",
+        "color": "#2fc188",
+        "sort": 600
+      }
+    ],
+    "seoTitle": "Empathy Map Product Management Template"
+  },
+  {
+    "id": "1db8f4f1-c538-46d8-9b98-ae6b581f2529",
+    "accountId": null,
+    "alias": "value-proposition-canvas",
+    "label": "Value Proposition Canvas",
+    "description": "Map your product value to the customers Jobs-to-be-done, with how your product addresses their needs and pains.",
+    "sort": 7500,
+    "time": null,
+    "people": null,
+    "complexity": null,
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/1db8f4f1-c538-46d8-9b98-ae6b581f2529/3d2cfb68-56b6-4d78-9261-5c1e544ab870.png?e=3c8d4e46a4cac83264e4b30c28ba4c0f",
+    "thumbEtag": "3c8d4e46a4cac83264e4b30c28ba4c0f",
+    "version": 1,
+    "metadata": {},
+    "publishedAt": "2024-07-22T14:59:14.031Z",
+    "createdAt": "2024-08-21T21:08:03.719Z",
+    "tags": [
+      {
+        "id": "232ed952-a8b8-496b-980e-8a9a4aeaadb8",
+        "name": "product-management",
+        "label": "Product Management",
+        "color": "#2fc188",
+        "sort": 600
+      }
+    ],
+    "seoTitle": "Value Proposition Canvas Template"
+  },
+  {
+    "id": "bdd4b00f-9d7c-4943-ad9f-1f16a9958fa7",
+    "accountId": null,
+    "alias": "user-journey-mapping",
+    "label": "User Journey Mapping",
+    "description": "Use the Journey Map to plot the interactions a person has with your product or service and how can you can improve their experience at each step.",
+    "sort": 7600,
+    "time": null,
+    "people": null,
+    "complexity": null,
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/bdd4b00f-9d7c-4943-ad9f-1f16a9958fa7/2c3050e7-e236-4e14-894e-2c2fa5339634.png?e=37d0e7b0c16bc9d8201a67a30de88c23",
+    "thumbEtag": "37d0e7b0c16bc9d8201a67a30de88c23",
+    "version": 1,
+    "metadata": {},
+    "publishedAt": "2024-07-22T14:59:13.921Z",
+    "createdAt": "2024-08-21T21:08:03.719Z",
+    "tags": [
+      {
+        "id": "232ed952-a8b8-496b-980e-8a9a4aeaadb8",
+        "name": "product-management",
+        "label": "Product Management",
+        "color": "#2fc188",
+        "sort": 600
+      }
+    ],
+    "seoTitle": "User Journey Mapping for Product Development"
+  },
+  {
+    "id": "1329cd33-409d-4a95-a9ef-ef2d4429382e",
+    "accountId": null,
+    "alias": "product-vision-board-simple",
+    "label": "Product Vision Board (simple)",
+    "description": "The Product Vision Board helps you describe, visualise, and validate your product vision and strategy.",
+    "sort": 7800,
+    "time": null,
+    "people": null,
+    "complexity": null,
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/1329cd33-409d-4a95-a9ef-ef2d4429382e/c2f317c1-810f-4ad5-9469-ccc00d5d6aac.png?e=eec14e14d5492d1f26473eea25e58eb5",
+    "thumbEtag": "eec14e14d5492d1f26473eea25e58eb5",
+    "version": 1,
+    "metadata": {},
+    "publishedAt": "2024-07-22T14:59:13.418Z",
+    "createdAt": "2024-08-21T21:08:03.719Z",
+    "tags": [
+      {
+        "id": "232ed952-a8b8-496b-980e-8a9a4aeaadb8",
+        "name": "product-management",
+        "label": "Product Management",
+        "color": "#2fc188",
+        "sort": 600
+      }
+    ]
+  },
+  {
+    "id": "8b9482f2-51dc-4f84-b89b-68b3e7241eb2",
+    "accountId": null,
+    "alias": "product-vision-board-extended",
+    "label": "Product Vision Board (extended)",
+    "description": "The Product Vision Board helps you describe, visualise, and validate your product vision and strategy, and adds on sections to capture your business model ideas.",
+    "sort": 7900,
+    "time": null,
+    "people": null,
+    "complexity": null,
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/8b9482f2-51dc-4f84-b89b-68b3e7241eb2/f494f8f8-0562-4933-a814-885cb6260cff.png?e=ead1f5ab6b824bd49de2d2f6aee89aa1",
+    "thumbEtag": "ead1f5ab6b824bd49de2d2f6aee89aa1",
+    "version": 1,
+    "metadata": {},
+    "publishedAt": "2024-07-22T14:59:13.596Z",
+    "createdAt": "2024-08-21T21:08:03.719Z",
+    "tags": [
+      {
+        "id": "232ed952-a8b8-496b-980e-8a9a4aeaadb8",
+        "name": "product-management",
+        "label": "Product Management",
+        "color": "#2fc188",
+        "sort": 600
+      }
+    ]
+  },
+  {
+    "id": "e4f4f64e-50f0-4ebe-a24c-0249f6c0a4d0",
+    "accountId": null,
+    "alias": "opportunity-solution-tree",
+    "label": "Opportunity Solution Tree",
+    "description": "The Opportunity Solution Tree helps you make sense of your discovery work as a product team. As you interview customers, use this template to vizualise your findings and map customer needs to solutions and business outcomes.",
+    "sort": 8000,
+    "time": null,
+    "people": null,
+    "complexity": null,
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/e4f4f64e-50f0-4ebe-a24c-0249f6c0a4d0/8d4127dc-20e2-49ab-9e2c-f0a55bf9e5f6.png?e=620ef210d893dadb5cafc6edc7ebf31f",
+    "thumbEtag": "620ef210d893dadb5cafc6edc7ebf31f",
+    "version": 1,
+    "metadata": {},
+    "publishedAt": "2024-07-22T14:59:13.018Z",
+    "createdAt": "2024-08-21T21:08:03.719Z",
+    "tags": [
+      {
+        "id": "232ed952-a8b8-496b-980e-8a9a4aeaadb8",
+        "name": "product-management",
+        "label": "Product Management",
+        "color": "#2fc188",
+        "sort": 600
+      }
+    ],
+    "seoTitle": "Opportunity Solution Tree for Product Strategy"
+  },
+  {
+    "id": "ee8449af-8436-4d70-8d81-82d03353584d",
+    "accountId": null,
+    "alias": "impact-map",
+    "label": "Impact Map",
+    "description": "An Impact Map is a visual mapping technique to help Product teams decide which features to build, by focusing on the business goal and impact on end users.",
+    "sort": 8100,
+    "time": null,
+    "people": null,
+    "complexity": null,
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/ee8449af-8436-4d70-8d81-82d03353584d/b51ce98c-42dd-4a0a-ad52-f15f7d816b02.png?e=c0cbf3deb1466d33110295287e8aa523",
+    "thumbEtag": "c0cbf3deb1466d33110295287e8aa523",
+    "version": 1,
+    "metadata": {},
+    "publishedAt": "2024-07-22T14:59:12.448Z",
+    "createdAt": "2024-08-21T21:08:03.719Z",
+    "tags": [
+      {
+        "id": "232ed952-a8b8-496b-980e-8a9a4aeaadb8",
+        "name": "product-management",
+        "label": "Product Management",
+        "color": "#2fc188",
+        "sort": 600
+      }
+    ],
+    "seoTitle": "Impact Mapping Template for Product Planning"
+  },
+  {
+    "id": "51f279bb-83bb-4115-804f-ef0c63b87af2",
+    "accountId": null,
+    "alias": "experiment-planner",
+    "label": "Experiment Planner",
+    "description": "When your team have an idea they want to try, use this template to design and implement the idea as an experiment. By completing the Experiment Planner together, it forces the team to evaluate their assumptions and make decisions that lead to a well-designed test.",
+    "sort": 8200,
+    "time": null,
+    "people": null,
+    "complexity": null,
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/51f279bb-83bb-4115-804f-ef0c63b87af2/e14545ec-8e10-4fe0-96d0-04ddaf129783.png?e=0fd493ee13c6bb51ef63ce2c4329941f",
+    "thumbEtag": "0fd493ee13c6bb51ef63ce2c4329941f",
+    "version": 1,
+    "metadata": {},
+    "publishedAt": "2024-07-22T14:59:14.160Z",
+    "createdAt": "2024-08-21T21:08:03.719Z",
+    "tags": [
+      {
+        "id": "232ed952-a8b8-496b-980e-8a9a4aeaadb8",
+        "name": "product-management",
+        "label": "Product Management",
+        "color": "#2fc188",
+        "sort": 600
+      }
+    ],
+    "seoTitle": "Product Experiment Planner Template"
+  },
+  {
+    "id": "01e682cd-6440-4f52-b1fa-3e0608e196aa",
+    "accountId": null,
+    "alias": "lean-coffee",
+    "label": "Lean Coffee",
+    "description": "Lean Coffee is a meeting format that provides a structure for discussion of multiple topics. Participants build an agenda of items to discuss, prioritize the agenda and then work through each topic one by one.",
+    "sort": 8600,
+    "time": null,
+    "people": null,
+    "complexity": null,
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/01e682cd-6440-4f52-b1fa-3e0608e196aa/87ed8608-7020-4cd2-ae6c-1259738edbb5.png?e=067f660f09d89911693f2428d496e0d9",
+    "thumbEtag": "067f660f09d89911693f2428d496e0d9",
+    "version": 1,
+    "metadata": {
+      "featured": "minor",
+      "fsort": 4
+    },
+    "publishedAt": "2024-07-22T14:59:14.386Z",
+    "createdAt": "2024-08-21T21:08:03.719Z",
+    "tags": [
+      {
+        "id": "144d8447-e8d0-4e3b-a7d5-7c2446cd000b",
+        "name": "meetings-and-workshops",
+        "label": "Meetings & Workshops",
+        "color": "#B84592",
+        "sort": 700
+      }
+    ],
+    "seoTitle": "Lean Coffee Meeting Format Template"
+  },
+  {
+    "id": "7a1cdad9-b207-427b-9f73-b200e056a355",
+    "accountId": null,
+    "alias": "definition-of-done",
+    "label": "Definition of Done",
+    "description": "Create a Definition of Done to agree what \"Done\" really means, and bring transparency to your team's working processes.",
+    "sort": 8700,
+    "time": null,
+    "people": null,
+    "complexity": null,
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/7a1cdad9-b207-427b-9f73-b200e056a355/13f20de4-3d95-4e71-a28f-bbfb70a0e5ca.png?e=3b223c3cb9361dc04ce475653f9a8447",
+    "thumbEtag": "3b223c3cb9361dc04ce475653f9a8447",
+    "version": 1,
+    "metadata": {
+      "featured": "minor",
+      "fsort": 6
+    },
+    "publishedAt": "2024-07-22T14:59:15.506Z",
+    "createdAt": "2024-08-21T21:08:03.719Z",
+    "tags": [
+      {
+        "id": "144d8447-e8d0-4e3b-a7d5-7c2446cd000b",
+        "name": "meetings-and-workshops",
+        "label": "Meetings & Workshops",
+        "color": "#B84592",
+        "sort": 700
+      }
+    ],
+    "seoTitle": "Definition of Done Collaboration Template"
+  },
+  {
+    "id": "68b2cd98-3a03-4050-b517-9c6db47de077",
+    "accountId": null,
+    "alias": "team-canvas-simple",
+    "label": "Team Canvas (Simple)",
+    "description": "The Team Canvas is an exercise to help form the team's identity.",
+    "sort": 8900,
+    "time": null,
+    "people": null,
+    "complexity": null,
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/68b2cd98-3a03-4050-b517-9c6db47de077/db3b19a8-6485-413c-bfdd-d6413e1fb80f.png?e=cae84f7ce72a99d1dc74b96a87a56be9",
+    "thumbEtag": "cae84f7ce72a99d1dc74b96a87a56be9",
+    "version": 1,
+    "metadata": {},
+    "publishedAt": "2024-07-22T14:59:15.930Z",
+    "createdAt": "2024-08-21T21:08:03.719Z",
+    "tags": [
+      {
+        "id": "144d8447-e8d0-4e3b-a7d5-7c2446cd000b",
+        "name": "meetings-and-workshops",
+        "label": "Meetings & Workshops",
+        "color": "#B84592",
+        "sort": 700
+      }
+    ]
+  },
+  {
+    "id": "dc5a2fac-ace8-48d0-b4a8-f5292167f243",
+    "accountId": null,
+    "alias": "team-canvas",
+    "label": "Team Canvas",
+    "description": "The Team Canvas is an exercise to help form the team's identity and agree ways of working.",
+    "sort": 9000,
+    "time": null,
+    "people": null,
+    "complexity": null,
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/dc5a2fac-ace8-48d0-b4a8-f5292167f243/7eb6108f-9cfa-49da-8254-032806f77bef.png?e=eb524be59889a1384804c5e8e17ad80d",
+    "thumbEtag": "eb524be59889a1384804c5e8e17ad80d",
+    "version": 1,
+    "metadata": {},
+    "publishedAt": "2024-07-22T14:59:16.148Z",
+    "createdAt": "2024-08-21T21:08:03.719Z",
+    "tags": [
+      {
+        "id": "144d8447-e8d0-4e3b-a7d5-7c2446cd000b",
+        "name": "meetings-and-workshops",
+        "label": "Meetings & Workshops",
+        "color": "#B84592",
+        "sort": 700
+      }
+    ],
+    "seoTitle": "Team Canvas Framework for Team Alignment"
+  },
+  {
+    "id": "78ed3eec-dc66-4a79-aa9d-8a1e3a59f8d8",
+    "accountId": null,
+    "alias": "raci-matrix",
+    "label": "RACI Matrix",
+    "description": "Use this collaborative RACI Matrix to decide who does what!",
+    "sort": 9600,
+    "time": null,
+    "people": null,
+    "complexity": null,
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/78ed3eec-dc66-4a79-aa9d-8a1e3a59f8d8/a774398e-b8e3-4907-9a85-d6e91df820d6.png?e=9ca50b59da4104a271a0dcc225094c1e",
+    "thumbEtag": "9ca50b59da4104a271a0dcc225094c1e",
+    "version": 1,
+    "metadata": {},
+    "publishedAt": "2024-07-22T14:59:15.832Z",
+    "createdAt": "2024-08-21T21:08:03.719Z",
+    "tags": [
+      {
+        "id": "144d8447-e8d0-4e3b-a7d5-7c2446cd000b",
+        "name": "meetings-and-workshops",
+        "label": "Meetings & Workshops",
+        "color": "#B84592",
+        "sort": 700
+      }
+    ],
+    "seoTitle": "RACI Matrix Template for Team Responsibilities"
+  },
+  {
+    "id": "107c6f72-25a7-4f4e-b37f-89e3c3dbab10",
+    "accountId": null,
+    "alias": "stakeholder-mapping",
+    "label": "Stakeholder Mapping",
+    "description": "Identify each stakeholder and decide how to involve them in your project.",
+    "sort": 9700,
+    "time": null,
+    "people": null,
+    "complexity": null,
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/107c6f72-25a7-4f4e-b37f-89e3c3dbab10/f8013c19-8d11-4107-a295-71839458955a.png?e=a7934ac11b0cf645ef3065aea554ec8c",
+    "thumbEtag": "a7934ac11b0cf645ef3065aea554ec8c",
+    "version": 1,
+    "metadata": {},
+    "publishedAt": "2024-07-22T14:59:14.491Z",
+    "createdAt": "2024-08-21T21:08:03.719Z",
+    "tags": [
+      {
+        "id": "144d8447-e8d0-4e3b-a7d5-7c2446cd000b",
+        "name": "meetings-and-workshops",
+        "label": "Meetings & Workshops",
+        "color": "#B84592",
+        "sort": 700
+      }
+    ],
+    "seoTitle": "Stakeholder Mapping Workshop Template"
+  },
+  {
+    "id": "886bbafd-2817-4b1e-a079-fa085629d483",
+    "accountId": null,
+    "alias": "six-thinking-hats",
+    "label": "Six Thinking Hats",
+    "description": "Six Thinking Hats is a brainstorming and decision-making activity that forces you to think about a topic from one perspective at a time.",
+    "sort": 10100,
+    "time": null,
+    "people": null,
+    "complexity": null,
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/886bbafd-2817-4b1e-a079-fa085629d483/79fbed34-643d-4317-9608-20602ac083fd.png?e=5d3ca7ff833fd154aaa4f969ab1c9437",
+    "thumbEtag": "5d3ca7ff833fd154aaa4f969ab1c9437",
+    "version": 1,
+    "metadata": {},
+    "publishedAt": "2024-07-22T14:59:14.597Z",
+    "createdAt": "2024-08-21T21:08:03.719Z",
+    "tags": [
+      {
+        "id": "144d8447-e8d0-4e3b-a7d5-7c2446cd000b",
+        "name": "meetings-and-workshops",
+        "label": "Meetings & Workshops",
+        "color": "#B84592",
+        "sort": 700
+      }
+    ],
+    "seoTitle": "Six Thinking Hats Collaboration Template"
+  },
+  {
+    "id": "ed484346-ad03-40e3-895f-50089d7d3c5f",
+    "accountId": null,
+    "alias": "mind-map",
+    "label": "Mind Map",
+    "description": "Use a mind map to capture and organize your ideas around a central theme",
+    "sort": 10200,
+    "time": null,
+    "people": null,
+    "complexity": null,
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/ed484346-ad03-40e3-895f-50089d7d3c5f/f6fabca6-b8ca-47be-9315-7fc71a8a4cfb.png?e=5dc686906f79b821d9ec5fcd6bcd0282",
+    "thumbEtag": "5dc686906f79b821d9ec5fcd6bcd0282",
+    "version": 1,
+    "metadata": {},
+    "publishedAt": "2024-07-22T14:59:15.253Z",
+    "createdAt": "2024-08-21T21:08:03.719Z",
+    "tags": [
+      {
+        "id": "144d8447-e8d0-4e3b-a7d5-7c2446cd000b",
+        "name": "meetings-and-workshops",
+        "label": "Meetings & Workshops",
+        "color": "#B84592",
+        "sort": 700
+      }
+    ],
+    "seoTitle": "Mind Mapping Collaboration Template"
+  },
+  {
+    "id": "07420a21-9191-4aab-a0a1-b57a71b6cb64",
+    "accountId": null,
+    "alias": "crazy-8s",
+    "label": "Crazy 8's",
+    "description": "A Design Sprint technique for visual ideation - draw 8 ideas in 8 minutes!",
+    "sort": 10300,
+    "time": null,
+    "people": null,
+    "complexity": null,
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/07420a21-9191-4aab-a0a1-b57a71b6cb64/5244d237-836c-42b3-a3da-ffcc08c0eaab.png?e=fb42c6e6da264826debaeeb2e0b67762",
+    "thumbEtag": "fb42c6e6da264826debaeeb2e0b67762",
+    "version": 1,
+    "metadata": {},
+    "publishedAt": "2024-07-22T14:59:04.381Z",
+    "createdAt": "2024-08-21T21:08:03.719Z",
+    "tags": [
+      {
+        "id": "144d8447-e8d0-4e3b-a7d5-7c2446cd000b",
+        "name": "meetings-and-workshops",
+        "label": "Meetings & Workshops",
+        "color": "#B84592",
+        "sort": 700
+      }
+    ],
+    "seoTitle": "Crazy 8's Rapid Ideation Workshop Template"
+  },
+  {
+    "id": "bf5cd614-7c9a-4175-b1f5-a919c706d261",
+    "accountId": null,
+    "alias": "pre-meeting-questions",
+    "label": "Pre-meeting questions",
+    "description": "Use this template to collect information from your participants before a meeting, demo, or workshop.",
+    "sort": 10700,
+    "time": null,
+    "people": null,
+    "complexity": null,
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/bf5cd614-7c9a-4175-b1f5-a919c706d261/56d286a2-45b4-4ca6-83fd-d1951a4700f0.png?e=2022cbbb617a761ca48539eb3f89873c",
+    "thumbEtag": "2022cbbb617a761ca48539eb3f89873c",
+    "version": 1,
+    "metadata": {},
+    "publishedAt": "2024-07-22T14:59:04.807Z",
+    "createdAt": "2024-08-21T21:08:03.719Z",
+    "tags": [
+      {
+        "id": "144d8447-e8d0-4e3b-a7d5-7c2446cd000b",
+        "name": "meetings-and-workshops",
+        "label": "Meetings & Workshops",
+        "color": "#B84592",
+        "sort": 700
+      }
+    ],
+    "seoTitle": "Pre-Meeting Questions Template"
+  },
+  {
+    "id": "81159568-d28c-4d11-80bd-0bf325b18f78",
+    "accountId": null,
+    "alias": "meeting-agenda",
+    "label": "Meeting Agenda",
+    "description": "Make your own visual meeting agenda with this template",
+    "sort": 10800,
+    "time": null,
+    "people": null,
+    "complexity": null,
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/81159568-d28c-4d11-80bd-0bf325b18f78/351333a8-78cf-4cce-8699-068cf335100e.png?e=7a2451561117c43e465571fc757242a3",
+    "thumbEtag": "7a2451561117c43e465571fc757242a3",
+    "version": 1,
+    "metadata": {},
+    "publishedAt": "2024-07-22T14:59:15.360Z",
+    "createdAt": "2024-08-21T21:08:03.719Z",
+    "tags": [
+      {
+        "id": "144d8447-e8d0-4e3b-a7d5-7c2446cd000b",
+        "name": "meetings-and-workshops",
+        "label": "Meetings & Workshops",
+        "color": "#B84592",
+        "sort": 700
+      }
+    ],
+    "seoTitle": "Meeting Agenda Template for Productive Sessions"
+  },
+  {
+    "id": "e9b85f57-daa5-49df-bdf7-b19d699af895",
+    "accountId": null,
+    "alias": "weekly-team-status",
+    "label": "Weekly Team Status",
+    "description": "This template helps you organize a weekly check-in meeting, with sections for Projects, People and Any Other Business.",
+    "sort": 10900,
+    "time": null,
+    "people": null,
+    "complexity": null,
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/e9b85f57-daa5-49df-bdf7-b19d699af895/decf1844-9a30-4025-a615-d963c39fbd94.png?e=b8f9a087a0eaa1803ea22150a4716b39",
+    "thumbEtag": "b8f9a087a0eaa1803ea22150a4716b39",
+    "version": 1,
+    "metadata": {},
+    "publishedAt": "2024-07-22T14:59:16.254Z",
+    "createdAt": "2024-08-21T21:08:03.719Z",
+    "tags": [
+      {
+        "id": "144d8447-e8d0-4e3b-a7d5-7c2446cd000b",
+        "name": "meetings-and-workshops",
+        "label": "Meetings & Workshops",
+        "color": "#B84592",
+        "sort": 700
+      }
+    ],
+    "seoTitle": "Weekly Team Status Meeting Template"
+  },
+  {
+    "id": "bafed671-58b5-48e8-a5fd-95e2251c0b66",
+    "accountId": null,
+    "alias": "christmas-wish",
+    "label": "Christmas Wish",
+    "description": "A fun icebreaker to get into the festive mood. Decorate the team Christmas tree and add your wish for Santa!",
+    "sort": 999999998,
+    "time": null,
+    "people": null,
+    "complexity": null,
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/bafed671-58b5-48e8-a5fd-95e2251c0b66/f16784f6-9fa3-4007-a6c2-37fcd1dd3296.png?e=c037046d6a8dd6a8a9002e03655cb79c",
+    "thumbEtag": "c037046d6a8dd6a8a9002e03655cb79c",
+    "version": 1,
+    "metadata": {},
+    "publishedAt": "2024-12-03T13:27:25.411Z",
+    "createdAt": "2024-12-03T13:27:25.181Z",
+    "tags": [
+      {
+        "id": "e5384230-486a-4058-a522-c8df0e19692a",
+        "name": "ice-breakers",
+        "label": "Ice Breakers",
+        "color": "#00AEFF",
+        "sort": 100
+      }
+    ],
+    "seoTitle": "Christmas Wish Icebreaker Activity"
+  },
+  {
+    "id": "0046a539-6c25-4dda-9fba-e07576b46835",
+    "accountId": null,
+    "alias": "team-mood-icebreaker",
+    "label": "Team Mood Icebreaker",
+    "description": "Gauge the team mood with this quick icebreaker.",
+    "sort": 999999998,
+    "time": null,
+    "people": null,
+    "complexity": null,
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/0046a539-6c25-4dda-9fba-e07576b46835/dff4bd27-873c-45c6-90fb-f9e17e0766d7.png?e=03efd6b889d5d921b124c95b3dd4f8d8",
+    "thumbEtag": "03efd6b889d5d921b124c95b3dd4f8d8",
+    "version": 1,
+    "metadata": {},
+    "publishedAt": "2024-07-22T14:59:02.673Z",
+    "createdAt": "2024-08-21T21:08:03.719Z",
+    "tags": [
+      {
+        "id": "e5384230-486a-4058-a522-c8df0e19692a",
+        "name": "ice-breakers",
+        "label": "Ice Breakers",
+        "color": "#00AEFF",
+        "sort": 100
+      }
+    ],
+    "seoTitle": "Team Mood Icebreaker Template"
+  },
+  {
+    "id": "8f9136fe-0704-4f05-a034-13787e75e0d3",
+    "accountId": null,
+    "alias": "explorer-shopper-vacationer-prisoner",
+    "label": "Explorer, Shopper, Vacationer, Prisoner",
+    "description": "A short check-in activity to measure the team's attitude to the meeting.",
+    "sort": 999999999,
+    "time": null,
+    "people": null,
+    "complexity": null,
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/8f9136fe-0704-4f05-a034-13787e75e0d3/d27345d5-4a10-431e-9df0-999a3dae11f8.png?e=0b7141290bad41aacc17f7d364e2e86e",
+    "thumbEtag": "0b7141290bad41aacc17f7d364e2e86e",
+    "version": 1,
+    "metadata": {},
+    "publishedAt": "2024-07-22T14:59:03.539Z",
+    "createdAt": "2024-08-21T21:08:03.719Z",
+    "tags": [
+      {
+        "id": "e5384230-486a-4058-a522-c8df0e19692a",
+        "name": "ice-breakers",
+        "label": "Ice Breakers",
+        "color": "#00AEFF",
+        "sort": 100
+      }
+    ],
+    "seoTitle": "Explorer, Shopper, Vacationer, Prisoner Icebreaker"
+  },
+  {
+    "id": "6c19dbd9-6f49-4c84-89d6-ccebd143e73e",
+    "accountId": null,
+    "alias": "roti-phones",
+    "label": "ROTI: Phones",
+    "description": "Ask participants to rate the meeting by choosing a phone type.",
+    "sort": 999999999,
+    "time": null,
+    "people": null,
+    "complexity": null,
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/6c19dbd9-6f49-4c84-89d6-ccebd143e73e/98ff8910-6af4-441f-9135-9242c1b48774.png?e=d369005221e8b688597f3f58b6156572",
+    "thumbEtag": "d369005221e8b688597f3f58b6156572",
+    "version": 1,
+    "metadata": {},
+    "publishedAt": "2024-07-22T14:59:16.681Z",
+    "createdAt": "2024-08-21T21:08:03.719Z",
+    "tags": [
+      {
+        "id": "8ac56df0-5122-4cdd-800b-beecc00f3258",
+        "name": "check-out",
+        "label": "Check Out",
+        "color": "#B84592",
+        "sort": 800
+      }
+    ]
+  },
+  {
+    "id": "357aca69-d4f3-4fdf-a35b-ca43923714a7",
+    "accountId": null,
+    "alias": "roti-treasure",
+    "label": "ROTI: Treasure",
+    "description": "Rate the value of the meeting in growing piles of treasure.",
+    "sort": 999999999,
+    "time": null,
+    "people": null,
+    "complexity": null,
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/357aca69-d4f3-4fdf-a35b-ca43923714a7/50852adb-7868-4114-87cf-739ca0924eb2.png?e=7a7cf0c5cb1365508500d8c800827d13",
+    "thumbEtag": "7a7cf0c5cb1365508500d8c800827d13",
+    "version": 1,
+    "metadata": {},
+    "publishedAt": "2024-07-22T14:59:16.900Z",
+    "createdAt": "2024-08-21T21:08:03.719Z",
+    "tags": [
+      {
+        "id": "8ac56df0-5122-4cdd-800b-beecc00f3258",
+        "name": "check-out",
+        "label": "Check Out",
+        "color": "#B84592",
+        "sort": 800
+      }
+    ]
+  },
+  {
+    "id": "b767accc-8acf-4932-86b3-c5611c2c41ed",
+    "accountId": null,
+    "alias": "bullseye!",
+    "label": "Bullseye!",
+    "description": "A quick exercise to visualise team mood. This can be used as an icebreaker or a closing activity.",
+    "sort": 999999999,
+    "time": null,
+    "people": null,
+    "complexity": null,
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/b767accc-8acf-4932-86b3-c5611c2c41ed/89b49bde-a269-4c04-95fd-8589a5d3bf0b.png?e=32c8b3fc7dae0b9e47df011b92e5c2dc",
+    "thumbEtag": "32c8b3fc7dae0b9e47df011b92e5c2dc",
+    "version": 1,
+    "metadata": {},
+    "publishedAt": "2024-07-22T14:59:04.026Z",
+    "createdAt": "2024-08-21T21:08:03.719Z",
+    "tags": [
+      {
+        "id": "e5384230-486a-4058-a522-c8df0e19692a",
+        "name": "ice-breakers",
+        "label": "Ice Breakers",
+        "color": "#00AEFF",
+        "sort": 100
+      }
+    ],
+    "seoTitle": "Bullseye! Icebreaker Activity"
+  },
+  {
+    "id": "486ac9b3-eb72-43e9-8b20-46e0db939c2a",
+    "accountId": null,
+    "alias": "two-truths-one-lie",
+    "label": "Two Truths, One Lie",
+    "description": "Split into teams and have fun with this icebreaker. Which \"facts\" are true and which are lies?",
+    "sort": 999999999,
+    "time": null,
+    "people": null,
+    "complexity": null,
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/486ac9b3-eb72-43e9-8b20-46e0db939c2a/f20b58e9-d669-4771-8a02-e7c6f85ce846.png?e=6dd6bb08d48c7ad1b02ddba36192a6e2",
+    "thumbEtag": "6dd6bb08d48c7ad1b02ddba36192a6e2",
+    "version": 1,
+    "metadata": {},
+    "publishedAt": "2024-07-22T14:59:02.841Z",
+    "createdAt": "2024-08-21T21:08:03.719Z",
+    "tags": [
+      {
+        "id": "e5384230-486a-4058-a522-c8df0e19692a",
+        "name": "ice-breakers",
+        "label": "Ice Breakers",
+        "color": "#00AEFF",
+        "sort": 100
+      }
+    ],
+    "seoTitle": "Two Truths, One Lie Team Icebreaker"
+  },
+  {
+    "id": "173dc9c8-cf02-4e0c-8322-9c2968557fc0",
+    "accountId": null,
+    "alias": "roti-star-ratings",
+    "label": "ROTI: Star Ratings",
+    "description": "Rate the meeting and the facilitator out of 5 stars, with an area for feedback.",
+    "sort": 999999999,
+    "time": null,
+    "people": null,
+    "complexity": null,
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/173dc9c8-cf02-4e0c-8322-9c2968557fc0/085557df-6032-49f2-9ace-68b8bfc38c9a.png?e=6d2d58fc973961f6c8948f93362077ed",
+    "thumbEtag": "6d2d58fc973961f6c8948f93362077ed",
+    "version": 1,
+    "metadata": {},
+    "publishedAt": "2024-07-22T14:59:16.794Z",
+    "createdAt": "2024-08-21T21:08:03.719Z",
+    "tags": [
+      {
+        "id": "8ac56df0-5122-4cdd-800b-beecc00f3258",
+        "name": "check-out",
+        "label": "Check Out",
+        "color": "#B84592",
+        "sort": 800
+      }
+    ]
+  },
+  {
+    "id": "0fa195f5-947a-4549-9f74-aa90469334e9",
+    "accountId": null,
+    "alias": "agree-or-disagree",
+    "label": "Agree or Disagree?",
+    "description": "A check-in activity to get people comfortable with expressing their opinion. This can be used as an icebreaker or as part of a retrospective.",
+    "sort": 999999999,
+    "time": null,
+    "people": null,
+    "complexity": null,
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/0fa195f5-947a-4549-9f74-aa90469334e9/bb03b487-0de5-41c8-bb22-8fb4536864cc.png?e=649660898a61cf5912cc004454377fb7",
+    "thumbEtag": "649660898a61cf5912cc004454377fb7",
+    "version": 1,
+    "metadata": {},
+    "publishedAt": "2024-07-22T14:59:04.246Z",
+    "createdAt": "2024-08-21T21:08:03.719Z",
+    "tags": [
+      {
+        "id": "e5384230-486a-4058-a522-c8df0e19692a",
+        "name": "ice-breakers",
+        "label": "Ice Breakers",
+        "color": "#00AEFF",
+        "sort": 100
+      }
+    ],
+    "seoTitle": "Agree or Disagree Icebreaker Activity"
+  },
+  {
+    "id": "490ddd67-4ca7-4ce8-8c22-d9dc25d87979",
+    "accountId": null,
+    "alias": "coat-of-arms",
+    "label": "Coat of Arms",
+    "description": "The Coat of Arms is a visual \"'\"get to know you\"'\" activity, but this one comes with a twist.",
+    "sort": 999999999,
+    "time": null,
+    "people": null,
+    "complexity": null,
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/490ddd67-4ca7-4ce8-8c22-d9dc25d87979/d3a1e008-e289-4ddf-a25b-178fb34fe462.png?e=8f73642bf8fd4da6325093ad42428f9f",
+    "thumbEtag": "8f73642bf8fd4da6325093ad42428f9f",
+    "version": 1,
+    "metadata": {},
+    "publishedAt": "2024-07-22T14:59:02.963Z",
+    "createdAt": "2024-08-21T21:08:03.719Z",
+    "tags": [
+      {
+        "id": "e5384230-486a-4058-a522-c8df0e19692a",
+        "name": "ice-breakers",
+        "label": "Ice Breakers",
+        "color": "#00AEFF",
+        "sort": 100
+      }
+    ],
+    "seoTitle": "Coat of Arms Team Icebreaker"
+  },
+  {
+    "id": "b0efc531-c8c4-4f0e-ada7-a60ecafa4bf3",
+    "accountId": null,
+    "alias": "double-diamond",
+    "label": "Double Diamond",
+    "description": "The Double Diamond is a well-known visualization of the design and innovation process. It helps a team to explore broad possibilities and then narrow their focus to get to a solution.",
+    "sort": 999999999,
+    "time": null,
+    "people": null,
+    "complexity": null,
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/b0efc531-c8c4-4f0e-ada7-a60ecafa4bf3/c3855540-5f92-4853-abc7-bbd43aed8bc6.png?e=0ebe19d9d1c6e1c3f08a956a8d5a2209",
+    "thumbEtag": "0ebe19d9d1c6e1c3f08a956a8d5a2209",
+    "version": 1,
+    "metadata": {},
+    "publishedAt": "2024-08-23T15:17:10.139Z",
+    "createdAt": "2024-08-23T15:17:10.040Z",
+    "tags": [
+      {
+        "id": "144d8447-e8d0-4e3b-a7d5-7c2446cd000b",
+        "name": "meetings-and-workshops",
+        "label": "Meetings & Workshops",
+        "color": "#B84592",
+        "sort": 700
+      }
+    ],
+    "seoTitle": "Double Diamond Design Process Template"
+  },
+  {
+    "id": "0e00f739-daf1-4b1a-abc8-ef63558448ad",
+    "accountId": null,
+    "alias": "roti-feelings",
+    "label": "ROTI: Feelings",
+    "description": "Ask your participants how they feel after the meeting - hopefully better than when they started!",
+    "sort": 999999999,
+    "time": null,
+    "people": null,
+    "complexity": null,
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/0e00f739-daf1-4b1a-abc8-ef63558448ad/caab272d-259f-4b83-a91d-0b79eb8be5c2.png?e=aaf72496c9b8a6a5a8ef62b4a269385b",
+    "thumbEtag": "aaf72496c9b8a6a5a8ef62b4a269385b",
+    "version": 1,
+    "metadata": {},
+    "publishedAt": "2024-07-22T14:59:16.360Z",
+    "createdAt": "2024-08-21T21:08:03.719Z",
+    "tags": [
+      {
+        "id": "8ac56df0-5122-4cdd-800b-beecc00f3258",
+        "name": "check-out",
+        "label": "Check Out",
+        "color": "#B84592",
+        "sort": 800
+      }
+    ]
+  },
+  {
+    "id": "15e2dc69-183e-4891-89fc-0b9cacd53a84",
+    "accountId": null,
+    "alias": "energy-levels",
+    "label": "Energy Levels",
+    "description": "A battery-themed check in activity to gauge the team's energy levels.",
+    "sort": 999999999,
+    "time": null,
+    "people": null,
+    "complexity": null,
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/15e2dc69-183e-4891-89fc-0b9cacd53a84/b7c23e9a-30f1-4a7f-99ce-0870e7be5ec3.png?e=95b1679e51c99847cec116c95dc6bb74",
+    "thumbEtag": "95b1679e51c99847cec116c95dc6bb74",
+    "version": 1,
+    "metadata": {},
+    "publishedAt": "2024-07-22T14:59:03.320Z",
+    "createdAt": "2024-08-21T21:08:03.719Z",
+    "tags": [
+      {
+        "id": "e5384230-486a-4058-a522-c8df0e19692a",
+        "name": "ice-breakers",
+        "label": "Ice Breakers",
+        "color": "#00AEFF",
+        "sort": 100
+      }
+    ],
+    "seoTitle": "Energy Levels Team Icebreaker"
+  },
+  {
+    "id": "2b560604-f755-4adf-ba76-7247b0f6bcca",
+    "accountId": null,
+    "alias": "roti-fist-of-fives",
+    "label": "ROTI: Fist of Fives",
+    "description": "Fist of Fives asks participants to rate the meeting value with a number of fingers.",
+    "sort": 999999999,
+    "time": null,
+    "people": null,
+    "complexity": null,
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/2b560604-f755-4adf-ba76-7247b0f6bcca/2dd06178-00a9-4795-8dcc-cbab88a28f49.png?e=e6d636139c0ee07ad842bce658ad7564",
+    "thumbEtag": "e6d636139c0ee07ad842bce658ad7564",
+    "version": 1,
+    "metadata": {},
+    "publishedAt": "2024-07-22T14:59:16.467Z",
+    "createdAt": "2024-08-21T21:08:03.719Z",
+    "tags": [
+      {
+        "id": "8ac56df0-5122-4cdd-800b-beecc00f3258",
+        "name": "check-out",
+        "label": "Check Out",
+        "color": "#B84592",
+        "sort": 800
+      }
+    ]
+  },
+  {
+    "id": "56a7d283-e016-43d5-8779-10791264ff4f",
+    "accountId": null,
+    "alias": "weather-check-in",
+    "label": "Weather Check In",
+    "description": "What's your weather? Each person picks a weather icon to describe how they are feeling.",
+    "sort": 999999999,
+    "time": null,
+    "people": null,
+    "complexity": null,
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/56a7d283-e016-43d5-8779-10791264ff4f/f65da6fe-9a61-460b-be7f-eef8436fb3c2.png?e=bdfb864de2bcf3b4e55f3d71817ba4be",
+    "thumbEtag": "bdfb864de2bcf3b4e55f3d71817ba4be",
+    "version": 1,
+    "metadata": {},
+    "publishedAt": "2024-07-22T14:59:04.917Z",
+    "createdAt": "2024-08-21T21:08:03.719Z",
+    "tags": [
+      {
+        "id": "e5384230-486a-4058-a522-c8df0e19692a",
+        "name": "ice-breakers",
+        "label": "Ice Breakers",
+        "color": "#00AEFF",
+        "sort": 100
+      }
+    ],
+    "seoTitle": "Weather Check In Team Icebreaker"
+  },
+  {
+    "id": "03092260-0dfa-4d51-ad7d-87acb0d88cd1",
+    "accountId": null,
+    "alias": "draw-a-scene",
+    "label": "Draw a Scene",
+    "description": "An energizer activity asking the team to draw a scene together.",
+    "sort": 999999999,
+    "time": null,
+    "people": null,
+    "complexity": null,
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/03092260-0dfa-4d51-ad7d-87acb0d88cd1/bfe12291-0caf-445f-91f9-80c892507247.png?e=9821ef38074c453880ad7ad31058d8a2",
+    "thumbEtag": "9821ef38074c453880ad7ad31058d8a2",
+    "version": 1,
+    "metadata": {},
+    "publishedAt": "2024-07-22T14:59:04.606Z",
+    "createdAt": "2024-08-21T21:08:03.719Z",
+    "tags": [
+      {
+        "id": "e5384230-486a-4058-a522-c8df0e19692a",
+        "name": "ice-breakers",
+        "label": "Ice Breakers",
+        "color": "#00AEFF",
+        "sort": 100
+      }
+    ],
+    "seoTitle": "Draw a Scene Collaborative Icebreaker"
+  },
+  {
+    "id": "5c01cc47-467d-4ea4-b949-5476d3c61a55",
+    "accountId": null,
+    "alias": "kudos-tree",
+    "label": "Kudos Tree",
+    "description": "Give a shout out to a colleague and share some positivity.",
+    "sort": 999999999,
+    "time": null,
+    "people": null,
+    "complexity": null,
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/5c01cc47-467d-4ea4-b949-5476d3c61a55/b5121c85-deb1-4296-8898-35d7c26519ec.png?e=d24b143fc6aec7fd085b2896b8dcfb0b",
+    "thumbEtag": "d24b143fc6aec7fd085b2896b8dcfb0b",
+    "version": 1,
+    "metadata": {
+      "featured": "minor",
+      "fsort": 3
+    },
+    "publishedAt": "2024-07-22T14:59:03.186Z",
+    "createdAt": "2024-08-21T21:08:03.719Z",
+    "tags": [
+      {
+        "id": "e5384230-486a-4058-a522-c8df0e19692a",
+        "name": "ice-breakers",
+        "label": "Ice Breakers",
+        "color": "#00AEFF",
+        "sort": 100
+      }
+    ],
+    "seoTitle": "Kudos Tree Team Recognition Icebreaker"
+  },
+  {
+    "id": "4a75f939-1cf1-4564-abf5-c3c3e9d71309",
+    "accountId": null,
+    "alias": "roti-meeting-value-1-5",
+    "label": "ROTI: Meeting Value 1-5",
+    "description": "A simple way to ask your participants how valuable the meeting was.",
+    "sort": 999999999,
+    "time": null,
+    "people": null,
+    "complexity": null,
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/4a75f939-1cf1-4564-abf5-c3c3e9d71309/66a6f67a-fb6c-472e-89dc-9f9176e038b3.png?e=0c8d4fd8c770d5c34c5bfe724816db16",
+    "thumbEtag": "0c8d4fd8c770d5c34c5bfe724816db16",
+    "version": 1,
+    "metadata": {},
+    "publishedAt": "2024-07-22T14:59:16.577Z",
+    "createdAt": "2024-08-21T21:08:03.719Z",
+    "tags": [
+      {
+        "id": "8ac56df0-5122-4cdd-800b-beecc00f3258",
+        "name": "check-out",
+        "label": "Check Out",
+        "color": "#B84592",
+        "sort": 800
+      }
+    ]
+  }
+]

@@ -10,10 +10,12 @@ import PageLayout from "~/layouts/PageLayout.astro";
 
 <PageLayout title="Blogs">
   <Dots />
-  <BlogHero />
-  <div class="flex w-full items-center justify-center py-8 md:hidden">
-    <Wibble />
-  </div>
-  <BlogFeed tag="all" />
+  <section>
+    <BlogHero />
+    <div class="flex w-full items-center justify-center py-8 md:hidden">
+      <Wibble />
+    </div>
+    <BlogFeed tag="all" />
+  </section>
   <Newsletter />
 </PageLayout>

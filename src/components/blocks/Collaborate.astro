@@ -43,12 +43,9 @@ const collaborationFeatures = [
     href: "/product/shareable-team-spaces",
   },
 ];
-
-const placeholderText =
-  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.";
 ---
 
-<section class="px-4 py-12 md:py-16 lg:pt-[2.5rem]">
+<section>
   <Pill>Collaboration your way</Pill>
   <Heading class="my-6">Built to suit the way you work</Heading>
   <Subheading>
@@ -134,11 +131,11 @@ const placeholderText =
   ] as HTMLDivElement[];
 
   const moreBtn = document.querySelector(
-    "#collapsible-more-info",
+    "#collapsible-more-info"
   ) as HTMLAnchorElement | null;
 
   const desktopImageEl = document.querySelector(
-    "#collapsible-image",
+    "#collapsible-image"
   ) as HTMLImageElement | null;
 
   const ACTIVE_ID = "aria-expanded";
@@ -153,13 +150,14 @@ const placeholderText =
     if (isExpanded) return;
 
     collapsibles.forEach((collapsible) =>
-      collapsible.setAttribute(ACTIVE_ID, "false"),
+      collapsible.setAttribute(ACTIVE_ID, "false")
     );
 
     collapsible.setAttribute(ACTIVE_ID, "true");
 
     if (moreBtn) {
       const text = collapsible.getAttribute(MORE_TEXT_ID);
+
       const href = collapsible.getAttribute("data-href");
 
       if (text) {
@@ -175,11 +173,13 @@ const placeholderText =
 
     if (desktopImageEl) {
       const imgSrc = collapsible.getAttribute("data-img-src");
+
       const imgAlt = collapsible.getAttribute("data-img-alt");
 
       if (imgSrc) {
         desktopImageEl.src = imgSrc;
       }
+
       if (imgAlt) {
         desktopImageEl.alt = imgAlt;
       }

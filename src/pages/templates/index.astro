@@ -9,15 +9,10 @@ import keyBy from "lodash/keyBy";
 import { getCollection } from "astro:content";
 import TemplatesHero from "~/components/blocks/TemplatesHero.astro";
 import TempateTagMenu from "~/components/blocks/TempateTagMenu.astro";
+import Hero from "~/components/blocks/Hero.astro";
+import TemplateGrid from "~/components/blocks/TemplateGrid.astro";
 
 const templates = await getCollection("templates");
-
-const tags = Object.values(
-  keyBy(
-    templates.flatMap((tmpl: any) => tmpl.data.tags),
-    "name"
-  )
-).sort((a, b) => a.sort - b.sort);
 
 const featured = templates
   .filter((tmpl: any) => !!tmpl.data.metadata.featured)
@@ -28,49 +23,42 @@ const rest = templates
   .sort((a: any, b: any) => a.data.sort - b.data.sort);
 ---
 
-<PageLayout title="Blogs">
-  <TemplatesHero />
-  <TempateTagMenu active="All" />
+<PageLayout title="Blogs" spacing="md">
+  <Hero
+    title="Expertly crafted templates"
+    description="Start a board instantly with one of our templates. Templates are fully customizable and come with instructions, sticky notes, categories and fun collaboration tools."
+    pill="Templates"
+    compact
+  />
+  <TempateTagMenu active="all" />
 
-  <section class="px-4">
-    <div class="mx-auto max-w-[80rem]">
-      <p class="text-xl font-medium">Featured Templates</p>
-      <div
-        class="grid grid-cols-1 gap-6 py-6 md:grid-cols-2 lg:grid-cols-3 lg:py-4"
-      >
-        {
-          featured.map((tmpl: any) => (
-            <TemplateCard
-              href={`/templates/${tmpl.data.alias}`}
-              image={tmpl.data.thumbUrl}
-              name={tmpl.data.label}
-              description={tmpl.data.description}
-              tags={tmpl.data.tags}
-            />
-          ))
-        }
-      </div>
-    </div>
-  </section>
+  <TemplateGrid title="Featured templates">
+    {
+      featured.map((tmpl: any) => (
+        <TemplateCard
+          href={`/templates/${tmpl.data.alias}`}
+          image={tmpl.data.thumbUrl}
+          name={tmpl.data.label}
+          description={tmpl.data.description}
+          tags={tmpl.data.tags}
+        />
+      ))
+    }
+  </TemplateGrid>
 
-  <section class="px-4">
-    <div class="mx-auto max-w-[80rem]">
-      <p class="text-xl font-medium">All Templates</p>
-      <div
-        class="grid grid-cols-1 gap-6 py-6 md:grid-cols-2 lg:grid-cols-3 lg:py-4"
-      >
-        {
-          rest.map((tmpl: any) => (
-            <TemplateCard
-              href={`/templates/${tmpl.data.alias}`}
-              image={tmpl.data.thumbUrl}
-              name={tmpl.data.label}
-              description={tmpl.data.description}
-              tags={tmpl.data.tags}
-            />
-          ))
-        }
-      </div>
-    </div>
-  </section>
+  <TemplateGrid title="All templates">
+    {
+      rest.map((tmpl: any) => (
+        <TemplateCard
+          href={`/templates/${tmpl.data.alias}`}
+          image={tmpl.data.thumbUrl}
+          name={tmpl.data.label}
+          description={tmpl.data.description}
+          tags={tmpl.data.tags}
+        />
+      ))
+    }
+  </TemplateGrid>
+
+  <div class="h-8"></div>
 </PageLayout>

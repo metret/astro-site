@@ -11,10 +11,12 @@ import "swiper/css";
 import CustomerLogos from "~/components/blocks/CustomerLogos.astro";
 import UsageStatement from "~/components/blocks/instances/UsageStatement.astro";
 import SolutionTemplateItem from "~/components/blocks/SolutionTemplateItem.astro";
+import SolutionTemplateItem2 from "~/components/blocks/SolutionTemplateItem2.astro";
 import DiagrammingFeatureItem from "~/components/blocks/features/DiagrammingFeatureItem.astro";
 import ActionsCommentsMentionsFeatureItem from "~/components/blocks/features/ActionsCommentsMentionsFeatureItem.astro";
 import TopicsFeatureItem from "~/components/blocks/features/TopicsFeatureItem.astro";
 import ActivityFramesFeatureItem from "~/components/blocks/features/ActivityFramesFeatureItem.astro";
+import SolutionGrid from "~/components/blocks/SolutionGrid.astro";
 ---
 
 <PageLayout title="Product Designers">
@@ -25,11 +27,7 @@ import ActivityFramesFeatureItem from "~/components/blocks/features/ActivityFram
     color="green"
   />
 
-  <div class="px-4">
-    <div class="mx-auto mt-16 mb-6 max-w-[1024px] space-y-16">
-      <UsageStatement />
-    </div>
-  </div>
+  <UsageStatement />
 
   <CustomerLogos />
 
@@ -62,38 +60,31 @@ import ActivityFramesFeatureItem from "~/components/blocks/features/ActivityFram
     title="Everything you need to communicate without complexity"
   />
 
-  <section class="relative z-[1] py-8">
-    <div class="mx-auto grid max-w-[1280px] grid-cols-2 gap-16 px-8">
-      <DiagrammingFeatureItem />
-      <ActionsCommentsMentionsFeatureItem />
-      <TopicsFeatureItem />
-      <ActivityFramesFeatureItem />
-    </div>
-  </section>
+  <SolutionGrid columns="2">
+    <DiagrammingFeatureItem />
+    <ActionsCommentsMentionsFeatureItem />
+    <TopicsFeatureItem />
+    <ActivityFramesFeatureItem />
+  </SolutionGrid>
 
   <SolutionBanner
     title="Try these perfect Templates for Product Design Teams"
   />
 
-  <section class="relative z-[1] py-8">
-    <div class="mx-auto grid max-w-[1280px] grid-cols-3 gap-16 px-8">
-      <SolutionTemplateItem
-        title="User Journey Mapping"
-        description="Try these perfect Templates for Product Design Teams"
-        image="~/assets/images/feature-placeholder.png"
-      />
-      <SolutionTemplateItem
-        title="Empathy Mapping"
-        description="Try these perfect Templates for Product Design Teams"
-        image="~/assets/images/feature-placeholder.png"
-      />
-      <SolutionTemplateItem
-        title="Timeline Roadmap"
-        description="Try these perfect Templates for Product Design Teams"
-        image="~/assets/images/feature-placeholder.png"
-      />
-    </div>
-  </section>
+  <SolutionGrid columns="3">
+    <SolutionTemplateItem2
+      alias="user-journey-mapping"
+      description="Try these perfect Templates for Product Design Teams"
+    />
+    <SolutionTemplateItem2
+      alias="empathy-map"
+      description="Try these perfect Templates for Product Design Teams"
+    />
+    <SolutionTemplateItem2
+      alias="timeline-roadmap"
+      description="Try these perfect Templates for Product Design Teams"
+    />
+  </SolutionGrid>
 
   <CustomerStories />
 

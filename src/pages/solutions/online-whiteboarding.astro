@@ -11,10 +11,12 @@ import CustomerLogos from "~/components/blocks/CustomerLogos.astro";
 import UsageStatement from "~/components/blocks/instances/UsageStatement.astro";
 import "swiper/css";
 import SolutionTemplateItem from "~/components/blocks/SolutionTemplateItem.astro";
+import SolutionTemplateItem2 from "~/components/blocks/SolutionTemplateItem2.astro";
 import FocusedCollaborationFeatureItem from "~/components/blocks/features/FocusedCollaborationFeatureItem.astro";
 import ActionsCommentsMentionsFeatureItem from "~/components/blocks/features/ActionsCommentsMentionsFeatureItem.astro";
 import CSVDataImportFeatureItem from "~/components/blocks/features/CSVDataImportFeatureItem.astro";
 import PrivateWritingFeatureItem from "~/components/blocks/features/PrivateWritingFeatureItem.astro";
+import SolutionGrid from "~/components/blocks/SolutionGrid.astro";
 ---
 
 <PageLayout title="Online Whiteboarding">
@@ -25,11 +27,7 @@ import PrivateWritingFeatureItem from "~/components/blocks/features/PrivateWriti
     color="purple"
   />
 
-  <div class="px-4">
-    <div class="mx-auto mt-16 mb-6 max-w-[1024px] space-y-16">
-      <UsageStatement />
-    </div>
-  </div>
+  <UsageStatement />
 
   <CustomerLogos />
 
@@ -64,38 +62,31 @@ import PrivateWritingFeatureItem from "~/components/blocks/features/PrivateWriti
     emoji=""
   />
 
-  <section class="relative z-[1] py-8">
-    <div class="mx-auto grid max-w-[1280px] grid-cols-2 gap-16 px-8">
-      <FocusedCollaborationFeatureItem />
-      <ActionsCommentsMentionsFeatureItem />
-      <CSVDataImportFeatureItem />
-      <PrivateWritingFeatureItem />
-    </div>
-  </section>
+  <SolutionGrid columns="2">
+    <FocusedCollaborationFeatureItem />
+    <ActionsCommentsMentionsFeatureItem />
+    <CSVDataImportFeatureItem />
+    <PrivateWritingFeatureItem />
+  </SolutionGrid>
 
   <SolutionBanner
     title="Expertly crafted Templates for efficient Whiteboard meetings"
   />
 
-  <section class="relative z-[1] py-8">
-    <div class="mx-auto grid max-w-[1280px] grid-cols-3 gap-16 px-8">
-      <SolutionTemplateItem
-        title="Good, Bad, Stop, Start"
-        description="Reflect on past work and plan improvements with this retrospective template."
-        image="~/assets/images/feature-placeholder.png"
-      />
-      <SolutionTemplateItem
-        title="Sailboat"
-        description="Navigate your team's journey with the Sailboat retrospective template."
-        image="~/assets/images/feature-placeholder.png"
-      />
-      <SolutionTemplateItem
-        title="Ishakawa Diagram"
-        description="Identify root causes of issues with the Ishakawa Diagram template."
-        image="~/assets/images/feature-placeholder.png"
-      />
-    </div>
-  </section>
+  <SolutionGrid columns="3">
+    <SolutionTemplateItem2
+      alias="good-bad-start-stop"
+      description="Reflect on past work and plan improvements with this retrospective template."
+    />
+    <SolutionTemplateItem2
+      alias="the-sailboat"
+      description="Navigate your team's journey with the Sailboat retrospective template."
+    />
+    <SolutionTemplateItem2
+      alias="ishakawa-diagram-a.k.a-fishbone"
+      description="Identify root causes of issues with the Ishakawa Diagram template."
+    />
+  </SolutionGrid>
 
   <CustomerStories />
 
