@@ -57,7 +57,7 @@ const allTags = allLabels.map((label) => ({
               <a
                 data-active={c.slug === tag}
                 class="filter-btn text-body hover:text-purple data-[active='true']:text-purple px-2 py-3.5 text-center text-base font-medium"
-                href={c.slug === "all" ? "/blog" : `/blog/tag/${c.slug}`}
+                href={c.slug === "all" ? "/blog" : `/blog/${c.slug}`}
               >
                 {c.label}
               </a>

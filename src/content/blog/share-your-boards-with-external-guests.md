@@ -28,7 +28,7 @@ authorName: "Jamie Hanratty"
 
 Metro Retro is great for working with your colleagues but sometimes you need to collaborate with people outside your team, so this month we’ve brought you the ability to share your board securely with external guests. It’s perfect for working with clients, customers and partners without needing to invite them into your space as a full member.
 
-This update comes alongside other changes to sharing boards, as well as more new features and templates. You can read the full details in the [May 2022 release notes](https://updates.metroretro.wpsc.dev/external-guests-better-sharing-v2.49-uuvn2), or get started with the quick guide to guests below.
+This update comes alongside other changes to sharing boards, as well as more new features and templates. You can read the full details in the [May 2022 release notes](https://updates.metroretro.io/external-guests-better-sharing-v2.49-uuvn2), or get started with the quick guide to guests below.
 
 ![](../../assets/images/legacy/2023/05/63453dd8de5b3ce2c59ab50c_image-149.png)
 

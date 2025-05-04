@@ -9,19 +9,19 @@ const footerLinks: {
     title: "Product",
     links: [
       { title: "Templates", url: "/templates" },
-      { title: "Meetings & Workshops", url: "/meetings-and-workshops" },
-      { title: "Task Tracking", url: "/task-tracking" },
-      { title: "Jira Integration", url: "/jira-integration" },
+      { title: "Meetings & Workshops", url: "/product/meetings-workshops" },
+      { title: "Task Tracking", url: "/product/task-tracking" },
+      { title: "Jira Integration", url: "/product/jira-integration" },
       { title: "Pricing", url: "/pricing" },
     ],
   },
   {
     title: "Use Cases",
     links: [
-      { title: "Retrospectives", url: "/retrospectives" },
-      { title: "Online Whiteboarding", url: "/online-whiteboarding" },
-      { title: "Remote Collaboration", url: "/remote-collaboration" },
-      { title: "Project Management", url: "/project-management" },
+      { title: "Retrospectives", url: "/solutions/retrospectives" },
+      { title: "Online Whiteboarding", url: "/solutions/online-whiteboarding" },
+      { title: "Remote Collaboration", url: "/solutions/remote-collaboration" },
+      { title: "Project Management", url: "/solutions/project-management" },
     ],
   },
   {
@@ -164,7 +164,7 @@ const footerLinks: {
     const header = fl.querySelector(".footer-link-header") as HTMLDivElement;
 
     const contentWrapper = fl.querySelector(
-      "[data-expanded]",
+      "[data-expanded]"
     ) as HTMLDivElement;
 
     header.addEventListener("click", () => {

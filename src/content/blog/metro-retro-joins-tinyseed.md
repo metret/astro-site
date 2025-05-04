@@ -80,7 +80,7 @@ Remote and hybrid working is now established around the world, especially in the
 - [**retailMetrix**](https://retailmetrix.io/)
 - [**RewardUp**](https://rewardup.com/)
 - [**Shrpa**](https://shrpa.com/)
-- [**Tiny Easy**](https://www.tinyeasy.co.nz/)
+- [**Tiny Easy**](https://www.tinyeasy.com/)
 - [**TrainerMetrics**](https://trainermetrics.com/)
 - [**UpSheets**](https://upsheets.com/)
 - [**Wrenly**](https://wrenly.ai/)

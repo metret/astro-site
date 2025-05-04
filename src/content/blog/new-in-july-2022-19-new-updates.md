@@ -35,7 +35,7 @@ Welcome to a new update of Metro Retro! With this one we’ve been focusing on e
 
 ### July’s update
 
-We counted and there are a total of 19 different changes & new features in this release. Steve demos all the updates [in this video](https://updates.metroretro.wpsc.dev/big-stickies-v2.50-3pbLa), and below we’ve given an overview of the changes and why we think they’re important.
+We counted and there are a total of 19 different changes & new features in this release. Steve demos all the updates [in this video](https://updates.metroretro.io/big-stickies-v2.50-3pbLa), and below we’ve given an overview of the changes and why we think they’re important.
 
 ![](../../assets/images/legacy/2023/05/634e94296e47a91398d9b1e9_Video-of-updates.png)
 
@@ -53,7 +53,7 @@ If your team already love working in Metro Retro there are new object types for 
 
 Using tokens for a quick team mood check-in
 
-Or use the new Task Cards for collaborative roadmapping sessions (see the magic of [importing your backlog to Metro Retro](https://docs.metroretro.wpsc.dev/on-the-board/import-data-to-your-boards#how-to-import-and-map-your-data)):
+Or use the new Task Cards for collaborative roadmapping sessions (see the magic of [importing your backlog to Metro Retro](https://docs.metroretro.io/on-the-board/import-data-to-your-boards#how-to-import-and-map-your-data)):
 
 ![](../../assets/images/legacy/2023/05/634edae0eea2b5c7e509c7d3_Quarterly-roadmap-1.png)
 

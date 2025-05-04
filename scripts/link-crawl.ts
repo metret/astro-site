@@ -26,6 +26,8 @@ const IGNORE_PATTERNS: RegExp[] = [
     /\.setup/,
     /\/account.*/,
     /\/login.*/,
+    /\/create.*/,
+    /\/compare.*/,
 ];
 
 // Keep track of visited URLs (full URLs including domain)

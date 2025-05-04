@@ -17,7 +17,7 @@ if (!template) {
 }
 ---
 
-<a href={`/templates/${alias}`} class="block">
+<a href={`/templates/${template.data.seoSlug}`} class="block">
   <img
     class="shadow-mr mb-4 block rounded-[20px] border-1 border-solid border-blue-200/15 object-cover"
     src={template.data.thumbUrl}

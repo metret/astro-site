@@ -32,7 +32,7 @@ Testing the confetti cannon is a hard job, but someone’s got to do it.
 
 ### App Updates
 
-This is a summary of the main updates, for full details see the [release notes](https://updates.metroretro.wpsc.dev/confetti-2.0-a-burst-of-updates-40NXO0).
+This is a summary of the main updates, for full details see the [release notes](https://updates.metroretro.io/confetti-2.0-a-burst-of-updates-40NXO0).
 
 - The confetti has new streamers – go and try it!
 - Simplified team dashboard
