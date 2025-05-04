@@ -26,14 +26,14 @@ const all = {
 const tags = Object.values(
   keyBy(
     templates.flatMap((tmpl: any) => tmpl.data.tags),
-    "name"
-  )
+    "name",
+  ),
 )
   .sort((a, b) => a.sort - b.sort)
   .map((t) => ({ ...t, href: `/templates/${t.name}` }));
 ---
 
-<section class="mx-auto -mt-16 max-w-[45rem] px-4 py-16">
+<section class="mx-auto -mt-16 max-w-[56rem] px-4 py-16">
   <div class="flex flex-wrap justify-center gap-2">
     {
       [all, ...tags].map((t: any) => (
