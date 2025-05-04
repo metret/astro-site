@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import Anthropic from '@anthropic-ai/sdk';
 import fs from 'fs';
@@ -51,6 +52,8 @@ const kebabizeTags = (templates: Record<string, any>[]) => {
 };
 
 const generateArticle = async (tmpl: Record<string, any>) => {
+
+    console.log(`Generating article for ${tmpl.alias}`);
 
     const snapshot = await loadSnapshot(tmpl.id);
 
@@ -162,20 +165,18 @@ Your writing should sound like it comes from a knowledgeable colleague who respe
 
 const generateTitles = async (templates: any[]) => {
 
-    const data = [
-        ["alias", "label", "tag1", "tag2", "tag3"],
-        ...templates.map((t: any) => [t.alias, t.label, t.tags[0]?.label, t.tags[1]?.label, t.tags[2]?.label])
-    ]
+    const data = templates.map((t: any) => [t.alias, t.label, t.tags[0]?.label, t.tags[1]?.label, t.tags[2]?.label]);
 
     const results = [] as any[];
 
-    // Look in blocks of 40
-    const bs = 40;
+    const processBlock = async (items: any[]) => {
 
-    for (let i = 0; i < data.length; i += bs) {
-        console.log(`Processing block ${i / bs + 1} of ${Math.ceil(data.length / bs)}`);
+        const itemsWithHeader = [
+            ["alias", "label", "tag1", "tag2", "tag3"],
+            ...items
+        ];
 
-        const csv = data.slice(i, i + 40).map(row => row.map((x: any) => `"${x}"`).join(",")).join("\n");
+        const csv = itemsWithHeader.map(row => row.map((x: any) => `"${x}"`).join(",")).join("\n");
 
         const msg = await anthropic.messages.create({
             model: "claude-3-7-sonnet-20250219",
@@ -191,6 +192,8 @@ const generateTitles = async (templates: any[]) => {
                 '| Metro Retro will be appended by the application, so do not include it in the title.',
                 'Where the title doesn\'t indicate the template type, add the type to the title.',
                 'Where the title uses /, replace with comma or format nicely.',
+                'If the existing title starts with "The", do not omit it.',
+                'Do not use colons (:) or semicolons (;) in the title.',
                 'Return a JSON array of objects with the following format: { alias: string, title: string }',
             ].join('\n'),
             messages: [
@@ -211,21 +214,38 @@ const generateTitles = async (templates: any[]) => {
         }
     }
 
+    // Look in blocks of 40
+    const bs = 40;
+
+    for (let i = 0; i < data.length; i += bs) {
+        console.log(`Processing block ${i / bs + 1} of ${Math.ceil(data.length / bs)}`);
+        await processBlock(data.slice(i, i + bs));
+    }
+
+    // Check all items have results
+    const missing = data.filter((x: any) => !results.find((y: any) => y.alias === x[0]));
+
+    if (missing.length > 0) {
+        console.log(`Processing ${missing.length} missing items`);
+        await processBlock(missing);
+    }
+
     return results;
 }
 
 const main = async () => {
     const templates = await load();
 
-    const titles = await generateTitles(templates);
-
     slugifyAliases(templates);
     kebabizeTags(templates);
+
+    const seoTitles = await generateTitles(templates);
 
     // Match up the titles with the templates
     const matched = templates.map((t: any) => ({
         ...t,
-        seoTitle: titles.find((x: any) => x.alias === t.alias)?.title
+        seoTitle: seoTitles.find((x: any) => x.alias === t.alias)?.title,
+        seoSlug: slugify(seoTitles.find((x: any) => x.alias === t.alias)?.title || t.alias, { lower: true }),
     }));
 
     // Write to file
@@ -245,10 +265,12 @@ const main = async () => {
             if (content) {
                 fs.writeFileSync(contentPath, content);
             }
+
+            // Wait for 30 seconds, b/c of rate limits on the API
+            await new Promise(resolve => setTimeout(resolve, 30000));
         }
 
-        // Wait for 30 seconds
-        await new Promise(resolve => setTimeout(resolve, 30000));
+
     }
 
 };

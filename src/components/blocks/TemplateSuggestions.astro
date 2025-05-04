@@ -55,7 +55,7 @@ const suggestions = templates
       {
         suggestions.map((tmpl) => (
           <TemplateCard
-            href={`/templates/${tmpl.data.alias}`}
+            href={`/templates/${tmpl.data.seoSlug}`}
             image={tmpl.data.thumbUrl}
             name={tmpl.data.label}
             description={tmpl.data.description}

@@ -40,7 +40,7 @@ The first version of Metro Retro started as a hack-day project, built in just 18
 
 Our objective is to provide the best collaboration and productivity software on the planet.  A product that supercharges your meetings. A tool that amplifies your power to capture and organize information.  And most importantly, an app that feels so good to use that you’ll want to tell all your friends about it.
 
-Metro Retro V2 is our first step (or maybe second step) towards this objective.  It’s a new application, designed and architected to provide a foundation to build our vision upon, while still maintaining the flexible, fun and intuitive feel you’ve all grown to love in our current app.  [It’s available now](.setup/).
+Metro Retro V2 is our first step (or maybe second step) towards this objective.  It’s a new application, designed and architected to provide a foundation to build our vision upon, while still maintaining the flexible, fun and intuitive feel you’ve all grown to love in our current app.  [It’s available now](https://metroretro.io/setup).
 
 ### What does this mean in plain English?
 
@@ -51,7 +51,7 @@ In short:
 - There’s a new team dashboard with spaces and folders, more security settings, single-sign on, and more in the pipeline.
 - It’s designed for running all your meetings, not just retrospectives.
 
-You can see a preview of the new features on the [Announcement](/early-access) page.
+You can see a preview of the new features on the [Announcement](https://metroretro.io/early-access) page.
 
 ### When is this happening?
 

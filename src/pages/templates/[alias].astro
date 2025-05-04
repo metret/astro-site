@@ -1,29 +1,20 @@
 ---
 import { getCollection, render } from "astro:content";
-import BlogPostContent from "~/components/blocks/BlogPostContent.astro";
-import BlogPostHero from "~/components/blocks/BlogPostHero.astro";
-import Dots from "~/components/Dots.astro";
 import PageLayout from "~/layouts/PageLayout.astro";
-import Newsletter from "~/components/blocks/Newsletter.astro";
-import PostCard from "~/components/blocks/PostCard.astro";
-import SignUp from "~/components/blocks/SignUp.astro";
-import type { Props as AstroSEOProps } from "astro-seo";
-import { articleMeta, dynamicImportImage } from "~/utils";
+import { articleMeta } from "~/utils";
 import LinkButton from "~/components/ui/LinkButton.astro";
-import LinkArrowButton from "~/components/ui/LinkArrowButton.astro";
 import TemplateTag from "~/components/blocks/TemplateTag.astro";
 import LeftArrowLinkButton from "~/components/ui/LeftArrowLinkButton.astro";
 import TemplateSuggestions from "~/components/blocks/TemplateSuggestions.astro";
 import TemplatePreview from "~/components/blocks/TemplatePreview.astro";
 import Document from "~/components/blocks/Document.astro";
-import Hero from "~/components/blocks/Hero.astro";
 
 export async function getStaticPaths() {
   const templates = await getCollection("templates");
 
   return templates.map((template) => {
     return {
-      params: { alias: template.data.alias },
+      params: { alias: template.data.seoSlug },
       props: { template },
     };
   });

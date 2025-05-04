@@ -78,7 +78,7 @@ Teams running a continuous meeting series, like a sprint retrospective, may want
 
 ![An example of a check-out template that asks people to rate the meeting from 1-5.](https://outranking.s3.amazonaws.com/1115372_hanrattyjamie%20gmail/59508455/2023-10-18T15%3A06%3A33.347688_9acec1df-8024-40ca-9cce-d32c0f710498)
 
-Use free template now: [Rate The Meeting 1-5](/BOUC9S0GU3E6)
+Use free template now: [Rate The Meeting 1-5](https://metroretro.io/BOUC9S0GU3E6)
 
 #### Example ROTI: Treasure
 
@@ -86,7 +86,7 @@ This is an example of using a simple metaphor to elicit feedback. Participants c
 
 ![An example of a check-out template that uses a treasure metaphor for the value of the meeting.](https://outranking.s3.amazonaws.com/1115372_hanrattyjamie%20gmail/59508455/2023-10-18T14%3A59%3A35.165070_81a8d9f3-f778-4726-89f0-c644b40c62a6)
 
-Use free template now: [ROTI Treasure Template](/BO8WOI3Z6OPB)
+Use free template now: [ROTI Treasure Template](https://metroretro.io/BO8WOI3Z6OPB)
 
 #### Example ROTI: If This Meeting Was A Phone
 
@@ -94,7 +94,7 @@ Another example of using a metaphor to gather feedback on the meeting. Simply as
 
 ![A check-out template comparing the meeting value to a range of phones. (Long live the Nokia 3310!)](../../assets/images/legacy/2023/10/image-4-1024x503.png)
 
-Use free template now: [If This Meeting Was A Phone](/BOSDLJH1JTVV)
+Use free template now: [If This Meeting Was A Phone](https://metroretro.io/BOSDLJH1JTVV)
 
 ### Gather Feedback: Words On The Door
 

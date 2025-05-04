@@ -56,6 +56,7 @@ export function templatesLoader(): Loader {
             createdAt: z.string().datetime(),
             seoTitle: z.string(),
             seoDescription: z.string(),
+            seoSlug: z.string(),
             tags: z.array(
                 z.object({
                     id: z.string().uuid(),

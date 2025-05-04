@@ -8,6 +8,7 @@ import X from "~/pages/solutions/x.astro";
 import TempateTagMenu from "~/components/blocks/TempateTagMenu.astro";
 import TemplatesHero from "~/components/blocks/TemplatesHero.astro";
 import Hero from "~/components/blocks/Hero.astro";
+import TemplateGrid from "~/components/blocks/TemplateGrid.astro";
 
 // 1. Generate a new path for every collection entry
 export async function getStaticPaths() {
@@ -51,26 +52,18 @@ if (!tag) {
     compact
   />
   <TempateTagMenu active={tag.name} />
-  <section class="px-4">
-    <div class="mx-auto max-w-[80rem]">
-      <p class="text-xl/8 font-medium">
-        {tag.label}
-      </p>
-      <div
-        class="grid grid-cols-1 gap-6 py-6 md:grid-cols-2 lg:grid-cols-3 lg:py-4"
-      >
-        {
-          matching.map((tmpl) => (
-            <TemplateCard
-              href={`/templates/${tmpl.data.alias}`}
-              image={tmpl.data.thumbUrl}
-              name={tmpl.data.label}
-              description={tmpl.data.description}
-              tags={tmpl.data.tags}
-            />
-          ))
-        }
-      </div>
-    </div>
-  </section>
+
+  <TemplateGrid title={tag.label}>
+    {
+      matching.map((tmpl) => (
+        <TemplateCard
+          href={`/templates/${tmpl.data.seoSlug}`}
+          image={tmpl.data.thumbUrl}
+          name={tmpl.data.label}
+          description={tmpl.data.description}
+          tags={tmpl.data.tags}
+        />
+      ))
+    }
+  </TemplateGrid>
 </PageLayout>

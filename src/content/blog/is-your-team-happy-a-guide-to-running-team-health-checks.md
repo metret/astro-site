@@ -69,7 +69,7 @@ These are examples of how you can introduce health checks to your team.
 
 Use a team health check before a meeting to see how the team is feeling.
 
-**Example – thermometer check-in activity –** [**use this template now**](/BOKRBNH5TNRQ)
+**Example – thermometer check-in activity –** [**use this template now**](https://metroretro.io/BOKRBNH5TNRQ)
 
 ![Team thermometer start](../../assets/images/legacy/2023/05/5f6394a3fde4ae90a679b646_Id_Kr4aYs7Nmfyu_mRN9QGp5s_2nfEP9aDgzUrADjJJJyGT8BK7JZ-4fGAxGrcfRPqQ2JDee4e-cEd7eEPwLC1aLkIi9gvwSAkrVFUq4rIyCdQwGxwqvL0G2yzgZ48fmKLDJwU7.png)
 
@@ -95,14 +95,14 @@ Helps the team settle into the session and reveals any problems before you start
 
 **Hints and Tips**
 
-- Use the [free Metro Retro template](/BOKRBNH5TNRQ).
+- Use the [free Metro Retro template](https://metroretro.io/BOKRBNH5TNRQ).
 - Create multiple thermometers if you want to measure different factors.
 
 ### 2\. In-depth Health Check – replace a retrospective
 
 Instead of holding a typical retrospective, offer the team the time to score how they feel across various factors. You will have more time to explore issues, so either run a variety of exercises with the team or deep dive into problem areas.
 
-**Example – Team Health exercise in Metro Retro –** [**use a Team Health Check template now**](/BOV5FJ0RMK72)
+**Example – Team Health exercise in Metro Retro –** [**use a Team Health Check template now**](https://metroretro.io/BOV5FJ0RMK72)
 
 ![Team Health check with sticky notes](../../assets/images/legacy/2023/05/5f6394a407eef7d77a28607f_fzzz3Dw9CHAM2JkKrUBHUReLbTL5baeIMEsF1u0LxKdsutmL1UGodzneJqUiLQo_hswE5Oj7hNvikXAzJBaMG0U6BPPl6fxCp5KiAZ7i6iVGcrQle1TTsWzyKX7tvj5mynlWYNn2.png)
 
@@ -163,14 +163,14 @@ Meetings are a time that the team comes together – if people feel significantl
 
 When a team wants to track their mood as a metric, there are various ways to collect, track, and analyze the data together. A Niko-Niko calendar is a simple, visual way to collect daily mood data.
 
-[**Use the free Niko-Niko calendar template**](/BOU7UVFLE1G6)
+[**Use the free Niko-Niko calendar template**](https://metroretro.io/BOU7UVFLE1G6)
 
 ![](../../assets/images/legacy/2023/05/64219477a217c255f3ec70b4_image-181.png)
 
 Use a Niko-Niko calendar to track daily mood
 
 **What is it?**  
-Either collect the daily mood data with a [free Metro Retro template](/BOU7UVFLE1G6), or use a tool like [Team Mood.](https://teammood.com/)
+Either collect the daily mood data with a [free Metro Retro template](https://metroretro.io/BOU7UVFLE1G6), or use a tool like [Team Mood.](https://teammood.com/)
 
 **Why Do It?**  
 A team may want to track their mood as an indicator of where they can improve.

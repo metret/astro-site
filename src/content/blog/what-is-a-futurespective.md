@@ -52,7 +52,7 @@ A retrospective looks back at events that have already happened, whereas a futur
 
 ### 1\. Hopes and Concerns
 
-[Use the Hopes and Concerns template now](/BOTYPMZZ370W)
+[Use the Hopes and Concerns template now](https://metroretro.io/BOTYPMZZ370W)
 
 ![](../../assets/images/legacy/2023/05/5f31712663b9d18f7a7f3a6a_Hopes-and-Concerns-retro.png)
 
@@ -64,7 +64,7 @@ The first futurespective I ever ran was a _Hopes and Concerns_ exercise with a c
 
 ### 2\. The Sailboat Futurespective
 
-[Use the Sailboat Futurespective template now](/BO6B8SOH6DL5)
+[Use the Sailboat Futurespective template now](https://metroretro.io/BO6B8SOH6DL5)
 
 ![](../../assets/images/legacy/2023/05/5f3170dfe0a2e4670f2b58eb_Sailboat-futurespective.png)
 
