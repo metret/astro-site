@@ -13,55 +13,45 @@ const tabs = [
     image: "~/assets/images/page-heroes/team-health.png",
     body: "Improve productivity and build a team based on trust and psychological safety",
     href: "/solutions/team-health",
-    features: [
-      "Expertly crafted icebreakers",
-      "Private writing mode",
-      "Gestures, gadgets and hats!",
-    ],
+    feature1: "Expertly crafted icebreakers",
+    feature2: "Private writing mode",
+    feature3: "Gestures, gadgets and hats!",
   },
   {
     title: "Planning Ahead",
     image: "~/assets/images/page-heroes/planning-ahead.png",
     body: "Effective planning builds structure, reduces risk and keeps your team focused on what matters.",
     href: "/solutions/planning-ahead",
-    features: [
-      "Prioritization Templates",
-      "Roadmapping Tools",
-      "Action Planning",
-    ],
+    feature1: "Prioritization Templates",
+    feature2: "Roadmapping Tools",
+    feature3: "Action Planning",
   },
   {
     title: "Project Reviews",
     image: "~/assets/images/page-heroes/project-reviews.png",
     body: "Gain critical insights and improve future work with effective project reviews",
     href: "/solutions/project-reviews",
-    features: [
-      "Engaging Retrospectives",
-      "Import data from multiple sources",
-      "Action Planning",
-    ],
+    feature1: "Engaging Retrospectives",
+    feature2: "Import data from multiple sources",
+    feature3: "Action Planning",
   },
   {
     title: "Better Collaboration",
     image: "~/assets/images/page-heroes/better-collaboration.png",
     body: "Good collaboration is built on communication, great collaboration is built on trust",
     href: "/solutions/better-collaboration",
-    features: [
-      "Private writing mode",
-      "A space design for expression",
-      "Facilitator controls",
-    ],
+    feature1: "Private writing mode",
+    feature2: "A space design for expression",
+    feature3: "Facilitator controls",
   },
   {
     title: "Team Alignment",
     image: "~/assets/images/page-heroes/team-alignment.png",
     body: "Drive efficiency with team alignment and a shared understanding of goals",
     href: "/solutions/team-alignment",
-    features: [
-      "A single source of truth",
-      "A space design for expression",
-      "Action Planning",
-    ],
+    feature1: "A single source of truth",
+    feature2: "A space design for expression",
+    feature3: "Action Planning",
   },
 ];
 
@@ -84,21 +74,16 @@ const loadedImages = await Promise.all(
 
   <div class="mt-16 space-y-4 md:px-4 lg:hidden">
     {
-      loadedImages.map((tab) => (
+      loadedImages.map((tab, index) => (
         <div>
           <button
-            data-active="false"
-            data-more-text={`More about ${tab.title}`}
-            data-href={tab.href}
-            data-body={tab.body}
-            data-features={tab.features.join(",")}
-            data-image={tab.loadedImage.src}
-            class="peer text-body hover:text-purple data-[active=true]:bg-purple w-full rounded-[40px] border-2 border-white bg-white px-6 py-3 text-base/6 transition-colors hover:border-purple-100 hover:bg-purple-100 data-[active=true]:text-white"
+            data-index={index}
+            class="mobile-outcome-tab text-body hover:text-purple data-[active=true]:bg-purple w-full rounded-[40px] border-2 border-white bg-white px-6 py-3 text-base/6 transition-colors hover:border-purple-100 hover:bg-purple-100 data-[active=true]:text-white"
           >
             {tab.title}
           </button>
 
-          <div class="hidden peer-data-[active=true]:block">
+          <div class={`mobile-content-panel ${index !== 0 ? "hidden" : ""}`}>
             <div class="aspect-[1.53] w-full rounded-[20px] bg-blue-100 drop-shadow-[0_3px_12px_rgba(98,116,150,0.2)]">
               <Image
                 src={tab.loadedImage}
@@ -108,15 +93,11 @@ const loadedImages = await Promise.all(
             </div>
             <p class="text-lg/6 font-semibold text-black">{tab.body}</p>
             <div class="mt-6 mb-8 space-y-6">
-              {tab.features.map((feature) => (
-                <IconText text={feature} class="*:[svg]:text-purple" />
-              ))}
+              <IconText text={tab.feature1} class="*:[svg]:text-purple" />
+              <IconText text={tab.feature2} class="*:[svg]:text-purple" />
+              <IconText text={tab.feature3} class="*:[svg]:text-purple" />
             </div>
-            <LinkArrowButton
-              color="purple"
-              id="outcome-more-link-mobile"
-              href={tab.href}
-            >
+            <LinkArrowButton color="purple" href={tab.href}>
               {`More about ${tab.title}`}
             </LinkArrowButton>
           </div>
@@ -127,17 +108,12 @@ const loadedImages = await Promise.all(
 
   <div class="px-4">
     <div
-      class="mx-auto my-16 hidden w-max items-center justify-center gap-[22px] py-3 max-xl:max-w-[calc(100vw-40px)] max-xl:flex-wrap lg:flex xl:rounded-[100px] xl:bg-white xl:px-[30px] xl:drop-shadow-[0_4px_20px_rgba(98,116,150,0.25)]"
+      class="mx-auto my-16 w-max items-center justify-center gap-[22px] py-3 max-xl:max-w-[calc(100vw-40px)] max-xl:flex-wrap lg:flex xl:rounded-[100px] xl:bg-white xl:px-[30px] xl:drop-shadow-[0_4px_20px_rgba(98,116,150,0.25)]"
     >
       {
-        loadedImages.map((tab) => (
+        loadedImages.map((tab, index) => (
           <button
-            data-active="false"
-            data-more-text={`More about ${tab.title}`}
-            data-href={tab.href}
-            data-body={tab.body}
-            data-features={tab.features.join(",")}
-            data-image={tab.loadedImage.src}
+            data-index={index}
             class="outcome-tab text-body hover:text-purple data-[active=true]:bg-purple rounded-[40px] border-2 border-gray-100 px-6 py-3 text-base/6 transition-colors hover:border-purple-100 hover:bg-purple-100 data-[active=true]:text-white max-xl:bg-white"
           >
             {tab.title}
@@ -145,156 +121,106 @@ const loadedImages = await Promise.all(
         ))
       }
     </div>
-    <div
-      class="mx-auto mt-16 hidden max-w-[1060px] grid-cols-[456px_1fr] gap-16 lg:grid"
-    >
-      <div>
-        <p class="text-lg/6 font-semibold text-black">
-          {loadedImages[0].body}
-        </p>
-        <div class="mt-6 mb-8 space-y-6">
-          {
-            loadedImages[0].features.map((feature) => (
-              <IconText text={feature} class="*:[svg]:text-purple" />
-            ))
-          }
-        </div>
-        <LinkArrowButton
-          color="purple"
-          id="outcome-more-link-desktop"
-          href={loadedImages[0].href}
-        >
-          {`More about ${loadedImages[0].title}`}
-        </LinkArrowButton>
-      </div>
-      <div>
-        <div
-          class="aspect-[1.53] w-full rounded-[20px] bg-blue-100 drop-shadow-[0_3px_12px_rgba(98,116,150,0.2)]"
-        >
-          <Image
-            src={loadedImages[0].loadedImage}
-            alt={loadedImages[0].title}
-            class="h-full w-full rounded-[20px] object-cover"
-          />
-        </div>
-      </div>
+    <div class="relative">
+      {/* Wrapper for desktop content panels */}
+      {
+        loadedImages.map((tab, index) => (
+          <div
+            class={`desktop-content-panel ${index !== 0 ? "hidden" : ""} mx-auto mt-16 grid max-w-[1060px] grid-cols-[456px_1fr] gap-16`}
+          >
+            <div>
+              <p class="text-lg/6 font-semibold text-black">{tab.body}</p>
+              <div class="mt-6 mb-8 space-y-6">
+                <IconText text={tab.feature1} class="*:[svg]:text-purple" />
+                <IconText text={tab.feature2} class="*:[svg]:text-purple" />
+                <IconText text={tab.feature3} class="*:[svg]:text-purple" />
+              </div>
+              <LinkArrowButton color="purple" href={tab.href}>
+                {`More about ${tab.title}`}
+              </LinkArrowButton>
+            </div>
+            <div>
+              <div class="aspect-[1.53] w-full rounded-[20px] bg-blue-100 drop-shadow-[0_3px_12px_rgba(98,116,150,0.2)]">
+                <Image
+                  src={tab.loadedImage}
+                  alt={tab.title}
+                  class="h-full w-full rounded-[20px] object-cover"
+                />
+              </div>
+            </div>
+          </div>
+        ))
+      }
     </div>
   </div>
 </section>
 <script>
-  const tabs = [
-    ...document.querySelectorAll(".outcome-tab"),
-  ] as HTMLButtonElement[];
+  const desktopTabs = Array.from(
+    document.querySelectorAll(".outcome-tab")
+  ) as HTMLButtonElement[];
 
-  const moreLinkMobile = document.getElementById(
-    "outcome-more-link-mobile"
-  ) as HTMLAnchorElement | null;
+  const mobileTabs = Array.from(
+    document.querySelectorAll(".mobile-outcome-tab")
+  ) as HTMLButtonElement[];
 
-  const moreLinkDesktop = document.getElementById(
-    "outcome-more-link-desktop"
-  ) as HTMLAnchorElement | null;
+  const desktopContentPanels = Array.from(
+    document.querySelectorAll(".desktop-content-panel")
+  ) as HTMLElement[];
 
-  const mobileContent = document.querySelector(
-    ".peer-data-[active=true]"
-  ) as HTMLElement;
+  const mobileContentPanels = Array.from(
+    document.querySelectorAll(".mobile-content-panel")
+  ) as HTMLElement[];
 
-  const desktopContent = document.querySelector(
-    ".lg\\:grid > div:first-child"
-  ) as HTMLElement;
+  function setActiveContent(activeIndex: number) {
+    // Update desktop tabs
+    desktopTabs.forEach((tab, index) => {
+      tab.setAttribute("data-active", index === activeIndex ? "true" : "false");
+    });
 
-  const desktopImage = document.querySelector(
-    ".lg\\:grid > div:last-child > div img"
-  ) as HTMLImageElement;
+    // Update mobile tabs
+    mobileTabs.forEach((tab, index) => {
+      tab.setAttribute("data-active", index === activeIndex ? "true" : "false");
+    });
 
-  function setActiveTab(tab?: HTMLButtonElement | null) {
-    if (!tab) return;
-
-    tab.setAttribute("data-active", "true");
-
-    const moreText = tab.getAttribute("data-more-text");
-
-    const href = tab.getAttribute("data-href");
-
-    const body = tab.getAttribute("data-body");
-
-    const features = tab.getAttribute("data-features")?.split(",") || [];
-
-    const image = tab.getAttribute("data-image");
-
-    if (!moreText) return;
-
-    if (moreLinkMobile) {
-      moreLinkMobile.querySelector("span")!.textContent = moreText;
-      if (href) {
-        moreLinkMobile.href = href;
+    // Update desktop content panels
+    desktopContentPanels.forEach((panel, index) => {
+      if (index === activeIndex) {
+        panel.classList.remove("hidden");
+      } else {
+        panel.classList.add("hidden");
       }
-    }
+    });
 
-    if (moreLinkDesktop) {
-      moreLinkDesktop.querySelector("span")!.textContent = moreText;
-      if (href) {
-        moreLinkDesktop.href = href;
+    // Update mobile content panels
+    mobileContentPanels.forEach((panel, index) => {
+      if (index === activeIndex) {
+        panel.classList.remove("hidden");
+      } else {
+        panel.classList.add("hidden");
       }
-    }
-
-    // Update desktop content
-    if (desktopContent) {
-      const desktopBody = desktopContent.querySelector("p");
-
-      // Select the container for features to manage visibility of items
-      const desktopFeaturesContainer = desktopContent.querySelector(
-        ".mt-6.mb-8.space-y-6"
-      );
-
-      const desktopFeatureElements =
-        desktopFeaturesContainer?.querySelectorAll(".icon-text"); // Select all feature elements within the container
-
-      if (desktopBody && body) desktopBody.textContent = body;
-
-      // Update features, showing/hiding elements as needed
-      if (desktopFeatureElements && features.length) {
-        const maxFeatures = desktopFeatureElements.length; // Max displayable features is based on initial render
-
-        features.forEach((featureText, index) => {
-          if (index < maxFeatures) {
-            // Only update existing elements
-            const featureElement = desktopFeatureElements[index] as HTMLElement; // Cast for style access
-
-            const span = featureElement.querySelector("span");
-
-            if (span) {
-              span.textContent = featureText;
-              featureElement.style.display = ""; // Ensure element is visible
-            }
-          }
-          // Note: If features.length > maxFeatures, extra features won't be shown.
-        });
-
-        // Hide unused feature elements if the new tab has fewer features than initially rendered
-        for (let i = features.length; i < maxFeatures; i++) {
-          const featureElement = desktopFeatureElements[i] as HTMLElement; // Cast for style access
-
-          featureElement.style.display = "none"; // Hide element
-        }
-      } else if (desktopFeatureElements) {
-        // If there are no features for the selected tab, hide all feature elements
-        desktopFeatureElements.forEach(
-          (el) => ((el as HTMLElement).style.display = "none")
-        );
-      }
-    }
-
-    if (desktopImage && image) {
-      desktopImage.src = image;
-    }
+    });
   }
 
-  setActiveTab(tabs[0]);
+  // Initialize with the first tab active
+  if (desktopTabs.length > 0) {
+    setActiveContent(0);
+  }
 
-  tabs.forEach((tab) => {
+  // Event listeners for desktop tabs
+  desktopTabs.forEach((tab) => {
+    const index = parseInt(tab.getAttribute("data-index") || "0", 10);
+
     tab.addEventListener("click", () => {
-      tabs.forEach((tab) => tab.setAttribute("data-active", "false"));
-      setActiveTab(tab);
+      setActiveContent(index);
+    });
+  });
+
+  // Event listeners for mobile tabs
+  mobileTabs.forEach((tab) => {
+    const index = parseInt(tab.getAttribute("data-index") || "0", 10);
+
+    tab.addEventListener("click", () => {
+      setActiveContent(index);
     });
   });
 </script>
