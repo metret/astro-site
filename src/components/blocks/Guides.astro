@@ -1,29 +1,36 @@
 ---
 import Heading from "../ui/Heading.astro";
 
-const resources: { title: string; category: "blog" | "guide"; link: string }[] =
-  [
-    {
-      title: "How to run your first session",
-      category: "guide",
-      link: "#",
-    },
-    {
-      title: "Learn the Metro Retro basics",
-      category: "blog",
-      link: "#",
-    },
-    {
-      title: "How to work with Templates",
-      category: "guide",
-      link: "#",
-    },
-    {
-      title: "How to run a Retrospective",
-      category: "guide",
-      link: "#",
-    },
-  ];
+const resources: {
+  title: string;
+  category: "blog" | "guide";
+  link: string;
+  target?: string;
+}[] = [
+  {
+    title: "How to run your first session",
+    category: "guide",
+    link: "https://docs.metroretro.io/getting-started/running-your-first-session",
+    target: "_blank",
+  },
+  {
+    title: "Learn the Metro Retro basics",
+    category: "blog",
+    link: "https://docs.metroretro.io/getting-started/learn-the-basics",
+    target: "_blank",
+  },
+  {
+    title: "How to work with Templates",
+    category: "guide",
+    link: "https://docs.metroretro.io/templates/templates-overview",
+    target: "_blank",
+  },
+  {
+    title: "How to run a Retrospective",
+    category: "guide",
+    link: "/blog/sprint-retrospective-agenda",
+  },
+];
 ---
 
 <section>
@@ -35,7 +42,7 @@ const resources: { title: string; category: "blog" | "guide"; link: string }[] =
     >
       {
         resources.map((resource) => (
-          <a href={resource.link}>
+          <a href={resource.link} target={resource.target}>
             <div
               class:list={[
                 "flex aspect-[2] flex-col justify-between rounded-xl border-2 border-blue-100 p-6 text-black transition-colors md:aspect-square",
