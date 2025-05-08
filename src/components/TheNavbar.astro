@@ -5,7 +5,9 @@ import type { Link } from "~/types";
 import LinkButton from "./ui/LinkButton.astro";
 import { site } from "~/constants";
 
-const links: (Link & { children?: { title?: string; items: Link[] }[] })[] = [
+const links: (Link & {
+  children?: { title?: string; items: Link[]; target?: string }[];
+})[] = [
   {
     title: "Product",
     href: "#product",
@@ -124,7 +126,11 @@ const links: (Link & { children?: { title?: string; items: Link[] }[] })[] = [
             title: "Blog",
             href: "/blog",
           },
-          { title: "Help", href: "https://docs.metroretro.io" },
+          {
+            title: "Help",
+            href: "https://docs.metroretro.io",
+            target: "_blank",
+          },
           { title: "Support", href: "/support" },
           { title: "About Us", href: "/about" },
         ],
