@@ -20,9 +20,11 @@ const { tag } = Astro.props;
 //   "Updates",
 // ];
 
-const allPosts = (await getCollection("blog")).toSorted(
-  (a, b) => b.data.publishedDate.getTime() - a.data.publishedDate.getTime()
-);
+const allPosts = (await getCollection("blog"))
+  .filter((post) => !post.data.draft)
+  .toSorted(
+    (a, b) => b.data.publishedDate.getTime() - a.data.publishedDate.getTime()
+  );
 
 const nonHeroPosts = allPosts.slice(1);
 

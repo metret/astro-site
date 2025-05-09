@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "The Design Behind Digital Sticky Notes"
 teaser: "Messy by design: the technical rationale for building imperfect digital objects that feel more human."
 category: "Product"
@@ -23,8 +24,6 @@ twitterDescription: "If you hadn’t noticed yet, we’ve built a completely new
 twitterImage: "https://metroretro.io/wp-content/uploads/2021/09/3-big-improvements-to-retrospectives-in-metro-retro-v2.png"
 authorName: "Steve Whitfield"
 ---
-
-# The Design Behind Digital Sticky Notes
 
 ## Enjoy the little things!
 

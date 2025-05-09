@@ -9,6 +9,7 @@ import { templatesLoader } from './template-loader';
 const blog = defineCollection({
     loader: glob({ pattern: "**/*.{md,mdx}", base: "./src/content/blog" }),
     schema: z.object({
+        draft: z.boolean().optional(),
         title: z.string(),
         category: z.string(),
         teaser: z.any().optional(),
@@ -39,6 +40,7 @@ const customers = defineCollection({
     loader: glob({ pattern: "**/*.md", base: "./src/content/customers" }),
     schema: z.object({
         // Standard
+        draft: z.boolean().optional(),
         title: z.string(),
         description: z.string(),
         image: z.string(),

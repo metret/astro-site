@@ -5,8 +5,10 @@ import type { Link } from "~/types";
 import LinkButton from "./ui/LinkButton.astro";
 import { site } from "~/constants";
 
+type LinkWithTarget = Link & { target?: string };
+
 const links: (Link & {
-  children?: { title?: string; items: Link[]; target?: string }[];
+  children?: { title?: string; items: LinkWithTarget[]; target?: string }[];
 })[] = [
   {
     title: "Product",
@@ -256,6 +258,7 @@ const links: (Link & {
                                 {child.items.map((item) => (
                                   <li>
                                     <a
+                                      target={item.target}
                                       href={item.href}
                                       class="text-body hover:text-blue text-lg/8 font-medium"
                                     >
@@ -281,7 +284,7 @@ const links: (Link & {
       <LinkButton kind="secondary" color="gray" href="/login" class="!w-full"
         >Login</LinkButton
       >
-      <LinkButton href="/account/register" class="!w-full">Signup</LinkButton>
+      <LinkButton href="/account/register" class="!w-full">Sign up</LinkButton>
     </div>
   </nav>
 </section>
@@ -361,6 +364,7 @@ const links: (Link & {
                               {child.items.map((item) => (
                                 <li>
                                   <a
+                                    target={item.target}
                                     href={item.href}
                                     class="text-body hover:text-blue text-lg/8 font-medium"
                                   >
@@ -386,7 +390,7 @@ const links: (Link & {
         <LinkButton kind="secondary" color="gray" href="/login"
           >Login</LinkButton
         >
-        <LinkButton href="/account/register">Signup</LinkButton>
+        <LinkButton href="/account/register">Sign up</LinkButton>
       </div>
       <button
         id="btn-open-sidenav"
@@ -436,7 +440,7 @@ const links: (Link & {
   const header = document.getElementById("main-header") as HTMLElement;
 
   const inflatableSpacer = document.getElementById(
-    "inflatable",
+    "inflatable"
   ) as HTMLDivElement;
 
   function handleListener() {
@@ -458,17 +462,17 @@ const links: (Link & {
 
 <script>
   const btnOpenMenu = document.getElementById(
-    "btn-open-sidenav",
+    "btn-open-sidenav"
   ) as HTMLButtonElement;
 
   const btnCloseMenu = document.getElementById(
-    "btn-close-sidenav",
+    "btn-close-sidenav"
   ) as HTMLButtonElement;
 
   const sidenav = document.getElementById("sidenav") as HTMLElement;
 
   const sidenavLinksContainer = sidenav.querySelector(
-    "#sidenav-links-container",
+    "#sidenav-links-container"
   ) as HTMLDivElement;
 
   const linksWithChildren = [
@@ -476,11 +480,11 @@ const links: (Link & {
   ] as HTMLLIElement[];
 
   const currentSidenavItem = sidenav.querySelector(
-    "#current-sidenav-item",
+    "#current-sidenav-item"
   ) as HTMLDivElement;
 
   const sidenavTitle = currentSidenavItem.querySelector(
-    "#sidenav-title",
+    "#sidenav-title"
   ) as HTMLParagraphElement;
 
   function resetOpenNav() {

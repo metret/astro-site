@@ -17,8 +17,6 @@ export const dynamicImportImage = (assetPath: string) => {
     assetPath = assetPath.replace("~/", "/src/");
   }
 
-  // console.dir(allImages);
-  // console.log(assetPath);
   const image = allImages[assetPath];
 
   if (!image) throw new Error(`Image not found: ${assetPath}`);

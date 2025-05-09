@@ -18,5 +18,3 @@ export default defineConfig({
     rehypePlugins: [rehypeFigure],
   },
 });
-
-console.dir(redirects);

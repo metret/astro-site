@@ -6,8 +6,9 @@ import { getCollection, render } from "astro:content";
 import { dynamicImportImage } from "~/utils";
 
 const [post] = (await getCollection("blog"))
+  .filter((post) => !post.data.draft)
   .toSorted(
-    (a, b) => b.data.publishedDate.getTime() - a.data.publishedDate.getTime(),
+    (a, b) => b.data.publishedDate.getTime() - a.data.publishedDate.getTime()
   )
   .slice(0, 1);
 
@@ -31,10 +32,12 @@ const loadedPostImage = await dynamicImportImage(post.data.image);
       </p>
       <LinkButton href={`/blog/${post.id}`}>Read More</LinkButton>
     </div>
-    <Image
-      class="shadow-mr rounded-2xl bg-blue-100 max-md:-order-1"
-      src={loadedPostImage}
-      alt={post.data.title}
-    />
+    <a href={`/blog/${post.id}`}>
+      <Image
+        class="shadow-mr rounded-2xl bg-blue-100 max-md:-order-1"
+        src={loadedPostImage}
+        alt={post.data.title}
+      />
+    </a>
   </div>
 </section>

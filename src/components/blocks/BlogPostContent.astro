@@ -11,13 +11,13 @@ const importedImage = await dynamicImportImage(post.data.image);
 ---
 
 <section class="space-y-12">
-  <div class="mx-auto flex max-w-[80rem] flex-col items-center">
+  <div class="mx-auto flex w-full max-w-[80ch] flex-col items-center">
     <Image
-      class="shadow-mr rounded-2xl bg-blue-100 max-md:-order-1"
+      class="shadow-mr mt-8 rounded-2xl bg-blue-100 max-md:-order-1"
       src={importedImage}
       alt={post.data.title}
     />
-    <div class="mx-auto max-w-[80ch]">
+    <div class="mx-auto w-full max-w-[80ch]">
       <div class="mt-8 flex items-center justify-between">
         <div class="flex items-center gap-3">
           <div class="h-10 w-10 rounded-full bg-blue-200"></div>
@@ -37,7 +37,7 @@ const importedImage = await dynamicImportImage(post.data.image);
       </p>
     </div>
   </div>
-  <div class="mx-auto grid max-w-[80ch]">
+  <div class="mx-auto grid w-full max-w-[80ch]">
     <div class="article-body">
       <Content />
     </div>
