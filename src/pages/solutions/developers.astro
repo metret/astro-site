@@ -10,7 +10,7 @@ import SolutionFeatureItem from "~/components/blocks/SolutionFeatureItem.astro";
 import "swiper/css";
 import CustomerLogos from "~/components/blocks/CustomerLogos.astro";
 import UsageStatement from "~/components/blocks/instances/UsageStatement.astro";
-import SolutionTemplateItem from "~/components/blocks/SolutionTemplateItem.astro";
+
 import SolutionTemplateItem2 from "~/components/blocks/SolutionTemplateItem2.astro";
 import WearHatsFeatureItem from "~/components/blocks/features/WearHatsFeatureItem.astro";
 import ActionsTrackingFeatureItem from "~/components/blocks/features/ActionsTrackingFeatureItem.astro";
@@ -25,6 +25,7 @@ import SolutionGrid from "~/components/blocks/SolutionGrid.astro";
     description="Need to quickly sketch out an idea? Or produce a quick diagram? Or just want to avoid having to go into Jira? We got you."
     image="~/assets/images/page-heroes/developers.png"
     color="green"
+    pill="Developers"
   />
 
   <UsageStatement />
@@ -68,21 +69,12 @@ import SolutionGrid from "~/components/blocks/SolutionGrid.astro";
   <SolutionBanner title="Try these perfect Templates for Developers" />
 
   <SolutionGrid columns="3">
-    <SolutionTemplateItem
-      title="A fun ice breaker"
+    <SolutionTemplateItem2
+      alias="team-mood-icebreaker"
       description="Template Name"
-      image="~/assets/images/feature-placeholder.png"
     />
-    <SolutionTemplateItem
-      title="Some kinda brain storming one or diagram one"
-      description="Template Name"
-      image="~/assets/images/feature-placeholder.png"
-    />
-    <SolutionTemplateItem
-      title="Personal Jira Workflow or something"
-      description="Template Name"
-      image="~/assets/images/feature-placeholder.png"
-    />
+    <SolutionTemplateItem2 alias="mind-map" description="Template Name" />
+    <SolutionTemplateItem2 alias="simple-kanban" description="Template Name" />
   </SolutionGrid>
 
   <CustomerStories />

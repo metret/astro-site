@@ -341,14 +341,14 @@ const links: (Link & {
                 )}
               </a>
               {hasChildren && (
-                <div class="absolute top-full -left-6 ml-2.5 grid w-max grid-rows-[0fr] pt-2 transition-[grid-template-rows] duration-300 group-hover/navlink:grid-rows-[1fr] md:max-w-[660px]">
+                <div class="absolute top-full -left-6 ml-2.5 grid w-max grid-rows-[0fr] pt-2 transition-[grid-template-rows] duration-300 group-hover/navlink:grid-rows-[1fr]">
                   <div class="shadow-mr overflow-hidden rounded-xl bg-white">
                     <ul
                       style={{
                         "--items-count":
                           link.children!.length > 3 ? 3 : link.children!.length,
                       }}
-                      class="grid w-max grid-cols-[repeat(var(--items-count),minmax(0,1fr))] gap-8 p-6 md:max-w-[660px]"
+                      class="grid w-max grid-cols-[repeat(var(--items-count),minmax(0,1fr))] gap-8 p-6"
                     >
                       {link.children?.map((child) => (
                         <li>

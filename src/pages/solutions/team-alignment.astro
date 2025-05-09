@@ -9,20 +9,22 @@ import SolutionFeatureItem from "~/components/blocks/SolutionFeatureItem.astro";
 import "swiper/css";
 import UsageStatement from "~/components/blocks/instances/UsageStatement.astro";
 import CustomerLogos from "~/components/blocks/CustomerLogos.astro";
-import SolutionTemplateItem from "~/components/blocks/SolutionTemplateItem.astro";
+
 import ActionsCommentsMentionsFeatureItem from "~/components/blocks/features/ActionsCommentsMentionsFeatureItem.astro";
 import ActivityFramesFeatureItem from "~/components/blocks/features/ActivityFramesFeatureItem.astro";
 import CSVDataImportFeatureItem from "~/components/blocks/features/CSVDataImportFeatureItem.astro";
 import PrivateWritingFeatureItem from "~/components/blocks/features/PrivateWritingFeatureItem.astro";
 import SolutionGrid from "~/components/blocks/SolutionGrid.astro";
+import SolutionTemplateItem2 from "~/components/blocks/SolutionTemplateItem2.astro";
 ---
 
 <PageLayout title="Team Alignment">
   <SolutionHero
-    title="Drive efficiency with team alignment and a shared understanding of goals"
-    description="Cut through the chaos of too many sources of information and get your team focused and working together in a single space."
+    title="Bring your team together and work towards shared goals"
+    description="Don't let your team get stuck in a rut, Metro Retro provides all the tools you need to help your team collaborate effectively and achieve their goals."
     image="~/assets/images/page-heroes/team-alignment.png"
     color="orange"
+    pill="Team Alignment"
   />
 
   <UsageStatement />
@@ -61,20 +63,17 @@ import SolutionGrid from "~/components/blocks/SolutionGrid.astro";
   <SolutionBanner title="Try these perfect Templates for Team Alignment" />
 
   <SolutionGrid columns="3">
-    <SolutionTemplateItem
-      title="Definition of Done"
+    <SolutionTemplateItem2
+      alias="definition-of-done"
       description="Plan your product's journey with a clear timeline."
-      image="~/assets/images/feature-placeholder.png"
     />
-    <SolutionTemplateItem
-      title="Three Little Pigs"
+    <SolutionTemplateItem2
+      alias="three-little-pigs"
       description="Reflect on past work and plan improvements with this retrospective template."
-      image="~/assets/images/feature-placeholder.png"
     />
-    <SolutionTemplateItem
-      title="On The Radar"
+    <SolutionTemplateItem2
+      alias="on-the-radar"
       description="Use Fibonacci numbers to estimate and prioritize tasks effectively."
-      image="~/assets/images/feature-placeholder.png"
     />
   </SolutionGrid>
 

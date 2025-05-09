@@ -10,20 +10,22 @@ import SolutionFeatureItem from "~/components/blocks/SolutionFeatureItem.astro";
 import UsageStatement from "~/components/blocks/instances/UsageStatement.astro";
 import CustomerLogos from "~/components/blocks/CustomerLogos.astro";
 import "swiper/css";
-import SolutionTemplateItem from "~/components/blocks/SolutionTemplateItem.astro";
+
 import PrivateWritingFeatureItem from "~/components/blocks/features/PrivateWritingFeatureItem.astro";
 import PromoteTeamCultureFeatureItem from "~/components/blocks/features/PromoteTeamCultureFeatureItem.astro";
 import WearHatsFeatureItem from "~/components/blocks/features/WearHatsFeatureItem.astro";
 import CreateSharedResponsibilityFeatureItem from "~/components/blocks/features/CreateSharedResponsibilityFeatureItem.astro";
 import SolutionGrid from "~/components/blocks/SolutionGrid.astro";
+import SolutionTemplateItem2 from "~/components/blocks/SolutionTemplateItem2.astro";
 ---
 
 <PageLayout title="Team Health">
   <SolutionHero
-    title="Improve productivity and build a team based on trust and psychological safety"
-    description="Avoid only having a few voices in your meetings. Positive team health promotes collaboration and creates an environment where knowledge sharing becomes natural rather than forced."
+    title="Build a healthy team culture and keep your team engaged"
+    description="Don't let your team get stuck in a rut, Metro Retro provides all the tools you need to help your team collaborate effectively and achieve their goals."
     image="~/assets/images/page-heroes/team-health.png"
-    color="orange"
+    color="green"
+    pill="Team Health"
   />
 
   <UsageStatement />
@@ -62,20 +64,17 @@ import SolutionGrid from "~/components/blocks/SolutionGrid.astro";
   <SolutionBanner title="Try these perfect Team Health Templates" />
 
   <SolutionGrid columns="3">
-    <SolutionTemplateItem
-      title="Explorer, Shopper, Vacationer, Prisoner"
+    <SolutionTemplateItem2
+      alias="explorer-shopper-vacationer-prisoner"
       description="Explore different team dynamics and roles with this engaging template."
-      image="~/assets/images/feature-placeholder.png"
     />
-    <SolutionTemplateItem
-      title="Team Mood Icebreaker"
+    <SolutionTemplateItem2
+      alias="team-mood-icebreaker"
       description="Kick off your meetings with a fun and engaging icebreaker to set the mood."
-      image="~/assets/images/feature-placeholder.png"
     />
-    <SolutionTemplateItem
-      title="Two Truths, One Lie"
+    <SolutionTemplateItem2
+      alias="two-truths-one-lie"
       description="Get to know your team better with this classic icebreaker game."
-      image="~/assets/images/feature-placeholder.png"
     />
   </SolutionGrid>
 

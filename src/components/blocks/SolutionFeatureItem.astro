@@ -1,5 +1,6 @@
 ---
 const { title, description, image } = Astro.props;
+
 import { Image } from "astro:assets";
 import { dynamicImportImage } from "~/utils";
 const loadedImage = await dynamicImportImage(image);
@@ -7,8 +8,7 @@ const loadedImage = await dynamicImportImage(image);
 
 <div class="">
   <Image
-    class="shadow-mr mb-4 block rounded-[20px] border-1 border-solid border-blue-200/15 object-cover"
-    style="width: 540px; height: 440px;"
+    class="shadow-mr mb-4 block max-w-full rounded-2xl border-1 border-solid border-blue-200/15 object-cover"
     src={loadedImage}
     alt={title}
   />

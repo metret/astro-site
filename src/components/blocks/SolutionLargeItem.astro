@@ -9,22 +9,16 @@ const loadedImage = await dynamicImportImage(image);
 <section>
   <div
     class:list={[
-      "mx-auto grid max-w-[1280px] items-center gap-24 px-8",
-      mirror === "false" && "grid-cols-[auto_1fr]",
-      mirror === "true" && "grid-cols-[1fr_auto]",
+      "mx-auto grid max-w-[80rem] grid-cols-1 items-center gap-4 px-8 lg:gap-24",
+      "lg:grid-cols-[1fr_auto]",
     ]}
   >
-    {
-      mirror === "false" && (
-        <Image
-          class="h-full w-full rounded-[20px] border-1 border-solid border-blue-200/15 object-cover shadow-xl shadow-blue-200/10"
-          style="width: 640px; height: 380px;"
-          src={loadedImage}
-          alt={title}
-        />
-      )
-    }
-    <div>
+    <div
+      class:list={[
+        "order-0",
+        mirror === "false" ? "lg:order-last" : "lg:order-first",
+      ]}
+    >
       <h3 class="mb-4 text-3xl font-semibold text-black">
         {title}
       </h3>
@@ -32,15 +26,11 @@ const loadedImage = await dynamicImportImage(image);
         {description}
       </p>
     </div>
-    {
-      mirror === "true" && (
-        <Image
-          class="h-full w-full rounded-[20px] border-1 border-solid border-blue-200/15 object-cover shadow-xl shadow-blue-200/10"
-          style="width: 640px; height: 380px;"
-          src={loadedImage}
-          alt={title}
-        />
-      )
-    }
+    <Image
+      class="h-full rounded-2xl border-1 border-solid border-blue-200/15 object-cover shadow-xl shadow-blue-200/10 lg:max-w-[30rem] xl:max-w-[40rem]"
+      class:list={[mirror === "false" ? "lg:order-first" : "lg:order-last"]}
+      src={loadedImage}
+      alt={title}
+    />
   </div>
 </section>

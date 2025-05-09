@@ -6,6 +6,11 @@ const appServerUrls = [
     '/login',
     '/setup',
     '/tutorial',
+    '/login/google',
+    '/login/github',
+    '/login/slack',
+    '/login/saml',
+    '/login/saml2',
 ]
 
 const redirects = {

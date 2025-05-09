@@ -10,12 +10,13 @@ import SolutionFeatureItem from "~/components/blocks/SolutionFeatureItem.astro";
 import "swiper/css";
 import UsageStatement from "~/components/blocks/instances/UsageStatement.astro";
 import CustomerLogos from "~/components/blocks/CustomerLogos.astro";
-import SolutionTemplateItem from "~/components/blocks/SolutionTemplateItem.astro";
+
 import FocusedCollaborationFeatureItem from "~/components/blocks/features/FocusedCollaborationFeatureItem.astro";
 import ActivityFramesFeatureItem from "~/components/blocks/features/ActivityFramesFeatureItem.astro";
 import ActionsCommentsMentionsFeatureItem from "~/components/blocks/features/ActionsCommentsMentionsFeatureItem.astro";
 import PrivateWritingFeatureItem from "~/components/blocks/features/PrivateWritingFeatureItem.astro";
 import SolutionGrid from "~/components/blocks/SolutionGrid.astro";
+import SolutionTemplateItem2 from "~/components/blocks/SolutionTemplateItem2.astro";
 ---
 
 <PageLayout title="Remote Collaboration">
@@ -24,6 +25,7 @@ import SolutionGrid from "~/components/blocks/SolutionGrid.astro";
     description="Distracted or unengaged remote collaborators reduce the value they could be adding. Bring your team together in a space that feels natural and encourages communication."
     image="~/assets/images/page-heroes/remote-collaboration.png"
     color="green"
+    pill="Remote Collaboration"
   />
 
   <UsageStatement />
@@ -71,20 +73,17 @@ import SolutionGrid from "~/components/blocks/SolutionGrid.astro";
   />
 
   <SolutionGrid columns="3">
-    <SolutionTemplateItem
-      title="Good, Bad, Stop, Start"
+    <SolutionTemplateItem2
+      alias="good-bad-start-stop"
       description="Reflect on past work and plan improvements with this retrospective template."
-      image="~/assets/images/feature-placeholder.png"
     />
-    <SolutionTemplateItem
-      title="Sailboat"
+    <SolutionTemplateItem2
+      alias="the-sailboat"
       description="Navigate your team's journey with the Sailboat retrospective."
-      image="~/assets/images/feature-placeholder.png"
     />
-    <SolutionTemplateItem
-      title="Ishakawa Diagram"
+    <SolutionTemplateItem2
+      alias="ishakawa-diagram-a.k.a-fishbone"
       description="Identify root causes and improve processes with the Ishakawa Diagram."
-      image="~/assets/images/feature-placeholder.png"
     />
   </SolutionGrid>
 

@@ -5,7 +5,8 @@ import LinkButton from "../ui/LinkButton.astro";
 <div
   class="mt-9 flex flex-col-reverse items-center gap-6 max-md:px-4 max-md:*:max-w-[320px] md:mt-12 md:flex-row md:justify-center"
 >
-  <button
+  <a
+    href="/login/google"
     class="text-page-bg flex h-[46px] items-center justify-center gap-2.5 rounded-full bg-black px-5 text-lg/[1] font-semibold max-md:w-full"
   >
     <svg
@@ -50,7 +51,7 @@ import LinkButton from "../ui/LinkButton.astro";
     </svg>
 
     Sign up with Google
-  </button>
+  </a>
   <LinkButton href="/account/register" class="max-md:w-full"
     >Sign up for free</LinkButton
   >

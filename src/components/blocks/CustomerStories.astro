@@ -37,16 +37,18 @@ const articles = allFilteredArticles.slice(0, limit ?? 3);
 
 <section>
   <Pill>Customer stories</Pill>
-  <h2 class="mt-6 text-center text-2xl font-semibold text-black md:text-3xl">
+  <h2
+    class="mt-6 text-center text-2xl font-semibold text-pretty text-black md:text-3xl"
+  >
     Discover how these teams use Metro Retro
   </h2>
 
   <div
-    class="mx-auto my-6 grid max-w-[1062px] grid-cols-1 gap-4 md:my-12 md:grid-cols-2 md:gap-6 lg:grid-cols-3"
+    class="mx-auto my-6 grid max-w-[64rem] grid-cols-1 justify-center gap-4 md:my-12 md:grid-cols-2 md:gap-6 lg:grid-cols-3"
   >
     {
       articles.map((x, i) => (
-        <a href={`/customers/${slugify(x.id)}`}>
+        <a class="flex justify-center" href={`/customers/${slugify(x.id)}`}>
           <CustomerStoryItem
             color={x.data.color}
             image={x.data.image}

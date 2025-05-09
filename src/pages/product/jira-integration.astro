@@ -6,19 +6,16 @@ import BoxLinkGrid from "~/components/blocks/BoxLinkGrid.astro";
 import CSVDataImportFeatureItem from "~/components/blocks/features/CSVDataImportFeatureItem.astro";
 import CustomerStories from "~/components/blocks/CustomerStories.astro";
 import Dots from "~/components/Dots.astro";
-import NeverGoToJiraAgainLargeItem from "~/components/blocks/large/NeverGoToJiraAgainLargeItem.astro";
 import PageLayout from "~/layouts/PageLayout.astro";
 import RoadmapsFeatureItem from "~/components/blocks/features/RoadmapsFeatureItem.astro";
 import SolutionBanner from "~/components/blocks/SolutionBanner.astro";
-import SolutionFeatureItem from "~/components/blocks/SolutionFeatureItem.astro";
 import SolutionGrid from "~/components/blocks/SolutionGrid.astro";
 import Hero from "~/components/blocks/Hero.astro";
-import SolutionTemplateItem from "~/components/blocks/SolutionTemplateItem.astro";
-import TaskTrackingDirectlyFromBoardLargeItem from "~/components/blocks/large/TaskTrackingDirectlyFromBoardLargeItem.astro";
 import Testimonials from "~/components/blocks/Testimonials.astro";
 import SolutionLargeItem from "~/components/blocks/SolutionLargeItem.astro";
 import SolutionLink from "~/components/blocks/SolutionLink.astro";
 import EstimateEffectivelyFeatureItem from "~/components/blocks/features/EstimateEffectivelyFeatureItem.astro";
+import SolutionTemplateItem2 from "~/components/blocks/SolutionTemplateItem2.astro";
 ---
 
 <PageLayout title="Jira Integration">
@@ -78,6 +75,21 @@ import EstimateEffectivelyFeatureItem from "~/components/blocks/features/Estimat
   </SolutionGrid>
 
   <SolutionBanner title="Try these perfect Templates for Jira Integration" />
+
+  <SolutionGrid columns="3">
+    <SolutionTemplateItem2
+      alias="fibonacci-estimation"
+      description="Use Fibonacci numbers to estimate and prioritize tasks effectively."
+    />
+    <SolutionTemplateItem2
+      alias="sprint-planning"
+      description="Plan your sprints efficiently with this comprehensive template."
+    />
+    <SolutionTemplateItem2
+      alias="product-backlog"
+      description="Manage and organize your product backlog effectively."
+    />
+  </SolutionGrid>
 
   <BoxLinkGrid title="For the whole team, no matter your role" columns="4">
     <BoxLink

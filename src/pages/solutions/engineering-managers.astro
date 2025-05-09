@@ -1,16 +1,13 @@
 ---
 import PageLayout from "~/layouts/PageLayout.astro";
 import CustomerStories from "~/components/blocks/CustomerStories.astro";
-import SignUp from "~/components/blocks/SignUp.astro";
 import Testimonials from "~/components/blocks/Testimonials.astro";
 import SolutionHero from "~/components/blocks/SolutionHero.astro";
 import SolutionBanner from "~/components/blocks/SolutionBanner.astro";
 import SolutionLargeItem from "~/components/blocks/SolutionLargeItem.astro";
-import SolutionFeatureItem from "~/components/blocks/SolutionFeatureItem.astro";
 import "swiper/css";
 import CustomerLogos from "~/components/blocks/CustomerLogos.astro";
 import UsageStatement from "~/components/blocks/instances/UsageStatement.astro";
-import SolutionTemplateItem from "~/components/blocks/SolutionTemplateItem.astro";
 import SolutionTemplateItem2 from "~/components/blocks/SolutionTemplateItem2.astro";
 import EasyToUseJiraFeatureItem from "~/components/blocks/features/EasyToUseJiraFeatureItem.astro";
 import RoadmapsFeatureItem from "~/components/blocks/features/RoadmapsFeatureItem.astro";
@@ -25,6 +22,7 @@ import SolutionGrid from "~/components/blocks/SolutionGrid.astro";
     description="Every team is different. We believe the unique personalities of teams should be nurtured, not ignored. Whether they are a Scrum Team, or a Them Team... Metro Retro lets you craft your patterns & processes around your team. All while putting a smile on their faces."
     image="~/assets/images/page-heroes/engineerings-managers.png"
     color="blue"
+    pill="Engineering Managers"
   />
 
   <UsageStatement />
@@ -70,10 +68,9 @@ import SolutionGrid from "~/components/blocks/SolutionGrid.astro";
   />
 
   <SolutionGrid columns="3">
-    <SolutionTemplateItem
-      title="Roadmap Template"
+    <SolutionTemplateItem2
+      alias="timeline-roadmap"
       description="Doesn't exist yet but I want to make one of our roadmap."
-      image="~/assets/images/feature-placeholder.png"
     />
     <SolutionTemplateItem2
       alias="fibonacci-estimation"

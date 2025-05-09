@@ -14,7 +14,7 @@ const { title, badge, color, link }: Props = Astro.props;
 <a href={link}>
   <div
     class:list={[
-      "flex aspect-[2] flex-col gap-4 rounded-xl border-2 border-blue-100 p-6 text-black md:aspect-square",
+      "flex flex-col gap-4 rounded-xl border-2 border-blue-100 p-6 text-black lg:aspect-square",
       color === "blue" && "hover:border-blue hover:text-blue",
       color === "purple" && "hover:border-purple hover:text-purple",
       color === "green" && "hover:border-green hover:text-green",

@@ -9,34 +9,44 @@ import meetingsAndWorkshopsImg from "~/assets/images/collaboration-features/meet
 import taskTrackingImg from "~/assets/images/collaboration-features/task-tracking.png";
 import jiraIntegrationImg from "~/assets/images/collaboration-features/jira-integration.png";
 import templatesImg from "~/assets/images/collaboration-features/templates.png";
+import JiraIcon from "~/assets/icons/jira.svg";
+import ShareableTeamSpacesIcon from "~/assets/icons/shareable-team-space.svg";
+import MeetingsAndWorkshopsIcon from "~/assets/icons/workshops.svg";
+import TaskTrackingIcon from "~/assets/icons/task-tracking.svg";
+import TemplatesIcon from "~/assets/icons/templates.svg";
 
 // Static content
 const collaborationFeatures = [
   {
+    icon: MeetingsAndWorkshopsIcon,
     title: "Meeting & Workshops",
     image: meetingsAndWorkshopsImg,
     body: "Metro Retro gives you complete freedom. Use an expertly crafted template to get going quickly, customize your own board for total freedom or combine both to build a board unique to your team.",
     href: "/product/meetings-workshops",
   },
   {
+    icon: TaskTrackingIcon,
     title: "Task Tracking",
     image: taskTrackingImg,
     body: "Stop switching context to find out what's going on. Simplify team actions and manage meeting outcomes without needing to leave your board.",
     href: "/product/task-tracking",
   },
   {
+    icon: JiraIcon,
     title: "Jira Integration",
     image: jiraIntegrationImg,
     body: "No more context switching. Connect to Jira, create, estimate and manage your backlog collaboratively to keep your team and goals aligned.",
     href: "/product/jira-integration",
   },
   {
+    icon: TemplatesIcon,
     title: "Templates",
     image: templatesImg,
     body: "Get started quickly with our library of professionally designed templates for various use cases.",
     href: "/templates",
   },
   {
+    icon: ShareableTeamSpacesIcon,
     title: "Shareable Team Spaces",
     image: shareableTeamSpacesImg,
     body: "With dedicated team spaces you can easily manage multiple teams and project streams, remove document chaos and build a single source of truth.",
@@ -57,7 +67,7 @@ const collaborationFeatures = [
   >
     <div class="max-lg:space-y-4">
       {
-        collaborationFeatures.map((feature) => (
+        collaborationFeatures.map(({ icon: Icon, ...feature }) => (
           <div
             class="collapsible-item group/collapsible"
             aria-expanded="false"
@@ -66,36 +76,27 @@ const collaborationFeatures = [
             data-img-src={feature.image.src}
             data-img-alt={feature.title}
           >
-            <div class="group-aria-expanded/collapsible:text-blue hover:text-blue flex cursor-pointer items-center gap-3 rounded-[100px] py-3 text-gray-300 hover:bg-blue-100 lg:pl-[30px]">
-              <svg
-                width="22"
-                height="20"
-                viewBox="0 0 22 20"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M3.5 0C1.8455 0 0.5 1.3455 0.5 3V17C0.5 18.6545 1.8455 20 3.5 20H18.5C20.1545 20 21.5 18.6545 21.5 17V3C21.5 1.3455 20.1545 0 18.5 0H3.5ZM3.5 2H18.5C19.0515 2 19.5 2.4485 19.5 3V6H2.5V3C2.5 2.4485 2.9485 2 3.5 2ZM16.5 3C15.9475 3 15.5 3.4475 15.5 4C15.5 4.5525 15.9475 5 16.5 5C17.0525 5 17.5 4.5525 17.5 4C17.5 3.4475 17.0525 3 16.5 3ZM5.25 3.25C4.836 3.25 4.5 3.5855 4.5 4C4.5 4.4145 4.836 4.75 5.25 4.75H11.75C12.164 4.75 12.5 4.4145 12.5 4C12.5 3.5855 12.164 3.25 11.75 3.25H5.25ZM2.5 8H19.5V12H2.5V8ZM16.5 9C15.9475 9 15.5 9.4475 15.5 10C15.5 10.5525 15.9475 11 16.5 11C17.0525 11 17.5 10.5525 17.5 10C17.5 9.4475 17.0525 9 16.5 9ZM5.25 9.25C4.836 9.25 4.5 9.5855 4.5 10C4.5 10.4145 4.836 10.75 5.25 10.75H11.75C12.164 10.75 12.5 10.4145 12.5 10C12.5 9.5855 12.164 9.25 11.75 9.25H5.25ZM2.5 14H19.5V17C19.5 17.5515 19.0515 18 18.5 18H3.5C2.9485 18 2.5 17.5515 2.5 17V14ZM16.5 15C15.9475 15 15.5 15.4475 15.5 16C15.5 16.5525 15.9475 17 16.5 17C17.0525 17 17.5 16.5525 17.5 16C17.5 15.4475 17.0525 15 16.5 15ZM5.25 15.25C4.836 15.25 4.5 15.5855 4.5 16C4.5 16.4145 4.836 16.75 5.25 16.75H11.75C12.164 16.75 12.5 16.4145 12.5 16C12.5 15.5855 12.164 15.25 11.75 15.25H5.25Z"
-                  fill="currentColor"
-                />
-              </svg>
+            <div class="group-aria-expanded/collapsible:text-blue hover:text-blue flex cursor-pointer items-center gap-3 py-3 text-gray-300 hover:bg-blue-100 lg:rounded-full lg:px-4">
+              <Icon class="mt-0.5 h-8 w-8" />
 
-              <p class="text-xl/[42px] font-semibold">{feature.title}</p>
+              <p class="text-xl/[42px] font-semibold select-none">
+                {feature.title}
+              </p>
             </div>
             <div class="hidden group-aria-expanded/collapsible:block">
               <div class="md:p-2 lg:pl-16">
                 <p class="text-body text-lg/6">{feature.body}</p>
               </div>
-              <div class="space-y-6 max-lg:mt-4 lg:hidden">
-                <div class="aspect-[1.53] w-full rounded-[20px] bg-blue-100 drop-shadow-[0_3px_12px_rgba(98,116,150,0.2)]">
+              <div class="space-y-6 max-lg:mt-8 lg:hidden">
+                <div class="shadow-mr-lg aspect-[1.53] w-full rounded-2xl bg-blue-100">
                   <Image
                     src={feature.image}
                     alt={feature.title}
-                    class="h-full w-full rounded-[20px] object-cover"
+                    class="h-full w-full rounded-2xl object-cover"
                   />
                 </div>
 
-                <Button class="w-fit" href={feature.href}>
+                <Button class="w-fit max-lg:mt-8" href={feature.href}>
                   More about {feature.title}
                 </Button>
               </div>
@@ -105,14 +106,12 @@ const collaborationFeatures = [
       }
     </div>
     <div class="hidden space-y-6 lg:block">
-      <div
-        class="aspect-[1.53] w-full rounded-[20px] bg-blue-100 drop-shadow-[0_3px_12px_rgba(98,116,150,0.2)]"
-      >
+      <div class="shadow-mr-lg aspect-[1.53] w-full rounded-2xl bg-blue-100">
         <Image
           id="collapsible-image"
           src={collaborationFeatures[0].image}
           alt={collaborationFeatures[0].title}
-          class="h-full w-full rounded-[20px] object-cover"
+          class="h-full w-full rounded-2xl object-cover"
         />
       </div>
 

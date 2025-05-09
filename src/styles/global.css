@@ -67,6 +67,17 @@
   box-shadow: 0 4px 10px rgba(98, 116, 150, 0.1);
 }
 
+@utility shadow-mr-lg {
+  box-shadow: 0 4px 12px rgba(98, 116, 150, 0.2);
+}
+
+@utility special-center {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
 @keyframes logoscroll {
   to {
     transform: translate(calc(-50% - calc(var(--scroller-gap) / 2)));

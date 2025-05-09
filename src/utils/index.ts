@@ -71,7 +71,7 @@ export type ArticleMetaData = {
   title: string;
   description: string;
   image: string;
-  authorName: string;
+  authorName?: string;
   category?: string;
   publishedDate: Date;
   modifiedDate: Date;
@@ -90,7 +90,7 @@ export const articleMeta = async (data: ArticleMetaData): Promise<AstroSEOProps>
         image: importedImage?.src || data.image,
       },
       article: {
-        authors: [data.authorName],
+        authors: data.authorName ? [data.authorName] : [],
         section: data.category,
         publishedTime: data.publishedDate.toISOString(),
         modifiedTime: data.modifiedDate.toISOString(),

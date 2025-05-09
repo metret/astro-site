@@ -2,10 +2,10 @@
 title: "Kaluza - Effective Remote Retrospectives With Metro Retro"
 description: "todo"
 color: "purple"
-image: "~/assets/images/logos/large/kaluza.png"
+image: "~/assets/images/customers/kaluza.png"
 headerLead: '"We have better retros now, remotely, than I ever had in person."'
 headerInfo: "See why the Kaluza engineering teams get better results from their retrospectives using Metro Retro."
-headerImage: "~/assets/images/legacy/2024/08/kaluza-hero.png"
+headerImage: "~/assets/images/customers/kaluza-wide.png"
 contactName: "Tim Gaye"
 contactTitle: " Software Engineering Manager"
 contactImage: "~/assets/images/legacy/2024/08/tim-kaluza.png"

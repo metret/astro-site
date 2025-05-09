@@ -9,10 +9,10 @@ export function buttonStyles({
   return cn(
     "flex items-center justify-center rounded-full text-center font-semibold",
     kind === "primary" && {
-      "bg-blue text-white hover:bg-blue-300": color === "blue",
-      "bg-orange text-white hover:bg-orange-300": color === "orange",
-      "bg-green text-white hover:bg-green-300": color === "green",
-      "bg-purple text-white hover:bg-purple-300": color === "purple",
+      "bg-blue !text-white hover:bg-blue-300": color === "blue",
+      "bg-orange !text-white hover:bg-orange-300": color === "orange",
+      "bg-green !text-white hover:bg-green-300": color === "green",
+      "bg-purple !text-white hover:bg-purple-300": color === "purple",
       "px-12 h-16 text-xl/8": size === "large",
     },
     kind === "secondary" && {

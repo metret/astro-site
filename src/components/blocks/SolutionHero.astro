@@ -1,5 +1,5 @@
 ---
-const { title, description, image, color } = Astro.props;
+const { pill, title, description, image, color } = Astro.props;
 
 import { Image } from "astro:assets";
 import { dynamicImportImage } from "~/utils";
@@ -7,6 +7,7 @@ const loadedImage = await dynamicImportImage(image);
 
 import Wibble from "~/components/ui/Wibble.astro";
 import Dots from "~/components/Dots.astro";
+import Pill from "../ui/Pill.astro";
 
 const colors = {
   orange: "#ff9f43",
@@ -23,28 +24,30 @@ const selectedColor = colors[color as keyof typeof colors] || colors.blue;
 <Dots />
 <section class="mt-8 lg:mt-16">
   <div
-    class="mx-auto flex max-w-[1280px] flex-row items-center gap-24 px-8 sm:flex-col md:flex-row lg:flex-row xl:flex-row"
+    class="mx-auto grid max-w-[80rem] grid-cols-1 gap-8 px-8 lg:grid-cols-2 lg:gap-16"
   >
-    <div class="shrink md:w-1/2">
-      <h1 class="mb-4 text-4xl font-semibold text-black">
+    <div class="flex flex-col justify-center gap-6">
+      <div>
+        <Pill class="!mx-0" color={color}>
+          <h1>{pill}</h1>
+        </Pill>
+      </div>
+      <h2 class="text-4xl font-semibold text-black">
         {title}
-      </h1>
-      <p class="mb-4 text-xl text-gray-300">
+      </h2>
+      <p class="text-xl text-gray-300">
         {description}
       </p>
-      <div class="mt-auto py-4">
+      <div class="py-4">
         <Wibble />
       </div>
     </div>
-    <div
-      class="grow rounded-md sm:order-first md:order-last md:w-1/2 lg:order-last"
-    >
+    <div>
       <div
-        class="relative block max-w-600 md:max-w-full"
-        style="width: 600px; height: 420px"
+        class="w-max-[38rem] relative block aspect-[1.4] max-w-600 md:max-w-full"
       >
         <svg
-          class="absolute inset-0"
+          class="special-center w-full"
           viewBox="0 0 600 420"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
@@ -63,7 +66,7 @@ const selectedColor = colors[color as keyof typeof colors] || colors.blue;
           </defs>
         </svg>
         <Image
-          class="absolute top-1/2 left-1/2 w-[90%] -translate-x-1/2 -translate-y-1/2 rounded-xl object-cover shadow-2xl shadow-black/40"
+          class="special-center w-[90%] rounded-xl object-cover shadow-2xl shadow-black/40"
           src={loadedImage}
           alt={title}
         />
