@@ -21,7 +21,7 @@ twitterCardType: "summary_large_image"
 twitterTitle: "How To Run A Retro: The Sprint Retrospective Agenda For Success | Metro Retro"
 twitterDescription: "Transform your meetings with this fool-proof sprint retrospective agenda that will keep your team connected. Metro Retro is a tool for successful Agile teams."
 twitterImage: "https://metroretro.io/wp-content/uploads/2024/04/How-to-run-a-retro-the-sprint-retrospective-agenda-for-success.png"
-authorName: "Caitriona Burke"
+authorName: "Jamie Hanratty"
 ---
 
 _Transform your meetings with this fool-proof sprint retrospective agenda that will keep your team connected._

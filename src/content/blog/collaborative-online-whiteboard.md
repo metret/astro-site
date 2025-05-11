@@ -21,7 +21,7 @@ twitterCardType: "summary_large_image"
 twitterTitle: "10 Collaborative Online Whiteboard Tips And Tricks For Agile Teams | Metro Retro"
 twitterDescription: "Learn how a collaborative online whiteboard can be used as a powerful tool by Agile teams to improve communication."
 twitterImage: "https://metroretro.io/wp-content/uploads/2024/03/10-collaborative-online-whiteboard-tips-and-tricks-for-agile-teams.png"
-authorName: "Caitriona Burke"
+authorName: "Jamie Hanratty"
 ---
 
 _Effective communication is paramount for success within Agile teams, and an online collaborative whiteboard is a powerful tool that can help you achieve this._

@@ -6,6 +6,7 @@ category: "Product"
 image: "~/assets/images/legacy/2021/09/3-big-improvements-to-retrospectives-in-metro-retro-v2.png"
 description: "If you hadn’t noticed yet, we’ve built a completely new version of Metro Retro. Go check it out if you haven't already. In the new version we've improved the"
 canonicalUrl: "/blog/3-ways-we-made-retrospectives-better-in-metro-retro-v2"
+authorName: "Steve Whitfield"
 section: "Product"
 ogUrl: "https://metroretro.io/blog/3-ways-we-made-retrospectives-better-in-metro-retro-v2"
 ogSiteName: "Metro Retro"
@@ -22,7 +23,6 @@ twitterCardType: "summary_large_image"
 twitterTitle: "3 Big Improvements To Retrospectives In Metro Retro V2 | Metro Retro"
 twitterDescription: "If you hadn’t noticed yet, we’ve built a completely new version of Metro Retro. Go check it out if you haven't already. In the new version we've improved the"
 twitterImage: "https://metroretro.io/wp-content/uploads/2021/09/3-big-improvements-to-retrospectives-in-metro-retro-v2.png"
-authorName: "Steve Whitfield"
 ---
 
 ## Enjoy the little things!

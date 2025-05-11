@@ -21,7 +21,7 @@ twitterCardType: "summary_large_image"
 twitterTitle: "What Is A Futurespective? | Metro Retro"
 twitterDescription: "What is a Futurespective for? | Futurespective template examples"
 twitterImage: "https://metroretro.io/wp-content/uploads/2020/08/what-is-a-futurespective.png"
-authorName: "Steve"
+authorName: "Steve Whitfield"
 ---
 
 ## Imagining the future

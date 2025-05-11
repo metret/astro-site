@@ -1,0 +1,43 @@
+---
+import { getCollection } from "astro:content";
+import BlogFeed from "~/components/blocks/BlogFeed.astro";
+import BlogHero from "~/components/blocks/BlogHero.astro";
+import Dots from "~/components/Dots.astro";
+import PageLayout from "~/layouts/PageLayout.astro";
+import Newsletter from "~/components/blocks/Newsletter.astro";
+import slugify from "slugify";
+
+// Generate a new path for every author
+export async function getStaticPaths() {
+  const posts = await getCollection("blog");
+
+  const authors = Array.from(new Set(posts.map((x) => x.data.authorName)))
+    .filter((x) => !!x)
+    .map((x) => slugify(x, { lower: true }));
+
+  return authors.map((author) => ({
+    params: { author },
+    props: { author },
+  }));
+}
+
+const { author } = Astro.props;
+
+// Get the original author name (unslugified) for the title
+const posts = await getCollection("blog");
+
+const authorNames = posts
+  .filter((post) => slugify(post.data.authorName, { lower: true }) === author)
+  .map((post) => post.data.authorName);
+
+const authorName = authorNames.length > 0 ? authorNames[0] : author;
+---
+
+<PageLayout title={`Posts by ${authorName} | Metro Retro`}>
+  <Dots />
+  <section>
+    <BlogHero />
+    <BlogFeed author={author} />
+  </section>
+  <Newsletter />
+</PageLayout>

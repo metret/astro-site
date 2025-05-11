@@ -21,7 +21,7 @@ twitterCardType: "summary_large_image"
 twitterTitle: "What Is Whiteboarding? & How To Use It In Your Retros | Metro Retro"
 twitterDescription: 'In this article we answer "what is whiteboarding?" and how it can be used in a sprint retrospective.'
 twitterImage: "https://metroretro.io/wp-content/uploads/2024/03/what-is-whiteboarding-and-how-to-use-it-in-retros.png"
-authorName: "Caitriona Burke"
+authorName: "Jamie Hanratty"
 ---
 
 *Whiteboarding has become a prevalent practice in various fields, from education to business, serving as a versatile tool for brainstorming, planning, and problem-solving.* 

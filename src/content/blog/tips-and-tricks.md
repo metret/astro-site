@@ -21,7 +21,7 @@ twitterCardType: "summary_large_image"
 twitterTitle: "Tips & Tricks For Metro Retro | Metro Retro"
 twitterDescription: "Shortcuts and tips for getting the most out of Metro Retro"
 twitterImage: "https://metroretro.io/wp-content/uploads/2019/06/tips-and-tricks-form-metro-retro.png"
-authorName: "Steve"
+authorName: "Steve Whitfield"
 ---
 
 ## Introduction

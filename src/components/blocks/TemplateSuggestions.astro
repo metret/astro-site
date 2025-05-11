@@ -1,20 +1,6 @@
 ---
-import { getCollection, render } from "astro:content";
-import BlogPostContent from "~/components/blocks/BlogPostContent.astro";
-import BlogPostHero from "~/components/blocks/BlogPostHero.astro";
-import Dots from "~/components/Dots.astro";
-import PageLayout from "~/layouts/PageLayout.astro";
-import Newsletter from "~/components/blocks/Newsletter.astro";
-import PostCard from "~/components/blocks/PostCard.astro";
-import SignUp from "~/components/blocks/SignUp.astro";
-import type { Props as AstroSEOProps } from "astro-seo";
-import { articleMeta, dynamicImportImage } from "~/utils";
-import LinkButton from "~/components/ui/LinkButton.astro";
-import LinkArrowButton from "~/components/ui/LinkArrowButton.astro";
-import TemplateTag from "~/components/blocks/TemplateTag.astro";
-import LeftArrowLinkButton from "~/components/ui/LeftArrowLinkButton.astro";
+import { getCollection } from "astro:content";
 import TemplateCard from "~/components/blocks/TemplateCard.astro";
-import { keyBy } from "lodash";
 import seedrandom from "seedrandom";
 
 interface Props {

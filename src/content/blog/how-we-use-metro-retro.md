@@ -21,7 +21,7 @@ twitterCardType: "summary_large_image"
 twitterTitle: "How We Use Metro Retro | Metro Retro"
 twitterDescription: "Inside Metro Retro - the different ways we use Metro Retro - product backlogs, design briefs, Kanban boards and retrospectives"
 twitterImage: "https://metroretro.io/wp-content/uploads/2019/07/how-we-use-metro-retro.png"
-authorName: "Steve"
+authorName: "Steve Whitfield"
 ---
 
 ## Introduction

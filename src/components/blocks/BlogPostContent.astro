@@ -2,6 +2,7 @@
 import { render } from "astro:content";
 import { dynamicImportImage } from "~/utils";
 import { Image } from "astro:assets";
+import BlogPostAuthor from "~/components/blocks/BlogPostAuthor.astro";
 
 const { post } = Astro.props;
 
@@ -19,15 +20,7 @@ const importedImage = await dynamicImportImage(post.data.image);
     />
     <div class="mx-auto w-full max-w-[80ch]">
       <div class="mt-8 flex items-center justify-between">
-        <div class="flex items-center gap-3">
-          <div class="h-10 w-10 rounded-full bg-blue-200"></div>
-          <div>
-            <p class="font-medium text-blue-200">
-              {post.data.authorName}
-            </p>
-            <p class="text-sm text-gray-300">Lord of color</p>
-          </div>
-        </div>
+        <BlogPostAuthor name={post.data.authorName} />
       </div>
       <h1 class="mt-8 text-4xl/12 font-semibold">
         {post.data.title}

@@ -21,7 +21,7 @@ twitterCardType: "summary_large_image"
 twitterTitle: "V2 Announcement & 2022 Roadmap | Metro Retro"
 twitterDescription: "We explain the changes happening to Metro Retro in 2022 that affect everyone"
 twitterImage: "https://metroretro.io/wp-content/uploads/2021/12/v2-announcement-and-2022-roadmap.png"
-authorName: "Steve"
+authorName: "Steve Whitfield"
 ---
 
 ![megaphone shooting confetti](../../assets/images/legacy/2023/05/61bb3997035abeb824ba815e_Megaphone-v2-2-1.png)

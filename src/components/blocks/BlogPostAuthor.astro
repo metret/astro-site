@@ -1,0 +1,46 @@
+---
+import { render } from "astro:content";
+import { dynamicImportImage } from "~/utils";
+import SmartSteveImage from "~/assets/images/authors/steve-whitfield.png";
+import CoolSteveImage from "~/assets/images/authors/steve-moseley.png";
+import JamieImage from "~/assets/images/authors/jamie-hanratty.png";
+import { Image } from "astro:assets";
+
+interface Props {
+  name: string;
+}
+
+const { name } = Astro.props;
+
+const authorData = [
+  {
+    name: "Steve Whitfield",
+    image: CoolSteveImage,
+    title: "Co-founder & CTO",
+  },
+  {
+    name: "Jamie Hanratty",
+    image: JamieImage,
+    title: "Co-founder",
+  },
+  {
+    name: "Steven Moseley",
+    image: CoolSteveImage,
+    title: "Lord of colour",
+  },
+];
+
+const author = authorData.find((author) => author.name === name);
+
+if (!author) {
+  throw new Error(`Author ${name} not found`);
+}
+---
+
+<div class="flex items-center gap-3">
+  <Image src={author.image} alt={author.name} class="h-12 w-12 rounded-full" />
+  <div>
+    <p class="font-medium text-blue-200">{author.name}</p>
+    <p class="text-sm text-gray-300">{author.title}</p>
+  </div>
+</div>

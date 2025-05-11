@@ -4,9 +4,8 @@ import PostCard from "./PostCard.astro";
 import slugify from "slugify";
 import { getCollection, render } from "astro:content";
 
-// 1. Generate a new path for every collection entry
-
-const { tag } = Astro.props;
+// Get props - either tag or author for filtering
+const { tag, author } = Astro.props;
 
 // const allLabels = [
 //   "All",
@@ -28,12 +27,18 @@ const allPosts = (await getCollection("blog"))
 
 const nonHeroPosts = allPosts.slice(1);
 
-const matchingPosts =
-  tag === "all"
-    ? nonHeroPosts
-    : nonHeroPosts.filter(
-        (post) => slugify(post.data.category, { lower: true }) === tag
-      );
+// Filter posts based on tag or author
+let matchingPosts = nonHeroPosts;
+
+if (tag && tag !== "all") {
+  matchingPosts = nonHeroPosts.filter(
+    (post) => slugify(post.data.category, { lower: true }) === tag
+  );
+} else if (author) {
+  matchingPosts = nonHeroPosts.filter(
+    (post) => slugify(post.data.authorName, { lower: true }) === author
+  );
+}
 
 const allLabels = [
   "All",

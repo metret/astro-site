@@ -21,7 +21,7 @@ twitterCardType: "summary_large_image"
 twitterTitle: "A Guide To The Best Online Whiteboard Tools 2024 | Metro Retro"
 twitterDescription: "Discover our guide to the best online whiteboard tools to try in 2024."
 twitterImage: "https://metroretro.io/wp-content/uploads/2024/03/a-guide-to-the-best-online-whiteboard-tools-2024.png"
-authorName: "Caitriona Burke"
+authorName: "Jamie Hanratty"
 ---
 
 _Discover our guide to the best [online whiteboard](/online-whiteboard) tools to try in 2024._

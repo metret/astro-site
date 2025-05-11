@@ -1,10 +1,4 @@
 ---
-import BlogFeed from "~/components/blocks/BlogFeed.astro";
-import Newsletter from "~/components/blocks/Newsletter.astro";
-import Statement from "~/components/blocks/Statement.astro";
-import TemplateCard from "~/components/blocks/TemplateCard.astro";
-import Dots from "~/components/Dots.astro";
-import PageLayout from "~/layouts/PageLayout.astro";
 import keyBy from "lodash/keyBy";
 import { getCollection } from "astro:content";
 import { tint } from "polished";
@@ -26,8 +20,8 @@ const all = {
 const tags = Object.values(
   keyBy(
     templates.flatMap((tmpl: any) => tmpl.data.tags),
-    "name",
-  ),
+    "name"
+  )
 )
   .sort((a, b) => a.sort - b.sort)
   .map((t) => ({ ...t, href: `/templates/${t.name}` }));

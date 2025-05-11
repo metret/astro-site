@@ -21,7 +21,7 @@ twitterCardType: "summary_large_image"
 twitterTitle: "The Metro Retro Story | Metro Retro"
 twitterDescription: "How Metro Retro began - its history and how it was created"
 twitterImage: "https://metroretro.io/wp-content/uploads/2019/05/the-metro-reto-story.png"
-authorName: "Steve"
+authorName: "Steve Whitfield"
 ---
 
 ## Introduction
