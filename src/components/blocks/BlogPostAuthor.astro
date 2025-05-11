@@ -15,16 +15,19 @@ const { name } = Astro.props;
 const authorData = [
   {
     name: "Steve Whitfield",
+    slug: "steve-whitfield",
     image: CoolSteveImage,
     title: "Co-founder & CTO",
   },
   {
     name: "Jamie Hanratty",
+    slug: "jamie-hanratty",
     image: JamieImage,
     title: "Co-founder",
   },
   {
     name: "Steven Moseley",
+    slug: "steven-moseley",
     image: CoolSteveImage,
     title: "Lord of colour",
   },
@@ -37,10 +40,16 @@ if (!author) {
 }
 ---
 
-<div class="flex items-center gap-3">
-  <Image src={author.image} alt={author.name} class="h-12 w-12 rounded-full" />
-  <div>
-    <p class="font-medium text-blue-200">{author.name}</p>
-    <p class="text-sm text-gray-300">{author.title}</p>
+<a href={`/blog/${author.slug}`}>
+  <div class="flex items-center gap-3">
+    <Image
+      src={author.image}
+      alt={author.name}
+      class="h-12 w-12 rounded-full"
+    />
+    <div>
+      <p class="font-medium text-blue-200">{author.name}</p>
+      <p class="text-sm text-gray-300">{author.title}</p>
+    </div>
   </div>
-</div>
+</a>

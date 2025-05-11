@@ -54,25 +54,28 @@ const allTags = allLabels.map((label) => ({
 <section>
   <div class="mx-auto max-w-[80rem]">
     <p class="text-xl/8 font-semibold text-blue-200">
-      Latest Guides, News & Updates from Metro Retro
+      {!author && <span>Latest Guides, News & Updates from Metro Retro</span>}
+      {author && <span>Posts by {matchingPosts[0].data.authorName}</span>}
     </p>
-    <div class="my-6 hidden max-md:-mx-4 max-md:pl-4 md:my-8 lg:block">
-      <div class="flex items-center justify-between gap-0">
-        {
-          allTags.map((c) => (
-            <div class="">
-              <a
-                data-active={c.slug === tag}
-                class="filter-btn text-body hover:text-purple data-[active='true']:text-purple px-2 py-3.5 text-center text-base font-medium"
-                href={c.slug === "all" ? "/blog" : `/blog/${c.slug}`}
-              >
-                {c.label}
-              </a>
-            </div>
-          ))
-        }
-      </div>
-    </div>
+    {
+      !author && (
+        <div class="my-6 hidden max-md:-mx-4 max-md:pl-4 md:my-8 lg:block">
+          <div class="flex items-center justify-between gap-0">
+            {allTags.map((c) => (
+              <div class="">
+                <a
+                  data-active={c.slug === tag}
+                  class="filter-btn text-body hover:text-purple data-[active='true']:text-purple px-2 py-3.5 text-center text-base font-medium"
+                  href={c.slug === "all" ? "/blog" : `/blog/${c.slug}`}
+                >
+                  {c.label}
+                </a>
+              </div>
+            ))}
+          </div>
+        </div>
+      )
+    }
 
     <div
       class="grid grid-cols-1 gap-6 py-6 md:grid-cols-2 lg:grid-cols-3 lg:py-4"
