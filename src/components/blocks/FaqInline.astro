@@ -7,7 +7,7 @@ import FaqItem from "./FaqItem.astro";
   <ul class="space-y-2.5 md:space-y-5">
     <FaqItem question="What is Metro Retro?">
       <p>
-        Metro Retro is a collaborative whiteboard tool for engineeting teams to
+        Metro Retro is a collaborative whiteboard tool for engineering teams to
         run engaging meetings and workshops, such as project kickoffs, planning,
         retrospectives, goal-setting, brainstorming, and more.
       </p>
@@ -56,7 +56,7 @@ import FaqItem from "./FaqItem.astro";
 
   function setFAQ(
     faq?: HTMLDivElement | null,
-    expanded: "true" | "false" = "false"
+    expanded: "true" | "false" = "false",
   ) {
     if (!faq) return;
     faq.setAttribute("aria-expanded", expanded);
