@@ -1,0 +1,42 @@
+kind: pipeline
+type: docker
+name: default
+
+steps:
+  #
+  # Build Deps
+  #
+
+  - name: build
+    image: node:20
+    environment:
+      RUNNER_PRIVATE_KEY:
+        from_secret: git_private_key
+    volumes:
+      - name: yarn-cache
+        path: /tmp/yarn
+    commands:
+      - yarn config set cache-folder /tmp/yarn
+      - yarn install
+      - yarn build
+
+  - name: push
+    image: node:20
+    environment:
+      RUNNER_PRIVATE_KEY:
+        from_secret: git_private_key
+    commands:
+      - /bin/bash ./ci/init-git.sh
+      - /bin/bash ./ci/sync.sh
+
+  - name: notify-slack
+    image: plugins/slack
+    settings:
+      webhook: https://hooks.slack.com/services/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
+      channel: notify-drone
+      icon_url: https://unsplash.it/256/256/?random
+
+volumes:
+  - name: yarn-cache
+    host:
+      path: /var/lib/yarn
