@@ -23,9 +23,11 @@
     "@types/marked": "^5.0.2",
     "astro": "^5.4.2",
     "astro-seo": "^0.8.4",
+    "axios": "^1.9.0",
     "change-case": "^5.4.4",
     "clsx": "^2.1.1",
     "deepmerge": "^4.3.1",
+    "dotenv": "^16.5.0",
     "marked": "^15.0.11",
     "polished": "^4.3.1",
     "seedrandom": "^3.0.5",
@@ -33,12 +35,14 @@
     "slugify": "^1.6.6",
     "swiper": "^11.2.5",
     "tailwind-merge": "^3.0.2",
-    "tailwindcss": "^4.0.10"
+    "tailwindcss": "^4.0.10",
+    "xml2js": "^0.6.2"
   },
   "devDependencies": {
     "@types/cheerio": "^0.22.35",
     "@types/lodash": "^4.17.16",
     "@types/node-fetch": "^2.6.12",
+    "@types/xml2js": "^0.4.14",
     "@typescript-eslint/parser": "^8.26.0",
     "astro-eslint-parser": "^1.2.1",
     "cheerio": "^1.0.0",
