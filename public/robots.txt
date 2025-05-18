@@ -1,0 +1,3 @@
+# Only for astro.deqo.dev, real site is served via app-server
+User-agent: *
+Disallow: /
