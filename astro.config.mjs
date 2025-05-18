@@ -8,7 +8,7 @@ import redirects from './astro.redirects.mjs';
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://astro.deqo.dev",
+  site: "https://metroretro.io",
   base: "/",
   redirects,
   vite: {
