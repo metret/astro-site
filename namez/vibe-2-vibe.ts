@@ -33,20 +33,32 @@ const anthropic = new Anthropic({
 });
 
 // Function to call the Anthropic API
-async function callAnthropicApi(variation: string, language: string, phrase: string) {
+async function callAnthropicApi(language: string, variation: string) {
 
     const prompt = `
         You are an expert in ${language} & naming companies and brands.  
         You are tasked with naming a software product for collaboration within software teams.
 
         Here are some core requirements for the name:
-        - Not more than 10 characters
+        - Not more than 12 characters
         - Not more than 4 syllables
         - Must not include punctuation
-        - Must end in ${variation}
+        - Must not include non-standard English characters
         - Must not include a TLD at the end - this will be added later.
+        - Must not end in 'ly' or 'ify'
 
-        Please use your expert knowledge of ${language} help select or invent product names based around this phrase: ${phrase}
+        Here are some phrases that we want to base our name on:
+        - In unison
+        - At the same time
+        - As one
+        - In perfect rhythm
+        - Like a well-oiled machine
+
+        Please use your expert knowledge of ${language} and the above phrase to help select or invent product names.
+        Please consider the whole phrase meanings, and not just the individual words.
+        You can choose one, or combined a few, when inventing a name.
+
+        Each run of this prompt will be given a unique "variation" to theme the name on.  For this run, please theme using ${variation}.
         
         For each, provide a single line explaining the name and thought behind it this format: 
 
@@ -96,17 +108,6 @@ async function callAnthropicApi(variation: string, language: string, phrase: str
 async function processTerritoryPairs() {
     const all = [] as string[];
 
-    const variations = [
-        'eo',
-        'ist',
-        'al',
-        'ble',
-        'sy',
-        'ful',
-        'um',
-        'ara',
-    ];
-
     const languages = [
         'Latin',
         'Old English',
@@ -116,19 +117,15 @@ async function processTerritoryPairs() {
         'Celtic/Gaelic',
     ]
 
-    const phrases = [
-        'In unison',
-        'At the same time',
-        'As one',
-        'In perfect rhythm',
-        'Like a well-oiled machine',
+    const variations = [
+        'alliteration',
+        'assonance',
+        'consonance',
     ]
 
-    for (const v of variations) {
-        for (const l of languages) {
-            for (const p of phrases) {
-                all.push(await callAnthropicApi(v, l, p));
-            }
+    for (const l of languages) {
+        for (const v of variations) {
+            all.push(await callAnthropicApi(l, v));
         }
     }
 
@@ -136,7 +133,7 @@ async function processTerritoryPairs() {
     const filteredResults = all.filter(result => result.trim() !== '');
 
     // Write the results to a file
-    const resultsPath = 'results.txt';
+    const resultsPath = 'vesults.txt';
 
     fs.writeFileSync(resultsPath, filteredResults.join('\n\n---\n\n'), 'utf8');
 

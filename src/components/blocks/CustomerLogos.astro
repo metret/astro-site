@@ -5,10 +5,9 @@ import kayak from "~/assets/images/logos/Kayak_Logo.png";
 import meltwater from "~/assets/images/logos/Meltwater_Logo.png";
 import ryd from "~/assets/images/logos/ryd.png";
 import xitaso from "~/assets/images/logos/XITASO-Logo.png";
-import trendyol from "~/assets/images/logos/Trendyol_logo.png";
 import { Image } from "astro:assets";
 
-const logos = [kayak, gear4music, meltwater, trendyol, xitaso, lucca, ryd];
+const logos = [kayak, gear4music, meltwater, xitaso, lucca, ryd];
 ---
 
 <div id="logo-scroll" class="mx-auto w-full max-w-[1280px] max-md:px-4">
@@ -50,7 +49,7 @@ const logos = [kayak, gear4music, meltwater, trendyol, xitaso, lucca, ryd];
 <script>
   function initScroller() {
     const scrollerInner = document.querySelector(
-      ".scroller-inner",
+      ".scroller-inner"
     ) as HTMLDivElement;
 
     const scrollerContent = Array.from(scrollerInner.children);
