@@ -1,17 +1,18 @@
----
-interface Props {
-  src: string;
-}
-
-const { src }: Props = Astro.props;
----
-
 <section>
   <div class="mx-auto mb-24 max-w-[80rem]">
     <div
       class="shadow-mr mb-4 block overflow-hidden rounded-2xl border-1 border-solid border-blue-200/15"
     >
-      <video src={src} autoplay loop muted playsinline></video>
+      <video autoplay loop muted playsinline>
+        <source
+          src="https://s.metroretro.io/site/video/2025-product-loop-2.mp4"
+          type="video/mp4"
+        />
+        <source
+          src="https://s.metroretro.io/site/video/2025-product-loop-2.webm"
+          type="video/webm"
+        />
+      </video>
     </div>
   </div>
 </section>

@@ -6,8 +6,8 @@
 }
 
 @theme {
-  --font-golos-text: "Golos Text", serif;
-  --font-rubik: "Rubik", serif;
+  --font-golos-text: "Golos Text", sans-serif;
+  --font-rubik: "Rubik", sans-serif;
 
   --color-*: initial;
   --color-white: #fff;

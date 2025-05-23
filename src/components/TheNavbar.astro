@@ -308,8 +308,14 @@ const links: (Link & {
     class="mr-shadow mx-auto flex h-20 w-full max-w-[80rem] items-stretch justify-between rounded-full bg-white px-6 group-[[data-sticky='true']]/nav-header:bg-[transparent]"
   >
     <a href="/" class="flex items-center gap-3.5">
-      <Image src={logo} width={34} height={36} alt={`${site.name} logo`} /><span
-        class="font-rubik text-blue text-[28px] font-medium">Metro Retro</span
+      <Image
+        src={logo}
+        width={34}
+        height={36}
+        alt={`${site.name} logo`}
+        loading="eager"
+      /><span class="font-rubik text-blue text-[28px] font-medium"
+        >Metro Retro</span
       >
     </a>
     <ul class="hidden items-center gap-7 min-xl:flex">
