@@ -12,7 +12,8 @@
     "format": "prettier --write .",
     "format:check": "prettier --cache --check .",
     "seo:templates": "tsx scripts/seo:templates.ts",
-    "seo:crawl-check": "tsx scripts/link-crawl.ts && tsx scripts/link-check.ts"
+    "seo:crawl-check": "tsx scripts/link-crawl.ts && tsx scripts/link-check.ts",
+    "sync": "astro build && bash ./ci/sync"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.40.1",
