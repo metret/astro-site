@@ -13,7 +13,7 @@
     "format:check": "prettier --cache --check .",
     "seo:templates": "tsx scripts/seo:templates.ts",
     "seo:crawl-check": "tsx scripts/link-crawl.ts && tsx scripts/link-check.ts",
-    "deploy": "astro build && bash ./ci/deploy"
+    "deploy": "astro build && bash ./ci/deploy.sh"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.40.1",
