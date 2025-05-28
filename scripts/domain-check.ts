@@ -1,5 +1,3 @@
-import * as dotenv from 'dotenv';
-dotenv.config();
 import * as fs from 'fs';
 import axios from 'axios';
 import { Parser } from 'xml2js';
@@ -10,10 +8,6 @@ const username = 'omgjingles';
 
 const clientIp = '159.65.56.185';
 
-if (!apiKey || !username) {
-    console.error('Please set NAMECHEAP_API_KEY, NAMECHEAP_USERNAME, and NAMECHEAP_CLIENT_IP environment variables.');
-    process.exit(1);
-}
 
 const tlds = ['.com', '.io', '.co', '.dev', '.app', '.sh'];
 
