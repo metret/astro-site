@@ -74,7 +74,9 @@ const seo = await articleMeta({
   <Document>
     <Content />
     <div class="mt-8 flex justify-center">
-      <LinkButton href="/">Use this template</LinkButton>
+      <LinkButton href={`/new/${template.data.id}`}
+        >Use this template</LinkButton
+      >
     </div>
   </Document>
 
