@@ -1,47 +1,32 @@
 ---
 import PageLayout from "~/layouts/PageLayout.astro";
-import fav256Png from "../assets/images/media/fav-256.png";
 import logoNamePng from "../assets/images/media/logo-name.png";
-import logoReg256Png from "../assets/images/media/logo-reg-256.png";
 import logoTransPaddedPng from "../assets/images/media/logo-trans-padded.png";
-import fav32Png from "../assets/images/media/fav-32.png";
-import logoNameSvg from "../assets/images/media/logo-name.svg";
-import logoReg32Png from "../assets/images/media/logo-reg-32.png";
 import logoTransPng from "../assets/images/media/logo-trans.png";
 import logoDiscPng from "../assets/images/media/logo-disc.png";
 import logoPaddedPng from "../assets/images/media/logo-padded.png";
 import logoRegPng from "../assets/images/media/logo-reg.png";
-import msg from "../assets/images/media/msg.jpg";
 import logoInvPng from "../assets/images/media/logo-inv.png";
-import logoRefinerPng from "../assets/images/media/logo-refiner.png";
 import logoSplashPng from "../assets/images/media/logo-splash.png";
-import splashInvPng from "../assets/images/media/SplashInv.png";
 import Statement from "~/components/blocks/Statement.astro";
 
 const mediaItems = [
-  { name: "Favicon 256px", image: fav256Png, format: "PNG" },
-  { name: "Favicon 32px", image: fav32Png, format: "PNG" },
-  { name: "Logo Disc", image: logoDiscPng, format: "PNG" },
-  { name: "Logo Inverted", image: logoInvPng, format: "PNG" },
-  { name: "Logo Name SVG", image: logoNameSvg, format: "SVG" },
-  { name: "Logo Padded", image: logoPaddedPng, format: "PNG" },
-  { name: "Logo Refiner", image: logoRefinerPng, format: "PNG" },
-  { name: "Logo Regular 256px", image: logoReg256Png, format: "PNG" },
-  { name: "Logo Regular 32px", image: logoReg32Png, format: "PNG" },
   { name: "Logo Regular", image: logoRegPng, format: "PNG" },
-  { name: "Logo Splash", image: logoSplashPng, format: "PNG" },
+  { name: "Logo Inverted", image: logoInvPng, format: "PNG" },
+  { name: "Logo Transparent White", image: logoTransPng, format: "PNG" },
+  { name: "Logo Disc", image: logoDiscPng, format: "PNG" },
+  { name: "Logo Padded", image: logoPaddedPng, format: "PNG" },
   { name: "Logo Transparent Padded", image: logoTransPaddedPng, format: "PNG" },
-  { name: "Logo Transparent", image: logoTransPng, format: "PNG" },
+  { name: "Logo Splash", image: logoSplashPng, format: "PNG" },
   { name: "Logo with Name", image: logoNamePng, format: "PNG" },
-  { name: "Splash Inverted", image: splashInvPng, format: "PNG" },
 ];
 ---
 
 <PageLayout title="Media">
-  <section class="mt-8 lg:mt-24">
-    <Statement text="Metro Retro Logo's and Assets" />
-  </section>
-  <div class="container mx-auto max-w-[80rem]">
+  <section class="mx-auto mt-8 max-w-[80rem] lg:mt-24">
+    <div class="mb-16">
+      <Statement text="Metro Retro Media Assets" />
+    </div>
     <div
       class="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4"
     >
@@ -49,13 +34,18 @@ const mediaItems = [
         mediaItems.map((item) => (
           <div class="overflow-hidden rounded-lg bg-white shadow-md">
             <div class="relative aspect-square bg-gray-100">
-              <img
-                src={item.image.src}
-                alt={item.name}
-                width={item.image.width}
-                height={item.image.height}
-                class="object-contain p-4"
-              />
+              <a
+                href={item.image.src}
+                download={item.name.toLowerCase().replace(/\s+/g, "-") + ".png"}
+              >
+                <img
+                  src={item.image.src}
+                  alt={item.name}
+                  width={item.image.width}
+                  height={item.image.height}
+                  class="cursor-pointer object-contain p-4 transition-opacity hover:opacity-90"
+                />
+              </a>
             </div>
             <div class="p-4">
               <h3 class="mb-2 text-lg font-semibold">{item.name}</h3>
@@ -64,11 +54,31 @@ const mediaItems = [
                 <p>
                   Dimensions: {item.image.width} × {item.image.height}px
                 </p>
+                <div class="mt-2 flex gap-2">
+                  <a
+                    href={item.image.src}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="inline-flex items-center rounded-md bg-gray-50 px-2 py-1 text-xs font-medium text-gray-600 ring-1 ring-gray-300 ring-inset hover:bg-gray-100"
+                  >
+                    View
+                  </a>
+                  <a
+                    href={item.image.src}
+                    download={
+                      item.name.toLowerCase().replace(/\s+/g, "-") + ".png"
+                    }
+                    class="inline-flex items-center rounded-md bg-gray-50 px-2 py-1 text-xs font-medium text-gray-600 ring-1 ring-gray-300 ring-inset hover:bg-gray-100"
+                  >
+                    Download
+                  </a>
+                </div>
               </div>
             </div>
           </div>
         ))
       }
     </div>
-  </div>
+  </section>
+  <section></section>
 </PageLayout>
