@@ -28,21 +28,25 @@ This format helps prevent the common retrospective trap of focusing exclusively 
 ## How to Run a DAKI Retrospective Session (45-60 minutes)
 
 1. **Set the context (5 minutes)**
+
    - Explain the DAKI concept and what each quadrant represents
    - Define the specific timeframe or sprint you're reviewing
    - Emphasize that all four areas are equally important for team growth
 
 2. **Individual reflection and note creation (10 minutes)**
+
    - Have team members silently add sticky notes to all four quadrants
    - Encourage specific, actionable observations rather than vague statements
    - Remind participants to consider both technical and process-related aspects
 
 3. **Group discussion and clarification (15-20 minutes)**
+
    - Take turns revealing and discussing notes in each quadrant
    - Ask for clarification on ambiguous points
-   - Use Metro Retro's participant highlighting feature to track contributions
+   - Use Ludi's participant highlighting feature to track contributions
 
 4. **Evaluate and prioritize (10 minutes)**
+
    - Add reactions to notes that resonate with you
    - Look for patterns and common themes across quadrants
    - Identify high-impact items based on team reactions
@@ -57,7 +61,7 @@ This format helps prevent the common retrospective trap of focusing exclusively 
 - Balance your actions across quadrants—don't just focus on adding new things while ignoring what should be dropped
 - Keep the "Drop" section constructive—focus on practices, not people or personalities
 - Use the "Improve" section for practices that have potential but aren't quite working yet
-- For remote teams, use Metro Retro's reaction tools to quickly identify which items have the most team support
+- For remote teams, use Ludi's reaction tools to quickly identify which items have the most team support
 - Consider time-boxing the discussion for each quadrant to ensure all areas receive adequate attention
 - When creating action items, be specific about what "success" looks like for each one
 - Revisit previous DAKI retrospective actions in subsequent sessions to track progress

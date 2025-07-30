@@ -6,10 +6,10 @@ image: "~/assets/images/legacy/2020/09/is-your-team-happy.png"
 description: "A practical guide to running team health checks that improve productivity"
 canonicalUrl: "/blog/is-your-team-happy-a-guide-to-running-team-health-checks"
 section: "Guides"
-ogUrl: "https://metroretro.io/blog/is-your-team-happy-a-guide-to-running-team-health-checks"
-ogSiteName: "Metro Retro"
+ogUrl: "https://ludi.co/blog/is-your-team-happy-a-guide-to-running-team-health-checks"
+ogSiteName: "Ludi"
 ogType: "article"
-ogImageUrl: "https://metroretro.io/wp-content/uploads/2020/09/is-your-team-happy.png"
+ogImageUrl: "https://ludi.co/wp-content/uploads/2020/09/is-your-team-happy.png"
 ogImageWidth: 1200
 ogImageHeight: 628
 ogImageAlt: "Is Your Team Happy? A Guide to Running Team Health Checks"
@@ -18,9 +18,9 @@ publishedDate: 2020-09-18T00:00:00+00:00
 modifiedDate: 2024-08-12T09:16:12+00:00
 articleSection: "Guides"
 twitterCardType: "summary_large_image"
-twitterTitle: "Is Your Team Happy? A Guide To Running Team Health Checks | Metro Retro"
+twitterTitle: "Is Your Team Happy? A Guide To Running Team Health Checks | Ludi"
 twitterDescription: "A practical guide to running team health checks that improve productivity"
-twitterImage: "https://metroretro.io/wp-content/uploads/2020/09/is-your-team-happy.png"
+twitterImage: "https://ludi.co/wp-content/uploads/2020/09/is-your-team-happy.png"
 authorName: "Jamie Hanratty"
 ---
 
@@ -69,7 +69,7 @@ These are examples of how you can introduce health checks to your team.
 
 Use a team health check before a meeting to see how the team is feeling.
 
-**Example – thermometer check-in activity –** [**use this template now**](https://metroretro.io/BOKRBNH5TNRQ)
+**Example – thermometer check-in activity –** [**use this template now**](https://ludi.co/BOKRBNH5TNRQ)
 
 ![Team thermometer start](../../assets/images/legacy/2023/05/5f6394a3fde4ae90a679b646_Id_Kr4aYs7Nmfyu_mRN9QGp5s_2nfEP9aDgzUrADjJJJyGT8BK7JZ-4fGAxGrcfRPqQ2JDee4e-cEd7eEPwLC1aLkIi9gvwSAkrVFUq4rIyCdQwGxwqvL0G2yzgZ48fmKLDJwU7.png)
 
@@ -87,7 +87,7 @@ Helps the team settle into the session and reveals any problems before you start
 
 **How to run it**:
 
-- Create your retrospective board in Metro Retro. Use an image or a metaphor to make it more engaging. 
+- Create your retrospective board in Ludi. Use an image or a metaphor to make it more engaging. 
 - Explain the concept to the team and confirm they agree to participate.
 - Ask them to place their avatar on the thermometer. You can debate which ends of the scale are good or bad!
 - Optional – each person writes one word on a sticky note to describe their mood.
@@ -95,14 +95,14 @@ Helps the team settle into the session and reveals any problems before you start
 
 **Hints and Tips**
 
-- Use the [free Metro Retro template](https://metroretro.io/BOKRBNH5TNRQ).
+- Use the [free Ludi template](https://ludi.co/BOKRBNH5TNRQ).
 - Create multiple thermometers if you want to measure different factors.
 
 ### 2\. In-depth Health Check – replace a retrospective
 
 Instead of holding a typical retrospective, offer the team the time to score how they feel across various factors. You will have more time to explore issues, so either run a variety of exercises with the team or deep dive into problem areas.
 
-**Example – Team Health exercise in Metro Retro –** [**use a Team Health Check template now**](https://metroretro.io/BOV5FJ0RMK72)
+**Example – Team Health exercise in Ludi –** [**use a Team Health Check template now**](https://ludi.co/BOV5FJ0RMK72)
 
 ![Team Health check with sticky notes](../../assets/images/legacy/2023/05/5f6394a407eef7d77a28607f_fzzz3Dw9CHAM2JkKrUBHUReLbTL5baeIMEsF1u0LxKdsutmL1UGodzneJqUiLQo_hswE5Oj7hNvikXAzJBaMG0U6BPPl6fxCp5KiAZ7i6iVGcrQle1TTsWzyKX7tvj5mynlWYNn2.png)
 
@@ -134,11 +134,11 @@ Visualizing the scores helps promote discussion and awareness between team membe
 
 Run a quick check to see if the team feels after a meeting.
 
-**Example – a closing activity in Metro Retro**
+**Example – a closing activity in Ludi**
 
 ![Meeting closing activity](../../assets/images/legacy/2023/05/5f6394a3b61a580270158526_LqO09nZoaab9Qhn2McuZ2ajWPu9Op2ldloaBNcF7n2vJF92SXzSeMkQf5175L4hNhM9T4bAwfKUjV6jZolaO2KZ3gehnhQ97QBTS5rIPB8Kdx19Umfidmzs5pCHFLQlTwmFBs73.png)
 
-Closing activity in Metro Retro
+Closing activity in Ludi
 
 ![Meeting closing activity with sticky notes](../../assets/images/legacy/2023/05/5f6394a45b92a74bc0c91eb3_W7-1aKHs48fnpywZKA06Ct8o5KttIKc9h0b-UGfTPX8TnXm9xb4xKYPvzDlah2KxeGsYj_c0-_hRVTMImQevbmpZtuQZyeQcCoIEK7F8paa3A4zEg3DKRscbYQqj5CJaZfgC9o82.png)
 
@@ -157,20 +157,20 @@ Meetings are a time that the team comes together – if people feel significantl
 **How to run it**:
 
 - This should be a very quick exercise to create and run, it doesn’t even need to be anything visual, it can just be a conversation.
-- The board above took 10 minutes to create in Metro Retro. It uses an image, text, sticky notes, and a voting round.
+- The board above took 10 minutes to create in Ludi. It uses an image, text, sticky notes, and a voting round.
 
 ### 4\. Niko-Niko calendar – track daily mood
 
 When a team wants to track their mood as a metric, there are various ways to collect, track, and analyze the data together. A Niko-Niko calendar is a simple, visual way to collect daily mood data.
 
-[**Use the free Niko-Niko calendar template**](https://metroretro.io/BOU7UVFLE1G6)
+[**Use the free Niko-Niko calendar template**](https://ludi.co/BOU7UVFLE1G6)
 
 ![](../../assets/images/legacy/2023/05/64219477a217c255f3ec70b4_image-181.png)
 
 Use a Niko-Niko calendar to track daily mood
 
 **What is it?**  
-Either collect the daily mood data with a [free Metro Retro template](https://metroretro.io/BOU7UVFLE1G6), or use a tool like [Team Mood.](https://teammood.com/)
+Either collect the daily mood data with a [free Ludi template](https://ludi.co/BOU7UVFLE1G6), or use a tool like [Team Mood.](https://teammood.com/)
 
 **Why Do It?**  
 A team may want to track their mood as an indicator of where they can improve.
@@ -189,7 +189,7 @@ A Team Health check is one of the many tools you can use to help a team perform 
 
 Team Health checks are not solely about chasing a happiness metric, but about uncovering all the elements that make people in your team feel happy and productive.
 
-[Start a team space](/setup) in Metro Retro to get access to multiple Team Health Check templates.
+[Start a team space](/setup) in Ludi to get access to multiple Team Health Check templates.
 
 ### Further Reading Links
 

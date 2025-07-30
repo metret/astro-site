@@ -1,6 +1,6 @@
 For software teams looking to streamline their project management, the Project Swimlanes template offers a visually engaging and easy to create solution. It helps teams collaboratively create and manage project timelines across multiple workstreams.
 
-The template is hosted in Metro Retro’s online whiteboard, and everything is customisable and collaborative, so there’s no excuse for the whole team to get involved with planning.
+The template is hosted in Ludi’s online whiteboard, and everything is customisable and collaborative, so there’s no excuse for the whole team to get involved with planning.
 
 #### Getting Started
 

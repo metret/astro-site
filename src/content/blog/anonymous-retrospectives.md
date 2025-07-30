@@ -6,10 +6,10 @@ image: "~/assets/images/legacy/2023/02/how-to-run-anonymous-retrospectives.png"
 description: "Learn how anonymous feedback improves team processes, fosters collaboration, and encourage continuous improvement."
 canonicalUrl: "/blog/anonymous-retrospectives"
 section: "Guides"
-ogUrl: "https://metroretro.io/blog/anonymous-retrospectives"
-ogSiteName: "Metro Retro"
+ogUrl: "https://ludi.co/blog/anonymous-retrospectives"
+ogSiteName: "Ludi"
 ogType: "article"
-ogImageUrl: "https://metroretro.io/wp-content/uploads/2023/02/how-to-run-anonymous-retrospectives.png"
+ogImageUrl: "https://ludi.co/wp-content/uploads/2023/02/how-to-run-anonymous-retrospectives.png"
 ogImageWidth: 1200
 ogImageHeight: 628
 ogImageAlt: "anonymous retrospectives"
@@ -18,9 +18,9 @@ publishedDate: 2023-02-03T00:00:00+00:00
 modifiedDate: 2024-08-12T09:09:41+00:00
 articleSection: "Guides"
 twitterCardType: "summary_large_image"
-twitterTitle: "How To Run Anonymous Retrospectives | Metro Retro"
+twitterTitle: "How To Run Anonymous Retrospectives | Ludi"
 twitterDescription: "Learn how anonymous feedback improves team processes, fosters collaboration, and encourage continuous improvement."
-twitterImage: "https://metroretro.io/wp-content/uploads/2023/02/how-to-run-anonymous-retrospectives.png"
+twitterImage: "https://ludi.co/wp-content/uploads/2023/02/how-to-run-anonymous-retrospectives.png"
 authorName: "Jamie Hanratty"
 ---
 
@@ -28,7 +28,7 @@ During a retrospective, team members may be hesitant to speak up about issues, w
 
 A great activity to encourage participation and negate biases is to conduct an anonymous retrospective. By **hiding names and identities**, feedback cannot be traced back to individuals, making it easier for people to speak out.
 
-However, it’s important to consider both the advantages and disadvantages of anonymous retrospectives. In this article, we’ll explore both sides and provide a guide on how to run an anonymous retrospective using the Metro Retro tool.
+However, it’s important to consider both the advantages and disadvantages of anonymous retrospectives. In this article, we’ll explore both sides and provide a guide on how to run an anonymous retrospective using the Ludi tool.
 
 ## Guidelines for running an Anonymous Retrospective
 
@@ -53,7 +53,7 @@ Or, use an online retrospective tool as suggested in the next section, but just 
 
 Remote retrospectives are often easier to run using online tools that ensure anonymity by hiding participants’ names and identities.
 
-For example, all retrospectives in Metro Retro can be run anonymously by using the **Hide Identities** feature available when in Meeting Mode.
+For example, all retrospectives in Ludi can be run anonymously by using the **Hide Identities** feature available when in Meeting Mode.
 
 ### Hide Identities for Anonymous Retrospectives
 
@@ -72,13 +72,13 @@ To use Hide Identities:
 
 For a more in-depth guide, check out our tutorial video for Hide Identities below:
 
-How to use Hide Identities in Metro Retro
+How to use Hide Identities in Ludi
 
 #### Hide Identities: How It Works
 
-When conducting anonymous retrospectives, we understand the concerns regarding tool security and anonymity. At Metro Retro, we prioritize anonymity, ensuring participants can speak freely without fear of their identity being revealed.
+When conducting anonymous retrospectives, we understand the concerns regarding tool security and anonymity. At Ludi, we prioritize anonymity, ensuring participants can speak freely without fear of their identity being revealed.
 
-Under normal use, Metro Retro tracks who wrote each sticky note and what each person voted on. This information is sent back to the server and shared in real-time with the other users.
+Under normal use, Ludi tracks who wrote each sticky note and what each person voted on. This information is sent back to the server and shared in real-time with the other users.
 
 However, when Hide Identities is enabled, none of this data is sent back to the server. Anything written or voted on remains completely confidential. The application still keeps track of which sticky notes and votes _you_ created, but it does this by storing the association data locally in the browser. This means you can still control the visibility of your notes (e.g. when Private Writing is enabled) without sharing the association data with the server and other clients.
 
@@ -110,4 +110,4 @@ By following these tips, you can create an effective anonymous retrospective whi
 
 ## Free Templates for Anonymous Retrospectives
 
-[Claim your free team space](/setup) in Metro Retro for unique retrospective ideas & interactive templates – you’ll never run out of retro ideas!
+[Claim your free team space](/setup) in Ludi for unique retrospective ideas & interactive templates – you’ll never run out of retro ideas!

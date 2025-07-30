@@ -1,7 +1,6 @@
-Hopes and Concerns: A great way to kick off a project or workshop
------------------------------------------------------------------
+## Hopes and Concerns: A great way to kick off a project or workshop
 
-The Hopes and Concerns activity is an excellent way to start a meeting, workshop, or project. It is a [Futurespective](https://metroretro.io/blog/what-is-a-futurespective) – a forward looking retrospective where teams can focus on their future goals and aspirations, and what will help or hinder them.
+The Hopes and Concerns activity is an excellent way to start a meeting, workshop, or project. It is a [Futurespective](https://ludi.co/blog/what-is-a-futurespective) – a forward looking retrospective where teams can focus on their future goals and aspirations, and what will help or hinder them.
 
 Team members are asked to open up and communicate what they’re optimistic or worried about. The goal is to surface potential issues and divergent expectations before the upcoming event or project. Any differences will become apparent and can be tackled before they have an impact.
 
@@ -21,6 +20,6 @@ _Set aside up to 30-60 minutes for this activity, depending on the number of par
 
 ### Tips for running this session
 
-*   This session can generate a lot of actions, allow time for this.
-*   This exercise can also be called “Hopes and Fears”, but words matter and we think that this exercise is better served by substituting the word “Fear” with the softer version, “Concern”. There is much less of a barrier in professional settings to raising a concern, rather than a fear.
-*   You can use this activity in your regular retrospective slot, perhaps if there is a big event coming up.
+- This session can generate a lot of actions, allow time for this.
+- This exercise can also be called “Hopes and Fears”, but words matter and we think that this exercise is better served by substituting the word “Fear” with the softer version, “Concern”. There is much less of a barrier in professional settings to raising a concern, rather than a fear.
+- You can use this activity in your regular retrospective slot, perhaps if there is a big event coming up.

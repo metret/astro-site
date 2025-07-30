@@ -42,20 +42,24 @@ The Six Thinking Hats method works exceptionally well for:
 **Duration:** 45-60 minutes
 
 1. **Introduction (5 minutes)**
+
    - Clearly define the topic or problem the team will be exploring
    - Briefly explain the Six Thinking Hats concept and what each hat represents
    - Decide which hats you'll use and in what order (you don't have to use all six)
 
 2. **Setup (2 minutes)**
-   - Start a meeting in Metro Retro
+
+   - Start a meeting in Ludi
    - Choose appropriate tools for the session
    - Decide whether to enable private sticky note writing
 
 3. **Topic Definition (3 minutes)**
+
    - Place your topic in the center board area
    - Ensure everyone understands the specific issue being addressed
 
 4. **Hat-by-Hat Exploration (5-8 minutes per hat)**
+
    - For each hat section:
      - Remind participants of the thinking style for the current hat
      - Ask everyone to add their thoughts using sticky notes
@@ -63,6 +67,7 @@ The Six Thinking Hats method works exceptionally well for:
      - Spend 3-5 minutes discussing the contributions as a group
 
 5. **Grouping and Patterns (5 minutes)**
+
    - Use the topic tool to group similar ideas
    - Identify patterns across different hats
    - Highlight connections between perspectives

@@ -7,6 +7,7 @@ The Team Canvas is a collaborative workshop framework designed to help teams ali
 Team Canvas is a visual team alignment tool that brings team members together to explore and document the core elements that define their identity and collaboration style. Created by Alex Ivanov and Mitya Voloshchuk, it serves as a "social contract" that helps remote and co-located teams establish clear expectations and build cohesion.
 
 The canvas consists of nine interconnected sections:
+
 - People and Roles
 - Common Goals
 - Purpose
@@ -22,6 +23,7 @@ Each section prompts meaningful conversations that help transform a group of ind
 ## Benefits & When to Use
 
 Team Canvas is particularly valuable when:
+
 - Forming a new team or welcoming new team members
 - Transitioning to agile methodologies
 - Experiencing team conflicts or miscommunication
@@ -29,6 +31,7 @@ Team Canvas is particularly valuable when:
 - Conducting regular team health checks
 
 Benefits of running a Team Canvas session include:
+
 - Reduced ambiguity about team purpose and expectations
 - Improved psychological safety by surfacing individual needs
 - Greater alignment on priorities and working methods
@@ -38,23 +41,27 @@ Benefits of running a Team Canvas session include:
 ## How to Run a Team Canvas Session
 
 **Preparation (15 minutes)**
+
 1. Schedule a 2-3 hour session with all team members
 2. Share the template link with participants and explain the purpose briefly
 3. Ask participants to reflect on their roles, expectations, and goals beforehand
 
 **Facilitation (120-150 minutes)**
+
 1. **Introduction (10 minutes)**: Explain the Team Canvas framework and how completing it will help the team work better together.
 
 2. **People and Roles (15 minutes)**: Begin with introductions. Have everyone add sticky notes with their name, role, and a brief description of their responsibilities within the team.
 
 3. **Strengths and Weaknesses (30 minutes)**: Have team members identify what skills and capabilities they bring (strengths) and what challenges or limitations they foresee (weaknesses).
 
-4. **Purpose and Goals (30 minutes)**: 
+4. **Purpose and Goals (30 minutes)**:
+
    - Discuss why the team exists (Purpose)
    - Define what measurable objectives the team aims to achieve (Common Goals)
    - Allow individuals to share what they personally want to get from being part of the team (Personal Goals)
 
 5. **Values and Needs (30 minutes)**:
+
    - Define core principles and behaviors the team values
    - Identify what each person needs to perform at their best
 
@@ -72,7 +79,7 @@ Benefits of running a Team Canvas session include:
 
 - **Balance participation**: Ensure everyone contributes to each section, not just the most vocal team members.
 
-- **Document digitally**: Capture all outputs in your Metro Retro board for future reference and team onboarding.
+- **Document digitally**: Capture all outputs in your Ludi board for future reference and team onboarding.
 
 - **Revisit regularly**: Schedule quarterly check-ins to review and update your Team Canvas as the team evolves.
 

@@ -5,30 +5,29 @@ import FaqItem from "./FaqItem.astro";
 
 <div>
   <ul class="space-y-2.5 md:space-y-5">
-    <FaqItem question="What is Metro Retro?">
+    <FaqItem question="What is Ludi?">
       <p>
-        Metro Retro is a collaborative whiteboard tool for engineering teams to
-        run engaging meetings and workshops, such as project kickoffs, planning,
+        Ludi is a collaborative whiteboard tool for engineering teams to run
+        engaging meetings and workshops, such as project kickoffs, planning,
         retrospectives, goal-setting, brainstorming, and more.
       </p>
     </FaqItem>
-    <FaqItem question="What types of sessions can I run with Metro Retro?">
+    <FaqItem question="What types of sessions can I run with Ludi?">
       <p>
-        Teams use Metro Retro for any type of collaborative session, including
-        sprint planning, product roadmaps, planning poker, retrospectives, team
+        Teams use Ludi for any type of collaborative session, including sprint
+        planning, product roadmaps, planning poker, retrospectives, team
         alignment workshops, brainstorming, and more. You can even create your
         own templates.
       </p>
     </FaqItem>
     <FaqItem question="Is it just for teams?">
       <p>
-        Metro Retro is best for team collaboration. If you want to use Metro
-        Retro as a consultant, you can do that to, just <a href="/support"
-          >get in touch</a
+        Ludi is best for team collaboration. If you want to use Metro Retro as a
+        consultant, you can do that to, just <a href="/support">get in touch</a
         >.
       </p>
     </FaqItem>
-    <FaqItem question="Is Metro Retro secure and GDPR compliant?">
+    <FaqItem question="Is Ludi secure and GDPR compliant?">
       <p>
         Yes &mdash; we are GDPR compliant and take security of personal and
         company data very seriously. Learn more on our <a
@@ -56,7 +55,7 @@ import FaqItem from "./FaqItem.astro";
 
   function setFAQ(
     faq?: HTMLDivElement | null,
-    expanded: "true" | "false" = "false",
+    expanded: "true" | "false" = "false"
   ) {
     if (!faq) return;
     faq.setAttribute("aria-expanded", expanded);

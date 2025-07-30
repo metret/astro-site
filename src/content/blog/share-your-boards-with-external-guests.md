@@ -1,15 +1,15 @@
 ---
 title: "New In May 2022: Share Your Board With External Guests"
-teaser: "Sharing your Metro Retro board with external guests"
+teaser: "Sharing your Ludi board with external guests"
 category: "Updates"
 image: "~/assets/images/legacy/2022/05/new-in-may-2022.png"
-description: "Sharing your Metro Retro board with external guests"
+description: "Sharing your Ludi board with external guests"
 canonicalUrl: "/blog/share-your-boards-with-external-guests"
 section: "Updates"
-ogUrl: "https://metroretro.io/blog/share-your-boards-with-external-guests"
-ogSiteName: "Metro Retro"
+ogUrl: "https://ludi.co/blog/share-your-boards-with-external-guests"
+ogSiteName: "Ludi"
 ogType: "article"
-ogImageUrl: "https://metroretro.io/wp-content/uploads/2022/05/new-in-may-2022.png"
+ogImageUrl: "https://ludi.co/wp-content/uploads/2022/05/new-in-may-2022.png"
 ogImageWidth: 1200
 ogImageHeight: 628
 ogImageAlt: "New in May 2022: Share your board with external guests"
@@ -18,15 +18,15 @@ publishedDate: 2022-05-09T00:00:00+00:00
 modifiedDate: 2024-08-12T09:14:00+00:00
 articleSection: "Updates"
 twitterCardType: "summary_large_image"
-twitterTitle: "New In May 2022: Share Your Board With External Guests | Metro Retro"
-twitterDescription: "Sharing your Metro Retro board with external guests"
-twitterImage: "https://metroretro.io/wp-content/uploads/2022/05/new-in-may-2022.png"
+twitterTitle: "New In May 2022: Share Your Board With External Guests | Ludi"
+twitterDescription: "Sharing your Ludi board with external guests"
+twitterImage: "https://ludi.co/wp-content/uploads/2022/05/new-in-may-2022.png"
 authorName: "Jamie Hanratty"
 ---
 
 ### Work securely with external guests
 
-Metro Retro is great for working with your colleagues but sometimes you need to collaborate with people outside your team, so this month we’ve brought you the ability to share your board securely with external guests. It’s perfect for working with clients, customers and partners without needing to invite them into your space as a full member.
+Ludi is great for working with your colleagues but sometimes you need to collaborate with people outside your team, so this month we’ve brought you the ability to share your board securely with external guests. It’s perfect for working with clients, customers and partners without needing to invite them into your space as a full member.
 
 This update comes alongside other changes to sharing boards, as well as more new features and templates. You can read the full details in the [May 2022 release notes](https://updates.metroretro.io/external-guests-better-sharing-v2.49-uuvn2), or get started with the quick guide to guests below.
 
@@ -36,7 +36,7 @@ A guest requests access to a board
 
 ### What is a Guest?
 
-A Guest in Metro Retro is someone you give temporary edit rights to your board. They do not need to signup or login, and you manage their access. They have the basic editing / contribution functions and can use all the tools like sticky notes, drawing & confetti.
+A Guest in Ludi is someone you give temporary edit rights to your board. They do not need to signup or login, and you manage their access. They have the basic editing / contribution functions and can use all the tools like sticky notes, drawing & confetti.
 
 ### When would I use Guests?
 

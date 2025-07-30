@@ -1,34 +1,34 @@
 ---
-title: "The Metro Retro Story"
-teaser: "How Metro Retro began – its history and how it was created"
+title: "The Ludi Story"
+teaser: "How Ludi began – its history and how it was created"
 category: "Product"
 image: "~/assets/images/legacy/2019/05/the-metro-reto-story.png"
-description: "How Metro Retro began - its history and how it was created"
+description: "How Ludi began - its history and how it was created"
 canonicalUrl: "/blog/the-metro-retro-story"
 section: "Product"
-ogUrl: "https://metroretro.io/blog/the-metro-retro-story"
-ogSiteName: "Metro Retro"
+ogUrl: "https://ludi.co/blog/the-metro-retro-story"
+ogSiteName: "Ludi"
 ogType: "article"
-ogImageUrl: "https://metroretro.io/wp-content/uploads/2019/05/the-metro-reto-story.png"
+ogImageUrl: "https://ludi.co/wp-content/uploads/2019/05/the-metro-reto-story.png"
 ogImageWidth: 1200
 ogImageHeight: 628
-ogImageAlt: "The Metro Retro Story"
+ogImageAlt: "The Ludi Story"
 ogImageType: "image/png"
 publishedDate: 2019-05-01T00:00:00+00:00
 modifiedDate: 2024-08-12T09:19:23+00:00
 articleSection: "Product"
 twitterCardType: "summary_large_image"
-twitterTitle: "The Metro Retro Story | Metro Retro"
-twitterDescription: "How Metro Retro began - its history and how it was created"
-twitterImage: "https://metroretro.io/wp-content/uploads/2019/05/the-metro-reto-story.png"
+twitterTitle: "The Ludi Story | Ludi"
+twitterDescription: "How Ludi began - its history and how it was created"
+twitterImage: "https://ludi.co/wp-content/uploads/2019/05/the-metro-reto-story.png"
 authorName: "Steve Whitfield"
 ---
 
 ## Introduction
 
-On April 29th this year, many months later than I had intended, Metro Retro was [listed on Product Hunt](https://www.producthunt.com/posts/metro-retro) and launched to the world. It took about a year and a half to build, much of this being evening and weekend work, finishing with a couple of months of full time. It’s the first product that I’ve worked on and launched independently and I’m super excited to have it live.
+On April 29th this year, many months later than I had intended, Ludi was [listed on Product Hunt](https://www.producthunt.com/posts/metro-retro) and launched to the world. It took about a year and a half to build, much of this being evening and weekend work, finishing with a couple of months of full time. It’s the first product that I’ve worked on and launched independently and I’m super excited to have it live.
 
-This week is the launch of the Metro Retro Blog and this is the inaugural post. Over the coming months I (and hopefully others) will be writing about how Metro Retro was made, what’s being worked on next and anything else I can pretend is interesting in order to improve the SEO of the website. To kick it off I’d like to take you right back to the beginning…
+This week is the launch of the Ludi Blog and this is the inaugural post. Over the coming months I (and hopefully others) will be writing about how Ludi was made, what’s being worked on next and anything else I can pretend is interesting in order to improve the SEO of the website. To kick it off I’d like to take you right back to the beginning…
 
 ## Yay Agile
 
@@ -42,7 +42,7 @@ As a lead developer, I often found it frustrating running sprint planning sessio
 
 So, I started working on a prototype for an ultra adaptable, collaborative productivity tool that would solve all these problems. This progressed pretty slowly and eventually I parked it due to, among other things, lack of discipline and focus. About a year later, our company announced a hackathon for its employees. The brief was completely open and employees were encouraged to mix and team up with people they didn’t work with day to day. All outputs would be open sourced and not controlled by the business. I decided to use this opportunity to resurrect the ideas from the prototype but the focus on solving a single problem rather than multiple.
 
-On 18th November 2016 I teamed up with my good friend and colleague at the time, Dan Greane (Developer) and [Dvorak](https://en.wikipedia.org/wiki/Dvorak_Simplified_Keyboard) extraordinaire Bartek Nowojski (Designer) and started work. We spent 24hrs coding, drinking, eating Rustlers, watching [The Purge](https://www.imdb.com/title/tt2184339/) and napping… but at the end of it all we had the first working version of Metro Retro.
+On 18th November 2016 I teamed up with my good friend and colleague at the time, Dan Greane (Developer) and [Dvorak](https://en.wikipedia.org/wiki/Dvorak_Simplified_Keyboard) extraordinaire Bartek Nowojski (Designer) and started work. We spent 24hrs coding, drinking, eating Rustlers, watching [The Purge](https://www.imdb.com/title/tt2184339/) and napping… but at the end of it all we had the first working version of Ludi.
 
 And it was pretty cool, if you like bugs:
 
@@ -58,19 +58,19 @@ The prototype featured real time updates, private sticky notes and a CSV export 
 
 Currently there are something like 10 other products (that I know about) attempting to provide teams with a way of holding digital retrospectives to save paper, time or enable remote working. A bunch of these were around when we built the prototype. Almost all of them follow the same rough template; take a Trello like column system and add more specific behavior, maybe some voting and label customizations and jazz it up with a Web 3.0 design. To me this is pretty dull.
 
-With Metro Retro, it was important that we did something a bit different and broke a few software norms. It needed it to feel as close as possible to doing a real retrospective, in person, with paper. It needed to look like sticky notes on a whiteboard and not like a Jira or Trello board. It needed to have real-time updates from other users so it felt like you were in a shared session together. It had to let you delete or move sticky notes of other users because, in real life, you can walk up to and bin someone else’s paper notes if you want… so you should be able to in the software version. Most of all though, it needed to be fun!
+With Ludi, it was important that we did something a bit different and broke a few software norms. It needed it to feel as close as possible to doing a real retrospective, in person, with paper. It needed to look like sticky notes on a whiteboard and not like a Jira or Trello board. It needed to have real-time updates from other users so it felt like you were in a shared session together. It had to let you delete or move sticky notes of other users because, in real life, you can walk up to and bin someone else’s paper notes if you want… so you should be able to in the software version. Most of all though, it needed to be fun!
 
-So that’s what we made. Bartek made some great mockups, Dan flexed his elite JavaScript skills on the backend and I built the front end. We added little touches like the slight rotation of sticky notes to make the board look more natural and the emoji messenger to inject a bit of fun into a session. We ended up winning the vote for best product of the day even though a lot of the other teams made really cool products. The following week we dropped the prototype onto AWS and version zero of Metro Retro was live.
+So that’s what we made. Bartek made some great mockups, Dan flexed his elite JavaScript skills on the backend and I built the front end. We added little touches like the slight rotation of sticky notes to make the board look more natural and the emoji messenger to inject a bit of fun into a session. We ended up winning the vote for best product of the day even though a lot of the other teams made really cool products. The following week we dropped the prototype onto AWS and version zero of Ludi was live.
 
 ## The Rebirth
 
-After the deployment, other priorities took over and the project was left to gather dust, despite some cool ideas we had for new features and improvements. About a year later, I discovered to my surprise that Dan and some other ex-colleagues (we had all moved on to new companies at this point) were still using the Metro Retro prototype. Even though it was buggy, unfinished and probably unable to support more than a handful of users, they were getting value out of it. I had been thinking about restarting my original prototype for a collaborativity tool anyway, so I decided that Metro Retro deserved a reboot and doing properly.
+After the deployment, other priorities took over and the project was left to gather dust, despite some cool ideas we had for new features and improvements. About a year later, I discovered to my surprise that Dan and some other ex-colleagues (we had all moved on to new companies at this point) were still using the Ludi prototype. Even though it was buggy, unfinished and probably unable to support more than a handful of users, they were getting value out of it. I had been thinking about restarting my original prototype for a collaborativity tool anyway, so I decided that Ludi deserved a reboot and doing properly.
 
-At the end of 2017 I started the new version and spent about a year working evenings and weekends on the project. In late 2018 I went part time on my day job and spent the rest of the time on Metro Retro. In April this year I went full time and it launched a month later!
+At the end of 2017 I started the new version and spent about a year working evenings and weekends on the project. In late 2018 I went part time on my day job and spent the rest of the time on Ludi. In April this year I went full time and it launched a month later!
 
 ![](../../assets/images/legacy/2023/05/5f0370f7dbc0375482fb7ae7_story-now.png)
 
-The reborn Metro Retro.
+The reborn Ludi.
 
 The new version is much bigger, shares very little code with the prototype and looks quite different in many ways. At the core though, it remains true to the philosophy of the prototype; be free, be fun, be engaging. And it also has confetti!
 

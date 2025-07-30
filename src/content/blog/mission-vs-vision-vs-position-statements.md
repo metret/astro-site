@@ -6,10 +6,10 @@ image: "~/assets/images/legacy/2024/05/mission-vision-position-1.png"
 description: "Bring clarity to your team and product by understanding the difference between your mission, vision, position statements and how to use them."
 canonicalUrl: "/blog/mission-vs-vision-vs-position-statements"
 section: "Guides"
-ogUrl: "https://metroretro.io/blog/mission-vs-vision-vs-position-statements"
-ogSiteName: "Metro Retro"
+ogUrl: "https://ludi.co/blog/mission-vs-vision-vs-position-statements"
+ogSiteName: "Ludi"
 ogType: "article"
-ogImageUrl: "https://metroretro.io/wp-content/uploads/2024/05/mission-vision-position-1.png"
+ogImageUrl: "https://ludi.co/wp-content/uploads/2024/05/mission-vision-position-1.png"
 ogImageWidth: 1200
 ogImageHeight: 628
 ogImageAlt: "Understanding product mission"
@@ -18,15 +18,15 @@ publishedDate: 2024-05-21T09:08:44+00:00
 modifiedDate: 2024-08-12T09:02:14+00:00
 articleSection: "Guides"
 twitterCardType: "summary_large_image"
-twitterTitle: "Understanding Product Mission Vs Vision Vs Position Statements | Metro Retro"
+twitterTitle: "Understanding Product Mission Vs Vision Vs Position Statements | Ludi"
 twitterDescription: "Bring clarity to your team and product by understanding the difference between your mission, vision, position statements and how to use them."
-twitterImage: "https://metroretro.io/wp-content/uploads/2024/05/mission-vision-position-1.png"
+twitterImage: "https://ludi.co/wp-content/uploads/2024/05/mission-vision-position-1.png"
 authorName: "Steven Moseley"
 ---
 
 So what do these terms mean and why should you care about them?
 
-I recently joined the team at Metro Retro to lead the efforts on Creative Strategy and guide the founders, Steve and Jamie on what we need to be doing to scale our audience and properly reflect the quality of our product.
+I recently joined the team at Ludi to lead the efforts on Creative Strategy and guide the founders, Steve and Jamie on what we need to be doing to scale our audience and properly reflect the quality of our product.
 
 In order to do this effectively I asked a few questions on the three core areas this post is about. What is our purpose (Mission), where are we going (Vision) and what makes us unique (Position).
 
@@ -34,7 +34,7 @@ Not surprisingly, there were a lot of answers to these questions, all really gre
 
 Before we go too far, you will find countless articles on these topics, but having just gone through this process with our team, it felt like a good piece of information to share and an opportunity to show some insight into our own working processes using our own product.
 
-The image below is the Metro Retro board I created which we worked through, this post doesn’t go through it in detail but I think even at a high level you can see visually represented, the ‘filtering’ process of defining and understanding Product Mission, Vision and Position. 
+The image below is the Ludi board I created which we worked through, this post doesn’t go through it in detail but I think even at a high level you can see visually represented, the ‘filtering’ process of defining and understanding Product Mission, Vision and Position. 
 
 You start on the left with as much information as you can about you, your customers and your market. Gather what is unique, remove what isn’t and get to the core of what makes you, you.
 
@@ -151,10 +151,10 @@ I’ll leave you with a few stickies showing my initial thoughts on these topics
 
 ![](../../assets/images/legacy/2024/05/tone-brand-culture.png)
 
-Hopefully you found this helpful. If you have any questions about how you can use Metro Retro to run a fun and engaging meeting to work through these marketing challenges then please reach out to [contact@metroretro.io](mailto:contact@metroretro.io)
+Hopefully you found this helpful. If you have any questions about how you can use Ludi to run a fun and engaging meeting to work through these marketing challenges then please reach out to [contact@metroretro.io](mailto:contact@metroretro.io)
 
 Cheers,
 
 Steve (the other one)
 
-Lord of Crayons @ Metro Retro
+Lord of Crayons @ Ludi

@@ -19,11 +19,13 @@ This icebreaker works beautifully for teams of 2-10 people and takes just 5-10 m
 ## How to Run an Easter Egg Dash Session
 
 1. **Prepare the virtual space** (2 minutes)
-   - Make sure all participants can access the Metro Retro board
+
+   - Make sure all participants can access the Ludi board
    - Verify that everyone's participant token is available in the token tray
    - Briefly explain that this is a friendly competition to find hidden Easter eggs
 
 2. **Explain the rules** (1 minute)
+
    - Each participant must grab their token from the token tray
    - When the countdown starts, everyone races to claim as many sticky notes as possible
    - To claim a note, participants drop their token on it
@@ -32,11 +34,13 @@ This icebreaker works beautifully for teams of 2-10 people and takes just 5-10 m
    - The goal is to collect the most eggs in your basket
 
 3. **Start the dash** (3-5 minutes)
+
    - Use the countdown button to signal the start
    - Allow a few minutes for the mad dash as participants claim sticky notes
    - Call time when all sticky notes have been claimed
 
 4. **Reveal the findings** (2 minutes)
+
    - In turn, each participant deletes their claimed sticky notes to reveal what's underneath
    - When eggs are found, participants move them to their basket on the right
    - Keep an eye out for the special Golden Egg - this can award bonus points or a special privilege

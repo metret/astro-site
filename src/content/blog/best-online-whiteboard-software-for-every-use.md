@@ -6,10 +6,10 @@ image: "~/assets/images/legacy/2022/10/best-online-whiteboard-software-for-every
 description: "We compare six online whiteboards for remote collaboration - the Pros, the Cons, and the Pricing."
 canonicalUrl: "/blog/best-online-whiteboard-software-for-every-use"
 section: "Overviews"
-ogUrl: "https://metroretro.io/blog/best-online-whiteboard-software-for-every-use"
-ogSiteName: "Metro Retro"
+ogUrl: "https://ludi.co/blog/best-online-whiteboard-software-for-every-use"
+ogSiteName: "Ludi"
 ogType: "article"
-ogImageUrl: "https://metroretro.io/wp-content/uploads/2022/10/best-online-whiteboard-software-for-every-use.png"
+ogImageUrl: "https://ludi.co/wp-content/uploads/2022/10/best-online-whiteboard-software-for-every-use.png"
 ogImageWidth: 1200
 ogImageHeight: 628
 ogImageAlt: "Best Online Whiteboard Software for Every Use"
@@ -18,15 +18,15 @@ publishedDate: 2022-10-24T12:34:56+00:00
 modifiedDate: 2024-08-12T09:11:28+00:00
 articleSection: "Overviews"
 twitterCardType: "summary_large_image"
-twitterTitle: "Best Online Whiteboard Software For Every Use | Metro Retro"
+twitterTitle: "Best Online Whiteboard Software For Every Use | Ludi"
 twitterDescription: "We compare six online whiteboards for remote collaboration - the Pros, the Cons, and the Pricing."
-twitterImage: "https://metroretro.io/wp-content/uploads/2022/10/best-online-whiteboard-software-for-every-use.png"
+twitterImage: "https://ludi.co/wp-content/uploads/2022/10/best-online-whiteboard-software-for-every-use.png"
 authorName: "Jamie Hanratty"
 ---
 
 The nature of work has changed dramatically in recent times. Many more employees are working remotely and this has meant that virtual tools like online whiteboards have become important for a range of businesses, schools, colleges and other institutions. 
 
-Acting as virtual spaces for brainstorming, teaching, presenting ideas, and team collaboration, online whiteboards like [Metro Retro](/), have become truly invaluable. However, these platforms are constantly evolving and innovating, so it’s important scrum masters and their teams keep up to date with the latest developments in this space. 
+Acting as virtual spaces for brainstorming, teaching, presenting ideas, and team collaboration, online whiteboards like [Ludi](/), have become truly invaluable. However, these platforms are constantly evolving and innovating, so it’s important scrum masters and their teams keep up to date with the latest developments in this space. 
 
 As this is very much our wheelhouse, we thought we’d share our top online whiteboards, so you can start collaborating and organizing your workflows today in a more aesthetic way!  
 
@@ -88,22 +88,22 @@ Ensure that you look for a solution that complies with data protection regulatio
 
 ## **Key Takeaways:**
 
-- **Metro Retro** – Best for Agile Meetings
+- **Ludi** – Best for Agile Meetings
 - **Figjam** – Best for Design-led Workshops
 - **Lucidspark** – Best for Diagramming
 - **Conceptboard** – Best for Visual Collaboration
 - **Freehand** – Low Pricing
 - **Stormboard** – Best for Customized Reports
 
-### 1 Metro Retro
+### 1 Ludi
 
 ![](https://lh3.googleusercontent.com/dCLNKX56PN5wDyB0d4G_cnRQG70BZvsLyR1SCXJ_sKXiyJa4WvO5f7-ppI-YDUrUdqlBL3c7CB3xfkJ7wzswUKKNv_GgrkkpNCJdS3vj4-j8qWgxgEbtIVlMheH9rwqWEQfVX3IqPhRQxMwew9oIQGM)
 
-Metro Retro is a virtual whiteboard that’s as feature heavy as it is easy to use. 
+Ludi is a virtual whiteboard that’s as feature heavy as it is easy to use. 
 
 It comes with a number of unique activities in addition to all the features you’d expect in an online whiteboard and has the best retrospectives in the game, bar none. 
 
-Whatever your team needs to do, from carrying out health checks to hosting remote meetings, undertaking a product management review to designing and defining new Agile processes, Metro Retro has everything you need to make collaboration more efficient, more engaging, and more productive. 
+Whatever your team needs to do, from carrying out health checks to hosting remote meetings, undertaking a product management review to designing and defining new Agile processes, Ludi has everything you need to make collaboration more efficient, more engaging, and more productive. 
 
 #### Relevant Features
 
@@ -111,7 +111,7 @@ Retrospectives
 
 ![](https://lh3.googleusercontent.com/uSPe96OFiFzhtHkdziaIQm29mlHFGrKqqyjF2QfbtVLp2ufh_XTBOiH8Tn2e-lq017T70d6ZuKZuKx4lVfXb2MpXOlkthnUBiq09rgJgGANgRbOtOR368XsEGP8VHO4jeyMTeHiBFaGIGPJnAEoW_pA)
 
-Metro Retro Retrospectives let remote teams run productive, engaging, and fun retrospectives to help inspect and adapt their processes. 
+Ludi Retrospectives let remote teams run productive, engaging, and fun retrospectives to help inspect and adapt their processes. 
 
 All boards are completely customizable and boast all the tools you’ll ever need (private writing, grouping & themes, voting, actions, import & export) so you can tailor your retro to the needs of the team, including [how to run anonymous retrospectives](/blog/anonymous-retrospectives).
 
@@ -119,13 +119,13 @@ Project Management
 
 ![](https://lh6.googleusercontent.com/cS-1umqo9ra78iRxr4m4vW7kPsMHM6Px6IX6ZHAMVhp0JaTx18QbZ41qMESbvah3BQKRMn8PdF3wk65V7oJ-6qIXb1gfnxXUJtpdUZYszlZT_1rswWdR2BEiTD7scU3FvqfTdwQCRr5WFKKeuvKNpp8)
 
-With Metro Retro, you get powerful collaborative project planning with core features like timelines, task boards, and a load more. 
+With Ludi, you get powerful collaborative project planning with core features like timelines, task boards, and a load more. 
 
 Remote Meetings
 
 ![](https://lh3.googleusercontent.com/wF-zauSlxdLzSsHaL0x87CmdIaOiYbDxvrTIY_Jr9NxADH4_oaIRogYy_3VdBGVCsJ2AgFcJZLYSoN2vA-V6R8VBOhNuiXUCEWd7nPG0GBeosIdLoG9-wNQHk1d1yCTntCQJGX-_vZMQyboE1ZC00Zs)
 
-Metro Retro facilitates the most productive remote meetings by providing everything you need to get your meeting scheduled and keep it on track including icebreakers, agendas, timers, voting, actions, presentation tools and facilitator controls.
+Ludi facilitates the most productive remote meetings by providing everything you need to get your meeting scheduled and keep it on track including icebreakers, agendas, timers, voting, actions, presentation tools and facilitator controls.
 
 #### Pricing
 
@@ -422,6 +422,6 @@ As you can see, online whiteboards have come on leaps and bounds, especially in 
 
 There are now a significant number of digital whiteboards and collaborative platforms that each offer a fantastic subset of core features and additional functionality to make remote collaboration more efficient and more engaging for Agile teams. 
 
-If you are looking for a new online whiteboard, or considering whether your existing toolset is really giving everything you need and want at a fair price, then you might want to give [Metro Retro a try](/early-access).
+If you are looking for a new online whiteboard, or considering whether your existing toolset is really giving everything you need and want at a fair price, then you might want to give [Ludi a try](/early-access).
 
 You can set up a [free team space](/setup) straight away and start getting to grips with a collaborative solution built to engage and delight agile teams working together.

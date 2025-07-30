@@ -4,7 +4,7 @@ The Lean Canvas is a strategic planning tool adapted from the Business Model Can
 
 ## What Is a Lean Canvas?
 
-Originally created by Ash Maurya as a startup-focused alternative to Alex Osterwalder's Business Model Canvas, the Lean Canvas helps teams document and validate their business model hypotheses. The template consists of nine interconnected segments that capture the fundamental elements of a viable product or business idea. 
+Originally created by Ash Maurya as a startup-focused alternative to Alex Osterwalder's Business Model Canvas, the Lean Canvas helps teams document and validate their business model hypotheses. The template consists of nine interconnected segments that capture the fundamental elements of a viable product or business idea.
 
 Unlike the Business Model Canvas which focuses more on organizational structures and partnerships, the Lean Canvas emphasizes problem definition, solution validation, and metrics—making it particularly valuable for agile software development teams and product managers working with uncertainty.
 
@@ -31,37 +31,46 @@ Benefits include:
 Total time: 60-90 minutes
 
 1. **Set the stage (5 minutes)**
+
    - Explain the purpose of the Lean Canvas and how it will help focus product development efforts
    - Review each of the nine canvas sections and their completion order (indicated by numbers in the corners)
 
 2. **Complete the Problem section (10 minutes)**
+
    - List the top 1-3 problems your product will solve
    - Include existing alternatives (how these problems are solved today)
 
 3. **Define Customer Segments (10 minutes)**
+
    - Identify target customers and users
    - Highlight early adopters who will be most receptive to your solution
 
 4. **Develop your Solution (10 minutes)**
+
    - Outline specific solutions that address each identified problem
    - Keep solutions concise and focused on core functionality
 
 5. **Craft your Unique Value Proposition (10 minutes)**
+
    - Create a single, clear message that communicates why your product is different
    - Include a high-level concept ("X for Y" analogy) that makes your idea instantly understandable
 
 6. **Map out Channels (5 minutes)**
+
    - Document how you'll reach customers (both inbound and outbound methods)
 
 7. **Establish Revenue Streams and Cost Structure (10 minutes)**
+
    - List potential revenue sources
    - Outline fixed and variable costs
 
 8. **Define Key Metrics (5 minutes)**
+
    - Identify the critical numbers that will indicate success
    - Focus on metrics that directly reflect progress toward solving customer problems
 
 9. **Identify Unfair Advantage (5 minutes)**
+
    - Determine what aspect of your approach cannot be easily copied or bought
    - This could be proprietary technology, exclusive partnerships, or unique expertise
 
@@ -80,4 +89,4 @@ Total time: 60-90 minutes
 - **Focus on one customer segment**: If you're targeting multiple segments, create separate canvases for each
 - **Be specific with metrics**: Avoid vanity metrics; focus on actionable numbers that directly indicate progress
 
-For remote teams using Metro Retro, encourage participants to add their ideas as digital sticky notes, then use voting features to prioritize the most important elements in each section. The collaborative visual workspace makes it easy for distributed team members to contribute equally to the canvas development.
+For remote teams using Ludi, encourage participants to add their ideas as digital sticky notes, then use voting features to prioritize the most important elements in each section. The collaborative visual workspace makes it easy for distributed team members to contribute equally to the canvas development.

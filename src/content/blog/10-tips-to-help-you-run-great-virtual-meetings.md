@@ -6,10 +6,10 @@ image: "~/assets/images/legacy/2023/04/10-tips-for-running-great-virtual-meeting
 description: "10 clever ways to make your virtual meetings more interesting and fun!"
 canonicalUrl: "/blog/10-tips-to-help-you-run-great-virtual-meetings"
 section: "Guides"
-ogUrl: "https://metroretro.io/blog/10-tips-to-help-you-run-great-virtual-meetings"
-ogSiteName: "Metro Retro"
+ogUrl: "https://ludi.co/blog/10-tips-to-help-you-run-great-virtual-meetings"
+ogSiteName: "Ludi"
 ogType: "article"
-ogImageUrl: "https://metroretro.io/wp-content/uploads/2023/04/10-tips-for-running-great-virtual-meetings.png"
+ogImageUrl: "https://ludi.co/wp-content/uploads/2023/04/10-tips-for-running-great-virtual-meetings.png"
 ogImageWidth: 1200
 ogImageHeight: 628
 ogImageAlt: "10 Tips For Running Great Virtual Meetings"
@@ -18,9 +18,9 @@ publishedDate: 2023-04-03T00:00:00+00:00
 modifiedDate: 2024-08-12T09:09:06+00:00
 articleSection: "Guides"
 twitterCardType: "summary_large_image"
-twitterTitle: "10 Tips For Running Great Virtual Meetings | Metro Retro"
+twitterTitle: "10 Tips For Running Great Virtual Meetings | Ludi"
 twitterDescription: "10 clever ways to make your virtual meetings more interesting and fun!"
-twitterImage: "https://metroretro.io/wp-content/uploads/2023/04/10-tips-for-running-great-virtual-meetings.png"
+twitterImage: "https://ludi.co/wp-content/uploads/2023/04/10-tips-for-running-great-virtual-meetings.png"
 authorName: "Jamie Hanratty"
 ---
 
@@ -58,7 +58,7 @@ If you’re using a collaborative tool to run your meeting, make sure everyone k
 
 Include some basic training about the tool being used, or better yet – make a tutorial.
 
-If you need inspiration, check out the [interactive tutorial](/tutorial/) built in to Metro Retro (you need a Metro Retro account to try this).
+If you need inspiration, check out the [interactive tutorial](/tutorial/) built in to Ludi (you need a Ludi account to try this).
 
 ![](../../assets/images/legacy/2023/05/64256d070aee52f58b6f107d_Screenshot-2023-03-30-at-12.04.png)
 
@@ -82,7 +82,7 @@ You can try interesting off-topic questions like “What’s the best piece of n
 
 In a virtual meeting, how do you know when everyone has completed the current task? You can’t physically see that they have finished, so often meeting hosts need to resort to asking and waiting for replies. This is often clumsy to orchestrate. Using a Ready Check is an efficient and easy way to make sure everyone is ready to proceed from one activity to the next.
 
-We built a Ready Check into Metro Retro so people can indicate when they’re done. It saves valuable time, and eliminates the need to keep asking if everyone is done.
+We built a Ready Check into Ludi so people can indicate when they’re done. It saves valuable time, and eliminates the need to keep asking if everyone is done.
 
 ![](../../assets/images/legacy/2023/05/6425783ce3530405a33cec85_Group-137.png)
 
@@ -112,7 +112,7 @@ In a virtual meeting you need people to be clear about whether they are present 
 
 ## Tip 7. Designate the current speaker
 
-One way to manage who is talking at any given time is to reproduce the in-person technique where only the person holding the “speaking ball” is allowed to talk. To reproduce this virtually on a Metro Retro board, you can use the “Hats” feature. Whoever is wearing the “speaking hat” is the only person allowed to talk. 
+One way to manage who is talking at any given time is to reproduce the in-person technique where only the person holding the “speaking ball” is allowed to talk. To reproduce this virtually on a Ludi board, you can use the “Hats” feature. Whoever is wearing the “speaking hat” is the only person allowed to talk. 
 
 To do this with your team:
 
@@ -134,7 +134,7 @@ Active Listening is a way of paying full attention to someone when they are spea
 
 You can try implementing an active listening technique in the group, such as the “Key” method. When one person is talking, have everyone else draw or produce a picture of a key when the speaker has said a “key” point or has written a good idea on a sticky note. As the speaker it can be encouraging to see a round of keys flash up.
 
-In Metro Retro there are a few ways to do:
+In Ludi there are a few ways to do:
 
 - Use the Marker Tool to draw a keys in a central area of the board.
 - Probably better, use the Reaction Tool with the key emoji and stamp the key an appropriate place, such as the sticky being discussed.
@@ -158,9 +158,9 @@ A simple but
 
 It can be difficult to ask for this kind of information and you may discover some uncomfortable truths, but over the long term it will help you run better meetings. Ask your participants to rate the meeting from 1-5, make it anonymous if needed, and allow them to explain their rating – but only if they want to!
 
-## Tip 10. Use Metro Retro to improve collaborative meetings
+## Tip 10. Use Ludi to improve collaborative meetings
 
-That’s right! It’s just a good old “use our app lol” coming in at #10. But wait! Before you hit that close button, we have actually put a lot of time and effort into building Metro Retro to be the best tool for running virtual meetings. Is it actually the best online whiteboard for meetings and workshops? Well that’s subjective, but to help you decide for yourself, here’s all the stuff it has that you won’t find in other tools at the time of writing this article, or if you do find it, it’s worse:
+That’s right! It’s just a good old “use our app lol” coming in at #10. But wait! Before you hit that close button, we have actually put a lot of time and effort into building Ludi to be the best tool for running virtual meetings. Is it actually the best online whiteboard for meetings and workshops? Well that’s subjective, but to help you decide for yourself, here’s all the stuff it has that you won’t find in other tools at the time of writing this article, or if you do find it, it’s worse:
 
 - Our sticky notes actually look like real sticky notes and don’t just feel like a soulless rectangle!
 - You can write stickies in private and share them when you’re ready using our Private Writing feature.
@@ -173,6 +173,6 @@ That’s right! It’s just a good old “use our app lol” coming in at #10. B
 
 A collaborative meeting in Metro Retro
 
-There are so many more features we could mention, but maybe you should just [go and see for your self?](/setup) And while you are in there, all of these tips in this article can be implemented in a Metro Retro board and adapted as needed. So what are you waiting for?
+There are so many more features we could mention, but maybe you should just [go and see for your self?](/setup) And while you are in there, all of these tips in this article can be implemented in a Ludi board and adapted as needed. So what are you waiting for?
 
-[Get started with Metro Retro](/setup)
+[Get started with Ludi](/setup)

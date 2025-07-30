@@ -1,15 +1,15 @@
 ---
 title: "New In July 2022: Making Meetings Enjoyable"
-teaser: "How Metro Retro helps you improve team mood with fun meeting formats and features."
+teaser: "How Ludi helps you improve team mood with fun meeting formats and features."
 category: "Updates"
 image: "~/assets/images/legacy/2022/07/new-in-july-2022.png"
-description: "How Metro Retro helps you improve team mood with fun meeting formats and features."
+description: "How Ludi helps you improve team mood with fun meeting formats and features."
 canonicalUrl: "/blog/new-in-july-2022-19-new-updates"
 section: "Updates"
-ogUrl: "https://metroretro.io/blog/new-in-july-2022-19-new-updates"
-ogSiteName: "Metro Retro"
+ogUrl: "https://ludi.co/blog/new-in-july-2022-19-new-updates"
+ogSiteName: "Ludi"
 ogType: "article"
-ogImageUrl: "https://metroretro.io/wp-content/uploads/2022/07/new-in-july-2022.png"
+ogImageUrl: "https://ludi.co/wp-content/uploads/2022/07/new-in-july-2022.png"
 ogImageWidth: 1200
 ogImageHeight: 628
 ogImageAlt: "New in July 2022: Making meetings enjoyable"
@@ -18,15 +18,15 @@ publishedDate: 2022-07-20T00:00:00+00:00
 modifiedDate: 2024-08-12T09:13:26+00:00
 articleSection: "Updates"
 twitterCardType: "summary_large_image"
-twitterTitle: "New In July 2022: Making Meetings Enjoyable | Metro Retro"
-twitterDescription: "How Metro Retro helps you improve team mood with fun meeting formats and features."
-twitterImage: "https://metroretro.io/wp-content/uploads/2022/07/new-in-july-2022.png"
+twitterTitle: "New In July 2022: Making Meetings Enjoyable | Ludi"
+twitterDescription: "How Ludi helps you improve team mood with fun meeting formats and features."
+twitterImage: "https://ludi.co/wp-content/uploads/2022/07/new-in-july-2022.png"
 authorName: "Jamie Hanratty"
 ---
 
 ### Helping you improve team mood
 
-Welcome to a new update of Metro Retro! With this one we’ve been focusing on everything that affects a team’s mood when working collaboratively, including:
+Welcome to a new update of Ludi! With this one we’ve been focusing on everything that affects a team’s mood when working collaboratively, including:
 
 - Keeping meetings efficient and smooth
 - Fun interactions between team members
@@ -43,17 +43,17 @@ Watch Steve walk through the updates one-by-one
 
 ### Ok, so what’s new?
 
-We’ve focused on a couple of areas that will make Metro Retro an even more enjoyable place to work in, plus a few bonus things to boost your team’s mood…
+We’ve focused on a couple of areas that will make Ludi an even more enjoyable place to work in, plus a few bonus things to boost your team’s mood…
 
-#### 1\. New ways to use Metro Retro
+#### 1\. New ways to use Ludi
 
-If your team already love working in Metro Retro there are new object types for more occasions, such as using tokens to run a team mood check-in:
+If your team already love working in Ludi there are new object types for more occasions, such as using tokens to run a team mood check-in:
 
 ![](../../assets/images/legacy/2023/05/634ed8eb7678c40bec8cb618_image-151.png)
 
 Using tokens for a quick team mood check-in
 
-Or use the new Task Cards for collaborative roadmapping sessions (see the magic of [importing your backlog to Metro Retro](https://docs.metroretro.io/on-the-board/import-data-to-your-boards#how-to-import-and-map-your-data)):
+Or use the new Task Cards for collaborative roadmapping sessions (see the magic of [importing your backlog to Ludi](https://docs.metroretro.io/on-the-board/import-data-to-your-boards#how-to-import-and-map-your-data)):
 
 ![](../../assets/images/legacy/2023/05/634edae0eea2b5c7e509c7d3_Quarterly-roadmap-1.png)
 
@@ -95,8 +95,8 @@ The new drawing, pointers & hats alongside the confetti cannon.
 
 Well, we think collaborative software should be enjoyable and fun to use. Why shouldn’t you be able to scribble a big fat ❌ on out of scope stickies, or just wear a virtual hat when you feel like it?
 
-While Metro Retro helps thousands of people work through their meetings & workshops each week, we also like the idea that some features can be completely whimsical, and may evolve over time to find purpose. For example, hats are a bit silly, but they can be used to communicate things like someone’s birthday, during an event (like Santa hats at Christmas), or to show that someone has a particular role in the group. For example, the person with the ringmaster’s top hat is the meeting leader!
+While Ludi helps thousands of people work through their meetings & workshops each week, we also like the idea that some features can be completely whimsical, and may evolve over time to find purpose. For example, hats are a bit silly, but they can be used to communicate things like someone’s birthday, during an event (like Santa hats at Christmas), or to show that someone has a particular role in the group. For example, the person with the ringmaster’s top hat is the meeting leader!
 
 ### Give your feedback
 
-Have a play with the new updates and tell us what you like and don’t like. We’re are making Metro Retro the place where your team loves to work, so let us know what you would love to see in the tool!
+Have a play with the new updates and tell us what you like and don’t like. We’re are making Ludi the place where your team loves to work, so let us know what you would love to see in the tool!

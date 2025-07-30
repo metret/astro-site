@@ -6,10 +6,10 @@ image: "~/assets/images/legacy/2022/10/ask-these-questions-to-revive-your-retros
 description: "Running out of questions to ask in your retro? Try these."
 canonicalUrl: "/blog/using-questions-to-rescue-a-stale-retrospective"
 section: "Guides"
-ogUrl: "https://metroretro.io/blog/using-questions-to-rescue-a-stale-retrospective"
-ogSiteName: "Metro Retro"
+ogUrl: "https://ludi.co/blog/using-questions-to-rescue-a-stale-retrospective"
+ogSiteName: "Ludi"
 ogType: "article"
-ogImageUrl: "https://metroretro.io/wp-content/uploads/2022/10/ask-these-questions-to-revive-your-retrospective.png"
+ogImageUrl: "https://ludi.co/wp-content/uploads/2022/10/ask-these-questions-to-revive-your-retrospective.png"
 ogImageWidth: 1200
 ogImageHeight: 628
 ogImageAlt: "Ask these questions to revive your retrospective"
@@ -18,9 +18,9 @@ publishedDate: 2022-10-07T00:00:00+00:00
 modifiedDate: 2024-08-12T09:12:13+00:00
 articleSection: "Guides"
 twitterCardType: "summary_large_image"
-twitterTitle: "Ask These Questions To Revive Your Retrospective | Metro Retro"
+twitterTitle: "Ask These Questions To Revive Your Retrospective | Ludi"
 twitterDescription: "Running out of questions to ask in your retro? Try these."
-twitterImage: "https://metroretro.io/wp-content/uploads/2022/10/ask-these-questions-to-revive-your-retrospective.png"
+twitterImage: "https://ludi.co/wp-content/uploads/2022/10/ask-these-questions-to-revive-your-retrospective.png"
 authorName: "Jamie Hanratty"
 ---
 
@@ -103,4 +103,4 @@ You can also ask questions at the end of the meeting to reflect on the meeting i
 
 ## Free retrospective templates
 
-[Claim your free team space](/setup) in Metro Retro for more unique retrospective ideas & interactive templates – you’ll never have a stale retro again!
+[Claim your free team space](/setup) in Ludi for more unique retrospective ideas & interactive templates – you’ll never have a stale retro again!

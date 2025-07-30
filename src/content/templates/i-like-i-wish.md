@@ -28,20 +28,24 @@ The I Like, I Wish approach helps prevent retrospectives from becoming complaint
 **Total time**: 20-30 minutes
 
 1. **Introduction (2 minutes)**
+
    - Explain the format and emphasize that "I Wish" items should be forward-looking improvements rather than complaints
    - Remind the team that both sections are equally important
 
 2. **Individual Reflection and Note Creation (10 minutes)**
+
    - Have team members silently add sticky notes to both areas
    - Encourage everyone to contribute to both columns
    - Set a timer to keep the session moving
 
 3. **Share and Discuss (10-15 minutes)**
+
    - Take turns discussing notes from both columns
    - When discussing "I Wish" items, encourage participants to frame them as opportunities
    - Use the highlight feature to focus on one person's notes at a time
 
 4. **React and Vote (3 minutes)**
+
    - Have team members add reactions to notes they strongly agree with
    - This helps identify which items resonated most with the team
 
@@ -55,7 +59,7 @@ The I Like, I Wish approach helps prevent retrospectives from becoming complaint
 - If the team struggles with the "I Like" section, prompt them with categories (collaboration, technical achievements, customer feedback, etc.)
 - Watch for patterns across multiple retrospectives—recurring "wishes" may indicate systemic issues
 - Consider starting with "I Like" to set a positive tone before moving to "I Wish"
-- For remote teams, use Metro Retro's timer feature to keep the session on track
+- For remote teams, use Ludi's timer feature to keep the session on track
 - When discussing wishes, encourage participants to be specific about what success would look like
 
 This retrospective format's beauty lies in its simplicity, making it accessible for teams at any stage while still providing valuable insights for continuous improvement.

@@ -19,6 +19,7 @@ This template is particularly valuable when:
 - The team has completed a complex or challenging sprint with many dimensions to process
 
 Key benefits include:
+
 - Engages different thinking modes, leading to new insights
 - Creates a psychologically safer space for sharing feelings through metaphor and imagery
 - Makes retrospectives more memorable and engaging
@@ -30,23 +31,27 @@ Key benefits include:
 **Total time: 30-45 minutes**
 
 1. **Set up and introduction (5 minutes)**
+
    - Introduce the activity and its purpose—to visualize the sprint journey from each person's perspective
    - Ask each team member to add their name to one section of the template
    - Remind everyone that artistic skill isn't important—stick figures and simple images work perfectly!
    - Pro tip: Reassure participants that explaining their drawings is helpful but not mandatory
 
 2. **Prepare drawing tools (2 minutes)**
+
    - Ask everyone to equip the marker pen from the left toolbar
    - Suggest pinning the marker tool menu open for quick color switching
    - Pro tip: Mention that each participant can control their own volume for background music in the bottom left
 
 3. **Creative drawing phase (10 minutes)**
+
    - Start the timer and optional background music using the built-in tools
    - Encourage team members to draw representations of their sprint experience
    - Remind them to focus on key moments, emotions, challenges, and victories
    - Suggest using different colors to represent different aspects or emotions
 
 4. **Gallery walk and explanations (15 minutes)**
+
    - When the timer ends, have each person briefly explain their drawing to the team
    - Ask gentle, curious questions: "What does this element represent?" or "Tell us more about this part"
    - Look for patterns or shared experiences across different drawings
@@ -63,7 +68,7 @@ Key benefits include:
 - **Create a judgment-free zone:** Emphasize that artistic ability isn't being evaluated—the focus is on expression and insight
 - **Use metaphors:** Encourage team members to think about their sprint in terms of weather, landscapes, journeys, or other metaphors that might make drawing easier
 - **Provide prompts:** If people are hesitant, suggest drawing elements like: "The highest point of your sprint," "The biggest obstacle," or "How you felt at the end"
-- **Enable privacy during creation:** Allow team members to turn their cameras off while drawing if using video conferencing alongside Metro Retro
+- **Enable privacy during creation:** Allow team members to turn their cameras off while drawing if using video conferencing alongside Ludi
 - **Capture insights digitally:** Take screenshots of the drawings to include in sprint documentation
 - **Mix with other techniques:** Consider following this visual exercise with a more structured action-setting activity to ensure insights lead to improvements
 

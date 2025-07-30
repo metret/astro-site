@@ -1,5 +1,4 @@
-What is the Incident Postmortem template?
------------------------------------------
+## What is the Incident Postmortem template?
 
 The Incident Postmortem template is a collaborative board that helps a team discuss a recent incident, review what they learnt, and decide how to prevent it happening again.
 
@@ -18,8 +17,7 @@ To finish the session, the team identifies improvements they can make to prevent
 
 This session can take 45-90 minutes, depending on complexity of the event and number of participants.
 
-How to run the Incident Postmortem in Metro Retro
--------------------------------------------------
+## How to run the Incident Postmortem in Ludi
 
 1.  Start by pre-filling the ‘What Happened’ section with the facts of the incident.
 2.  Present the template and the objective to the team. Review the facts of the incident together.
@@ -32,6 +30,6 @@ How to run the Incident Postmortem in Metro Retro
 
 ### Pro-tips
 
-*   You may want to add extra data and information to the board. Copy/ paste images or use the .csv import to supplement the board with information from external systems.
-*   Add or remove any sections from the board as required – everything in the template is customizable!
-*   Spend time setting the tone of the meeting. For example read the Retrospective Prime Directive together: “Regardless of what we discover, we understand and truly believe that everyone did the best job they could, given what they knew at the time, their skills and abilities, the resources available, and the situation at hand.”
+- You may want to add extra data and information to the board. Copy/ paste images or use the .csv import to supplement the board with information from external systems.
+- Add or remove any sections from the board as required – everything in the template is customizable!
+- Spend time setting the tone of the meeting. For example read the Retrospective Prime Directive together: “Regardless of what we discover, we understand and truly believe that everyone did the best job they could, given what they knew at the time, their skills and abilities, the resources available, and the situation at hand.”

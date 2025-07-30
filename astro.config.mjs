@@ -10,7 +10,7 @@ import robotsTxt from "astro-robots-txt";
 
 import sitemap from "@astrojs/sitemap";
 
-const siteUrl = "https://metroretro.io";
+const siteUrl = "https://ludi.co";
 
 // https://astro.build/config
 export default defineConfig({

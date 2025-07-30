@@ -7,6 +7,7 @@ Bring some festive cheer to your remote team meetings with this delightful Chris
 The Christmas Wish is a dual-purpose icebreaker that engages teams in both a creative decorating activity and reflective sharing exercise. Team members first collaborate to decorate a virtual Christmas tree using digital ornaments, then share personal "wishes" for the coming year. This activity creates a relaxed atmosphere while generating meaningful insights that can set the tone for your meeting.
 
 The metaphor is simple but effective:
+
 - **The Tree**: Represents the team's shared space and collaborative spirit
 - **Ornaments**: Allow for personalization and creativity
 - **Wishes**: Capture aspirations, goals, or needs for the future
@@ -19,6 +20,7 @@ The metaphor is simple but effective:
 - **Transition smoothly**: Warm up participants before diving into deeper discussions
 
 This icebreaker is particularly valuable for:
+
 - Year-end retrospectives
 - Final team meetings before holiday breaks
 - Kickoff sessions for the new year
@@ -27,21 +29,25 @@ This icebreaker is particularly valuable for:
 ## How to Run a Christmas Wish Session
 
 1. **Set the stage (1 minute)**
+
    - Share the purpose of the icebreaker and frame the activity with a specific focus for the wishes (e.g., "What's your wish for the team in the coming year?")
 
 2. **Decorate together (3-5 minutes)**
+
    - Instruct team members to drag ornaments from the decoration box onto the tree
    - Encourage creativity and collaboration as they place baubles, stars, and ribbons
    - Let them know they can also add their own images by copying and pasting
 
 3. **Create wishes (3-4 minutes)**
+
    - Ask each participant to write their "Christmas wish" on a sticky note
    - Place these wishes near the tree
    - Consider using private mode for writing if you want simultaneous, uninfluenced contributions
 
 4. **Share and discuss (5-10 minutes)**
+
    - Have each person briefly share their wish with the group
-   - Invite reactions and comments using Metro Retro's reaction tools
+   - Invite reactions and comments using Ludi's reaction tools
    - Note any patterns or common themes that emerge
 
 5. **Transition to the main meeting (1 minute)**

@@ -23,6 +23,7 @@ The Rose, Thorn & Bud Check-in is particularly valuable when:
 - Creating a regular rhythm of balanced reflection in agile teams
 
 Teams benefit from this template through:
+
 - Improved emotional awareness across the team
 - Quick identification of issues that need immediate attention
 - Recognition of positive moments that might otherwise go unacknowledged
@@ -32,18 +33,22 @@ Teams benefit from this template through:
 ## How to Run a Rose, Thorn & Bud Check-in Session
 
 1. **Introduce the format** (2 minutes)
+
    - Explain the three categories and their meanings
    - Clarify that each person will contribute to all three sections
 
 2. **Set up for private reflection** (1 minute)
-   - Start a meeting in Metro Retro to become the Facilitator
+
+   - Start a meeting in Ludi to become the Facilitator
    - Enable Private Writing mode so participants can reflect honestly
 
 3. **Individual reflection** (5-10 minutes)
+
    - Ask participants to add at least one note to each section
    - Encourage specific, concrete examples rather than generalizations
 
 4. **Share and discuss** (10-15 minutes)
+
    - Choose either a section-by-section or person-by-person approach
    - For section-by-section: Review all Roses, then all Thorns, then all Buds
    - For person-by-person: Each team member shares their complete rose-thorn-bud set

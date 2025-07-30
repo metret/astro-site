@@ -7,7 +7,7 @@ This four-panel retrospective template combines traditional feedback mechanisms 
 This comprehensive retrospective format expands on the classic "what went well/what didn't" approach by adding two valuable dimensions: innovation and appreciation. The template provides four distinct quadrants for feedback:
 
 1. **Thumbs Up** - Positive aspects worth celebrating
-2. **Thumbs Down** - Areas for improvement 
+2. **Thumbs Down** - Areas for improvement
 3. **New Ideas** - Forward-thinking suggestions for team enhancement
 4. **Recognition** - Explicit acknowledgment of team members' contributions
 
@@ -23,6 +23,7 @@ This template is particularly valuable when:
 - You're looking to break out of standard retrospective formats that might have become routine
 
 Teams using this template typically experience:
+
 - More balanced discussions that don't dwell exclusively on problems
 - Increased psychological safety through the recognition component
 - A healthy pipeline of improvement ideas that come directly from the team
@@ -31,10 +32,12 @@ Teams using this template typically experience:
 ## How to Run a Thumbs/New Ideas/Recognition Session
 
 1. **Set the Stage (5 minutes)**
+
    - Introduce the template and define the timeframe for reflection (e.g., "the past sprint" or "last month's release")
    - Establish that everyone should contribute to all four quadrants
 
 2. **Individual Reflection and Note Creation (10 minutes)**
+
    - Have team members silently add sticky notes to all four areas:
      - Thumbs Up: What went well or positively surprised you
      - Thumbs Down: What could have gone better or caused frustration
@@ -42,12 +45,14 @@ Teams using this template typically experience:
      - Recognition: Specific praise for colleagues' actions or contributions
 
 3. **Group Review and Discussion (20-25 minutes)**
+
    - Take turns having team members present their notes
    - Use the participant highlighting feature to focus on one person's contributions at a time
    - Encourage brief clarification questions, saving deeper discussion for after all notes are shared
 
 4. **React and Prioritize (5-10 minutes)**
-   - Use Metro Retro's reaction tools to show agreement/disagreement with sticky notes
+
+   - Use Ludi's reaction tools to show agreement/disagreement with sticky notes
    - Identify patterns and themes across all quadrants
    - Vote on which items deserve immediate attention
 

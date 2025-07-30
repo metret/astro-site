@@ -1,32 +1,32 @@
 ---
-title: "Tips & Tricks For Metro Retro"
-teaser: "Shortcuts and tips for getting the most out of Metro Retro"
+title: "Tips & Tricks For Ludi"
+teaser: "Shortcuts and tips for getting the most out of Ludi"
 category: "Product"
 image: "~/assets/images/legacy/2019/06/tips-and-tricks-form-metro-retro.png"
-description: "Shortcuts and tips for getting the most out of Metro Retro"
+description: "Shortcuts and tips for getting the most out of Ludi"
 canonicalUrl: "/blog/tips-and-tricks"
 section: "Product"
-ogUrl: "https://metroretro.io/blog/tips-and-tricks"
-ogSiteName: "Metro Retro"
+ogUrl: "https://ludi.co/blog/tips-and-tricks"
+ogSiteName: "Ludi"
 ogType: "article"
-ogImageUrl: "https://metroretro.io/wp-content/uploads/2019/06/tips-and-tricks-form-metro-retro.png"
+ogImageUrl: "https://ludi.co/wp-content/uploads/2019/06/tips-and-tricks-form-metro-retro.png"
 ogImageWidth: 1200
 ogImageHeight: 628
-ogImageAlt: "Tips & Tricks for Metro Retro"
+ogImageAlt: "Tips & Tricks for Ludi"
 ogImageType: "image/png"
 publishedDate: 2019-06-01T00:00:00+00:00
 modifiedDate: 2024-08-12T09:18:54+00:00
 articleSection: "Product"
 twitterCardType: "summary_large_image"
-twitterTitle: "Tips & Tricks For Metro Retro | Metro Retro"
-twitterDescription: "Shortcuts and tips for getting the most out of Metro Retro"
-twitterImage: "https://metroretro.io/wp-content/uploads/2019/06/tips-and-tricks-form-metro-retro.png"
+twitterTitle: "Tips & Tricks For Ludi | Ludi"
+twitterDescription: "Shortcuts and tips for getting the most out of Ludi"
+twitterImage: "https://ludi.co/wp-content/uploads/2019/06/tips-and-tricks-form-metro-retro.png"
 authorName: "Steve Whitfield"
 ---
 
 ## Introduction
 
-In this post, I’d like to highlight some of the features of Metro Retro that might not be immediately obvious and can help you use the tool more effectively.
+In this post, I’d like to highlight some of the features of Ludi that might not be immediately obvious and can help you use the tool more effectively.
 
 ## Selecting Multiple Objects
 
@@ -38,7 +38,7 @@ If you prefer to multi-select all the time instead of moving the screen, you can
 
 ## Object Cloning
 
-Most graphical applications allow you to clone objects by using holding the Alt key when moving them. Metro Retro is no exception! You can hold the Alt key and move an object to create an identical copy and place it on your board. This is most useful when you are creating custom templates and want to position Zones next to each other with a uniform width and height.
+Most graphical applications allow you to clone objects by using holding the Alt key when moving them. Ludi is no exception! You can hold the Alt key and move an object to create an identical copy and place it on your board. This is most useful when you are creating custom templates and want to position Zones next to each other with a uniform width and height.
 
 You can also use the keyboard to quickly clone and position objects above, below or either side of the original object. To do this, select the object (or objects) you want to clone, hold the Alt key and press either the Up, Down, Left or Right key. This will clone your selection and place it in the direction you pressed next to the source. With this method, you can create a custom Zone layout with just a few key presses.
 
@@ -50,13 +50,13 @@ To perform a nudge, select the object (or objects) you want to move and press ei
 
 ## Importing With Copy & Paste
 
-Metro Retro has full support for Cut, Copy & Paste. You can select one or many objects and copy them with CTRL+C, cut them with CTRL+X and paste them with CTRL+V. You can copy from one board to another and your objects will retain their relative positioning to each other across the board. You can copy any of the object types, not just sticky notes.
+Ludi has full support for Cut, Copy & Paste. You can select one or many objects and copy them with CTRL+C, cut them with CTRL+X and paste them with CTRL+V. You can copy from one board to another and your objects will retain their relative positioning to each other across the board. You can copy any of the object types, not just sticky notes.
 
-Further, you can import sticky notes or text into Metro Retro by copying and pasting from a text editor. In Play Mode, each line of text that you copy will be transformed into its own sticky note, or if you are in Build Mode the text will be imported as is to a Text object. If you have a set of existing information in another tool that you want to bring into Metro Retro, copy and pasting is the best way to do it!
+Further, you can import sticky notes or text into Ludi by copying and pasting from a text editor. In Play Mode, each line of text that you copy will be transformed into its own sticky note, or if you are in Build Mode the text will be imported as is to a Text object. If you have a set of existing information in another tool that you want to bring into Ludi, copy and pasting is the best way to do it!
 
 ## Conclusion
 
-Hopefully these tips and tricks will help your time with Metro Retro more efficient. If there are any ideas you have for more ways we can make Metro Retro easy to use or if you are having trouble with something, please get in touch via [Intercom](/blog/tips-and-tricks#Intercom) and let us know!
+Hopefully these tips and tricks will help your time with Ludi more efficient. If there are any ideas you have for more ways we can make Ludi easy to use or if you are having trouble with something, please get in touch via [Intercom](/blog/tips-and-tricks#Intercom) and let us know!
 
 ‍
 

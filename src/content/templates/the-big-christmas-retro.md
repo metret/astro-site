@@ -6,7 +6,7 @@ Bring festive cheer to your team's reflection with this comprehensive holiday-th
 
 The Big Christmas Retro is a three-part retrospective template inspired by classic Christmas stories. It combines an icebreaker mood check, a "Night Before Christmas" reflection on recent team experiences, and a "Christmas Carol" activity examining the past, present, and future. By using familiar holiday metaphors, the template creates a comfortable environment for teams to share insights about their work in a structured yet lighthearted way.
 
-This template transforms the standard retrospective format into a festive experience, making end-of-year reflection more engaging while still delivering actionable outcomes. It's designed to work seamlessly in Metro Retro, with visually appealing Christmas graphics and organized zones for each activity.
+This template transforms the standard retrospective format into a festive experience, making end-of-year reflection more engaging while still delivering actionable outcomes. It's designed to work seamlessly in Ludi, with visually appealing Christmas graphics and organized zones for each activity.
 
 ## Benefits & When to Use
 
@@ -23,12 +23,14 @@ Use this template when you want to conduct a thorough end-of-year review, need t
 This 60-90 minute session moves through three distinct activities:
 
 ### 1. Icebreaker: How are you feeling? (10 minutes)
+
 - Direct participants to the festive mood check with characters like Sleepy Santa and Sassy Scrooge
 - Have everyone add their token with initials to the character that best represents their current mood
 - Go around and ask team members to briefly explain their choice
 - Use this activity to gauge the team's energy and set the tone for the session
 
 ### 2. Night Before Christmas Retrospective (25-30 minutes)
+
 - Introduce the three zones: Presents (what went well), Elves (who helped), and The Grinch (what went wrong)
 - Give team members 7-10 minutes to add sticky notes to all three sections
 - For each zone, have team members read their notes and discuss:
@@ -38,6 +40,7 @@ This 60-90 minute session moves through three distinct activities:
 - Identify 2-3 key points from each section for further action
 
 ### 3. A Christmas Carol Reflection (25-30 minutes)
+
 - Transition to the "Christmas Carol" section with its past, present, and future framework
 - Guide participants through each ghost in sequence:
   - Ghost of Christmas Past: Write and optionally share regrets, then symbolically "rip them up" using drawing tools
@@ -46,6 +49,7 @@ This 60-90 minute session moves through three distinct activities:
 - Conclude by having each team member share one key insight they're taking away from the session
 
 ### 4. Wrap-up and Action Items (10-15 minutes)
+
 - Review the key points identified throughout the retrospective
 - Collaboratively determine 2-3 concrete action items to carry forward
 - Assign owners and timeframes to each action item

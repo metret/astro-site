@@ -2258,7 +2258,7 @@
     "accountId": null,
     "alias": "product-backlog",
     "label": "Product Backlog",
-    "description": "A Kanban style product backlog template that is based on the layout we used to manage the Metro Retro backlog.",
+    "description": "A Kanban style product backlog template that is based on the layout we used to manage the Ludi backlog.",
     "sort": 6800,
     "time": null,
     "people": null,

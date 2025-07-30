@@ -1,20 +1,18 @@
-What is Plus-Delta? A Collaborative Exercise for Effective Feedback
--------------------------------------------------------------------
+## What is Plus-Delta? A Collaborative Exercise for Effective Feedback
 
 Plus-Delta is an excellent reflective exercise that helps gather quick and candid feedback at the end of a meeting or event. The exercise is designed to encourage positive feedback but also allows people to recommend changes. It is a particularly useful exercise for newly-formed teams that are getting to know each other.
 
 Plus / Delta is a short exercise so can be added on to the end of a meeting easily, but it still requires you to introduce it properly, time-box strictly, and provide guidance through the steps.
 
-How to conduct a Plus-Delta exercise with Metro Retro
------------------------------------------------------
+## How to conduct a Plus-Delta exercise with Ludi
 
 **Step 1: Set up a feedback board**
 
-As a facilitator, start a feedback board with the [Plus / Delta template](https://metroretro.io/BOV7WA01BVUP). One section is labeled with a plus (+) sign, while the other is labeled with a delta (Δ) symbol. Invite your participants and introduce the exercise.
+As a facilitator, start a feedback board with the [Plus / Delta template](https://ludi.co/BOV7WA01BVUP). One section is labeled with a plus (+) sign, while the other is labeled with a delta (Δ) symbol. Invite your participants and introduce the exercise.
 
 **Step 2: Ask for Pluses**
 
-Start by asking participants to write down what they thought worked well during the meeting or event. Use the Private Writing feature in Metro Retro so each person can hide the contents of their sticky notes until they are ready to share.
+Start by asking participants to write down what they thought worked well during the meeting or event. Use the Private Writing feature in Ludi so each person can hide the contents of their sticky notes until they are ready to share.
 
 **Step 3: Ask for Deltas**
 

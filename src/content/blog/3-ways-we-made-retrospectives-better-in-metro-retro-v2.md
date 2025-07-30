@@ -1,30 +1,30 @@
 ---
-title: "3 Big Improvements To Retrospectives In Metro Retro V2"
-teaser: "If you hadn’t noticed yet, we’ve built a completely new version of Metro Retro. Go check it out if you haven't already. In the new version we've improved the"
+title: "3 Big Improvements To Retrospectives In Ludi V2"
+teaser: "If you hadn’t noticed yet, we’ve built a completely new version of Ludi. Go check it out if you haven't already. In the new version we've improved the"
 category: "Product"
 image: "~/assets/images/legacy/2021/09/3-big-improvements-to-retrospectives-in-metro-retro-v2.png"
-description: "If you hadn’t noticed yet, we’ve built a completely new version of Metro Retro. Go check it out if you haven't already. In the new version we've improved the"
+description: "If you hadn’t noticed yet, we’ve built a completely new version of Ludi. Go check it out if you haven't already. In the new version we've improved the"
 canonicalUrl: "/blog/3-ways-we-made-retrospectives-better-in-metro-retro-v2"
 section: "Product"
-ogUrl: "https://metroretro.io/blog/3-ways-we-made-retrospectives-better-in-metro-retro-v2"
-ogSiteName: "Metro Retro"
+ogUrl: "https://ludi.co/blog/3-ways-we-made-retrospectives-better-in-metro-retro-v2"
+ogSiteName: "Ludi"
 ogType: "article"
-ogImageUrl: "https://metroretro.io/wp-content/uploads/2021/09/3-big-improvements-to-retrospectives-in-metro-retro-v2.png"
+ogImageUrl: "https://ludi.co/wp-content/uploads/2021/09/3-big-improvements-to-retrospectives-in-metro-retro-v2.png"
 ogImageWidth: 1200
 ogImageHeight: 628
-ogImageAlt: "3 big improvements to retrospectives in Metro Retro v2"
+ogImageAlt: "3 big improvements to retrospectives in Ludi v2"
 ogImageType: "image/png"
 publishedDate: 2021-09-21T00:00:00+00:00
 modifiedDate: 2024-08-12T09:15:11+00:00
 articleSection: "Product"
 twitterCardType: "summary_large_image"
-twitterTitle: "3 Big Improvements To Retrospectives In Metro Retro V2 | Metro Retro"
-twitterDescription: "If you hadn’t noticed yet, we’ve built a completely new version of Metro Retro. Go check it out if you haven't already. In the new version we've improved the"
-twitterImage: "https://metroretro.io/wp-content/uploads/2021/09/3-big-improvements-to-retrospectives-in-metro-retro-v2.png"
+twitterTitle: "3 Big Improvements To Retrospectives In Ludi V2 | Ludi"
+twitterDescription: "If you hadn’t noticed yet, we’ve built a completely new version of Ludi. Go check it out if you haven't already. In the new version we've improved the"
+twitterImage: "https://ludi.co/wp-content/uploads/2021/09/3-big-improvements-to-retrospectives-in-metro-retro-v2.png"
 authorName: "Jamie Hanratty"
 ---
 
-If you hadn’t noticed yet, we’ve built a completely [new version](/early-access) of Metro Retro. Go check it out if you haven’t already. In the new version we’ve improved the tools and templates for your retros, and in short, if you already love Metro Retro you will LOVE these upgrades!
+If you hadn’t noticed yet, we’ve built a completely [new version](/early-access) of Ludi. Go check it out if you haven’t already. In the new version we’ve improved the tools and templates for your retros, and in short, if you already love Ludi you will LOVE these upgrades!
 
 ![](../../assets/images/legacy/2023/05/6141e9a718258b099c0de808_Metro-Retro-01-2.png)
 
@@ -34,13 +34,13 @@ Here is a generic picture to accompany this post…
 
 Our goal is to be the best collaboration tool for agile, engineering and product teams.
 
-Over 400,000 of you have been meeting with your teams in Metro Retro, and your feedback has helped us shape this new version. It is code-named “Metro Retro v2” or just “v2”, and is in Early Access. (We’ll come up with a better name soon). V2 is the paid version of Metro Retro, and you can get a [free trial](/early-access) to join the early adopters already transforming their team meetings.
+Over 400,000 of you have been meeting with your teams in Ludi, and your feedback has helped us shape this new version. It is code-named “Ludi v2” or just “v2”, and is in Early Access. (We’ll come up with a better name soon). V2 is the paid version of Ludi, and you can get a [free trial](/early-access) to join the early adopters already transforming their team meetings.
 
 There are LOADS of new things in v2 that make **all** your meetings and workshops better, not just retros. Soon we will show you how we’re improving your sprint planning, roadmaps, poker planning, brainstorms, workshops…. but today I’ll be focusing on how we’ve improved your retrospectives.
 
 ## 3 ways retros are better in v2
 
-If you’re reading this, you probably use Metro Retro v1 to run your retrospectives, and you probably love it. However, if you want to squeeze even more juicy drops of progress from your retrospectives, here are three reasons why you will want to try v2 pretty soon:
+If you’re reading this, you probably use Ludi v1 to run your retrospectives, and you probably love it. However, if you want to squeeze even more juicy drops of progress from your retrospectives, here are three reasons why you will want to try v2 pretty soon:
 
 1.  More templates with complete customization – giving you a fresh format every retro
 2.  Improved whiteboarding – get visual and creative in your retros
@@ -62,7 +62,7 @@ Lots more templates in v2 – 47 at time of writing!
 
 ### 2\. Get creative in your retros
 
-We’ve massively improved the whiteboarding capabilities of Metro Retro.
+We’ve massively improved the whiteboarding capabilities of Ludi.
 
 Now instead of just stickies, zones and topics, you can throw everything related to the sprint into your board: upload images and GIFs, add CSV data, paste meeting notes, roadmaps, designs, sprint outputs, burndown charts, customer feedback or team happiness charts. Then annotate them with **sticky notes, cards, comments, drawings** and **arrows** to build up the picture.
 
@@ -96,7 +96,7 @@ Your private sticky notes can’t be read by other people until you reveal them
 
 #### Generating deeper discussions
 
-There are loads of ways to express yourself in Metro Retro v2. Make your point visually with drawings, emoji reactions, tokens, sticky notes, gifs, and images. Sometimes a picture really is worth a thousand words.
+There are loads of ways to express yourself in Ludi v2. Make your point visually with drawings, emoji reactions, tokens, sticky notes, gifs, and images. Sometimes a picture really is worth a thousand words.
 
 Regardless of creativity levels, any good discussion should be guided. The new **grouping, voting,** and **facilitator controls** help you keep the discussion on track.
 
@@ -127,13 +127,13 @@ Easy to identify the top-voted action!
 
 ## Don’t forget to enjoy your meetings!
 
-There are lots of ways to encourage people to loosen up with the fun Metro Retro tools. It will ultimately help them work through any issues that arise in the retro.
+There are lots of ways to encourage people to loosen up with the fun Ludi tools. It will ultimately help them work through any issues that arise in the retro.
 
 Try these in v2:
 
 - Have a GIF battle, or build a sprint ‘pinboard’.
 - Explore creative drawing with a marker pen. Draw how the sprint made you feel, or even draw your customers using your product!
-- Slapping. Yes, you read that correctly. You can slap your team-mates in both Metro Retro v1 and v2. [It’s more fun in v2](https://www.youtube.com/watch?v=618nDVya1l0).
+- Slapping. Yes, you read that correctly. You can slap your team-mates in both Ludi v1 and v2. [It’s more fun in v2](https://www.youtube.com/watch?v=618nDVya1l0).
 - Of course the confetti – We are proud to be the makers of the original confetti cannon and are flattered by the many imitations out there. Watch this space – we have plans to make the confetti cannon even more distracting!
 
 ![](../../assets/images/legacy/2023/05/61170472107ea3dbedbd78d0_Have-a-good-time.png)

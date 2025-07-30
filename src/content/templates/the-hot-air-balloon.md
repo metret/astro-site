@@ -30,10 +30,12 @@ This format helps development teams break out of reactive cycles by creating a m
 **Duration: 60-75 minutes**
 
 1. **Introduction (5 minutes)**
+
    - Explain the hot air balloon metaphor and how each quadrant relates to the team's work
    - Clarify that the top sections relate to the future while the bottom focuses on the past
 
 2. **Individual Reflection (10 minutes)**
+
    - Have participants silently add sticky notes to all four quadrants:
      - Hot Air: "What is pushing us along?"
      - Sandbags: "What is slowing us down or holding us back?"
@@ -41,20 +43,24 @@ This format helps development teams break out of reactive cycles by creating a m
      - Storm Clouds: "What problems or obstacles are coming up?"
 
 3. **Share and Discuss (20 minutes)**
+
    - Take turns revealing sticky notes, starting with one quadrant at a time
    - Encourage brief explanations from each contributor
-   - Use Metro Retro's highlight feature to focus on one person's contributions at a time
+   - Use Ludi's highlight feature to focus on one person's contributions at a time
 
 4. **Group Similar Themes (10 minutes)**
+
    - Organize related notes into clusters
    - Consider connections between past issues (Sandbags) and future challenges (Storm Clouds)
    - Look for patterns between driving forces (Hot Air) and upcoming opportunities (Sunny Skies)
 
 5. **Vote on Priorities (5 minutes)**
-   - Use Metro Retro's reaction tools to mark the sticky notes that resonate most
+
+   - Use Ludi's reaction tools to mark the sticky notes that resonate most
    - Focus on items with the most strategic importance, not just the most votes
 
 6. **Generate Actions (15 minutes)**
+
    - Create specific, assignable actions based on the prioritized items
    - Consider actions that:
      - Release "sandbags" that are holding the team back

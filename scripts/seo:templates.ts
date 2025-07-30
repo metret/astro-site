@@ -10,7 +10,7 @@ const bearer = "7d3383ed-0f0a-4604-9b9b-848e449820bb";
 const anthropic = new Anthropic();
 
 const load = async () => {
-    const response = await fetch("https://metroretro.io/api/v2/templates.list2", {
+    const response = await fetch("https://ludi.co/api/v2/templates.list2", {
         method: "GET",
         headers: {
             Authorization: `Bearer ${bearer}`,
@@ -21,7 +21,7 @@ const load = async () => {
 };
 
 const loadSnapshot = async (templateId: string) => {
-    const response = await fetch(`https://metroretro.io/api/v2/templates.snapshot?boardId=${templateId}`, {
+    const response = await fetch(`https://ludi.co/api/v2/templates.snapshot?boardId=${templateId}`, {
         method: "GET",
         headers: {
             Authorization: `Bearer ${bearer}`,
@@ -58,7 +58,7 @@ const generateArticle = async (tmpl: Record<string, any>) => {
     const snapshot = await loadSnapshot(tmpl.id);
 
     const structure = `
-# Recommended Structure for Metro Retro Template Descriptions
+# Recommended Structure for Ludi Template Descriptions
 
 1. Title & SEO-Optimized Introduction
 
@@ -93,7 +93,7 @@ const generateArticle = async (tmpl: Record<string, any>) => {
 `;
 
     const tone = `
-# Tone Guidelines for Writing Metro Retro Template Descriptions
+# Tone Guidelines for Writing Ludi Template Descriptions
 
 Write in a clear, helpful, and practical tone that balances professionalism with approachability. You're writing for busy professionals who need to quickly understand and implement meeting techniques.
 
@@ -138,7 +138,7 @@ Your writing should sound like it comes from a knowledgeable colleague who respe
         max_tokens: 1024 * 2,
         system: [
             'You are a helpful copy writer, knowledgable in SEO and agile methodologies.',
-            'You are helping write instructions and descriptions for collaborative meeting templates in the application Metro Retro, a collaborative whiteboard tool for dev teams.',
+            'You are helping write instructions and descriptions for collaborative meeting templates in the application Ludi, a collaborative whiteboard tool for dev teams.',
             'The user will provide the template metadata, a snapshot of the raw data that makes up the template (e.g. the visual elements in data form), and some existing copy.',
             'Using all the information provided, along with your own insight where applicable, please write a new description for the template.',
             'Here is a recommended structure to follow:',
@@ -147,7 +147,7 @@ Your writing should sound like it comes from a knowledgeable colleague who respe
             tone,
             'Here are some other points to consider:',
             ' - All these templates are aimed at remote teams, dev teams or product teams.  Do not be fooled by the metaphors used into thinking otherwise.',
-            ' - You are writing a description for a template in a collaborative whiteboard tool (Metro Retro) - so when writing assume meetings will be performed online via this tool.',
+            ' - You are writing a description for a template in a collaborative whiteboard tool (Ludi) - so when writing assume meetings will be performed online via this tool.',
             ' - If the template is using a metaphor, list out and explain the metaphor components.',
             ' - When writing retrospective instructions, teams will almost always follow a structure of Introduction, Reflection, Discussion/Grouping/Voting, and Review + Actions setting.',
         ].join('\n'),
@@ -183,13 +183,13 @@ const generateTitles = async (templates: any[]) => {
             max_tokens: 1024 * 4,
             system: [
                 'You are a helpful SEO expert.',
-                'You are helping generate SEO metadata for the application Metro Retro, a collaborative whiteboard tool for dev teams.',
+                'You are helping generate SEO metadata for the application Ludi, a collaborative whiteboard tool for dev teams.',
                 'You are given a list of templates and their tags.',
                 'You are to generate a page title for each template\'s respective website page.',
                 'The title should be 60 characters or less.',
                 'The title should be SEO friendly.',
                 'Prefer "Retrospective" over "Retro".',
-                '| Metro Retro will be appended by the application, so do not include it in the title.',
+                '| Ludi will be appended by the application, so do not include it in the title.',
                 'Where the title doesn\'t indicate the template type, add the type to the title.',
                 'Where the title uses /, replace with comma or format nicely.',
                 'If the existing title starts with "The", do not omit it.',

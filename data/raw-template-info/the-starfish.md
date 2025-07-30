@@ -1,6 +1,6 @@
 This is an agile retrospective technique with five sections: Keep Doing, Do Less Of, Do More Of, Stop Doing, Start Doing. This retrospective is worth running after a period of time or a few sprints, so the team can properly assess what needs to change.
 
-This format is similar to the [Open the Box](https://metroretro.io/templates/open-the-box-retrospective) retrospective; they both directly encourage change. However, the sliding scale of the categories encourage the team to think about making incremental changes over blunt ones – perfect for agile teams. There will be a lot to talk about with five sections, so expect this retrospective to take a little more time than usual.
+This format is similar to the [Open the Box](https://ludi.co/templates/open-the-box-retrospective) retrospective; they both directly encourage change. However, the sliding scale of the categories encourage the team to think about making incremental changes over blunt ones – perfect for agile teams. There will be a lot to talk about with five sections, so expect this retrospective to take a little more time than usual.
 
 Plus, who doesn’t love this fella? Look at his happy face. (Note, we don’t actually know the gender of this starfish – but it turns out that [starfish genders](https://en.wikipedia.org/wiki/Starfish#Life_cycle) can be interesting).**‍**
 
@@ -18,4 +18,4 @@ Lastly as a team brainstorm and vote on actions for the most important themes, a
 
 #### Tips for running this session
 
-*   You can of course have people add their points to all the sections at once, then discuss them in turn without interruption.
+- You can of course have people add their points to all the sections at once, then discuss them in turn without interruption.

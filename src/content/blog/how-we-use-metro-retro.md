@@ -1,44 +1,44 @@
 ---
-title: "How We Use Metro Retro"
-teaser: "Inside Metro Retro – the different ways we use Metro Retro – product backlogs, design briefs, Kanban boards and retrospectives"
+title: "How We Use Ludi"
+teaser: "Inside Ludi – the different ways we use Ludi – product backlogs, design briefs, Kanban boards and retrospectives"
 category: "Product"
 image: "~/assets/images/legacy/2019/07/how-we-use-metro-retro.png"
-description: "Inside Metro Retro - the different ways we use Metro Retro - product backlogs, design briefs, Kanban boards and retrospectives"
+description: "Inside Ludi - the different ways we use Ludi - product backlogs, design briefs, Kanban boards and retrospectives"
 canonicalUrl: "/blog/how-we-use-metro-retro"
 section: "Product"
-ogUrl: "https://metroretro.io/blog/how-we-use-metro-retro"
-ogSiteName: "Metro Retro"
+ogUrl: "https://ludi.co/blog/how-we-use-metro-retro"
+ogSiteName: "Ludi"
 ogType: "article"
-ogImageUrl: "https://metroretro.io/wp-content/uploads/2019/07/how-we-use-metro-retro.png"
+ogImageUrl: "https://ludi.co/wp-content/uploads/2019/07/how-we-use-metro-retro.png"
 ogImageWidth: 1200
 ogImageHeight: 628
-ogImageAlt: "How We Use Metro Retro"
+ogImageAlt: "How We Use Ludi"
 ogImageType: "image/png"
 publishedDate: 2019-07-01T00:00:00+00:00
 modifiedDate: 2024-08-12T09:18:15+00:00
 articleSection: "Product"
 twitterCardType: "summary_large_image"
-twitterTitle: "How We Use Metro Retro | Metro Retro"
-twitterDescription: "Inside Metro Retro - the different ways we use Metro Retro - product backlogs, design briefs, Kanban boards and retrospectives"
-twitterImage: "https://metroretro.io/wp-content/uploads/2019/07/how-we-use-metro-retro.png"
+twitterTitle: "How We Use Ludi | Ludi"
+twitterDescription: "Inside Ludi - the different ways we use Ludi - product backlogs, design briefs, Kanban boards and retrospectives"
+twitterImage: "https://ludi.co/wp-content/uploads/2019/07/how-we-use-metro-retro.png"
 authorName: "Steve Whitfield"
 ---
 
 ## Introduction
 
-Flexibility is one of the core principles that influenced the design of Metro Retro. There are many ways to run a retrospective meeting ranging from a simple Good vs Bad setup to more exotic scenarios involving metaphorical starfish. Each user will have their own preferences based upon personal taste, time constraints and progress of their project. Metro Retro provides a bunch of common templates for retrospectives and other session types, but each template can be completely customized to suit individual needs.
+Flexibility is one of the core principles that influenced the design of Ludi. There are many ways to run a retrospective meeting ranging from a simple Good vs Bad setup to more exotic scenarios involving metaphorical starfish. Each user will have their own preferences based upon personal taste, time constraints and progress of their project. Ludi provides a bunch of common templates for retrospectives and other session types, but each template can be completely customized to suit individual needs.
 
-This flexibility also opens the tool up for use in a broader set of scenarios, such as in a brainstorming workshop or as a makeshift product backlog. When developing Metro Retro, we tested the flexibility goal by utilizing the tool as much as possible for our own needs. This article presents the different ways that we currently [dogfood](https://en.wikipedia.org/wiki/Eating_your_own_dog_food) Metro Retro.
+This flexibility also opens the tool up for use in a broader set of scenarios, such as in a brainstorming workshop or as a makeshift product backlog. When developing Ludi, we tested the flexibility goal by utilizing the tool as much as possible for our own needs. This article presents the different ways that we currently [dogfood](https://en.wikipedia.org/wiki/Eating_your_own_dog_food) Ludi.
 
 ## Product Backlog
 
-Since the earliest working version of Metro Retro was deployed, we have used the tool to manage our product backlog. The screenshot below depicts a snapshot of the backlog state just before launch. The board is setup with two Kanban-style sections with columns that progress through Todo, In Progress, Implemented, Deployed & Closed. One of these sections tracks Features while the other tracks Bugs. Surrounding these are a few miscellaneous panels for Notes, unprioritized tickets and a Trash section.
+Since the earliest working version of Ludi was deployed, we have used the tool to manage our product backlog. The screenshot below depicts a snapshot of the backlog state just before launch. The board is setup with two Kanban-style sections with columns that progress through Todo, In Progress, Implemented, Deployed & Closed. One of these sections tracks Features while the other tracks Bugs. Surrounding these are a few miscellaneous panels for Notes, unprioritized tickets and a Trash section.
 
-![Snapshot of the Metro Retro backlog from March 2019.](../../assets/images/legacy/2023/05/5f02f1a11692988d7b366c97_dogfood-backlog.png)
+![Snapshot of the Ludi backlog from March 2019.](../../assets/images/legacy/2023/05/5f02f1a11692988d7b366c97_dogfood-backlog.png)
 
-Snapshot of the Metro Retro backlog from March 2019.
+Snapshot of the Ludi backlog from March 2019.
 
-We are still using this setup today! For our team of a single developer and single designer, using Metro Retro for the backlog over other tools had several advantages:
+We are still using this setup today! For our team of a single developer and single designer, using Ludi for the backlog over other tools had several advantages:
 
 - It’s free.
 - It’s fast.
@@ -51,7 +51,7 @@ If you have a project you are working on, and you don’t want the overhead of a
 
 ## Design Brief & Feedback
 
-In the early days of the project the user interface was pretty bad. Lacking any real artistic flare myself, I recruited UX designer [Steven Moseley](https://www.linkedin.com/in/steven-moseley-80b63314/) to help out. Throughout several iterations of design work, we’ve used Metro Retro each time to layout the brief in a visual way using a combination of sticky notes, images and text blocks.
+In the early days of the project the user interface was pretty bad. Lacking any real artistic flare myself, I recruited UX designer [Steven Moseley](https://www.linkedin.com/in/steven-moseley-80b63314/) to help out. Throughout several iterations of design work, we’ve used Ludi each time to layout the brief in a visual way using a combination of sticky notes, images and text blocks.
 
 The first brief (below) was comprised of six areas. Each area described a feature that needed working on including a screenshot, images for mood or style guidance and a text brief.
 
@@ -77,7 +77,7 @@ This update is still ongoing, but the blog and showcase page designs are complet
 
 May 2019 design output.
 
-Using Metro Retro for the design process communication is working really well for us so we are definitely going to keep using it. To summarize:
+Using Ludi for the design process communication is working really well for us so we are definitely going to keep using it. To summarize:
 
 - It’s free, fast and all the other advantages previously mentioned.
 - Using a board is a great way to capture nonlinear information like a design brief.
@@ -87,7 +87,7 @@ Using Metro Retro for the design process communication is working really well fo
 
 ## New Product Development
 
-We are going to be updating Metro Retro with new features and any necessary bug fixes over the coming months. However, we are also working on something new, which is going to be a sequel of sorts, but with a much broader scope. It’s very early in development at the moment, so we don’t have a lot to share right now, other than Metro Retro is playing a key role in our planning!
+We are going to be updating Ludi with new features and any necessary bug fixes over the coming months. However, we are also working on something new, which is going to be a sequel of sorts, but with a much broader scope. It’s very early in development at the moment, so we don’t have a lot to share right now, other than Ludi is playing a key role in our planning!
 
 ![New product competitor analysis.](../../assets/images/legacy/2023/05/5f02f1a142d1b42a6a1602b1_dogfood-deqo1.png)
 
@@ -99,7 +99,7 @@ Above you can see the output of a competitor analysis we completed which catalog
 
 New product development board.
 
-As with the design process, we are going to keep using Metro Retro on this project for the foreseeable future. It’s great because:
+As with the design process, we are going to keep using Ludi on this project for the foreseeable future. It’s great because:
 
 - Having your roadmap, moodboard and backlog in a single place saves time when switching between them.
 - Nonlinear information is easy to capture and browse (e.g. competitor analysis).
@@ -107,7 +107,7 @@ As with the design process, we are going to keep using Metro Retro on this proje
 
 ## Conclusion
 
-Hopefully this gives you an insight into how we utilize Metro Retro for things other than just retrospectives, and maybe inspires you to do the same! If you have an idea that you’d like to share with us or if you have a question on how we could help you make a new board, then please either [chat to us on Intercom](/blog/how-we-use-metro-retro#Intercom) or send us an email to [contact@metroretro.wpsc.dev](mailto:contact@metroretro.wpsc.dev)!
+Hopefully this gives you an insight into how we utilize Ludi for things other than just retrospectives, and maybe inspires you to do the same! If you have an idea that you’d like to share with us or if you have a question on how we could help you make a new board, then please either [chat to us on Intercom](/blog/how-we-use-metro-retro#Intercom) or send us an email to [contact@metroretro.wpsc.dev](mailto:contact@metroretro.wpsc.dev)!
 
 Thanks for reading!
 

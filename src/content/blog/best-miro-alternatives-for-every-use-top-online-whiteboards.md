@@ -6,10 +6,10 @@ image: "~/assets/images/legacy/2023/08/best-miro-alternatives-for-every-use.png"
 description: "The top 5 best Miro alternatives for online whiteboards."
 canonicalUrl: "/blog/best-miro-alternatives-for-every-use-top-online-whiteboards"
 section: "Overviews"
-ogUrl: "https://metroretro.io/blog/best-miro-alternatives-for-every-use-top-online-whiteboards"
-ogSiteName: "Metro Retro"
+ogUrl: "https://ludi.co/blog/best-miro-alternatives-for-every-use-top-online-whiteboards"
+ogSiteName: "Ludi"
 ogType: "article"
-ogImageUrl: "https://metroretro.io/wp-content/uploads/2023/08/best-miro-alternatives-for-every-use.png"
+ogImageUrl: "https://ludi.co/wp-content/uploads/2023/08/best-miro-alternatives-for-every-use.png"
 ogImageWidth: 1200
 ogImageHeight: 628
 ogImageAlt: "Best Miro Alternatives for Every Use"
@@ -18,9 +18,9 @@ publishedDate: 2023-08-28T11:43:37+00:00
 modifiedDate: 2024-08-12T09:07:36+00:00
 articleSection: "Overviews"
 twitterCardType: "summary_large_image"
-twitterTitle: "Best Miro Alternatives For Every Use | Metro Retro"
+twitterTitle: "Best Miro Alternatives For Every Use | Ludi"
 twitterDescription: "The top 5 best Miro alternatives for online whiteboards."
-twitterImage: "https://metroretro.io/wp-content/uploads/2023/08/best-miro-alternatives-for-every-use.png"
+twitterImage: "https://ludi.co/wp-content/uploads/2023/08/best-miro-alternatives-for-every-use.png"
 authorName: "Jamie Hanratty"
 ---
 
@@ -28,7 +28,7 @@ Online whiteboards have come a long way in recent years and now function as a ke
 
 Miro has been a “go-to” tool for many a scrum master or agile team. But, today, there are many alternatives that compete with, and, in many ways, even outperform Miro, sometimes at a fraction of the cost. 
 
-At Metro Retro, we recognize that there are some seriously competitive tools in this space right now. So, we thought we’d take a closer look at some of the best for your benefit. 
+At Ludi, we recognize that there are some seriously competitive tools in this space right now. So, we thought we’d take a closer look at some of the best for your benefit. 
 
 If you’re looking for a Miro alternative, we reckon there’s a high probability you will find the right solution for your business in our list. Sound good? Great, let’s go!
 
@@ -65,17 +65,17 @@ The main criteria when identifying your Miro alternative are:
 
 **Key Takeaways**
 
-- **Metro Retro** – Best for Agile Meetings
+- **Ludi** – Best for Agile Meetings
 - **Lucidspark** – Best for Diagramming
 - **Mural** – Best for Large Remote Meetings
 - **Conceptboard** – Best for File Sharing
 - **Figjam** – Best For Group Design Concepting
 
-### #1 Metro Retro
+### #1 Ludi
 
 ![](https://lh6.googleusercontent.com/jmcfqKtqCejpp3yXw-ZV8DfL97WTFHP4SgrHkUEnqWVGBJ5VjTv5QxXc-6m-2W-tzEzC85FlYyfHqKEknoe0Lv7JHMY7XUMbi832UIyi8JbUN3mqjsOfuTU2kwG5afwLRYwpS-JhdjMscLCtXcsvlyk)
 
-Metro Retro is a new digital whiteboard and collaboration tool optimized for software and product teams.
+Ludi is a new digital whiteboard and collaboration tool optimized for software and product teams.
 
 It comes with a powerful range of intuitive features and tools that simplify and accelerate every element of remote collaboration. 
 
@@ -85,7 +85,7 @@ It comes with a powerful range of intuitive features and tools that simplify and
 
 ![](https://lh5.googleusercontent.com/ohWqntBjWBLfE14K0ThSe-MNqhQBoQrLDBz0h440MLAv989cPZkeTiq6jaGmVmd-WEVzThSHWcupZFdkFD1i6luNYtffaq0F0v2Y-M5S4cZBtCfbR0zhV3lvrZgPaq8AW2FutyKNc6XXwwEBOxjtTco)
 
-Metro Retro helps remote teams run productive, engaging and fun retrospectives to help inspect and adapt their processes. 
+Ludi helps remote teams run productive, engaging and fun retrospectives to help inspect and adapt their processes. 
 
 All boards are completely customizable, and boast all the tools you’ll ever need (private writing, grouping & themes, voting, actions, import & export) so you can tailor your retro to the needs of the team, including [running anonymous retrospectives](/blog/anonymous-retrospectives).
 
@@ -93,21 +93,21 @@ All boards are completely customizable, and boast all the tools you’ll ever ne
 
 ![](https://lh6.googleusercontent.com/vQEXzLl9qjGUDbGXX6Pb56L0mwu6Y2ckMlH-Oq-NVZM1soNQlaVrUsMznREP-2p6poHwYfQvTeiqJIlLVrtmYX0RSSDi1y74MXgMJHkwfBpgk4WG8EuIzyLLLim1QwMkaFCY_FGc38-AOjqxnlSLcf8)
 
-Metro Retro lets you keep an agile team’s pace consistent, sustainable and enjoyable with unique templates for retrospectives, sprint planning, backlog refinement, [poker planning](/templates/planning-poker) & estimation, and standups.
+Ludi lets you keep an agile team’s pace consistent, sustainable and enjoyable with unique templates for retrospectives, sprint planning, backlog refinement, [poker planning](/templates/planning-poker) & estimation, and standups.
 
-However you want to do it, Metro Retro works the way you want it to. 
+However you want to do it, Ludi works the way you want it to. 
 
 **Design Collaboration**
 
 ![](https://lh5.googleusercontent.com/30gHcdeL-p6-GZ9QaQ9EFs1Dk4DJQqmhUFlhTbyzYNlyoSiK2I3gq21t_KfduX2dLFRhHvSQnm3GcS3YNVFW53SECI8Oip3oE9vASr-RytcGsmyz7SDCof2h4oYVpddf3sGbsItoEbkXMexpBUxIZHw)
 
-With Metro Retro you can Import your designs to review, annotate and co-create with colleagues and clients and then collect instant input from all stakeholders to rapidly progress to the next stage of your vision.
+With Ludi you can Import your designs to review, annotate and co-create with colleagues and clients and then collect instant input from all stakeholders to rapidly progress to the next stage of your vision.
 
 #### Better remote meetings 
 
 ![](https://lh6.googleusercontent.com/c0zSzTw8lJI6PVMhqm8uwOo8_5bnXKAfZu2OqNyBd6-GYRX-dZ1nSaF_A4ys6Rn4fyuJvbntvuC_xAeMn4MZj4S5yt9hyLjKMZ6hv47XJGlq2vJNoAcjGWALg-H8MbD5jcfkJzSLYl5KIFgGVYP0yrg)
 
-Metro Retro comes with a variety of different [templates](/templates) to choose from, allowing users to run high-energy remote meetings that’s sure to keep participants engaged. 
+Ludi comes with a variety of different [templates](/templates) to choose from, allowing users to run high-energy remote meetings that’s sure to keep participants engaged. 
 
 With templates for ice-breakers, agenda votes, retrospectives, and more, you can quickly bring a whole new level of interactivity to your meetings.    
 
@@ -343,8 +343,8 @@ In 2023 there is no longer any reason a scrum master or agile team should be str
 
 We now have a number of tools that work as viable Miro alternatives which deliver a greater range of functionality at a lower price point. 
 
-If you are currently looking for an alternative to Miro, we humbly suggest trying Metro Retro today [for free](/login). 
+If you are currently looking for an alternative to Miro, we humbly suggest trying Ludi today [for free](/login). 
 
 Experience for yourself a tool that not only provides a fun and easy way to achieve all your agile goals, but also delivers the best retrospectives in the game, bar none. 
 
-But don’t just take our word for it – take a look at the [real props from real people](https://testimonial.to/metro-retro/all). With Metro Retro’s help, they were able to take their remote meetings to a new level with engaging real-time collaboration (plus confetti!). We hope to see you soon!
+But don’t just take our word for it – take a look at the [real props from real people](https://testimonial.to/metro-retro/all). With Ludi’s help, they were able to take their remote meetings to a new level with engaging real-time collaboration (plus confetti!). We hope to see you soon!
