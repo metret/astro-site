@@ -26,7 +26,7 @@ authorName: "Jamie Hanratty"
 
 _Transform your meetings with this fool-proof sprint retrospective agenda that will keep your team connected._
 
-Though a final touchpoint in the process, [sprint retrospectives](https://metroretro.io/sprint-retrospective/) are an important part of any sprint. In saying this, they require effort in order to get the value out of them that returns a reward going into future sprints. In this article, we’ll provide you not only with the what and why, but also with the how so that you can learn to improve your retros for the greater good of your team.
+Though a final touchpoint in the process, [sprint retrospectives](https://metroretro.io/solutions/retrospectives) are an important part of any sprint. In saying this, they require effort in order to get the value out of them that returns a reward going into future sprints. In this article, we’ll provide you not only with the what and why, but also with the how so that you can learn to improve your retros for the greater good of your team.
 
 ## What is a Sprint Retrospective?
 

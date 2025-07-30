@@ -1,27 +1,28 @@
 ---
-import { getCollection, render } from "astro:content";
-import Dots from "~/components/Dots.astro";
+import { getCollection } from "astro:content";
 import PageLayout from "~/layouts/PageLayout.astro";
-import keyBy from "lodash/keyBy";
 import TemplateCard from "~/components/blocks/TemplateCard.astro";
-import X from "~/pages/solutions/x.astro";
 import TempateTagMenu from "~/components/blocks/TempateTagMenu.astro";
-import TemplatesHero from "~/components/blocks/TemplatesHero.astro";
 import Hero from "~/components/blocks/Hero.astro";
 import TemplateGrid from "~/components/blocks/TemplateGrid.astro";
+import templateTags from "~/../data/template-tags.json";
 
 // 1. Generate a new path for every collection entry
 export async function getStaticPaths() {
   const templates = await getCollection("templates");
 
-  const tags = Object.values(
-    keyBy(
-      templates.flatMap((tmpl: any) => tmpl.data.tags),
-      "name"
-    )
-  ).sort((a, b) => a.sort - b.sort);
+  const tags = templates
+    .flatMap((tmpl) => tmpl.data.tags)
+    .reduce((acc: any, tag: any) => {
+      if (!acc.find((t: any) => t.name === tag.name)) {
+        acc.push(tag);
+      }
 
-  return tags.map((tag) => ({
+      return acc;
+    }, [])
+    .sort((a: any, b: any) => a.sort - b.sort);
+
+  return tags.map((tag: any) => ({
     params: { tag: tag.name },
     props: { tagName: tag.name },
   }));
@@ -42,12 +43,19 @@ const tag = matching
 if (!tag) {
   throw new Error("Tag not found");
 }
+
+const tagMeta = templateTags.find((t: any) => t.tag.slug === tag.name);
+
+if (!tagMeta) {
+  console.warn(`No metadata found for tag: ${tag.label}`);
+}
 ---
 
-<PageLayout title={`${tag.label}`} spacing="md">
+<PageLayout title={tagMeta?.pageTitle || tag.label} spacing="md">
   <Hero
-    title="Expertly crafted templates"
-    description="Start a board instantly with one of our templates. Templates are fully customizable and come with instructions, sticky notes, categories and fun collaboration tools."
+    title={tagMeta?.heading || "Expertly crafted templates"}
+    description={tagMeta?.description ||
+      "Start a board instantly with one of our templates. Templates are fully customizable and come with instructions, sticky notes, categories and fun collaboration tools."}
     pill="Templates"
     compact
   />

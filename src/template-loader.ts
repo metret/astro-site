@@ -28,7 +28,10 @@ export function templatesLoader(): Loader {
 
                 context.store.set({
                     id: t.id,
-                    data: t,
+                    data: {
+                        ...t,
+                        createUrl: new URL(`/new/${t.id}`, import.meta.env.SITE).toString()
+                    },
                     body: content,
                     rendered: {
                         html: await marked(content),
@@ -54,6 +57,7 @@ export function templatesLoader(): Loader {
             metadata: z.record(z.any()).default({}),
             publishedAt: z.string().datetime(),
             createdAt: z.string().datetime(),
+            createUrl: z.string().url(),
             seoTitle: z.string(),
             seoDescription: z.string(),
             seoSlug: z.string(),

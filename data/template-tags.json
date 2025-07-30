@@ -1,0 +1,74 @@
+[
+  {
+    "tag": {
+      "label": "Retrospectives",
+      "slug": "retrospectives"
+    },
+    "pageTitle": "Retrospective Templates for Agile Teams",
+    "heading": "Powerful Retrospective Templates",
+    "description": "Discover 40+ customizable retrospective templates to energize team reflections. From classic formats to creative themes, find the perfect way to improve team collaboration and productivity."
+  },
+  {
+    "tag": {
+      "label": "Futurespectives",
+      "slug": "futurespectives"
+    },
+    "pageTitle": "Futurespective Templates for Forward-Thinking Teams",
+    "heading": "Forward-Looking Team Collaboration",
+    "description": "Plan your team's success with our futurespective templates. From sailboats to hot air balloons, these visual frameworks help identify opportunities and mitigate risks for better outcomes."
+  },
+  {
+    "tag": {
+      "label": "Meetings & Workshops",
+      "slug": "meetings-and-workshops"
+    },
+    "pageTitle": "Collaborative Meeting & Workshop Templates for Dev Teams",
+    "heading": "Interactive Meeting Templates",
+    "description": "Supercharge your team meetings with templates for OKRs, Lean Coffee, Team Canvas, and more. Our collaborative whiteboard makes team facilitation easy and engaging."
+  },
+  {
+    "tag": {
+      "label": "Estimation",
+      "slug": "estimation"
+    },
+    "pageTitle": "Task Estimation Templates for Agile Teams",
+    "heading": "Agile Estimation Tools",
+    "description": "Streamline your backlog planning with our estimation templates including Fibonacci, T-Shirt sizing, MoSCoW, and Lean Prioritization Matrix for more accurate sprint planning."
+  },
+  {
+    "tag": {
+      "label": "Planning",
+      "slug": "planning"
+    },
+    "pageTitle": "Agile Team Planning Tools and Templates",
+    "heading": "Project Planning Templates",
+    "description": "Streamline your team's planning with our collection of templates for sprint planning, roadmapping, prioritization, and task management. Collaborate visually to organize work efficiently."
+  },
+  {
+    "tag": {
+      "label": "Ice Breakers",
+      "slug": "ice-breakers"
+    },
+    "pageTitle": "Team Ice Breakers and Fun Activities for Meetings",
+    "heading": "Engaging Team Ice Breakers",
+    "description": "Kickstart your team meetings with our collection of interactive ice breaker templates, from mood checks to fun games like Two Truths One Lie and Easter Egg Dash."
+  },
+  {
+    "tag": {
+      "label": "Product Management",
+      "slug": "product-management"
+    },
+    "pageTitle": "Product Management Templates for Agile Teams",
+    "heading": "Product Management Templates",
+    "description": "Elevate your product strategy with our comprehensive template collection featuring roadmaps, vision boards, user journey maps, and lean canvases for successful product development."
+  },
+  {
+    "tag": {
+      "label": "Check Out",
+      "slug": "check-out"
+    },
+    "pageTitle": "Meeting Checkout Templates For Valuable Feedback",
+    "heading": "Effective Meeting Feedback Templates",
+    "description": "Get actionable feedback with our ROTI templates for meeting check-outs. Engage teams with creative rating systems that make feedback fun and insightful."
+  }
+]

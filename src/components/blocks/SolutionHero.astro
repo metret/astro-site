@@ -65,11 +65,15 @@ const selectedColor = colors[color as keyof typeof colors] || colors.blue;
             </clipPath>
           </defs>
         </svg>
-        <Image
-          class="special-center w-[90%] rounded-xl object-cover shadow-2xl shadow-black/40"
-          src={loadedImage}
-          alt={title}
-        />
+        <div class="special-center w-[90%]">
+          <Image
+            class="rounded-xl object-cover shadow-2xl shadow-black/40"
+            src={loadedImage}
+            alt={title}
+            layout="full-width"
+            widths={[518, 820]}
+          />
+        </div>
       </div>
     </div>
   </div>

@@ -28,7 +28,7 @@ const categories: Category[] = [
         values: [
           false,
           { icon: true, text: "(2 per board)" },
-          { text: "(Unlimited)", icon: true },
+          { text: "(20 per board)", icon: true },
         ],
       },
     ],
@@ -42,10 +42,10 @@ const categories: Category[] = [
       { name: "Private Writing", values: [true, true, true] },
       { name: "CSV import & export", values: [true, true, true] },
       { name: "PDF Export", values: [false, true, true] },
-      { name: "Jira Integration", values: [false, false, true] },
+      { name: "Jira Integration", values: [false, true, true] },
       {
         name: "Time Machine (Replay Board History)",
-        values: [false, false, true],
+        values: [false, true, true],
       },
     ],
   },
@@ -57,7 +57,7 @@ const categories: Category[] = [
       { name: "Organization Admins", values: [false, true, true] },
       {
         name: "Single Sign On Integration (SSO)",
-        values: [false, false, true],
+        values: [false, true, true],
       },
       {
         name: "Personal Onboarding from Founders",
@@ -69,15 +69,15 @@ const categories: Category[] = [
         values: [
           "Tutorials, Help Docs, Live Chat, Email",
           "Tutorials, Help Docs, Live Chat, Email + Queue Priority",
-          "Tutorials, Help Docs, Live Chat, Email",
+          "Tutorials, Help Docs, Live Chat, Email + Video calls & founder support",
         ],
       },
       {
         name: "Payment Options",
         values: [
           "Payment Card",
-          "Payment Card, Invoice available for annual billing (min. 3 teams)",
-          "Annual contracts, Custom payment terms available",
+          "Payment Card or Invoice (min. 20 seats billed annually for invoice)",
+          "Annual Contracts - Custom payment terms available",
         ],
       },
     ],
