@@ -76,7 +76,7 @@ _‘The Good, The Bad, The Ugly’ template by Ludi._
 
 ### Step 3: Decipher the themes and insights
 
-Now that the team has contributed their individual thoughts, it’s time to bring it all together. These ‘thoughts’ are actually data on how a sprint has performed, and should be treated as such. With this in mind, it’s time to look for patterns and insights. Using Ludi, you can go through the points in each section using the [topic tool](https://docs.metroretro.io/boards/the-tools#topic-tool) and [voting tool](https://docs.metroretro.io/boards/the-tools#voting-tool) to find patterns and themes.
+Now that the team has contributed their individual thoughts, it’s time to bring it all together. These ‘thoughts’ are actually data on how a sprint has performed, and should be treated as such. With this in mind, it’s time to look for patterns and insights. Using Ludi, you can go through the points in each section using the [topic tool](https://docs.ludi.co/boards/the-tools#topics-meeting-mode-only) and [voting tool](https://docs.ludi.co/boards/the-tools#voting-meeting-mode-only) to find patterns and themes.
 
 These insights that you gather are a key part of setting goals and actions, so make sure the whole team is encouraged to contribute any thoughts they may have. Different perspectives are key at this stage in the retro.
 

@@ -72,7 +72,7 @@ Confetti and hats – what more could you want?
 
 ### 4\. Voting Tools for Better Decision-Making
 
-Decision-making is simplified with Ludi’s **[topic](https://docs.metroretro.io/boards/the-tools#topics-meeting-mode-only)** and **[voting](https://docs.metroretro.io/boards/voting) tools**.
+Decision-making is simplified with Ludi’s **[topic](https://docs.ludi.co/boards/the-tools#topics-meeting-mode-only)** and **[voting](https://docs.ludi.co/boards/the-tools#voting-meeting-mode-only) tools**.
 
 A board that is chock full of ideas is sorted and organised in minutes with the Topic tool. Team members can vote on ideas, prioritize tasks, or rate discussion points directly on the board.
 
@@ -98,7 +98,7 @@ The Meeting Host controls the tempo.
 
 One of the key challenges in retrospectives is encouraging open, honest feedback.
 
-Ludi tackles this issue by offering **[private writing](https://docs.metroretro.io/boards/hide-and-show-sticky-notes)** and **[anonymity options](https://docs.metroretro.io/boards/host-controls#hide-identities)**. Team members can contribute ideas and insights without the pressure of judgment, leading to unbiased brainstorming.
+Ludi tackles this issue by offering **[private writing](https://docs.ludi.co/boards/hide-and-show-sticky-notes)** and **[anonymity options](https://docs.ludi.co/boards/host-controls#hide-identities)**. Team members can contribute ideas and insights without the pressure of judgment, leading to unbiased brainstorming.
 
 This is especially helpful when working with introverted or shy team members who might hesitate to share openly.
 
@@ -148,7 +148,7 @@ Run interactive [Planning Poker meetings](/templates/planning-and-estimation/pla
 
 ### 11\. Integration with Jira
 
-Ludi [integrates seamlessly with **Jira**](https://docs.metroretro.io/boards/jira-integration), a tool that needs no introduction to software teams – for better or worse 🤭.
+Ludi [integrates seamlessly with **Jira**](https://docs.ludi.co/boards/jira-integration), a tool that needs no introduction to software teams – for better or worse 🤭.
 
 This integration allows teams to transfer actions from retrospectives directly into their Jira board, and visualise their backlog as cards on the interactive canvas.
 
@@ -166,7 +166,7 @@ Import Jira issues to your team board as Jira cards
 
 With Ludi, your data is never locked into one platform.
 
-Users can **[export their meeting data](https://docs.metroretro.io/boards/export-your-board), export boards as PDFs, and copy-paste meeting notes** into their other work tools, allowing for easy sharing and record-keeping.
+Users can **[export their meeting data](https://docs.ludi.co/boards/export-your-board), export boards as PDFs, and copy-paste meeting notes** into their other work tools, allowing for easy sharing and record-keeping.
 
 This flexibility is ideal for teams who need to incorporate retrospective insights into larger projects or organizational records.
 

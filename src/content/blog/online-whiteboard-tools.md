@@ -60,7 +60,7 @@ Many online whiteboard tools integrate with other productivity tools and platfor
 
 ### 6\. Engagement and Participation
 
-Online whiteboard tools can enhance engagement and participation during virtual meetings and collaborative sessions. Interactive features such as [voting](https://docs.metroretro.io/boards/the-tools#voting-tool), [emoji reactions](https://docs.metroretro.io/boards/the-tools#reaction-tool), collaborative drawing, and [confetti cannons](https://docs.metroretro.io/boards/the-tools#confetti-cannon) enable active participation from all attendees, fostering a sense of inclusion and ownership for all team members.
+Online whiteboard tools can enhance engagement and participation during virtual meetings and collaborative sessions. Interactive features such as [voting](https://docs.ludi.co/boards/the-tools#voting-meeting-mode-only), [emoji reactions](https://docs.ludi.co/boards/the-tools#reaction-tool), collaborative drawing, and [confetti cannons](https://docs.ludi.co/boards/the-tools#gestures) enable active participation from all attendees, fostering a sense of inclusion and ownership for all team members.
 
 ## Online whiteboard tools to try in 2024
 

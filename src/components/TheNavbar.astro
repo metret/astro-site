@@ -130,7 +130,7 @@ const links: (Link & {
           },
           {
             title: "Help",
-            href: "https://docs.metroretro.io",
+            href: "https://docs.ludi.co.io",
             target: "_blank",
           },
           { title: "Support", href: "/support" },
@@ -438,7 +438,7 @@ const links: (Link & {
   const header = document.getElementById("main-header") as HTMLElement;
 
   const inflatableSpacer = document.getElementById(
-    "inflatable"
+    "inflatable",
   ) as HTMLDivElement;
 
   function handleListener() {
@@ -460,17 +460,17 @@ const links: (Link & {
 
 <script>
   const btnOpenMenu = document.getElementById(
-    "btn-open-sidenav"
+    "btn-open-sidenav",
   ) as HTMLButtonElement;
 
   const btnCloseMenu = document.getElementById(
-    "btn-close-sidenav"
+    "btn-close-sidenav",
   ) as HTMLButtonElement;
 
   const sidenav = document.getElementById("sidenav") as HTMLElement;
 
   const sidenavLinksContainer = sidenav.querySelector(
-    "#sidenav-links-container"
+    "#sidenav-links-container",
   ) as HTMLDivElement;
 
   const linksWithChildren = [
@@ -478,11 +478,11 @@ const links: (Link & {
   ] as HTMLLIElement[];
 
   const currentSidenavItem = sidenav.querySelector(
-    "#current-sidenav-item"
+    "#current-sidenav-item",
   ) as HTMLDivElement;
 
   const sidenavTitle = currentSidenavItem.querySelector(
-    "#sidenav-title"
+    "#sidenav-title",
   ) as HTMLParagraphElement;
 
   function resetOpenNav() {

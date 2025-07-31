@@ -52,7 +52,7 @@ Before starting a session, define the objectives and agenda to keep the discussi
 
 ### 4\. Encourage Participation
 
-Actively encourage all team members to contribute. If you are using a collaborative online whiteboard, the key term is ‘collaborative’ — for successful use of the tool and a valuable meeting, everyone needs to contribute. Use our tools like sticky notes, “Everyone to Me” (to bring everyone to your view of the board), and [private writing](https://docs.metroretro.io/on-the-board/how-to-hide-and-reveal-sticky-notes) to facilitate brainstorming and idea-sharing. Emphasize the importance of inclusivity and ensure that everyone has an opportunity to voice their thoughts, for example through using our poll feature.
+Actively encourage all team members to contribute. If you are using a collaborative online whiteboard, the key term is ‘collaborative’ — for successful use of the tool and a valuable meeting, everyone needs to contribute. Use our tools like sticky notes, “Everyone to Me” (to bring everyone to your view of the board), and [private writing](https://docs.ludi.co/boards/hide-and-show-sticky-notes) to facilitate brainstorming and idea-sharing. Emphasize the importance of inclusivity and ensure that everyone has an opportunity to voice their thoughts, for example through using our poll feature.
 
 ### 5\. Utilize Templates and Frameworks
 

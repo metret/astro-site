@@ -65,7 +65,7 @@ Genie in a Bottle retrospective
 
 ### 2\. Invite your team and guests to join
 
-Begin your retrospective session by inviting your team to join your board in Ludi. You can easily [share your board](https://docs.metroretro.io/on-the-board/share-your-board) by sharing your board URL with those you want to join. 
+Begin your retrospective session by inviting your team to join your board in Ludi. You can easily [share your board](https://docs.ludi.co/boards/share-your-board) by sharing your board URL with those you want to join. 
 
 On the free plan, those you share the link with will need to sign-in and will be added to your team, granting them access to your team dashboard and all the boards inside it. If you are on a paid plan, and the person joining is not a member of your team, they will join as a guest and only have access to the board you are sharing. 
 
@@ -77,11 +77,11 @@ Energy levels template: A battery-themed check-in activity to gauge the team’s
 
 ### 3\. Generate Insights
 
-Utilize the online whiteboard to capture key insights, notable events, challenges faced, and successes achieved during the sprint. With Ludi, you can [enable private writing](https://docs.metroretro.io/on-the-board/how-to-hide-and-reveal-sticky-notes), only revealing the sticky notes when team members are ready, offering a depressurized space for sharing honest thoughts and feelings.
+Utilize the online whiteboard to capture key insights, notable events, challenges faced, and successes achieved during the sprint. With Ludi, you can [enable private writing](https://docs.ludi.co/boards/hide-and-show-sticky-notes), only revealing the sticky notes when team members are ready, offering a depressurized space for sharing honest thoughts and feelings.
 
 ### 4\. Facilitate Discussion
 
-As ideas are presented on the board, facilitate an open discussion among team members. Encourage constructive feedback, active listening and emoji reactions, and collaborative problem-solving. Use the visual cues provided by the whiteboard to guide the conversation and ensure that all relevant topics are addressed. With our whiteboard, you can use the “[Topic Tool](https://docs.metroretro.io/boards/the-tools#topic-tool)” to group similar stickies into themes. Utilize our “Everyone to Me” feature to bring everyone to your current view, maintaining focus at all times. Run polls, set timers, and use the “Ready Check” to keep the retro running smoothly. 
+As ideas are presented on the board, facilitate an open discussion among team members. Encourage constructive feedback, active listening and emoji reactions, and collaborative problem-solving. Use the visual cues provided by the whiteboard to guide the conversation and ensure that all relevant topics are addressed. With our whiteboard, you can use the “[Topic Tool](https://docs.ludi.co/boards/the-tools#topics-meeting-mode-only)” to group similar stickies into themes. Utilize our “Everyone to Me” feature to bring everyone to your current view, maintaining focus at all times. Run polls, set timers, and use the “Ready Check” to keep the retro running smoothly. 
 
 ![](../../assets/images/legacy/2024/03/Topic-grouping-1024x679.png)
 
@@ -89,7 +89,7 @@ Identify topics with the Grouping tool
 
 ### 5\. Identify Action Items with Voting
 
-Based on the insights generated and discussions held, work together to identify actionable items for improvement using our [voting functionality](https://docs.metroretro.io/boards/the-tools#voting-tool). You can vote on stickies, topics, index cards, and task cards, before using our “ranking results” button to present an overview. Use the whiteboard to document these action items, assign responsibilities, and establish deadlines. Save them to your team space within Ludi to review next time.
+Based on the insights generated and discussions held, work together to identify actionable items for improvement using our [voting functionality](https://docs.ludi.co/boards/the-tools#voting-meeting-mode-only). You can vote on stickies, topics, index cards, and task cards, before using our “ranking results” button to present an overview. Use the whiteboard to document these action items, assign responsibilities, and establish deadlines. Save them to your team space within Ludi to review next time.
 
 ![](../../assets/images/legacy/2024/03/Voting-1024x576.png)
 

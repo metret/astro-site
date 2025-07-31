@@ -89,7 +89,7 @@ It can be difficult to get a remote development team engaged in a genuine retros
 
 In game design, there is a saying called "follow the fun", which means if you see players doing fun stuff that wasn't part of the intended design, lean into it instead of "fixing it".
 
-We follow this philosophy with Ludi. A great example is the [Topic Tool](https://docs.metroretro.io/boards/the-tools#topics-meeting-mode-only), which was added after we spoke to customers and saw they were naturally grouping stickies together in their meetings, and trying to draw a line around them with boxes.
+We follow this philosophy with Ludi. A great example is the [Topic Tool](https://docs.ludi.co/boards/the-tools#topics-meeting-mode-only), which was added after we spoke to customers and saw they were naturally grouping stickies together in their meetings, and trying to draw a line around them with boxes.
 
 With Topics, the lines are now drawn around grouped elements automatically, and in the near future we'll be using AI to help automate the grouping process.
 
