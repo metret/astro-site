@@ -10,7 +10,9 @@ import robotsTxt from "astro-robots-txt";
 
 import sitemap from "@astrojs/sitemap";
 
-const siteUrl = "https://ludi.co";
+const siteUrl = import.meta.env.DEV
+  ? "http://localhost:4321"  // Default Astro dev server port
+  : "https://ludi.co";
 
 // https://astro.build/config
 export default defineConfig({

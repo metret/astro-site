@@ -104,6 +104,32 @@ export const articleMeta = async (data: ArticleMetaData): Promise<AstroSEOProps>
   };
 };
 
+export type PageMetaData = {
+  title: string;
+  description: string;
+  image: string;
+};
+
+export const pageMeta = async (data: PageMetaData): Promise<AstroSEOProps> => {
+  const importedImage = await maybeDynamicImportImage(data.image);
+
+  return {
+    title: data.title,
+    description: data.description,
+    openGraph: {
+      basic: {
+        title: data.title,
+        type: "website",
+        image: importedImage?.src || data.image,
+      },
+      optional: {
+        siteName: 'Ludi',
+        description: data.description,
+      }
+    },
+  };
+};
+
 /**
  * Performs a deep merge of multiple objects
  * @param objects - Array of objects to merge

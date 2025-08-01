@@ -12,15 +12,17 @@ import PageLayout from "~/layouts/PageLayout.astro";
 
 import Dots from "~/components/Dots.astro";
 import UsageStatement from "~/components/blocks/instances/UsageStatement.astro";
+import { pageMeta } from "~/utils";
 
-const meta = {
+const seo = await pageMeta({
   title: "About Us",
   description:
-    "Great things happen when teams are in flow and enjoy what they do. At Ludi, we create human-centered collaboration and continuous improvement tools designed for engaged, efficient, and—most importantly—fun teamwork.",
-};
+    "Great things happen when teams are in flow and enjoy what they do.",
+  image: "~/assets/images/about-hero.png",
+});
 ---
 
-<PageLayout {...meta}>
+<PageLayout {...seo}>
   <Dots />
 
   <AboutHero />
