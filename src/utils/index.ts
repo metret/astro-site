@@ -105,6 +105,7 @@ export const articleMeta = async (data: ArticleMetaData): Promise<AstroSEOProps>
 };
 
 export type PageMetaData = {
+  titleTemplate?: string;
   title: string;
   description: string;
   image: string;
@@ -114,6 +115,7 @@ export const pageMeta = async (data: PageMetaData): Promise<AstroSEOProps> => {
   const importedImage = await maybeDynamicImportImage(data.image);
 
   return {
+    titleTemplate: data.titleTemplate || `%s | ${site.name}`,
     title: data.title,
     description: data.description,
     openGraph: {
@@ -123,7 +125,7 @@ export const pageMeta = async (data: PageMetaData): Promise<AstroSEOProps> => {
         image: importedImage?.src || data.image,
       },
       optional: {
-        siteName: 'Ludi',
+        siteName: site.name,
         description: data.description,
       }
     },
