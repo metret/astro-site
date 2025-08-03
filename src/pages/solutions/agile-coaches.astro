@@ -14,9 +14,17 @@ import ActionsCommentsMentionsFeatureItem from "~/components/blocks/features/Act
 import FocusedCollaborationFeatureItem from "~/components/blocks/features/FocusedCollaborationFeatureItem.astro";
 import EstimateEffectivelyFeatureItem from "~/components/blocks/features/EstimateEffectivelyFeatureItem.astro";
 import SolutionGrid from "~/components/blocks/SolutionGrid.astro";
+import { pageMeta } from "~/utils";
+
+const seo = await pageMeta({
+  title: "Agile Coaches",
+  description:
+    "Deliver value to your teams with a product made for Agile. Every organization is different, Ludi adapts to the way you and your team want to work while providing all the tools necessary to create and maintain a culture of collaboration.",
+  image: "~/assets/images/og-images/og-agile-coaches.png",
+});
 ---
 
-<PageLayout title="Agile Coaches">
+<PageLayout {...seo}>
   <SolutionHero
     title="Deliver value to your teams with a product made for Agile."
     description="Every organization is different, Ludi adapts to the way you and your team want to work while providing all the tools necessary to create and maintain a culture of collaboration."

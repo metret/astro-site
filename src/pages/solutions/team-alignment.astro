@@ -16,9 +16,17 @@ import CSVDataImportFeatureItem from "~/components/blocks/features/CSVDataImport
 import PrivateWritingFeatureItem from "~/components/blocks/features/PrivateWritingFeatureItem.astro";
 import SolutionGrid from "~/components/blocks/SolutionGrid.astro";
 import SolutionTemplateItem2 from "~/components/blocks/SolutionTemplateItem2.astro";
+import { pageMeta } from "~/utils";
+
+const seo = await pageMeta({
+  title: "Team Alignment",
+  description:
+    "Bring your team together and work towards shared goals. Don't let your team get stuck in a rut, Ludi provides all the tools you need to help your team collaborate effectively and achieve their goals.",
+  image: "~/assets/images/og-images/og-team-alignment.png",
+});
 ---
 
-<PageLayout title="Team Alignment">
+<PageLayout {...seo}>
   <SolutionHero
     title="Bring your team together and work towards shared goals"
     description="Don't let your team get stuck in a rut, Ludi provides all the tools you need to help your team collaborate effectively and achieve their goals."

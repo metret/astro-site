@@ -18,9 +18,15 @@ import ActionsCommentsMentionsFeatureItem from "~/components/blocks/features/Act
 import ActivityFramesFeatureItem from "~/components/blocks/features/ActivityFramesFeatureItem.astro";
 import PromoteTeamCultureFeatureItem from "~/components/blocks/features/PromoteTeamCultureFeatureItem.astro";
 import DiagrammingFeatureItem from "~/components/blocks/features/DiagrammingFeatureItem.astro";
+import { pageMeta } from "~/utils";
+
+const seo = await pageMeta({
+  title: "Meetings & Workshops",
+  description: "All teams are different, build the workflow that suits yours",
+});
 ---
 
-<PageLayout title="Meetings & Workshops">
+<PageLayout {...seo}>
   <Dots />
 
   <Hero

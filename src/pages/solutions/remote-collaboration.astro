@@ -17,9 +17,17 @@ import ActionsCommentsMentionsFeatureItem from "~/components/blocks/features/Act
 import PrivateWritingFeatureItem from "~/components/blocks/features/PrivateWritingFeatureItem.astro";
 import SolutionGrid from "~/components/blocks/SolutionGrid.astro";
 import SolutionTemplateItem2 from "~/components/blocks/SolutionTemplateItem2.astro";
+import { pageMeta } from "~/utils";
+
+const seo = await pageMeta({
+  title: "Remote Collaboration",
+  description:
+    "Work with remote and hybrid teams like you're in the same room. Distracted or unengaged remote collaborators reduce the value they could be adding. Bring your team together in a space that feels natural and encourages communication.",
+  image: "~/assets/images/og-images/og-remote-collaboration.png",
+});
 ---
 
-<PageLayout title="Remote Collaboration">
+<PageLayout {...seo}>
   <SolutionHero
     title="Work with remote and hybrid teams like you're in the same room"
     description="Distracted or unengaged remote collaborators reduce the value they could be adding. Bring your team together in a space that feels natural and encourages communication."

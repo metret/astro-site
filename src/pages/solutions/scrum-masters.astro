@@ -17,9 +17,17 @@ import AgileProcessesFeatureItem from "~/components/blocks/features/AgileProcess
 import PromoteTeamCultureFeatureItem from "~/components/blocks/features/PromoteTeamCultureFeatureItem.astro";
 import SolutionGrid from "~/components/blocks/SolutionGrid.astro";
 import SolutionTemplateItem2 from "~/components/blocks/SolutionTemplateItem2.astro";
+import { pageMeta } from "~/utils";
+
+const seo = await pageMeta({
+  title: "Scrum Masters",
+  description:
+    "Facilitate great sessions and help your team achieve their goals. Don't let your team get stuck in a rut, Ludi provides all the tools you need to help your team collaborate effectively and achieve their goals.",
+  image: "~/assets/images/og-images/og-scrum-masters.png",
+});
 ---
 
-<PageLayout title="Scrum Masters">
+<PageLayout {...seo}>
   <SolutionHero
     title="Facilitate great sessions and help your team achieve their goals"
     description="Don't let your team get stuck in a rut, Ludi provides all the tools you need to help your team collaborate effectively and achieve their goals."

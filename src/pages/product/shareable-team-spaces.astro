@@ -25,9 +25,16 @@ import BringStakeholderTogetherLargeItem from "~/components/blocks/large/BringSt
 import PromoteTeamCultureFeatureItem from "~/components/blocks/features/PromoteTeamCultureFeatureItem.astro";
 import DiagrammingFeatureItem from "~/components/blocks/features/DiagrammingFeatureItem.astro";
 import CreateSharedResponsibilityFeatureItem from "~/components/blocks/features/CreateSharedResponsibilityFeatureItem.astro";
+import { pageMeta } from "~/utils";
+
+const seo = await pageMeta({
+  title: "Shareable Team Spaces",
+  description:
+    "Keep your team focused on what matters and build shared understanding",
+});
 ---
 
-<PageLayout title="Shareable Team Spaces">
+<PageLayout {...seo}>
   <Dots />
 
   <Hero

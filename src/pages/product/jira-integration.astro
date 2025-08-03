@@ -16,9 +16,16 @@ import SolutionLargeItem from "~/components/blocks/SolutionLargeItem.astro";
 import SolutionLink from "~/components/blocks/SolutionLink.astro";
 import EstimateEffectivelyFeatureItem from "~/components/blocks/features/EstimateEffectivelyFeatureItem.astro";
 import SolutionTemplateItem2 from "~/components/blocks/SolutionTemplateItem2.astro";
+import { pageMeta } from "~/utils";
+
+const seo = await pageMeta({
+  title: "Jira Integration",
+  description:
+    "Stay focused and work with your Jira backlog directly from Ludi",
+});
 ---
 
-<PageLayout title="Jira Integration">
+<PageLayout {...seo}>
   <Dots />
 
   <Hero
