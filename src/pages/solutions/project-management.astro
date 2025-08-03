@@ -17,9 +17,17 @@ import CSVDataImportFeatureItem from "~/components/blocks/features/CSVDataImport
 import EstimateEffectivelyFeatureItem from "~/components/blocks/features/EstimateEffectivelyFeatureItem.astro";
 import RoadmapsFeatureItem from "~/components/blocks/features/RoadmapsFeatureItem.astro";
 import SolutionGrid from "~/components/blocks/SolutionGrid.astro";
+import { pageMeta } from "~/utils";
+
+const seo = await pageMeta({
+  title: "Project Management",
+  description:
+    "See the full picture of your project in a single space. Avoid context switching and plan your entire project from concept to delivery in a single shared space for improved efficiency and coordination.",
+  image: "~/assets/images/og-images/og-project-management.png",
+});
 ---
 
-<PageLayout title="Project Management">
+<PageLayout {...seo}>
   <SolutionHero
     title="See the full picture of your project in a single space."
     description="Avoid context switching and plan your entire project from concept to delivery in a single shared space for improved efficiency and coordination."

@@ -18,9 +18,15 @@ import PrivateWritingFeatureItem from "~/components/blocks/features/PrivateWriti
 import TopicsFeatureItem from "~/components/blocks/features/TopicsFeatureItem.astro";
 import DesignedForExpressionLargeItem from "~/components/blocks/large/DesignedForExpressionLargeItem.astro";
 import SeamlessCollaborationRemoteAndHybridLargeItem from "~/components/blocks/large/SeamlessCollaborationRemoteAndHybridLargeItem.astro";
+import { pageMeta } from "~/utils";
+
+const seo = await pageMeta({
+  title: "Enhanced Interactivity",
+  description: "Get your entire team excited to contribute",
+});
 ---
 
-<PageLayout title="Enhanced Interactivity">
+<PageLayout {...seo}>
   <Dots />
 
   <Hero

@@ -17,9 +17,17 @@ import ActionsCommentsMentionsFeatureItem from "~/components/blocks/features/Act
 import CSVDataImportFeatureItem from "~/components/blocks/features/CSVDataImportFeatureItem.astro";
 import PrivateWritingFeatureItem from "~/components/blocks/features/PrivateWritingFeatureItem.astro";
 import SolutionGrid from "~/components/blocks/SolutionGrid.astro";
+import { pageMeta } from "~/utils";
+
+const seo = await pageMeta({
+  title: "Online Whiteboarding",
+  description:
+    "Whiteboard collaboration lets you easily express complex ideas visually. Don't get stuck in document overload, working in a shared visual space allows you to work with mixed data types, diagram complex workflows and contextually discuss and feedback across multiple topics.",
+  image: "~/assets/images/og-images/og-online-whiteboarding.png",
+});
 ---
 
-<PageLayout title="Online Whiteboarding">
+<PageLayout {...seo}>
   <SolutionHero
     title="Whiteboard collaboration lets you easily express complex ideas visually"
     description="Don't get stuck in document overload, working in a shared visual space allows you to work with mixed data types, diagram complex workflows and contextually discuss and feedback across multiple topics."

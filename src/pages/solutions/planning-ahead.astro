@@ -17,9 +17,17 @@ import EstimateEffectivelyFeatureItem from "~/components/blocks/features/Estimat
 import AgileProcessesFeatureItem from "~/components/blocks/features/AgileProcessesFeatureItem.astro";
 import RoadmapsFeatureItem from "~/components/blocks/features/RoadmapsFeatureItem.astro";
 import SolutionGrid from "~/components/blocks/SolutionGrid.astro";
+import { pageMeta } from "~/utils";
+
+const seo = await pageMeta({
+  title: "Planning Ahead",
+  description:
+    "Effective planning builds structure, reduces risk and keeps your team focused on what matters. Don't just focus on what you have done, Ludi helps your team plan the future of your organization, reducing costly rework and enhancing team coordination on what comes next.",
+  image: "~/assets/images/og-images/og-planning-ahead.png",
+});
 ---
 
-<PageLayout title="Planning Ahead">
+<PageLayout {...seo}>
   <SolutionHero
     title="Effective planning builds structure, reduces risk and keeps your team focused on what matters."
     description="Don't just focus on what you have done, Ludi helps your team plan the future of your organization, reducing costly rework and enhancing team coordination on what comes next."

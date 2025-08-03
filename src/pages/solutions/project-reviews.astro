@@ -17,9 +17,17 @@ import TopicsFeatureItem from "~/components/blocks/features/TopicsFeatureItem.as
 import ActionsCommentsMentionsFeatureItem from "~/components/blocks/features/ActionsCommentsMentionsFeatureItem.astro";
 import CSVDataImportFeatureItem from "~/components/blocks/features/CSVDataImportFeatureItem.astro";
 import SolutionGrid from "~/components/blocks/SolutionGrid.astro";
+import { pageMeta } from "~/utils";
+
+const seo = await pageMeta({
+  title: "Project Reviews",
+  description:
+    "Gain critical insights and improve future work with effective project reviews. It's not always about focusing on the negative but learning from both what went well and what didn't quite go to plan. Make reviews a collaborative opportunity for future success.",
+  image: "~/assets/images/og-images/og-project-reviews.png",
+});
 ---
 
-<PageLayout title="Project Reviews">
+<PageLayout {...seo}>
   <SolutionHero
     title="Gain critical insights and improve future work with effective project reviews"
     description="It's not always about focusing on the negative but learning from both what went well and what didn't quite go to plan. Make reviews a collaborative opportunity for future success."

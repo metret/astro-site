@@ -17,9 +17,17 @@ import ActionsTrackingFeatureItem from "~/components/blocks/features/ActionsTrac
 import AgileProcessesFeatureItem from "~/components/blocks/features/AgileProcessesFeatureItem.astro";
 import DiagrammingFeatureItem from "~/components/blocks/features/DiagrammingFeatureItem.astro";
 import SolutionGrid from "~/components/blocks/SolutionGrid.astro";
+import { pageMeta } from "~/utils";
+
+const seo = await pageMeta({
+  title: "Developers",
+  description:
+    "Ludi is made by developers for developers. Need to quickly sketch out an idea? Or produce a quick diagram? Or just want to avoid having to go into Jira? We got you.",
+  image: "~/assets/images/og-images/og-developers.png",
+});
 ---
 
-<PageLayout title="Developers">
+<PageLayout {...seo}>
   <SolutionHero
     title="Ludi is made by developers for developers."
     description="Need to quickly sketch out an idea? Or produce a quick diagram? Or just want to avoid having to go into Jira? We got you."

@@ -17,9 +17,17 @@ import WearHatsFeatureItem from "~/components/blocks/features/WearHatsFeatureIte
 import CreateSharedResponsibilityFeatureItem from "~/components/blocks/features/CreateSharedResponsibilityFeatureItem.astro";
 import SolutionGrid from "~/components/blocks/SolutionGrid.astro";
 import SolutionTemplateItem2 from "~/components/blocks/SolutionTemplateItem2.astro";
+import { pageMeta } from "~/utils";
+
+const seo = await pageMeta({
+  title: "Team Health",
+  description:
+    "Build a healthy team culture and keep your team engaged. Don't let your team get stuck in a rut, Ludi provides all the tools you need to help your team collaborate effectively and achieve their goals.",
+  image: "~/assets/images/og-images/og-team-health.png",
+});
 ---
 
-<PageLayout title="Team Health">
+<PageLayout {...seo}>
   <SolutionHero
     title="Build a healthy team culture and keep your team engaged"
     description="Don't let your team get stuck in a rut, Ludi provides all the tools you need to help your team collaborate effectively and achieve their goals."

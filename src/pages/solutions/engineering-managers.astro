@@ -14,9 +14,17 @@ import RoadmapsFeatureItem from "~/components/blocks/features/RoadmapsFeatureIte
 import TopicsFeatureItem from "~/components/blocks/features/TopicsFeatureItem.astro";
 import DiagrammingFeatureItem from "~/components/blocks/features/DiagrammingFeatureItem.astro";
 import SolutionGrid from "~/components/blocks/SolutionGrid.astro";
+import { pageMeta } from "~/utils";
+
+const seo = await pageMeta({
+  title: "Engineering Managers",
+  description:
+    "Align your teams and deliver great software with Ludi. Every team is different. We believe the unique personalities of teams should be nurtured, not ignored. Whether they are a Scrum Team, or a Them Team... Ludi lets you craft your patterns & processes around your team. All while putting a smile on their faces.",
+  image: "~/assets/images/og-images/og-engineerings-managers.png",
+});
 ---
 
-<PageLayout title="Engineering Managers">
+<PageLayout {...seo}>
   <SolutionHero
     title="Align your teams and deliver great software with Ludi"
     description="Every team is different. We believe the unique personalities of teams should be nurtured, not ignored. Whether they are a Scrum Team, or a Them Team... Ludi lets you craft your patterns & processes around your team. All while putting a smile on their faces."

@@ -14,9 +14,17 @@ import ActivityFramesFeatureItem from "~/components/blocks/features/ActivityFram
 import ActionsCommentsMentionsFeatureItem from "~/components/blocks/features/ActionsCommentsMentionsFeatureItem.astro";
 import PromoteTeamCultureFeatureItem from "~/components/blocks/features/PromoteTeamCultureFeatureItem.astro";
 import SolutionGrid from "~/components/blocks/SolutionGrid.astro";
+import { pageMeta } from "~/utils";
+
+const seo = await pageMeta({
+  title: "Better Collaboration",
+  description:
+    "Good collaboration is built on communication, great collaboration is built on trust. Don't just bring your team together in a whiteboard and expect results, create an environment where individual personalities and openness are at the heart of your work.",
+  image: "~/assets/images/og-images/og-better-collaboration.png",
+});
 ---
 
-<PageLayout title="Better Collaboration">
+<PageLayout {...seo}>
   <SolutionHero
     title="Good collaboration is built on communication, great collaboration is built on trust"
     description="Don't just bring your team together in a whiteboard and expect results, create an environment where individual personalities and openness are at the heart of your work."

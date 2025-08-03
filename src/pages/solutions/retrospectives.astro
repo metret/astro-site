@@ -16,9 +16,17 @@ import FocusedCollaborationFeatureItem from "~/components/blocks/features/Focuse
 import VotingFeatureItem from "~/components/blocks/features/VotingFeatureItem.astro";
 import SolutionGrid from "~/components/blocks/SolutionGrid.astro";
 import SolutionTemplateItem2 from "~/components/blocks/SolutionTemplateItem2.astro";
+import { pageMeta } from "~/utils";
+
+const seo = await pageMeta({
+  title: "Retrospectives",
+  description:
+    "Build a team focused on continuous improvement with quality retrospectives. Meetings don't have to be considered anti-work or a boring requirement of process. With Ludi you can bring the fun back to your collaboration and get your team engaged in the process.",
+  image: "~/assets/images/og-images/og-retrospectives.png",
+});
 ---
 
-<PageLayout title="Retrospectives">
+<PageLayout {...seo}>
   <SolutionHero
     pill="Retrospectives"
     title="Build a team focused on continuous improvement with quality retrospectives"

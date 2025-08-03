@@ -108,11 +108,12 @@ export type PageMetaData = {
   titleTemplate?: string;
   title: string;
   description: string;
-  image: string;
+  image?: string;
 };
 
 export const pageMeta = async (data: PageMetaData): Promise<AstroSEOProps> => {
-  const importedImage = await maybeDynamicImportImage(data.image);
+  const defaultImage = await dynamicImportImage("~/assets/images/og-default.png");
+  const importedImage = (data.image ? await maybeDynamicImportImage(data.image) : null) ?? defaultImage;
 
   return {
     titleTemplate: data.titleTemplate || `%s | ${site.name}`,
@@ -122,7 +123,7 @@ export const pageMeta = async (data: PageMetaData): Promise<AstroSEOProps> => {
       basic: {
         title: data.title,
         type: "website",
-        image: importedImage?.src || data.image,
+        image: importedImage.src,
       },
       optional: {
         siteName: site.name,

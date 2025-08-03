@@ -16,9 +16,16 @@ import SolutionLargeItem from "~/components/blocks/SolutionLargeItem.astro";
 import PromoteTeamCultureFeatureItem from "~/components/blocks/features/PromoteTeamCultureFeatureItem.astro";
 import CreateSharedResponsibilityFeatureItem from "~/components/blocks/features/CreateSharedResponsibilityFeatureItem.astro";
 import DesignedForExpressionLargeItem from "~/components/blocks/large/DesignedForExpressionLargeItem.astro";
+import { pageMeta } from "~/utils";
+
+const seo = await pageMeta({
+  title: "Privacy & Anonymity",
+  description:
+    "Remove bias from your collaboration and promote open discussion",
+});
 ---
 
-<PageLayout title="Privacy & Anonymity">
+<PageLayout {...seo}>
   <Dots />
 
   <Hero
