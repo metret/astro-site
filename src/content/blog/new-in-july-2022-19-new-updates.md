@@ -35,7 +35,7 @@ Welcome to a new update of Ludi! With this one we’ve been focusing on everythi
 
 ### July’s update
 
-We counted and there are a total of 19 different changes & new features in this release. Steve demos all the updates [in this video](https://updates.metroretro.io/big-stickies-v2.50-3pbLa), and below we’ve given an overview of the changes and why we think they’re important.
+We counted and there are a total of 19 different changes & new features in this release. Steve demos all the updates [in this video](https://updates.ludi.co/big-stickies-v2.50-3pbLa), and below we’ve given an overview of the changes and why we think they’re important.
 
 ![](../../assets/images/legacy/2023/05/634e94296e47a91398d9b1e9_Video-of-updates.png)
 

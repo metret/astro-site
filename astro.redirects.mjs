@@ -36,7 +36,7 @@ const redirects = {
     "/project-management": "/solutions/project-management",
     "/remote-collaboration": "/solutions/remote-collaboration",
     "/retrospectives": "/solutions/retrospectives",
-    "/release-notes": "https://updates.metroretro.io",
+    "/release-notes": "https://updates.ludi.co",
     "/sprint-retrospective": "/solutions/retrospectives",
     "/task-tracking": "/product/task-tracking",
     "/terms-old": "/terms",

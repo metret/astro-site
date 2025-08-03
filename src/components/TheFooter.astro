@@ -35,7 +35,12 @@ const footerLinks: {
       { title: "Support", url: "/support" },
       {
         title: "Release Notes",
-        url: "https://updates.metroretro.io/",
+        url: "https://updates.ludi.co/",
+        external: true,
+      },
+      {
+        title: "Service Status",
+        url: "https://status.ludi.co/",
         external: true,
       },
       {
@@ -147,7 +152,7 @@ const footerLinks: {
     const header = fl.querySelector(".footer-link-header") as HTMLDivElement;
 
     const contentWrapper = fl.querySelector(
-      "[data-expanded]",
+      "[data-expanded]"
     ) as HTMLDivElement;
 
     header.addEventListener("click", () => {
