@@ -14,12 +14,19 @@ import Dots from "~/components/Dots.astro";
 import ProductVideo from "~/components/blocks/ProductVideo.astro";
 import CustomerLogos from "~/components/blocks/CustomerLogos.astro";
 import UsageStatement from "~/components/blocks/instances/UsageStatement.astro";
+import { pageMeta } from "~/utils";
+
+const seo = await pageMeta({
+  titleTemplate: "%s",
+  title: "Ludi | Retrospectives, Estimation & Planning for Agile Teams",
+  description:
+    "The most engaging whiteboard to run agile team meetings - in whatever format you need. " +
+    "Ludi's expertly-crafted templates and exercises, fluid user experience and easy facilitation make your sessions immediately engaging and productive - so you can focus on the end goal. " +
+    "Planning, refinement and retros - fast, efficient and fun!",
+});
 ---
 
-<PageLayout
-  titleTemplate="%s"
-  title="Ludi | Retrospectives, Estimation & Planning for Agile Teams"
->
+<PageLayout {...seo}>
   <Dots />
 
   <Hero
