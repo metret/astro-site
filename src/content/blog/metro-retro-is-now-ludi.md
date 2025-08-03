@@ -30,7 +30,9 @@ As a name, Metro Retro served us very well for the first six years, reflecting o
 
 ## Metro Retro is now called Ludi!
 
-Derived from the Latin word for "games" or "play," Ludi embodies the interactive, engaging, and collaborative spirit that defines our platform. We've expanded on what we originally built for retrospectives so now our customers are use us in many more meeting types. Having our name associated with retros made less sense as time went on.
+Derived from the Latin word for "games" or "play," Ludi embodies the interactive, engaging, and collaborative spirit that defines our platform.
+
+We've expanded on what we originally built for retrospectives, and now our customers use us in many more meeting settings. Having our name associated with retros became limiting as time went on.
 
 > ##### We're about creating productive and enjoyable collaboration through thoughtful design and playful interaction.
 
@@ -38,7 +40,7 @@ Ludi meetings are interactive experiences where participants collaborate meaning
 
 ## What Ludi Means for Our Future
 
-This rebrand reflects our product expansion beyond retrospectives. Ludi represents our evolution into a comprehensive collaboration platform that makes teamwork more engaging, more human, and more effective.
+This rebrand reflects our product expansion beyond retrospectives - an evolution into a comprehensive collaboration platform that makes teamwork more engaging, more human, and more effective.
 
 The name Ludi captures several key aspects of our philosophy:
 
