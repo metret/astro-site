@@ -26,19 +26,19 @@ authorName: "Steven Moseley"
 
 Today marks an exciting milestone in our company's evolution. We've changed our name! Read on for why...
 
-As a name, Metro Retro served us very well for the first six years, reflecting our roots in retrospective meetings. But as we've grown and expanded our platform's capabilities, our name no longer captures the full scope of our product, or where we're headed.
+As a name, Metro Retro served us very well for the first six years, reflecting our roots in retrospective meetings. But as we've grown and expanded our capabilities, our name no longer captures the full scope of our platform, or where we're headed.
 
 ## Metro Retro is now called Ludi!
 
-Ludi represents where the product is now, and our broader vision. Derived from the Latin word for "games" or "play," Ludi embodies the interactive, engaging, and collaborative spirit that defines our platform. As we've expanded on what we built for retrospectives and teams are using us for every meeting and workshop, a name rooted in retros was starting to cause friction.
+Derived from the Latin word for "games" or "play," Ludi embodies the interactive, engaging, and collaborative spirit that defines our platform. We've expanded on what we originally built for retrospectives so now our customers are use us in many more meeting types. Having our name associated with retros made less sense as time went on.
 
 > ##### We're about creating productive and enjoyable collaboration through thoughtful design and playful interaction.
 
-In short, for whichever purpose you are gathering, Ludi meetings are interactive experiences where participants collaborate meaningfully instead of sitting through endless presentations, so no more "screenshare and yawn".
+Ludi meetings are interactive experiences where participants collaborate meaningfully instead of sitting through endless presentations. No more "screenshare and yawn".
 
 ## What Ludi Means for Our Future
 
-This rebrand reflects our expansion beyond retrospectives. Ludi represents our evolution into a comprehensive collaboration platform that makes teamwork more engaging, more human, and more effective.
+This rebrand reflects our product expansion beyond retrospectives. Ludi represents our evolution into a comprehensive collaboration platform that makes teamwork more engaging, more human, and more effective.
 
 The name Ludi captures several key aspects of our philosophy:
 
@@ -50,7 +50,7 @@ The name Ludi captures several key aspects of our philosophy:
 
 ## What Can You Do With Ludi?
 
-Ludi can be used for any type of meeting or workshop but our focus has always been on building the best collaboration platform for software development teams, it's why you find so many great templates and features specifically built for agile processes, Scrum being the obvious one. Some of the core ways our customers use Ludi are:
+Ludi can be used for any type of meeting or workshop but our focus has always been on building the best collaboration platform for software development teams. That's why you find so many great templates and features specifically built for agile processes, Scrum teams in particular. Some of the ways our customers use Ludi are:
 
 - **Project & product planning**
 - **Sprint planning**
@@ -69,7 +69,7 @@ Ludi can be used for any type of meeting or workshop but our focus has always be
 
 - Your existing accounts, data, and workflows remain unchanged
 - Our team and values that have driven us from the beginning
-- Our dedication to making remote collaboration more human
+- Our dedication to making remote collaboration feel more human
 
 ## Moving Forward Together
 
