@@ -1,15 +1,15 @@
 ---
 title: "From Metro Retro to Ludi: Expanding Beyond Retrospectives"
-teaser: "Today marks an exciting milestone in our company's evolution. Metro Retro is now Ludi, reflecting our broader vision for collaboration beyond retrospectives."
+teaser: "Today marks an exciting milestone in our company's evolution. Metro Retro is now Ludi, reflecting our vision for collaboration beyond retrospectives."
 category: "Product"
 image: "~/assets/images/blog/2025/august/2025/2025-rebrand.png"
-description: "Today marks an exciting milestone in our company's evolution. Metro Retro is now Ludi, reflecting our broader vision for collaboration beyond retrospectives."
-canonicalUrl: "/blog/collaboration-for-the-modern-dev-team"
+description: "Today marks an exciting milestone in our company's evolution. Metro Retro is now Ludi, reflecting our vision for collaboration beyond retrospectives."
+canonicalUrl: "/blog/metro-retro-is-now-ludi"
 section: "Product"
-ogUrl: "https://ludi.co/blog/collaboration-for-the-modern-dev-team"
+ogUrl: "https://ludi.co/blog/metro-retro-is-now-ludi"
 ogSiteName: "Ludi"
 ogType: "article"
-ogImageUrl: "https://ludi.co/blog/collaboration-for-the-modern-dev-team.png"
+ogImageUrl: "https://ludi.co/blog/metro-retro-is-now-ludi.png"
 ogImageWidth: 1200
 ogImageHeight: 628
 ogImageAlt: "Metro Retro is now called Ludi"
@@ -19,22 +19,22 @@ modifiedDate: 2025-08-4T00:00:00+00:00
 articleSection: "Product"
 twitterCardType: "summary_large_image"
 twitterTitle: "Metro Retro is now called Ludi! | Ludi"
-twitterDescription: "Today marks an exciting milestone in our company's evolution. Metro Retro is now Ludi, reflecting our broader vision for collaboration beyond retrospectives."
-twitterImage: "https://ludi.co/blog/collaboration-for-the-modern-dev-team.png"
+twitterDescription: "Today marks an exciting milestone in our company's evolution. Metro Retro is now Ludi, reflecting our vision for collaboration beyond retrospectives."
+twitterImage: "https://ludi.co/blog/metro-retro-is-now-ludi.png"
 authorName: "Steven Moseley"
 ---
 
-Today marks an exciting milestone in our company's evolution.
+Today marks an exciting milestone in our company's evolution. We've changed our name! Read on for why...
 
-As a name, Metro Retro served us well for the first six years, reflecting our roots in retrospective meetings and associated agile practices. But as we've grown and expanded our platform's capabilities, our name no longer captures the full scope of what we do, or where we're headed.
+As a name, Metro Retro served us very well for the first six years, reflecting our roots in retrospective meetings. But as we've grown and expanded our platform's capabilities, our name no longer captures the full scope of our product, or where we're headed.
 
 ## Metro Retro is now called Ludi!
 
-Ludi represents our broader vision. Derived from the Latin word for "games" or "play," Ludi embodies the interactive, engaging, and collaborative spirit that defines our platform. We're expanding on what we built for retrospectives.
+Ludi represents where the product is now, and our broader vision. Derived from the Latin word for "games" or "play," Ludi embodies the interactive, engaging, and collaborative spirit that defines our platform. As we've expanded on what we built for retrospectives and teams are using us for every meeting and workshop, a name rooted in retros was starting to cause friction.
 
 > ##### We're about creating productive and enjoyable collaboration through thoughtful design and playful interaction.
 
-Ludi meetings are interactive experiences where participants collaborate meaningfully instead of sitting through endless presentations, so no more "screenshare and yawn".
+In short, for whichever purpose you are gathering, Ludi meetings are interactive experiences where participants collaborate meaningfully instead of sitting through endless presentations, so no more "screenshare and yawn".
 
 ## What Ludi Means for Our Future
 
