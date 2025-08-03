@@ -53,7 +53,7 @@ If your team already love working in Ludi there are new object types for more oc
 
 Using tokens for a quick team mood check-in
 
-Or use the new Task Cards for collaborative roadmapping sessions (see the magic of [importing your backlog to Ludi](https://docs.metroretro.io/boards/import-data-to-your-boards)):
+Or use the new Task Cards for collaborative roadmapping sessions (see the magic of [importing your backlog to Ludi](https://docs.ludi.co/boards/import-data-to-your-boards)):
 
 ![](../../assets/images/legacy/2023/05/634edae0eea2b5c7e509c7d3_Quarterly-roadmap-1.png)
 

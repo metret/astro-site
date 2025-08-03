@@ -151,7 +151,7 @@ I’ll leave you with a few stickies showing my initial thoughts on these topics
 
 ![](../../assets/images/legacy/2024/05/tone-brand-culture.png)
 
-Hopefully you found this helpful. If you have any questions about how you can use Ludi to run a fun and engaging meeting to work through these marketing challenges then please reach out to [contact@metroretro.io](mailto:contact@metroretro.io)
+Hopefully you found this helpful. If you have any questions about how you can use Ludi to run a fun and engaging meeting to work through these marketing challenges then please reach out to [contact@ludi.co](mailto:contact@ludi.co)
 
 Cheers,
 
