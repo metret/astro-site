@@ -38,7 +38,7 @@ Ludi meetings are interactive experiences where participants collaborate meaning
 
 ## What Ludi Means for Our Future
 
-This rebrand reflects our product expansion beyond retrospectives. Ludi represents our evolution into a comprehensive collaboration platform that makes teamwork more engaging, more human, and more effective.
+This rebrand reflects our product expansion beyond retrospectives - an evolution into a comprehensive collaboration platform that makes teamwork more engaging, more human, and more effective.
 
 The name Ludi captures several key aspects of our philosophy:
 
