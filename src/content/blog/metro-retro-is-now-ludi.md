@@ -30,7 +30,7 @@ As a name, Metro Retro served us very well for the first six years, reflecting o
 
 ## Metro Retro is now called Ludi!
 
-Derived from the Latin word for "games" or "play," Ludi embodies the interactive, engaging, and collaborative spirit that defines our platform. We've expanded on what we originally built for retrospectives so now our customers are use us in many more meeting types. Having our name associated with retros made less sense as time went on.
+Derived from the Latin word for "games" or "play," Ludi embodies the interactive, engaging, and collaborative spirit that defines our platform. For a long time now we've been more than just a retro tool, including support for a wide range of product team focused meetings including backlog refinement, planning, roadmapping and brain storming. Our customers are using us for all sorts of things, so having our name associated with retros specifically made less sense as time went on, and made our story harder to tell.
 
 > ##### We're about creating productive and enjoyable collaboration through thoughtful design and playful interaction.
 
@@ -75,4 +75,4 @@ Ludi can be used for any type of meeting or workshop but our focus has always be
 
 This rebrand to Ludi is a recommitment to our customers and our mission. We're excited to continue building tools that bring teams together, foster collaboration, and make work more engaging for everyone.
 
-Have questions about the rebrand? We'd love to hear from you. Reach out to our team at contact@ludi.co 
+Have questions about the rebrand? We'd love to hear from you. Reach out to our team at contact@ludi.co
