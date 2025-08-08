@@ -99,4 +99,4 @@ All lead by simply listening to and understanding how people work with Ludi.
 
 Sign up to [try Ludi free for 30 days](https://ludi.co/account/register) and see how your product teams can be more efficient using the collaborative platform trusted by teams worldwide to deliver fun and engaging whiteboard sessions.
 
-If you'd like to chat about your experiences with Ludi, or suggest features you would like to see in our future releases then please get in touch and [book a call with Steve](https://calendly.com/steve-moseley-metroretro/30min), we'd love to hear from you.
+If you'd like to chat about your experiences with Ludi, or suggest features you would like to see in our future releases then please get in touch and [book a call with Steve](https://calendly.com/steve-moseley-ludi/30min), we'd love to hear from you.
