@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 194.27 225.48">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        fill: none;
+        stroke: #3f51b5;
+        stroke-width: 8px;
+      }
+
+      .cls-2, .cls-3 {
+        stroke-linejoin: round;
+      }
+
+      .cls-3 {
+        stroke-linecap: round;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g>
+      <path class="cls-1" d="M47.75,122.62c-5.17-8.67-8.14-18.81-8.14-29.64,0-32.03,25.97-58,58-58s58,25.97,58,58c0,10.82-2.96,20.95-8.12,29.61"/>
+      <rect class="cls-2" x="75.62" y="174.98" width="44" height="36.5"/>
+      <polygon class="cls-2" points="112.62 221.48 82.62 221.48 75.62 211.48 119.62 211.48 112.62 221.48"/>
+      <line class="cls-2" x1="76.12" y1="187.48" x2="120.12" y2="187.48"/>
+      <line class="cls-2" x1="76.12" y1="199.48" x2="120.12" y2="199.48"/>
+      <path class="cls-2" d="M119.62,174.98c0-10,29-54,29-54"/>
+      <path class="cls-2" d="M75.62,174.98c0-9-29-54-29-54"/>
+      <path class="cls-2" d="M80.1,110.99h0c5.42,0,9.82,4.4,9.82,9.82v9.82h-9.82c-5.42,0-9.82-4.4-9.82-9.82h0c0-5.42,4.4-9.82,9.82-9.82Z"/>
+      <path class="cls-2" d="M114.3,110.99h9.82v9.82c0,5.42-4.4,9.82-9.82,9.82h0c-5.42,0-9.82-4.4-9.82-9.82h0c0-5.42,4.4-9.82,9.82-9.82Z" transform="translate(228.6 241.61) rotate(180)"/>
+      <polyline class="cls-2" points="89.92 173.48 89.92 130.62 104.35 130.62 104.35 173.48"/>
+      <g>
+        <g id="_Radial_Repeat_" data-name="&amp;lt;Radial Repeat&amp;gt;">
+          <line class="cls-3" x1="38.74" y1="156.61" x2="31.88" y2="163.59"/>
+        </g>
+        <g id="_Radial_Repeat_-2" data-name="&amp;lt;Radial Repeat&amp;gt;">
+          <line class="cls-3" x1="13.78" y1="97.9" x2="4" y2="97.99"/>
+        </g>
+        <g id="_Radial_Repeat_-3" data-name="&amp;lt;Radial Repeat&amp;gt;">
+          <line class="cls-3" x1="37.66" y1="38.74" x2="30.67" y2="31.88"/>
+        </g>
+        <g id="_Radial_Repeat_-4" data-name="&amp;lt;Radial Repeat&amp;gt;">
+          <line class="cls-3" x1="96.37" y1="13.78" x2="96.28" y2="4"/>
+        </g>
+        <g id="_Radial_Repeat_-5" data-name="&amp;lt;Radial Repeat&amp;gt;">
+          <line class="cls-3" x1="155.53" y1="37.66" x2="162.39" y2="30.67"/>
+        </g>
+        <g id="_Radial_Repeat_-6" data-name="&amp;lt;Radial Repeat&amp;gt;">
+          <line class="cls-3" x1="180.48" y1="96.37" x2="190.27" y2="96.28"/>
+        </g>
+        <g id="_Radial_Repeat_-7" data-name="&amp;lt;Radial Repeat&amp;gt;">
+          <line class="cls-3" x1="156.61" y1="155.53" x2="163.59" y2="162.39"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 150.15 143.78">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        fill: none;
+      }
+
+      .cls-5 {
+        mix-blend-mode: multiply;
+      }
+
+      .cls-5, .cls-6 {
+        fill: #3b65ee;
+        opacity: .2;
+      }
+
+      .cls-2 {
+        stroke-width: 12px;
+      }
+
+      .cls-2, .cls-7, .cls-3, .cls-4 {
+        stroke: #3b65ef;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-8 {
+        isolation: isolate;
+      }
+
+      .cls-7 {
+        fill: #fff;
+        stroke-width: 3px;
+      }
+
+      .cls-3 {
+        stroke-width: 10px;
+      }
+
+      .cls-4 {
+        stroke-width: 15px;
+      }
+
+      .cls-9 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <path class="cls-1" d="M61.73,141.71s-46-2-49-42S40-2.6,66.73,1.71c31,5,53,62,44,104-8.49,39.6-49,36-49,36Z"/>
+    </clipPath>
+  </defs>
+  <g class="cls-8">
+    <g id="Layer_2" data-name="Layer 2">
+      <g id="Layer_2-2" data-name="Layer 2">
+        <g>
+          <ellipse class="cls-6" cx="96.73" cy="135.71" rx="53.5" ry="7.5" transform="translate(-7.45 5.63) rotate(-3.21)"/>
+          <path class="cls-7" d="M61.73,141.71s-46-2-49-42S40-2.6,66.73,1.71c31,5,53,62,44,104-8.49,39.6-49,36-49,36Z"/>
+          <g class="cls-9">
+            <g>
+              <path class="cls-3" d="M18.23,15.21s39.29,20,97.65,0"/>
+              <path class="cls-2" d="M15.34,45.1s39.04,20.4,97.62,2.23"/>
+              <path class="cls-4" d="M4.96,81.19s47.53,20.32,118.34,2.05"/>
+              <path class="cls-4" d="M3,114.72s47.37,20.7,118.32,2.98"/>
+            </g>
+          </g>
+          <path class="cls-5" d="M100.4,118.24c-13.35,19.05-39.9,22.69-54.07,11.83-12.53-9.61,17.97-13.88,29.99-33.8s9.16-56.48,20.91-43.06c14,16,13,51,3.17,65.03Z"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
