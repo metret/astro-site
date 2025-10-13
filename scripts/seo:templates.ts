@@ -239,14 +239,36 @@ const main = async () => {
     slugifyAliases(templates);
     kebabizeTags(templates);
 
-    const seoTitles = await generateTitles(templates);
+    // Only process templates that don't already have a seoTitle
+    const templatesNeedingTitles = templates.filter((t: any) => !t.seoTitle);
 
-    // Match up the titles with the templates
-    const matched = templates.map((t: any) => ({
-        ...t,
-        seoTitle: seoTitles.find((x: any) => x.alias === t.alias)?.title,
-        seoSlug: slugify(seoTitles.find((x: any) => x.alias === t.alias)?.title || t.alias, { lower: true }),
-    }));
+    let seoTitles: any[] = [];
+
+    if (templatesNeedingTitles.length > 0) {
+        console.log(`Generating titles for ${templatesNeedingTitles.length} templates without existing seoTitle`);
+        for (const tmpl of templatesNeedingTitles) {
+            console.log(`-> ${tmpl.alias}`);
+        }
+
+        seoTitles = await generateTitles(templatesNeedingTitles);
+    } else {
+        console.log('All templates already have seoTitle, skipping title generation');
+    }
+
+    // Match up the titles with the templates, preserving existing seoTitle values
+    const matched = templates.map((t: any) => {
+        const existingTitle = t.seoTitle;
+
+        const newTitle = seoTitles.find((x: any) => x.alias === t.alias)?.title;
+
+        const finalTitle = existingTitle || newTitle || t.alias;
+
+        return {
+            ...t,
+            seoTitle: existingTitle || newTitle,
+            seoSlug: slugify(finalTitle, { lower: true }),
+        };
+    });
 
     // Write to file
     fs.writeFileSync("./data/templates.json", JSON.stringify(matched, null, 2));
