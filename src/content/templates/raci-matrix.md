@@ -31,15 +31,18 @@ Development teams using this template often report fewer instances of "I thought
 ## How to Run a RACI Matrix Session
 
 1. **Preparation (10 minutes)**
-   - Gather your entire project team and relevant stakeholders in Metro Retro
+
+   - Gather your entire project team and relevant stakeholders in Ludi
    - Have everyone choose a sticky note color and write their name
 
 2. **Task Identification (15-20 minutes)**
+
    - List all project tasks along the top row of the matrix
    - Consider grouping related tasks under header sections (like "Pre-sprint," "In-sprint," "Post-sprint")
    - Be specific about deliverables rather than general responsibilities
 
 3. **Assigning RACI Roles (30-40 minutes)**
+
    - For each task, determine who is:
      - Responsible (who will do the work)
      - Accountable (who has final approval authority)
@@ -49,6 +52,7 @@ Development teams using this template often report fewer instances of "I thought
    - Remember that typically one person should be Accountable, one or more can be Responsible
 
 4. **Review and Refinement (15 minutes)**
+
    - Look for overloaded team members (too many Rs)
    - Ensure every task has at least one R and exactly one A
    - Check for tasks with too many Cs that might slow decision-making

@@ -7,6 +7,7 @@ An engaging team icebreaker with a creative twist that helps remote teams connec
 The Coat of Arms is a visual icebreaker that invites team members to create a personal heraldic shield representing their identity, values, and characteristics. Unlike standard introductions, this activity adds an engaging twist: after creating their shields, participants interpret and present someone else's Coat of Arms to the group, leading to amusing misinterpretations and insightful discussions.
 
 Each shield contains specific sections for participants to complete:
+
 - My Symbol: A personal icon or representation
 - My Colors: Colors that represent the individual (on both sides)
 - My Role: Professional position or team function
@@ -18,6 +19,7 @@ Each shield contains specific sections for participants to complete:
 ## Benefits & When to Use
 
 This template is particularly valuable for:
+
 - Onboarding new team members in remote or hybrid environments
 - Building connections within newly formed agile or product teams
 - Refreshing team dynamics after organizational changes
@@ -29,26 +31,32 @@ The activity helps uncover hidden talents, shared values, and personal stories t
 ## How to Run a Coat of Arms Session (30-45 minutes)
 
 1. **Introduction (3 minutes)**
+
    - Explain that participants will create personal Coat of Arms shields and then interpret someone else's creation
    - Clarify the purpose: deepening team connections in a fun, visual way
 
 2. **Shield Selection (2 minutes)**
+
    - Have each participant select one of the blank Coat of Arms templates
    - Copy and paste templates if additional shields are needed
 
 3. **Setup (1 minute)**
-   - Start a Meeting in Metro Retro
+
+   - Start a Meeting in Ludi
    - Ensure drawing tools, image uploading, and text functions are enabled
 
 4. **Shield Creation (10 minutes)**
+
    - Participants fill each section of their shield using drawings, images, or text
    - Encourage creativity and authenticity in their representations
 
 5. **Pairing & Interpretation (3 minutes)**
+
    - Pair team members to review each other's shields
    - Partners examine the visual elements and prepare to present their interpretation
 
 6. **Group Presentation (20 minutes for a group of 8)**
+
    - Each person presents their interpretation of their partner's Coat of Arms
    - After each presentation, the shield creator can clarify any misinterpretations
    - This reveal often creates moments of laughter and deeper understanding

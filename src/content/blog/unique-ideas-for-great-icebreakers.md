@@ -6,10 +6,10 @@ image: "~/assets/images/legacy/2022/07/31-unique-icebreaker-ideas.png"
 description: "31 unique ideas to keep your meeting icebreakers fresh!"
 canonicalUrl: "/blog/unique-ideas-for-great-icebreakers"
 section: "Guides"
-ogUrl: "https://metroretro.io/blog/unique-ideas-for-great-icebreakers"
-ogSiteName: "Metro Retro"
+ogUrl: "https://ludi.co/blog/unique-ideas-for-great-icebreakers"
+ogSiteName: "Ludi"
 ogType: "article"
-ogImageUrl: "https://metroretro.io/wp-content/uploads/2022/07/31-unique-icebreaker-ideas.png"
+ogImageUrl: "https://ludi.co/wp-content/uploads/2022/07/31-unique-icebreaker-ideas.png"
 ogImageWidth: 1200
 ogImageHeight: 628
 ogImageAlt: "31 unique icebreaker ideas!"
@@ -18,9 +18,9 @@ publishedDate: 2022-07-26T00:00:00+00:00
 modifiedDate: 2024-12-05T18:22:59+00:00
 articleSection: "Guides"
 twitterCardType: "summary_large_image"
-twitterTitle: "31 Unique Icebreaker Ideas! | Metro Retro"
+twitterTitle: "31 Unique Icebreaker Ideas! | Ludi"
 twitterDescription: "31 unique ideas to keep your meeting icebreakers fresh!"
-twitterImage: "https://metroretro.io/wp-content/uploads/2022/07/31-unique-icebreaker-ideas.png"
+twitterImage: "https://ludi.co/wp-content/uploads/2022/07/31-unique-icebreaker-ideas.png"
 authorName: "Jamie Hanratty"
 ---
 
@@ -45,7 +45,7 @@ These questions will lighten the air and raise a few smirks:
 
 ### Icebreaker games
 
-We are fans of getting stuck in with creative games at Metro Retro HQ, so here’s a couple that get the group communicating in no time. If you’re a remote team, Metro Retro is the perfect [tool to run ice breakers](/icebreakers-and-energizers) like these:
+We are fans of getting stuck in with creative games at Ludi HQ, so here’s a couple that get the group communicating in no time. If you’re a remote team, Ludi is the perfect [tool to run ice breakers](/icebreakers-and-energizers) like these:
 
 1.  **Word play** – each person in turn tells a short summary of their week. The catch is that they have to use three words supplied by the person next to them. The other person can choose any words they like!  
     ‍
@@ -53,7 +53,7 @@ We are fans of getting stuck in with creative games at Metro Retro HQ, so here�
     ‍
 3.  **Pictionary** – Split the group into two teams. Nominate one person per team to draw for 1 minute each. Generate the prompts with a [random word generator](https://randomwordgenerator.com/pictionary.php).[  
     ‍](https://randomwordgenerator.com/pictionary.php)‍
-4.  **Sketching** – draw your perfect house and three of your must-have objects. Try the [Draw a Scene](/templates/icebreakers/draw-a-scene) activity in Metro Retro if you are a remote team!  
+4.  **Sketching** – draw your perfect house and three of your must-have objects. Try the [Draw a Scene](/templates/icebreakers/draw-a-scene) activity in Ludi if you are a remote team!  
     ‍
 5.  **Share opinions** – ask the team “would you rather” questions using the [Agree / Disagree](/templates/agree-or-disagree-icebreaker) template.  
     ‍
@@ -105,10 +105,10 @@ These general icebreakers can be used at the start of any meeting:
 8.  What is your favorite smell, and why?
 9.  What one thing will make your upcoming week better or worse?
 
-## Build your next icebreaker in Metro Retro
+## Build your next icebreaker in Ludi
 
-Icebreakers really come alive for remote teams when you use a visual format on a shared board. Metro Retro’s [icebreaker templates](/templates/icebreakers) and easy board customization mean you can get started in seconds, or design any activity.
+Icebreakers really come alive for remote teams when you use a visual format on a shared board. Ludi’s [icebreaker templates](/templates/icebreakers) and easy board customization mean you can get started in seconds, or design any activity.
 
-Alongside icebreakers, Metro Retro has templates and tools to make your any meeting a fun & enjoyable experience – whether that is for retrospectives & agile ceremonies, planning & strategy workshops, decision making, team games, product & project management or brainstorming.
+Alongside icebreakers, Ludi has templates and tools to make your any meeting a fun & enjoyable experience – whether that is for retrospectives & agile ceremonies, planning & strategy workshops, decision making, team games, product & project management or brainstorming.
 
 [Create a free team space](/setup) to transform your next meeting.

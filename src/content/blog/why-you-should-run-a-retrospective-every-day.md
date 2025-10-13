@@ -6,10 +6,10 @@ image: "~/assets/images/legacy/2020/08/why-you-should-run-a-retrospective-every-
 description: "Improve your team with a retrospective every day"
 canonicalUrl: "/blog/why-you-should-run-a-retrospective-every-day"
 section: "Guides"
-ogUrl: "https://metroretro.io/blog/why-you-should-run-a-retrospective-every-day"
-ogSiteName: "Metro Retro"
+ogUrl: "https://ludi.co/blog/why-you-should-run-a-retrospective-every-day"
+ogSiteName: "Ludi"
 ogType: "article"
-ogImageUrl: "https://metroretro.io/wp-content/uploads/2020/08/why-you-should-run-a-retrospective-every-day.png"
+ogImageUrl: "https://ludi.co/wp-content/uploads/2020/08/why-you-should-run-a-retrospective-every-day.png"
 ogImageWidth: 1200
 ogImageHeight: 628
 ogImageAlt: "Why You Should Run a Retrospective Every Day"
@@ -18,15 +18,15 @@ publishedDate: 2020-08-10T00:00:00+00:00
 modifiedDate: 2024-08-12T09:17:16+00:00
 articleSection: "Guides"
 twitterCardType: "summary_large_image"
-twitterTitle: "Why You Should Run A Retrospective Every Day | Metro Retro"
+twitterTitle: "Why You Should Run A Retrospective Every Day | Ludi"
 twitterDescription: "Improve your team with a retrospective every day"
-twitterImage: "https://metroretro.io/wp-content/uploads/2020/08/why-you-should-run-a-retrospective-every-day.png"
+twitterImage: "https://ludi.co/wp-content/uploads/2020/08/why-you-should-run-a-retrospective-every-day.png"
 authorName: "Jamie Hanratty"
 ---
 
 ## That’s right, everyday!
 
-Obviously we’re big fans of retrospectives at Metro Retro and it may seem like a clickbait title, but I promise I’m being serious here.
+Obviously we’re big fans of retrospectives at Ludi and it may seem like a clickbait title, but I promise I’m being serious here.
 
 Most people hold their retrospectives at fixed intervals or after significant events like the end of a Scrum team’s sprint, or after a marketing campaign. The retrospective is used to improve the team going forward by looking back on how the team worked together. Most retrospectives are held every two weeks, but they can be monthly or longer.
 
@@ -65,4 +65,4 @@ A simple and casual daily retrospective board
 - Some team members might not have a contribution every day. This is fine
 - Do not use this session for micro-management or checking tasks are done
 
-Lastly, you do not _have_ to use a tool like Metro Retro to run this retrospective, it can be as lightweight as just having a group conversation. However if you did want to use a template, I suggest something simple like the Worked Well / Kinda Worked / Didn’t Work retrospective template.
+Lastly, you do not _have_ to use a tool like Ludi to run this retrospective, it can be as lightweight as just having a group conversation. However if you did want to use a template, I suggest something simple like the Worked Well / Kinda Worked / Didn’t Work retrospective template.

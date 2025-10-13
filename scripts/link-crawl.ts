@@ -7,7 +7,7 @@ import fetch from 'node-fetch';
 // Default domains to crawl
 const DEFAULT_DOMAINS = [
     'http://localhost:4321',
-    'https://metroretro.io'
+    'https://ludi.co'
 ];
 
 // Allow domain list to be passed as command line arguments

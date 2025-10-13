@@ -10,7 +10,7 @@ Your “Value Proposition” comes from being able to state clearly which pains 
 
 The Value Proposition Canvas was initially developed by Dr Alexander Osterwalder as a framework to ensure that there is a fit between the product and market. It is a detailed tool for modeling the relationship between two parts of the Osterwalder’s broader Business Model Canvas; customer segments and value propositions. See more at https://www.strategyzer.com/canvas/value-proposition-canvas.
 
-#### How to use the Value Proposition Canvas in Metro Retro
+#### How to use the Value Proposition Canvas in Ludi
 
 Start with the Customer Profile, using information from your research:
 

@@ -6,10 +6,10 @@ image: "~/assets/images/legacy/2024/03/10-collaborative-online-whiteboard-tips-a
 description: "Learn how a collaborative online whiteboard can be used as a powerful tool by Agile teams to improve communication."
 canonicalUrl: "/blog/collaborative-online-whiteboard"
 section: "Online Whiteboard"
-ogUrl: "https://metroretro.io/blog/collaborative-online-whiteboard"
-ogSiteName: "Metro Retro"
+ogUrl: "https://ludi.co/blog/collaborative-online-whiteboard"
+ogSiteName: "Ludi"
 ogType: "article"
-ogImageUrl: "https://metroretro.io/wp-content/uploads/2024/03/10-collaborative-online-whiteboard-tips-and-tricks-for-agile-teams.png"
+ogImageUrl: "https://ludi.co/wp-content/uploads/2024/03/10-collaborative-online-whiteboard-tips-and-tricks-for-agile-teams.png"
 ogImageWidth: 1200
 ogImageHeight: 628
 ogImageAlt: "Collaborative online whiteboard for Agile teams"
@@ -18,9 +18,9 @@ publishedDate: 2024-03-24T16:11:06+00:00
 modifiedDate: 2024-08-12T09:04:28+00:00
 articleSection: "Online Whiteboard"
 twitterCardType: "summary_large_image"
-twitterTitle: "10 Collaborative Online Whiteboard Tips And Tricks For Agile Teams | Metro Retro"
+twitterTitle: "10 Collaborative Online Whiteboard Tips And Tricks For Agile Teams | Ludi"
 twitterDescription: "Learn how a collaborative online whiteboard can be used as a powerful tool by Agile teams to improve communication."
-twitterImage: "https://metroretro.io/wp-content/uploads/2024/03/10-collaborative-online-whiteboard-tips-and-tricks-for-agile-teams.png"
+twitterImage: "https://ludi.co/wp-content/uploads/2024/03/10-collaborative-online-whiteboard-tips-and-tricks-for-agile-teams.png"
 authorName: "Jamie Hanratty"
 ---
 
@@ -30,7 +30,7 @@ _Effective communication is paramount for success within Agile teams, and an onl
 
 [Online whiteboards](/online-whiteboard) have become increasingly popular for facilitating collaboration among remote and distributed teams. These digital canvases allow teams to brainstorm, plan, and visualize ideas in real-time, regardless of their physical location. Moreover, whiteboards offer those facilitating the meetings to drive input and engagement through a creative meeting format, resulting in better outcomes through team participation. 
 
-Gone are the days of marker pens! Today, teams are [whiteboarding](/blog/what-is-whiteboarding) online from their home offices using tools like [Metro Retro](/) to quickly facilitate retrospectives with features such as private writing, polls, timers, and topic mapping.
+Gone are the days of marker pens! Today, teams are [whiteboarding](/blog/what-is-whiteboarding) online from their home offices using tools like [Ludi](/) to quickly facilitate retrospectives with features such as private writing, polls, timers, and topic mapping.
 
 ![](../../assets/images/legacy/2024/03/What-is-whiteboarding-1-1024x679.png)
 
@@ -44,7 +44,7 @@ There are numerous collaborative whiteboard tools available, each with its own s
 
 ### 2\. Create a Centralized Workspace
 
-Establish a central online workspace where team members can access and contribute to whiteboard sessions. This ensures that everyone is on the same page and can easily refer back to previous discussions and decisions. For example, within Metro Retro you can set up team spaces so that team members can access relevant boards whenever required.
+Establish a central online workspace where team members can access and contribute to whiteboard sessions. This ensures that everyone is on the same page and can easily refer back to previous discussions and decisions. For example, within Ludi you can set up team spaces so that team members can access relevant boards whenever required.
 
 ### 3\. Set Clear Objectives
 
@@ -52,7 +52,7 @@ Before starting a session, define the objectives and agenda to keep the discussi
 
 ### 4\. Encourage Participation
 
-Actively encourage all team members to contribute. If you are using a collaborative online whiteboard, the key term is ‘collaborative’ — for successful use of the tool and a valuable meeting, everyone needs to contribute. Use our tools like sticky notes, “Everyone to Me” (to bring everyone to your view of the board), and [private writing](https://docs.metroretro.io/on-the-board/how-to-hide-and-reveal-sticky-notes) to facilitate brainstorming and idea-sharing. Emphasize the importance of inclusivity and ensure that everyone has an opportunity to voice their thoughts, for example through using our poll feature.
+Actively encourage all team members to contribute. If you are using a collaborative online whiteboard, the key term is ‘collaborative’ — for successful use of the tool and a valuable meeting, everyone needs to contribute. Use our tools like sticky notes, “Everyone to Me” (to bring everyone to your view of the board), and [private writing](https://docs.ludi.co/boards/hide-and-show-sticky-notes) to facilitate brainstorming and idea-sharing. Emphasize the importance of inclusivity and ensure that everyone has an opportunity to voice their thoughts, for example through using our poll feature.
 
 ### 5\. Utilize Templates and Frameworks
 
@@ -60,7 +60,7 @@ Many collaborative online whiteboard tools offer pre-built templates and framewo
 
 ### 6\. Promote Visual Thinking
 
-Leverage the visual nature of whiteboards to convey complex ideas and concepts. Incorporate diagrams, flowcharts, and visual representations to enhance understanding and stimulate the team. Visualizing workflows and processes can help identify bottlenecks and inefficiencies more effectively than traditional text-based communication. With Metro Retro, we also bring the fun — from confetti to emojis, you can keep the team visually engaged.
+Leverage the visual nature of whiteboards to convey complex ideas and concepts. Incorporate diagrams, flowcharts, and visual representations to enhance understanding and stimulate the team. Visualizing workflows and processes can help identify bottlenecks and inefficiencies more effectively than traditional text-based communication. With Ludi, we also bring the fun — from confetti to emojis, you can keep the team visually engaged.
 
 ### 7\. Facilitate Remote Collaboration
 

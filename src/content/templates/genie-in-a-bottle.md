@@ -29,27 +29,31 @@ This template is especially valuable for remote development teams who might stru
 **Time required:** 30-45 minutes depending on team size
 
 1. **Set the Stage (3 minutes)**
+
    - Introduce the magical concept and explain the three wish categories
    - Enter Meeting Mode to enable private sticky notes
    - Emphasize that while these are "wishes," the goal is to eventually identify actionable improvements
 
 2. **Generate Wishes (5 minutes)**
+
    - Have each team member add one sticky note to each of the three areas
    - Encourage participants to think aspirationally—what would truly make a difference?
    - Remind them to consider wishes that would have meaningful impact
 
 3. **Share and Explain (10-15 minutes)**
+
    - Each person reveals their sticky notes and explains their three wishes
    - Use the Tab key to point at stickies with an arrow for better focus
    - Ensure everyone has equal time to share their perspective
 
 4. **Group Similar Wishes (5-10 minutes)**
+
    - Identify patterns and cluster similar wishes together
    - Use the Topic tool from the left toolbar to organize related items
    - Look for common themes across the three wish categories
 
 5. **Prioritize and Transform (10 minutes)**
-   - Vote on the most impactful wishes (Pro tip: use the voting feature in Metro Retro)
+   - Vote on the most impactful wishes (Pro tip: use the voting feature in Ludi)
    - Discuss how top wishes could become actionable items
    - Transform magical thinking into practical next steps and assign owners
 

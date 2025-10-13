@@ -23,9 +23,15 @@ import SeamlessCollaborationRemoteAndHybridLargeItem from "~/components/blocks/l
 import DesignedForExpressionLargeItem from "~/components/blocks/large/DesignedForExpressionLargeItem.astro";
 import KeepTheMomentumGoingLargeItem from "~/components/blocks/large/KeepTheMomentumGoingLargeItem.astro";
 import MonitorProgressRemoveBlockersLargeItem from "~/components/blocks/large/MonitorProgressRemoveBlockersLargeItem.astro";
+import { pageMeta } from "~/utils";
+
+const seo = await pageMeta({
+  title: "Task Tracking",
+  description: "Keep your team focused on what matters.",
+});
 ---
 
-<PageLayout title="Task Tracking">
+<PageLayout {...seo}>
   <Dots />
 
   <Hero
@@ -35,13 +41,13 @@ import MonitorProgressRemoveBlockersLargeItem from "~/components/blocks/large/Mo
   />
 
   <SolutionBanner
-    title="Give context to your actions and stay aligned with Metro Retro"
+    title="Give context to your actions and stay aligned with Ludi"
   />
 
   <MonitorProgressRemoveBlockersLargeItem mirror="false" />
   <KeepTheMomentumGoingLargeItem mirror="true" />
 
-  <SolutionBanner title="Focus on outcomes, not process with Metro Retro" />
+  <SolutionBanner title="Focus on outcomes, not process with Ludi" />
 
   <SolutionGrid columns="3">
     <SolutionLink

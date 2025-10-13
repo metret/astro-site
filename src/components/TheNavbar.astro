@@ -1,6 +1,6 @@
 ---
 import { Image } from "astro:assets";
-import logo from "~/assets/logo.svg";
+import logo from "~/assets/brand/logo-full.svg";
 import type { Link } from "~/types";
 import LinkButton from "./ui/LinkButton.astro";
 import { site } from "~/constants";
@@ -130,7 +130,7 @@ const links: (Link & {
           },
           {
             title: "Help",
-            href: "https://docs.metroretro.io",
+            href: "https://docs.ludi.co",
             target: "_blank",
           },
           { title: "Support", href: "/support" },
@@ -308,15 +308,7 @@ const links: (Link & {
     class="mr-shadow mx-auto flex h-20 w-full max-w-[80rem] items-stretch justify-between rounded-full bg-white px-6 group-[[data-sticky='true']]/nav-header:bg-[transparent]"
   >
     <a href="/" class="flex items-center gap-3.5">
-      <Image
-        src={logo}
-        width={34}
-        height={36}
-        alt={`${site.name} logo`}
-        loading="eager"
-      /><span class="font-rubik text-blue text-[28px] font-medium"
-        >Metro Retro</span
-      >
+      <Image src={logo} height={45} alt={`${site.name} logo`} loading="eager" />
     </a>
     <ul class="hidden items-center gap-7 min-xl:flex">
       {

@@ -6,10 +6,10 @@ image: "~/assets/images/legacy/2024/03/a-guide-to-the-best-online-whiteboard-too
 description: "Discover our guide to the best online whiteboard tools to try in 2024."
 canonicalUrl: "/blog/online-whiteboard-tools"
 section: "Online Whiteboard"
-ogUrl: "https://metroretro.io/blog/online-whiteboard-tools"
-ogSiteName: "Metro Retro"
+ogUrl: "https://ludi.co/blog/online-whiteboard-tools"
+ogSiteName: "Ludi"
 ogType: "article"
-ogImageUrl: "https://metroretro.io/wp-content/uploads/2024/03/a-guide-to-the-best-online-whiteboard-tools-2024.png"
+ogImageUrl: "https://ludi.co/wp-content/uploads/2024/03/a-guide-to-the-best-online-whiteboard-tools-2024.png"
 ogImageWidth: 1200
 ogImageHeight: 628
 ogImageAlt: "online whiteboard tools"
@@ -18,9 +18,9 @@ publishedDate: 2024-03-24T17:03:35+00:00
 modifiedDate: 2024-08-12T09:03:50+00:00
 articleSection: "Online Whiteboard"
 twitterCardType: "summary_large_image"
-twitterTitle: "A Guide To The Best Online Whiteboard Tools 2024 | Metro Retro"
+twitterTitle: "A Guide To The Best Online Whiteboard Tools 2024 | Ludi"
 twitterDescription: "Discover our guide to the best online whiteboard tools to try in 2024."
-twitterImage: "https://metroretro.io/wp-content/uploads/2024/03/a-guide-to-the-best-online-whiteboard-tools-2024.png"
+twitterImage: "https://ludi.co/wp-content/uploads/2024/03/a-guide-to-the-best-online-whiteboard-tools-2024.png"
 authorName: "Jamie Hanratty"
 ---
 
@@ -28,7 +28,7 @@ _Discover our guide to the best [online whiteboard](/online-whiteboard) tools to
 
 Teams today work in an era of virtual meetings — Zoom, Google Meet, and Microsoft Teams are now akin to team members. Due to this, the humble whiteboard has undergone a digital transformation. As teams around the globe continue to adapt to distributed work environments, the demand for intuitive, feature-rich online whiteboard tools has never been greater.
 
-In this guide, we’ll explore the online whiteboard tools that are revolutionizing the way teams brainstorm, plan, and innovate in real-time. From conducting brainstorming sessions with tools like Miro, to facilitating sprint retrospectives with tools like [Metro Retro](/), online whiteboard tools have become indispensable assets for modern organizations seeking to encourage collaboration, streamline communication, and drive productivity.
+In this guide, we’ll explore the online whiteboard tools that are revolutionizing the way teams brainstorm, plan, and innovate in real-time. From conducting brainstorming sessions with tools like Miro, to facilitating sprint retrospectives with tools like [Ludi](/), online whiteboard tools have become indispensable assets for modern organizations seeking to encourage collaboration, streamline communication, and drive productivity.
 
 Whether you’re a seasoned remote worker, [a project manager overseeing distributed teams](/customers/eat-club), or an educator embracing hybrid learning models, this guide will equip you with the insights needed to make informed decisions about the tools that best suit your needs and the needs of your wider team. So, grab your digital markers and prepare to unleash your creativity as we dive into the world of online whiteboard tools.
 
@@ -48,11 +48,11 @@ The best online whiteboard tools are accessible from any device with an internet
 
 ### 3\. Visual Communication
 
-Whiteboards are inherently visual tools, making them effective for conveying complex concepts, illustrating ideas, and organizing information in a visually appealing and more easy to comprehend manner. Online whiteboard tools allow users to draw, annotate, and manipulate visual elements, enhancing communication and comprehension. Some even include fun visual features, like Metro Retro’s emojis, sticky notes and [customizable illustrated templates](/templates).
+Whiteboards are inherently visual tools, making them effective for conveying complex concepts, illustrating ideas, and organizing information in a visually appealing and more easy to comprehend manner. Online whiteboard tools allow users to draw, annotate, and manipulate visual elements, enhancing communication and comprehension. Some even include fun visual features, like Ludi’s emojis, sticky notes and [customizable illustrated templates](/templates).
 
 ### 4\. Documenting and Archiving
 
-Unlike physical whiteboards, online whiteboard tools enable users to save, share, and revisit their work at any time. This makes it easy to document ideas, track progress, and refer back to previous discussions or decisions. Some tools, like Metro Retro, allow for boards to be saved and organized in folders that can be shared with the whole team.
+Unlike physical whiteboards, online whiteboard tools enable users to save, share, and revisit their work at any time. This makes it easy to document ideas, track progress, and refer back to previous discussions or decisions. Some tools, like Ludi, allow for boards to be saved and organized in folders that can be shared with the whole team.
 
 ### 5\. Integrations with other Tools
 
@@ -60,22 +60,22 @@ Many online whiteboard tools integrate with other productivity tools and platfor
 
 ### 6\. Engagement and Participation
 
-Online whiteboard tools can enhance engagement and participation during virtual meetings and collaborative sessions. Interactive features such as [voting](https://docs.metroretro.io/boards/the-tools#voting-tool), [emoji reactions](https://docs.metroretro.io/boards/the-tools#reaction-tool), collaborative drawing, and [confetti cannons](https://docs.metroretro.io/boards/the-tools#confetti-cannon) enable active participation from all attendees, fostering a sense of inclusion and ownership for all team members.
+Online whiteboard tools can enhance engagement and participation during virtual meetings and collaborative sessions. Interactive features such as [voting](https://docs.ludi.co/boards/the-tools#voting-meeting-mode-only), [emoji reactions](https://docs.ludi.co/boards/the-tools#reaction-tool), collaborative drawing, and [confetti cannons](https://docs.ludi.co/boards/the-tools#gestures) enable active participation from all attendees, fostering a sense of inclusion and ownership for all team members.
 
 ## Online whiteboard tools to try in 2024
 
-### Metro Retro
+### Ludi
 
-Metro Retro is an [online whiteboard tool specifically designed for conducting sprint retrospectives](/blog/what-is-whiteboarding), which are a fundamental part of the Agile development process. Our tool aims to streamline the sprint retrospective process, making it easier for Agile teams to reflect on their work, identify areas for improvement, and take actionable steps towards continuous improvement. It’s a valuable tool for fostering transparency, communication, and collaboration through a modern and creative approach to meetings.
+Ludi is an [online whiteboard tool specifically designed for conducting sprint retrospectives](/blog/what-is-whiteboarding), which are a fundamental part of the Agile development process. Our tool aims to streamline the sprint retrospective process, making it easier for Agile teams to reflect on their work, identify areas for improvement, and take actionable steps towards continuous improvement. It’s a valuable tool for fostering transparency, communication, and collaboration through a modern and creative approach to meetings.
 
 ![](../../assets/images/legacy/2024/03/Sailboat-free-retro-template-1024x679.png)
 
-Metro Retro is filled with pre-made templates to kick-start you meetings, such as our sprint retrospective templates like [The Sailboat](/templates/the-sailboat-retrospective).
+Ludi is filled with pre-made templates to kick-start you meetings, such as our sprint retrospective templates like [The Sailboat](/templates/the-sailboat-retrospective).
 
 ⭐ **Highlights**:
 
-- **Designed for Sprint Retrospectives**: Metro Retro is tailored to facilitate the retrospective meetings that typically occur at the end of each sprint in Agile methodologies. We provide features and [templates](/templates) specifically geared towards this purpose, allowing teams to reflect on their recent work and identify areas for improvement.
-- **Collaborative Features**: Metro Retro supports real-time collaboration, enabling distributed teams to participate in retrospectives regardless of their location. This fosters inclusivity and engagement among team members, even when working remotely.
+- **Designed for Sprint Retrospectives**: Ludi is tailored to facilitate the retrospective meetings that typically occur at the end of each sprint in Agile methodologies. We provide features and [templates](/templates) specifically geared towards this purpose, allowing teams to reflect on their recent work and identify areas for improvement.
+- **Collaborative Features**: Ludi supports real-time collaboration, enabling distributed teams to participate in retrospectives regardless of their location. This fosters inclusivity and engagement among team members, even when working remotely.
 - **Template Variety**: With a variety of templates tailored for different retrospective formats, our tool helps to guide discussions and ensure that retrospectives are structured and productive.
 - **Ease of Use**: Our platform is designed to be user-friendly and intuitive, with simple yet powerful functionality for adding and organizing content. This makes it accessible to teams of all skill levels, including those who may be new to Agile practices.
 - **Customization Options**: While we provide predefined templates for retrospectives, users also have the flexibility to customize boards according to their specific needs. This allows teams to adapt the tool to their unique workflows and preferences. We also offer templates and tools for different types of meetings, and some ideas for [other ways to use the tool](/blog/how-we-use-metro-retro).
@@ -98,7 +98,7 @@ Mural is an online whiteboard tool that enables the creation of simple but compr
 
 ✅ **Strengths**: Mural is generally easy to use and offers a variety of templates. The tool also allows for integration with other popular project management tools.
 
-⛔ **Limitations**: Like Miro, pricing can be a downside for smaller teams. Moreover, while Mural is great for visual collaboration, some users may find its feature set lacking compared to more specialized tools such as Metro Retro, which is specifically designed with agile teams and retro facilitation in mind.
+⛔ **Limitations**: Like Miro, pricing can be a downside for smaller teams. Moreover, while Mural is great for visual collaboration, some users may find its feature set lacking compared to more specialized tools such as Ludi, which is specifically designed with agile teams and retro facilitation in mind.
 
 ### Microsoft Whiteboard
 

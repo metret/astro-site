@@ -7,6 +7,7 @@ The Kudos Tree is a visual appreciation exercise that helps remote teams recogni
 A Kudos Tree uses the metaphor of a tree with branches to organize different types of appreciation and recognition. Just as trees grow stronger with care, teams thrive when appreciation is regularly expressed. The visual tree structure makes it easy to categorize different types of recognition – from "thank you" moments to leadership acknowledgments – with each branch representing a different type of kudos.
 
 The tree's branches are labeled with prompts like:
+
 - Thank you – For expressing basic gratitude
 - Team spirit – For celebrating collaborative efforts
 - Leadership – For recognizing when someone stepped up
@@ -17,6 +18,7 @@ The tree's branches are labeled with prompts like:
 ## Benefits & When to Use
 
 The Kudos Tree template is particularly valuable when:
+
 - Team morale needs a boost
 - After completing a challenging project milestone
 - During regular retrospectives to balance improvement discussions with positive recognition
@@ -24,6 +26,7 @@ The Kudos Tree template is particularly valuable when:
 - As a quick ice-breaker to start meetings on a positive note
 
 Benefits include:
+
 - Increases team cohesion and psychological safety
 - Highlights contributions that might otherwise go unnoticed
 - Creates a culture of recognition and gratitude
@@ -33,19 +36,23 @@ Benefits include:
 ## How to Run a Kudos Tree Session
 
 1. **Introduce the activity** (1 minute)
+
    - Explain that the team will spend 5 minutes acknowledging each other's contributions
    - Consider focusing on a specific time period (e.g., "the past sprint") or theme
 
 2. **Set up the board** (1 minute)
-   - Start a meeting in Metro Retro to enable private sticky notes
+
+   - Start a meeting in Ludi to enable private sticky notes
    - Point out the different branches and what types of kudos might go on each
 
 3. **Individual contribution time** (5 minutes)
+
    - Team members create sticky notes with specific kudos for colleagues
    - Encourage specificity: "Thanks to Jane for running smooth customer interviews" is better than "Jane is great"
    - Add reactions or emoji tokens to make the kudos visually engaging
 
 4. **Reveal and share** (5-10 minutes)
+
    - Reveal all sticky notes simultaneously
    - Give contributors the opportunity to briefly elaborate on their kudos
    - Allow recipients to respond if they wish

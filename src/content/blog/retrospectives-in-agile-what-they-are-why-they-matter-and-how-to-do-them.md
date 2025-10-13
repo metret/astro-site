@@ -6,10 +6,10 @@ image: "~/assets/images/legacy/2023/08/retrospectives-in-agile-what-they-are-why
 description: "Your complete guide to agile retrospectives, including how to structure them, questions to ask your team, and free retrospective templates."
 canonicalUrl: "/blog/retrospectives-in-agile-what-they-are-why-they-matter-and-how-to-do-them"
 section: "Guides"
-ogUrl: "https://metroretro.io/blog/retrospectives-in-agile-what-they-are-why-they-matter-and-how-to-do-them"
-ogSiteName: "Metro Retro"
+ogUrl: "https://ludi.co/blog/retrospectives-in-agile-what-they-are-why-they-matter-and-how-to-do-them"
+ogSiteName: "Ludi"
 ogType: "article"
-ogImageUrl: "https://metroretro.io/wp-content/uploads/2023/08/retrospectives-in-agile-what-they-are-why-they-matter-and-how-to-do-them.png"
+ogImageUrl: "https://ludi.co/wp-content/uploads/2023/08/retrospectives-in-agile-what-they-are-why-they-matter-and-how-to-do-them.png"
 ogImageWidth: 1200
 ogImageHeight: 628
 ogImageAlt: "Retrospectives in Agile – What They Are, Why They Matter and How to Do Them"
@@ -18,9 +18,9 @@ publishedDate: 2023-08-11T12:35:48+00:00
 modifiedDate: 2024-08-12T09:08:19+00:00
 articleSection: "Guides"
 twitterCardType: "summary_large_image"
-twitterTitle: "Retrospectives In Agile - What They Are, Why They Matter And How To Do Them | Metro Retro"
+twitterTitle: "Retrospectives In Agile - What They Are, Why They Matter And How To Do Them | Ludi"
 twitterDescription: "Your complete guide to agile retrospectives, including how to structure them, questions to ask your team, and free retrospective templates."
-twitterImage: "https://metroretro.io/wp-content/uploads/2023/08/retrospectives-in-agile-what-they-are-why-they-matter-and-how-to-do-them.png"
+twitterImage: "https://ludi.co/wp-content/uploads/2023/08/retrospectives-in-agile-what-they-are-why-they-matter-and-how-to-do-them.png"
 authorName: "Jamie Hanratty"
 ---
 
@@ -28,13 +28,13 @@ When the pressure’s on and time is at a premium, often one of the first parts 
 
 The usual excuse being that people need to be working, not talking about working. Whilst nobody wants to waste time on unproductive meetings, retrospectives are a key way to eliminate wasted time, rather than the cause. 
 
-Here at Metro Retro, we hear from countless customers just how integral and indispensable a part of their projects retrospectives have become – which we love to hear.  
+Here at Ludi, we hear from countless customers just how integral and indispensable a part of their projects retrospectives have become – which we love to hear.  
 
 So, in this article, we’re going to take a closer look at the different types of retrospectives in Agile and highlight exactly why they are an invaluable part of the Agile development process. 
 
 ![Sailboat retro with remote team](../../assets/images/legacy/2023/08/1-the-sailboat-1024x683.png)
 
-A remote team running the sailboat retrospective in Metro Retro
+A remote team running the sailboat retrospective in Ludi
 
 ## What are Retrospectives in Agile?
 
@@ -48,7 +48,7 @@ It provides an opportunity for the team to address any challenges or issues that
 
 The primary focus is on inspecting and adapting the team’s working methods to become more efficient and effective in the future.
 
-There are many tools to facilitate agile retrospectives. For instance, [Metro Retro](/) is an online collaborative whiteboard designed for agile software development teams. 
+There are many tools to facilitate agile retrospectives. For instance, [Ludi](/) is an online collaborative whiteboard designed for agile software development teams. 
 
 Using the platform, you can run productive, engaging, and fun retrospectives to help your team inspect and adapt their processes.
 
@@ -176,7 +176,7 @@ Follow the link if you’re interested in learning more about questions to invig
 
 ## Agile Retrospective Examples
 
-As the leading retrospectives tool in the game, [Metro Retro](/) has a virtual shed load of ideas and templates that demonstrate the huge range of versatility some collaboration tools are now able to provide.
+As the leading retrospectives tool in the game, [Ludi](/) has a virtual shed load of ideas and templates that demonstrate the huge range of versatility some collaboration tools are now able to provide.
 
 Right, now let’s take a closer look at some of the different types of retrospectives that Agile teams can benefit from.
 
@@ -417,4 +417,4 @@ All of this will serve to achieve the continuous improvement that all Agile team
 
 One of the key elements of any effective Agile team is having the right tools that enable them to achieve their goals, including virtual whiteboards and collaboration tools that will allow them to run effective and impactful retrospectives. 
 
-Metro Retro is an online whiteboard designed for software and product teams. Over 10,000 Agile teams use Metro Retro to improve their retrospectives. [Give it a try](/login?source=%2Fsetup) today.
+Ludi is an online whiteboard designed for software and product teams. Over 10,000 Agile teams use Ludi to improve their retrospectives. [Give it a try](/login?source=%2Fsetup) today.

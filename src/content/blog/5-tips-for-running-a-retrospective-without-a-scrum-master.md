@@ -6,10 +6,10 @@ image: "~/assets/images/legacy/2020/08/5-tips-for-running-a-retrospective-withou
 description: "How to run a retrospective without a Scrum Master or Agile Coach"
 canonicalUrl: "/blog/5-tips-for-running-a-retrospective-without-a-scrum-master"
 section: "Guides"
-ogUrl: "https://metroretro.io/blog/5-tips-for-running-a-retrospective-without-a-scrum-master"
-ogSiteName: "Metro Retro"
+ogUrl: "https://ludi.co/blog/5-tips-for-running-a-retrospective-without-a-scrum-master"
+ogSiteName: "Ludi"
 ogType: "article"
-ogImageUrl: "https://metroretro.io/wp-content/uploads/2020/08/5-tips-for-running-a-retrospective-without-a-scrum-master.png"
+ogImageUrl: "https://ludi.co/wp-content/uploads/2020/08/5-tips-for-running-a-retrospective-without-a-scrum-master.png"
 ogImageWidth: 1200
 ogImageHeight: 628
 ogImageAlt: "retrospective without scrum master"
@@ -18,9 +18,9 @@ publishedDate: 2020-08-17T00:00:00+00:00
 modifiedDate: 2024-08-12T09:16:40+00:00
 articleSection: "Guides"
 twitterCardType: "summary_large_image"
-twitterTitle: "5 Tips For Running A Retrospective Without A Scrum Master | Metro Retro"
+twitterTitle: "5 Tips For Running A Retrospective Without A Scrum Master | Ludi"
 twitterDescription: "How to run a retrospective without a Scrum Master or Agile Coach"
-twitterImage: "https://metroretro.io/wp-content/uploads/2020/08/5-tips-for-running-a-retrospective-without-a-scrum-master.png"
+twitterImage: "https://ludi.co/wp-content/uploads/2020/08/5-tips-for-running-a-retrospective-without-a-scrum-master.png"
 authorName: "Jamie Hanratty"
 ---
 
@@ -56,6 +56,6 @@ Make sure to allocate enough time to identify your problem areas and devise solu
 
 It is entirely possible to run fun, engaging and productive retrospectives without a Scrum Master, and your team might even learn more about themselves having done so!
 
-[Sign Up](/login) for free to run your next retrospective with Metro Retro.
+[Sign Up](/login) for free to run your next retrospective with Ludi.
 
 ‍

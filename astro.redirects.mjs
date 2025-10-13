@@ -36,7 +36,7 @@ const redirects = {
     "/project-management": "/solutions/project-management",
     "/remote-collaboration": "/solutions/remote-collaboration",
     "/retrospectives": "/solutions/retrospectives",
-    "/release-notes": "https://updates.metroretro.io",
+    "/release-notes": "https://updates.ludi.co",
     "/sprint-retrospective": "/solutions/retrospectives",
     "/task-tracking": "/product/task-tracking",
     "/terms-old": "/terms",
@@ -267,23 +267,6 @@ const redirects = {
     "/templates/weekly-team-status": "/templates/weekly-team-status-update-template",
     "/templates/wishes-risks-appreciation-puzzles": "/templates/retrospectives",
     "/templates/worked-well-kinda-worked-didnt-work-retrospective": "/templates/worked-well-kinda-didn't-retrospective-template"
-
-    // Added 2025-Jul
-    // "/templates/bullseye-diagram": "/templates/bullseye-icebreaker-for-team-engagement",
-    // "/templates/decision-making/lean-coffee": "/templates/lean-coffee-meeting-template-for-structured-discussions",
-    // "/templates/decision-making/lean-prioritization-matrix": "/templates/lean-prioritization-matrix-planning-template",
-    // "/templates/elephant-in-the-room": "/templates/elephant-in-the-room-retrospective-template",
-    // "/templates/energy-insights-retrospective": "/templates/energy-insights-retrospective-template",
-    // "/templates/futurespectives/the-sailboat-retrospective": "/templates/the-sailboat-retrospective-template-for-dev-teams",
-    // "/templates/icebreakers/bullseye-diagram": "/templates/bullseye-icebreaker-for-team-engagement",
-    // "/templates/icebreakers/team-mood-thermometer": "/templates/mood-thermometer-retrospective-template",
-    // "/templates/lean-coffee": "/templates/lean-coffee-meeting-template-for-structured-discussions",
-    // "/templates/lean-prioritization-matrix": "/templates/lean-prioritization-matrix-planning-template",
-    // "/templates/retrospectives/energy-insights-retrospective": "/templates/energy-insights-retrospective-template",
-    // "/templates/retrospectives/the-speed-car-retrospective": "/templates/the-speed-car-retrospective-template",
-    // "/templates/team-mood-thermometer": "/templates/mood-thermometer-retrospective-template",
-    // "/templates/the-sailboat-retrospective": "/templates/the-sailboat-retrospective-template-for-dev-teams",
-    // "/templates/the-speed-car-and-the-abyss": "/templates/the-speed-car-and-the-abyss-retrospective-template"
 }
 
 export default redirects;

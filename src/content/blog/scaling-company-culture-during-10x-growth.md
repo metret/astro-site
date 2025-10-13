@@ -1,15 +1,15 @@
 ---
 title: "How Lucca.fr Scaled Company Culture During 10x Growth"
-teaser: "Learn how Metro Retro helps Lucca Software maintain their culture of excellence and transparency with company-wide retrospectives for 550 employees."
+teaser: "Learn how Ludi helps Lucca Software maintain their culture of excellence and transparency with company-wide retrospectives for 550 employees."
 category: "Customer Stories"
 image: "~/assets/images/legacy/2023/11/how-lucca.fr-scaled-company-culture-during-10x-growth.png"
-description: "Learn how Metro Retro helps Lucca Software maintain their culture of excellence and transparency with company-wide retrospectives for 550 employees."
+description: "Learn how Ludi helps Lucca Software maintain their culture of excellence and transparency with company-wide retrospectives for 550 employees."
 canonicalUrl: "/blog/scaling-company-culture-during-10x-growth"
 section: "Customer Stories"
-ogUrl: "https://metroretro.io/blog/scaling-company-culture-during-10x-growth"
-ogSiteName: "Metro Retro"
+ogUrl: "https://ludi.co/blog/scaling-company-culture-during-10x-growth"
+ogSiteName: "Ludi"
 ogType: "article"
-ogImageUrl: "https://metroretro.io/wp-content/uploads/2023/11/how-lucca.fr-scaled-company-culture-during-10x-growth.png"
+ogImageUrl: "https://ludi.co/wp-content/uploads/2023/11/how-lucca.fr-scaled-company-culture-during-10x-growth.png"
 ogImageWidth: 1200
 ogImageHeight: 628
 ogImageAlt: "How Lucca.fr Scaled Company Culture During 10x Growth"
@@ -18,15 +18,15 @@ publishedDate: 2023-11-21T19:01:52+00:00
 modifiedDate: 2024-08-12T09:05:54+00:00
 articleSection: "Customer Stories"
 twitterCardType: "summary_large_image"
-twitterTitle: "How Lucca.fr Scaled Company Culture During 10x Growth | Metro Retro"
-twitterDescription: "Learn how Metro Retro helps Lucca Software maintain their culture of excellence and transparency with company-wide retrospectives for 550 employees."
-twitterImage: "https://metroretro.io/wp-content/uploads/2023/11/how-lucca.fr-scaled-company-culture-during-10x-growth.png"
+twitterTitle: "How Lucca.fr Scaled Company Culture During 10x Growth | Ludi"
+twitterDescription: "Learn how Ludi helps Lucca Software maintain their culture of excellence and transparency with company-wide retrospectives for 550 employees."
+twitterImage: "https://ludi.co/wp-content/uploads/2023/11/how-lucca.fr-scaled-company-culture-during-10x-growth.png"
 authorName: "Jamie Hanratty"
 ---
 
 In a fast-growing company with distributed teams, how do you maintain your culture that has been key to the company success?
 
-Jamie, co-founder of Metro Retro spoke to Alex Imbeaux, Head of Talent Management Products at [Lucca Software](https://www.lucca-hr.com/), about how retrospectives played a crucial role in scaling their values and culture as they grew from 50 to 550 people and an annual turnover of €50 million.
+Jamie, co-founder of Ludi spoke to Alex Imbeaux, Head of Talent Management Products at [Lucca Software](https://www.lucca-hr.com/), about how retrospectives played a crucial role in scaling their values and culture as they grew from 50 to 550 people and an annual turnover of €50 million.
 
 ![](../../assets/images/legacy/2024/06/lucca-hero.png)
 
@@ -48,41 +48,41 @@ In addition, all salaries are completely transparent within the organization:
 
 > “Everyone knows who earns what at Lucca.  That was true when there were five people and that’s true today when we are 550 people.”
 
-## Adapting to Remote Retrospectives with Metro Retro
+## Adapting to Remote Retrospectives with Ludi
 
 To help maintain these values across a growing organization, Lucca has been running company-wide [retrospectives](/blog/retrospectives-in-agile-what-they-are-why-they-matter-and-how-to-do-them) every quarter since 2014. These sessions give each team the time and space to reflect back on what went well and what went badly over the last quarter, with the aim of improving the next quarter and beyond. These feedback points are anonymously aggregated and help leadership make sure they are maintaining a great employee experience.
 
 Back in 2014 their approach to retrospectives was more conventional, tailored to smaller, in-person teams. The pandemic, however, necessitated a swift and effective adaptation:
 
-> “We had to rethink our approach with the pandemic… and Metro Retro was the answer we didn’t know we needed.”
+> “We had to rethink our approach with the pandemic… and Ludi was the answer we didn’t know we needed.”
 
-“We suddenly had 200 people working remotely, but we wanted to continue facilitating these retrospectives that were so useful. We tried using things like Google Sheets, but that didn’t work so well. One day another guy, he is also called Alex, said ‘Okay, we are using Metro Retro for our team retrospectives. How about we try and extend it to the whole company?’ And that’s how it started.”
+“We suddenly had 200 people working remotely, but we wanted to continue facilitating these retrospectives that were so useful. We tried using things like Google Sheets, but that didn’t work so well. One day another guy, he is also called Alex, said ‘Okay, we are using Ludi for our team retrospectives. How about we try and extend it to the whole company?’ And that’s how it started.”
 
-“We ran 15 retrospectives in that first round, and now we recently just finished running retrospectives for 70 teams, all in the same week. Without Metro Retro, we would have lost the practice. Simple.”
+“We ran 15 retrospectives in that first round, and now we recently just finished running retrospectives for 70 teams, all in the same week. Without Ludi, we would have lost the practice. Simple.”
 
 [![](../../assets/images/legacy/2023/11/image-4-1024x699.png)](/templates/drop-add-keep-improve-retrospective)
 
 The [Drop, Add, Keep, Improve](/templates/drop-add-keep-improve-retrospective) retrospective format helps a team reflect on the last quarter
 
-## Saving Hundreds of Hours with Metro Retro
+## Saving Hundreds of Hours with Ludi
 
-Alex says that tools like Metro Retro have been invaluable for maintaining open and honest dialogue across the organization while navigating the complexities of 40% growth year-on-year for the past 5 years.
+Alex says that tools like Ludi have been invaluable for maintaining open and honest dialogue across the organization while navigating the complexities of 40% growth year-on-year for the past 5 years.
 
-Lucca’s engineering department use Metro Retro for their regular team retrospectives, but Alex says Metro Retro also makes it possible for Lucca to run 70+ organization-wide retrospectives each quarter in a cost-efficient manner. Hundreds of hours are saved in preparing and running the sessions that collect valuable feedback and ideas from 550 people.
+Lucca’s engineering department use Ludi for their regular team retrospectives, but Alex says Ludi also makes it possible for Lucca to run 70+ organization-wide retrospectives each quarter in a cost-efficient manner. Hundreds of hours are saved in preparing and running the sessions that collect valuable feedback and ideas from 550 people.
 
 This process allows the Lucca leadership to act faster in solving pain points for employees:
 
 > “…it helps us steer action and react quickly if we can see stuff popping out… like the Paris office is really full, and it’s a pain shared by all the team”.​​
 
-## The First Reactions to Metro Retro
+## The First Reactions to Ludi
 
 Before joining Lucca, Alex had previously co-founded two companies, including an HR consultancy where they facilitated a lot of executive seminars and trainings. 
 
-> “As consultants, we were using sticky notes all the time. When you run that many sessions, you develop an expertise in conceiving and designing boards, and I remember exactly what I thought the first time I used Metro Retro – it feels exactly like real life.”
+> “As consultants, we were using sticky notes all the time. When you run that many sessions, you develop an expertise in conceiving and designing boards, and I remember exactly what I thought the first time I used Ludi – it feels exactly like real life.”
 
 “I was amazed by the UX, with things like the double–click to create a sticky note; it changes color as you drag and drop it from red to green. It really feels like a product made for the people using it, not for the people buying it.
 
-And adoption was the same across the company, it was _so_ fast. It took like 30 seconds for people to be autonomous on it. You usually experience friction when switching people to a new product, but we had none of that with Metro Retro.
+And adoption was the same across the company, it was _so_ fast. It took like 30 seconds for people to be autonomous on it. You usually experience friction when switching people to a new product, but we had none of that with Ludi.
 
 We use the Grouping and Voting tool a lot, they make it really easy to process team feedback.”
 
@@ -94,15 +94,15 @@ Example: grouping stickies into themes with the Topic Tool
 
 Example: run a voting round and view the results
 
-## Metro Retro for Distributed Teams
+## Ludi for Distributed Teams
 
-Post-pandemic, Lucca continues to embrace Metro Retro, valuing its adaptability and effectiveness for remote and hybrid teams.
+Post-pandemic, Lucca continues to embrace Ludi, valuing its adaptability and effectiveness for remote and hybrid teams.
 
-> “Metro Retro isn’t just a tool; it’s become a part of how we operate. It bridges the gap between our in-office and remote teams, making everyone feel included.”
+> “Ludi isn’t just a tool; it’s become a part of how we operate. It bridges the gap between our in-office and remote teams, making everyone feel included.”
 
 Alex also notes the platform’s intuitive design, which facilitates easier participation and a deeper understanding of team dynamics.
 
-> “What I love about Metro Retro is its flexibility… we can tailor retrospectives for different team sizes and needs. It’s not just about reflecting on work; it’s about engaging everyone in the process of continuous improvement.”
+> “What I love about Ludi is its flexibility… we can tailor retrospectives for different team sizes and needs. It’s not just about reflecting on work; it’s about engaging everyone in the process of continuous improvement.”
 
 ## Alex’s Tips For Large-Scale Quarterly Retrospectives 
 
@@ -123,11 +123,11 @@ Alex highlights the need for a designated individual to lead the retrospective p
 
 ## Final Thoughts: Maintaining Culture in Times of Change
 
-Alex’s experience at Lucca demonstrates the pivotal role of tools like Metro Retro in scaling company culture amidst significant growth and changing work environments. 
+Alex’s experience at Lucca demonstrates the pivotal role of tools like Ludi in scaling company culture amidst significant growth and changing work environments. 
 
-> “Using Metro Retro has not just been about adapting to change; it’s been about thriving in it. It’s helped us keep our culture alive and evolving, even as we’ve grown exponentially,” Alex concludes.
+> “Using Ludi has not just been about adapting to change; it’s been about thriving in it. It’s helped us keep our culture alive and evolving, even as we’ve grown exponentially,” Alex concludes.
 
-Metro Retro is a real-time team retrospective and workshop platform for engineering teams that want to improve how they work together:
+Ludi is a real-time team retrospective and workshop platform for engineering teams that want to improve how they work together:
 
 - 100+ designer-created [templates](/templates) that are completely customisable
 - With sticky notes that actually look like real sticky notes and don’t just feel like a soulless rectangle.
@@ -136,6 +136,6 @@ Metro Retro is a real-time team retrospective and workshop platform for engineer
 - Intuitively cluster ideas together with the dynamic Topic Tool.
 - Dig into what people are thinking with voting rounds and polls.
 
-[Get started with Metro Retro](/setup)
+[Get started with Ludi](/setup)
 
 ---

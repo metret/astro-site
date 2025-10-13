@@ -29,26 +29,31 @@ This format helps teams maintain what's working well while systematically addres
 **Duration:** 60-65 minutes
 
 1. **Set the context (5 minutes)**
+
    - Introduce the retrospective format and its four categories
    - Define the scope: what time period or project are you reflecting on?
    - Remind participants that the goal is honest, constructive feedback
 
 2. **Individual reflection and note creation (10 minutes)**
+
    - Have team members silently add sticky notes to each quadrant
    - Encourage everyone to contribute to all four categories
    - Remind participants to be specific and concise in their notes
 
 3. **Share and discuss (20 minutes)**
+
    - Take turns presenting sticky notes, moving through one quadrant at a time
    - Ask clarifying questions to ensure understanding
    - Use the participant highlight feature (click on someone's icon) to focus on one person's contributions at a time
 
 4. **Identify patterns and priorities (10 minutes)**
+
    - Group similar sticky notes together
    - Look for themes across quadrants (e.g., communication issues appearing in multiple areas)
    - Add reactions to notes that resonate with you using the Reaction tool
 
 5. **Vote and prioritize (5 minutes)**
+
    - Each team member gets 3-5 votes to identify the most important issues
    - Focus on items with the highest impact or urgency
 
@@ -64,7 +69,7 @@ This format helps teams maintain what's working well while systematically addres
 - **Connect "Start" with "Stop":** Often, stopping one practice creates space to start another.
 - **Be specific with actions:** Avoid vague commitments like "communicate better" - define exactly what will change.
 - **Follow up:** Begin your next retrospective by reviewing the action items from this session.
-- **Remote facilitation:** Use Metro Retro's timer feature to keep timeboxes clear and the session moving forward.
+- **Remote facilitation:** Use Ludi's timer feature to keep timeboxes clear and the session moving forward.
 - **First-timers:** For teams new to retrospectives, spend extra time explaining the purpose of each quadrant before starting.
 
 This straightforward yet effective format provides an excellent foundation for team reflection, making it perfect for both retrospective beginners and experienced teams looking for a reliable framework to drive continuous improvement.

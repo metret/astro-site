@@ -14,9 +14,17 @@ import ActivityFramesFeatureItem from "~/components/blocks/features/ActivityFram
 import ActionsCommentsMentionsFeatureItem from "~/components/blocks/features/ActionsCommentsMentionsFeatureItem.astro";
 import PromoteTeamCultureFeatureItem from "~/components/blocks/features/PromoteTeamCultureFeatureItem.astro";
 import SolutionGrid from "~/components/blocks/SolutionGrid.astro";
+import { pageMeta } from "~/utils";
+
+const seo = await pageMeta({
+  title: "Better Collaboration",
+  description:
+    "Good collaboration is built on communication, great collaboration is built on trust. Don't just bring your team together in a whiteboard and expect results, create an environment where individual personalities and openness are at the heart of your work.",
+  image: "~/assets/images/og-images/og-better-collaboration.png",
+});
 ---
 
-<PageLayout title="Better Collaboration">
+<PageLayout {...seo}>
   <SolutionHero
     title="Good collaboration is built on communication, great collaboration is built on trust"
     description="Don't just bring your team together in a whiteboard and expect results, create an environment where individual personalities and openness are at the heart of your work."
@@ -30,20 +38,20 @@ import SolutionGrid from "~/components/blocks/SolutionGrid.astro";
   <CustomerLogos />
 
   <SolutionBanner
-    title="Metro Retro has been designed to be the closest thing to a real whiteboard experience, where everyone in the room has a voice"
+    title="Ludi has been designed to be the closest thing to a real whiteboard experience, where everyone in the room has a voice"
   />
 
   <SolutionLargeItem
     mirror="false"
     title="A space designed to promote expression"
-    description="Whether it's setting your own handwriting style, putting on a hat, keeping your sticky notes private or just throwing confetti every 5 minutes, Metro Retro understands that the best teams have mixed personalities and we don't try to put everyone in the same box."
+    description="Whether it's setting your own handwriting style, putting on a hat, keeping your sticky notes private or just throwing confetti every 5 minutes, Ludi understands that the best teams have mixed personalities and we don't try to put everyone in the same box."
     image="~/assets/images/product-outcomes/designed-for-expression.png"
   />
 
   <SolutionLargeItem
     mirror="true"
     title="Seamless collaboration for remote and hybrid teams"
-    description="With expertly crafted templates, intuitive tools and facilitator controls which help you to guide participants through your meeting, Metro Retro is the closest thing to being in the room together, enabling all members of your team to contribute to discussions."
+    description="With expertly crafted templates, intuitive tools and facilitator controls which help you to guide participants through your meeting, Ludi is the closest thing to being in the room together, enabling all members of your team to contribute to discussions."
     image="~/assets/images/product-outcomes/seamless-collaboration-remote-and-hybrid.png"
   />
 

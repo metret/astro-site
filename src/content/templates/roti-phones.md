@@ -21,6 +21,7 @@ ROTI: Phones is a creative check-out activity that transforms the standard 1-5 r
 - **Ideal for closing** any type of meeting, sprint review, or retrospective
 
 Use this template when:
+
 - You want honest feedback about meeting effectiveness
 - Your team seems disengaged with traditional feedback methods
 - You're looking for a quick (1-2 minute) closing activity
@@ -29,27 +30,30 @@ Use this template when:
 ## How to Run a ROTI: Phones Session
 
 1. **Set the stage (30 seconds)**
-   * Share the template during the final minutes of your meeting
-   * Explain that you'd like feedback on the session's value
+
+   - Share the template during the final minutes of your meeting
+   - Explain that you'd like feedback on the session's value
 
 2. **Explain the rating system (1 minute)**
-   * Tell participants: "If this meeting was a phone, which would it be?"
-   * Briefly describe what each phone represents on the 1-5 scale
-   * Clarify that they're rating the meeting's value, not how much they enjoyed it
+
+   - Tell participants: "If this meeting was a phone, which would it be?"
+   - Briefly describe what each phone represents on the 1-5 scale
+   - Clarify that they're rating the meeting's value, not how much they enjoyed it
 
 3. **Collect feedback (1-2 minutes)**
-   * Ask team members to add a sticky note with their name (or anonymously) next to their chosen phone
-   * Optionally, invite brief comments explaining their choice
+
+   - Ask team members to add a sticky note with their name (or anonymously) next to their chosen phone
+   - Optionally, invite brief comments explaining their choice
 
 4. **Review and acknowledge (1 minute)**
-   * Thank participants for their honest feedback
-   * Briefly note any patterns you observe without getting defensive
-   * Mention that you'll use this feedback to improve future meetings
+   - Thank participants for their honest feedback
+   - Briefly note any patterns you observe without getting defensive
+   - Mention that you'll use this feedback to improve future meetings
 
 ## Tips for a Successful Session
 
 - Keep the activity brief—it should take no more than 3-4 minutes total
-- Consider using the timer feature in Metro Retro to maintain pace
+- Consider using the timer feature in Ludi to maintain pace
 - For ongoing meetings, track ROTI scores over time to identify trends
 - If scores are consistently low, follow up with a more detailed feedback session
 - Don't take low ratings personally—view them as opportunities to improve

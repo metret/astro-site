@@ -24,9 +24,11 @@ const loadedPostImage = await dynamicImportImage(post.data.image);
         {post.data.category}
       </div>
 
-      <p class="my-6 text-[28px]/8 font-semibold">
-        {post.data.title}
-      </p>
+      <a href={`/blog/${post.id}`}>
+        <p class="my-6 text-[28px]/8 font-semibold">
+          {post.data.title}
+        </p>
+      </a>
       <p class="text-body mb-6 text-base/6 font-medium md:mb-8 md:text-lg/6">
         {post.data.teaser}
       </p>

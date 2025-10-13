@@ -16,15 +16,22 @@ import SolutionLargeItem from "~/components/blocks/SolutionLargeItem.astro";
 import PromoteTeamCultureFeatureItem from "~/components/blocks/features/PromoteTeamCultureFeatureItem.astro";
 import CreateSharedResponsibilityFeatureItem from "~/components/blocks/features/CreateSharedResponsibilityFeatureItem.astro";
 import DesignedForExpressionLargeItem from "~/components/blocks/large/DesignedForExpressionLargeItem.astro";
+import { pageMeta } from "~/utils";
+
+const seo = await pageMeta({
+  title: "Privacy & Anonymity",
+  description:
+    "Remove bias from your collaboration and promote open discussion",
+});
 ---
 
-<PageLayout title="Privacy & Anonymity">
+<PageLayout {...seo}>
   <Dots />
 
   <Hero
     pill="Privacy & Anonymity"
     title="Remove bias from your collaboration and promote open discussion"
-    description="The loudest voice in the room isn't always the right one. Promote positive team health through open and unbiased discussion with privacy and anonymity in Metro Retro."
+    description="The loudest voice in the room isn't always the right one. Promote positive team health through open and unbiased discussion with privacy and anonymity in Ludi."
   />
 
   <SolutionBanner
@@ -40,9 +47,7 @@ import DesignedForExpressionLargeItem from "~/components/blocks/large/DesignedFo
 
   <DesignedForExpressionLargeItem mirror="true" />
 
-  <SolutionBanner
-    title="Build a connected and effective team with Metro Retro"
-  />
+  <SolutionBanner title="Build a connected and effective team with Ludi" />
 
   <SolutionGrid columns="3">
     <SolutionLink

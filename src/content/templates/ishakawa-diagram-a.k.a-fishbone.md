@@ -36,16 +36,19 @@ Benefits for remote teams include:
 **Time required:** 45-60 minutes
 
 1. **Set the stage (5 min)**
+
    - Introduce the exercise and its purpose
    - Explain the fishbone metaphor and structure
    - Share screen control or direct participants to the template
 
 2. **Define the problem (5 min)**
+
    - Clearly articulate the specific problem or challenge
    - Write it at the "head" of the fish
    - Ensure everyone agrees on what problem you're addressing
 
 3. **Establish categories (5-10 min)**
+
    - Use the pre-defined categories on the template:
      - People: Team members, stakeholders, users
      - Process: Workflows, procedures, methodologies
@@ -56,17 +59,20 @@ Benefits for remote teams include:
    - Customize categories if needed for your specific context
 
 4. **Brainstorm causes (15-20 min)**
+
    - Ask team members to add sticky notes under each category
-   - Use Metro Retro's private sticky note feature to encourage honest input
+   - Use Ludi's private sticky note feature to encourage honest input
    - For each cause, continue asking "why does this happen?" to dig deeper
    - Add sub-causes as branches from the main causes
 
 5. **Analyze patterns (10 min)**
+
    - Look for connections between different causes
    - Identify recurring themes across categories
-   - Use Metro Retro's topic tool to group similar themes
+   - Use Ludi's topic tool to group similar themes
 
 6. **Prioritize and plan action (10 min)**
+
    - Use voting to determine the most significant causes
    - Brainstorm potential solutions for the top causes
    - Create clear action items with owners and timelines

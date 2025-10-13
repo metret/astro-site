@@ -17,12 +17,20 @@ import AgileProcessesFeatureItem from "~/components/blocks/features/AgileProcess
 import FocusedCollaborationFeatureItem from "~/components/blocks/features/FocusedCollaborationFeatureItem.astro";
 import RoadmapsFeatureItem from "~/components/blocks/features/RoadmapsFeatureItem.astro";
 import SolutionGrid from "~/components/blocks/SolutionGrid.astro";
+import { pageMeta } from "~/utils";
+
+const seo = await pageMeta({
+  title: "Product Owners",
+  description:
+    "Build your product's vision with shared understanding. Don't let great insights get trapped in silos, collaborate efficiently with your product teams and stakeholders, manage your backlog and plan ahead from a single space with Ludi",
+  image: "~/assets/images/og-images/og-product-owners.png",
+});
 ---
 
-<PageLayout title="Product Owners">
+<PageLayout {...seo}>
   <SolutionHero
     title="Build your product's vision with shared understanding"
-    description="Don't let great insights get trapped in silos, collaborate efficiently with your product teams and stakeholders, manage your backlog and plan ahead from a single space with Metro Retro"
+    description="Don't let great insights get trapped in silos, collaborate efficiently with your product teams and stakeholders, manage your backlog and plan ahead from a single space with Ludi"
     image="~/assets/images/page-heroes/product-owners.png"
     color="blue"
     pill="Product Owners"
@@ -33,7 +41,7 @@ import SolutionGrid from "~/components/blocks/SolutionGrid.astro";
   <CustomerLogos />
 
   <SolutionBanner
-    title="Metro Retro helps teams communicate effectively to deliver value to customers and organizations"
+    title="Ludi helps teams communicate effectively to deliver value to customers and organizations"
   />
 
   <SolutionLargeItem
@@ -46,7 +54,7 @@ import SolutionGrid from "~/components/blocks/SolutionGrid.astro";
   <SolutionLargeItem
     mirror="true"
     title="Retrospectives that drive engagement and communication."
-    description="Active engagement from your team helps to uncover insights when reviewing past work. Metro Retro templates keep your meetings fresh and encourage participation."
+    description="Active engagement from your team helps to uncover insights when reviewing past work. Ludi templates keep your meetings fresh and encourage participation."
     image="~/assets/images/product-outcomes/retros-that-drive-engagement.png"
   />
 

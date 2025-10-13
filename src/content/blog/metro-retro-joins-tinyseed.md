@@ -1,30 +1,30 @@
 ---
-title: "Metro Retro Joins TinySeed!"
-teaser: "Announcing Metro Retro joining TinySeed, the accelerator for bootstrapped startups."
+title: "Ludi Joins TinySeed!"
+teaser: "Announcing Ludi joining TinySeed, the accelerator for bootstrapped startups."
 category: "Announcements"
 image: "~/assets/images/legacy/2023/11/metro-retro-joins-tinyseed.png"
-description: "Announcing Metro Retro joining TinySeed, the accelerator for bootstrapped startups."
+description: "Announcing Ludi joining TinySeed, the accelerator for bootstrapped startups."
 canonicalUrl: "/blog/metro-retro-joins-tinyseed"
 section: "Announcements"
-ogUrl: "https://metroretro.io/blog/metro-retro-joins-tinyseed"
-ogSiteName: "Metro Retro"
+ogUrl: "https://ludi.co/blog/metro-retro-joins-tinyseed"
+ogSiteName: "Ludi"
 ogType: "article"
-ogImageUrl: "https://metroretro.io/wp-content/uploads/2023/11/metro-retro-joins-tinyseed.png"
+ogImageUrl: "https://ludi.co/wp-content/uploads/2023/11/metro-retro-joins-tinyseed.png"
 ogImageWidth: 1200
 ogImageHeight: 628
-ogImageAlt: "Metro Retro Joins TinySeed!"
+ogImageAlt: "Ludi Joins TinySeed!"
 ogImageType: "image/png"
 publishedDate: 2023-11-01T15:47:37+00:00
 modifiedDate: 2024-08-12T09:06:21+00:00
 articleSection: "Announcements"
 twitterCardType: "summary_large_image"
-twitterTitle: "Metro Retro Joins TinySeed! | Metro Retro"
-twitterDescription: "Announcing Metro Retro joining TinySeed, the accelerator for bootstrapped startups."
-twitterImage: "https://metroretro.io/wp-content/uploads/2023/11/metro-retro-joins-tinyseed.png"
+twitterTitle: "Ludi Joins TinySeed! | Ludi"
+twitterDescription: "Announcing Ludi joining TinySeed, the accelerator for bootstrapped startups."
+twitterImage: "https://ludi.co/wp-content/uploads/2023/11/metro-retro-joins-tinyseed.png"
 authorName: "Jamie Hanratty"
 ---
 
-In a year of exciting developments for Metro Retro, we’re pleased to announce that we have joined the TinySeed Startup Accelerator program! Joining the accelerator will help us grow to better serve our current and future customers.
+In a year of exciting developments for Ludi, we’re pleased to announce that we have joined the TinySeed Startup Accelerator program! Joining the accelerator will help us grow to better serve our current and future customers.
 
 (We’re announced at 06:05)
 
@@ -38,19 +38,19 @@ The same people who run TinySeed also created [MicroConf](https://microconf.com/
 
 TinySeed is very popular and gets hundreds of applications per batch but usually picks around 20 final startups.
 
-## Why is TinySeed right for Metro Retro?
+## Why is TinySeed right for Ludi?
 
-This year was a big one for Metro Retro. We passed 1 million signups, hired our first full-time employee, and became officially profitable.  With these milestones flying by, we have been evaluating how we scale to support our customer needs. 
+This year was a big one for Ludi. We passed 1 million signups, hired our first full-time employee, and became officially profitable.  With these milestones flying by, we have been evaluating how we scale to support our customer needs. 
 
-Of all the accelerators and investors out there, we applied for TinySeed because their philosophy and outlook closely align with ours. The accelerator program matches our ambition for what a product like Metro Retro can achieve and will help make our vision a reality.
+Of all the accelerators and investors out there, we applied for TinySeed because their philosophy and outlook closely align with ours. The accelerator program matches our ambition for what a product like Ludi can achieve and will help make our vision a reality.
 
 ## Scaling Collaboration
 
-Over the last 4 years, Metro Retro has grown from [a scrappy prototype built during a hackathon](/blog/the-metro-retro-story), to a global collaboration platform used by tens of thousands of people each week for their meetings and workshops.
+Over the last 4 years, Ludi has grown from [a scrappy prototype built during a hackathon](/blog/the-metro-retro-story), to a global collaboration platform used by tens of thousands of people each week for their meetings and workshops.
 
-We sometimes describe Metro Retro as “the online whiteboard with a personality”. Our mission was to make a collaborative space where your team enjoys working together. From kickoff workshops that map an unknown-but-exciting future, to empowering retrospectives that help a team work better together, Metro Retro is now the tool of choice for an absolutely humbling number of people. On a daily basis we’re saying things like:
+We sometimes describe Ludi as “the online whiteboard with a personality”. Our mission was to make a collaborative space where your team enjoys working together. From kickoff workshops that map an unknown-but-exciting future, to empowering retrospectives that help a team work better together, Ludi is now the tool of choice for an absolutely humbling number of people. On a daily basis we’re saying things like:
 
-_“Hey, did you know \[very cool company\] has started using Metro Retro?”_
+_“Hey, did you know \[very cool company\] has started using Ludi?”_
 
 It’s a very cool feeling, to say the least.
 
@@ -66,7 +66,7 @@ Remote and hybrid working is now established around the world, especially in the
 - [**AutoPSI**](https://autopsi.co.uk/)
 - [**Classcard**](https://www.classcardapp.com/)
 - [**Cliezen**](https://www.cliezen.com/)
-- [**Metro Retro**](/)
+- [**Ludi**](/)
 - [**mybridal**](https://mybridalsoftware.com/)
 - [**MyPlace Connect**](https://myplaceconnect.com/)
 

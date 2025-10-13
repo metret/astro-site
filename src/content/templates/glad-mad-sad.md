@@ -11,12 +11,14 @@ The emotional framework makes it accessible to everyone, regardless of technical
 ## Benefits & When to Use
 
 **When to use this template:**
+
 - When you want to focus on the human experience of work rather than just processes
 - For teams that need to address interpersonal dynamics or emotional tensions
 - When you want a simple format that new team members can easily understand
 - At the end of sprints, projects, or quarters to gather comprehensive feedback
 
 **Key benefits:**
+
 - Creates psychological safety by validating emotional responses to work
 - Simplifies contribution with a clear and intuitive categorization
 - Balances positive recognition with critical feedback
@@ -32,19 +34,20 @@ The emotional framework makes it accessible to everyone, regardless of technical
 
 2. **Individual reflection (10 min)**
    Ask team members to add sticky notes to each column:
+
    - **Glad:** What brought you joy, satisfaction, or pride?
    - **Mad:** What frustrated, annoyed, or angered you?
    - **Sad:** What disappointed you or made you feel let down?
 
 3. **Share and discuss (20 min)**
    Take turns reviewing each column's sticky notes. Have authors briefly explain their thoughts while others listen actively. Focus on understanding rather than problem-solving at this stage.
-   
-   *Tip: Click on a participant's icon in the top right to highlight their sticky notes!*
+
+   _Tip: Click on a participant's icon in the top right to highlight their sticky notes!_
 
 4. **Add reactions (5 min)**
    Team members add reactions to notes they strongly agree with or find particularly important. This helps identify patterns and priorities.
-   
-   *Hint: Use the Reaction tool from the toolbar!*
+
+   _Hint: Use the Reaction tool from the toolbar!_
 
 5. **Generate actions (15 min)**
    Based on the most significant items (especially those with many reactions), collaborate to create specific, actionable follow-up items. Assign owners and timeframes for each action.
@@ -59,6 +62,6 @@ The emotional framework makes it accessible to everyone, regardless of technical
 
 - **Create psychological safety:** Acknowledge that all emotions are valid responses to work experiences. Normalize expressing both positive and negative feelings.
 
-- **Warm up with gratitude:** For teams with high tension, begin with a brief [Kudos exercise](https://metroretro.io/templates/kudos-tree) where people thank colleagues before diving into the retrospective.
+- **Warm up with gratitude:** For teams with high tension, begin with a brief [Kudos exercise](https://ludi.co/templates/kudos-tree) where people thank colleagues before diving into the retrospective.
 
 - **Follow up:** In the next retrospective, review the previous action items first to create accountability and demonstrate the value of the process.

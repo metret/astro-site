@@ -1,5 +1,4 @@
-Lean Coffee: A revolutionary meeting format
--------------------------------------------
+## Lean Coffee: A revolutionary meeting format
 
 Lean Coffee is a freeform meeting without any agenda! Well, that’s only partly true. Lean Coffee is a collaborative meeting that usually starts with participants suggesting topics that they would like to discuss. These topics can be anything related to the team’s work, including current projects, upcoming tasks, or general work-related issues. Each participant then has the opportunity to briefly pitch their topic and explain why they think it is important.
 
@@ -11,8 +10,7 @@ At the end of the allotted time, the facilitator asks if the group would like to
 
 The meeting ends when all the topics have been discussed or when the allotted time for the meeting has expired. Participants are encouraged to take notes during the meeting and share any action items or next steps that were discussed. The notes can then be used to guide future discussions or to follow up on any action items that were identified.
 
-How to run a Lean Coffee session in Metro Retro
------------------------------------------------
+## How to run a Lean Coffee session in Ludi
 
 1.  Select a theme for the meeting and write it at the top of the board – this is optional.
 2.  Have everyone add sticky notes with ideas to the topics section. There is no limit on the number of sticky notes each. (10 minutes)
@@ -24,8 +22,7 @@ How to run a Lean Coffee session in Metro Retro
 8.  When the discussion is finished, move its card to the right “Discussed” column. Bring the next highest card over from “To Discuss” into “Discussing” and repeat the process.
 9.  When all topics are discussed or you are running out of time, elicit action items from the group to wrap up the session.
 
-Tips on running Lean Coffee
----------------------------
+## Tips on running Lean Coffee
 
-*   We’ve found that this format does benefit from having a trained facilitator for the first session, but after that most teams can run it by themselves.
-*   Make sure you are strict with the timer!
+- We’ve found that this format does benefit from having a trained facilitator for the first session, but after that most teams can run it by themselves.
+- Make sure you are strict with the timer!

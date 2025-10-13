@@ -1,5 +1,4 @@
-What is the Hot Air Balloon retrospective?
-------------------------------------------
+## What is the Hot Air Balloon retrospective?
 
 The Hot Air Balloon retrospective is a reflective exercise, asking a team to raise and discuss what is helping or hindering them on their project.
 
@@ -9,8 +8,7 @@ The hot air and sandbags represent what has been driving or holding back the tea
 
 This helps a team think of their recent work as a part of the whole project, not just in isolation. The team think about how to improve based on their last sprint, but also look ahead to identify risks._‍_
 
-_‍_How to run the Hot Air Balloon retrospective in Metro Retro?
----------------------------------------------------------------
+## \_‍_How to run the Hot Air Balloon retrospective in Ludi?
 
 Time needed: 75-90 minutes.
 
@@ -23,9 +21,9 @@ Time needed: 75-90 minutes.
 7.  Now look at the combined past and future groups and see if there are any common groups you can make. (10 minutes).
 8.  Hold a voting session to uncover the three most important themes (5 minutes).
 9.  Brainstorm and discuss solutions and actions for the top themes (10 minutes).
-10.  Group the solutions and hold a voting round (5 minutes).
-11.  Decide an owner for each of the top three actions.
-12.  Finish the retro or hold a closing activity.
+10. Group the solutions and hold a voting round (5 minutes).
+11. Decide an owner for each of the top three actions.
+12. Finish the retro or hold a closing activity.
 
 ### Tips on running this session
 

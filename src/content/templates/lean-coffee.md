@@ -11,6 +11,7 @@ This approach combines the best aspects of structured and unstructured meetings 
 ## Benefits & When to Use Lean Coffee
 
 Lean Coffee works exceptionally well for:
+
 - Sprint retrospectives when you want an alternative format
 - Team check-ins where multiple topics need addressing
 - Project kickoffs to surface initial concerns and questions
@@ -18,6 +19,7 @@ Lean Coffee works exceptionally well for:
 - Regular team meetings that often lack focus or structure
 
 Teams benefit from:
+
 - Increased engagement as everyone contributes to the agenda
 - Better time management through structured timeboxing
 - Democratic prioritization that focuses on what matters most
@@ -27,38 +29,46 @@ Teams benefit from:
 ## How to Run a Lean Coffee Session
 
 1. **Introduce the format** (2-3 minutes)
+
    - Explain the Lean Coffee structure and workflow
    - Share the timeboxing approach for discussions
 
 2. **Generate topics** (5-7 minutes)
+
    - Have each participant create sticky notes with topics they want to discuss
    - Add all topics to the "Topics" column
    - Encourage specific, focused topic suggestions
 
 3. **Clarify and consolidate** (3-5 minutes)
+
    - Have participants briefly explain their topics
    - Identify and merge any duplicate or overlapping topics
 
 4. **Vote on priorities** (2-3 minutes)
-   - Use Metro Retro's voting tool to allocate 5-10 votes per person
+
+   - Use Ludi's voting tool to allocate 5-10 votes per person
    - Participants distribute votes across topics they most want to discuss
 
 5. **Create the agenda** (1-2 minutes)
+
    - Move voted topics to the "To Discuss" column
    - Sort by vote count (highest to lowest) using the Show Rankings button
    - This prioritized list becomes your meeting agenda
 
 6. **Discuss topics** (5-8 minutes per topic)
+
    - Move the highest-voted topic to "Discussing"
    - Set a timer for the initial discussion (typically 1-2 minutes)
    - Facilitate an open discussion on the topic
 
 7. **Decide to continue or move on** (30 seconds)
+
    - When the timer expires, quickly vote on whether to continue
    - If continuing, set a shorter extension time (typically 1-2 more minutes)
    - If complete, move the topic to "Discussed"
 
 8. **Repeat until done** (depends on available time)
+
    - Continue working through topics in priority order
    - Move completed discussions to the "Discussed" column
    - Proceed until you run out of time or exhaust all topics

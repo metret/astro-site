@@ -29,10 +29,12 @@ Teams using this format typically experience more balanced discussions, with equ
 **Total time: 50 minutes**
 
 1. **Set the stage (5 minutes)**
+
    - Introduce the retrospective format and remind everyone of the Prime Directive (that everyone did the best job they could with the information they had)
    - Define the scope of reflection (e.g., "Let's focus on our last sprint" or "Let's discuss our current development process")
 
 2. **Individual reflection (10 minutes)**
+
    - Ask team members to add sticky notes to each of the three columns:
      - Start: What should we begin doing?
      - Stop: What should we cease doing?
@@ -40,16 +42,19 @@ Teams using this format typically experience more balanced discussions, with equ
    - Encourage everyone to contribute to all three sections
 
 3. **Share and discuss (15 minutes)**
+
    - Have team members reveal and explain their sticky notes
    - Group similar ideas together to identify themes
-   - Use Metro Retro's participant highlighting feature to track who contributed what
+   - Use Ludi's participant highlighting feature to track who contributed what
    - Ensure everyone has a chance to clarify their points
 
 4. **Vote on priorities (5 minutes)**
+
    - Use the Reaction tool to vote on sticky notes
    - Identify which items have the most agreement/importance
 
 5. **Create action items (10 minutes)**
+
    - Move to the Actions section
    - Create 2-3 specific, achievable action items based on the most popular sticky notes
    - Assign owners and deadlines to each action
@@ -65,7 +70,7 @@ Teams using this format typically experience more balanced discussions, with equ
 - Address potential tension when discussing "Stop" items by focusing on processes rather than people
 - Consider starting with "Continue" to establish a positive tone before moving to areas for improvement
 - For remote teams, use timeboxing strictly to keep the session moving
-- If the team is hesitant to share, try using anonymous mode in Metro Retro
+- If the team is hesitant to share, try using anonymous mode in Ludi
 - Revisit previous retro action items before starting to establish accountability
 
 By providing equal space for positive reinforcement alongside constructive criticism, the Start/Stop/Continue format creates a balanced approach to continuous improvement that most team members find accessible and actionable.

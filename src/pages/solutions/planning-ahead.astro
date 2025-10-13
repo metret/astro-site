@@ -17,12 +17,20 @@ import EstimateEffectivelyFeatureItem from "~/components/blocks/features/Estimat
 import AgileProcessesFeatureItem from "~/components/blocks/features/AgileProcessesFeatureItem.astro";
 import RoadmapsFeatureItem from "~/components/blocks/features/RoadmapsFeatureItem.astro";
 import SolutionGrid from "~/components/blocks/SolutionGrid.astro";
+import { pageMeta } from "~/utils";
+
+const seo = await pageMeta({
+  title: "Planning Ahead",
+  description:
+    "Effective planning builds structure, reduces risk and keeps your team focused on what matters. Don't just focus on what you have done, Ludi helps your team plan the future of your organization, reducing costly rework and enhancing team coordination on what comes next.",
+  image: "~/assets/images/og-images/og-planning-ahead.png",
+});
 ---
 
-<PageLayout title="Planning Ahead">
+<PageLayout {...seo}>
   <SolutionHero
     title="Effective planning builds structure, reduces risk and keeps your team focused on what matters."
-    description="Don't just focus on what you have done, Metro Retro helps your team plan the future of your organization, reducing costly rework and enhancing team coordination on what comes next."
+    description="Don't just focus on what you have done, Ludi helps your team plan the future of your organization, reducing costly rework and enhancing team coordination on what comes next."
     image="~/assets/images/page-heroes/planning-ahead.png"
     color="orange"
     pill="Planning Ahead"
@@ -33,7 +41,7 @@ import SolutionGrid from "~/components/blocks/SolutionGrid.astro";
   <CustomerLogos />
 
   <SolutionBanner
-    title="Align your team and business goals with focused and cross-team collaboration in Metro Retro"
+    title="Align your team and business goals with focused and cross-team collaboration in Ludi"
   />
 
   <SolutionLargeItem
@@ -46,7 +54,7 @@ import SolutionGrid from "~/components/blocks/SolutionGrid.astro";
   <SolutionLargeItem
     mirror="true"
     title="Bring stakeholders together in a shared space"
-    description="Easily invite team members, guests and external stakeholders to your boards to build cross-team alignment. Metro Retro's intuitive experience means there is no need for extensive onboarding."
+    description="Easily invite team members, guests and external stakeholders to your boards to build cross-team alignment. Ludi's intuitive experience means there is no need for extensive onboarding."
     image="~/assets/images/product-outcomes/bring-stakeholders-together.png"
   />
 

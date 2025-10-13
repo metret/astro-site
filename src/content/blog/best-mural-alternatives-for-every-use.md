@@ -6,10 +6,10 @@ image: "~/assets/images/legacy/2023/02/best-mural-alternatives-for-every-use-1.p
 description: "Looking for a Mural alternative? Here are five collaborative virtual whiteboards to compare."
 canonicalUrl: "/blog/best-mural-alternatives-for-every-use"
 section: "Overviews"
-ogUrl: "https://metroretro.io/blog/best-mural-alternatives-for-every-use"
-ogSiteName: "Metro Retro"
+ogUrl: "https://ludi.co/blog/best-mural-alternatives-for-every-use"
+ogSiteName: "Ludi"
 ogType: "article"
-ogImageUrl: "https://metroretro.io/wp-content/uploads/2023/02/best-mural-alternatives-for-every-use-1.png"
+ogImageUrl: "https://ludi.co/wp-content/uploads/2023/02/best-mural-alternatives-for-every-use-1.png"
 ogImageWidth: 1200
 ogImageHeight: 628
 ogImageAlt: "Best Mural Alternatives for Every Use"
@@ -18,9 +18,9 @@ publishedDate: 2023-02-01T11:59:28+00:00
 modifiedDate: 2024-08-12T09:26:39+00:00
 articleSection: "Overviews"
 twitterCardType: "summary_large_image"
-twitterTitle: "Best Mural Alternatives For Every Use | Metro Retro"
+twitterTitle: "Best Mural Alternatives For Every Use | Ludi"
 twitterDescription: "Looking for a Mural alternative? Here are five collaborative virtual whiteboards to compare."
-twitterImage: "https://metroretro.io/wp-content/uploads/2023/02/best-mural-alternatives-for-every-use-1.png"
+twitterImage: "https://ludi.co/wp-content/uploads/2023/02/best-mural-alternatives-for-every-use-1.png"
 authorName: "Jamie Hanratty"
 ---
 
@@ -30,7 +30,7 @@ But, while it once stood atop the hill of the popular tools for Agile teams, peo
 
 So, people started looking for alternatives… 
 
-And that’s exactly what we’re going to explore today! We’ll be taking you through the best Mural alternatives (including our own Metro Retro), so you can choose the best collaboration tool for your needs.
+And that’s exactly what we’re going to explore today! We’ll be taking you through the best Mural alternatives (including our own Ludi), so you can choose the best collaboration tool for your needs.
 
 Let’s get started by answering a very simple question:
 
@@ -87,7 +87,7 @@ Good templates are vital to improving efficiency and accelerating project delive
 
 ![](https://lh6.googleusercontent.com/on8v6RmwSwqmK_57e1avRufOVTVWlNYMooe9g-XTceVFoE3SbvGYAIZwUoVY2xOI3pbQ8OaPUkxIfkwZQBc3pK6qSNY7-ElrrB5iVLK4AZ9PF49b_cERnDXcHxLD76zh7GfRF9I-561v5xzSgY1lb4U)
 
-Mind mapping is a great tool for helping individuals and groups brainstorm, plan, and grasp complex concepts more effectively. We personally love them here at Metro Retro; it’s a great way to get things organized in a visually appealing way.
+Mind mapping is a great tool for helping individuals and groups brainstorm, plan, and grasp complex concepts more effectively. We personally love them here at Ludi; it’s a great way to get things organized in a visually appealing way.
 
 ### Does the tool offer high efficiency at a feasible cost?
 
@@ -109,17 +109,17 @@ Other  criteria you should consider when identifying your Mural alternative are
 
 **Key Takeaways**
 
-- **Metro Retro – Best for Agile & Lean Teams, Retrospectives and Workshops**
+- **Ludi – Best for Agile & Lean Teams, Retrospectives and Workshops**
 - **Miro – Best for Larger Enterprises, Brainstorming, and Mind Mapping**
 - **Stormboard – Best AI Integrated Virtual Whiteboard**
 - **Sketchboard – Best for UML and AWS Diagramming**
 - **ClickUp – Best for Work Flows**
 
-### Metro Retro
+### Ludi
 
 ![](https://lh3.googleusercontent.com/vUSSIoi4NZAGmUIFNIioJOLhZUsLEt80jRW3nI4N9tOaQhFhKKBKfQ2KwQLS_IjRy0MJNglwsj7fA0F45YgL21ZByfPSgqU-t4oV3uy2Q4smnyAmos7mfv1NPmaqwoI7VWy_ZOy85uI-pL4a08KqKII)
 
-Metro Retro is a new digital whiteboard and collaboration tool optimized for software and product teams. It’s been designed to be as fun as it is functional to encourage greater and more productive engagement in your teams.
+Ludi is a new digital whiteboard and collaboration tool optimized for software and product teams. It’s been designed to be as fun as it is functional to encourage greater and more productive engagement in your teams.
 
 It comes with a powerful range of intuitive features and tools that simplify and accelerate every element of remote collaboration. Because who said that collaboration has to be boring? 
 
@@ -129,7 +129,7 @@ It comes with a powerful range of intuitive features and tools that simplify and
 
 ![](https://lh5.googleusercontent.com/LM-M3MrgQinfLxEska5Bu82uh8Rzcs8A8etvu-iyEv2nG6zwS3BErHD3lwUKk2vs1JFc-YmYTZn8O-qUrre9lbrC__FrDL3yLzu16a-8SzqOgVtEVFeBe2tjbgelRzwYR-YIXwlMb9Ey89XQHPToyhQ)
 
-Metro Retro Retrospectives let remote teams express their ideas and get creative in a visually appealing (and most importantly) fun way. 
+Ludi Retrospectives let remote teams express their ideas and get creative in a visually appealing (and most importantly) fun way. 
 
 All boards are completely customizable and boast all the tools you’ll ever need (private writing, grouping & themes, voting, actions, import & export) so you can tailor your retro to the needs of the team, including [anonymous retrospectives](/blog/anonymous-retrospectives) for more contentious topics.
 
@@ -137,13 +137,13 @@ All boards are completely customizable and boast all the tools you’ll ever nee
 
 ![](https://lh5.googleusercontent.com/iDpSLWyrQHVvd3mwJpdeFcqbtjRoFC-JnKx7zyCwZlSIG3MCZccGGj4BqaT23QWNvZvHJ8DgTFrDUp1ZYjpMB1pCDCudN0f2IxHaUHxfcOSSpj8F8fOLFD21eE1HxNYSG6gwOxdnBb2X6gbCuS43rys)
 
-With Metro Retro, you have many tools to [run great meetings](/blog/10-tips-to-help-you-run-great-virtual-meetings) –  you get icebreakers, agendas, timers, voting, actions, presentation tools, and facilitator controls, letting you make team meetings your employees will look forward to!
+With Ludi, you have many tools to [run great meetings](/blog/10-tips-to-help-you-run-great-virtual-meetings) –  you get icebreakers, agendas, timers, voting, actions, presentation tools, and facilitator controls, letting you make team meetings your employees will look forward to!
 
 **Product Management**
 
 ![](https://lh4.googleusercontent.com/Vii6zY9oViblKLsRincr4wrYLcEX9PF5kftW9kGnRHUm8ZW83mXf_HSTjOCqAmLUh3A6lA4QrnqnepRAqkhtRV_wXl_FzVIs_jhL088z3Efj0pyiiW_2K_9C7P7TJTXmiQeCTlKvprbMp1Ia-AIGI3Q)
 
-With Metro Retro, you get every kind of product management tool you need for Agile collaboration, including collaborative story maps, prioritization frameworks, roadmaps, brainstorming, and a whole lot more.
+With Ludi, you get every kind of product management tool you need for Agile collaboration, including collaborative story maps, prioritization frameworks, roadmaps, brainstorming, and a whole lot more.
 
 #### Pricing
 
@@ -394,4 +394,4 @@ While they each have their own particular strengths and weaknesses, each will wo
 
 And the good thing is they all offer free versions with which you can familiarise yourself with each of the solutions and work out which one suits you best.
 
-Of course, we humbly suggest you start by [trying Metro Retro](/login) first. We prioritize fun at Metro Retro, providing teams with all the tools (and templates!) they need to run interactive meetings that are sure to delight participants. So, if you want to drown out the collective groan of your remote employees when they receive a meeting invite with cheers, try Metro Retro [for free](/setup), or check out our [pricing](/pricing) today!
+Of course, we humbly suggest you start by [trying Ludi](/login) first. We prioritize fun at Ludi, providing teams with all the tools (and templates!) they need to run interactive meetings that are sure to delight participants. So, if you want to drown out the collective groan of your remote employees when they receive a meeting invite with cheers, try Ludi [for free](/setup), or check out our [pricing](/pricing) today!

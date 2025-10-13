@@ -11,7 +11,7 @@ const bearer = "7d3383ed-0f0a-4604-9b9b-848e449820bb";
 const anthropic = new Anthropic();
 
 const load = async () => {
-    const response = await fetch("https://metroretro.io/api/v2/templates.list2", {
+    const response = await fetch("https://ludi.co/api/v2/templates.list2", {
         method: "GET",
         headers: {
             Authorization: `Bearer ${bearer}`,
@@ -28,7 +28,7 @@ const generateMetadata = async (tag: string, templates: any[]) => {
         max_tokens: 1024 * 4,
         system: [
             'You are a helpful SEO expert.',
-            'You are helping generate SEO metadata for the application Metro Retro, a collaborative whiteboard tool for dev teams.',
+            'You are helping generate SEO metadata for the application Ludi, a collaborative whiteboard tool for dev teams.',
             'You are given a tag used to categories templates within the application, and the metadata about the templates in this tag',
             'You are to generate a page title, heading (H1) and short description for the tag.',
             'The page title should be 60 characters or less.',
@@ -37,7 +37,7 @@ const generateMetadata = async (tag: string, templates: any[]) => {
             'The description should be not more than 160 chars.',
             'The description should sell our application based on the quality of the templates available in the category.',
             'Prefer "Retrospective" over "Retro".',
-            '| Metro Retro will be appended by the application, so do not include it in the page title.',
+            '| Ludi will be appended by the application, so do not include it in the page title.',
             'Do not use colons (:) or semicolons (;) in the title or heading (H1).',
             'Return a JSON object with the following format: { pageTitle: string, heading: string, description: string }',
         ].join('\n'),

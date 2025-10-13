@@ -14,9 +14,17 @@ import ActionsCommentsMentionsFeatureItem from "~/components/blocks/features/Act
 import PromoteTeamCultureFeatureItem from "~/components/blocks/features/PromoteTeamCultureFeatureItem.astro";
 import FocusedCollaborationFeatureItem from "~/components/blocks/features/FocusedCollaborationFeatureItem.astro";
 import SolutionGrid from "~/components/blocks/SolutionGrid.astro";
+import { pageMeta } from "~/utils";
+
+const seo = await pageMeta({
+  title: "Delivery Managers",
+  description:
+    "Prioritize the work that matters and keep projects on track. Don't get stuck in a feature factory. Through engaged collaboration, drive your teams to shared understanding and align on the project goals that matter most.",
+  image: "~/assets/images/og-images/og-delivery-managers.png",
+});
 ---
 
-<PageLayout title="Delivery Managers">
+<PageLayout {...seo}>
   <SolutionHero
     title="Prioritize the work that matters and keep projects on track."
     description="Don't get stuck in a feature factory. Through engaged collaboration, drive your teams to shared understanding and align on the project goals that matter most."
@@ -43,7 +51,7 @@ import SolutionGrid from "~/components/blocks/SolutionGrid.astro";
   <SolutionLargeItem
     mirror="true"
     title="Bring stakeholders together in a shared space"
-    description="Easily invite team members, guests and external stakeholders to your boards to build cross-team alignment. Metro Retro's intuitive experience means there is no need for extensive onboarding."
+    description="Easily invite team members, guests and external stakeholders to your boards to build cross-team alignment. Ludi's intuitive experience means there is no need for extensive onboarding."
     image="~/assets/images/product-outcomes/bring-stakeholders-together.png"
   />
 

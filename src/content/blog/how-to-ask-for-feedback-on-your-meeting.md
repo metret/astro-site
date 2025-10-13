@@ -6,10 +6,10 @@ image: "~/assets/images/legacy/2023/10/how-to-ask-for-genuine-feedback-on-your-m
 description: "Use a check-out activity at the end of your meeting to get feedback from participants and improve for next time."
 canonicalUrl: "/blog/how-to-ask-for-feedback-on-your-meeting"
 section: "Guides"
-ogUrl: "https://metroretro.io/blog/how-to-ask-for-feedback-on-your-meeting"
-ogSiteName: "Metro Retro"
+ogUrl: "https://ludi.co/blog/how-to-ask-for-feedback-on-your-meeting"
+ogSiteName: "Ludi"
 ogType: "article"
-ogImageUrl: "https://metroretro.io/wp-content/uploads/2023/10/how-to-ask-for-genuine-feedback-on-your-meeting.png"
+ogImageUrl: "https://ludi.co/wp-content/uploads/2023/10/how-to-ask-for-genuine-feedback-on-your-meeting.png"
 ogImageWidth: 1200
 ogImageHeight: 628
 ogImageAlt: "check-out"
@@ -18,9 +18,9 @@ publishedDate: 2023-10-19T15:40:58+00:00
 modifiedDate: 2024-08-12T09:07:06+00:00
 articleSection: "Guides"
 twitterCardType: "summary_large_image"
-twitterTitle: "How To Ask For Genuine Feedback On Your Meeting | Metro Retro"
+twitterTitle: "How To Ask For Genuine Feedback On Your Meeting | Ludi"
 twitterDescription: "Use a check-out activity at the end of your meeting to get feedback from participants and improve for next time."
-twitterImage: "https://metroretro.io/wp-content/uploads/2023/10/how-to-ask-for-genuine-feedback-on-your-meeting.png"
+twitterImage: "https://ludi.co/wp-content/uploads/2023/10/how-to-ask-for-genuine-feedback-on-your-meeting.png"
 authorName: "Jamie Hanratty"
 ---
 
@@ -78,7 +78,7 @@ Teams running a continuous meeting series, like a sprint retrospective, may want
 
 ![An example of a check-out template that asks people to rate the meeting from 1-5.](https://outranking.s3.amazonaws.com/1115372_hanrattyjamie%20gmail/59508455/2023-10-18T15%3A06%3A33.347688_9acec1df-8024-40ca-9cce-d32c0f710498)
 
-Use free template now: [Rate The Meeting 1-5](https://metroretro.io/BOUC9S0GU3E6)
+Use free template now: [Rate The Meeting 1-5](https://ludi.co/BOUC9S0GU3E6)
 
 #### Example ROTI: Treasure
 
@@ -86,7 +86,7 @@ This is an example of using a simple metaphor to elicit feedback. Participants c
 
 ![An example of a check-out template that uses a treasure metaphor for the value of the meeting.](https://outranking.s3.amazonaws.com/1115372_hanrattyjamie%20gmail/59508455/2023-10-18T14%3A59%3A35.165070_81a8d9f3-f778-4726-89f0-c644b40c62a6)
 
-Use free template now: [ROTI Treasure Template](https://metroretro.io/BO8WOI3Z6OPB)
+Use free template now: [ROTI Treasure Template](https://ludi.co/BO8WOI3Z6OPB)
 
 #### Example ROTI: If This Meeting Was A Phone
 
@@ -94,7 +94,7 @@ Another example of using a metaphor to gather feedback on the meeting. Simply as
 
 ![A check-out template comparing the meeting value to a range of phones. (Long live the Nokia 3310!)](../../assets/images/legacy/2023/10/image-4-1024x503.png)
 
-Use free template now: [If This Meeting Was A Phone](https://metroretro.io/BOSDLJH1JTVV)
+Use free template now: [If This Meeting Was A Phone](https://ludi.co/BOSDLJH1JTVV)
 
 ### Gather Feedback: Words On The Door
 
@@ -122,11 +122,11 @@ Another way to make a positive experience is to include a check-out activity wit
 
 The “**Draw a Duck**” activity ask participants to sketch a duck. That’s it.
 
-It is a “light” exercise that is best used in the right context – usually when participants have some energy left, and are in an appropriate mood. Give them two minutes to sketch their best duck, and compare sketches together at the end. Again, you can choose to make this anonymous or not. You could even give a prize (or a forfeit) for the best and worst-voted duck. We did this at Metro Retro HQ in a recent retrospective, and my duck was voted the worst (spot it in the screenshot below). Obviously you can pick any animal or object – perhaps the team has a mascot, or a twist on the company logo?
+It is a “light” exercise that is best used in the right context – usually when participants have some energy left, and are in an appropriate mood. Give them two minutes to sketch their best duck, and compare sketches together at the end. Again, you can choose to make this anonymous or not. You could even give a prize (or a forfeit) for the best and worst-voted duck. We did this at Ludi HQ in a recent retrospective, and my duck was voted the worst (spot it in the screenshot below). Obviously you can pick any animal or object – perhaps the team has a mascot, or a twist on the company logo?
 
-This is what happened when we had a go during a meeting at Metro Retro HQ:
+This is what happened when we had a go during a meeting at Ludi HQ:
 
-![A screenshot of a check-out acitivty in Metro Retro called "Draw a Duck" where participants compete to sketch the best duck.](../../assets/images/legacy/2023/10/Screenshot-2023-10-18-at-18.35.27-1024x638.png)
+![A screenshot of a check-out acitivty in Ludi called "Draw a Duck" where participants compete to sketch the best duck.](../../assets/images/legacy/2023/10/Screenshot-2023-10-18-at-18.35.27-1024x638.png)
 
 ## How To Check-Out At The End Of a Meeting
 
@@ -162,11 +162,11 @@ The tone of your check-out activity should be appropriate for the context, team,
 - How aligned are you with the outcome of the meeting?
 - Is everyone in agreement with the decisions made in the meeting?
 
-## Run your meeting in Metro Retro
+## Run your meeting in Ludi
 
-If you run your meetings virtually, you’ll find 100+ [meeting and workshop templates](/templates) to use for free in Metro Retro, check-out activities included!
+If you run your meetings virtually, you’ll find 100+ [meeting and workshop templates](/templates) to use for free in Ludi, check-out activities included!
 
-[Get started](/setup) with Metro Retro for free today, and make your next meeting the best one this year, with:
+[Get started](/setup) with Ludi for free today, and make your next meeting the best one this year, with:
 
 - 100+ beautifully-illustrated meeting and workshop templates
 - Participants can write stickies in private and share them when they’re ready, using our Private Writing feature!
