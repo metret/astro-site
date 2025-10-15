@@ -1,6 +1,6 @@
 ---
 title: "Ryd - Streamlined Engineering Team Meetings With Ludi"
-description: "How the ryd engineering team streamlined their decision making process by 50% and became more in sync using Ludi."
+description: "ryd is driving the future of in-car payment, building an advanced technological infrastructure for car manufacturers to allow secure payments from the car."
 color: "blue"
 image: "~/assets/images/customers/ryd.png"
 headerLead: "“It's been a big shift for our teams, especially in terms of ease of collaboration.”"
@@ -24,11 +24,6 @@ ogImageAlt: "ryd – Streamlined Engineering Team Meetings with Ludi"
 ogImageType: "image/png"
 publishedDate: 2024-11-26T15:59:15+00:00
 modifiedDate: 2025-01-15T14:49:13+00:00
-articleSection: ""
-twitterCardType: "summary_large_image"
-twitterTitle: "Ryd - Streamlined Engineering Team Meetings With Ludi | Ludi"
-twitterDescription: "ryd is driving the future of in-car payment, building an advanced technological infrastructure for car manufacturers to allow secure payments from the car."
-twitterImage: "https://ludi.co/wp-content/uploads/2024/11/ryd-cs.png"
 ---
 
 [ryd](https://www.ryd.one/) is driving the future of in-car payment, building an advanced technological infrastructure for car manufacturers to allow secure payments from the car. Additionally ryd provides third-party integrations with navigation, app or car-sharing providers, to generate additional target groups. ryd easily adapts to the changing demands of mobility, enabling payments for Fueling, Hydrogen, E-fuels, Washing or Charging.

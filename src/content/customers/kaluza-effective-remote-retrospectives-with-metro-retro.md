@@ -1,6 +1,6 @@
 ---
 title: "Kaluza - Effective Remote Retrospectives With Ludi"
-description: "todo"
+description: "Kaluza is building the technology platform that enables energy utilities to engage their customers in the energy transition and drive decarbonisation."
 color: "purple"
 image: "~/assets/images/customers/kaluza.png"
 headerLead: '"We have better retros now, remotely, than I ever had in person."'
@@ -24,11 +24,6 @@ ogImageAlt: "Kaluza – Effective remote retrospectives with Ludi"
 ogImageType: "image/png"
 publishedDate: 2024-08-07T10:03:07+00:00
 modifiedDate: 2025-01-15T14:47:13+00:00
-articleSection: ""
-twitterCardType: "summary_large_image"
-twitterTitle: "Kaluza - Effective Remote Retrospectives With Ludi | Ludi"
-twitterDescription: "Kaluza is building the technology platform that enables energy utilities to engage their customers in the energy transition and drive decarbonisation."
-twitterImage: "https://ludi.co/wp-content/uploads/2024/08/kaluza-cs.png"
 ---
 
 ## Kaluza – building the energy tech platform

@@ -1,6 +1,6 @@
 ---
 title: "XITASO"
-description: "todo"
+description: "XITASO is a high-end software engineering and consulting company that specializes in developing and implementing digital solutions for businesses. Their"
 color: "blue"
 image: "~/assets/images/customers/xitaso.png"
 headerLead: "“Ludi has transformed our client workshops”"
@@ -24,11 +24,6 @@ ogImageAlt: "XITASO"
 ogImageType: "image/png"
 publishedDate: 2024-06-17T11:39:37+00:00
 modifiedDate: 2025-01-15T14:49:39+00:00
-articleSection: ""
-twitterCardType: "summary_large_image"
-twitterTitle: "XITASO | Ludi"
-twitterDescription: "XITASO is a high-end software engineering and consulting company that specializes in developing and implementing digital solutions for businesses. Their"
-twitterImage: "https://ludi.co/wp-content/uploads/2024/06/xitaso-cs-2.png"
 ---
 
 ## About XITASO

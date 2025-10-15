@@ -27,11 +27,6 @@ const blog = defineCollection({
         ogImageType: z.string(),
         publishedDate: z.date(),
         modifiedDate: z.date(),
-        // articleSection: z.string(),
-        // twitterCardType: z.string(),
-        // twitterTitle: z.string(),
-        // twitterDescription: z.string(),
-        // twitterImage: z.string(),
         authorName: z.string(),
     }),
 });

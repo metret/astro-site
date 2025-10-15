@@ -1,6 +1,6 @@
 ---
 title: "EAT Club - Building On A Strong Agile Culture With Ludi"
-description: "todo"
+description: "Discover how EAT Club are using Ludi for remote collaboration and asynchronous working, helping them to build their strong agile culture."
 color: "orange"
 image: "~/assets/images/customers/eatclub.png"
 headerLead: "“We now have much higher engagement in our retros”"
@@ -24,11 +24,6 @@ ogImageAlt: "EAT Club – Building on a strong agile culture with Ludi"
 ogImageType: "image/png"
 publishedDate: 2024-06-03T11:27:53+00:00
 modifiedDate: 2025-01-15T14:44:24+00:00
-articleSection: ""
-twitterCardType: "summary_large_image"
-twitterTitle: "EAT Club - Building On A Strong Agile Culture With Ludi | Ludi"
-twitterDescription: "Discover how EAT Club are using Ludi for remote collaboration and asynchronous working, helping them to build their strong agile culture."
-twitterImage: "https://ludi.co/wp-content/uploads/2024/06/eat-cs.png"
 ---
 
 ## Company Overview

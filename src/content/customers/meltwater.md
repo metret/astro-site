@@ -1,6 +1,6 @@
 ---
 title: "Meltwater - Removing The Barriers For Distributed Teams To Work Together"
-description: "todo"
+description: "Learn why Ludi is the collaboration tool of choice for 500+ engineers at Meltwater."
 color: "green"
 image: "~/assets/images/customers/meltwater.png"
 headerLead: "“Ludi solves the barriers for distributed teams to work together”"
@@ -24,11 +24,6 @@ ogImageAlt: "Meltwater – Removing the barriers for distributed teams to work t
 ogImageType: "image/png"
 publishedDate: 2024-06-24T14:09:09+00:00
 modifiedDate: 2025-01-15T14:48:44+00:00
-articleSection: ""
-twitterCardType: "summary_large_image"
-twitterTitle: "Meltwater - Removing The Barriers For Distributed Teams To Work Together | Ludi"
-twitterDescription: "Learn why Ludi is the collaboration tool of choice for 500+ engineers at Meltwater."
-twitterImage: "https://ludi.co/wp-content/uploads/2024/06/meltwater-cs-1.png"
 ---
 
 ## Meltwater: Uncovering media, social, and consumer insights for 27,000 customers

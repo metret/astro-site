@@ -1,6 +1,6 @@
 ---
 title: "Gear4music - How Gear4Music Uses Ludi To Keep Their Engineering Teams Working In Harmony"
-description: "todo"
+description: "See how Gear4Music uses Ludi to keep their engineering teams working in harmony."
 color: "orange"
 image: "~/assets/images/customers/gear.png"
 headerLead: "“Our teams express themselves in a way I've never seen before"
@@ -24,11 +24,6 @@ ogImageAlt: "Gear4music – How Gear4Music uses Ludi to keep their engineering t
 ogImageType: "image/png"
 publishedDate: 2024-06-24T14:13:50+00:00
 modifiedDate: 2025-01-15T14:46:03+00:00
-articleSection: ""
-twitterCardType: "summary_large_image"
-twitterTitle: "Gear4music - How Gear4Music Uses Ludi To Keep Their Engineering Teams Working In Harmony | Ludi"
-twitterDescription: "See how Gear4Music uses Ludi to keep their engineering teams working in harmony."
-twitterImage: "https://ludi.co/wp-content/uploads/2024/06/gear-cs.png"
 ---
 
 ## Setting the scene

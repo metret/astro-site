@@ -1,6 +1,6 @@
 ---
 title: "Kayak"
-description: "todo"
+description: "Learn how Kayak solved their remote collaboration issues with Ludi."
 color: "orange"
 image: "~/assets/images/customers/kayak.png"
 headerLead: '"It helps us remove blockers and create shared understanding amongst the team"'
@@ -24,11 +24,6 @@ ogImageAlt: "Kayak"
 ogImageType: "image/png"
 publishedDate: 2024-09-19T12:21:27+00:00
 modifiedDate: 2025-01-15T14:47:41+00:00
-articleSection: ""
-twitterCardType: "summary_large_image"
-twitterTitle: "Kayak | Ludi"
-twitterDescription: "Learn how Kayak solved their remote collaboration issues with Ludi."
-twitterImage: "https://ludi.co/wp-content/uploads/2024/09/kayak-cs-1.png"
 ---
 
 ## Helping people experience the world through travel.

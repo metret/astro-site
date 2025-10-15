@@ -1,6 +1,6 @@
 ---
 title: "Lucca - Scaling Company Culture During 10x Growth"
-description: "todo"
+description: "In a fast-growing company with distributed teams, how do you maintain your culture that has been key to the company success?"
 color: "purple"
 image: "~/assets/images/customers/lucca.png"
 headerLead: "How Ludi Helped Lucca.fr Scale Their Company Culture Through 10x Growth"
@@ -24,11 +24,6 @@ ogImageAlt: "Lucca – Scaling Company Culture During 10x Growth"
 ogImageType: "image/png"
 publishedDate: 2024-06-03T12:59:51+00:00
 modifiedDate: 2025-01-15T14:48:12+00:00
-articleSection: ""
-twitterCardType: "summary_large_image"
-twitterTitle: "Lucca - Scaling Company Culture During 10x Growth | Ludi"
-twitterDescription: "In a fast-growing company with distributed teams, how do you maintain your culture that has been key to the company success?"
-twitterImage: "https://ludi.co/wp-content/uploads/2024/06/lucca-cs-1.png"
 ---
 
 In a fast-growing company with distributed teams, how do you maintain your culture that has been key to the company success?

@@ -29,7 +29,7 @@ content:
     type: collection
     path: src/content/customers
     view:
-      fields: [ title, companyName, sort ]
+      fields: [title, companyName, sort]
     fields:
       - { name: title, label: Title, type: string, required: true }
       - { name: description, label: Description, type: text }
@@ -56,11 +56,6 @@ content:
       - { name: ogImageType, label: OG Image Type, type: string }
       - { name: publishedDate, label: Published Date, type: date }
       - { name: modifiedDate, label: Modified Date, type: date }
-      - { name: articleSection, label: Article Section, type: string }
-      - { name: twitterCardType, label: Twitter Card Type, type: string }
-      - { name: twitterTitle, label: Twitter Title, type: string }
-      - { name: twitterDescription, label: Twitter Description, type: text }
-      - { name: twitterImage, label: Twitter Image, type: image }
       - { name: body, label: Body, type: rich-text }
   - name: templates
     label: Templates
