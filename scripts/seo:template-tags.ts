@@ -82,8 +82,6 @@ const main = async () => {
         results.push({ tag: { label: t, slug: kebabCase(t as string).toLowerCase() }, ...result });
     }
 
-
-
     // Write to file
     fs.writeFileSync("./data/template-tags.json", JSON.stringify(results, null, 2));
 

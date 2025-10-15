@@ -2,23 +2,10 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import Anthropic from '@anthropic-ai/sdk';
 import fs from 'fs';
-import { kebabCase } from "change-case";
-import slugify from "slugify";
 
 const bearer = "7d3383ed-0f0a-4604-9b9b-848e449820bb";
 
 const anthropic = new Anthropic();
-
-const load = async () => {
-    const response = await fetch("https://ludi.co/api/v2/templates.list2", {
-        method: "GET",
-        headers: {
-            Authorization: `Bearer ${bearer}`,
-        },
-    });
-
-    return await response.json();
-};
 
 const loadSnapshot = async (templateId: string) => {
     const response = await fetch(`https://ludi.co/api/v2/templates.snapshot?boardId=${templateId}`, {
@@ -29,26 +16,6 @@ const loadSnapshot = async (templateId: string) => {
     });
 
     return await response.json();
-};
-
-const slugifyAliases = (templates: Record<string, any>[]) => {
-    for (const tmpl of templates) {
-        tmpl.alias = slugify(tmpl.alias, { lower: true });
-        // Remove )
-        tmpl.alias = tmpl.alias.replace(/\)/g, '');
-        // Remove (
-        tmpl.alias = tmpl.alias.replace(/\(/g, '');
-        // Remove :
-        tmpl.alias = tmpl.alias.replace(/:/g, '');
-    }
-};
-
-const kebabizeTags = (templates: Record<string, any>[]) => {
-    for (const tmpl of templates) {
-        for (const tag of tmpl.tags) {
-            tag.name = kebabCase(tag.name).toLowerCase();
-        }
-    }
 };
 
 const generateArticle = async (tmpl: Record<string, any>) => {
@@ -134,7 +101,7 @@ Your writing should sound like it comes from a knowledgeable colleague who respe
     const existingCopy = fs.existsSync(filePath) ? fs.readFileSync(filePath, "utf8") : 'None';
 
     const msg = await anthropic.messages.create({
-        model: "claude-3-7-sonnet-20250219",
+        model: "claude-sonnet-4-5-20250929",
         max_tokens: 1024 * 2,
         system: [
             'You are a helpful copy writer, knowledgable in SEO and agile methodologies.',
@@ -163,138 +130,38 @@ Your writing should sound like it comes from a knowledgeable colleague who respe
     }
 };
 
-const generateTitles = async (templates: any[]) => {
-
-    const data = templates.map((t: any) => [t.alias, t.label, t.tags[0]?.label, t.tags[1]?.label, t.tags[2]?.label]);
-
-    const results = [] as any[];
-
-    const processBlock = async (items: any[]) => {
-
-        const itemsWithHeader = [
-            ["alias", "label", "tag1", "tag2", "tag3"],
-            ...items
-        ];
-
-        const csv = itemsWithHeader.map(row => row.map((x: any) => `"${x}"`).join(",")).join("\n");
-
-        const msg = await anthropic.messages.create({
-            model: "claude-3-7-sonnet-20250219",
-            max_tokens: 1024 * 4,
-            system: [
-                'You are a helpful SEO expert.',
-                'You are helping generate SEO metadata for the application Ludi, a collaborative whiteboard tool for dev teams.',
-                'You are given a list of templates and their tags.',
-                'You are to generate a page title for each template\'s respective website page.',
-                'The title should be 60 characters or less.',
-                'The title should be SEO friendly.',
-                'Prefer "Retrospective" over "Retro".',
-                '| Ludi will be appended by the application, so do not include it in the title.',
-                'Where the title doesn\'t indicate the template type, add the type to the title.',
-                'Where the title uses /, replace with comma or format nicely.',
-                'If the existing title starts with "The", do not omit it.',
-                'Do not use colons (:) or semicolons (;) in the title.',
-                'Return a JSON array of objects with the following format: { alias: string, title: string }',
-            ].join('\n'),
-            messages: [
-                { role: "user", content: csv }
-            ],
-        });
-
-        if (msg.content[0].type === 'text') {
-
-            // Handle ```JSON
-            const text = msg.content[0].text;
-
-            const json = text.replace(/^```json\n/, '').replace(/\n```$/, '');
-
-            results.push(...JSON.parse(json));
-        } else {
-            console.error('Unexpected message content type:', msg.content[0]);
-        }
-    }
-
-    // Look in blocks of 40
-    const bs = 40;
-
-    for (let i = 0; i < data.length; i += bs) {
-        console.log(`Processing block ${i / bs + 1} of ${Math.ceil(data.length / bs)}`);
-        await processBlock(data.slice(i, i + bs));
-    }
-
-    // Check all items have results
-    const missing = data.filter((x: any) => !results.find((y: any) => y.alias === x[0]));
-
-    if (missing.length > 0) {
-        console.log(`Processing ${missing.length} missing items`);
-        await processBlock(missing);
-    }
-
-    return results;
-}
-
 const main = async () => {
-    const templates = await load();
+    // Load templates from local file
+    console.log('Loading templates from data/templates.json...');
+    const templates = JSON.parse(fs.readFileSync('./data/templates.json', 'utf8'));
 
-    slugifyAliases(templates);
-    kebabizeTags(templates);
-
-    // Only process templates that don't already have a seoTitle
-    const templatesNeedingTitles = templates.filter((t: any) => !t.seoTitle);
-
-    let seoTitles: any[] = [];
-
-    if (templatesNeedingTitles.length > 0) {
-        console.log(`Generating titles for ${templatesNeedingTitles.length} templates without existing seoTitle`);
-        for (const tmpl of templatesNeedingTitles) {
-            console.log(`-> ${tmpl.alias}`);
-        }
-
-        seoTitles = await generateTitles(templatesNeedingTitles);
-    } else {
-        console.log('All templates already have seoTitle, skipping title generation');
-    }
-
-    // Match up the titles with the templates, preserving existing seoTitle values
-    const matched = templates.map((t: any) => {
-        const existingTitle = t.seoTitle;
-
-        const newTitle = seoTitles.find((x: any) => x.alias === t.alias)?.title;
-
-        const finalTitle = existingTitle || newTitle || t.alias;
-
-        return {
-            ...t,
-            seoTitle: existingTitle || newTitle,
-            seoSlug: slugify(finalTitle, { lower: true }),
-        };
-    });
-
-    // Write to file
-    fs.writeFileSync("./data/templates.json", JSON.stringify(matched, null, 2));
+    let generatedCount = 0;
+    let skippedCount = 0;
 
     for (const tmpl of templates) {
-        console.log(`Processing articles for ${tmpl.alias}`);
+        console.log(`Processing article for ${tmpl.alias}`);
 
         const contentPath = `./src/content/templates/${tmpl.alias}.md`;
 
         if (fs.existsSync(contentPath) && !process.argv.includes('--force')) {
             console.log(`Skipping ${tmpl.alias} because it already exists`);
+            skippedCount++;
         }
         else {
             const content = await generateArticle(tmpl);
 
             if (content) {
                 fs.writeFileSync(contentPath, content);
+                generatedCount++;
+                console.log(`✓ Generated article for ${tmpl.alias}`);
             }
 
             // Wait for 30 seconds, b/c of rate limits on the API
             await new Promise(resolve => setTimeout(resolve, 30000));
         }
-
-
     }
 
+    console.log(`\n✓ Complete! Generated ${generatedCount} articles, skipped ${skippedCount} existing articles`);
 };
 
 main();

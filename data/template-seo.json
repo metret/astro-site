@@ -1,0 +1,577 @@
+[
+  {
+    "templateId": "c4c90933-6c82-48bc-a77c-582c0cdd68b4",
+    "seoTitle": "The Sailboat Retrospective Template for Dev Teams",
+    "seoSlug": "the-sailboat-retrospective-template-for-dev-teams"
+  },
+  {
+    "templateId": "65a1f028-9f55-4e64-bf7f-58f97b232b45",
+    "seoTitle": "Back 2 School Retrospective Template",
+    "seoSlug": "back-2-school-retrospective-template"
+  },
+  {
+    "templateId": "1a8ac86e-9b42-4b85-8ce4-d097730787fe",
+    "seoTitle": "The Hot Air Balloon Retrospective Template",
+    "seoSlug": "the-hot-air-balloon-retrospective-template"
+  },
+  {
+    "templateId": "62001c9b-c685-46a5-83ce-cbebdd0f4a66",
+    "seoTitle": "The Speed Car Retrospective Template",
+    "seoSlug": "the-speed-car-retrospective-template"
+  },
+  {
+    "templateId": "47ba3fed-ab74-4a3d-993a-cfeafd9c8d26",
+    "seoTitle": "The Speed Car & The Abyss Retrospective Template",
+    "seoSlug": "the-speed-car-and-the-abyss-retrospective-template"
+  },
+  {
+    "templateId": "1eeccd85-62d0-4b0a-a74e-6d87101ff75d",
+    "seoTitle": "The Good, The Bad, And The Ugly Retrospective",
+    "seoSlug": "the-good-the-bad-and-the-ugly-retrospective"
+  },
+  {
+    "templateId": "d61052e7-c1b1-4158-acfb-36996f99fa51",
+    "seoTitle": "Good, Bad, Start, Stop Retrospective Template",
+    "seoSlug": "good-bad-start-stop-retrospective-template"
+  },
+  {
+    "templateId": "90317c39-6a36-4c06-814a-981b8f5fabd9",
+    "seoTitle": "Drop, Add, Keep, Improve Retrospective Template",
+    "seoSlug": "drop-add-keep-improve-retrospective-template"
+  },
+  {
+    "templateId": "cc0eb453-8efb-4210-889a-2a3f5ffd3560",
+    "seoTitle": "Glad, Mad, Sad Retrospective Template",
+    "seoSlug": "glad-mad-sad-retrospective-template"
+  },
+  {
+    "templateId": "0b17ac45-f563-482e-a0f8-2a63439dfd67",
+    "seoTitle": "Energy Insights Retrospective Template",
+    "seoSlug": "energy-insights-retrospective-template"
+  },
+  {
+    "templateId": "be792a0e-36b1-42b4-b47c-b2d24daf0656",
+    "seoTitle": "Draw Our Sprint Retrospective Template",
+    "seoSlug": "draw-our-sprint-retrospective-template"
+  },
+  {
+    "templateId": "ab5d0251-5d98-49d8-bde5-0daf08424c34",
+    "seoTitle": "Three Little Pigs Retrospective Template",
+    "seoSlug": "three-little-pigs-retrospective-template"
+  },
+  {
+    "templateId": "d0327399-8264-4003-8186-9dd3c4bdc642",
+    "seoTitle": "The Boxing Ring Retrospective Template",
+    "seoSlug": "the-boxing-ring-retrospective-template"
+  },
+  {
+    "templateId": "19d08110-5882-429a-ac7a-b4b8232edfed",
+    "seoTitle": "Joy, Fear, Excitement Retrospective Template",
+    "seoSlug": "joy-fear-excitement-retrospective-template"
+  },
+  {
+    "templateId": "c0f37a8c-4a7f-423b-8148-ff1d2ca541db",
+    "seoTitle": "Hero's Journey Retrospective Template",
+    "seoSlug": "hero's-journey-retrospective-template"
+  },
+  {
+    "templateId": "bed24dc0-ec9e-412b-a25f-8029fa60da89",
+    "seoTitle": "Ishakawa Diagram Fishbone Retrospective Template",
+    "seoSlug": "ishakawa-diagram-fishbone-retrospective-template"
+  },
+  {
+    "templateId": "2e8edb00-01d1-4577-baf9-df2257b85428",
+    "seoTitle": "Timeline Retrospective Template",
+    "seoSlug": "timeline-retrospective-template"
+  },
+  {
+    "templateId": "58246001-8cf7-4151-b5b4-7ba566da6a32",
+    "seoTitle": "Fibonacci Estimation Template for Dev Teams",
+    "seoSlug": "fibonacci-estimation-template-for-dev-teams"
+  },
+  {
+    "templateId": "f379c26f-779e-4e01-acf1-1078b2dd1cc7",
+    "seoTitle": "T-Shirt Estimation Template for Dev Teams",
+    "seoSlug": "t-shirt-estimation-template-for-dev-teams"
+  },
+  {
+    "templateId": "f8b6a198-9dfa-46b1-9e8e-2d2527119914",
+    "seoTitle": "Sprint Planning Template for Agile Teams",
+    "seoSlug": "sprint-planning-template-for-agile-teams"
+  },
+  {
+    "templateId": "479dc0ef-ece9-45d3-9ed1-940d3ad435e2",
+    "seoTitle": "Easter Egg Dash Ice Breaker Activity",
+    "seoSlug": "easter-egg-dash-ice-breaker-activity"
+  },
+  {
+    "templateId": "31ab7372-edb2-433c-9be8-d64299fae033",
+    "seoTitle": "Timeline Retrospective with Team Mood Template",
+    "seoSlug": "timeline-retrospective-with-team-mood-template"
+  },
+  {
+    "templateId": "b2c060a8-4b01-4ed4-a5c0-7f000895a10a",
+    "seoTitle": "Easter Egg Dash for Large Teams Ice Breaker",
+    "seoSlug": "easter-egg-dash-for-large-teams-ice-breaker"
+  },
+  {
+    "templateId": "4aa00b44-3047-4b7e-976d-b160099d073d",
+    "seoTitle": "Rose, Thorn & Bud Check-in Template",
+    "seoSlug": "rose-thorn-and-bud-check-in-template"
+  },
+  {
+    "templateId": "22b75f92-3c50-4f18-9f01-be1ca320616b",
+    "seoTitle": "Mood Thermometer Retrospective Template",
+    "seoSlug": "mood-thermometer-retrospective-template"
+  },
+  {
+    "templateId": "50b51b7e-8b60-4f75-8021-8938d937cd61",
+    "seoTitle": "Draw Your Sprint Retrospective Template",
+    "seoSlug": "draw-your-sprint-retrospective-template"
+  },
+  {
+    "templateId": "68f5e0f9-40a5-4835-a3fc-6bcfa9ae219c",
+    "seoTitle": "Elephant in the Room Retrospective Template",
+    "seoSlug": "elephant-in-the-room-retrospective-template"
+  },
+  {
+    "templateId": "b64071f7-6d51-46c9-8951-98adbe578b23",
+    "seoTitle": "Genie in a Bottle Retrospective Template",
+    "seoSlug": "genie-in-a-bottle-retrospective-template"
+  },
+  {
+    "templateId": "3fde2fab-c401-48d2-91c3-de5f95ba7c20",
+    "seoTitle": "Hopes & Concerns Retrospective Template",
+    "seoSlug": "hopes-and-concerns-retrospective-template"
+  },
+  {
+    "templateId": "ca9eb723-634b-4229-bf87-8c8d2c719b22",
+    "seoTitle": "I Like, I Wish Retrospective Template",
+    "seoSlug": "i-like-i-wish-retrospective-template"
+  },
+  {
+    "templateId": "8c782beb-8c99-4a8e-a6c7-3c1623cd5d48",
+    "seoTitle": "I Like, I Wish, What If Retrospective Template",
+    "seoSlug": "i-like-i-wish-what-if-retrospective-template"
+  },
+  {
+    "templateId": "6e09463b-be3d-48d2-83a2-3777839714c9",
+    "seoTitle": "Incident Post-Mortem Template for Dev Teams",
+    "seoSlug": "incident-post-mortem-template-for-dev-teams"
+  },
+  {
+    "templateId": "4aa2a651-007c-4ec7-99a7-900249f65254",
+    "seoTitle": "KALM - Keep, Add, Less, More Retrospective",
+    "seoSlug": "kalm-keep-add-less-more-retrospective"
+  },
+  {
+    "templateId": "b8266514-f5c2-4f87-81e9-4daae45726d5",
+    "seoTitle": "Keep, Problems, Try Retrospective Template",
+    "seoSlug": "keep-problems-try-retrospective-template"
+  },
+  {
+    "templateId": "9709f215-920f-4e0c-8bde-31b6df0458cc",
+    "seoTitle": "Liked, Learned, Lacked, Longed For Retrospective",
+    "seoSlug": "liked-learned-lacked-longed-for-retrospective"
+  },
+  {
+    "templateId": "fc57183a-c2b4-4132-bc11-332e4e824c6a",
+    "seoTitle": "Niko Niko Calendar Retrospective Template",
+    "seoSlug": "niko-niko-calendar-retrospective-template"
+  },
+  {
+    "templateId": "bb5f440e-749c-4eb8-982e-c1a29426ba07",
+    "seoTitle": "On The Radar Meeting & Workshop Template",
+    "seoSlug": "on-the-radar-meeting-and-workshop-template"
+  },
+  {
+    "templateId": "3c7f7b05-0bad-413b-ad04-89db0d16454b",
+    "seoTitle": "Open The Box Retrospective Template",
+    "seoSlug": "open-the-box-retrospective-template"
+  },
+  {
+    "templateId": "f5732ccf-a536-44ba-8abd-c7dd37290e27",
+    "seoTitle": "Plus Delta Retrospective Template",
+    "seoSlug": "plus-delta-retrospective-template"
+  },
+  {
+    "templateId": "eed20050-b7f2-41ac-a01d-74ece13b9179",
+    "seoTitle": "Plus, Minus, Interesting Retrospective Template",
+    "seoSlug": "plus-minus-interesting-retrospective-template"
+  },
+  {
+    "templateId": "1d4aa376-d761-4c08-911c-9d33160d4897",
+    "seoTitle": "Risk-Taking Retrospective Template",
+    "seoSlug": "risk-taking-retrospective-template"
+  },
+  {
+    "templateId": "d1bc0cf4-c13c-4e0c-ab03-d52a18e4d232",
+    "seoTitle": "Scrum Values Assessment Template",
+    "seoSlug": "scrum-values-assessment-template"
+  },
+  {
+    "templateId": "9b995e19-4745-4d02-b9b7-6f5e5caffaf7",
+    "seoTitle": "Start, Stop, Continue Retrospective Template",
+    "seoSlug": "start-stop-continue-retrospective-template"
+  },
+  {
+    "templateId": "e9cb28bb-4726-4a46-8827-a6c8d3a96c82",
+    "seoTitle": "The Awards Ceremony Retrospective Template",
+    "seoSlug": "the-awards-ceremony-retrospective-template"
+  },
+  {
+    "templateId": "07c49324-f764-4c99-80c3-42d8be64d683",
+    "seoTitle": "Team Skills Assessment Retrospective Template",
+    "seoSlug": "team-skills-assessment-retrospective-template"
+  },
+  {
+    "templateId": "4811861a-66f6-408a-82f0-795216eb0f0a",
+    "seoTitle": "Thanksgiving Retrospective Template",
+    "seoSlug": "thanksgiving-retrospective-template"
+  },
+  {
+    "templateId": "74a96401-963a-41dc-aef1-5cecf7bd79f6",
+    "seoTitle": "The Superhero Retrospective Template",
+    "seoSlug": "the-superhero-retrospective-template"
+  },
+  {
+    "templateId": "885bc9d6-0e29-48e6-8af8-ecb2251fabb1",
+    "seoTitle": "The Starfish Retrospective Template",
+    "seoSlug": "the-starfish-retrospective-template"
+  },
+  {
+    "templateId": "117ad864-767d-4edf-9c46-c35722a4ce1a",
+    "seoTitle": "Thumbs, New Ideas & Recognition Retrospective",
+    "seoSlug": "thumbs-new-ideas-and-recognition-retrospective"
+  },
+  {
+    "templateId": "c22442fe-c72e-4215-ab24-bd7eca6d88c5",
+    "seoTitle": "Worked Well, Kinda, Didn't Retrospective Template",
+    "seoSlug": "worked-well-kinda-didn't-retrospective-template"
+  },
+  {
+    "templateId": "843c7537-0e63-4418-a67a-d7b1cf471df1",
+    "seoTitle": "Weather Report Retrospective Template",
+    "seoSlug": "weather-report-retrospective-template"
+  },
+  {
+    "templateId": "b43bb2fb-d58d-4957-ab35-8b13feb231ca",
+    "seoTitle": "WRAP Retrospective Template",
+    "seoSlug": "wrap-retrospective-template"
+  },
+  {
+    "templateId": "db28c8f2-1d37-40b0-ab21-669495ed9eec",
+    "seoTitle": "Waste Snake Retrospective Template",
+    "seoSlug": "waste-snake-retrospective-template"
+  },
+  {
+    "templateId": "d55bb744-c707-409c-b872-b8a40cf34ec3",
+    "seoTitle": "5 Whys Focused Retrospective Template",
+    "seoSlug": "5-whys-focused-retrospective-template"
+  },
+  {
+    "templateId": "8d502a7d-7e9a-4fde-b2fd-59e133345a38",
+    "seoTitle": "Easter Retrospective Template",
+    "seoSlug": "easter-retrospective-template"
+  },
+  {
+    "templateId": "474ae343-77d3-47ef-9f1a-0332f0951d64",
+    "seoTitle": "The Big Christmas Retrospective Template",
+    "seoSlug": "the-big-christmas-retrospective-template"
+  },
+  {
+    "templateId": "ab9b7e1c-146f-405a-b1e5-982f38f298cd",
+    "seoTitle": "Trick or Treat Futurespective Template",
+    "seoSlug": "trick-or-treat-futurespective-template"
+  },
+  {
+    "templateId": "05733c08-64e0-4ac0-9236-73655c6337aa",
+    "seoTitle": "Tigers, Paper Tigers, And Elephants Futurespective",
+    "seoSlug": "tigers-paper-tigers-and-elephants-futurespective"
+  },
+  {
+    "templateId": "5aaf2638-f6f2-4998-be22-2efb8fb4eae5",
+    "seoTitle": "Graveyard of Gloom Futurespective Template",
+    "seoSlug": "graveyard-of-gloom-futurespective-template"
+  },
+  {
+    "templateId": "94de9237-ac48-4892-8689-3c145648d28c",
+    "seoTitle": "RAID Analysis Futurespective Template",
+    "seoSlug": "raid-analysis-futurespective-template"
+  },
+  {
+    "templateId": "14449782-6d0b-424a-bcdc-79c800c2a832",
+    "seoTitle": "Story Mapping Planning Template",
+    "seoSlug": "story-mapping-planning-template"
+  },
+  {
+    "templateId": "1545acf7-8512-4b25-853d-985b121aef3e",
+    "seoTitle": "MoSCoW Prioritization Template for Agile Planning",
+    "seoSlug": "moscow-prioritization-template-for-agile-planning"
+  },
+  {
+    "templateId": "116deb95-6e46-4b12-a303-94f4db04efc4",
+    "seoTitle": "Lean Prioritization Matrix Planning Template",
+    "seoSlug": "lean-prioritization-matrix-planning-template"
+  },
+  {
+    "templateId": "8781db41-5ad5-489a-9912-8e1def700e55",
+    "seoTitle": "Timeline Roadmap Planning Template",
+    "seoSlug": "timeline-roadmap-planning-template"
+  },
+  {
+    "templateId": "4b769b5d-0b6f-4511-a5a5-d5a597dedf49",
+    "seoTitle": "Now-Next-Later Product Roadmap Template",
+    "seoSlug": "now-next-later-product-roadmap-template"
+  },
+  {
+    "templateId": "cd3ae058-6218-439e-ba66-1e41b4d83686",
+    "seoTitle": "Goal-Oriented Product Roadmap Template",
+    "seoSlug": "goal-oriented-product-roadmap-template"
+  },
+  {
+    "templateId": "cef0dea7-5400-4feb-b047-863ed1199e4e",
+    "seoTitle": "Monthly Calendar Planner Template",
+    "seoSlug": "monthly-calendar-planner-template"
+  },
+  {
+    "templateId": "65deac4d-3ce8-42b0-ad2e-c337af39d0a8",
+    "seoTitle": "Operational Task Planner Template",
+    "seoSlug": "operational-task-planner-template"
+  },
+  {
+    "templateId": "2214c014-4f80-4041-b0f0-4b5937781d14",
+    "seoTitle": "Lean Canvas Business Model Template",
+    "seoSlug": "lean-canvas-business-model-template"
+  },
+  {
+    "templateId": "a269780a-64eb-48f5-abd7-5859a67af039",
+    "seoTitle": "SWOT Analysis Planning Template",
+    "seoSlug": "swot-analysis-planning-template"
+  },
+  {
+    "templateId": "26a34f61-4b33-400c-b969-7dd008ae286d",
+    "seoTitle": "Eisenhower Priority Box Template",
+    "seoSlug": "eisenhower-priority-box-template"
+  },
+  {
+    "templateId": "c4045fab-184c-41f2-abdc-d23b07899229",
+    "seoTitle": "OKRs Planning Template",
+    "seoSlug": "okrs-planning-template"
+  },
+  {
+    "templateId": "4a1098e9-838a-4400-833c-4bd8c34ae257",
+    "seoTitle": "One Page Test Plan Template",
+    "seoSlug": "one-page-test-plan-template"
+  },
+  {
+    "templateId": "f8248023-4ad3-4160-b0a7-bebc9f4eb6f9",
+    "seoTitle": "Product Backlog Planning Template",
+    "seoSlug": "product-backlog-planning-template"
+  },
+  {
+    "templateId": "d84dde3c-3db3-41ae-87ba-d2e20c77f70b",
+    "seoTitle": "Simple Kanban Board Template",
+    "seoSlug": "simple-kanban-board-template"
+  },
+  {
+    "templateId": "805e09aa-e507-4d66-8dc1-333de0cc1155",
+    "seoTitle": "Feature Prioritisation Grid Template",
+    "seoSlug": "feature-prioritisation-grid-template"
+  },
+  {
+    "templateId": "a6a7b4ed-4fca-40eb-bfe8-2a5f6ca343ca",
+    "seoTitle": "User Personas Template for Product Teams",
+    "seoSlug": "user-personas-template-for-product-teams"
+  },
+  {
+    "templateId": "55c36075-b0b4-465d-aaa5-960ce2540e20",
+    "seoTitle": "Empathy Map Product Management Template",
+    "seoSlug": "empathy-map-product-management-template"
+  },
+  {
+    "templateId": "1db8f4f1-c538-46d8-9b98-ae6b581f2529",
+    "seoTitle": "Value Proposition Canvas Template",
+    "seoSlug": "value-proposition-canvas-template"
+  },
+  {
+    "templateId": "bdd4b00f-9d7c-4943-ad9f-1f16a9958fa7",
+    "seoTitle": "User Journey Mapping Template",
+    "seoSlug": "user-journey-mapping-template"
+  },
+  {
+    "templateId": "1329cd33-409d-4a95-a9ef-ef2d4429382e",
+    "seoTitle": "Simple Product Vision Board Template for Strategy Planning",
+    "seoSlug": "simple-product-vision-board-template-for-strategy-planning"
+  },
+  {
+    "templateId": "8b9482f2-51dc-4f84-b89b-68b3e7241eb2",
+    "seoTitle": "Extended Product Vision Board Template for Planning",
+    "seoSlug": "extended-product-vision-board-template-for-planning"
+  },
+  {
+    "templateId": "e4f4f64e-50f0-4ebe-a24c-0249f6c0a4d0",
+    "seoTitle": "Opportunity Solution Tree for Product Strategy",
+    "seoSlug": "opportunity-solution-tree-for-product-strategy"
+  },
+  {
+    "templateId": "ee8449af-8436-4d70-8d81-82d03353584d",
+    "seoTitle": "Impact Map Template for Product Goal Planning",
+    "seoSlug": "impact-map-template-for-product-goal-planning"
+  },
+  {
+    "templateId": "51f279bb-83bb-4115-804f-ef0c63b87af2",
+    "seoTitle": "Experiment Planner Template for Product Testing",
+    "seoSlug": "experiment-planner-template-for-product-testing"
+  },
+  {
+    "templateId": "01e682cd-6440-4f52-b1fa-3e0608e196aa",
+    "seoTitle": "Lean Coffee Meeting Template for Structured Discussions",
+    "seoSlug": "lean-coffee-meeting-template-for-structured-discussions"
+  },
+  {
+    "templateId": "7a1cdad9-b207-427b-9f73-b200e056a355",
+    "seoTitle": "Definition of Done Template for Clear Project Completion",
+    "seoSlug": "definition-of-done-template-for-clear-project-completion"
+  },
+  {
+    "templateId": "68b2cd98-3a03-4050-b517-9c6db47de077",
+    "seoTitle": "Simple Team Canvas Template for Team Alignment",
+    "seoSlug": "simple-team-canvas-template-for-team-alignment"
+  },
+  {
+    "templateId": "dc5a2fac-ace8-48d0-b4a8-f5292167f243",
+    "seoTitle": "Team Canvas Template for Comprehensive Team Building",
+    "seoSlug": "team-canvas-template-for-comprehensive-team-building"
+  },
+  {
+    "templateId": "78ed3eec-dc66-4a79-aa9d-8a1e3a59f8d8",
+    "seoTitle": "RACI Matrix Template for Project Responsibility Mapping",
+    "seoSlug": "raci-matrix-template-for-project-responsibility-mapping"
+  },
+  {
+    "templateId": "107c6f72-25a7-4f4e-b37f-89e3c3dbab10",
+    "seoTitle": "Stakeholder Mapping Template for Engagement Planning",
+    "seoSlug": "stakeholder-mapping-template-for-engagement-planning"
+  },
+  {
+    "templateId": "886bbafd-2817-4b1e-a079-fa085629d483",
+    "seoTitle": "Six Thinking Hats Template for Decision Making",
+    "seoSlug": "six-thinking-hats-template-for-decision-making"
+  },
+  {
+    "templateId": "ed484346-ad03-40e3-895f-50089d7d3c5f",
+    "seoTitle": "Mind Map Template for Visual Brainstorming",
+    "seoSlug": "mind-map-template-for-visual-brainstorming"
+  },
+  {
+    "templateId": "07420a21-9191-4aab-a0a1-b57a71b6cb64",
+    "seoTitle": "Crazy 8's Template for Rapid Ideation",
+    "seoSlug": "crazy-8's-template-for-rapid-ideation"
+  },
+  {
+    "templateId": "bf5cd614-7c9a-4175-b1f5-a919c706d261",
+    "seoTitle": "Pre-meeting Questions Template for Better Preparation",
+    "seoSlug": "pre-meeting-questions-template-for-better-preparation"
+  },
+  {
+    "templateId": "81159568-d28c-4d11-80bd-0bf325b18f78",
+    "seoTitle": "Meeting Agenda Template for Productive Discussions",
+    "seoSlug": "meeting-agenda-template-for-productive-discussions"
+  },
+  {
+    "templateId": "e9b85f57-daa5-49df-bdf7-b19d699af895",
+    "seoTitle": "Weekly Team Status Update Template",
+    "seoSlug": "weekly-team-status-update-template"
+  },
+  {
+    "templateId": "bafed671-58b5-48e8-a5fd-95e2251c0b66",
+    "seoTitle": "Christmas Wish Icebreaker for Team Bonding",
+    "seoSlug": "christmas-wish-icebreaker-for-team-bonding"
+  },
+  {
+    "templateId": "0046a539-6c25-4dda-9fba-e07576b46835",
+    "seoTitle": "Team Mood Icebreaker for Group Check-ins",
+    "seoSlug": "team-mood-icebreaker-for-group-check-ins"
+  },
+  {
+    "templateId": "8f9136fe-0704-4f05-a034-13787e75e0d3",
+    "seoTitle": "Explorer, Shopper, Vacationer, Prisoner Icebreaker",
+    "seoSlug": "explorer-shopper-vacationer-prisoner-icebreaker"
+  },
+  {
+    "templateId": "6c19dbd9-6f49-4c84-89d6-ccebd143e73e",
+    "seoTitle": "Return on Time Invested Phones Checkout Template",
+    "seoSlug": "return-on-time-invested-phones-checkout-template"
+  },
+  {
+    "templateId": "357aca69-d4f3-4fdf-a35b-ca43923714a7",
+    "seoTitle": "Return on Time Invested Treasure Checkout Template",
+    "seoSlug": "return-on-time-invested-treasure-checkout-template"
+  },
+  {
+    "templateId": "b767accc-8acf-4932-86b3-c5611c2c41ed",
+    "seoTitle": "Bullseye Icebreaker for Team Engagement",
+    "seoSlug": "bullseye-icebreaker-for-team-engagement"
+  },
+  {
+    "templateId": "486ac9b3-eb72-43e9-8b20-46e0db939c2a",
+    "seoTitle": "Two Truths One Lie Icebreaker for Team Building",
+    "seoSlug": "two-truths-one-lie-icebreaker-for-team-building"
+  },
+  {
+    "templateId": "173dc9c8-cf02-4e0c-8322-9c2968557fc0",
+    "seoTitle": "Return on Time Invested Star Ratings Checkout",
+    "seoSlug": "return-on-time-invested-star-ratings-checkout"
+  },
+  {
+    "templateId": "0fa195f5-947a-4549-9f74-aa90469334e9",
+    "seoTitle": "Agree or Disagree Icebreaker for Team Discussions",
+    "seoSlug": "agree-or-disagree-icebreaker-for-team-discussions"
+  },
+  {
+    "templateId": "490ddd67-4ca7-4ce8-8c22-d9dc25d87979",
+    "seoTitle": "Coat of Arms Icebreaker for Team Identity Building",
+    "seoSlug": "coat-of-arms-icebreaker-for-team-identity-building"
+  },
+  {
+    "templateId": "b0efc531-c8c4-4f0e-ada7-a60ecafa4bf3",
+    "seoTitle": "Double Diamond Design Process Template",
+    "seoSlug": "double-diamond-design-process-template"
+  },
+  {
+    "templateId": "0e00f739-daf1-4b1a-abc8-ef63558448ad",
+    "seoTitle": "Return on Time Invested Feelings Checkout Template",
+    "seoSlug": "return-on-time-invested-feelings-checkout-template"
+  },
+  {
+    "templateId": "15e2dc69-183e-4891-89fc-0b9cacd53a84",
+    "seoTitle": "Energy Levels Icebreaker for Team Engagement",
+    "seoSlug": "energy-levels-icebreaker-for-team-engagement"
+  },
+  {
+    "templateId": "2b560604-f755-4adf-ba76-7247b0f6bcca",
+    "seoTitle": "Return on Time Invested Fist of Fives Checkout",
+    "seoSlug": "return-on-time-invested-fist-of-fives-checkout"
+  },
+  {
+    "templateId": "56a7d283-e016-43d5-8779-10791264ff4f",
+    "seoTitle": "Weather Check In Icebreaker for Team Mood Assessment",
+    "seoSlug": "weather-check-in-icebreaker-for-team-mood-assessment"
+  },
+  {
+    "templateId": "03092260-0dfa-4d51-ad7d-87acb0d88cd1",
+    "seoTitle": "Draw a Scene Icebreaker for Creative Team Building",
+    "seoSlug": "draw-a-scene-icebreaker-for-creative-team-building"
+  },
+  {
+    "templateId": "5c01cc47-467d-4ea4-b949-5476d3c61a55",
+    "seoTitle": "Kudos Tree Icebreaker for Team Appreciation",
+    "seoSlug": "kudos-tree-icebreaker-for-team-appreciation"
+  },
+  {
+    "templateId": "4a75f939-1cf1-4564-abf5-c3c3e9d71309",
+    "seoTitle": "Return on Time Invested Meeting Value Checkout",
+    "seoSlug": "return-on-time-invested-meeting-value-checkout"
+  }
+]

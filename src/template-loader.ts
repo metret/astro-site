@@ -1,7 +1,7 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 
 import type { Loader, LoaderContext } from 'astro/loaders';
 import { z } from 'astro:content';
-import { kebabCase } from "change-case";
 import fs from "fs";
 import path from "path";
 import { marked } from "marked";
@@ -16,6 +16,8 @@ export function templatesLoader(): Loader {
             // Load data and update the store
             const templates = JSON.parse(fs.readFileSync("data/templates.json", "utf8"));
 
+            const templateSeo = JSON.parse(fs.readFileSync("data/template-seo.json", "utf8"));
+
             for (const t of templates) {
                 // Look for a matching content file for this template
                 let content = "";
@@ -26,10 +28,13 @@ export function templatesLoader(): Loader {
                     content = fs.readFileSync(contentPath, "utf8");
                 }
 
+                const seo = templateSeo.find((s: any) => s.templateId === t.id) ?? {};
+
                 context.store.set({
                     id: t.id,
                     data: {
                         ...t,
+                        ...seo,
                         createUrl: new URL(`/new/${t.id}`, import.meta.env.SITE).toString()
                     },
                     body: content,

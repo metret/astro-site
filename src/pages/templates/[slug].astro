@@ -14,7 +14,7 @@ export async function getStaticPaths() {
 
   return templates.map((template) => {
     return {
-      params: { alias: template.data.seoSlug },
+      params: { slug: template.data.seoSlug },
       props: { template },
     };
   });
