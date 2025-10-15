@@ -5,4 +5,22 @@ content:
     type: collection
     path: src/content/blog
     fields:
-      - { name: title, label: Title, type: string }
+      - { name: title, label: Title, type: string, required: true }
+      - { name: teaser, label: Teaser, type: text }
+      - { name: category, label: Category, type: string }
+      - { name: image, label: Image, type: image }
+      - { name: description, label: Description, type: text }
+      - { name: canonicalUrl, label: Canonical URL, type: string }
+      - { name: section, label: Section, type: string }
+      - { name: ogSiteName, label: OG Site Name, type: string }
+      - { name: ogType, label: OG Type, type: string }
+      - { name: ogUrl, label: OG URL, type: string }
+      - { name: ogImageUrl, label: OG Image URL, type: image }
+      - { name: ogImageWidth, label: OG Image Width, type: number }
+      - { name: ogImageHeight, label: OG Image Height, type: number }
+      - { name: ogImageAlt, label: OG Image Alt Text, type: string }
+      - { name: ogImageType, label: OG Image Type, type: string }
+      - { name: publishedDate, label: Published Date, type: date }
+      - { name: modifiedDate, label: Modified Date, type: date }
+      - { name: authorName, label: Author Name, type: string }
+      - { name: body, label: Body, type: rich-text }
