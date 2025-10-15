@@ -22,8 +22,8 @@ ogImageWidth: 540
 ogImageHeight: 320
 ogImageAlt: "Kayak"
 ogImageType: "image/png"
-publishedDate: 2024-09-19T12:21:27+00:00
-modifiedDate: 2025-01-15T14:47:41+00:00
+publishedDate: 2024-09-19
+modifiedDate: 2025-01-15
 ---
 
 ## Helping people experience the world through travel.
