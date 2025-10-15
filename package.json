@@ -11,6 +11,7 @@
     "lint:fix": "eslint . --fix",
     "format": "prettier --write .",
     "format:check": "prettier --cache --check .",
+    "blog-new": "tsx scripts/blog-new.ts",
     "seo:templates": "tsx scripts/seo:templates.ts",
     "seo:crawl-check": "tsx scripts/link-crawl.ts && tsx scripts/link-check.ts",
     "deploy": "astro build && bash ./ci/deploy.sh"
