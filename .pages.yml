@@ -1,1 +1,8 @@
 media: src/assets
+content:
+  - name: blog
+    label: Blog
+    type: collection
+    path: src/content/blog
+    fields:
+      - { name: title, label: Title, type: string }
