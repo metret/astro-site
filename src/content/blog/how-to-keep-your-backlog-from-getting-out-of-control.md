@@ -1,24 +1,26 @@
 ---
-title: "How To Keep Your Backlog From Getting Out Of Control"
-teaser: "Just take everything vague and unready out of your backlog and put it into a large Ludi board.  There you don't have to read the article."
-category: "Article"
-image: "~/assets/images/blog/placeholder.png"
-description: "Learn how to manage your product backlog effectively by keeping it short and refined. Discover why moving unrefined ideas to a visual tool like Ludi can help your team stay focused on ready-to-build work."
-canonicalUrl: "/blog/how-to-keep-your-backlog-from-getting-out-of-control"
-section: "Article"
-ogSiteName: "Ludi"
-ogType: "article"
+title: How To Keep Your Backlog From Getting Out Of Control
+teaser: Just take everything vague and unready out of your backlog and put it
+  into a large Ludi board.  There you don't have to read the article.
+category: Article
+image: ~/assets/images/blog/placeholder.png
+description: Learn how to manage your product backlog effectively by keeping it
+  short and refined. Discover why moving unrefined ideas to a visual tool like
+  Ludi can help your team stay focused on ready-to-build work.
+canonicalUrl: /blog/how-to-keep-your-backlog-from-getting-out-of-control
+section: Article
+ogSiteName: Ludi
+ogType: article
 ogUrl: https://ludi.co/blog/how-to-keep-your-backlog-from-getting-out-of-control
-ogImageUrl: "~/assets/images/blog/placeholder.png"
+ogImageUrl: ~/assets/images/blog/placeholder.png
 ogImageWidth: 1200
 ogImageHeight: 628
-ogImageAlt: "How To Keep Your Backlog From Getting Out Of Control"
-ogImageType: "image/png"
-publishedDate: 2025-10-15T14:20:14+00:00
-modifiedDate: 2025-10-15T14:20:14+00:00
-authorName: "Steve Whitfield"
+ogImageAlt: How To Keep Your Backlog From Getting Out Of Control
+ogImageType: image/png
+publishedDate: 2025-10-16
+modifiedDate: 2025-10-16
+authorName: Steve Whitfield
 ---
-
 A few months ago, I saw a message from another founder in the [TinySeed](/blog/metro-retro-joins-tinyseed) Slack channel. They were concerned about how long their team's backlog had grown, and were asking for advice on how to manage it and start bringing it under control.
 
 Reading the discussion that followed made me realise that, at Ludi, we don't have that problem. Our backlog is probably not more than 2 or 3 cycles worth of work away from the end. And that's not because we don't have a huge list of things we want to build, it's just that we don't bother putting it in there until it's nearly ready.
@@ -33,18 +35,24 @@ The situation is obviously different, but I much prefer the way we work now at L
 
 So where do we put all our ideas and random items from customer feedback?
 
-Well, we put them in a Ludi board:
-![A screenshot of Ludi with annotations made in Ludi, oh yeah!](../../assets/images/blog/2025/october/ludi-roadmap.png)
+Well, we put them in a Ludi board: ![](../../assets/images/blog/2025/october/ludi-roadmap.png)
+
+![A screenshot of Ludi with annotations made in Ludi, oh yeah!](/src/assets/images/blog/2025/october/ludi-roadmap.png)
 
 It's a bit of a beast, and it's probably due a clean-up (we do this once or twice per year usually).
 
 In this board you've got:
 
-- Now, Next, Later priority list of high-level features
-- Below that is a rough cycle roadmap of work for between 4-8 cycles into the future. As you get further into the future the blocks get a bit messier and vague, but give a rough direction of travel.
-- Above and right of the roadmap is where we've worked through the detail of our most recent releases. In this picture it was for the icon library and sharing overhaul.
-- At the bottom right you've got the next few cycles direct from Jira via the [Jira Integration](/solutions/developers)
-- Finally, bottom left is a scratch area where we just dump _stuff_ that needs talking about in the near term.
+*   Now, Next, Later priority list of high-level features
+    
+*   Below that is a rough cycle roadmap of work for between 4-8 cycles into the future. As you get further into the future the blocks get a bit messier and vague, but give a rough direction of travel.
+    
+*   Above and right of the roadmap is where we've worked through the detail of our most recent releases. In this picture it was for the icon library and sharing overhaul.
+    
+*   At the bottom right you've got the next few cycles direct from Jira via the [Jira Integration](/solutions/developers)
+    
+*   Finally, bottom left is a scratch area where we just dump _stuff_ that needs talking about in the near term.
+    
 
 Our team meets weekly for a two-hour refinement session. During this session we work through these areas and slowly shape and refine the messy and blurry stuff into output that can go into Jira. This keeps our Jira backlog short and refined.
 
