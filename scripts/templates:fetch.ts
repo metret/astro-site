@@ -4,17 +4,38 @@ import fs from 'fs';
 import { kebabCase } from "change-case";
 import slugify from "slugify";
 
-const bearer = "7d3383ed-0f0a-4604-9b9b-848e449820bb";
+const bearer = "178c1246-7746-46d9-a0f7-6b29cb369828";
 
 const load = async () => {
-    const response = await fetch("https://ludi.co/api/v2/templates.list2", {
-        method: "GET",
-        headers: {
-            Authorization: `Bearer ${bearer}`,
-        },
-    });
+    try {
+        console.log('Making API request to https://ludi.co/api/v2/templates.list2...');
+        const response = await fetch("https://ludi.co/api/v2/templates.list2", {
+            method: "GET",
+            headers: {
+                Authorization: `Bearer ${bearer}`,
+            },
+        });
 
-    return await response.json();
+        console.log(`Response status: ${response.status} ${response.statusText}`);
+
+        if (!response.ok) {
+            const errorText = await response.text();
+            throw new Error(`API request failed with status ${response.status}: ${errorText}`);
+        }
+
+        const data = await response.json();
+        console.log(`Successfully parsed JSON data with ${data.length} templates`);
+        return data;
+    } catch (error) {
+        console.error('Error in load function:');
+        if (error instanceof Error) {
+            console.error(`  Message: ${error.message}`);
+            console.error(`  Stack: ${error.stack}`);
+        } else {
+            console.error(`  Unknown error: ${error}`);
+        }
+        throw error;
+    }
 };
 
 const slugifyAliases = (templates: Record<string, any>[]) => {
@@ -38,25 +59,43 @@ const kebabizeTags = (templates: Record<string, any>[]) => {
 };
 
 const main = async () => {
-    console.log('Fetching templates from API...');
-    const allTemplates = await load();
+    try {
+        console.log('Fetching templates from API...');
+        const allTemplates = await load();
 
-    // Filter out custom templates (those with accountId)
-    const templates = allTemplates.filter((t: any) => !t.accountId);
+        if (!Array.isArray(allTemplates)) {
+            throw new Error(`Expected array of templates, got: ${typeof allTemplates}`);
+        }
 
-    const filteredCount = allTemplates.length - templates.length;
+        console.log(`Received ${allTemplates.length} total templates`);
 
-    if (filteredCount > 0) {
-        console.log(`Filtered out ${filteredCount} custom templates (with accountId)`);
+        // Filter out custom templates (those with accountId)
+        const templates = allTemplates.filter((t: any) => !t.accountId);
+
+        const filteredCount = allTemplates.length - templates.length;
+
+        if (filteredCount > 0) {
+            console.log(`Filtered out ${filteredCount} custom templates (with accountId)`);
+        }
+
+        console.log('Processing template aliases and tags...');
+        slugifyAliases(templates);
+        kebabizeTags(templates);
+
+        // Write to file
+        console.log('Writing to ./data/templates.json...');
+        fs.writeFileSync("./data/templates.json", JSON.stringify(templates, null, 2));
+
+        console.log(`✓ Fetched and saved ${templates.length} templates to data/templates.json`);
+    } catch (error) {
+        console.error('\n❌ Failed to fetch templates:');
+        if (error instanceof Error) {
+            console.error(`  ${error.message}`);
+        } else {
+            console.error(`  ${error}`);
+        }
+        process.exit(1);
     }
-
-    slugifyAliases(templates);
-    kebabizeTags(templates);
-
-    // Write to file
-    fs.writeFileSync("./data/templates.json", JSON.stringify(templates, null, 2));
-
-    console.log(`✓ Fetched and saved ${templates.length} templates to data/templates.json`);
 };
 
 main();

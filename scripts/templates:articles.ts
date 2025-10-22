@@ -3,26 +3,44 @@
 import Anthropic from '@anthropic-ai/sdk';
 import fs from 'fs';
 
-const bearer = "7d3383ed-0f0a-4604-9b9b-848e449820bb";
+const bearer = "178c1246-7746-46d9-a0f7-6b29cb369828";
 
-const anthropic = new Anthropic();
+const anthropic = new Anthropic({
+});
 
 const loadSnapshot = async (templateId: string) => {
-    const response = await fetch(`https://ludi.co/api/v2/templates.snapshot?boardId=${templateId}`, {
-        method: "GET",
-        headers: {
-            Authorization: `Bearer ${bearer}`,
-        },
-    });
+    try {
+        const controller = new AbortController();
+        const timeoutId = setTimeout(() => controller.abort(), 60000); // 60 second timeout
 
-    return await response.json();
+        const response = await fetch(`https://ludi.co/api/v2/templates.snapshot?boardId=${templateId}`, {
+            method: "GET",
+            headers: {
+                Authorization: `Bearer ${bearer}`,
+            },
+            signal: controller.signal,
+        });
+
+        clearTimeout(timeoutId);
+
+        if (!response.ok) {
+            throw new Error(`Failed to load snapshot: ${response.status} ${response.statusText}`);
+        }
+
+        return await response.json();
+    } catch (error) {
+        console.error(`  - Error loading snapshot for ${templateId}:`, error);
+        throw error;
+    }
 };
 
 const generateArticle = async (tmpl: Record<string, any>) => {
 
     console.log(`Generating article for ${tmpl.alias}`);
+    console.log(`  - Loading snapshot for template ID: ${tmpl.id}`);
 
     const snapshot = await loadSnapshot(tmpl.id);
+    console.log(`  - Snapshot loaded successfully`);
 
     const structure = `
 # Recommended Structure for Ludi Template Descriptions
@@ -99,34 +117,45 @@ Your writing should sound like it comes from a knowledgeable colleague who respe
     const filePath = `./data/raw-template-info/${tmpl.alias}.md`;
 
     const existingCopy = fs.existsSync(filePath) ? fs.readFileSync(filePath, "utf8") : 'None';
+    console.log(`  - Existing copy: ${existingCopy === 'None' ? 'None' : 'Found'}`);
+    console.log(`  - Calling Anthropic API to generate article...`);
 
-    const msg = await anthropic.messages.create({
-        model: "claude-sonnet-4-5-20250929",
-        max_tokens: 1024 * 2,
-        system: [
-            'You are a helpful copy writer, knowledgable in SEO and agile methodologies.',
-            'You are helping write instructions and descriptions for collaborative meeting templates in the application Ludi, a collaborative whiteboard tool for dev teams.',
-            'The user will provide the template metadata, a snapshot of the raw data that makes up the template (e.g. the visual elements in data form), and some existing copy.',
-            'Using all the information provided, along with your own insight where applicable, please write a new description for the template.',
-            'Here is a recommended structure to follow:',
-            structure,
-            'Here is a tone to write in:',
-            tone,
-            'Here are some other points to consider:',
-            ' - All these templates are aimed at remote teams, dev teams or product teams.  Do not be fooled by the metaphors used into thinking otherwise.',
-            ' - You are writing a description for a template in a collaborative whiteboard tool (Ludi) - so when writing assume meetings will be performed online via this tool.',
-            ' - If the template is using a metaphor, list out and explain the metaphor components.',
-            ' - When writing retrospective instructions, teams will almost always follow a structure of Introduction, Reflection, Discussion/Grouping/Voting, and Review + Actions setting.',
-        ].join('\n'),
-        messages: [
-            { role: "user", content: `Metadata: ${JSON.stringify(tmpl)}\n\nSnapshot: ${JSON.stringify(snapshot)}\n\nExisting copy: ${existingCopy}` }
-        ],
-    });
+    try {
+        const msg = await anthropic.messages.create({
+            model: "claude-sonnet-4-5-20250929",
+            max_tokens: 1024 * 2,
+            system: [
+                'You are a helpful copy writer, knowledgable in SEO and agile methodologies.',
+                'You are helping write instructions and descriptions for collaborative meeting templates in the application Ludi, a collaborative whiteboard tool for dev teams.',
+                'The user will provide the template metadata, a snapshot of the raw data that makes up the template (e.g. the visual elements in data form), and some existing copy.',
+                'Using all the information provided, along with your own insight where applicable, please write a new description for the template.',
+                'Here is a recommended structure to follow:',
+                structure,
+                'Here is a tone to write in:',
+                tone,
+                'Here are some other points to consider:',
+                ' - All these templates are aimed at remote teams, dev teams or product teams.  Do not be fooled by the metaphors used into thinking otherwise.',
+                ' - You are writing a description for a template in a collaborative whiteboard tool (Ludi) - so when writing assume meetings will be performed online via this tool.',
+                ' - If the template is using a metaphor, list out and explain the metaphor components.',
+                ' - When writing retrospective instructions, teams will almost always follow a structure of Introduction, Reflection, Discussion/Grouping/Voting, and Review + Actions setting.',
+            ].join('\n'),
+            messages: [
+                { role: "user", content: `Metadata: ${JSON.stringify(tmpl)}\n\nSnapshot: ${JSON.stringify(snapshot)}\n\nExisting copy: ${existingCopy}` }
+            ],
+        });
 
-    if (msg.content[0].type === 'text') {
-        return msg.content[0].text;
-    } else {
-        console.error('Unexpected message content type:', msg.content[0]);
+        console.log(`  - Anthropic API call completed`);
+
+        if (msg.content[0].type === 'text') {
+            console.log(`  - Article content generated (${msg.content[0].text.length} characters)`);
+            return msg.content[0].text;
+        } else {
+            console.error('  - Unexpected message content type:', msg.content[0]);
+            return undefined;
+        }
+    } catch (error) {
+        console.error(`  - Anthropic API error:`, error instanceof Error ? error.message : error);
+        throw error;
     }
 };
 
@@ -137,6 +166,7 @@ const main = async () => {
 
     let generatedCount = 0;
     let skippedCount = 0;
+    let errorCount = 0;
 
     for (const tmpl of templates) {
         console.log(`Processing article for ${tmpl.alias}`);
@@ -148,20 +178,31 @@ const main = async () => {
             skippedCount++;
         }
         else {
-            const content = await generateArticle(tmpl);
+            try {
+                const content = await generateArticle(tmpl);
 
-            if (content) {
-                fs.writeFileSync(contentPath, content);
-                generatedCount++;
-                console.log(`✓ Generated article for ${tmpl.alias}`);
+                if (content) {
+                    console.log(`  - Writing article to ${contentPath}`);
+                    fs.writeFileSync(contentPath, content);
+                    generatedCount++;
+                    console.log(`✓ Generated article for ${tmpl.alias}`);
+                } else {
+                    console.log(`  - No content generated for ${tmpl.alias}`);
+                }
+
+                // Wait for 30 seconds, b/c of rate limits on the API
+                console.log(`  - Waiting 30 seconds before next article...`);
+                await new Promise(resolve => setTimeout(resolve, 30000));
+            } catch (error) {
+                errorCount++;
+                console.error(`❌ Failed to generate article for ${tmpl.alias}:`, error instanceof Error ? error.message : error);
             }
-
-            // Wait for 30 seconds, b/c of rate limits on the API
-            await new Promise(resolve => setTimeout(resolve, 30000));
         }
     }
 
-    console.log(`\n✓ Complete! Generated ${generatedCount} articles, skipped ${skippedCount} existing articles`);
+    console.log(`\n✓ Complete! Generated ${generatedCount} articles, skipped ${skippedCount} existing articles${errorCount > 0 ? `, ${errorCount} errors` : ''}`);
+
+    process.exit(0);
 };
 
 main();

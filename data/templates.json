@@ -2840,28 +2840,28 @@
     ]
   },
   {
-    "id": "b0efc531-c8c4-4f0e-ada7-a60ecafa4bf3",
+    "id": "173dc9c8-cf02-4e0c-8322-9c2968557fc0",
     "accountId": null,
-    "alias": "double-diamond",
-    "label": "Double Diamond",
-    "description": "The Double Diamond is a well-known visualization of the design and innovation process. It helps a team to explore broad possibilities and then narrow their focus to get to a solution.",
+    "alias": "roti-star-ratings",
+    "label": "ROTI: Star Ratings",
+    "description": "Rate the meeting and the facilitator out of 5 stars, with an area for feedback.",
     "sort": 999999999,
     "time": null,
     "people": null,
     "complexity": null,
-    "thumbUrl": "https://d.metroretro.io/thumbs/templates/b0efc531-c8c4-4f0e-ada7-a60ecafa4bf3/c3855540-5f92-4853-abc7-bbd43aed8bc6.png?e=0ebe19d9d1c6e1c3f08a956a8d5a2209",
-    "thumbEtag": "0ebe19d9d1c6e1c3f08a956a8d5a2209",
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/173dc9c8-cf02-4e0c-8322-9c2968557fc0/085557df-6032-49f2-9ace-68b8bfc38c9a.png?e=6d2d58fc973961f6c8948f93362077ed",
+    "thumbEtag": "6d2d58fc973961f6c8948f93362077ed",
     "version": 1,
     "metadata": {},
-    "publishedAt": "2024-08-23T15:17:10.139Z",
-    "createdAt": "2024-08-23T15:17:10.040Z",
+    "publishedAt": "2024-07-22T14:59:16.794Z",
+    "createdAt": "2024-08-21T21:08:03.719Z",
     "tags": [
       {
-        "id": "144d8447-e8d0-4e3b-a7d5-7c2446cd000b",
-        "name": "meetings-and-workshops",
-        "label": "Meetings & Workshops",
+        "id": "8ac56df0-5122-4cdd-800b-beecc00f3258",
+        "name": "check-out",
+        "label": "Check Out",
         "color": "#B84592",
-        "sort": 700
+        "sort": 800
       }
     ]
   },
@@ -2892,20 +2892,20 @@
     ]
   },
   {
-    "id": "0e00f739-daf1-4b1a-abc8-ef63558448ad",
+    "id": "357aca69-d4f3-4fdf-a35b-ca43923714a7",
     "accountId": null,
-    "alias": "roti-feelings",
-    "label": "ROTI: Feelings",
-    "description": "Ask your participants how they feel after the meeting - hopefully better than when they started!",
+    "alias": "roti-treasure",
+    "label": "ROTI: Treasure",
+    "description": "Rate the value of the meeting in growing piles of treasure.",
     "sort": 999999999,
     "time": null,
     "people": null,
     "complexity": null,
-    "thumbUrl": "https://d.metroretro.io/thumbs/templates/0e00f739-daf1-4b1a-abc8-ef63558448ad/caab272d-259f-4b83-a91d-0b79eb8be5c2.png?e=aaf72496c9b8a6a5a8ef62b4a269385b",
-    "thumbEtag": "aaf72496c9b8a6a5a8ef62b4a269385b",
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/357aca69-d4f3-4fdf-a35b-ca43923714a7/50852adb-7868-4114-87cf-739ca0924eb2.png?e=7a7cf0c5cb1365508500d8c800827d13",
+    "thumbEtag": "7a7cf0c5cb1365508500d8c800827d13",
     "version": 1,
     "metadata": {},
-    "publishedAt": "2024-07-22T14:59:16.360Z",
+    "publishedAt": "2024-07-22T14:59:16.900Z",
     "createdAt": "2024-08-21T21:08:03.719Z",
     "tags": [
       {
@@ -2996,32 +2996,6 @@
     ]
   },
   {
-    "id": "357aca69-d4f3-4fdf-a35b-ca43923714a7",
-    "accountId": null,
-    "alias": "roti-treasure",
-    "label": "ROTI: Treasure",
-    "description": "Rate the value of the meeting in growing piles of treasure.",
-    "sort": 999999999,
-    "time": null,
-    "people": null,
-    "complexity": null,
-    "thumbUrl": "https://d.metroretro.io/thumbs/templates/357aca69-d4f3-4fdf-a35b-ca43923714a7/50852adb-7868-4114-87cf-739ca0924eb2.png?e=7a7cf0c5cb1365508500d8c800827d13",
-    "thumbEtag": "7a7cf0c5cb1365508500d8c800827d13",
-    "version": 1,
-    "metadata": {},
-    "publishedAt": "2024-07-22T14:59:16.900Z",
-    "createdAt": "2024-08-21T21:08:03.719Z",
-    "tags": [
-      {
-        "id": "8ac56df0-5122-4cdd-800b-beecc00f3258",
-        "name": "check-out",
-        "label": "Check Out",
-        "color": "#B84592",
-        "sort": 800
-      }
-    ]
-  },
-  {
     "id": "bafed671-58b5-48e8-a5fd-95e2251c0b66",
     "accountId": null,
     "alias": "christmas-wish",
@@ -3100,6 +3074,32 @@
     ]
   },
   {
+    "id": "6c19dbd9-6f49-4c84-89d6-ccebd143e73e",
+    "accountId": null,
+    "alias": "roti-phones",
+    "label": "ROTI: Phones",
+    "description": "Ask participants to rate the meeting by choosing a phone type.",
+    "sort": 999999999,
+    "time": null,
+    "people": null,
+    "complexity": null,
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/6c19dbd9-6f49-4c84-89d6-ccebd143e73e/98ff8910-6af4-441f-9135-9242c1b48774.png?e=d369005221e8b688597f3f58b6156572",
+    "thumbEtag": "d369005221e8b688597f3f58b6156572",
+    "version": 1,
+    "metadata": {},
+    "publishedAt": "2024-07-22T14:59:16.681Z",
+    "createdAt": "2024-08-21T21:08:03.719Z",
+    "tags": [
+      {
+        "id": "8ac56df0-5122-4cdd-800b-beecc00f3258",
+        "name": "check-out",
+        "label": "Check Out",
+        "color": "#B84592",
+        "sort": 800
+      }
+    ]
+  },
+  {
     "id": "4a75f939-1cf1-4564-abf5-c3c3e9d71309",
     "accountId": null,
     "alias": "roti-meeting-value-1-5",
@@ -3126,46 +3126,20 @@
     ]
   },
   {
-    "id": "173dc9c8-cf02-4e0c-8322-9c2968557fc0",
+    "id": "0e00f739-daf1-4b1a-abc8-ef63558448ad",
     "accountId": null,
-    "alias": "roti-star-ratings",
-    "label": "ROTI: Star Ratings",
-    "description": "Rate the meeting and the facilitator out of 5 stars, with an area for feedback.",
+    "alias": "roti-feelings",
+    "label": "ROTI: Feelings",
+    "description": "Ask your participants how they feel after the meeting - hopefully better than when they started!",
     "sort": 999999999,
     "time": null,
     "people": null,
     "complexity": null,
-    "thumbUrl": "https://d.metroretro.io/thumbs/templates/173dc9c8-cf02-4e0c-8322-9c2968557fc0/085557df-6032-49f2-9ace-68b8bfc38c9a.png?e=6d2d58fc973961f6c8948f93362077ed",
-    "thumbEtag": "6d2d58fc973961f6c8948f93362077ed",
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/0e00f739-daf1-4b1a-abc8-ef63558448ad/caab272d-259f-4b83-a91d-0b79eb8be5c2.png?e=aaf72496c9b8a6a5a8ef62b4a269385b",
+    "thumbEtag": "aaf72496c9b8a6a5a8ef62b4a269385b",
     "version": 1,
     "metadata": {},
-    "publishedAt": "2024-07-22T14:59:16.794Z",
-    "createdAt": "2024-08-21T21:08:03.719Z",
-    "tags": [
-      {
-        "id": "8ac56df0-5122-4cdd-800b-beecc00f3258",
-        "name": "check-out",
-        "label": "Check Out",
-        "color": "#B84592",
-        "sort": 800
-      }
-    ]
-  },
-  {
-    "id": "6c19dbd9-6f49-4c84-89d6-ccebd143e73e",
-    "accountId": null,
-    "alias": "roti-phones",
-    "label": "ROTI: Phones",
-    "description": "Ask participants to rate the meeting by choosing a phone type.",
-    "sort": 999999999,
-    "time": null,
-    "people": null,
-    "complexity": null,
-    "thumbUrl": "https://d.metroretro.io/thumbs/templates/6c19dbd9-6f49-4c84-89d6-ccebd143e73e/98ff8910-6af4-441f-9135-9242c1b48774.png?e=d369005221e8b688597f3f58b6156572",
-    "thumbEtag": "d369005221e8b688597f3f58b6156572",
-    "version": 1,
-    "metadata": {},
-    "publishedAt": "2024-07-22T14:59:16.681Z",
+    "publishedAt": "2024-07-22T14:59:16.360Z",
     "createdAt": "2024-08-21T21:08:03.719Z",
     "tags": [
       {
@@ -3200,6 +3174,58 @@
         "label": "Ice Breakers",
         "color": "#00AEFF",
         "sort": 100
+      }
+    ]
+  },
+  {
+    "id": "b0efc531-c8c4-4f0e-ada7-a60ecafa4bf3",
+    "accountId": null,
+    "alias": "double-diamond",
+    "label": "Double Diamond",
+    "description": "The Double Diamond is a well-known visualization of the design and innovation process. It helps a team to explore broad possibilities and then narrow their focus to get to a solution.",
+    "sort": 999999999,
+    "time": null,
+    "people": null,
+    "complexity": null,
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/b0efc531-c8c4-4f0e-ada7-a60ecafa4bf3/c3855540-5f92-4853-abc7-bbd43aed8bc6.png?e=0ebe19d9d1c6e1c3f08a956a8d5a2209",
+    "thumbEtag": "0ebe19d9d1c6e1c3f08a956a8d5a2209",
+    "version": 1,
+    "metadata": {},
+    "publishedAt": "2024-08-23T15:17:10.139Z",
+    "createdAt": "2024-08-23T15:17:10.040Z",
+    "tags": [
+      {
+        "id": "144d8447-e8d0-4e3b-a7d5-7c2446cd000b",
+        "name": "meetings-and-workshops",
+        "label": "Meetings & Workshops",
+        "color": "#B84592",
+        "sort": 700
+      }
+    ]
+  },
+  {
+    "id": "05aba975-eb8d-4512-b930-a33d424b1ed9",
+    "accountId": null,
+    "alias": "zombie-attack",
+    "label": "Zombie Attack!",
+    "description": "We've just survived a zombie attack and the team pulled through. Or did we...?\r\nUse this zombie-themed retro to regroup and reflect on the team's situation.\r\nIncludes a Pulse Check and ends with an Action Tracker.",
+    "sort": 999999999,
+    "time": null,
+    "people": null,
+    "complexity": null,
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/05aba975-eb8d-4512-b930-a33d424b1ed9/ef8708d9-7b7d-4db3-b0b7-59eb65f7187d.png?e=63475b61d46b5a05f9c330b30f5cdb7e",
+    "thumbEtag": "63475b61d46b5a05f9c330b30f5cdb7e",
+    "version": 1,
+    "metadata": {},
+    "publishedAt": "2025-10-22T12:29:51.023Z",
+    "createdAt": "2025-10-22T12:29:50.774Z",
+    "tags": [
+      {
+        "id": "1aa7461f-0879-4563-aea6-dbee73754889",
+        "name": "retrospectives",
+        "label": "Retrospectives",
+        "color": "#7E48F0",
+        "sort": 200
       }
     ]
   }

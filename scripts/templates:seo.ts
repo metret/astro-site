@@ -4,7 +4,8 @@ import Anthropic from '@anthropic-ai/sdk';
 import fs from 'fs';
 import slugify from "slugify";
 
-const anthropic = new Anthropic();
+const anthropic = new Anthropic({
+});
 
 const generateTitles = async (templates: any[]) => {
 
@@ -141,6 +142,8 @@ const main = async () => {
     // Write updated template-seo.json
     fs.writeFileSync(seoDataPath, JSON.stringify(allSeoData, null, 2));
     console.log(`✓ Updated template-seo.json with ${newSeoEntries.length} new entries (total: ${allSeoData.length})`);
+
+    process.exit(0);
 };
 
 main();
