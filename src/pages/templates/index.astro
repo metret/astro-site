@@ -8,9 +8,27 @@ import TemplateGrid from "~/components/blocks/TemplateGrid.astro";
 
 const templates = await getCollection("templates");
 
+const typeOrder = { major: 0, minor: 1 } as Record<string, number>;
+
+const sorter = (a: any, b: any) => {
+  const aType = a.data.metadata.featured;
+
+  const bType = b.data.metadata.featured;
+
+  const aSort = typeOrder[aType] ?? 99;
+
+  const bSort = typeOrder[bType] ?? 99;
+
+  if (aSort !== bSort) {
+    return aSort - bSort;
+  }
+
+  return (a.data.metadata.fsort ?? 0) - (b.data.metadata.fsort ?? 0);
+};
+
 const featured = templates
   .filter((tmpl: any) => !!tmpl.data.metadata.featured)
-  .sort((a: any, b: any) => a.data.metadata.fsort - b.data.metadata.fsort);
+  .sort(sorter);
 
 const rest = templates
   .filter((tmpl: any) => !tmpl.data.metadata.featured)

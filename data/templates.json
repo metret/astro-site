@@ -1,23 +1,83 @@
 [
   {
-    "id": "c4c90933-6c82-48bc-a77c-582c0cdd68b4",
+    "id": "4811861a-66f6-408a-82f0-795216eb0f0a",
     "accountId": null,
-    "alias": "the-sailboat",
-    "label": "The Sailboat",
-    "description": "The Sailboat is a picture template that uses a sailing boat metaphor to apply the four category retrospective in a more interesting way.",
-    "sort": 90,
+    "alias": "thanksgiving",
+    "label": "Thanksgiving",
+    "description": "Use this Thanksgiving-themed retrospective to express gratitude and celebrate team wins. Finish with a slice of pie.",
+    "sort": 96,
     "time": null,
     "people": null,
     "complexity": null,
-    "thumbUrl": "https://d.metroretro.io/thumbs/templates/c4c90933-6c82-48bc-a77c-582c0cdd68b4/ae3816e4-f7af-4865-9d71-8ee7bb1b0079.png?e=a7b9fdd1d6459acc2df3796f7a9d7103",
-    "thumbEtag": "a7b9fdd1d6459acc2df3796f7a9d7103",
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/4811861a-66f6-408a-82f0-795216eb0f0a/52cfe1fd-da38-4616-821c-b41d4612643f.png?e=c8ffbffebbfd77c72ec2fc09f50228b4",
+    "thumbEtag": "c8ffbffebbfd77c72ec2fc09f50228b4",
+    "version": 3,
+    "metadata": {
+      "featured": "major",
+      "copy": [
+        "Cultivate team gratitude and celebrate successes with this Thanksgiving-themed retrospective template. Perfect for remote teams looking to acknowledge contributions and express appreciation before the holiday season."
+      ]
+    },
+    "publishedAt": "2025-11-05T15:45:24.761Z",
+    "createdAt": "2024-11-19T10:17:12.661Z",
+    "tags": [
+      {
+        "id": "1aa7461f-0879-4563-aea6-dbee73754889",
+        "name": "retrospectives",
+        "label": "Retrospectives",
+        "color": "#7E48F0",
+        "sort": 200
+      }
+    ]
+  },
+  {
+    "id": "05aba975-eb8d-4512-b930-a33d424b1ed9",
+    "accountId": null,
+    "alias": "zombie-attack",
+    "label": "Zombie Attack!",
+    "description": "We've just survived a zombie attack and the team pulled through. Or did we...?\r\nUse this zombie-themed retro to regroup and reflect on the team's situation.\r\nIncludes a Pulse Check and ends with an Action Tracker.",
+    "sort": 97,
+    "time": null,
+    "people": null,
+    "complexity": null,
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/05aba975-eb8d-4512-b930-a33d424b1ed9/f8aa6420-b197-4c22-8776-b5292f3f4f2f.png?e=84d8ff4a21ddf0b5fc98953c61a7d7b7",
+    "thumbEtag": "84d8ff4a21ddf0b5fc98953c61a7d7b7",
     "version": 1,
     "metadata": {
       "featured": "minor",
-      "fsort": 7
+      "fsort": 1
     },
-    "publishedAt": "2024-07-22T14:59:09.535Z",
-    "createdAt": "2024-08-21T21:08:03.719Z",
+    "publishedAt": "2025-10-22T12:29:51.023Z",
+    "createdAt": "2025-10-22T12:29:50.774Z",
+    "tags": [
+      {
+        "id": "1aa7461f-0879-4563-aea6-dbee73754889",
+        "name": "retrospectives",
+        "label": "Retrospectives",
+        "color": "#7E48F0",
+        "sort": 200
+      }
+    ]
+  },
+  {
+    "id": "ab9b7e1c-146f-405a-b1e5-982f38f298cd",
+    "accountId": null,
+    "alias": "trick-or-treat",
+    "label": "Trick or Treat!",
+    "description": "Go door-to-door with your team in search of Halloween treats!  Encounter the monsters, spooky house, and spider webs on your way...",
+    "sort": 98,
+    "time": null,
+    "people": null,
+    "complexity": null,
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/ab9b7e1c-146f-405a-b1e5-982f38f298cd/ae80196e-3389-43a6-9dd5-d56ea3a89c97.png?e=6f91ad44b6941ca21ecb556e85ff17ae",
+    "thumbEtag": "6f91ad44b6941ca21ecb556e85ff17ae",
+    "version": 1,
+    "metadata": {
+      "featured": "minor",
+      "fsort": 1
+    },
+    "publishedAt": "2024-10-17T11:28:43.113Z",
+    "createdAt": "2024-10-17T11:28:42.868Z",
     "tags": [
       {
         "id": "1aa7461f-0879-4563-aea6-dbee73754889",
@@ -36,26 +96,24 @@
     ]
   },
   {
-    "id": "ab9b7e1c-146f-405a-b1e5-982f38f298cd",
+    "id": "c4c90933-6c82-48bc-a77c-582c0cdd68b4",
     "accountId": null,
-    "alias": "trick-or-treat",
-    "label": "Trick or Treat!",
-    "description": "Go door-to-door with your team in search of Halloween treats!  Encounter the monsters, spooky house, and spider webs on your way...",
+    "alias": "the-sailboat",
+    "label": "The Sailboat",
+    "description": "The Sailboat is a picture template that uses a sailing boat metaphor to apply the four category retrospective in a more interesting way.",
     "sort": 99,
     "time": null,
     "people": null,
     "complexity": null,
-    "thumbUrl": "https://d.metroretro.io/thumbs/templates/ab9b7e1c-146f-405a-b1e5-982f38f298cd/16d5d349-ce51-4b46-84a9-7f3f897ead6f.png?e=6f91ad44b6941ca21ecb556e85ff17ae",
-    "thumbEtag": "6f91ad44b6941ca21ecb556e85ff17ae",
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/c4c90933-6c82-48bc-a77c-582c0cdd68b4/a38c7935-2cde-4f8a-a8e3-5ffed029f585.png?e=0a07c66eeb59c953b1390d96f0c50fb9",
+    "thumbEtag": "0a07c66eeb59c953b1390d96f0c50fb9",
     "version": 1,
     "metadata": {
-      "featured": "major",
-      "copy": [
-        "Take your team on a Halloween-themed journey through their work. The Trick or Treat Retrospective helps teams explore what they’re working towards (Halloween Treats), identify what’s pushing them forward (Monsters), address what’s holding them back (Spider Web), and discuss potential risks (Spooky House). Use this template to uncover insights while keeping the mood light and playful with a spooky Halloween vibe!"
-      ]
+      "featured": "minor",
+      "fsort": 7
     },
-    "publishedAt": "2024-10-17T11:28:43.113Z",
-    "createdAt": "2024-10-17T11:28:42.868Z",
+    "publishedAt": "2024-07-22T14:59:09.535Z",
+    "createdAt": "2024-08-21T21:08:03.719Z",
     "tags": [
       {
         "id": "1aa7461f-0879-4563-aea6-dbee73754889",
@@ -601,6 +659,32 @@
         "label": "Retrospectives",
         "color": "#7E48F0",
         "sort": 200
+      }
+    ]
+  },
+  {
+    "id": "018e18d2-205e-425e-a53b-abf13330f409",
+    "accountId": null,
+    "alias": "undead-pulse-check",
+    "label": "Undead Pulse Check",
+    "description": "A zombie-themed pulse check - have brains turned to mush?",
+    "sort": 1698,
+    "time": null,
+    "people": null,
+    "complexity": null,
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/018e18d2-205e-425e-a53b-abf13330f409/640ccf02-1032-4bb5-b505-3a83478ec82c.png?e=c7930de8bb89b7db5c623faae60bac4e",
+    "thumbEtag": "c7930de8bb89b7db5c623faae60bac4e",
+    "version": 1,
+    "metadata": {},
+    "publishedAt": "2025-11-05T15:58:30.180Z",
+    "createdAt": "2025-11-05T15:58:29.971Z",
+    "tags": [
+      {
+        "id": "e5384230-486a-4058-a522-c8df0e19692a",
+        "name": "ice-breakers",
+        "label": "Ice Breakers",
+        "color": "#00AEFF",
+        "sort": 100
       }
     ]
   },
@@ -1381,32 +1465,6 @@
         "label": "Meetings & Workshops",
         "color": "#B84592",
         "sort": 700
-      }
-    ]
-  },
-  {
-    "id": "4811861a-66f6-408a-82f0-795216eb0f0a",
-    "accountId": null,
-    "alias": "thanksgiving",
-    "label": "Thanksgiving",
-    "description": "Use this Thanksgiving-themed retrospective to express gratitude and celebrate team wins. Finish with a slice of pie.",
-    "sort": 3801,
-    "time": null,
-    "people": null,
-    "complexity": null,
-    "thumbUrl": "https://d.metroretro.io/thumbs/templates/4811861a-66f6-408a-82f0-795216eb0f0a/289f2581-ec92-4adf-8861-0eeb1ba5e655.png?e=fc85084a480d0de0f3c360e3cdf98dfb",
-    "thumbEtag": "fc85084a480d0de0f3c360e3cdf98dfb",
-    "version": 1,
-    "metadata": {},
-    "publishedAt": "2024-11-19T10:17:12.829Z",
-    "createdAt": "2024-11-19T10:17:12.661Z",
-    "tags": [
-      {
-        "id": "1aa7461f-0879-4563-aea6-dbee73754889",
-        "name": "retrospectives",
-        "label": "Retrospectives",
-        "color": "#7E48F0",
-        "sort": 200
       }
     ]
   },
@@ -2840,20 +2898,20 @@
     ]
   },
   {
-    "id": "173dc9c8-cf02-4e0c-8322-9c2968557fc0",
+    "id": "0e00f739-daf1-4b1a-abc8-ef63558448ad",
     "accountId": null,
-    "alias": "roti-star-ratings",
-    "label": "ROTI: Star Ratings",
-    "description": "Rate the meeting and the facilitator out of 5 stars, with an area for feedback.",
+    "alias": "roti-feelings",
+    "label": "ROTI: Feelings",
+    "description": "Ask your participants how they feel after the meeting - hopefully better than when they started!",
     "sort": 999999999,
     "time": null,
     "people": null,
     "complexity": null,
-    "thumbUrl": "https://d.metroretro.io/thumbs/templates/173dc9c8-cf02-4e0c-8322-9c2968557fc0/085557df-6032-49f2-9ace-68b8bfc38c9a.png?e=6d2d58fc973961f6c8948f93362077ed",
-    "thumbEtag": "6d2d58fc973961f6c8948f93362077ed",
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/0e00f739-daf1-4b1a-abc8-ef63558448ad/caab272d-259f-4b83-a91d-0b79eb8be5c2.png?e=aaf72496c9b8a6a5a8ef62b4a269385b",
+    "thumbEtag": "aaf72496c9b8a6a5a8ef62b4a269385b",
     "version": 1,
     "metadata": {},
-    "publishedAt": "2024-07-22T14:59:16.794Z",
+    "publishedAt": "2024-07-22T14:59:16.360Z",
     "createdAt": "2024-08-21T21:08:03.719Z",
     "tags": [
       {
@@ -2862,6 +2920,32 @@
         "label": "Check Out",
         "color": "#B84592",
         "sort": 800
+      }
+    ]
+  },
+  {
+    "id": "b0efc531-c8c4-4f0e-ada7-a60ecafa4bf3",
+    "accountId": null,
+    "alias": "double-diamond",
+    "label": "Double Diamond",
+    "description": "The Double Diamond is a well-known visualization of the design and innovation process. It helps a team to explore broad possibilities and then narrow their focus to get to a solution.",
+    "sort": 999999999,
+    "time": null,
+    "people": null,
+    "complexity": null,
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/b0efc531-c8c4-4f0e-ada7-a60ecafa4bf3/c3855540-5f92-4853-abc7-bbd43aed8bc6.png?e=0ebe19d9d1c6e1c3f08a956a8d5a2209",
+    "thumbEtag": "0ebe19d9d1c6e1c3f08a956a8d5a2209",
+    "version": 1,
+    "metadata": {},
+    "publishedAt": "2024-08-23T15:17:10.139Z",
+    "createdAt": "2024-08-23T15:17:10.040Z",
+    "tags": [
+      {
+        "id": "144d8447-e8d0-4e3b-a7d5-7c2446cd000b",
+        "name": "meetings-and-workshops",
+        "label": "Meetings & Workshops",
+        "color": "#B84592",
+        "sort": 700
       }
     ]
   },
@@ -2880,110 +2964,6 @@
     "version": 1,
     "metadata": {},
     "publishedAt": "2024-07-22T14:59:04.917Z",
-    "createdAt": "2024-08-21T21:08:03.719Z",
-    "tags": [
-      {
-        "id": "e5384230-486a-4058-a522-c8df0e19692a",
-        "name": "ice-breakers",
-        "label": "Ice Breakers",
-        "color": "#00AEFF",
-        "sort": 100
-      }
-    ]
-  },
-  {
-    "id": "357aca69-d4f3-4fdf-a35b-ca43923714a7",
-    "accountId": null,
-    "alias": "roti-treasure",
-    "label": "ROTI: Treasure",
-    "description": "Rate the value of the meeting in growing piles of treasure.",
-    "sort": 999999999,
-    "time": null,
-    "people": null,
-    "complexity": null,
-    "thumbUrl": "https://d.metroretro.io/thumbs/templates/357aca69-d4f3-4fdf-a35b-ca43923714a7/50852adb-7868-4114-87cf-739ca0924eb2.png?e=7a7cf0c5cb1365508500d8c800827d13",
-    "thumbEtag": "7a7cf0c5cb1365508500d8c800827d13",
-    "version": 1,
-    "metadata": {},
-    "publishedAt": "2024-07-22T14:59:16.900Z",
-    "createdAt": "2024-08-21T21:08:03.719Z",
-    "tags": [
-      {
-        "id": "8ac56df0-5122-4cdd-800b-beecc00f3258",
-        "name": "check-out",
-        "label": "Check Out",
-        "color": "#B84592",
-        "sort": 800
-      }
-    ]
-  },
-  {
-    "id": "03092260-0dfa-4d51-ad7d-87acb0d88cd1",
-    "accountId": null,
-    "alias": "draw-a-scene",
-    "label": "Draw a Scene",
-    "description": "An energizer activity asking the team to draw a scene together.",
-    "sort": 999999999,
-    "time": null,
-    "people": null,
-    "complexity": null,
-    "thumbUrl": "https://d.metroretro.io/thumbs/templates/03092260-0dfa-4d51-ad7d-87acb0d88cd1/bfe12291-0caf-445f-91f9-80c892507247.png?e=9821ef38074c453880ad7ad31058d8a2",
-    "thumbEtag": "9821ef38074c453880ad7ad31058d8a2",
-    "version": 1,
-    "metadata": {},
-    "publishedAt": "2024-07-22T14:59:04.606Z",
-    "createdAt": "2024-08-21T21:08:03.719Z",
-    "tags": [
-      {
-        "id": "e5384230-486a-4058-a522-c8df0e19692a",
-        "name": "ice-breakers",
-        "label": "Ice Breakers",
-        "color": "#00AEFF",
-        "sort": 100
-      }
-    ]
-  },
-  {
-    "id": "2b560604-f755-4adf-ba76-7247b0f6bcca",
-    "accountId": null,
-    "alias": "roti-fist-of-fives",
-    "label": "ROTI: Fist of Fives",
-    "description": "Fist of Fives asks participants to rate the meeting value with a number of fingers.",
-    "sort": 999999999,
-    "time": null,
-    "people": null,
-    "complexity": null,
-    "thumbUrl": "https://d.metroretro.io/thumbs/templates/2b560604-f755-4adf-ba76-7247b0f6bcca/2dd06178-00a9-4795-8dcc-cbab88a28f49.png?e=e6d636139c0ee07ad842bce658ad7564",
-    "thumbEtag": "e6d636139c0ee07ad842bce658ad7564",
-    "version": 1,
-    "metadata": {},
-    "publishedAt": "2024-07-22T14:59:16.467Z",
-    "createdAt": "2024-08-21T21:08:03.719Z",
-    "tags": [
-      {
-        "id": "8ac56df0-5122-4cdd-800b-beecc00f3258",
-        "name": "check-out",
-        "label": "Check Out",
-        "color": "#B84592",
-        "sort": 800
-      }
-    ]
-  },
-  {
-    "id": "8f9136fe-0704-4f05-a034-13787e75e0d3",
-    "accountId": null,
-    "alias": "explorer-shopper-vacationer-prisoner",
-    "label": "Explorer, Shopper, Vacationer, Prisoner",
-    "description": "A short check-in activity to measure the team's attitude to the meeting.",
-    "sort": 999999999,
-    "time": null,
-    "people": null,
-    "complexity": null,
-    "thumbUrl": "https://d.metroretro.io/thumbs/templates/8f9136fe-0704-4f05-a034-13787e75e0d3/d27345d5-4a10-431e-9df0-999a3dae11f8.png?e=0b7141290bad41aacc17f7d364e2e86e",
-    "thumbEtag": "0b7141290bad41aacc17f7d364e2e86e",
-    "version": 1,
-    "metadata": {},
-    "publishedAt": "2024-07-22T14:59:03.539Z",
     "createdAt": "2024-08-21T21:08:03.719Z",
     "tags": [
       {
@@ -3022,32 +3002,6 @@
     ]
   },
   {
-    "id": "490ddd67-4ca7-4ce8-8c22-d9dc25d87979",
-    "accountId": null,
-    "alias": "coat-of-arms",
-    "label": "Coat of Arms",
-    "description": "The Coat of Arms is a visual \"'\"get to know you\"'\" activity, but this one comes with a twist.",
-    "sort": 999999999,
-    "time": null,
-    "people": null,
-    "complexity": null,
-    "thumbUrl": "https://d.metroretro.io/thumbs/templates/490ddd67-4ca7-4ce8-8c22-d9dc25d87979/d3a1e008-e289-4ddf-a25b-178fb34fe462.png?e=8f73642bf8fd4da6325093ad42428f9f",
-    "thumbEtag": "8f73642bf8fd4da6325093ad42428f9f",
-    "version": 1,
-    "metadata": {},
-    "publishedAt": "2024-07-22T14:59:02.963Z",
-    "createdAt": "2024-08-21T21:08:03.719Z",
-    "tags": [
-      {
-        "id": "e5384230-486a-4058-a522-c8df0e19692a",
-        "name": "ice-breakers",
-        "label": "Ice Breakers",
-        "color": "#00AEFF",
-        "sort": 100
-      }
-    ]
-  },
-  {
     "id": "b2c060a8-4b01-4ed4-a5c0-7f000895a10a",
     "accountId": null,
     "alias": "easter-egg-dash-large",
@@ -3074,28 +3028,28 @@
     ]
   },
   {
-    "id": "6c19dbd9-6f49-4c84-89d6-ccebd143e73e",
+    "id": "8f9136fe-0704-4f05-a034-13787e75e0d3",
     "accountId": null,
-    "alias": "roti-phones",
-    "label": "ROTI: Phones",
-    "description": "Ask participants to rate the meeting by choosing a phone type.",
+    "alias": "explorer-shopper-vacationer-prisoner",
+    "label": "Explorer, Shopper, Vacationer, Prisoner",
+    "description": "A short check-in activity to measure the team's attitude to the meeting.",
     "sort": 999999999,
     "time": null,
     "people": null,
     "complexity": null,
-    "thumbUrl": "https://d.metroretro.io/thumbs/templates/6c19dbd9-6f49-4c84-89d6-ccebd143e73e/98ff8910-6af4-441f-9135-9242c1b48774.png?e=d369005221e8b688597f3f58b6156572",
-    "thumbEtag": "d369005221e8b688597f3f58b6156572",
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/8f9136fe-0704-4f05-a034-13787e75e0d3/d27345d5-4a10-431e-9df0-999a3dae11f8.png?e=0b7141290bad41aacc17f7d364e2e86e",
+    "thumbEtag": "0b7141290bad41aacc17f7d364e2e86e",
     "version": 1,
     "metadata": {},
-    "publishedAt": "2024-07-22T14:59:16.681Z",
+    "publishedAt": "2024-07-22T14:59:03.539Z",
     "createdAt": "2024-08-21T21:08:03.719Z",
     "tags": [
       {
-        "id": "8ac56df0-5122-4cdd-800b-beecc00f3258",
-        "name": "check-out",
-        "label": "Check Out",
-        "color": "#B84592",
-        "sort": 800
+        "id": "e5384230-486a-4058-a522-c8df0e19692a",
+        "name": "ice-breakers",
+        "label": "Ice Breakers",
+        "color": "#00AEFF",
+        "sort": 100
       }
     ]
   },
@@ -3126,20 +3080,98 @@
     ]
   },
   {
-    "id": "0e00f739-daf1-4b1a-abc8-ef63558448ad",
+    "id": "2b560604-f755-4adf-ba76-7247b0f6bcca",
     "accountId": null,
-    "alias": "roti-feelings",
-    "label": "ROTI: Feelings",
-    "description": "Ask your participants how they feel after the meeting - hopefully better than when they started!",
+    "alias": "roti-fist-of-fives",
+    "label": "ROTI: Fist of Fives",
+    "description": "Fist of Fives asks participants to rate the meeting value with a number of fingers.",
     "sort": 999999999,
     "time": null,
     "people": null,
     "complexity": null,
-    "thumbUrl": "https://d.metroretro.io/thumbs/templates/0e00f739-daf1-4b1a-abc8-ef63558448ad/caab272d-259f-4b83-a91d-0b79eb8be5c2.png?e=aaf72496c9b8a6a5a8ef62b4a269385b",
-    "thumbEtag": "aaf72496c9b8a6a5a8ef62b4a269385b",
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/2b560604-f755-4adf-ba76-7247b0f6bcca/2dd06178-00a9-4795-8dcc-cbab88a28f49.png?e=e6d636139c0ee07ad842bce658ad7564",
+    "thumbEtag": "e6d636139c0ee07ad842bce658ad7564",
     "version": 1,
     "metadata": {},
-    "publishedAt": "2024-07-22T14:59:16.360Z",
+    "publishedAt": "2024-07-22T14:59:16.467Z",
+    "createdAt": "2024-08-21T21:08:03.719Z",
+    "tags": [
+      {
+        "id": "8ac56df0-5122-4cdd-800b-beecc00f3258",
+        "name": "check-out",
+        "label": "Check Out",
+        "color": "#B84592",
+        "sort": 800
+      }
+    ]
+  },
+  {
+    "id": "490ddd67-4ca7-4ce8-8c22-d9dc25d87979",
+    "accountId": null,
+    "alias": "coat-of-arms",
+    "label": "Coat of Arms",
+    "description": "The Coat of Arms is a visual \"'\"get to know you\"'\" activity, but this one comes with a twist.",
+    "sort": 999999999,
+    "time": null,
+    "people": null,
+    "complexity": null,
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/490ddd67-4ca7-4ce8-8c22-d9dc25d87979/d3a1e008-e289-4ddf-a25b-178fb34fe462.png?e=8f73642bf8fd4da6325093ad42428f9f",
+    "thumbEtag": "8f73642bf8fd4da6325093ad42428f9f",
+    "version": 1,
+    "metadata": {},
+    "publishedAt": "2024-07-22T14:59:02.963Z",
+    "createdAt": "2024-08-21T21:08:03.719Z",
+    "tags": [
+      {
+        "id": "e5384230-486a-4058-a522-c8df0e19692a",
+        "name": "ice-breakers",
+        "label": "Ice Breakers",
+        "color": "#00AEFF",
+        "sort": 100
+      }
+    ]
+  },
+  {
+    "id": "173dc9c8-cf02-4e0c-8322-9c2968557fc0",
+    "accountId": null,
+    "alias": "roti-star-ratings",
+    "label": "ROTI: Star Ratings",
+    "description": "Rate the meeting and the facilitator out of 5 stars, with an area for feedback.",
+    "sort": 999999999,
+    "time": null,
+    "people": null,
+    "complexity": null,
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/173dc9c8-cf02-4e0c-8322-9c2968557fc0/085557df-6032-49f2-9ace-68b8bfc38c9a.png?e=6d2d58fc973961f6c8948f93362077ed",
+    "thumbEtag": "6d2d58fc973961f6c8948f93362077ed",
+    "version": 1,
+    "metadata": {},
+    "publishedAt": "2024-07-22T14:59:16.794Z",
+    "createdAt": "2024-08-21T21:08:03.719Z",
+    "tags": [
+      {
+        "id": "8ac56df0-5122-4cdd-800b-beecc00f3258",
+        "name": "check-out",
+        "label": "Check Out",
+        "color": "#B84592",
+        "sort": 800
+      }
+    ]
+  },
+  {
+    "id": "6c19dbd9-6f49-4c84-89d6-ccebd143e73e",
+    "accountId": null,
+    "alias": "roti-phones",
+    "label": "ROTI: Phones",
+    "description": "Ask participants to rate the meeting by choosing a phone type.",
+    "sort": 999999999,
+    "time": null,
+    "people": null,
+    "complexity": null,
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/6c19dbd9-6f49-4c84-89d6-ccebd143e73e/98ff8910-6af4-441f-9135-9242c1b48774.png?e=d369005221e8b688597f3f58b6156572",
+    "thumbEtag": "d369005221e8b688597f3f58b6156572",
+    "version": 1,
+    "metadata": {},
+    "publishedAt": "2024-07-22T14:59:16.681Z",
     "createdAt": "2024-08-21T21:08:03.719Z",
     "tags": [
       {
@@ -3178,54 +3210,54 @@
     ]
   },
   {
-    "id": "b0efc531-c8c4-4f0e-ada7-a60ecafa4bf3",
+    "id": "03092260-0dfa-4d51-ad7d-87acb0d88cd1",
     "accountId": null,
-    "alias": "double-diamond",
-    "label": "Double Diamond",
-    "description": "The Double Diamond is a well-known visualization of the design and innovation process. It helps a team to explore broad possibilities and then narrow their focus to get to a solution.",
+    "alias": "draw-a-scene",
+    "label": "Draw a Scene",
+    "description": "An energizer activity asking the team to draw a scene together.",
     "sort": 999999999,
     "time": null,
     "people": null,
     "complexity": null,
-    "thumbUrl": "https://d.metroretro.io/thumbs/templates/b0efc531-c8c4-4f0e-ada7-a60ecafa4bf3/c3855540-5f92-4853-abc7-bbd43aed8bc6.png?e=0ebe19d9d1c6e1c3f08a956a8d5a2209",
-    "thumbEtag": "0ebe19d9d1c6e1c3f08a956a8d5a2209",
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/03092260-0dfa-4d51-ad7d-87acb0d88cd1/bfe12291-0caf-445f-91f9-80c892507247.png?e=9821ef38074c453880ad7ad31058d8a2",
+    "thumbEtag": "9821ef38074c453880ad7ad31058d8a2",
     "version": 1,
     "metadata": {},
-    "publishedAt": "2024-08-23T15:17:10.139Z",
-    "createdAt": "2024-08-23T15:17:10.040Z",
+    "publishedAt": "2024-07-22T14:59:04.606Z",
+    "createdAt": "2024-08-21T21:08:03.719Z",
     "tags": [
       {
-        "id": "144d8447-e8d0-4e3b-a7d5-7c2446cd000b",
-        "name": "meetings-and-workshops",
-        "label": "Meetings & Workshops",
-        "color": "#B84592",
-        "sort": 700
+        "id": "e5384230-486a-4058-a522-c8df0e19692a",
+        "name": "ice-breakers",
+        "label": "Ice Breakers",
+        "color": "#00AEFF",
+        "sort": 100
       }
     ]
   },
   {
-    "id": "05aba975-eb8d-4512-b930-a33d424b1ed9",
+    "id": "357aca69-d4f3-4fdf-a35b-ca43923714a7",
     "accountId": null,
-    "alias": "zombie-attack",
-    "label": "Zombie Attack!",
-    "description": "We've just survived a zombie attack and the team pulled through. Or did we...?\r\nUse this zombie-themed retro to regroup and reflect on the team's situation.\r\nIncludes a Pulse Check and ends with an Action Tracker.",
+    "alias": "roti-treasure",
+    "label": "ROTI: Treasure",
+    "description": "Rate the value of the meeting in growing piles of treasure.",
     "sort": 999999999,
     "time": null,
     "people": null,
     "complexity": null,
-    "thumbUrl": "https://d.metroretro.io/thumbs/templates/05aba975-eb8d-4512-b930-a33d424b1ed9/ef8708d9-7b7d-4db3-b0b7-59eb65f7187d.png?e=63475b61d46b5a05f9c330b30f5cdb7e",
-    "thumbEtag": "63475b61d46b5a05f9c330b30f5cdb7e",
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/357aca69-d4f3-4fdf-a35b-ca43923714a7/50852adb-7868-4114-87cf-739ca0924eb2.png?e=7a7cf0c5cb1365508500d8c800827d13",
+    "thumbEtag": "7a7cf0c5cb1365508500d8c800827d13",
     "version": 1,
     "metadata": {},
-    "publishedAt": "2025-10-22T12:29:51.023Z",
-    "createdAt": "2025-10-22T12:29:50.774Z",
+    "publishedAt": "2024-07-22T14:59:16.900Z",
+    "createdAt": "2024-08-21T21:08:03.719Z",
     "tags": [
       {
-        "id": "1aa7461f-0879-4563-aea6-dbee73754889",
-        "name": "retrospectives",
-        "label": "Retrospectives",
-        "color": "#7E48F0",
-        "sort": 200
+        "id": "8ac56df0-5122-4cdd-800b-beecc00f3258",
+        "name": "check-out",
+        "label": "Check Out",
+        "color": "#B84592",
+        "sort": 800
       }
     ]
   }
