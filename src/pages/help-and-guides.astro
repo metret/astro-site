@@ -1,0 +1,415 @@
+---
+import PageLayout from "~/layouts/PageLayout.astro";
+import Wibble from "~/components/ui/Wibble.astro";
+
+// Background image for article cards
+const imgImage7 =
+  "https://www.figma.com/api/mcp/asset/2f838d06-20cb-4443-bcad-a5b180327e7d";
+
+// Video cards data
+const videoCards = [
+  {
+    id: 1,
+    url: "https://www.tella.tv/video/cmhw94a82000d04la5womcpzi/view",
+    tag: "Getting Started",
+    title: "A quick overview to get you acquainted with the core features",
+    duration: "3m",
+    cover: "https://s.ludi.co/app/guides/welcome-cover.png",
+  },
+  {
+    id: 2,
+    url: "https://www.tella.tv/video/cmhw2x5zd001q04ibgw2w169q/view",
+    tag: "Getting Started",
+    title: "Creating your first board and getting started",
+    duration: "3m",
+    cover: "https://s.ludi.co/app/guides/firstboard-cover.png",
+  },
+  {
+    id: 3,
+    url: "https://www.tella.tv/video/cmhxldrrv00e804lgfrb0a23e/view",
+    tag: "Deep Dive",
+    title: "Running productive meetings with best practices and pro tips",
+    duration: "15m",
+    cover: "https://s.ludi.co/app/guides/host-cover.png",
+  },
+  {
+    id: 4,
+    url: "https://www.tella.tv/video/cmhxesl7r00a004jr9o3r2t13/view",
+    tag: "Getting Started",
+    title:
+      "Using voting features to facilitate quick decision-making with your team",
+    duration: "5m",
+    cover: "https://s.ludi.co/app/guides/voting-cover.png",
+  },
+  {
+    id: 5,
+    url: "https://www.tella.tv/video/cmhw542sv004d04ky041h06e5/view",
+    tag: "Getting Started",
+    title: "Tracking actions and fostering continuous improvement",
+    duration: "5m",
+    cover: "https://s.ludi.co/app/guides/actions-cover.png",
+  },
+  {
+    id: 6,
+    url: "https://www.tella.tv/video/100-tips-for-using-ludi-90uw",
+    tag: "Tips & Tricks",
+    title: "Quick shortcuts and techniques to become a power user",
+    duration: "35m",
+    cover: "https://s.ludi.co/app/guides/tips-tricks-cover.png",
+  },
+];
+
+// Guide cards data
+const guideCards = [
+  {
+    id: 1,
+    title: "Getting Started",
+    description:
+      "Step-by-step guide to setting up your workspace and creating boards.",
+    cover: "https://s.ludi.co/app/guides/guides-getting-started.webp",
+    href: "https://docs.ludi.co/getting-started/learn-the-basics",
+  },
+  {
+    id: 2,
+    title: "Your First Session",
+    description:
+      "Learn the basics of creating your first board and collaborating with your team.",
+    cover: "https://s.ludi.co/app/guides/guides-first-session.webp",
+    href: "https://docs.ludi.co/getting-started/running-your-first-session",
+  },
+  {
+    id: 3,
+    title: "Working with Boards",
+    description:
+      "Explore board features, templates, and customize them for your needs.",
+    cover: "https://s.ludi.co/app/guides/guides-boards.webp",
+    href: "https://docs.ludi.co/boards/boards-overview",
+  },
+  {
+    id: 4,
+    title: "Dashboard Overview",
+    description:
+      "Navigate your dashboard and manage your workspace effectively.",
+    cover: "https://s.ludi.co/app/guides/guides-dashboard.webp",
+    href: "https://docs.ludi.co/dashboard/introduction-to-the-dashboard",
+  },
+  {
+    id: 5,
+    title: "Team Management",
+    description:
+      "Learn how to add colleagues and manage team permissions effectively.",
+    cover: "https://s.ludi.co/app/guides/guides-management.webp",
+    href: "https://docs.ludi.co/management/admins",
+  },
+  {
+    id: 6,
+    title: "Plans & Billing",
+    description: "Understand pricing plans, billing, and upgrade options.",
+    cover: "https://s.ludi.co/app/guides/guides-plans.webp",
+    href: "https://docs.ludi.co/plans/plans-overview",
+  },
+];
+
+// Doc cards data
+const docCards = [
+  {
+    title: "Boards Overview",
+    description: "Get to know Ludi's board layout.",
+    icon: "https://s.ludi.co/app/icons/juicy/0232-success-flat-017-goals-target.svg",
+    href: "https://docs.ludi.co/boards/boards-overview",
+  },
+  {
+    title: "Create a Board",
+    description:
+      "Learn how to create a board from a template, start blank or clone.",
+    icon: "https://s.ludi.co/app/icons/juicy/0273-construction-flat-006-crane.svg",
+    href: "https://docs.ludi.co/boards/creating-a-board",
+  },
+  {
+    title: "Meeting Mode",
+    description: "Why you should always press that Start Meeting button.",
+    icon: "https://s.ludi.co/app/icons/juicy/0256-electronic-devices-flat-095-gaming-joy-stick.svg",
+    href: "https://docs.ludi.co/boards/design-and-meeting-mode",
+  },
+  {
+    title: "The Toolbar",
+    description: "Everything you need to create and run a Ludi meeting.",
+    icon: "https://s.ludi.co/app/icons/juicy/0243-electrician-flat-025-tool-box.svg",
+    href: "https://docs.ludi.co/boards/the-tools",
+  },
+  {
+    title: "Customizing Your Board",
+    description: "Complete freedom to build for the way your team works.",
+    icon: "https://s.ludi.co/app/icons/juicy/0244-learning-flat-019-art-class.svg",
+    href: "https://docs.ludi.co/boards/customize-your-board",
+  },
+  {
+    title: "Share Your Board",
+    description: "Sharing your board & inviting collaborators.",
+    icon: "https://s.ludi.co/app/icons/juicy/0167-hands-and-gestures-flat-046-hand-shake.svg",
+    href: "https://docs.ludi.co/boards/share-your-board",
+  },
+  {
+    title: "Actions",
+    description:
+      "Actions help you keep track of meeting outcomes and next steps.",
+    icon: "https://s.ludi.co/app/icons/juicy/0249-essentials-2-flat-059-yes-circle.svg",
+    href: "https://docs.ludi.co/boards/actions",
+  },
+  {
+    title: "Mentions",
+    description:
+      "Mentions are a great way to directly message a member of your team.",
+    icon: "https://s.ludi.co/app/icons/juicy/0297-online-shopping-flat-020-two-messages.svg",
+    href: "https://docs.ludi.co/boards/mentions",
+  },
+  {
+    title: "Notifications",
+    description: "Stay up to date on Actions and Mentions.",
+    icon: "https://s.ludi.co/app/icons/juicy/0301-user-interface-flat-097-notification-bell.svg",
+    href: "https://docs.ludi.co/boards/notifications",
+  },
+  {
+    title: "How To Set The Timer",
+    description: "Remove bias from your meetings with Private Writing.",
+    icon: "https://s.ludi.co/app/icons/juicy/0271-education-2-flat-099-alarm-clock.svg",
+    href: "https://docs.ludi.co/boards/how-to-set-the-timer",
+  },
+  {
+    title: "Hide & Show Sticky Notes",
+    description:
+      "Write your stickies without anyone seeing what you are writing.",
+    icon: "https://s.ludi.co/app/icons/juicy/0220-happiness-flat-056-sunglasses-smile-emoji.svg",
+    href: "https://docs.ludi.co/boards/hide-and-show-sticky-notes",
+  },
+  {
+    title: "Voting",
+    description:
+      "Voting helps your team prioritize items or make decisions as a group.",
+    icon: "https://s.ludi.co/app/icons/juicy/0253-reviews-and-feedback-flat-006-thumbs-up-feedback.svg",
+    href: "https://docs.ludi.co/boards/voting",
+  },
+  {
+    title: "Host Controls",
+    description: "Configure your meeting the way you want to work.",
+    icon: "https://s.ludi.co/app/icons/juicy/0285-approved-and-rejected-flat-073-slider-buttons-on-and-off.svg",
+    href: "https://docs.ludi.co/boards/host-controls",
+  },
+  {
+    title: "Jira Integration",
+    description: "Manage your Jira backlog in your Ludi board.",
+    icon: "https://d.metroretro.io/uploads/acjqicu5f75e/a1/a1c81166-897a-461e-81c1-48b2386f5695.svg",
+    href: "https://docs.ludi.co/boards/jira-integration",
+  },
+  {
+    title: "Importing Data",
+    description: "Bring your external data to Ludi for visual collaboration.",
+    icon: "https://s.ludi.co/app/icons/juicy/0019-arrows-flat-014-download-arrow.svg",
+    href: "https://docs.ludi.co/boards/import-data-to-your-boards",
+  },
+  {
+    title: "Locking The Layout",
+    description: "Lock objects in your board to avoid accidental editing.",
+    icon: "https://s.ludi.co/app/icons/juicy/0254-interface-flat-012-locked-padlock.svg",
+    href: "https://docs.ludi.co/boards/locking-board-elements",
+  },
+  {
+    title: "Tags",
+    description:
+      "Tags are a way to add additional labels to sticky notes and cards.",
+    icon: "https://s.ludi.co/app/icons/juicy/0249-essentials-2-flat-014-sales-tag.svg",
+    href: "https://docs.ludi.co/boards/tags",
+  },
+  {
+    title: "Export Your Board",
+    description: "Export your Ludi board to use in your other tools.",
+    icon: "https://s.ludi.co/app/icons/juicy/0019-arrows-flat-015-upload-arrow.svg",
+    href: "https://docs.ludi.co/boards/export-your-board",
+  },
+  {
+    title: "Beta Features",
+    description:
+      "Experimental features, try them out and let us know what you think.",
+    icon: "https://s.ludi.co/app/icons/juicy/0303-ecology-flat-047-green-science-experiments.svg",
+    href: "https://docs.ludi.co/boards/beta-features",
+  },
+  {
+    title: "Dashboard Overview",
+    description: "How to manage your boards, folders and teams.",
+    icon: "https://s.ludi.co/app/icons/juicy/0232-success-flat-017-goals-target.svg",
+    href: "https://docs.ludi.co/dashboard/introduction-to-the-dashboard",
+  },
+  {
+    title: "Boards",
+    description: "Learn how to manage your boards.",
+    icon: "https://s.ludi.co/app/icons/juicy/0237-folders-2-flat-053-presentation-folder.svg",
+    href: "https://docs.ludi.co/dashboard/boards",
+  },
+  {
+    title: "Action Items",
+    description: "Manage your team actions from the Action Items dashboard.",
+    icon: "https://s.ludi.co/app/icons/juicy/0249-essentials-2-flat-059-yes-circle.svg",
+    href: "https://docs.ludi.co/dashboard/action-items",
+  },
+  {
+    title: "Teams And Members",
+    description:
+      "Organize your boards and member access to boards by using teams.",
+    icon: "https://s.ludi.co/app/icons/juicy/0081-infographic-elements-flat-029-multiple-people.svg",
+    href: "https://docs.ludi.co/dashboard/teams-and-members",
+  },
+  {
+    title: "Templates Overview",
+    description: "Everything you need to know about Ludi Templates.",
+    icon: "https://s.ludi.co/app/icons/juicy/0232-success-flat-017-goals-target.svg",
+    href: "https://docs.ludi.co/templates/templates-overview",
+  },
+  {
+    title: "Template Library",
+    description: "Browse, preview and star your favourite Ludi templates.",
+    icon: "https://s.ludi.co/app/icons/juicy/0251-business-essentials-flat-033-three-folders.svg",
+    href: "https://docs.ludi.co/templates/template-library",
+  },
+  {
+    title: "Custom Templates",
+    description: "How to turn any board into a custom template for your team.",
+    icon: "https://s.ludi.co/app/icons/juicy/0271-education-2-flat-025-paint-brush.svg",
+    href: "https://docs.ludi.co/templates/custom-templates",
+  },
+];
+---
+
+<PageLayout title="Help & Guides" spacing="lg">
+  <div class="mx-auto mt-8 max-w-7xl px-4 lg:mt-16">
+    <!-- Videos Section -->
+    <div class="flex flex-col">
+      <div class="mb-10">
+        <h2 class="text-3xl font-medium text-gray-300">Tutorial Videos</h2>
+        <div class="mt-2">
+          <Wibble />
+        </div>
+      </div>
+
+      <!-- Video Cards Grid -->
+      <div class="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
+        {
+          videoCards.map((card) => (
+            <a
+              href={card.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="group flex flex-col"
+            >
+              <div class="relative aspect-video w-full overflow-hidden rounded-xl">
+                <img
+                  src={card.cover}
+                  alt={card.title}
+                  class="h-full w-full object-cover"
+                />
+                <div class="absolute inset-0 bg-black/10 opacity-0 transition-opacity duration-200 group-hover:opacity-100" />
+                <div class="absolute inset-0 flex items-center justify-center">
+                  <svg
+                    class="h-16 w-16 transition-transform duration-200 group-hover:scale-110"
+                    viewBox="0 0 64 64"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <circle
+                      cx="32"
+                      cy="32"
+                      r="32"
+                      fill="white"
+                      fill-opacity="0.9"
+                    />
+                    <path d="M26 22L44 32L26 42V22Z" fill="#3b65ef" />
+                  </svg>
+                </div>
+              </div>
+              <div class="flex flex-col gap-3 px-1.5 pt-3">
+                <div class="flex items-center gap-2">
+                  <span class="rounded-full bg-[#3b65ef]/10 px-2.5 py-1 text-xs font-medium text-[#3b65ef]">
+                    {card.tag} · {card.duration}
+                  </span>
+                </div>
+                <span class="text-body line-clamp-2 text-sm">{card.title}</span>
+              </div>
+            </a>
+          ))
+        }
+      </div>
+    </div>
+
+    <!-- Guides Section -->
+    <div class="mt-20 flex flex-col">
+      <div class="mb-10">
+        <h2 class="text-3xl font-medium text-gray-300">Guides</h2>
+        <div class="mt-2">
+          <Wibble />
+        </div>
+      </div>
+      <div class="grid grid-cols-1 gap-5 md:grid-cols-2">
+        {
+          guideCards.map((card) => (
+            <a
+              href={card.href}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="group flex overflow-hidden rounded-lg border border-gray-200 bg-white transition-shadow hover:shadow-lg"
+            >
+              <div class="relative h-28 w-48 shrink-0 overflow-hidden">
+                <img
+                  src={card.cover}
+                  alt={card.title}
+                  class="h-full w-full object-cover"
+                />
+              </div>
+              <div class="text-body flex flex-1 flex-col gap-2 px-5 py-3">
+                <p class="text-lg font-medium text-gray-300">{card.title}</p>
+                <p class="line-clamp-2 text-sm">{card.description}</p>
+              </div>
+            </a>
+          ))
+        }
+      </div>
+
+      <!-- Docs Section -->
+      <div class="mt-20 mb-10">
+        <h2 class="text-3xl font-medium text-gray-300">Docs</h2>
+        <div class="mt-2">
+          <Wibble />
+        </div>
+      </div>
+
+      <!-- Doc Cards Grid -->
+      <div class="grid grid-cols-1 gap-5 md:grid-cols-2 xl:grid-cols-3">
+        {
+          docCards.map((card) => (
+            <a
+              href={card.href}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="group flex overflow-hidden rounded-lg border border-gray-200 bg-white transition-shadow hover:shadow-lg"
+            >
+              <div class="relative h-30 w-30 shrink-0 overflow-hidden bg-gray-50">
+                <div class="absolute inset-0 opacity-60">
+                  <img
+                    alt=""
+                    class="h-full w-full object-cover"
+                    src={imgImage7}
+                  />
+                </div>
+                <div class="absolute top-1/2 left-1/2 h-16 w-16 -translate-x-1/2 -translate-y-1/2">
+                  <img src={card.icon} alt="" class="h-full w-full" />
+                </div>
+              </div>
+              <div class="text-body flex flex-1 flex-col gap-2.5 p-4">
+                <p class="text-lg font-medium text-gray-300">{card.title}</p>
+                <p class="text-sm">{card.description}</p>
+              </div>
+            </a>
+          ))
+        }
+      </div>
+    </div>
+  </div>
+</PageLayout>
