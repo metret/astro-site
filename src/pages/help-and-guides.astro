@@ -2,7 +2,6 @@
 import PageLayout from "~/layouts/PageLayout.astro";
 import Wibble from "~/components/ui/Wibble.astro";
 
-// Background image for article cards
 const imgImage7 =
   "https://www.figma.com/api/mcp/asset/2f838d06-20cb-4443-bcad-a5b180327e7d";
 
@@ -390,14 +389,7 @@ const docCards = [
               rel="noopener noreferrer"
               class="group flex overflow-hidden rounded-lg border border-gray-200 bg-white transition-shadow hover:shadow-lg"
             >
-              <div class="relative h-30 w-30 shrink-0 overflow-hidden bg-gray-50">
-                <div class="absolute inset-0 opacity-60">
-                  <img
-                    alt=""
-                    class="h-full w-full object-cover"
-                    src={imgImage7}
-                  />
-                </div>
+              <div class="relative h-30 w-30 shrink-0 overflow-hidden bg-blue-50">
                 <div class="absolute top-1/2 left-1/2 h-16 w-16 -translate-x-1/2 -translate-y-1/2">
                   <img src={card.icon} alt="" class="h-full w-full" />
                 </div>
