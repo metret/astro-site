@@ -12,7 +12,7 @@ section: Article
 ogSiteName: Ludi
 ogType: article
 ogUrl: https://ludi.co/blog/how-to-keep-your-backlog-from-getting-out-of-control
-ogImageUrl: ~/assets/images/blog/placeholder.png
+ogImageUrl: ~/assets/images/blog/2025/december/manage-your-backlog.png
 ogImageWidth: 1200
 ogImageHeight: 628
 ogImageAlt: How To Keep Your Backlog From Getting Out Of Control
@@ -37,7 +37,7 @@ So where do we put all our ideas and random items from customer feedback?
 
 Well, we put them in a Ludi board:
 
-![A screenshot of Ludi with annotations made in Ludi, oh yeah!](/src/assets/images/blog/2025/october/ludi-roadmap.png)
+![A screenshot of Ludi with annotations made in Ludi, oh yeah!](~/assets/images/blog/2025/october/ludi-roadmap.png)
 
 It's a bit of a beast, and it's probably due a clean-up (we do this once or twice per year usually).
 
