@@ -1,5 +1,36 @@
 [
   {
+    "id": "edbbe6bb-987e-4a42-907f-d41e4ee0ec9a",
+    "accountId": null,
+    "alias": "massive-christmas-retro",
+    "label": "Massive Christmas Retro",
+    "description": "A festive retrospective with four activities: decorate a tree and make a wish, try a quick memory game, reflect on the sprint, then race in teams to deliver the most presents.",
+    "sort": 95,
+    "time": null,
+    "people": null,
+    "complexity": null,
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/edbbe6bb-987e-4a42-907f-d41e4ee0ec9a/be8d56c6-3b90-4a1d-8108-f7740d89cd3f.png?e=3411e8e89245e6960e31570be0667f29",
+    "thumbEtag": "3411e8e89245e6960e31570be0667f29",
+    "version": 1,
+    "metadata": {
+      "featured": "major",
+      "copy": [
+        "Bring some festive energy to your end-of-year retrospective with this Christmas-themed template. You'll warm up with a quick memory game, then reflect on the last sprint, decorate a tree with wishes for next year, and finish with a team battle to deliver the most presents. Ideal for teams wanting reflection with a bit of interaction before the holidays."
+      ]
+    },
+    "publishedAt": "2025-12-03T11:59:06.535Z",
+    "createdAt": "2025-12-03T11:59:06.206Z",
+    "tags": [
+      {
+        "id": "1aa7461f-0879-4563-aea6-dbee73754889",
+        "name": "retrospectives",
+        "label": "Retrospectives",
+        "color": "#7E48F0",
+        "sort": 200
+      }
+    ]
+  },
+  {
     "id": "4811861a-66f6-408a-82f0-795216eb0f0a",
     "accountId": null,
     "alias": "thanksgiving",
@@ -9,14 +40,12 @@
     "time": null,
     "people": null,
     "complexity": null,
-    "thumbUrl": "https://d.metroretro.io/thumbs/templates/4811861a-66f6-408a-82f0-795216eb0f0a/52cfe1fd-da38-4616-821c-b41d4612643f.png?e=c8ffbffebbfd77c72ec2fc09f50228b4",
-    "thumbEtag": "c8ffbffebbfd77c72ec2fc09f50228b4",
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/4811861a-66f6-408a-82f0-795216eb0f0a/f64e449e-ca8c-402f-9163-1e635a62a852.png?e=654ca9fd1530cf57eaa3d77ba2b1f3fe",
+    "thumbEtag": "654ca9fd1530cf57eaa3d77ba2b1f3fe",
     "version": 3,
     "metadata": {
-      "featured": "major",
-      "copy": [
-        "Cultivate team gratitude and celebrate successes with this Thanksgiving-themed retrospective template. Perfect for remote teams looking to acknowledge contributions and express appreciation before the holiday season."
-      ]
+      "featured": "minor",
+      "fsort": 1
     },
     "publishedAt": "2025-11-05T15:45:24.761Z",
     "createdAt": "2024-11-19T10:17:12.661Z",
@@ -40,12 +69,12 @@
     "time": null,
     "people": null,
     "complexity": null,
-    "thumbUrl": "https://d.metroretro.io/thumbs/templates/05aba975-eb8d-4512-b930-a33d424b1ed9/f8aa6420-b197-4c22-8776-b5292f3f4f2f.png?e=84d8ff4a21ddf0b5fc98953c61a7d7b7",
-    "thumbEtag": "84d8ff4a21ddf0b5fc98953c61a7d7b7",
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/05aba975-eb8d-4512-b930-a33d424b1ed9/6673e850-506d-42fc-976e-d2023e888250.png?e=910fc1f7425198ee93e3e3c23406cc9a",
+    "thumbEtag": "910fc1f7425198ee93e3e3c23406cc9a",
     "version": 1,
     "metadata": {
       "featured": "minor",
-      "fsort": 1
+      "fsort": 2
     },
     "publishedAt": "2025-10-22T12:29:51.023Z",
     "createdAt": "2025-10-22T12:29:50.774Z",
@@ -259,11 +288,11 @@
     "time": null,
     "people": null,
     "complexity": null,
-    "thumbUrl": "https://d.metroretro.io/thumbs/templates/d61052e7-c1b1-4158-acfb-36996f99fa51/1865e941-672c-4583-9014-ad0d7cbce568.png?e=2ffe59971dc68e1705b2fccf3c1e5237",
-    "thumbEtag": "2ffe59971dc68e1705b2fccf3c1e5237",
-    "version": 1,
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/d61052e7-c1b1-4158-acfb-36996f99fa51/ea042857-5f2b-441c-bb02-620fbf1beb64.png?e=be962fcc49d7fc5e372287225147b5a5",
+    "thumbEtag": "be962fcc49d7fc5e372287225147b5a5",
+    "version": 2,
     "metadata": {},
-    "publishedAt": "2024-07-22T14:59:06.976Z",
+    "publishedAt": "2025-11-21T13:16:19.258Z",
     "createdAt": "2024-08-21T21:08:03.719Z",
     "tags": [
       {
@@ -2898,20 +2927,46 @@
     ]
   },
   {
-    "id": "0e00f739-daf1-4b1a-abc8-ef63558448ad",
+    "id": "b2c060a8-4b01-4ed4-a5c0-7f000895a10a",
     "accountId": null,
-    "alias": "roti-feelings",
-    "label": "ROTI: Feelings",
-    "description": "Ask your participants how they feel after the meeting - hopefully better than when they started!",
+    "alias": "easter-egg-dash-large",
+    "label": "Easter Egg Dash (For 11+ People)",
+    "description": "The large version of Easter Egg Dash for teams of 11+ players. Get ready for a dash of fun with our Easter Egg Dash Icebreaker. This game brings the excitement of an egg hunt right into your team meeting.",
     "sort": 999999999,
     "time": null,
     "people": null,
     "complexity": null,
-    "thumbUrl": "https://d.metroretro.io/thumbs/templates/0e00f739-daf1-4b1a-abc8-ef63558448ad/caab272d-259f-4b83-a91d-0b79eb8be5c2.png?e=aaf72496c9b8a6a5a8ef62b4a269385b",
-    "thumbEtag": "aaf72496c9b8a6a5a8ef62b4a269385b",
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/b2c060a8-4b01-4ed4-a5c0-7f000895a10a/e40f4eeb-eb43-4875-9e58-3183c3d94ac0.png?e=42356112d05562e6b0c22b02ab480ff3",
+    "thumbEtag": "42356112d05562e6b0c22b02ab480ff3",
+    "version": 2,
+    "metadata": {},
+    "publishedAt": "2025-04-07T13:51:17.661Z",
+    "createdAt": "2025-04-07T11:55:32.676Z",
+    "tags": [
+      {
+        "id": "e5384230-486a-4058-a522-c8df0e19692a",
+        "name": "ice-breakers",
+        "label": "Ice Breakers",
+        "color": "#00AEFF",
+        "sort": 100
+      }
+    ]
+  },
+  {
+    "id": "2b560604-f755-4adf-ba76-7247b0f6bcca",
+    "accountId": null,
+    "alias": "roti-fist-of-fives",
+    "label": "ROTI: Fist of Fives",
+    "description": "Fist of Fives asks participants to rate the meeting value with a number of fingers.",
+    "sort": 999999999,
+    "time": null,
+    "people": null,
+    "complexity": null,
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/2b560604-f755-4adf-ba76-7247b0f6bcca/2dd06178-00a9-4795-8dcc-cbab88a28f49.png?e=e6d636139c0ee07ad842bce658ad7564",
+    "thumbEtag": "e6d636139c0ee07ad842bce658ad7564",
     "version": 1,
     "metadata": {},
-    "publishedAt": "2024-07-22T14:59:16.360Z",
+    "publishedAt": "2024-07-22T14:59:16.467Z",
     "createdAt": "2024-08-21T21:08:03.719Z",
     "tags": [
       {
@@ -2924,46 +2979,46 @@
     ]
   },
   {
-    "id": "b0efc531-c8c4-4f0e-ada7-a60ecafa4bf3",
+    "id": "8f9136fe-0704-4f05-a034-13787e75e0d3",
     "accountId": null,
-    "alias": "double-diamond",
-    "label": "Double Diamond",
-    "description": "The Double Diamond is a well-known visualization of the design and innovation process. It helps a team to explore broad possibilities and then narrow their focus to get to a solution.",
+    "alias": "explorer-shopper-vacationer-prisoner",
+    "label": "Explorer, Shopper, Vacationer, Prisoner",
+    "description": "A short check-in activity to measure the team's attitude to the meeting.",
     "sort": 999999999,
     "time": null,
     "people": null,
     "complexity": null,
-    "thumbUrl": "https://d.metroretro.io/thumbs/templates/b0efc531-c8c4-4f0e-ada7-a60ecafa4bf3/c3855540-5f92-4853-abc7-bbd43aed8bc6.png?e=0ebe19d9d1c6e1c3f08a956a8d5a2209",
-    "thumbEtag": "0ebe19d9d1c6e1c3f08a956a8d5a2209",
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/8f9136fe-0704-4f05-a034-13787e75e0d3/d27345d5-4a10-431e-9df0-999a3dae11f8.png?e=0b7141290bad41aacc17f7d364e2e86e",
+    "thumbEtag": "0b7141290bad41aacc17f7d364e2e86e",
     "version": 1,
     "metadata": {},
-    "publishedAt": "2024-08-23T15:17:10.139Z",
-    "createdAt": "2024-08-23T15:17:10.040Z",
+    "publishedAt": "2024-07-22T14:59:03.539Z",
+    "createdAt": "2024-08-21T21:08:03.719Z",
     "tags": [
       {
-        "id": "144d8447-e8d0-4e3b-a7d5-7c2446cd000b",
-        "name": "meetings-and-workshops",
-        "label": "Meetings & Workshops",
-        "color": "#B84592",
-        "sort": 700
+        "id": "e5384230-486a-4058-a522-c8df0e19692a",
+        "name": "ice-breakers",
+        "label": "Ice Breakers",
+        "color": "#00AEFF",
+        "sort": 100
       }
     ]
   },
   {
-    "id": "56a7d283-e016-43d5-8779-10791264ff4f",
+    "id": "03092260-0dfa-4d51-ad7d-87acb0d88cd1",
     "accountId": null,
-    "alias": "weather-check-in",
-    "label": "Weather Check In",
-    "description": "What's your weather? Each person picks a weather icon to describe how they are feeling.",
+    "alias": "draw-a-scene",
+    "label": "Draw a Scene",
+    "description": "An energizer activity asking the team to draw a scene together.",
     "sort": 999999999,
     "time": null,
     "people": null,
     "complexity": null,
-    "thumbUrl": "https://d.metroretro.io/thumbs/templates/56a7d283-e016-43d5-8779-10791264ff4f/f65da6fe-9a61-460b-be7f-eef8436fb3c2.png?e=bdfb864de2bcf3b4e55f3d71817ba4be",
-    "thumbEtag": "bdfb864de2bcf3b4e55f3d71817ba4be",
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/03092260-0dfa-4d51-ad7d-87acb0d88cd1/bfe12291-0caf-445f-91f9-80c892507247.png?e=9821ef38074c453880ad7ad31058d8a2",
+    "thumbEtag": "9821ef38074c453880ad7ad31058d8a2",
     "version": 1,
     "metadata": {},
-    "publishedAt": "2024-07-22T14:59:04.917Z",
+    "publishedAt": "2024-07-22T14:59:04.606Z",
     "createdAt": "2024-08-21T21:08:03.719Z",
     "tags": [
       {
@@ -3002,46 +3057,20 @@
     ]
   },
   {
-    "id": "b2c060a8-4b01-4ed4-a5c0-7f000895a10a",
+    "id": "56a7d283-e016-43d5-8779-10791264ff4f",
     "accountId": null,
-    "alias": "easter-egg-dash-large",
-    "label": "Easter Egg Dash (For 11+ People)",
-    "description": "The large version of Easter Egg Dash for teams of 11+ players. Get ready for a dash of fun with our Easter Egg Dash Icebreaker. This game brings the excitement of an egg hunt right into your team meeting.",
+    "alias": "weather-check-in",
+    "label": "Weather Check In",
+    "description": "What's your weather? Each person picks a weather icon to describe how they are feeling.",
     "sort": 999999999,
     "time": null,
     "people": null,
     "complexity": null,
-    "thumbUrl": "https://d.metroretro.io/thumbs/templates/b2c060a8-4b01-4ed4-a5c0-7f000895a10a/e40f4eeb-eb43-4875-9e58-3183c3d94ac0.png?e=42356112d05562e6b0c22b02ab480ff3",
-    "thumbEtag": "42356112d05562e6b0c22b02ab480ff3",
-    "version": 2,
-    "metadata": {},
-    "publishedAt": "2025-04-07T13:51:17.661Z",
-    "createdAt": "2025-04-07T11:55:32.676Z",
-    "tags": [
-      {
-        "id": "e5384230-486a-4058-a522-c8df0e19692a",
-        "name": "ice-breakers",
-        "label": "Ice Breakers",
-        "color": "#00AEFF",
-        "sort": 100
-      }
-    ]
-  },
-  {
-    "id": "8f9136fe-0704-4f05-a034-13787e75e0d3",
-    "accountId": null,
-    "alias": "explorer-shopper-vacationer-prisoner",
-    "label": "Explorer, Shopper, Vacationer, Prisoner",
-    "description": "A short check-in activity to measure the team's attitude to the meeting.",
-    "sort": 999999999,
-    "time": null,
-    "people": null,
-    "complexity": null,
-    "thumbUrl": "https://d.metroretro.io/thumbs/templates/8f9136fe-0704-4f05-a034-13787e75e0d3/d27345d5-4a10-431e-9df0-999a3dae11f8.png?e=0b7141290bad41aacc17f7d364e2e86e",
-    "thumbEtag": "0b7141290bad41aacc17f7d364e2e86e",
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/56a7d283-e016-43d5-8779-10791264ff4f/f65da6fe-9a61-460b-be7f-eef8436fb3c2.png?e=bdfb864de2bcf3b4e55f3d71817ba4be",
+    "thumbEtag": "bdfb864de2bcf3b4e55f3d71817ba4be",
     "version": 1,
     "metadata": {},
-    "publishedAt": "2024-07-22T14:59:03.539Z",
+    "publishedAt": "2024-07-22T14:59:04.917Z",
     "createdAt": "2024-08-21T21:08:03.719Z",
     "tags": [
       {
@@ -3054,20 +3083,20 @@
     ]
   },
   {
-    "id": "4a75f939-1cf1-4564-abf5-c3c3e9d71309",
+    "id": "0e00f739-daf1-4b1a-abc8-ef63558448ad",
     "accountId": null,
-    "alias": "roti-meeting-value-1-5",
-    "label": "ROTI: Meeting Value 1-5",
-    "description": "A simple way to ask your participants how valuable the meeting was.",
+    "alias": "roti-feelings",
+    "label": "ROTI: Feelings",
+    "description": "Ask your participants how they feel after the meeting - hopefully better than when they started!",
     "sort": 999999999,
     "time": null,
     "people": null,
     "complexity": null,
-    "thumbUrl": "https://d.metroretro.io/thumbs/templates/4a75f939-1cf1-4564-abf5-c3c3e9d71309/66a6f67a-fb6c-472e-89dc-9f9176e038b3.png?e=0c8d4fd8c770d5c34c5bfe724816db16",
-    "thumbEtag": "0c8d4fd8c770d5c34c5bfe724816db16",
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/0e00f739-daf1-4b1a-abc8-ef63558448ad/caab272d-259f-4b83-a91d-0b79eb8be5c2.png?e=aaf72496c9b8a6a5a8ef62b4a269385b",
+    "thumbEtag": "aaf72496c9b8a6a5a8ef62b4a269385b",
     "version": 1,
     "metadata": {},
-    "publishedAt": "2024-07-22T14:59:16.577Z",
+    "publishedAt": "2024-07-22T14:59:16.360Z",
     "createdAt": "2024-08-21T21:08:03.719Z",
     "tags": [
       {
@@ -3080,20 +3109,20 @@
     ]
   },
   {
-    "id": "2b560604-f755-4adf-ba76-7247b0f6bcca",
+    "id": "357aca69-d4f3-4fdf-a35b-ca43923714a7",
     "accountId": null,
-    "alias": "roti-fist-of-fives",
-    "label": "ROTI: Fist of Fives",
-    "description": "Fist of Fives asks participants to rate the meeting value with a number of fingers.",
+    "alias": "roti-treasure",
+    "label": "ROTI: Treasure",
+    "description": "Rate the value of the meeting in growing piles of treasure.",
     "sort": 999999999,
     "time": null,
     "people": null,
     "complexity": null,
-    "thumbUrl": "https://d.metroretro.io/thumbs/templates/2b560604-f755-4adf-ba76-7247b0f6bcca/2dd06178-00a9-4795-8dcc-cbab88a28f49.png?e=e6d636139c0ee07ad842bce658ad7564",
-    "thumbEtag": "e6d636139c0ee07ad842bce658ad7564",
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/357aca69-d4f3-4fdf-a35b-ca43923714a7/50852adb-7868-4114-87cf-739ca0924eb2.png?e=7a7cf0c5cb1365508500d8c800827d13",
+    "thumbEtag": "7a7cf0c5cb1365508500d8c800827d13",
     "version": 1,
     "metadata": {},
-    "publishedAt": "2024-07-22T14:59:16.467Z",
+    "publishedAt": "2024-07-22T14:59:16.900Z",
     "createdAt": "2024-08-21T21:08:03.719Z",
     "tags": [
       {
@@ -3128,6 +3157,32 @@
         "label": "Ice Breakers",
         "color": "#00AEFF",
         "sort": 100
+      }
+    ]
+  },
+  {
+    "id": "4a75f939-1cf1-4564-abf5-c3c3e9d71309",
+    "accountId": null,
+    "alias": "roti-meeting-value-1-5",
+    "label": "ROTI: Meeting Value 1-5",
+    "description": "A simple way to ask your participants how valuable the meeting was.",
+    "sort": 999999999,
+    "time": null,
+    "people": null,
+    "complexity": null,
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/4a75f939-1cf1-4564-abf5-c3c3e9d71309/66a6f67a-fb6c-472e-89dc-9f9176e038b3.png?e=0c8d4fd8c770d5c34c5bfe724816db16",
+    "thumbEtag": "0c8d4fd8c770d5c34c5bfe724816db16",
+    "version": 1,
+    "metadata": {},
+    "publishedAt": "2024-07-22T14:59:16.577Z",
+    "createdAt": "2024-08-21T21:08:03.719Z",
+    "tags": [
+      {
+        "id": "8ac56df0-5122-4cdd-800b-beecc00f3258",
+        "name": "check-out",
+        "label": "Check Out",
+        "color": "#B84592",
+        "sort": 800
       }
     ]
   },
@@ -3210,54 +3265,28 @@
     ]
   },
   {
-    "id": "03092260-0dfa-4d51-ad7d-87acb0d88cd1",
+    "id": "b0efc531-c8c4-4f0e-ada7-a60ecafa4bf3",
     "accountId": null,
-    "alias": "draw-a-scene",
-    "label": "Draw a Scene",
-    "description": "An energizer activity asking the team to draw a scene together.",
+    "alias": "double-diamond",
+    "label": "Double Diamond",
+    "description": "The Double Diamond is a well-known visualization of the design and innovation process. It helps a team to explore broad possibilities and then narrow their focus to get to a solution.",
     "sort": 999999999,
     "time": null,
     "people": null,
     "complexity": null,
-    "thumbUrl": "https://d.metroretro.io/thumbs/templates/03092260-0dfa-4d51-ad7d-87acb0d88cd1/bfe12291-0caf-445f-91f9-80c892507247.png?e=9821ef38074c453880ad7ad31058d8a2",
-    "thumbEtag": "9821ef38074c453880ad7ad31058d8a2",
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/b0efc531-c8c4-4f0e-ada7-a60ecafa4bf3/c3855540-5f92-4853-abc7-bbd43aed8bc6.png?e=0ebe19d9d1c6e1c3f08a956a8d5a2209",
+    "thumbEtag": "0ebe19d9d1c6e1c3f08a956a8d5a2209",
     "version": 1,
     "metadata": {},
-    "publishedAt": "2024-07-22T14:59:04.606Z",
-    "createdAt": "2024-08-21T21:08:03.719Z",
+    "publishedAt": "2024-08-23T15:17:10.139Z",
+    "createdAt": "2024-08-23T15:17:10.040Z",
     "tags": [
       {
-        "id": "e5384230-486a-4058-a522-c8df0e19692a",
-        "name": "ice-breakers",
-        "label": "Ice Breakers",
-        "color": "#00AEFF",
-        "sort": 100
-      }
-    ]
-  },
-  {
-    "id": "357aca69-d4f3-4fdf-a35b-ca43923714a7",
-    "accountId": null,
-    "alias": "roti-treasure",
-    "label": "ROTI: Treasure",
-    "description": "Rate the value of the meeting in growing piles of treasure.",
-    "sort": 999999999,
-    "time": null,
-    "people": null,
-    "complexity": null,
-    "thumbUrl": "https://d.metroretro.io/thumbs/templates/357aca69-d4f3-4fdf-a35b-ca43923714a7/50852adb-7868-4114-87cf-739ca0924eb2.png?e=7a7cf0c5cb1365508500d8c800827d13",
-    "thumbEtag": "7a7cf0c5cb1365508500d8c800827d13",
-    "version": 1,
-    "metadata": {},
-    "publishedAt": "2024-07-22T14:59:16.900Z",
-    "createdAt": "2024-08-21T21:08:03.719Z",
-    "tags": [
-      {
-        "id": "8ac56df0-5122-4cdd-800b-beecc00f3258",
-        "name": "check-out",
-        "label": "Check Out",
+        "id": "144d8447-e8d0-4e3b-a7d5-7c2446cd000b",
+        "name": "meetings-and-workshops",
+        "label": "Meetings & Workshops",
         "color": "#B84592",
-        "sort": 800
+        "sort": 700
       }
     ]
   }

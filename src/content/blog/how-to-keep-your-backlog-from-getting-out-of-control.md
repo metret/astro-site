@@ -3,7 +3,7 @@ title: How To Keep Your Backlog From Getting Out Of Control
 teaser: Just take everything vague and unready out of your backlog and put it
   into a large Ludi board.  There you don't have to read the article.
 category: Article
-image: ~/assets/images/blog/placeholder.png
+image: ~/assets/images/blog/2025/december/manage-your-backlog.png
 description: Learn how to manage your product backlog effectively by keeping it
   short and refined. Discover why moving unrefined ideas to a visual tool like
   Ludi can help your team stay focused on ready-to-build work.
@@ -35,7 +35,7 @@ The situation is obviously different, but I much prefer the way we work now at L
 
 So where do we put all our ideas and random items from customer feedback?
 
-Well, we put them in a Ludi board: ![](../../assets/images/blog/2025/october/ludi-roadmap.png)
+Well, we put them in a Ludi board:
 
 ![A screenshot of Ludi with annotations made in Ludi, oh yeah!](/src/assets/images/blog/2025/october/ludi-roadmap.png)
 
