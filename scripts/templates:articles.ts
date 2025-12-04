@@ -8,9 +8,19 @@ const bearer = "178c1246-7746-46d9-a0f7-6b29cb369828";
 const anthropic = new Anthropic({
 });
 
+const cleanSnapshot = ([header, ...items]: any) => {
+
+    const clean = ([type, id, state, children]: any) => {
+        return type === 'Marking' ? null : [type, id, state, children.map(clean).filter(Boolean)];
+    }
+
+    return [header, ...items.map(clean).filter(Boolean)];
+};
+
 const loadSnapshot = async (templateId: string) => {
     try {
         const controller = new AbortController();
+
         const timeoutId = setTimeout(() => controller.abort(), 60000); // 60 second timeout
 
         const response = await fetch(`https://ludi.co/api/v2/templates.snapshot?boardId=${templateId}`, {
@@ -39,7 +49,8 @@ const generateArticle = async (tmpl: Record<string, any>) => {
     console.log(`Generating article for ${tmpl.alias}`);
     console.log(`  - Loading snapshot for template ID: ${tmpl.id}`);
 
-    const snapshot = await loadSnapshot(tmpl.id);
+    const snapshot = cleanSnapshot(await loadSnapshot(tmpl.id));
+
     console.log(`  - Snapshot loaded successfully`);
 
     const structure = `
@@ -117,13 +128,14 @@ Your writing should sound like it comes from a knowledgeable colleague who respe
     const filePath = `./data/raw-template-info/${tmpl.alias}.md`;
 
     const existingCopy = fs.existsSync(filePath) ? fs.readFileSync(filePath, "utf8") : 'None';
+
     console.log(`  - Existing copy: ${existingCopy === 'None' ? 'None' : 'Found'}`);
     console.log(`  - Calling Anthropic API to generate article...`);
 
     try {
         const msg = await anthropic.messages.create({
             model: "claude-sonnet-4-5-20250929",
-            max_tokens: 1024 * 2,
+            max_tokens: 1024 * 4,
             system: [
                 'You are a helpful copy writer, knowledgable in SEO and agile methodologies.',
                 'You are helping write instructions and descriptions for collaborative meeting templates in the application Ludi, a collaborative whiteboard tool for dev teams.',
@@ -148,9 +160,11 @@ Your writing should sound like it comes from a knowledgeable colleague who respe
 
         if (msg.content[0].type === 'text') {
             console.log(`  - Article content generated (${msg.content[0].text.length} characters)`);
+
             return msg.content[0].text;
         } else {
             console.error('  - Unexpected message content type:', msg.content[0]);
+
             return undefined;
         }
     } catch (error) {
@@ -165,7 +179,9 @@ const main = async () => {
     const templates = JSON.parse(fs.readFileSync('./data/templates.json', 'utf8'));
 
     let generatedCount = 0;
+
     let skippedCount = 0;
+
     let errorCount = 0;
 
     for (const tmpl of templates) {

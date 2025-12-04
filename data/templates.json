@@ -89,42 +89,6 @@
     ]
   },
   {
-    "id": "ab9b7e1c-146f-405a-b1e5-982f38f298cd",
-    "accountId": null,
-    "alias": "trick-or-treat",
-    "label": "Trick or Treat!",
-    "description": "Go door-to-door with your team in search of Halloween treats!  Encounter the monsters, spooky house, and spider webs on your way...",
-    "sort": 98,
-    "time": null,
-    "people": null,
-    "complexity": null,
-    "thumbUrl": "https://d.metroretro.io/thumbs/templates/ab9b7e1c-146f-405a-b1e5-982f38f298cd/ae80196e-3389-43a6-9dd5-d56ea3a89c97.png?e=6f91ad44b6941ca21ecb556e85ff17ae",
-    "thumbEtag": "6f91ad44b6941ca21ecb556e85ff17ae",
-    "version": 1,
-    "metadata": {
-      "featured": "minor",
-      "fsort": 1
-    },
-    "publishedAt": "2024-10-17T11:28:43.113Z",
-    "createdAt": "2024-10-17T11:28:42.868Z",
-    "tags": [
-      {
-        "id": "1aa7461f-0879-4563-aea6-dbee73754889",
-        "name": "retrospectives",
-        "label": "Retrospectives",
-        "color": "#7E48F0",
-        "sort": 200
-      },
-      {
-        "id": "2e5407df-73f8-4f27-8035-5681889e0b79",
-        "name": "futurespectives",
-        "label": "Futurespectives",
-        "color": "#FF4F81",
-        "sort": 300
-      }
-    ]
-  },
-  {
     "id": "c4c90933-6c82-48bc-a77c-582c0cdd68b4",
     "accountId": null,
     "alias": "the-sailboat",
@@ -936,6 +900,32 @@
     ]
   },
   {
+    "id": "68f5e0f9-40a5-4835-a3fc-6bcfa9ae219c",
+    "accountId": null,
+    "alias": "elephant-in-the-room",
+    "label": "Elephant in the Room",
+    "description": "If you feel real issues are not being raised in your regular retrospectives, use the Elephant in the Room exercise to help the team open up.",
+    "sort": 2000,
+    "time": null,
+    "people": null,
+    "complexity": null,
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/68f5e0f9-40a5-4835-a3fc-6bcfa9ae219c/6ade30ec-826e-4ece-846c-d89b20df8aeb.png?e=e016ad5ff03d688a30ba977f6effbfde",
+    "thumbEtag": "e016ad5ff03d688a30ba977f6effbfde",
+    "version": 1,
+    "metadata": {},
+    "publishedAt": "2024-07-22T14:59:07.205Z",
+    "createdAt": "2024-08-21T21:08:03.719Z",
+    "tags": [
+      {
+        "id": "1aa7461f-0879-4563-aea6-dbee73754889",
+        "name": "retrospectives",
+        "label": "Retrospectives",
+        "color": "#7E48F0",
+        "sort": 200
+      }
+    ]
+  },
+  {
     "id": "65a1f028-9f55-4e64-bf7f-58f97b232b45",
     "accountId": null,
     "alias": "back-2-school",
@@ -965,32 +955,6 @@
         "label": "Futurespectives",
         "color": "#FF4F81",
         "sort": 300
-      }
-    ]
-  },
-  {
-    "id": "68f5e0f9-40a5-4835-a3fc-6bcfa9ae219c",
-    "accountId": null,
-    "alias": "elephant-in-the-room",
-    "label": "Elephant in the Room",
-    "description": "If you feel real issues are not being raised in your regular retrospectives, use the Elephant in the Room exercise to help the team open up.",
-    "sort": 2000,
-    "time": null,
-    "people": null,
-    "complexity": null,
-    "thumbUrl": "https://d.metroretro.io/thumbs/templates/68f5e0f9-40a5-4835-a3fc-6bcfa9ae219c/6ade30ec-826e-4ece-846c-d89b20df8aeb.png?e=e016ad5ff03d688a30ba977f6effbfde",
-    "thumbEtag": "e016ad5ff03d688a30ba977f6effbfde",
-    "version": 1,
-    "metadata": {},
-    "publishedAt": "2024-07-22T14:59:07.205Z",
-    "createdAt": "2024-08-21T21:08:03.719Z",
-    "tags": [
-      {
-        "id": "1aa7461f-0879-4563-aea6-dbee73754889",
-        "name": "retrospectives",
-        "label": "Retrospectives",
-        "color": "#7E48F0",
-        "sort": 200
       }
     ]
   },
@@ -1556,6 +1520,39 @@
         "label": "Retrospectives",
         "color": "#7E48F0",
         "sort": 200
+      }
+    ]
+  },
+  {
+    "id": "ab9b7e1c-146f-405a-b1e5-982f38f298cd",
+    "accountId": null,
+    "alias": "trick-or-treat",
+    "label": "Trick or Treat!",
+    "description": "Go door-to-door with your team in search of Halloween treats!  Encounter the monsters, spooky house, and spider webs on your way...",
+    "sort": 4050,
+    "time": null,
+    "people": null,
+    "complexity": null,
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/ab9b7e1c-146f-405a-b1e5-982f38f298cd/0e9cd03b-334b-45ff-8d73-65402f72ba70.png?e=6f91ad44b6941ca21ecb556e85ff17ae",
+    "thumbEtag": "6f91ad44b6941ca21ecb556e85ff17ae",
+    "version": 1,
+    "metadata": {},
+    "publishedAt": "2024-10-17T11:28:43.113Z",
+    "createdAt": "2024-10-17T11:28:42.868Z",
+    "tags": [
+      {
+        "id": "1aa7461f-0879-4563-aea6-dbee73754889",
+        "name": "retrospectives",
+        "label": "Retrospectives",
+        "color": "#7E48F0",
+        "sort": 200
+      },
+      {
+        "id": "2e5407df-73f8-4f27-8035-5681889e0b79",
+        "name": "futurespectives",
+        "label": "Futurespectives",
+        "color": "#FF4F81",
+        "sort": 300
       }
     ]
   },
