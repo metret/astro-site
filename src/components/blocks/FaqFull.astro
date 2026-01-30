@@ -15,6 +15,17 @@ import FaqItem from "./FaqItem.astro";
     </h2>
     <div class="mx-auto max-w-[64rem] py-8">
       <ul class="space-y-5">
+        <FaqItem question="How does licensing work in Ludi?">
+          <p class="mb-4">
+            Ludi is priced per member. All members need a license to work on a
+            board.
+          </p>
+          <p class="mb-4">
+            As an example, a team of 10 people needs 10 licenses = $40 per month
+            on the Starter plan, when billed annually.
+          </p>
+          <p class="mb-4">Guest collaborators do not require a license.</p>
+        </FaqItem>
         <FaqItem question="Can I use Ludi for free?">
           <p class="mb-4">Yes, you get a 30 day free trial when you signup.</p>
           <p class="mb-4">
@@ -40,33 +51,34 @@ import FaqItem from "./FaqItem.astro";
         </FaqItem>
         <FaqItem question="What is a Team in Ludi?">
           <p class="mb-4">
-            A Team in Ludi is a private space where Team Members collaborate on
-            boards.
+            A Team in Ludi is a group of members (paid users) who share access
+            to the same boards.
+            <ul>
+              <li>Each member in a Team needs their own paid user.</li>
+              <li>
+                Teams are how you organise people who regularly collaborate
+                together.
+              </li>
+              <li>Boards belong to a Team, not to an individual user.</li>
+            </ul>
           </p>
           <p>
             You can have one Team space on the Starter plan, and unlimited Team
             spaces on the Business or Enterprise plan.
           </p>
         </FaqItem>
-        <FaqItem question="How many Teams can I have?">
-          <p>
-            On the Starter plan you have one Team space. The Business and
-            Enterprise plans allow you to have any number of Teams.
-          </p>
-        </FaqItem>
         <FaqItem question="What is a Member?">
           <p>
-            A member is someone that has joined your team. They must create an
-            account to collaborate. Members have access to the team dashboard.
+            A member is someone that has joined your team and can collaborate on
+            your boards. Members must register to collaborate. Members have
+            access to the team dashboard.
           </p>
         </FaqItem>
         <FaqItem question="How many Members can I have on a Team?">
           <p>You can have any number of members per team.</p>
         </FaqItem>
         <FaqItem question="Can I have more than one Team on the Starter plan?">
-          <p class="mb-4">
-            You can only have one Team space on the Starter plan.
-          </p>
+          <p class="mb-4">The Starter plan includes one team space.</p>
           <p>
             If you wish to have multiple teams in the same organization, you
             must choose the Business plan.
@@ -74,20 +86,16 @@ import FaqItem from "./FaqItem.astro";
         </FaqItem>
         <FaqItem question="How many people can collaborate on a board with me?">
           <p class="mb-4">
-            All your members can collaborate on the same board together, even
-            across different teams in your organization.
+            All your licensed members can collaborate on the same board
+            together.
           </p>
           <p>
             In addition, the Business plan allows two external guests per board,
-            the Enterprise plan allows up to 20 external guests per board.
+            and the Enterprise plan allows up to 20 external guests per board.
           </p>
         </FaqItem>
         <FaqItem question="Can I collaborate with people outside my Team?">
           <p class="mb-4">
-            All collaborators on the Starter plan must join the team as a Team
-            Member to collaborate on a board.
-          </p>
-          <p>
             Teams on the Business or Enterprise plans can invite external
             collaborators to their boards as guests. Just copy the Guest Invite
             link in the board Share menu, and your external collaborators can
@@ -97,16 +105,16 @@ import FaqItem from "./FaqItem.astro";
         </FaqItem>
         <FaqItem question="What is a Guest?">
           <p>
-            A Guest is a collaborator that is not a Team Member. A guest can be
-            invited to individual boards that are shared with them. They do not
-            have access to the team space.
+            A Guest is a collaborator that is not a Team Member. They do not
+            require a license. A guest can be invited to individual boards. They
+            do not have access to the team space.
           </p>
         </FaqItem>
         <FaqItem question="What is the difference between Members and Guests?">
           <p class="mb-4">
-            Members have full use of the tool, such as access to the team space
-            and boards, using integrations, creating and managing boards,
-            running meetings. Members have a user profile.
+            Members use a license, so have full use of the tool such as access
+            to their team space and boards, using integrations, creating boards,
+            running meetings, tracking actions. Members have a user profile.
           </p>
           <p>
             On the other hand, a Guest is a temporary role with limited
@@ -121,8 +129,8 @@ import FaqItem from "./FaqItem.astro";
             space.
           </p>
           <p>
-            Invoice billing is available for annual plans with a minimum of 3
-            teams. Get in touch for invoice billing.
+            Invoice billing is available for annual plans (20 seat minimum). Get
+            in touch for invoice billing.
           </p>
         </FaqItem>
         <FaqItem question="Can I change my plan?">
@@ -130,8 +138,7 @@ import FaqItem from "./FaqItem.astro";
             Please contact us to change your plan type or billing period.
           </p>
           <p>
-            On the Business plan, you can add or remove members and your
-            subscription will update pro-rata.
+            If you add or remove members your subscription will update pro-rata.
           </p>
         </FaqItem>
         <FaqItem question="Can I cancel my plan?">
@@ -160,7 +167,7 @@ import FaqItem from "./FaqItem.astro";
 
   function setFAQ(
     faq?: HTMLDivElement | null,
-    expanded: "true" | "false" = "false"
+    expanded: "true" | "false" = "false",
   ) {
     if (!faq) return;
     faq.setAttribute("aria-expanded", expanded);
