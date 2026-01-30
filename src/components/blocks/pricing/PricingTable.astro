@@ -15,14 +15,7 @@ const categories: Category[] = [
   {
     title: "Key Details",
     features: [
-      { name: "Team Members", values: ["Up to 20", "Up to 200", "100+"] },
-      { name: "Team Spaces", values: ["1 Team", "Unlimited", "Unlimited"] },
-      { name: "Unlimited Boards", values: [true, true, true] },
-      { name: "Secure Boards", values: [true, true, true] },
-      { name: "Professional Templates", values: [true, true, true] },
-      { name: "Make Custom Templates", values: [true, true, true] },
-      { name: "Board Viewers", values: [true, true, true] },
-      { name: "Cross-team Collaboration", values: [false, true, true] },
+      { name: "Team Members", values: ["2+", "2+", "100+"] },
       {
         name: "Guest Collaborators",
         values: [
@@ -31,15 +24,24 @@ const categories: Category[] = [
           { text: "(20 per board)", icon: true },
         ],
       },
+      { name: "Board Viewers (Free)", values: [true, true, true] },
+      { name: "Team Spaces", values: ["1 Team", "Unlimited", "Unlimited"] },
+      { name: "Unlimited Boards", values: [true, true, true] },
+      { name: "Secure Boards", values: [true, true, true] },
+      { name: "100+ Ludi Templates", values: [true, true, true] },
+      { name: "Make Custom Templates", values: [true, true, true] },
+      { name: "Cross-Team Collaboration", values: [false, true, true] },
     ],
   },
   {
     title: "Board Features",
     features: [
-      { name: "Collaboration Tools", values: [true, true, true] },
-      { name: "Facilitator Tools", values: [true, true, true] },
-      { name: "Voting", values: [true, true, true] },
       { name: "Private Writing", values: [true, true, true] },
+      { name: "Voting", values: [true, true, true] },
+      { name: "Collaboration Tools", values: [true, true, true] },
+      { name: "Facilitator Controls", values: [true, true, true] },
+      { name: "Action Tracking", values: [true, true, true] },
+      { name: "Wearable Hats", values: [true, true, true] },
       { name: "CSV import & export", values: [true, true, true] },
       { name: "PDF Export", values: [false, true, true] },
       { name: "Jira Integration", values: [false, true, true] },
@@ -52,8 +54,8 @@ const categories: Category[] = [
   {
     title: "Admin, Security, Support",
     features: [
-      { name: "Team Admin", values: [true, true, true] },
-      { name: "Team access controls", values: [true, true, true] },
+      { name: "Team Admin Role", values: [true, true, true] },
+      { name: "Team Access Controls", values: [true, true, true] },
       { name: "Organization Admins", values: [false, true, true] },
       {
         name: "Single Sign On Integration (SSO)",
@@ -76,7 +78,7 @@ const categories: Category[] = [
         name: "Payment Options",
         values: [
           "Payment Card",
-          "Payment Card or Invoice (min. 20 seats billed annually for invoice)",
+          "Payment Card or Invoice (invoice requires min. 20 annual seats)",
           "Annual Contracts - Custom payment terms available",
         ],
       },
