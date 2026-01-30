@@ -6,16 +6,20 @@ import FaqFull from "~/components/blocks/FaqFull.astro";
 import CustomerLogos from "~/components/blocks/CustomerLogos.astro";
 import Testimonials from "~/components/blocks/Testimonials.astro";
 import WallOfLove from "~/components/blocks/WallOfLove.astro";
-import SignUp from "~/components/blocks/SignUp.astro";
 import Dots from "~/components/Dots.astro";
-import TextHero from "~/components/blocks/TextHero.astro";
 import Hero from "~/components/blocks/Hero.astro";
+
+// CHAOS COMPONENTS
+import AnimatedBlob from "~/components/ui/AnimatedBlob.astro";
+import FloatingMascot from "~/components/ui/FloatingMascot.astro";
+import WibbleDivider from "~/components/ui/WibbleDivider.astro";
+import Sparkles from "~/components/ui/Sparkles.astro";
 ---
 
 <style>
   .wrapper {
     position: relative;
-    padding-bottom: 56.25%; /* 16:9 */
+    padding-bottom: 56.25%;
     padding-top: 25px;
     height: 100%;
   }
@@ -26,39 +30,411 @@ import Hero from "~/components/blocks/Hero.astro";
     width: 100%;
     height: 100%;
   }
+
+  /* CHAOS STYLES */
+  .chaos-container {
+    position: relative;
+    overflow: hidden;
+  }
+
+  /* Checkerboard background */
+  .checkerboard {
+    position: fixed;
+    inset: 0;
+    z-index: -2;
+    opacity: 0.03;
+    background-image:
+      linear-gradient(45deg, #ff0080 25%, transparent 25%),
+      linear-gradient(-45deg, #ff0080 25%, transparent 25%),
+      linear-gradient(45deg, transparent 75%, #00ffff 75%),
+      linear-gradient(-45deg, transparent 75%, #00ffff 75%);
+    background-size: 40px 40px;
+    background-position: 0 0, 0 20px, 20px -20px, -20px 0px;
+    animation: checkerboard-shift 2s linear infinite;
+    pointer-events: none;
+  }
+
+  /* Scanlines overlay */
+  .scanlines {
+    position: fixed;
+    inset: 0;
+    z-index: 100;
+    pointer-events: none;
+    background: repeating-linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.03),
+      rgba(0, 0, 0, 0.03) 1px,
+      transparent 1px,
+      transparent 2px
+    );
+  }
+
+  .scanline-bar {
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.1), transparent);
+    animation: scanline 8s linear infinite;
+  }
+
+  /* Rotating gradient rings */
+  .gradient-ring {
+    position: fixed;
+    border-radius: 50%;
+    border: 4px solid transparent;
+    background: linear-gradient(white, white) padding-box,
+      linear-gradient(90deg, #ff0080, #ff8c00, #ffff00, #00ff00, #00ffff, #8000ff, #ff0080) border-box;
+    animation: ring-rotate 10s linear infinite;
+    pointer-events: none;
+    opacity: 0.4;
+  }
+
+  /* Marquee */
+  .marquee-container {
+    overflow: hidden;
+    background: linear-gradient(90deg, #ff0080, #ff8c00, #ffff00, #00ff00, #00ffff, #8000ff, #ff0080);
+    background-size: 400% 400%;
+    animation: rainbow-shift 3s ease infinite;
+    padding: 12px 0;
+  }
+
+  .marquee-content {
+    display: flex;
+    animation: marquee 20s linear infinite;
+    white-space: nowrap;
+  }
+
+  .marquee-content span {
+    padding: 0 40px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+  }
+
+  /* Neon card wrapper */
+  .neon-card {
+    border: 3px solid #ff0080;
+    border-radius: 20px;
+    padding: 20px;
+    animation: border-dance 2s ease-in-out infinite;
+    background: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(10px);
+  }
+
+  /* Rainbow border wrapper */
+  .rainbow-border {
+    border: 4px solid;
+    border-radius: 16px;
+    padding: 16px;
+    animation: border-dance 1.5s ease-in-out infinite;
+    background: linear-gradient(white, white) padding-box,
+      linear-gradient(90deg, #ff0080, #ff8c00, #ffff00, #00ff00, #00ffff, #8000ff, #ff0080) border-box;
+    border-color: transparent;
+    background-size: 100% 100%, 400% 400%;
+  }
+
+  .rainbow-border::before {
+    content: '';
+    position: absolute;
+    inset: -4px;
+    border-radius: 20px;
+    background: linear-gradient(90deg, #ff0080, #ff8c00, #ffff00, #00ff00, #00ffff, #8000ff, #ff0080);
+    background-size: 400% 400%;
+    animation: rainbow-shift 2s ease infinite;
+    z-index: -1;
+    filter: blur(8px);
+    opacity: 0.7;
+  }
+
+  /* Pulsing FAQ background */
+  .faq-chaos {
+    position: relative;
+    background: linear-gradient(135deg, rgba(185, 116, 255, 0.1), rgba(59, 101, 239, 0.1), rgba(255, 0, 128, 0.1));
+    background-size: 400% 400%;
+    animation: rainbow-shift 5s ease infinite;
+    border-radius: 24px;
+    padding: 40px 20px;
+  }
+
+  /* Glitch text effect */
+  .glitch-text {
+    position: relative;
+    animation: glitch 0.3s ease-in-out infinite;
+  }
+
+  /* Dots rotation for chaos */
+  .dots-rotated {
+    transform: rotate(180deg);
+    opacity: 0.5;
+    top: auto !important;
+    bottom: 0;
+  }
+
+  @keyframes checkerboard-shift {
+    0% { background-position: 0 0, 0 20px, 20px -20px, -20px 0px; }
+    100% { background-position: 40px 40px, 40px 60px, 60px 20px, 20px 40px; }
+  }
+
+  @keyframes rainbow-shift {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+
+  @keyframes border-dance {
+    0%, 100% { border-color: #ff0080; box-shadow: 0 0 20px #ff0080; }
+    16% { border-color: #ff8c00; box-shadow: 0 0 20px #ff8c00; }
+    33% { border-color: #ffff00; box-shadow: 0 0 20px #ffff00; }
+    50% { border-color: #00ff00; box-shadow: 0 0 20px #00ff00; }
+    66% { border-color: #00ffff; box-shadow: 0 0 20px #00ffff; }
+    83% { border-color: #8000ff; box-shadow: 0 0 20px #8000ff; }
+  }
+
+  @keyframes ring-rotate {
+    from { transform: translate(-50%, -50%) rotate(0deg); }
+    to { transform: translate(-50%, -50%) rotate(360deg); }
+  }
+
+  @keyframes glitch {
+    0%, 100% { transform: translate(0); text-shadow: -2px 0 #ff0080, 2px 0 #00ffff; }
+    20% { transform: translate(-2px, 2px); text-shadow: 2px 0 #ff0080, -2px 0 #00ffff; }
+    40% { transform: translate(-2px, -2px); text-shadow: 2px 0 #00ffff, -2px 0 #ff0080; }
+    60% { transform: translate(2px, 2px); text-shadow: -2px 0 #00ffff, 2px 0 #ff0080; }
+    80% { transform: translate(2px, -2px); text-shadow: 2px 0 #ff0080, -2px 0 #00ffff; }
+  }
+
+  @keyframes marquee {
+    from { transform: translateX(0); }
+    to { transform: translateX(-50%); }
+  }
+
+  @keyframes scanline {
+    0% { transform: translateY(-100%); }
+    100% { transform: translateY(100vh); }
+  }
 </style>
 
 <PageLayout title="Pricing" spacing="lg">
+  <!-- CHAOS BACKGROUNDS -->
+  <div class="checkerboard"></div>
+  <div class="scanlines">
+    <div class="scanline-bar"></div>
+  </div>
+
+  <!-- Original Dots (doubled with rotation) -->
   <Dots />
+  <div class="dots-rotated absolute left-0 z-[-1] h-[554px] w-full">
+    <Dots />
+  </div>
 
-  <section class="space-y-16">
-    <Hero
-      title="Simple Pricing, Amazing Meetings"
-      description="Ludi puts planning, retros, and workshops in everyone's hands — with simple per-seat pricing for effective team collaboration."
-      pill="Pricing"
-      compact
-    />
+  <!-- Animated Gradient Blobs (10 total) -->
+  <AnimatedBlob color="purple" size="xl" position="top-20 -left-40" delay="0s" opacity={0.4} />
+  <AnimatedBlob color="blue" size="lg" position="top-60 right-10" delay="2s" opacity={0.3} />
+  <AnimatedBlob color="orange" size="xl" position="top-[800px] -right-60" delay="4s" opacity={0.35} />
+  <AnimatedBlob color="green" size="lg" position="top-[1200px] -left-20" delay="1s" opacity={0.3} />
+  <AnimatedBlob color="red" size="md" position="top-[1600px] right-20" delay="3s" opacity={0.25} />
+  <AnimatedBlob color="pink" size="xl" position="top-[2000px] -left-60" delay="5s" opacity={0.4} />
+  <AnimatedBlob color="cyan" size="lg" position="top-[2400px] -right-40" delay="2.5s" opacity={0.35} />
+  <AnimatedBlob color="purple" size="md" position="top-[2800px] left-10" delay="1.5s" opacity={0.3} />
+  <AnimatedBlob color="blue" size="xl" position="top-[3200px] -right-20" delay="3.5s" opacity={0.4} />
+  <AnimatedBlob color="orange" size="lg" position="top-[3600px] -left-40" delay="4.5s" opacity={0.35} />
 
+  <!-- Rotating Gradient Rings (4 corners) -->
+  <div class="gradient-ring fixed top-20 left-20 w-32 h-32 z-[-1]" style="animation-duration: 8s;"></div>
+  <div class="gradient-ring fixed top-20 right-20 w-24 h-24 z-[-1]" style="animation-duration: 12s; animation-direction: reverse;"></div>
+  <div class="gradient-ring fixed bottom-40 left-10 w-40 h-40 z-[-1]" style="animation-duration: 15s;"></div>
+  <div class="gradient-ring fixed bottom-20 right-10 w-28 h-28 z-[-1]" style="animation-duration: 10s; animation-direction: reverse;"></div>
+
+  <!-- Sparkles (50+ particles) -->
+  <Sparkles count={60} />
+
+  <!-- Floating Mascots (8 around the page) -->
+  <FloatingMascot variant={1} size="md" position="top-32 left-4" delay="0s" glowColor="#ff0080" />
+  <FloatingMascot variant={2} size="lg" position="top-32 right-4" delay="0.5s" glowColor="#00ffff" />
+  <FloatingMascot variant={1} size="sm" position="top-[600px] left-8" delay="1s" glowColor="#ffff00" />
+  <FloatingMascot variant={2} size="md" position="top-[600px] right-8" delay="1.5s" glowColor="#00ff00" />
+  <FloatingMascot variant={1} size="lg" position="top-[1200px] left-4" delay="2s" glowColor="#b974ff" />
+  <FloatingMascot variant={2} size="sm" position="top-[1200px] right-4" delay="2.5s" glowColor="#ff8c00" />
+  <FloatingMascot variant={1} size="md" position="top-[1800px] left-8" delay="3s" glowColor="#ff0080" />
+  <FloatingMascot variant={2} size="lg" position="top-[1800px] right-8" delay="3.5s" glowColor="#00ffff" />
+
+  <!-- TOP RAINBOW MARQUEE -->
+  <div class="marquee-container -mx-4 -mt-8">
+    <div class="marquee-content">
+      <span>🌈 AMAZING DEALS 🌈</span>
+      <span>✨ BEST PRICES ✨</span>
+      <span>🚀 UNLIMITED FUN 🚀</span>
+      <span>💎 PREMIUM QUALITY 💎</span>
+      <span>🎉 START FREE TODAY 🎉</span>
+      <span>⚡ LIGHTNING FAST ⚡</span>
+      <span>🔥 HOT OFFERS 🔥</span>
+      <span>💫 MAGICAL MEETINGS 💫</span>
+      <!-- Duplicate for seamless loop -->
+      <span>🌈 AMAZING DEALS 🌈</span>
+      <span>✨ BEST PRICES ✨</span>
+      <span>🚀 UNLIMITED FUN 🚀</span>
+      <span>💎 PREMIUM QUALITY 💎</span>
+      <span>🎉 START FREE TODAY 🎉</span>
+      <span>⚡ LIGHTNING FAST ⚡</span>
+      <span>🔥 HOT OFFERS 🔥</span>
+      <span>💫 MAGICAL MEETINGS 💫</span>
+    </div>
+  </div>
+
+  <section class="space-y-16 relative">
+    <!-- Glitch Hero with Gradient Text -->
+    <div class="relative">
+      <Hero
+        title="Simple Pricing, Amazing Meetings"
+        description="Ludi puts planning, retros, and workshops in everyone's hands — with simple per-seat pricing for effective team collaboration."
+        pill="Pricing"
+        compact
+      />
+      <!-- Overlay glitch effect on title -->
+      <div class="absolute inset-0 pointer-events-none flex items-start justify-center pt-24">
+        <h2 class="glitch-text text-4xl md:text-6xl font-bold gradient-text-rainbow opacity-0 hover:opacity-100 transition-opacity">
+          Simple Pricing, Amazing Meetings
+        </h2>
+      </div>
+    </div>
+
+    <WibbleDivider variant="rainbow" height={24} />
+
+    <!-- Pricing iframe with Neon Card -->
     <div class="mx-auto max-w-[80rem]">
-      <iframe
-        id="metret-pricing-iframe"
-        class="h-[140rem] lg:h-[56rem]"
-        src="https://ludi.co/pricing/iframe"
-        frameborder="0"
-        scrolling="no"
-        width="100%"
-      >
-      </iframe>
+      <div class="neon-card">
+        <iframe
+          id="metret-pricing-iframe"
+          class="h-[140rem] lg:h-[56rem]"
+          src="https://ludi.co/pricing/iframe"
+          frameborder="0"
+          scrolling="no"
+          width="100%"
+        >
+        </iframe>
+      </div>
     </div>
   </section>
 
-  <PricingTable />
+  <WibbleDivider variant="neon" height={20} />
 
-  <FaqFull />
+  <!-- Pricing Table with Rainbow Border -->
+  <div class="rainbow-border relative mx-4">
+    <PricingTable />
+  </div>
+
+  <WibbleDivider variant="pastel" height={24} />
+
+  <!-- FAQ with Pulsing Background -->
+  <div class="faq-chaos mx-4">
+    <FaqFull />
+  </div>
+
+  <WibbleDivider variant="rainbow" height={20} />
 
   <CustomerLogos />
 
-  <Testimonials />
+  <WibbleDivider variant="neon" height={24} />
+
+  <!-- Testimonials with Neon Glow -->
+  <div class="relative">
+    <div class="absolute inset-0 bg-gradient-to-r from-purple-200/20 via-blue-200/20 to-pink-200/20 rounded-3xl blur-xl"></div>
+    <div class="relative shadow-neon-purple rounded-3xl p-4">
+      <Testimonials />
+    </div>
+  </div>
+
+  <WibbleDivider variant="pastel" height={20} />
 
   <WallOfLove />
+
+  <!-- BOTTOM RAINBOW MARQUEE -->
+  <div class="marquee-container -mx-4 mt-8" style="animation-direction: reverse;">
+    <div class="marquee-content" style="animation-direction: reverse;">
+      <span>🎊 JOIN THOUSANDS OF HAPPY TEAMS 🎊</span>
+      <span>🌟 5-STAR RATED 🌟</span>
+      <span>🏆 AWARD WINNING 🏆</span>
+      <span>💖 LOVED BY TEAMS 💖</span>
+      <span>🎯 BOOST PRODUCTIVITY 🎯</span>
+      <span>🦄 PURE MAGIC 🦄</span>
+      <!-- Duplicate for seamless loop -->
+      <span>🎊 JOIN THOUSANDS OF HAPPY TEAMS 🎊</span>
+      <span>🌟 5-STAR RATED 🌟</span>
+      <span>🏆 AWARD WINNING 🏆</span>
+      <span>💖 LOVED BY TEAMS 💖</span>
+      <span>🎯 BOOST PRODUCTIVITY 🎯</span>
+      <span>🦄 PURE MAGIC 🦄</span>
+    </div>
+  </div>
 </PageLayout>
+
+<!-- CONFETTI SYSTEM -->
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+<script>
+  // Confetti burst function
+  function fireConfetti(duration = 3000, origin = { x: 0.5, y: 0.5 }) {
+    const end = Date.now() + duration;
+
+    (function frame() {
+      // Left side
+      confetti({
+        particleCount: 5,
+        angle: 60,
+        spread: 55,
+        origin: { x: 0, y: origin.y },
+        colors: ['#ff0080', '#ff8c00', '#ffff00', '#00ff00', '#00ffff', '#8000ff'],
+      });
+      // Right side
+      confetti({
+        particleCount: 5,
+        angle: 120,
+        spread: 55,
+        origin: { x: 1, y: origin.y },
+        colors: ['#ff0080', '#ff8c00', '#ffff00', '#00ff00', '#00ffff', '#8000ff'],
+      });
+
+      if (Date.now() < end) {
+        requestAnimationFrame(frame);
+      }
+    })();
+  }
+
+  // Confetti on button clicks
+  document.addEventListener('click', (e) => {
+    const target = e.target as HTMLElement;
+    if (target.tagName === 'BUTTON' || target.tagName === 'A' || target.closest('button') || target.closest('a')) {
+      const rect = target.getBoundingClientRect();
+      const y = (rect.top + rect.height / 2) / window.innerHeight;
+      fireConfetti(3000, { x: 0.5, y });
+    }
+  });
+
+  // Scroll milestone confetti
+  const scrollMilestones = [500, 1500, 2500, 3500];
+  const triggeredMilestones = new Set<number>();
+
+  window.addEventListener('scroll', () => {
+    const scrollY = window.scrollY;
+    for (const milestone of scrollMilestones) {
+      if (scrollY >= milestone && !triggeredMilestones.has(milestone)) {
+        triggeredMilestones.add(milestone);
+        const randomY = Math.random() * 0.6 + 0.2;
+        fireConfetti(2000, { x: 0.5, y: randomY });
+      }
+    }
+  });
+
+  // Random confetti every 30 seconds
+  setInterval(() => {
+    const randomY = Math.random() * 0.6 + 0.2;
+    fireConfetti(2000, { x: 0.5, y: randomY });
+  }, 30000);
+
+  // Initial confetti burst on page load
+  setTimeout(() => {
+    fireConfetti(2000, { x: 0.5, y: 0.3 });
+  }, 1000);
+</script>

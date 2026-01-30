@@ -1,0 +1,63 @@
+---
+interface Props {
+  color: 'purple' | 'blue' | 'orange' | 'green' | 'red' | 'pink' | 'cyan';
+  size?: 'sm' | 'md' | 'lg' | 'xl';
+  position?: string;
+  delay?: string;
+  opacity?: number;
+}
+
+const { color, size = 'md', position = '', delay = '0s', opacity = 0.5 } = Astro.props;
+
+const colorMap = {
+  purple: 'from-purple-300 via-purple-200 to-pink-300',
+  blue: 'from-blue-300 via-cyan-300 to-blue-200',
+  orange: 'from-orange-300 via-yellow-300 to-red-300',
+  green: 'from-green-300 via-teal-400 to-cyan-300',
+  red: 'from-red-300 via-pink-300 to-orange-300',
+  pink: 'from-pink-400 via-purple-300 to-red-300',
+  cyan: 'from-cyan-300 via-blue-300 to-teal-300',
+};
+
+const sizeMap = {
+  sm: 'w-32 h-32',
+  md: 'w-64 h-64',
+  lg: 'w-96 h-96',
+  xl: 'w-[32rem] h-[32rem]',
+};
+---
+
+<div
+  class:list={[
+    "absolute rounded-full bg-gradient-to-br blur-3xl animate-blob pointer-events-none",
+    colorMap[color],
+    sizeMap[size],
+    position
+  ]}
+  style={`animation-delay: ${delay}; opacity: ${opacity};`}
+></div>
+
+<style>
+  @keyframes blob {
+    0%, 100% {
+      transform: translate(0, 0) scale(1) rotate(0deg);
+      border-radius: 40% 60% 60% 40% / 60% 30% 70% 40%;
+    }
+    25% {
+      transform: translate(20px, -30px) scale(1.1) rotate(90deg);
+      border-radius: 60% 40% 30% 70% / 40% 60% 40% 60%;
+    }
+    50% {
+      transform: translate(-20px, 20px) scale(0.9) rotate(180deg);
+      border-radius: 30% 70% 70% 30% / 70% 30% 70% 30%;
+    }
+    75% {
+      transform: translate(30px, 10px) scale(1.05) rotate(270deg);
+      border-radius: 70% 30% 50% 50% / 30% 70% 30% 70%;
+    }
+  }
+
+  .animate-blob {
+    animation: blob 15s ease-in-out infinite;
+  }
+</style>

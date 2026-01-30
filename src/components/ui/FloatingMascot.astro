@@ -1,0 +1,75 @@
+---
+import mascot1 from "~/assets/brand/mascot-1.svg";
+import mascot2 from "~/assets/brand/mascot-2.svg";
+
+interface Props {
+  variant?: 1 | 2;
+  position?: string;
+  size?: 'sm' | 'md' | 'lg';
+  delay?: string;
+  glowColor?: string;
+}
+
+const { variant = 1, position = '', size = 'md', delay = '0s', glowColor = '#b974ff' } = Astro.props;
+
+const mascot = variant === 1 ? mascot1 : mascot2;
+
+const sizeMap = {
+  sm: 'w-12 h-12',
+  md: 'w-20 h-20',
+  lg: 'w-32 h-32',
+};
+---
+
+<div
+  class:list={[
+    "absolute animate-float-bounce pointer-events-none z-10",
+    sizeMap[size],
+    position
+  ]}
+  style={`animation-delay: ${delay}; --glow-color: ${glowColor};`}
+>
+  <img
+    src={mascot.src}
+    alt="Ludi mascot"
+    class="w-full h-full drop-shadow-mascot animate-pulse-glow"
+  />
+</div>
+
+<style>
+  @keyframes float-bounce {
+    0%, 100% {
+      transform: translateY(0) rotate(-5deg);
+    }
+    25% {
+      transform: translateY(-20px) rotate(5deg);
+    }
+    50% {
+      transform: translateY(-10px) rotate(-3deg);
+    }
+    75% {
+      transform: translateY(-25px) rotate(3deg);
+    }
+  }
+
+  @keyframes pulse-glow {
+    0%, 100% {
+      filter: drop-shadow(0 0 10px var(--glow-color)) drop-shadow(0 0 20px var(--glow-color));
+    }
+    50% {
+      filter: drop-shadow(0 0 20px var(--glow-color)) drop-shadow(0 0 40px var(--glow-color)) drop-shadow(0 0 60px var(--glow-color));
+    }
+  }
+
+  .animate-float-bounce {
+    animation: float-bounce 4s ease-in-out infinite;
+  }
+
+  .animate-pulse-glow {
+    animation: pulse-glow 2s ease-in-out infinite;
+  }
+
+  .drop-shadow-mascot {
+    filter: drop-shadow(0 0 15px var(--glow-color));
+  }
+</style>

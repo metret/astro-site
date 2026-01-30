@@ -84,6 +84,213 @@
   }
 }
 
+/* MAXIMUM CHAOS ANIMATIONS */
+
+@keyframes rainbow-shift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+@keyframes float-bounce {
+  0%, 100% {
+    transform: translateY(0) rotate(-5deg);
+  }
+  25% {
+    transform: translateY(-20px) rotate(5deg);
+  }
+  50% {
+    transform: translateY(-10px) rotate(-3deg);
+  }
+  75% {
+    transform: translateY(-25px) rotate(3deg);
+  }
+}
+
+@keyframes pulse-glow {
+  0%, 100% {
+    box-shadow: 0 0 20px var(--glow-color, #b974ff), 0 0 40px var(--glow-color, #b974ff);
+  }
+  50% {
+    box-shadow: 0 0 40px var(--glow-color, #b974ff), 0 0 80px var(--glow-color, #b974ff), 0 0 120px var(--glow-color, #b974ff);
+  }
+}
+
+@keyframes sparkle-spin {
+  0% {
+    transform: rotate(0deg) scale(0);
+    opacity: 0;
+  }
+  25% {
+    transform: rotate(90deg) scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: rotate(180deg) scale(0.5);
+    opacity: 0.8;
+  }
+  75% {
+    transform: rotate(270deg) scale(1.2);
+    opacity: 1;
+  }
+  100% {
+    transform: rotate(360deg) scale(0);
+    opacity: 0;
+  }
+}
+
+@keyframes border-dance {
+  0%, 100% {
+    border-color: #ff0080;
+    box-shadow: 0 0 20px #ff0080;
+  }
+  16% {
+    border-color: #ff8c00;
+    box-shadow: 0 0 20px #ff8c00;
+  }
+  33% {
+    border-color: #ffff00;
+    box-shadow: 0 0 20px #ffff00;
+  }
+  50% {
+    border-color: #00ff00;
+    box-shadow: 0 0 20px #00ff00;
+  }
+  66% {
+    border-color: #00ffff;
+    box-shadow: 0 0 20px #00ffff;
+  }
+  83% {
+    border-color: #8000ff;
+    box-shadow: 0 0 20px #8000ff;
+  }
+}
+
+@keyframes wiggle {
+  0%, 100% { transform: rotate(-3deg); }
+  25% { transform: rotate(3deg); }
+  50% { transform: rotate(-3deg); }
+  75% { transform: rotate(3deg); }
+}
+
+@keyframes zoom-pulse {
+  0%, 100% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(255, 0, 128, 0.7);
+  }
+  50% {
+    transform: scale(1.05);
+    box-shadow: 0 0 0 15px rgba(255, 0, 128, 0);
+  }
+}
+
+@keyframes glitch {
+  0%, 100% {
+    transform: translate(0);
+    text-shadow: -2px 0 #ff0080, 2px 0 #00ffff;
+  }
+  20% {
+    transform: translate(-2px, 2px);
+    text-shadow: 2px 0 #ff0080, -2px 0 #00ffff;
+  }
+  40% {
+    transform: translate(-2px, -2px);
+    text-shadow: 2px 0 #00ffff, -2px 0 #ff0080;
+  }
+  60% {
+    transform: translate(2px, 2px);
+    text-shadow: -2px 0 #00ffff, 2px 0 #ff0080;
+  }
+  80% {
+    transform: translate(2px, -2px);
+    text-shadow: 2px 0 #ff0080, -2px 0 #00ffff;
+  }
+}
+
+@keyframes scanline {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(100vh);
+  }
+}
+
+@keyframes ring-rotate {
+  from { transform: translate(-50%, -50%) rotate(0deg); }
+  to { transform: translate(-50%, -50%) rotate(360deg); }
+}
+
+@keyframes checkerboard-shift {
+  0% { background-position: 0 0; }
+  100% { background-position: 40px 40px; }
+}
+
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+/* CHAOS UTILITY CLASSES */
+
+@utility animate-rainbow {
+  animation: rainbow-shift 3s ease infinite;
+  background-size: 400% 400%;
+}
+
+@utility animate-float {
+  animation: float-bounce 4s ease-in-out infinite;
+}
+
+@utility animate-pulse-glow {
+  animation: pulse-glow 2s ease-in-out infinite;
+}
+
+@utility animate-wiggle {
+  animation: wiggle 0.5s ease-in-out infinite;
+}
+
+@utility animate-zoom-pulse {
+  animation: zoom-pulse 1.5s ease-in-out infinite;
+}
+
+@utility animate-glitch {
+  animation: glitch 0.3s ease-in-out infinite;
+}
+
+@utility animate-border-dance {
+  animation: border-dance 2s ease-in-out infinite;
+}
+
+@utility gradient-text-rainbow {
+  background: linear-gradient(90deg, #ff0080, #ff8c00, #ffff00, #00ff00, #00ffff, #8000ff, #ff0080);
+  background-size: 400% 400%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: rainbow-shift 3s ease infinite;
+}
+
+@utility shadow-neon-blue {
+  box-shadow: 0 0 20px #00ffff, 0 0 40px #00ffff, 0 0 60px #0080ff;
+}
+
+@utility shadow-neon-purple {
+  box-shadow: 0 0 20px #b974ff, 0 0 40px #b974ff, 0 0 60px #8000ff;
+}
+
+@utility shadow-neon-pink {
+  box-shadow: 0 0 20px #ff0080, 0 0 40px #ff0080, 0 0 60px #ff00ff;
+}
+
+@utility shadow-neon-multi {
+  box-shadow:
+    0 0 20px #ff0080,
+    0 0 40px #00ffff,
+    0 0 60px #ffff00,
+    0 0 80px #00ff00;
+}
+
 strong {
   font-weight: 600 !important;
 }

@@ -1,0 +1,74 @@
+---
+interface Props {
+  variant?: 'rainbow' | 'neon' | 'pastel';
+  height?: number;
+  class?: string;
+}
+
+const { variant = 'rainbow', height = 20, class: className = '' } = Astro.props;
+
+const gradients = {
+  rainbow: ['#ff0080', '#ff8c00', '#ffff00', '#00ff00', '#00ffff', '#0080ff', '#8000ff', '#ff0080'],
+  neon: ['#ff00ff', '#00ffff', '#ff00ff', '#00ff00', '#ff00ff'],
+  pastel: ['#ffb3ba', '#ffdfba', '#ffffba', '#baffc9', '#bae1ff', '#ffb3ba'],
+};
+
+const colors = gradients[variant];
+---
+
+<div class:list={["w-full overflow-hidden my-8", className]} style={`height: ${height}px;`}>
+  <svg
+    class="wibble-divider w-full h-full"
+    viewBox="0 0 1200 40"
+    preserveAspectRatio="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <defs>
+      <linearGradient id={`wibble-gradient-${variant}`} x1="0%" y1="0%" x2="100%" y2="0%">
+        {colors.map((color, i) => (
+          <stop offset={`${(i / (colors.length - 1)) * 100}%`} stop-color={color}>
+            <animate
+              attributeName="stop-color"
+              values={`${color}; ${colors[(i + 1) % colors.length]}; ${colors[(i + 2) % colors.length]}; ${color}`}
+              dur="3s"
+              repeatCount="indefinite"
+            />
+          </stop>
+        ))}
+      </linearGradient>
+    </defs>
+    <path
+      class="wibble-path"
+      d="M0,20 Q50,0 100,20 T200,20 T300,20 T400,20 T500,20 T600,20 T700,20 T800,20 T900,20 T1000,20 T1100,20 T1200,20"
+      fill="none"
+      stroke={`url(#wibble-gradient-${variant})`}
+      stroke-width="6"
+      stroke-linecap="round"
+    />
+  </svg>
+</div>
+
+<style>
+  @keyframes wibble {
+    0%, 100% {
+      d: path("M0,20 Q50,5 100,20 T200,20 T300,20 T400,20 T500,20 T600,20 T700,20 T800,20 T900,20 T1000,20 T1100,20 T1200,20");
+    }
+    25% {
+      d: path("M0,20 Q50,35 100,20 T200,20 T300,20 T400,20 T500,20 T600,20 T700,20 T800,20 T900,20 T1000,20 T1100,20 T1200,20");
+    }
+    50% {
+      d: path("M0,25 Q50,10 100,25 T200,15 T300,25 T400,15 T500,25 T600,15 T700,25 T800,15 T900,25 T1000,15 T1100,25 T1200,20");
+    }
+    75% {
+      d: path("M0,15 Q50,30 100,15 T200,25 T300,15 T400,25 T500,15 T600,25 T700,15 T800,25 T900,15 T1000,25 T1100,15 T1200,20");
+    }
+  }
+
+  .wibble-path {
+    animation: wibble 2s ease-in-out infinite;
+  }
+
+  .wibble-divider {
+    filter: drop-shadow(0 0 8px rgba(255, 0, 128, 0.5)) drop-shadow(0 0 16px rgba(0, 255, 255, 0.3));
+  }
+</style>
