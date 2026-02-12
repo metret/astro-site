@@ -123,7 +123,7 @@ We used this template to position our website content to various role based use 
 
 Use this to: Quickly map your product website content by topic, use case or target audience.
 
-In this template you get:
+In this template you get: 
 
 - **High level view of product feature mapping to target audience.**
 - **Visibility of content gaps.**
@@ -136,5 +136,5 @@ If you try these boards with your team, let us know how it worked, and if you ha
 
 Have any questions about these boards or anything else Ludi related, send me an email at [steve.moseley@ludi.co](mailto:steve.moseley@ludi.co)
 
-Cheers.
+Cheers, Steve.
 
