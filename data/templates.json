@@ -9,15 +9,10 @@
     "time": null,
     "people": null,
     "complexity": null,
-    "thumbUrl": "https://d.metroretro.io/thumbs/templates/edbbe6bb-987e-4a42-907f-d41e4ee0ec9a/be8d56c6-3b90-4a1d-8108-f7740d89cd3f.png?e=3411e8e89245e6960e31570be0667f29",
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/edbbe6bb-987e-4a42-907f-d41e4ee0ec9a/3f3bc814-5179-4b56-b0b1-ef449af65ef6.png?e=3411e8e89245e6960e31570be0667f29",
     "thumbEtag": "3411e8e89245e6960e31570be0667f29",
     "version": 1,
-    "metadata": {
-      "featured": "major",
-      "copy": [
-        "Bring some festive energy to your end-of-year retrospective with this Christmas-themed template. You'll warm up with a quick memory game, then reflect on the last sprint, decorate a tree with wishes for next year, and finish with a team battle to deliver the most presents. Ideal for teams wanting reflection with a bit of interaction before the holidays."
-      ]
-    },
+    "metadata": {},
     "publishedAt": "2025-12-03T11:59:06.535Z",
     "createdAt": "2025-12-03T11:59:06.206Z",
     "tags": [
@@ -31,53 +26,26 @@
     ]
   },
   {
-    "id": "4811861a-66f6-408a-82f0-795216eb0f0a",
+    "id": "d27ed1dc-7f05-46bc-96df-b624ea3b79eb",
     "accountId": null,
-    "alias": "thanksgiving",
-    "label": "Thanksgiving",
-    "description": "Use this Thanksgiving-themed retrospective to express gratitude and celebrate team wins. Finish with a slice of pie.",
-    "sort": 96,
+    "alias": "roman-retro",
+    "label": "Roman Retro",
+    "description": "A Roman-themed retrospective that guides the team through reflecting on their sprint as a shared story, from choosing a Roman identity and telling the tale of the release, to debating outcomes in the Senate.",
+    "sort": 98,
     "time": null,
     "people": null,
     "complexity": null,
-    "thumbUrl": "https://d.metroretro.io/thumbs/templates/4811861a-66f6-408a-82f0-795216eb0f0a/f64e449e-ca8c-402f-9163-1e635a62a852.png?e=654ca9fd1530cf57eaa3d77ba2b1f3fe",
-    "thumbEtag": "654ca9fd1530cf57eaa3d77ba2b1f3fe",
-    "version": 3,
-    "metadata": {
-      "featured": "minor",
-      "fsort": 1
-    },
-    "publishedAt": "2025-11-05T15:45:24.761Z",
-    "createdAt": "2024-11-19T10:17:12.661Z",
-    "tags": [
-      {
-        "id": "1aa7461f-0879-4563-aea6-dbee73754889",
-        "name": "retrospectives",
-        "label": "Retrospectives",
-        "color": "#7E48F0",
-        "sort": 200
-      }
-    ]
-  },
-  {
-    "id": "05aba975-eb8d-4512-b930-a33d424b1ed9",
-    "accountId": null,
-    "alias": "zombie-attack",
-    "label": "Zombie Attack!",
-    "description": "We've just survived a zombie attack and the team pulled through. Or did we...?\r\nUse this zombie-themed retro to regroup and reflect on the team's situation.\r\nIncludes a Pulse Check and ends with an Action Tracker.",
-    "sort": 97,
-    "time": null,
-    "people": null,
-    "complexity": null,
-    "thumbUrl": "https://d.metroretro.io/thumbs/templates/05aba975-eb8d-4512-b930-a33d424b1ed9/6673e850-506d-42fc-976e-d2023e888250.png?e=910fc1f7425198ee93e3e3c23406cc9a",
-    "thumbEtag": "910fc1f7425198ee93e3e3c23406cc9a",
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/d27ed1dc-7f05-46bc-96df-b624ea3b79eb/a325e6b1-dc2a-419a-9b93-894fa7d5d722.png?e=996af4aaee16d7a2079c69a954d7a85c",
+    "thumbEtag": "996af4aaee16d7a2079c69a954d7a85c",
     "version": 1,
     "metadata": {
-      "featured": "minor",
-      "fsort": 2
+      "featured": "major",
+      "copy": [
+        "A Roman-themed retrospective that guides the team through reflecting on their sprint as a shared story, from choosing a Roman identity and telling the tale of the release, to debating outcomes in the Senate."
+      ]
     },
-    "publishedAt": "2025-10-22T12:29:51.023Z",
-    "createdAt": "2025-10-22T12:29:50.774Z",
+    "publishedAt": "2025-12-15T13:07:35.487Z",
+    "createdAt": "2025-12-15T13:07:35.363Z",
     "tags": [
       {
         "id": "1aa7461f-0879-4563-aea6-dbee73754889",
@@ -450,6 +418,35 @@
     "metadata": {},
     "publishedAt": "2024-07-22T14:59:05.877Z",
     "createdAt": "2024-08-21T21:08:03.719Z",
+    "tags": [
+      {
+        "id": "1aa7461f-0879-4563-aea6-dbee73754889",
+        "name": "retrospectives",
+        "label": "Retrospectives",
+        "color": "#7E48F0",
+        "sort": 200
+      }
+    ]
+  },
+  {
+    "id": "05aba975-eb8d-4512-b930-a33d424b1ed9",
+    "accountId": null,
+    "alias": "zombie-attack",
+    "label": "Zombie Attack!",
+    "description": "We've just survived a zombie attack and the team pulled through. Or did we...?\r\nUse this zombie-themed retro to regroup and reflect on the team's situation.\r\nIncludes a Pulse Check and ends with an Action Tracker.",
+    "sort": 1250,
+    "time": null,
+    "people": null,
+    "complexity": null,
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/05aba975-eb8d-4512-b930-a33d424b1ed9/8f1086d4-cb7c-4ce8-ab79-a19a54cba757.png?e=910fc1f7425198ee93e3e3c23406cc9a",
+    "thumbEtag": "910fc1f7425198ee93e3e3c23406cc9a",
+    "version": 1,
+    "metadata": {
+      "featured": "minor",
+      "fsort": 2
+    },
+    "publishedAt": "2025-10-22T12:29:51.023Z",
+    "createdAt": "2025-10-22T12:29:50.774Z",
     "tags": [
       {
         "id": "1aa7461f-0879-4563-aea6-dbee73754889",
@@ -1779,6 +1776,32 @@
     ]
   },
   {
+    "id": "4811861a-66f6-408a-82f0-795216eb0f0a",
+    "accountId": null,
+    "alias": "thanksgiving",
+    "label": "Thanksgiving",
+    "description": "Use this Thanksgiving-themed retrospective to express gratitude and celebrate team wins. Finish with a slice of pie.",
+    "sort": 5000,
+    "time": null,
+    "people": null,
+    "complexity": null,
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/4811861a-66f6-408a-82f0-795216eb0f0a/1380931d-24c0-494b-8247-b91dcd4e3888.png?e=5148ee4805d3c69c8bb70f00952e71dd",
+    "thumbEtag": "5148ee4805d3c69c8bb70f00952e71dd",
+    "version": 3,
+    "metadata": {},
+    "publishedAt": "2025-11-05T15:45:24.761Z",
+    "createdAt": "2024-11-19T10:17:12.661Z",
+    "tags": [
+      {
+        "id": "1aa7461f-0879-4563-aea6-dbee73754889",
+        "name": "retrospectives",
+        "label": "Retrospectives",
+        "color": "#7E48F0",
+        "sort": 200
+      }
+    ]
+  },
+  {
     "id": "05733c08-64e0-4ac0-9236-73655c6337aa",
     "accountId": null,
     "alias": "tigers-paper-tigers-and-elephants",
@@ -2924,21 +2947,21 @@
     ]
   },
   {
-    "id": "b2c060a8-4b01-4ed4-a5c0-7f000895a10a",
+    "id": "03092260-0dfa-4d51-ad7d-87acb0d88cd1",
     "accountId": null,
-    "alias": "easter-egg-dash-large",
-    "label": "Easter Egg Dash (For 11+ People)",
-    "description": "The large version of Easter Egg Dash for teams of 11+ players. Get ready for a dash of fun with our Easter Egg Dash Icebreaker. This game brings the excitement of an egg hunt right into your team meeting.",
+    "alias": "draw-a-scene",
+    "label": "Draw a Scene",
+    "description": "An energizer activity asking the team to draw a scene together.",
     "sort": 999999999,
     "time": null,
     "people": null,
     "complexity": null,
-    "thumbUrl": "https://d.metroretro.io/thumbs/templates/b2c060a8-4b01-4ed4-a5c0-7f000895a10a/e40f4eeb-eb43-4875-9e58-3183c3d94ac0.png?e=42356112d05562e6b0c22b02ab480ff3",
-    "thumbEtag": "42356112d05562e6b0c22b02ab480ff3",
-    "version": 2,
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/03092260-0dfa-4d51-ad7d-87acb0d88cd1/bfe12291-0caf-445f-91f9-80c892507247.png?e=9821ef38074c453880ad7ad31058d8a2",
+    "thumbEtag": "9821ef38074c453880ad7ad31058d8a2",
+    "version": 1,
     "metadata": {},
-    "publishedAt": "2025-04-07T13:51:17.661Z",
-    "createdAt": "2025-04-07T11:55:32.676Z",
+    "publishedAt": "2024-07-22T14:59:04.606Z",
+    "createdAt": "2024-08-21T21:08:03.719Z",
     "tags": [
       {
         "id": "e5384230-486a-4058-a522-c8df0e19692a",
@@ -2946,6 +2969,136 @@
         "label": "Ice Breakers",
         "color": "#00AEFF",
         "sort": 100
+      }
+    ]
+  },
+  {
+    "id": "56a7d283-e016-43d5-8779-10791264ff4f",
+    "accountId": null,
+    "alias": "weather-check-in",
+    "label": "Weather Check In",
+    "description": "What's your weather? Each person picks a weather icon to describe how they are feeling.",
+    "sort": 999999999,
+    "time": null,
+    "people": null,
+    "complexity": null,
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/56a7d283-e016-43d5-8779-10791264ff4f/f65da6fe-9a61-460b-be7f-eef8436fb3c2.png?e=bdfb864de2bcf3b4e55f3d71817ba4be",
+    "thumbEtag": "bdfb864de2bcf3b4e55f3d71817ba4be",
+    "version": 1,
+    "metadata": {},
+    "publishedAt": "2024-07-22T14:59:04.917Z",
+    "createdAt": "2024-08-21T21:08:03.719Z",
+    "tags": [
+      {
+        "id": "e5384230-486a-4058-a522-c8df0e19692a",
+        "name": "ice-breakers",
+        "label": "Ice Breakers",
+        "color": "#00AEFF",
+        "sort": 100
+      }
+    ]
+  },
+  {
+    "id": "bda39926-128b-489e-8d73-5bbdf821d264",
+    "accountId": null,
+    "alias": "pricing-and-packaging-planning",
+    "label": "Pricing and Packaging Planning",
+    "description": "Use this template to devise your product plans, features and price points.",
+    "sort": 999999999,
+    "time": null,
+    "people": null,
+    "complexity": null,
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/bda39926-128b-489e-8d73-5bbdf821d264/22861048-da11-497f-b0e0-4e8a86056106.png?e=c6aa4177ad8f12666c7f0be60e701781",
+    "thumbEtag": "c6aa4177ad8f12666c7f0be60e701781",
+    "version": 1,
+    "metadata": {},
+    "publishedAt": "2026-02-11T16:22:42.058Z",
+    "createdAt": "2026-02-11T16:22:41.981Z",
+    "tags": [
+      {
+        "id": "e39f9e53-cce2-4b98-a6dc-a2b88dc2487e",
+        "name": "planning",
+        "label": "Planning",
+        "color": "#FF6C5F",
+        "sort": 500
+      }
+    ]
+  },
+  {
+    "id": "0e00f739-daf1-4b1a-abc8-ef63558448ad",
+    "accountId": null,
+    "alias": "roti-feelings",
+    "label": "ROTI: Feelings",
+    "description": "Ask your participants how they feel after the meeting - hopefully better than when they started!",
+    "sort": 999999999,
+    "time": null,
+    "people": null,
+    "complexity": null,
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/0e00f739-daf1-4b1a-abc8-ef63558448ad/caab272d-259f-4b83-a91d-0b79eb8be5c2.png?e=aaf72496c9b8a6a5a8ef62b4a269385b",
+    "thumbEtag": "aaf72496c9b8a6a5a8ef62b4a269385b",
+    "version": 1,
+    "metadata": {},
+    "publishedAt": "2024-07-22T14:59:16.360Z",
+    "createdAt": "2024-08-21T21:08:03.719Z",
+    "tags": [
+      {
+        "id": "8ac56df0-5122-4cdd-800b-beecc00f3258",
+        "name": "check-out",
+        "label": "Check Out",
+        "color": "#B84592",
+        "sort": 800
+      }
+    ]
+  },
+  {
+    "id": "0390a323-ca05-4414-b476-aab1a9c517e2",
+    "accountId": null,
+    "alias": "email-sequence-planning",
+    "label": "Email Sequence Planning",
+    "description": "Brainstorm and plan the content of a new email sequence, like an user onboarding series.",
+    "sort": 999999999,
+    "time": null,
+    "people": null,
+    "complexity": null,
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/0390a323-ca05-4414-b476-aab1a9c517e2/b21c2360-3057-4a2f-ae46-4e4bb5e0d979.png?e=e54a281f71df5f8fd12438a32d41b8d9",
+    "thumbEtag": "e54a281f71df5f8fd12438a32d41b8d9",
+    "version": 1,
+    "metadata": {},
+    "publishedAt": "2026-02-11T16:15:48.155Z",
+    "createdAt": "2026-02-11T16:15:48.082Z",
+    "tags": [
+      {
+        "id": "e39f9e53-cce2-4b98-a6dc-a2b88dc2487e",
+        "name": "planning",
+        "label": "Planning",
+        "color": "#FF6C5F",
+        "sort": 500
+      }
+    ]
+  },
+  {
+    "id": "357aca69-d4f3-4fdf-a35b-ca43923714a7",
+    "accountId": null,
+    "alias": "roti-treasure",
+    "label": "ROTI: Treasure",
+    "description": "Rate the value of the meeting in growing piles of treasure.",
+    "sort": 999999999,
+    "time": null,
+    "people": null,
+    "complexity": null,
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/357aca69-d4f3-4fdf-a35b-ca43923714a7/50852adb-7868-4114-87cf-739ca0924eb2.png?e=7a7cf0c5cb1365508500d8c800827d13",
+    "thumbEtag": "7a7cf0c5cb1365508500d8c800827d13",
+    "version": 1,
+    "metadata": {},
+    "publishedAt": "2024-07-22T14:59:16.900Z",
+    "createdAt": "2024-08-21T21:08:03.719Z",
+    "tags": [
+      {
+        "id": "8ac56df0-5122-4cdd-800b-beecc00f3258",
+        "name": "check-out",
+        "label": "Check Out",
+        "color": "#B84592",
+        "sort": 800
       }
     ]
   },
@@ -2976,6 +3129,32 @@
     ]
   },
   {
+    "id": "82552073-9200-4331-ac0f-accf762e19bc",
+    "accountId": null,
+    "alias": "landing-page-content-mapping",
+    "label": "Landing Page Content Mapping",
+    "description": "Deciding what to show on your landing pages doesn't need to be complicated. Follow a Jobs to Be Done process to decide content for your website.",
+    "sort": 999999999,
+    "time": null,
+    "people": null,
+    "complexity": null,
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/82552073-9200-4331-ac0f-accf762e19bc/780089f6-1fff-4689-b360-c7514514ca1e.png?e=be05acb4ba9761b130ed14ddfb38f127",
+    "thumbEtag": "be05acb4ba9761b130ed14ddfb38f127",
+    "version": 1,
+    "metadata": {},
+    "publishedAt": "2026-02-11T15:56:30.587Z",
+    "createdAt": "2026-02-11T15:56:30.337Z",
+    "tags": [
+      {
+        "id": "e39f9e53-cce2-4b98-a6dc-a2b88dc2487e",
+        "name": "planning",
+        "label": "Planning",
+        "color": "#FF6C5F",
+        "sort": 500
+      }
+    ]
+  },
+  {
     "id": "8f9136fe-0704-4f05-a034-13787e75e0d3",
     "accountId": null,
     "alias": "explorer-shopper-vacationer-prisoner",
@@ -2990,32 +3169,6 @@
     "version": 1,
     "metadata": {},
     "publishedAt": "2024-07-22T14:59:03.539Z",
-    "createdAt": "2024-08-21T21:08:03.719Z",
-    "tags": [
-      {
-        "id": "e5384230-486a-4058-a522-c8df0e19692a",
-        "name": "ice-breakers",
-        "label": "Ice Breakers",
-        "color": "#00AEFF",
-        "sort": 100
-      }
-    ]
-  },
-  {
-    "id": "03092260-0dfa-4d51-ad7d-87acb0d88cd1",
-    "accountId": null,
-    "alias": "draw-a-scene",
-    "label": "Draw a Scene",
-    "description": "An energizer activity asking the team to draw a scene together.",
-    "sort": 999999999,
-    "time": null,
-    "people": null,
-    "complexity": null,
-    "thumbUrl": "https://d.metroretro.io/thumbs/templates/03092260-0dfa-4d51-ad7d-87acb0d88cd1/bfe12291-0caf-445f-91f9-80c892507247.png?e=9821ef38074c453880ad7ad31058d8a2",
-    "thumbEtag": "9821ef38074c453880ad7ad31058d8a2",
-    "version": 1,
-    "metadata": {},
-    "publishedAt": "2024-07-22T14:59:04.606Z",
     "createdAt": "2024-08-21T21:08:03.719Z",
     "tags": [
       {
@@ -3054,84 +3207,6 @@
     ]
   },
   {
-    "id": "56a7d283-e016-43d5-8779-10791264ff4f",
-    "accountId": null,
-    "alias": "weather-check-in",
-    "label": "Weather Check In",
-    "description": "What's your weather? Each person picks a weather icon to describe how they are feeling.",
-    "sort": 999999999,
-    "time": null,
-    "people": null,
-    "complexity": null,
-    "thumbUrl": "https://d.metroretro.io/thumbs/templates/56a7d283-e016-43d5-8779-10791264ff4f/f65da6fe-9a61-460b-be7f-eef8436fb3c2.png?e=bdfb864de2bcf3b4e55f3d71817ba4be",
-    "thumbEtag": "bdfb864de2bcf3b4e55f3d71817ba4be",
-    "version": 1,
-    "metadata": {},
-    "publishedAt": "2024-07-22T14:59:04.917Z",
-    "createdAt": "2024-08-21T21:08:03.719Z",
-    "tags": [
-      {
-        "id": "e5384230-486a-4058-a522-c8df0e19692a",
-        "name": "ice-breakers",
-        "label": "Ice Breakers",
-        "color": "#00AEFF",
-        "sort": 100
-      }
-    ]
-  },
-  {
-    "id": "0e00f739-daf1-4b1a-abc8-ef63558448ad",
-    "accountId": null,
-    "alias": "roti-feelings",
-    "label": "ROTI: Feelings",
-    "description": "Ask your participants how they feel after the meeting - hopefully better than when they started!",
-    "sort": 999999999,
-    "time": null,
-    "people": null,
-    "complexity": null,
-    "thumbUrl": "https://d.metroretro.io/thumbs/templates/0e00f739-daf1-4b1a-abc8-ef63558448ad/caab272d-259f-4b83-a91d-0b79eb8be5c2.png?e=aaf72496c9b8a6a5a8ef62b4a269385b",
-    "thumbEtag": "aaf72496c9b8a6a5a8ef62b4a269385b",
-    "version": 1,
-    "metadata": {},
-    "publishedAt": "2024-07-22T14:59:16.360Z",
-    "createdAt": "2024-08-21T21:08:03.719Z",
-    "tags": [
-      {
-        "id": "8ac56df0-5122-4cdd-800b-beecc00f3258",
-        "name": "check-out",
-        "label": "Check Out",
-        "color": "#B84592",
-        "sort": 800
-      }
-    ]
-  },
-  {
-    "id": "357aca69-d4f3-4fdf-a35b-ca43923714a7",
-    "accountId": null,
-    "alias": "roti-treasure",
-    "label": "ROTI: Treasure",
-    "description": "Rate the value of the meeting in growing piles of treasure.",
-    "sort": 999999999,
-    "time": null,
-    "people": null,
-    "complexity": null,
-    "thumbUrl": "https://d.metroretro.io/thumbs/templates/357aca69-d4f3-4fdf-a35b-ca43923714a7/50852adb-7868-4114-87cf-739ca0924eb2.png?e=7a7cf0c5cb1365508500d8c800827d13",
-    "thumbEtag": "7a7cf0c5cb1365508500d8c800827d13",
-    "version": 1,
-    "metadata": {},
-    "publishedAt": "2024-07-22T14:59:16.900Z",
-    "createdAt": "2024-08-21T21:08:03.719Z",
-    "tags": [
-      {
-        "id": "8ac56df0-5122-4cdd-800b-beecc00f3258",
-        "name": "check-out",
-        "label": "Check Out",
-        "color": "#B84592",
-        "sort": 800
-      }
-    ]
-  },
-  {
     "id": "490ddd67-4ca7-4ce8-8c22-d9dc25d87979",
     "accountId": null,
     "alias": "coat-of-arms",
@@ -3147,6 +3222,32 @@
     "metadata": {},
     "publishedAt": "2024-07-22T14:59:02.963Z",
     "createdAt": "2024-08-21T21:08:03.719Z",
+    "tags": [
+      {
+        "id": "e5384230-486a-4058-a522-c8df0e19692a",
+        "name": "ice-breakers",
+        "label": "Ice Breakers",
+        "color": "#00AEFF",
+        "sort": 100
+      }
+    ]
+  },
+  {
+    "id": "b2c060a8-4b01-4ed4-a5c0-7f000895a10a",
+    "accountId": null,
+    "alias": "easter-egg-dash-large",
+    "label": "Easter Egg Dash (For 11+ People)",
+    "description": "The large version of Easter Egg Dash for teams of 11+ players. Get ready for a dash of fun with our Easter Egg Dash Icebreaker. This game brings the excitement of an egg hunt right into your team meeting.",
+    "sort": 999999999,
+    "time": null,
+    "people": null,
+    "complexity": null,
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/b2c060a8-4b01-4ed4-a5c0-7f000895a10a/e40f4eeb-eb43-4875-9e58-3183c3d94ac0.png?e=42356112d05562e6b0c22b02ab480ff3",
+    "thumbEtag": "42356112d05562e6b0c22b02ab480ff3",
+    "version": 2,
+    "metadata": {},
+    "publishedAt": "2025-04-07T13:51:17.661Z",
+    "createdAt": "2025-04-07T11:55:32.676Z",
     "tags": [
       {
         "id": "e5384230-486a-4058-a522-c8df0e19692a",
@@ -3284,6 +3385,84 @@
         "label": "Meetings & Workshops",
         "color": "#B84592",
         "sort": 700
+      }
+    ]
+  },
+  {
+    "id": "10661662-baca-4172-88c8-bbf3ad842b31",
+    "accountId": null,
+    "alias": "workstream-planning",
+    "label": "Workstream Planning",
+    "description": "Use this template to visualise multiple workstreams, plan tasks, and prioritize the work across them.",
+    "sort": 999999999,
+    "time": null,
+    "people": null,
+    "complexity": null,
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/10661662-baca-4172-88c8-bbf3ad842b31/e5b07534-f9c4-4759-a96c-b8cad09b7067.png?e=d01d1d30e4fc60873a7f8a237453c80c",
+    "thumbEtag": "d01d1d30e4fc60873a7f8a237453c80c",
+    "version": 1,
+    "metadata": {},
+    "publishedAt": "2026-02-11T16:30:26.227Z",
+    "createdAt": "2026-02-11T16:30:26.116Z",
+    "tags": [
+      {
+        "id": "e39f9e53-cce2-4b98-a6dc-a2b88dc2487e",
+        "name": "planning",
+        "label": "Planning",
+        "color": "#FF6C5F",
+        "sort": 500
+      }
+    ]
+  },
+  {
+    "id": "0e512f31-ca06-4717-a319-9e3b78c871e1",
+    "accountId": null,
+    "alias": "simple-launch-plan",
+    "label": "Simple Launch Plan",
+    "description": "This template helps a team plan all the tasks needed for a successful launch.",
+    "sort": 999999999,
+    "time": null,
+    "people": null,
+    "complexity": null,
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/0e512f31-ca06-4717-a319-9e3b78c871e1/4667b67a-5776-4b1b-99a2-98edad45747f.png?e=20f69b33a4c624808b043bd9e1626520",
+    "thumbEtag": "20f69b33a4c624808b043bd9e1626520",
+    "version": 1,
+    "metadata": {},
+    "publishedAt": "2026-02-11T16:33:37.725Z",
+    "createdAt": "2026-02-11T16:33:37.579Z",
+    "tags": [
+      {
+        "id": "e39f9e53-cce2-4b98-a6dc-a2b88dc2487e",
+        "name": "planning",
+        "label": "Planning",
+        "color": "#FF6C5F",
+        "sort": 500
+      }
+    ]
+  },
+  {
+    "id": "0c6ec4ed-f22e-4e4f-af3f-f15b3802974c",
+    "accountId": null,
+    "alias": "deisgn-review",
+    "label": "Design Review",
+    "description": "This template helps a group provide feedback and comments during a design review.",
+    "sort": 999999999,
+    "time": null,
+    "people": null,
+    "complexity": null,
+    "thumbUrl": "https://d.metroretro.io/thumbs/templates/0c6ec4ed-f22e-4e4f-af3f-f15b3802974c/6384360d-9f36-4b6c-bd73-869bc7ca55e4.png?e=efde824c77b4dd9941e347cc2ca55af7",
+    "thumbEtag": "efde824c77b4dd9941e347cc2ca55af7",
+    "version": 1,
+    "metadata": {},
+    "publishedAt": "2026-02-11T16:02:39.604Z",
+    "createdAt": "2026-02-11T16:02:39.478Z",
+    "tags": [
+      {
+        "id": "e39f9e53-cce2-4b98-a6dc-a2b88dc2487e",
+        "name": "planning",
+        "label": "Planning",
+        "color": "#FF6C5F",
+        "sort": 500
       }
     ]
   }
