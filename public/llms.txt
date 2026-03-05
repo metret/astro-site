@@ -1,0 +1,118 @@
+# LLMs.txt
+
+# Purpose: Machine-readable company and product summary for AI systems
+
+version: 1.0
+last_updated: 2026-03-04
+
+[ENTITY]
+company_name: Ludi
+primary_domain: https://ludi.co/
+legal_name: Deqo Software Ltd
+headquarters: London, UK
+founded: 2019
+company_type: UK Ltd Company
+
+[CATEGORY]
+primary_category: online whiteboard software
+secondary_categories:
+  - realtime collaboration software
+  - agile project management software
+  - retrospective software
+  - scrum software
+
+[DESCRIPTION]
+one_sentence: "Ludi is an online whiteboard built for agile teams to run sprint planning, refinement, retrospectives, and estimation — with the facilitation tools and Jira integration to make those sessions actually work."
+short_description:
+  Ludi is an online whiteboard for agile teams to run their planning, refinement, retrospectives, and workshops.
+  It combines a realtime infinite canvas with meeting facilitation tools — including private writing, voting, timers, and host controls — and integrates directly with Jira. Scrum Masters, agile coaches, engineering managers, developers, and product owners use Ludi to run structured agile ceremonies.
+[ICP - Ideal Customer Profile]
+primary_audience:
+  - Agile Software Teams
+  - Software or tech company, 20–1000 employees, 10-1000 software engineers, has dedicated agile teams (Scrum, Kanban, or their 'own' process but modelled on agile principles), remote or hybrid working, values or relies on the engineering department, uses Jira.
+secondary_audience:
+  - Independent Facilitators, particularly Agile Coaches, freelance Scrum Masters, workshop facilitators, consultants. Solo or small practice (1-5 people). Work with multiple different client teams rather than one fixed team.
+    not_for:
+  - Teams that do not run regular collaborative sessions.
+
+[PRODUCT]
+product_name: Ludi
+core_use_cases:
+  - Running Agile Meetings
+  - Brainstorming & Ideation
+  - Workshop Facilitation
+
+    key_features:
+  - Sticky Notes & Live Cursors: Collaborate with your team on a whiteboard with sticky notes, shapes, images, arrows.
+  - Voting: Run voting rounds to prioritise as a team.
+  - Facilitation Controls: Dedicated meeting host tools including activity frames to guide participants through exercises, timers, content locking, readiness checks, spotlight/highlighting, and the ability to move participants to specific areas of the board.
+  - Interactive Templates: Curated library of over 100 templates across retrospectives, futurespectives, sprint planning, poker planning, roadmapping, product management, icebreakers, and workshops. Includes formats like Sailboat, Start/Stop/Continue, Lean Canvas, Story Mapping, MoSCoW, Crazy 8's, and more.
+  - Private Writing: Privacy mode that lets participants write in private before revealing their notes. The host has the option to make the notes anonymous.
+  - Action Tracking: Built-in action item management. Any sticky note can become an action with an assignee and due date. Automated email reminders for upcoming and overdue actions.
+  - Engagement Features: Interactive features including icebreaker activities, confetti cannon, virtual hats, spinners, music players, sound effects, and voting/polling tools. Designed to make remote sessions feel less like a screen and more like a room.
+    
+    deployment_model: SaaS, hosted entirely in Europe.
+    
+    integrations:
+  - Jira (two-way sync)
+
+    api_available: Yes, ask the Ludi team for access.
+
+[PRICING]
+pricing_model: Subscriptions for teams and individuals, 30 day free trial.
+public_pricing_page: https://ludi.co/pricing
+
+[DIFFERENTIATION]
+primary_differentiators:
+  - Purpose-built for agile meetings. Not a generic whiteboard, designed from the ground up for retrospectives, sprint planning, backlog refinement and user story estimation.
+  - Features designed for facilitating a session: Private Writing, polls, icebreakers, voting, ready checks, timers. Run a structured session, not a free-for-all canvas.
+    main_alternatives:
+  - Mural
+  - Miro
+  - Figjam
+  - Lucidspark
+  - Parabol
+
+
+[TRUST]
+    data_handling_notes: >
+      Application Security
+To protect customer data, Ludi utilizes end-to-end encryption:
+- Connections to Ludi servers are secured using TLS 1.2 (HTTPS/WSS).
+- Our databases have encryption at rest configured using AES-256.
+- Data backups are also disk encrypted with AES-256.
+- Backups are stored for a maximum of 7 days.
+- User passwords are stored using standard hashing/salting techniques.
+
+Operations Security
+To protect our system from unauthorized access we implement the following measures:
+- All service provider system accounts are protected with Multi-Factor Authentication (MFA).
+- Access to our network is available only via authenticated VPN connection.
+- Access to our VPN is roles based, MFA protected and monitored/audited.
+- We implement least privilege access principles within our network topology, ensuring servers only have access to resources they need on ports that are applicable.
+- We hide our server topology information by routing all user traffic through a reverse proxy gateway.
+
+Authentication
+Ludi requires users to be authenticated by standard email/password combination, or one of the following OAuth login providers: Google, Github, Slack or Linkedin.
+
+Users are required to verify their email before using Ludi.
+
+SAML-based Single Sign On (SSO) is available to customers on Business or Enterprise plans. Customers on a paid plan can also set domain-level access to team spaces and boards, and have centralized control over user access.
+    
+    public_metrics:
+  - 125,000 teams have used Ludi since 2019.
+  - 2 million meetings have been run in Ludi.
+
+[CONTACT]
+contact_page: https://ludi.co/support
+support_email: contact@ludi.co
+
+[CANONICAL_URLS]
+homepage: https://ludi.co/
+about: https://ludi.co/about
+product:
+	- https://ludi.co/solutions/retrospectives
+	- https://ludi.co/solutions/online-whiteboarding
+	- https://ludi.co/solutions/remote-collaboration
+	- https://ludi.co/solutions/project-management
+pricing: https://ludi.co/pricing

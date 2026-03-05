@@ -31,7 +31,7 @@ const tabs = [
     image: "~/assets/images/page-heroes/project-reviews.png",
     body: "Gain critical insights and improve future work with effective project reviews",
     href: "/solutions/project-reviews",
-    feature1: "Engaging Retrospectives",
+    feature1: "Team review and retrospective boards",
     feature2: "Import data from multiple sources",
     feature3: "Action Planning",
   },
@@ -60,7 +60,7 @@ const loadedImages = await Promise.all(
   tabs.map(async (tab) => ({
     ...tab,
     loadedImage: await dynamicImportImage(tab.image),
-  }))
+  })),
 );
 ---
 
@@ -156,19 +156,19 @@ const loadedImages = await Promise.all(
 </section>
 <script>
   const desktopTabs = Array.from(
-    document.querySelectorAll(".outcome-tab")
+    document.querySelectorAll(".outcome-tab"),
   ) as HTMLButtonElement[];
 
   const mobileTabs = Array.from(
-    document.querySelectorAll(".mobile-outcome-tab")
+    document.querySelectorAll(".mobile-outcome-tab"),
   ) as HTMLButtonElement[];
 
   const desktopContentPanels = Array.from(
-    document.querySelectorAll(".desktop-content-panel")
+    document.querySelectorAll(".desktop-content-panel"),
   ) as HTMLElement[];
 
   const mobileContentPanels = Array.from(
-    document.querySelectorAll(".mobile-content-panel")
+    document.querySelectorAll(".mobile-content-panel"),
   ) as HTMLElement[];
 
   function setActiveContent(activeIndex: number) {
