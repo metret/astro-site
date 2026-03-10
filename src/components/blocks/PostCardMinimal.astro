@@ -1,0 +1,46 @@
+---
+interface Props extends astroHTML.JSX.HTMLAttributes {
+  category: string;
+  title: string;
+  author: string;
+  date: Date;
+  href: string;
+  teaser?: string;
+}
+
+const {
+  category,
+  author,
+  date,
+  title,
+  teaser,
+  href,
+  class: className,
+  "class:list": classList,
+  ...props
+} = Astro.props;
+---
+
+<div
+  {...props}
+  class:list={[
+    "blog-post shadow-mr overflow-hidden rounded-xl border-1 border-gray-200 bg-white",
+    classList,
+    className,
+  ]}
+>
+  <a href={href} class="flex h-full flex-col p-6">
+    <div class="space-y-4">
+      <p class="text-purple text-md/6 font-semibold">{category}</p>
+      <p class="text-xl/8 font-semibold text-blue-200">
+        {title}
+      </p>
+      {teaser && (
+        <p class="text-body text-base/6 font-medium opacity-80 line-clamp-2">{teaser}</p>
+      )}
+    </div>
+    <p class="text-body mt-auto gap-2 pt-4 text-sm font-medium opacity-70">
+      {author} | {date.toLocaleDateString()}
+    </p>
+  </a>
+</div>
