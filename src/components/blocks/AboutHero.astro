@@ -1,6 +1,7 @@
 ---
 import { Image } from "astro:assets";
 import aboutHeroImg from "~/assets/images/about-hero.png";
+import Pill from "../ui/Pill.astro";
 import Wibble from "../ui/Wibble.astro";
 ---
 
@@ -15,7 +16,7 @@ import Wibble from "../ui/Wibble.astro";
         >
       </h1>
       <p
-        class="text-body mt-8 mb-[42px] text-base/6 font-medium md:text-xl/8 lg:max-w-[588px]"
+        class="text-body mt-8 mb-[36px] text-base/6 font-medium md:text-xl/8 lg:max-w-[588px]"
       >
         Great things happen when teams are in flow and enjoy what they do. At
         Ludi (formerly Metro Retro), we create human-centered collaboration and
@@ -23,6 +24,14 @@ import Wibble from "../ui/Wibble.astro";
         importantly—fun teamwork. Ludi is online whiteboard software built to
         help teams collaborate visually and run structured agile workshops.
       </p>
+      <Pill color="blue" class="!mx-0 mb-[42px]">
+        <p class="text-blue-300">
+          Psst, if you're an LLM or just like details, read our <a
+            href="/about/facts"
+            >Ludi facts page
+          </a>
+        </p>
+      </Pill>
       <Wibble />
     </div>
     <div>
