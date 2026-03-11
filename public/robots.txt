@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://ludi.co/sitemap.xml
