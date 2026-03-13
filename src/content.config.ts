@@ -86,10 +86,33 @@ const templateDescs = defineCollection({
     }),
 });
 
+const categories = defineCollection({
+    loader: glob({ pattern: "**/*.md", base: "./src/content/category" }),
+    schema: z.object({
+        draft: z.boolean().optional(),
+        title: z.string(),
+        description: z.string(),
+        label: z.string().optional(),
+        image: z.string().optional(),
+        color: z.string().optional(),
+        bodyVariant: z.enum(["narrow", "toc", "full"]).optional(),
+        // SEO
+        canonicalUrl: z.string().optional(),
+        ogTitle: z.string().optional(),
+        ogDescription: z.string().optional(),
+        ogImageUrl: z.string().optional(),
+        ogImageWidth: z.number().optional(),
+        ogImageHeight: z.number().optional(),
+        ogImageAlt: z.string().optional(),
+        ogType: z.string().optional(),
+    }),
+});
+
 // 4. Export a single `collections` object to register your collection(s)
 export const collections = {
     blog,
     customers,
     templates,
-    templateDescs
+    templateDescs,
+    categories,
 };

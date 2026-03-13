@@ -197,10 +197,11 @@
 
   /* Horizontal rule */
   & hr {
-    height: 2px;
-    background-color: #e0e0e0;
     border: none;
-    margin: 3rem 0;
+    border-top: 1px dashed #627496;
+    height: 0;
+    width: full;
+    margin: 3rem auto;
   }
 
   /* Tables */

@@ -1,0 +1,89 @@
+---
+import { Image } from "astro:assets";
+import { maybeDynamicImportImage } from "~/utils";
+import placeholderImage from "~/assets/images/page-heroes/agile-coaches.png";
+import Pill from "../ui/Pill.astro";
+import Wibble from "../ui/Wibble.astro";
+import Dots from "../Dots.astro";
+
+interface Props {
+  title: string;
+  description: string;
+  image?: string;
+  label?: string;
+  pillColor?: "blue" | "orange" | "gray" | "purple" | "green";
+}
+
+const { title, description, image, label, pillColor = "blue" } = Astro.props;
+
+const colors = {
+  orange: "#ff9f43",
+  green: "#40b8a8",
+  purple: "#b974ff",
+  blue: "#3b65ef",
+  gray: "#dde6ff",
+};
+
+const accentColor = colors[pillColor];
+const loadedImage = image ? (await maybeDynamicImportImage(image) ?? placeholderImage) : placeholderImage;
+---
+
+<Dots />
+<section class="mt-8 lg:mt-16">
+  <div
+    class="mx-auto grid max-w-[80rem] grid-cols-1 gap-8 px-8 lg:grid-cols-2 lg:gap-16"
+  >
+    <div class="flex flex-col justify-center gap-6">
+      {label && (
+        <div>
+          <Pill class="!mx-0" color={pillColor}>
+            <h1>{label}</h1>
+          </Pill>
+        </div>
+      )}
+      <h2 class="text-4xl font-semibold text-black">
+        {title}
+      </h2>
+      <p class="text-xl text-gray-300">
+        {description}
+      </p>
+      <div class="py-4">
+        <Wibble />
+      </div>
+    </div>
+    <div>
+        <div class="w-max-[38rem] relative block aspect-[1.4] max-w-600 md:max-w-full">
+          <svg
+            class="special-center w-full"
+            viewBox="0 0 600 420"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g clip-path="url(#clip0_1261_3054)">
+              <rect width="600" height="420" rx="20" fill={accentColor}></rect>
+              <path
+                d="M637.388 119.401C655.488 122.413 667.555 137.476 664.538 155.551L664.538 158.563C619.289 333.29 438.291 438.728 260.309 393.54C106.461 354.377 3.89544 209.776 15.962 53.1253C15.962 35.0501 28.0285 23.0001 46.1283 23.0001L52.1616 23.0001L637.388 119.401Z"
+                fill="white"
+                fill-opacity="0.1"
+              ></path>
+            </g>
+            <defs>
+              <clipPath id="clip0_1261_3054">
+                <rect width="600" height="420" rx="20" fill="white"></rect>
+              </clipPath>
+            </defs>
+          </svg>
+          <div class="special-center w-[90%]">
+            <Image
+              class="rounded-xl object-cover shadow-2xl shadow-black/40"
+              src={loadedImage}
+              alt={title}
+              layout="full-width"
+              widths={[518, 820]}
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

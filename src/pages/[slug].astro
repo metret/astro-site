@@ -1,0 +1,63 @@
+---
+import { getCollection, render } from "astro:content";
+import { pageMeta } from "~/utils";
+import PageLayout from "~/layouts/PageLayout.astro";
+import CategoryHero from "~/components/blocks/CategoryHero.astro";
+import CategoryTOC from "~/components/blocks/CategoryTOC.astro";
+import UsageStatement from "~/components/blocks/instances/UsageStatement.astro";
+import CustomerLogos from "~/components/blocks/CustomerLogos.astro";
+
+export async function getStaticPaths() {
+  const categories = await getCollection("categories");
+  return categories
+    .filter((c) => !c.data.draft)
+    .map((category) => ({
+      params: { slug: category.id },
+      props: { category },
+    }));
+}
+
+const { category } = Astro.props;
+const { Content, headings } = await render(category);
+const seo = await pageMeta(category.data);
+const bodyVariant = category.data.bodyVariant ?? "narrow";
+---
+
+<PageLayout {...seo} spacing="md">
+  <CategoryHero
+    title={category.data.title}
+    description={category.data.description}
+    image={category.data.image}
+    label={category.data.label}
+  />
+
+  <section class="mx-auto mt-12 max-w-[80rem] px-8">
+    {
+      bodyVariant === "toc" && (
+        <div class="grid grid-cols-1 gap-12 lg:grid-cols-[240px_1fr] lg:gap-16">
+          <CategoryTOC headings={headings} />
+          <div class="article-body min-w-0">
+            <Content />
+          </div>
+        </div>
+      )
+    }
+    {
+      bodyVariant === "full" && (
+        <div class="article-body">
+          <Content />
+        </div>
+      )
+    }
+    {
+      bodyVariant === "narrow" && (
+        <div class="article-body max-w-[720px]">
+          <Content />
+        </div>
+      )
+    }
+  </section>
+
+  <UsageStatement />
+  <CustomerLogos />
+</PageLayout>

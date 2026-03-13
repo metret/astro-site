@@ -1,0 +1,40 @@
+---
+interface Heading {
+  depth: number;
+  slug: string;
+  text: string;
+}
+
+interface Props {
+  headings: Heading[];
+}
+
+const { headings } = Astro.props;
+const filtered = headings.filter((h) => h.depth === 2);
+---
+
+<nav class="sticky top-30 self-start hidden lg:block">
+  <p class="mb-4 text-sm font-semibold tracking-widest text-gray-400 uppercase">
+    On this page
+  </p>
+  <ul class="flex flex-col gap-2">
+    {
+      filtered.map((h) => (
+        <li>
+          <a
+            href={`#${h.slug}`}
+            class="text-sm/6 font-medium text-gray-300 transition-colors hover:text-blue-300"
+          >
+            {h.text}
+          </a>
+        </li>
+      ))
+    }
+  </ul>
+</nav>
+
+<style is:global>
+  .article-body :is(h2, h3, h4) {
+    scroll-margin-top: 6rem;
+  }
+</style>
