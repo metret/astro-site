@@ -1,10 +1,9 @@
 ---
-import { getCollection, render } from "astro:content";
-import BlogFeed from "~/components/blocks/BlogFeed.astro";
-import BlogHero from "~/components/blocks/BlogHero.astro";
-import Dots from "~/components/Dots.astro";
-import PageLayout from "~/layouts/PageLayout.astro";
+import { getCollection } from "astro:content";
+import BlogFeedMinimal from "~/components/blocks/BlogFeedMinimal.astro";
+import Hero from "~/components/blocks/Hero.astro";
 import Newsletter from "~/components/blocks/Newsletter.astro";
+import PageLayout from "~/layouts/PageLayout.astro";
 import slugify from "slugify";
 
 // 1. Generate a new path for every collection entry
@@ -24,11 +23,17 @@ export async function getStaticPaths() {
 const { tag } = Astro.props;
 ---
 
-<PageLayout title="Blog">
-  <Dots />
+<PageLayout title="Blog" spacing="lg">
+  <section class="space-y-16">
+    <Hero
+      compact
+      pill="Ludi Blog"
+      title="Guides, news & updates from Ludi"
+      description="Tips, product updates, and team collaboration insights from the Ludi team."
+    />
+  </section>
   <section>
-    <BlogHero />
-    <BlogFeed tag={tag} />
+    <BlogFeedMinimal tag={tag} />
   </section>
   <Newsletter />
 </PageLayout>

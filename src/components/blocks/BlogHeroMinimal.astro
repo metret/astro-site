@@ -1,0 +1,42 @@
+---
+import LinkButton from "../ui/LinkButton.astro";
+import { getCollection } from "astro:content";
+
+const [post] = (await getCollection("blog"))
+  .filter((post) => !post.data.draft)
+  .toSorted(
+    (a, b) => b.data.publishedDate.getTime() - a.data.publishedDate.getTime(),
+  )
+  .slice(0, 1);
+
+const teaser = post.data.teaser ?? post.data.description;
+const formattedDate = post.data.publishedDate.toLocaleDateString("en-GB", {
+  day: "numeric",
+  month: "long",
+  year: "numeric",
+});
+---
+
+<section class="px-4 py-10 lg:py-16">
+  <div class="mx-auto max-w-[80rem]">
+    <div class="pb-10 lg:pb-14">
+      <p
+        class="text-purple mb-4 text-sm font-semibold tracking-widest uppercase"
+      >
+        {post.data.category}
+      </p>
+      <a href={`/blog/${post.id}`}>
+        <h1 class="text-[28px]/8 font-semibold">
+          {post.data.title}
+        </h1>
+      </a>
+      {teaser && <p class="text-body mt-4 text-lg/7 font-medium">{teaser}</p>}
+      <div class="mt-6 flex flex-col gap-3">
+        <LinkButton href={`/blog/${post.id}`}>Read article</LinkButton>
+        <p class="text-body text-sm font-medium opacity-60">
+          {post.data.authorName} · {formattedDate}
+        </p>
+      </div>
+    </div>
+  </div>
+</section>

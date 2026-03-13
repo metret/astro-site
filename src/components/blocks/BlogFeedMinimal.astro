@@ -1,0 +1,85 @@
+---
+import PostCardMinimal from "./PostCardMinimal.astro";
+import slugify from "slugify";
+import { getCollection } from "astro:content";
+
+const { tag, author } = Astro.props;
+
+const allPosts = (await getCollection("blog"))
+  .filter((post) => !post.data.draft)
+  .toSorted(
+    (a, b) => b.data.publishedDate.getTime() - a.data.publishedDate.getTime(),
+  );
+
+let matchingPosts = allPosts;
+
+if (tag && tag !== "all") {
+  matchingPosts = allPosts.filter(
+    (post) => slugify(post.data.category, { lower: true }) === tag,
+  );
+} else if (author) {
+  matchingPosts = allPosts.filter(
+    (post) => slugify(post.data.authorName, { lower: true }) === author,
+  );
+}
+
+const allLabels = [
+  "All",
+  ...Array.from(new Set(allPosts.map((post) => post.data.category))).sort(),
+];
+
+const allTags = allLabels.map((label) => ({
+  slug: slugify(label, { lower: true }),
+  label,
+}));
+---
+
+<section class="px-4 pb-16">
+  <div class="mx-auto max-w-[80rem]">
+    <div class="flex gap-12">
+      {
+        !author && (
+          <nav class="sticky top-30 hidden shrink-0 flex-col gap-4 self-start lg:flex">
+            {allTags.map((c) => (
+              <a
+                class:list={[
+                  "block text-base font-medium",
+                  c.slug === tag
+                    ? "text-purple"
+                    : "hover:text-purple text-gray-300",
+                ]}
+                href={c.slug === "all" ? "/blog" : `/blog/${c.slug}`}
+              >
+                {c.label}
+              </a>
+            ))}
+          </nav>
+        )
+      }
+
+      <div class="min-w-0 flex-1">
+        {
+          author && (
+            <p class="mb-8 text-xl/8 font-semibold text-blue-200">
+              Posts by {matchingPosts[0]?.data.authorName}
+            </p>
+          )
+        }
+        <div class="grid grid-cols-1 gap-5 md:grid-cols-2">
+          {
+            matchingPosts.map((post) => (
+              <PostCardMinimal
+                href={`/blog/${post.id}`}
+                title={post.data.title}
+                author={post.data.authorName}
+                category={post.data.category}
+                date={post.data.publishedDate}
+                teaser={post.data.teaser ?? post.data.description}
+              />
+            ))
+          }
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
