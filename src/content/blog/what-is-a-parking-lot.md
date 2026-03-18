@@ -107,7 +107,7 @@ When you say "let's take that offline," the item vanishes. There's no record, no
 
 A parking lot makes the item matter.
 
-A parking lot puts the item in writing where everyone can see it. There's a specific moment in the meeting where it gets reviewed. That's not the same thing at all.
+It is now in writing where everyone can see it. There's a specific moment in the meeting where it gets reviewed. That's not the same thing at all.
 
 If you hear yourself saying "let's take that offline" more than once in a meeting, what you actually need is a parking lot.
 
@@ -138,4 +138,4 @@ It became especially popular with teams that timebox their meetings. If you've o
 
 Mike Cohn, one of the co-founders of the Scrum Alliance, came up with the idea of a "16th minute" for standups. The standup itself stays to 15 minutes. But anyone who needs to can stick around for one more minute to discuss a parked item. The people who don't need to be there leave. Simple, and it's the same principle that makes parking lots work in any meeting: you're not adding time, you're creating a small buffer for the things that didn't fit.
 
-If you've made it this far, you're either genuinely interested in meeting facilitation or *really* avoiding something. Either way, go try a parking lot in your next meeting. It takes two minutes to set up and it'll save you twenty. Try pairing it with ELMO (Enough, let's move on), tip 5 in [online meeting techniques](https://ludi.co/blog/10-tips-to-help-you-run-great-virtual-meetings)
+If you've made it this far, you're either genuinely interested in meeting facilitation or *really* avoiding something. Either way, go try a parking lot in your next meeting. It takes two minutes to set up and it'll save you twenty. Try pairing it with ELMO (Enough, let's move on), tip 5 in [online meeting techniques](https://ludi.co/blog/10-tips-to-help-you-run-great-virtual-meetings).
