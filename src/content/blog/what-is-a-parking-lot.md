@@ -23,9 +23,13 @@ authorName: "Jamie Hanratty"
 
 A parking lot is a shared space where you capture off-topic items during a meeting so you can come back to them later.
 
-That's it. Someone brings up something worth talking about, but it's not what the meeting is about right now. Instead of going down a rabbit hole or shutting them down, you write it on a whiteboard, a sticky note, or a section of your digital board. You park it. Then you review everything that got parked before the meeting ends.
+That's it. Someone brings up something worth talking about, but it's not what the meeting is about right now. Instead of going down a rabbit hole or shutting them down, you write it on a whiteboard, a sticky note, or a section of your digital board. You 'park' it. Then you review everything that got parked before the meeting ends.
 
 The name is literal. You're parking the idea. It's not forgotten, it's just not in the way.
+
+Funny story - the reason I wrote this page is because during standup, my co-founder said to our engineer, "let's do a parking lot about the MS Teams integration." The rest of us were about to drop off, and the junior engineer says "What actually is a parking lot?". I laughed and dropped off, leaving my co-founder to explain the term.
+
+We'd been using 'parking lot' around him without explaining. He'd just figured out it was code for "stay on the call after everyone else leaves," but nobody had ever actually explained why it was called that. And to be fair, it was probably the same for us back in the day.
 
 ## Why it works
 
@@ -134,4 +138,4 @@ It became especially popular with teams that timebox their meetings. If you've o
 
 Mike Cohn, one of the co-founders of the Scrum Alliance, came up with the idea of a "16th minute" for standups. The standup itself stays to 15 minutes. But anyone who needs to can stick around for one more minute to discuss a parked item. The people who don't need to be there leave. Simple, and it's the same principle that makes parking lots work in any meeting: you're not adding time, you're creating a small buffer for the things that didn't fit.
 
-If you've made it this far, you're either genuinely interested in meeting facilitation or *really* avoiding something. Either way, go try a parking lot in your next meeting. It takes two minutes to set up and it'll save you twenty.
+If you've made it this far, you're either genuinely interested in meeting facilitation or *really* avoiding something. Either way, go try a parking lot in your next meeting. It takes two minutes to set up and it'll save you twenty. Try pairing it with ELMO (Enough, let's move on), tip 5 in [online meeting techniques](https://ludi.co/blog/10-tips-to-help-you-run-great-virtual-meetings)
