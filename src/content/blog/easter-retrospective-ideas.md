@@ -183,7 +183,7 @@ A themed retro only works if it still produces genuine outcomes. The format is d
 
 **Timebox everything.** A themed retro can easily run over because people enjoy the format and spend too long in the fun part. Stick to timings: five minutes for writing, five for grouping, ten for discussion, five for voting, five for actions. That's 30 minutes for the core retro.
 
-**Still assign actions.** This is where themed retros most commonly fall down. The energy is good, the discussion is lively, and then everyone leaves without clear next steps. Every retro needs to end with two to three actions that have a named owner and a due date. [Track retro actions automatically](https://ludi.co/product/task-tracking) so they carry forward into your next meeting for review. [Google's research on team effectiveness](https://rework.withgoogle.com/guides/understanding-team-effectiveness) found that follow-through on commitments is one of the strongest predictors of high-performing teams.
+**Still assign actions.** This is where themed retros most commonly fall down. The energy is good, the discussion is lively, and then everyone leaves without clear next steps. Every retro needs to end with two to three actions that have a named owner and a due date. [Track retro actions automatically](https://ludi.co/product/task-tracking) so they carry forward into your next meeting for review. [Google's research on team effectiveness](https://rework.withgoogle.com/intl/en/guides/understanding-team-effectiveness) found that follow-through on commitments is one of the strongest predictors of high-performing teams.
 
 ## Easter icebreakers to pair with your retro
 
