@@ -14,7 +14,7 @@ ogImageWidth: 1200
 ogImageHeight: 628
 ogImageAlt: "What actually is a parking lot?"
 ogImageType: "image/png"
-publishedDate: 2026-03-18T00:00:00+00:00
+publishedDate: 2026-03-05T00:00:00+00:00
 modifiedDate: 2026-03-18T00:00:00+00:00
 authorName: "Jamie Hanratty"
 ---
@@ -27,11 +27,11 @@ That's it. Someone brings up something worth talking about, but it's not what th
 
 The name is literal. You're parking the idea. It's not forgotten, it's just not in the way.
 
-Funny story - the reason I wrote this page is because during standup, my co-founder said to our engineer, "let's do a parking lot about the MS Teams integration." The rest of us were about to drop off, and the junior engineer says "What actually is a parking lot?". I laughed and dropped off, leaving my co-founder to explain the term.
+Funny story - the reason I wrote this page is because during standup that day, my co-founder said to our junior engineer, "let's do a parking lot about the MS Teams integration." The rest of us were about to drop off, and the junior engineer says "actually... what is a parking lot?". I laughed and dropped off, leaving my co-founder to explain the term.
 
-We'd been using 'parking lot' around him without explaining. He'd just figured out it was code for "stay on the call after everyone else leaves," but nobody had ever actually explained why it was called that. And to be fair, it was probably the same for us back in the day.
+We'd been using 'parking lot' around him without explaining. He'd just figured it was code for "stay on the call after everyone else leaves," but nobody had ever actually explained why it was called that. And to be fair, it was probably the same for us back in the day.
 
-## Why it works
+## Why a parking lot works
 
 Meetings go off track because people have things to say and nowhere to put them. The parking lot gives them somewhere. The person with the off-topic point feels heard instead of dismissed. The meeting doesn't get derailed. And good ideas don't vanish just because they came up at the wrong moment.
 
@@ -45,13 +45,9 @@ A parking lot fixes this. The topic gets written down, the standup finishes on t
 
 It's one of those things that sounds obvious when you hear it, but most teams don't do it until someone sets it up.
 
-## How to set one up
-
-You need a visible space and about 30 seconds.
-
 ### Before the meeting starts
 
-Pick a spot for the parking lot. On a physical whiteboard, draw a box in the corner and label it. On a digital board, add a section or zone off to one side. If you're using [Ludi](https://ludi.co), just add a zone labelled "Parking Lot" to whatever template you're running, whether that's a Daily Standup, [Sailboat retro](https://ludi.co/templates/the-sailboat), or a [sprint planning](https://ludi.co/templates/sprint-planning) session.
+All you need to do is to pick a visible space for the parking lot. On a physical whiteboard, draw a box in the corner and label it. On a digital board, add a section or zone off to one side. If you're using [Ludi](https://ludi.co), just add a zone labelled "Parking Lot" to whatever template you're running, whether that's a Daily Standup, [Sailboat retro](https://ludi.co/templates/the-sailboat), or a [sprint planning](https://ludi.co/templates/sprint-planning) session.
 
 At the start of the meeting, mention it: "If something comes up that's important but not on today's agenda, we'll park it here and come back to it at the end." That's all the setup it needs.
 
@@ -65,8 +61,6 @@ At the start of the meeting, mention it: "If something comes up that's important
 In a team meeting, you want everyone to feel empowered to be able to say "parking lot" at any point. This isn't just reserved for the facilitator.
 
 ### Before the meeting ends
-
-This is where mistakes are made, if any.
 
 Reserve the last 5-10 minutes for the parking lot. Go through each item and decide what happens to it:
 
@@ -83,7 +77,7 @@ The important thing is that every parked item gets a decision. Not "we'll think 
 
 By far the most common one. The facilitator parks items all through the meeting, then runs out of time and says "we'll pick these up next meeting." Next meeting, nobody remembers. People learn quickly that the parking lot is just a polite way to ignore them, and they stop contributing.
 
-Fix: set a timer. If your meeting is 60 minutes, stop the main agenda at 50. The last 10 minutes are for parked items. No exceptions.
+Fix: Use a timer - reserve the last 5-10 minutes of a meeting for parked items.
 
 ### Using it to shut people down
 
@@ -107,7 +101,7 @@ When you say "let's take that offline," the item vanishes. There's no record, no
 
 A parking lot makes the item matter.
 
-It is now in writing where everyone can see it. There's a specific moment in the meeting where it gets reviewed. That's not the same thing at all.
+It's now in writing where everyone can see it. There's a specific moment in the meeting where it gets reviewed. That's not the same thing at all.
 
 If you hear yourself saying "let's take that offline" more than once in a meeting, what you actually need is a parking lot.
 
