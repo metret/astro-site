@@ -1,9 +1,9 @@
 ---
 title: "7 Easter Retrospective Ideas (With Templates)"
-teaser: "Break the stale retro cycle with 7 Easter retrospective ideas. Full facilitation guides, icebreaker pairings, and ready-made templates."
+teaser: "Pick your next themed retro with 7 Easter retrospective ideas. With facilitation guides, icebreaker pairings, and ready-made templates."
 category: "Guides"
-description: "Break the stale retro cycle with 7 Easter retrospective ideas. Full facilitation guides, icebreaker pairings, and ready-made templates. Try one this sprint."
-image: "~/assets/images/blog/placeholder.png"
+description: "Pick your next themed retro with 7 Easter retrospective ideas. With facilitation guides, icebreaker pairings, and ready-made templates. Try one this sprint."
+image: "~/assets/images/blog/2026/easter-retro-ideas.png"
 canonicalUrl: "/blog/easter-retrospective-ideas"
 section: "Guides"
 ogUrl: "https://ludi.co/blog/easter-retrospective-ideas"
@@ -18,24 +18,19 @@ publishedDate: 2026-03-18T00:00:00+00:00
 modifiedDate: 2026-03-18T00:00:00+00:00
 authorName: "Jamie Hanratty"
 ---
-
-# Easter retrospective ideas: 7 formats with facilitation guides
-
 If you're looking for Easter [retrospective](https://ludi.co/blog/retrospectives-in-agile-what-they-are-why-they-matter-and-how-to-do-them) ideas, here are seven themed formats for you to nibble on. Each one has a different angle, a template to use, and facilitation instructions.
 
-Themed retros work when the metaphor gives people a fresh angle on problems they've been staring at for weeks, and the lighter tone makes it easier to raise the awkward stuff. And it just so happens that Easter is one of the easiest themes to pull off.
+Themed retros work well when the metaphor gives people a fresh angle on problems they've been staring at for weeks, and the lighter tone makes it easier to raise the awkward stuff. And it just so happens that Easter is one of the easiest themes to pull off.
 
-If you want to jump straight in, [Ludi's Easter Retrospective template](https://ludi.co/templates/easter-retrospective-template) is ready to go. Pick it, share the link, and your team is adding sticky notes in under a minute.
+If you want to jump straight in, [Ludi's Easter Retrospective template](https://ludi.co/templates/easter-retrospective-template) is ready to go. Create the board, share the link, and your team will be adding sticky notes in under a minute.
 
 ## 7 Easter retro ideas
 
 ### 1. The Easter retro (Ludi's Easter Retrospective)
 
-This is [Ludi's Easter Retrospective template](https://ludi.co/templates/easter-retrospective-template), which includes an interactive Egg Dash icebreaker to warm the team up before the main retro.
-
-**Concept:** A four-quadrant Easter retro that covers what went well, what went wrong, what needs deeper investigation, and what achievable improvements to make next.
-
-**Prompts:**
+This is Ludi's [Easter Retrospective template](https://ludi.co/templates/easter-retrospective-template), a four-quadrant Easter retro that covers what went well, what went wrong, what needs deeper investigation, and what achievable improvements to make next. There's also a bonus interactive egg hunt icebreaker included in the board.
+![](../../assets/images/blog/2026/easter-retro-ludi-example-2.png)
+**Easter Retro Prompts:**
 - Eggs Collected (successes and achievements worth celebrating)
 - Broken Eggs (challenges, failures, and things that didn't land)
 - Rabbit Holes (topics that need deeper exploration before the team can act)
@@ -44,6 +39,7 @@ This is [Ludi's Easter Retrospective template](https://ludi.co/templates/easter-
 **How to run it:**
 1. First, have everyone pick an Easter-themed hat for their avatar. There's bunny ears, a chicken, and more to choose from.
 2. Start with the Egg Dash icebreaker (5-10 minutes). Team members race to claim sticky notes hiding Easter eggs underneath. It's fast, competitive, and gets the energy up before the serious discussion starts. No one's going to be working in a different tab.
+![](../../assets/images/blog/2026/egg-hunt-icebreaker.png)
 3. Switch to the retro. Set a ten-minute timer for [private writing](https://ludi.co/product/privacy-anonymity). Each person adds stickies to Eggs Collected, Broken Eggs, and Rabbit Holes. Keep Bunny Hops empty for now.
 4. Reveal and discuss (15-20 minutes). Walk through each quadrant, letting people explain their notes. Look for patterns, especially in Broken Eggs and Rabbit Holes.
 5. Based on the discussion, ask the team to add Bunny Hops: small improvements that address the issues raised. Aim for three to five concrete actions, not a long list.
@@ -197,13 +193,13 @@ A quick icebreaker before the retro loosens people up and sets the tone. Keep it
 
 **"Easter Egg Emoji Vote"** Put a row of spring-themed emojis on the board (sunshine, rain cloud, hatching egg, flowers, chocolate bar). Each person votes on the one that best represents their current mood. No explanation needed, just a quick visual check-in.
 
-**"Two Truths and a Lie: Easter Edition"** Each person shares three statements about their Easter or spring plans. Two are true, one is a lie. The team guesses. Classic format, seasonal twist. Works well for teams that don't see each other outside of work. [Ludi board: Two Truths and a Lie](https://ludi.co/templates/two-truths-one-lie).
+**"Two Truths and a Lie: Easter Edition"** Each person shares three statements about their Easter or spring plans. Two are true, one is a lie. The team guesses. Classic format, seasonal twist. Works well for teams that don't see each other outside of work. Use the Ludi template: [Two Truths and a Lie](https://ludi.co/templates/two-truths-one-lie).
 
 For more warm-up ideas, check out our [icebreaker ideas for remote teams](https://ludi.co/blog/unique-ideas-for-great-icebreakers).
 
 ## When Easter retros go wrong
 
-Themed retros can backfire. Here's what to watch for.
+Themed retros can miss the mark. Here's what to watch for.
 
 **Forced fun.** If you announce "We're doing an Easter retro!" and the team groans, don't push it. Some teams aren't into themed formats, and that's fine. You can always use the prompts from this article without the Easter framing. "Favourites, Would Swap, Surprise Centre" works just as well without calling it a chocolate box.
 
@@ -211,7 +207,7 @@ Themed retros can backfire. Here's what to watch for.
 
 **Theme overshadowing serious issues.** A lighthearted format can make people hesitant to raise serious problems. They don't want to be the person who kills the fun. Counter this by explicitly saying at the start: "The format is light, but the issues don't have to be. If something's genuinely wrong, this is still the place to raise it."
 
-**Too many themed retros.** One per quarter is the right cadence. If every retro has a theme, it stops being special and starts being another thing the facilitator is doing to the team rather than for them.
+**Too many themed retros.** One per quarter is the right cadence to start with. If every retro has a theme, it stops being special and starts being another thing the facilitator is doing to the team rather than for them.
 
 ## Try one this sprint
 

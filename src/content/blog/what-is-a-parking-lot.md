@@ -14,7 +14,7 @@ ogImageWidth: 1200
 ogImageHeight: 628
 ogImageAlt: "What actually is a parking lot?"
 ogImageType: "image/png"
-publishedDate: 2026-03-18T00:00:00+00:00
+publishedDate: 2026-03-05T00:00:00+00:00
 modifiedDate: 2026-03-18T00:00:00+00:00
 authorName: "Jamie Hanratty"
 ---
