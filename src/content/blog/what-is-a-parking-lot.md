@@ -8,7 +8,7 @@ section: "Guides"
 ogUrl: "https://ludi.co/blog/what-is-a-parking-lot"
 ogSiteName: "Ludi"
 ogType: "article"
-image: "~/assets/images/blog/placeholder.png"
+image: "~/assets/images/blog/2026/what-is-a-parking-lot.png"
 ogImageUrl: ""
 ogImageWidth: 1200
 ogImageHeight: 628
@@ -115,12 +115,12 @@ If you hear yourself saying "let's take that offline" more than once in a meetin
 
 For your next meeting:
 
-- [ ] Add a visible "Parking Lot" section to your board or meeting space
-- [ ] Mention it at the start
-- [ ] When parking an item, acknowledge it and write it down immediately
-- [ ] Stop the main agenda 5-10 minutes early
-- [ ] Review each parked item and give it a next step
-- [ ] Follow up on assigned items at the start of the next meeting
+- Add a visible "Parking Lot" section to your board or meeting space
+- Mention it at the start
+- When parking an item, acknowledge it and write it down immediately
+- Stop the main agenda 5-10 minutes early
+- Review each parked item and give it a next step
+- Follow up on assigned items at the start of the next meeting
 
 That's it.
 
