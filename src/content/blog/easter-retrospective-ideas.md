@@ -197,7 +197,7 @@ A quick icebreaker before the retro loosens people up and sets the tone. Keep it
 
 **"Easter Egg Emoji Vote"** Put a row of spring-themed emojis on the board (sunshine, rain cloud, hatching egg, flowers, chocolate bar). Each person votes on the one that best represents their current mood. No explanation needed, just a quick visual check-in.
 
-**"Two Truths and a Lie: Easter Edition"** Each person shares three statements about their Easter or spring plans. Two are true, one is a lie. The team guesses. Classic format, seasonal twist. Works well for teams that don't see each other outside of work.
+**"Two Truths and a Lie: Easter Edition"** Each person shares three statements about their Easter or spring plans. Two are true, one is a lie. The team guesses. Classic format, seasonal twist. Works well for teams that don't see each other outside of work. [Ludi board: Two Truths and a Lie](https://ludi.co/templates/two-truths-one-lie).
 
 For more warm-up ideas, check out our [icebreaker ideas for remote teams](https://ludi.co/blog/unique-ideas-for-great-icebreakers).
 
