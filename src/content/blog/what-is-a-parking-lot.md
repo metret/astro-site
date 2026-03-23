@@ -1,8 +1,8 @@
 ---
-title: "What Actually Is a Parking Lot?"
+title: "What Actually Is a Parking Lot in a Meeting?"
 teaser: "The meeting technique your team uses but nobody ever explained properly"
 category: "Guides"
-description: "What is a parking lot in meetings? A simple explanation of the parking lot technique, how to set one up, and the common mistakes that stop it from working."
+description: "A parking lot meeting technique keeps discussions on track by capturing off-topic items for later. Here's how to set one up, run it, and avoid the common mistakes."
 canonicalUrl: "/blog/what-is-a-parking-lot"
 section: "Guides"
 ogUrl: "https://ludi.co/blog/what-is-a-parking-lot"
@@ -12,7 +12,7 @@ image: "~/assets/images/blog/2026/what-is-a-parking-lot.png"
 ogImageUrl: ""
 ogImageWidth: 1200
 ogImageHeight: 628
-ogImageAlt: "What actually is a parking lot?"
+ogImageAlt: "What actually is a parking lot in a meeting?"
 ogImageType: "image/png"
 publishedDate: 2026-03-05T00:00:00+00:00
 modifiedDate: 2026-03-18T00:00:00+00:00
@@ -21,7 +21,7 @@ authorName: "Jamie Hanratty"
 
 ## The short answer
 
-A parking lot is a shared space where you capture off-topic items during a meeting so you can come back to them later.
+A parking lot in a meeting is a visible, shared space where you capture off-topic items so you can come back to them later without derailing the current discussion.
 
 That's it. Someone brings up something worth talking about, but it's not what the meeting is about right now. Instead of going down a rabbit hole or shutting them down, you write it on a whiteboard, a sticky note, or a section of your digital board. You 'park' it. Then you review everything that got parked before the meeting ends.
 
